@@ -4,13 +4,15 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import Main from "Pages/Main"
+import Main from 'Pages/Main';
+import Search from 'Pages/Search';
 
 class Routes extends React.Component {
   render() {
     return (
       <Router>
         <Switch>
+          <Route exact path="/search" component={Search} />
           <Route exact path="/main" component={Main} />
         </Switch>
       </Router>

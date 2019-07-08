@@ -12,7 +12,7 @@ class Main extends React.Component {
           <Navigation />
           // <Search />
         </header>
-        <main role="main">
+        <main role="main" className="main-result">
           <div className="content-container">
             <div id="jumper-tab">
               <div class="jumper-toggle drugbank-icon icon-double-arrow-left">
