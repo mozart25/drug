@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "bootstrap": "^4.3.1",
+    "bootstrap-css-only": "^4.3.1",
+    "mdbreact": "^4.18.0",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
@@ -19,7 +22,12 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "plugin:react/recommended",
+      "prettier",
+      "prettier/react"
+    ]
   },
   "browserslist": {
     "production": [
@@ -32,5 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-react": "^7.14.2"
   }
 }

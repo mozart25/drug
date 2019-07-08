@@ -1,0 +1,60 @@
+@import "Style/_global.scss";
+
+footer {
+  border-bottom: .6rem solid #8A2BE2;
+  font-weight: lighter;
+}
+
+.row {
+  margin: 0 auto;
+  width: 446px;
+}
+.introduce {
+  font-size: 15px;
+  color: black;
+}
+
+.footer-wrapper {
+  padding: 1.5rem !important;
+}
+
+.footer-brand {
+  color: black;
+  margin-bottom: 10px;
+  font-weight: 1000px;
+  font-size: 25px;
+}
+
+.main-wrapper {
+  min-height: 48.5vh;
+}
+
+.main-comment {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 75px;
+  width: 900px;
+
+  p {
+    font-size: 40px;
+    color: black;
+  }
+}
+
+.main-bg {
+  margin: 0 atuo;
+  img {
+    height: 25%;
+    width: 25%;
+  }
+}
+
+.search-wrapper {
+  background-color: white;
+}
+
+.main-picture {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+}

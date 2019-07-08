@@ -1,10 +1,11 @@
+@import "Style/_global.scss";
 
 header nav a.nav-link {
   font-weight: bolder;
-  color: #e9eaeb!important;
-  padding-left: 1.5rem!important;
-  padding-right: 1.5rem!important;
-  border-left: 1px solid #c42a8f;
+  color: #e9eaeb !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  border-left: 1px solid #FFFFFF;
 }
 
 header nav a.navbar-brand {
