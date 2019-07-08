@@ -1,6 +1,7 @@
 import React from 'react';
 import './Search.scss';
 import Navigation from '../../Components/Navigation/Navigation';
+import SearchDrug from '../../Components/SearchDrug/SearchDrug';
 
 class Search extends React.Component {
   render() {
@@ -16,6 +17,11 @@ class Search extends React.Component {
               {`Drug-Drug Interaction Integrated Database`}
             </p>
           </div>
+
+          <div>
+            <SearchDrug />
+          </div>
+
           <div className="main-bg">
             <div className="main-picture">
               <img src={require(`./database.png`)} alt=""/>
