@@ -10,7 +10,7 @@ class Main extends React.Component {
       <div>
         <header className="header-bg">
           <Navigation />
-          <Search />
+          // <Search />
         </header>
         <main role="main">
           <div className="content-container">
@@ -128,16 +128,6 @@ class Main extends React.Component {
                               <th class="sorting" tabindex="0" aria-controls="approved-products" rowspan="1" colspan="1"  aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
                               <th class="sorting" tabindex="0" aria-controls="approved-products" rowspan="1" colspan="1"  aria-label=": activate to sort column ascending"></th>
                               <th class="drug-image sorting" tabindex="0" aria-controls="approved-products" rowspan="1" colspan="1"  aria-label=": activate to sort column ascending"></th>
-                            </tr>
-                            <tr class="unlock-row" role="row">
-                              <th class="no-sort" colspan="9" rowspan="1">
-                                <div class="locked-link" data-field="approved-products" data-target="#locked-modal" data-toggle="modal">
-                                  <div class="drugbank-icon icon-lock">
-                                    <svg class="icon" role="img" title="lock">
-                                      <use> </use>
-                                    </svg>
-                                  </div> Unlock Additional Data</div>
-                              </th>
                             </tr>
                           </thead>
                         <tbody>
