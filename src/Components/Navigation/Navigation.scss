@@ -29,3 +29,8 @@ header nav a.navbar-brand {
   justify-content: space-between;
   padding: .5rem 1rem;
 }
+
+
+.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link, .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+    background-color: transparent !important;
+}
