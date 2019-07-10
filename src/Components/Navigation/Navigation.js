@@ -1,6 +1,6 @@
-
 import React from 'react';
 import './Navigation.scss';
+import { withRouter } from 'react-router-dom';
 
 class Navigation extends React.Component {
 
@@ -105,7 +105,7 @@ class Navigation extends React.Component {
               </div>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/">Downloads <span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="/downloads">Downloads <span className="sr-only">(current)</span></a>
             </li>
             <li onClick={this.handleChange3} className="nav-item active dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -133,16 +133,16 @@ class Navigation extends React.Component {
               </div>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/">Blog<span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="/blog">Blog<span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="/">Contact Us <span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="/contact">Contact Us <span className="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
       </nav>
-    )
+    );
   }
 }
 
-export default Navigation;
+export default withRouter(Navigation);
