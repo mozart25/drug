@@ -3,6 +3,59 @@ import React from 'react';
 import './Navigation.scss';
 
 class Navigation extends React.Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+      browseStatus: false,
+      searchStatus: false,
+      aboutStatus: false,
+      helpStatus: false,
+    };
+  }
+
+  handleChange1 = () => {
+    this.setState(
+      {
+        browseStatus: !this.state.browseStatus,
+        searchStatus: false,
+        aboutStatus: false,
+        helpStatus: false,
+      }
+    )
+  }
+  handleChange2 = () => {
+    this.setState(
+      {
+        searchStatus: !this.state.searchStatus,
+        browseStatus: false,
+        aboutStatus: false,
+        helpStatus: false,
+      }
+    )
+  }
+  handleChange3 = () => {
+    this.setState(
+      {
+        aboutStatus: !this.state.aboutStatus,
+        browseStatus: false,
+        searchStatus: false,
+        helpStatus: false,
+      }
+    )
+  }
+  handleChange4 = () => {
+    this.setState(
+      {
+        helpStatus: !this.state.helpStatus,
+        browseStatus: false,
+        searchStatus: false,
+        aboutStatus: false,
+      }
+    )
+  }
+
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -13,11 +66,11 @@ class Navigation extends React.Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active dropdown">
-              <a className="nav-link dropdown-toggle" href="http://localhost:3001/main/#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li onClick={this.handleChange1} className="nav-item active dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Browse
               </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div className={`${this.state.browseStatus ? 'dropdown-menu show' : 'dropdown-menu'}`} aria-labelledby="navbarDropdown">
                 <a className="dropdown-item" href="/">Drugs</a>
                 <a className="dropdown-item" href="/">Categories</a>
                 <a className="dropdown-item" href="/">Pathways</a>
@@ -31,11 +84,11 @@ class Navigation extends React.Component {
                 <a className="dropdown-item" href="/">Pharmaco-proteomics</a>
               </div>
             </li>
-            <li className="nav-item active dropdown">
-              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li onClick={this.handleChange2} className="nav-item active dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Search
               </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div className={`${this.state.searchStatus ? 'dropdown-menu show' : 'dropdown-menu'}`} aria-labelledby="navbarDropdown">
                 <a className="dropdown-item" href="/">Chemical Structure</a>
                 <a className="dropdown-item" href="/">Molecular Weight</a>
                 <a className="dropdown-item" href="/">Drug & Food Interactions</a>
@@ -54,11 +107,11 @@ class Navigation extends React.Component {
             <li className="nav-item active">
               <a className="nav-link" href="/">Downloads <span className="sr-only">(current)</span></a>
             </li>
-            <li className="nav-item active dropdown">
-              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li onClick={this.handleChange3} className="nav-item active dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About
               </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div className={`${this.state.aboutStatus ? 'dropdown-menu show' : 'dropdown-menu'}`} aria-labelledby="navbarDropdown">
                 <a className="dropdown-item" href="/">About DrugBank</a>
                 <a className="dropdown-item" href="/">Statistics</a>
                 <a className="dropdown-item" href="/">Other Databases</a>
@@ -68,11 +121,11 @@ class Navigation extends React.Component {
                 <a className="dropdown-item" href="/">Wishart Research Group</a>
               </div>
             </li>
-            <li className="nav-item active dropdown">
-              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li onClick={this.handleChange4} className="nav-item active dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Help
               </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div className={`${this.state.helpStatus ? 'dropdown-menu show' : 'dropdown-menu'}`} aria-labelledby="navbarDropdown">
                 <a className="dropdown-item" href="/">Citing DrugBank</a>
                 <a className="dropdown-item" href="/">Help Center</a>
                 <a className="dropdown-item" href="/">FAQ</a>
