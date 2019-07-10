@@ -3,7 +3,6 @@ import './Navigation.scss';
 import { withRouter } from 'react-router-dom';
 
 class Navigation extends React.Component {
-
   constructor() {
     super();
 
@@ -25,6 +24,7 @@ class Navigation extends React.Component {
       }
     )
   }
+
   handleChange2 = () => {
     this.setState(
       {
@@ -35,6 +35,7 @@ class Navigation extends React.Component {
       }
     )
   }
+
   handleChange3 = () => {
     this.setState(
       {
@@ -45,6 +46,7 @@ class Navigation extends React.Component {
       }
     )
   }
+
   handleChange4 = () => {
     this.setState(
       {

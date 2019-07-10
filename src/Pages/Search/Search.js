@@ -5,6 +5,15 @@ import Navigation from '../../Components/Navigation/Navigation';
 import SearchDrug from '../../Components/SearchDrug/SearchDrug';
 
 class Search extends React.Component {
+
+  constructor(){
+  super();
+
+  this.state = {
+    isResultOn: false,
+  }
+}
+
   render() {
     return (
       <div className="search-wrapper">
@@ -20,7 +29,8 @@ class Search extends React.Component {
           </div>
 
           <div>
-            <SearchDrug />
+            <SearchDrug
+            />
           </div>
 
           <div className="main-bg">
