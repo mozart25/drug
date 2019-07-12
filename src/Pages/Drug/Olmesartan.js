@@ -45,7 +45,7 @@ class Olmesartan extends React.Component {
               </span>
             </dd>
             <dt className="col-md-2 col-sm-4">UNII</dt>
-            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=8W1IQP3U10">8W1IQP3U10</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
+            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener noreferrer" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=8W1IQP3U10">8W1IQP3U10</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
             <dd className="col-md-10 col-sm-8">144689-24-7</dd><dt className="col-md-2 col-sm-4">Weight</dt>
             <dd className="col-md-10 col-sm-8">Average: 446.5016
               <br />Monoisotopic: 446.206638728 </dd><dt className="col-md-2 col-sm-4">Chemical Formula</dt>
@@ -280,18 +280,18 @@ class Olmesartan extends React.Component {
             <dt className="col-md-2 col-sm-4">External Links</dt>
             <dd className="col-md-10 col-sm-8">
               <dl><dt className="col-md-4 col-sm-5">Human Metabolome Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.hmdb.ca/metabolites/HMDB0014420">HMDB0014420</a></dd><dt className="col-md-4 col-sm-5">KEGG Drug</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.genome.jp/dbget-bin/www_bget?drug:D01204">D01204</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=158781">158781</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46508275">46508275</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.chemspider.com/Chemical-Structure.139674.html">139674</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50241364">50241364</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=48416">48416</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1516">CHEMBL1516</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP001412">DAP001412</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.pharmgkb.org/drug/PA164742950">PA164742950</a></dd><dt className="col-md-4 col-sm-5">HET</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/OLM">OLM</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Olmesartan">Olmesartan</a></dd>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.hmdb.ca/metabolites/HMDB0014420">HMDB0014420</a></dd><dt className="col-md-4 col-sm-5">KEGG Drug</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.genome.jp/dbget-bin/www_bget?drug:D01204">D01204</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=158781">158781</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46508275">46508275</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.chemspider.com/Chemical-Structure.139674.html">139674</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50241364">50241364</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=48416">48416</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1516">CHEMBL1516</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP001412">DAP001412</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.pharmgkb.org/drug/PA164742950">PA164742950</a></dd><dt className="col-md-4 col-sm-5">HET</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/OLM">OLM</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Olmesartan">Olmesartan</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
             <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/C09DA08">C09DA08 — Olmesartan medoxomil and diuretics</a>
@@ -325,7 +325,7 @@ class Olmesartan extends React.Component {
                 <li>24:32.08 — Angiotensin Ii Receptor Antagonists</li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">PDB Entries</dt>
-            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item"><a target="_blank" rel="noopener" href="http://www.rcsb.org/pdb/explore.do?structureId=4zud">4zud</a></span></span>
+            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.rcsb.org/pdb/explore.do?structureId=4zud">4zud</a></span></span>
             </dd><dt className="col-md-2 col-sm-4">FDA label</dt>
             <dd className="col-md-10 col-sm-8">
               <div id="label-reference"><a href="//s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB00275.pdf?1551481706">Download</a> <span className="text-muted">(286 KB) </span></div>
@@ -704,7 +704,7 @@ class Olmesartan extends React.Component {
                       </thead>
                       <tbody>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA2061607">CA2061607</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/CA2061607">CA2061607</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>1999-01-19</td>
                           <td>2012-02-20</td>
@@ -712,7 +712,7 @@ class Olmesartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5616599">US5616599</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5616599">US5616599</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>1997-04-01</td>
                           <td>2016-10-25</td>
@@ -720,7 +720,7 @@ class Olmesartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6878703">US6878703</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6878703">US6878703</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>2005-04-12</td>
                           <td>2022-05-19</td>
@@ -802,12 +802,12 @@ class Olmesartan extends React.Component {
                   <tr>
                     <td>Water Solubility</td>
                     <td>0.0105 mg/mL</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
                     <td>2.98</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
@@ -817,7 +817,7 @@ class Olmesartan extends React.Component {
                   <tr>
                     <td>logS</td>
                     <td>-4.6</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>pKa (Strongest Acidic)</td>
@@ -1019,7 +1019,7 @@ class Olmesartan extends React.Component {
                   </tr>
                 </tbody>
               </table>
-              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
+              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
             </dd>
           </dl>
           <h2 id="spectra" className="section-header">Spectra</h2>
@@ -1031,7 +1031,7 @@ class Olmesartan extends React.Component {
                   <tr>
                     <th>Spectrum</th>
                     <th>Spectrum Type</th>
-                    <th><a target="_blank" rel="noopener" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
+                    <th><a target="_blank" rel="noopener noreferrer" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
                   </tr>
                 </thead>
                 <tbody data-no-turbolink>
@@ -1078,7 +1078,7 @@ class Olmesartan extends React.Component {
                   <tr>
                     <td><a href="/spectra/ms_ms/451033">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a6r-0692700000-11f020dfbb889ac85e4e">splash10-0a6r-0692700000-11f020dfbb889ac85e4e</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a6r-0692700000-11f020dfbb889ac85e4e">splash10-0a6r-0692700000-11f020dfbb889ac85e4e</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -1115,7 +1115,7 @@ class Olmesartan extends React.Component {
                 </div> show 15 more</a>
             </dd><dt className="col-md-2 col-sm-4">Molecular Framework</dt>
             <dd className="col-md-10 col-sm-8">Aromatic heteromonocyclic compounds</dd><dt className="col-md-2 col-sm-4">External Descriptors</dt>
-            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">biphenylyltetrazole (<a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48416">CHEBI:48416</a>) </span></span>
+            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">biphenylyltetrazole (<a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48416">CHEBI:48416</a>) </span></span>
             </dd>
           </dl>
           <div className="bond-list-container targets">
@@ -1144,7 +1144,7 @@ class Olmesartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Protein heterodimerization activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Receptor for angiotensin II. Mediates its action by association with G proteins that activate a phosphatidylinositol-calcium second messenger system.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">AGTR1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P30556">P30556</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P30556">P30556</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Type-1 angiotensin II receptor</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">41060.53 Da</dd>
                       </dl>
@@ -1153,12 +1153,12 @@ class Olmesartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A9">Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11752352">PubMed:11752352</a>] </li>
-                      <li id="reference-A4443">Koike H, Sada T, Mizuno M: In vitro and in vivo pharmacology of olmesartan medoxomil, an angiotensin II type AT1 receptor antagonist. J Hypertens Suppl. 2001 Jun;19(1):S3-14. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11451212">PubMed:11451212</a>] </li>
-                      <li id="reference-A4444">Ochiai K, Hu Q, Lee J, Mansoor A, Liu J, Wang X, Gong G, Murakami Y, Ishibashi Y, Shimada T, Zhang J: Functional and bioenergetic consequences of AT1 antagonist olmesartan medoxomil in hearts with postinfarction LV remodeling. J Cardiovasc Pharmacol. 2006 May;47(5):686-94. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16775509">PubMed:16775509</a>] </li>
-                      <li id="reference-A4445">Warner GT, Jarvis B: Olmesartan medoxomil. Drugs. 2002;62(9):1345-53; discussion 1354-6. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12076183">PubMed:12076183</a>] </li>
-                      <li id="reference-A4446">Mire DE, Silfani TN, Pugsley MK: A review of the structural and functional features of olmesartan medoxomil, an angiotensin receptor blocker. J Cardiovasc Pharmacol. 2005 Nov;46(5):585-93. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16220064">PubMed:16220064</a>] </li>
-                      <li id="reference-A4447">Kreutz R, Bolbrinker J, Huber M: Pharmacokinetics of olmesartan medoxomil plus hydrochlorothiazide combination in healthy subjects. Clin Drug Investig. 2006;26(1):29-34. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17163232">PubMed:17163232</a>] </li>
+                      <li id="reference-A9">Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11752352">PubMed:11752352</a>] </li>
+                      <li id="reference-A4443">Koike H, Sada T, Mizuno M: In vitro and in vivo pharmacology of olmesartan medoxomil, an angiotensin II type AT1 receptor antagonist. J Hypertens Suppl. 2001 Jun;19(1):S3-14. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11451212">PubMed:11451212</a>] </li>
+                      <li id="reference-A4444">Ochiai K, Hu Q, Lee J, Mansoor A, Liu J, Wang X, Gong G, Murakami Y, Ishibashi Y, Shimada T, Zhang J: Functional and bioenergetic consequences of AT1 antagonist olmesartan medoxomil in hearts with postinfarction LV remodeling. J Cardiovasc Pharmacol. 2006 May;47(5):686-94. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16775509">PubMed:16775509</a>] </li>
+                      <li id="reference-A4445">Warner GT, Jarvis B: Olmesartan medoxomil. Drugs. 2002;62(9):1345-53; discussion 1354-6. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12076183">PubMed:12076183</a>] </li>
+                      <li id="reference-A4446">Mire DE, Silfani TN, Pugsley MK: A review of the structural and functional features of olmesartan medoxomil, an angiotensin receptor blocker. J Cardiovasc Pharmacol. 2005 Nov;46(5):585-93. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16220064">PubMed:16220064</a>] </li>
+                      <li id="reference-A4447">Kreutz R, Bolbrinker J, Huber M: Pharmacokinetics of olmesartan medoxomil plus hydrochlorothiazide combination in healthy subjects. Clin Drug Investig. 2006;26(1):29-34. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17163232">PubMed:17163232</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1191,7 +1191,7 @@ class Olmesartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Toxic substance binding</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Serum albumin, the main protein of plasma, has a good binding capacity for water, Ca(2+), Na(+), K(+), fatty acids, hormones, bilirubin and drugs. Its main function is the regulation of the colloid...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">ALB</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P02768">P02768</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P02768">P02768</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Serum albumin</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">69365.94 Da</dd>
                       </dl>
@@ -1234,7 +1234,7 @@ class Olmesartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Organic anion transmembrane transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Mediates hepatobiliary excretion of numerous organic anions. May function as a cellular cisplatin transporter.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">ABCC2</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q92887">Q92887</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q92887">Q92887</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Canalicular multispecific organic anion transporter 1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">174205.64 Da</dd>
                       </dl>
@@ -1243,8 +1243,8 @@ class Olmesartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A16013">Weiss J, Sauer A, Divac N, Herzog M, Schwedhelm E, Boger RH, Haefeli WE, Benndorf RA: Interaction of angiotensin receptor type 1 blockers with ATP-binding cassette transporters. Biopharm Drug Dispos. 2010 Mar;31(2-3):150-61. doi: 10.1002/bdd.699. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/20222053">PubMed:20222053</a>] </li>
-                      <li id="reference-A16014">Nakagomi-Hagihara R, Nakai D, Kawai K, Yoshigae Y, Tokui T, Abe T, Ikeda T: OATP1B1, OATP1B3, and mrp2 are involved in hepatobiliary transport of olmesartan, a novel angiotensin II blocker. Drug Metab Dispos. 2006 May;34(5):862-9. Epub 2006 Feb 24. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16501004">PubMed:16501004</a>] </li>
+                      <li id="reference-A16013">Weiss J, Sauer A, Divac N, Herzog M, Schwedhelm E, Boger RH, Haefeli WE, Benndorf RA: Interaction of angiotensin receptor type 1 blockers with ATP-binding cassette transporters. Biopharm Drug Dispos. 2010 Mar;31(2-3):150-61. doi: 10.1002/bdd.699. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/20222053">PubMed:20222053</a>] </li>
+                      <li id="reference-A16014">Nakagomi-Hagihara R, Nakai D, Kawai K, Yoshigae Y, Tokui T, Abe T, Ikeda T: OATP1B1, OATP1B3, and mrp2 are involved in hepatobiliary transport of olmesartan, a novel angiotensin II blocker. Drug Metab Dispos. 2006 May;34(5):862-9. Epub 2006 Feb 24. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16501004">PubMed:16501004</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1272,7 +1272,7 @@ class Olmesartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Sodium-independent organic anion transmembrane transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Mediates the Na(+)-independent uptake of organic anions such as 17-beta-glucuronosyl estradiol, taurocholate, triiodothyronine (T3), leukotriene C4, dehydroepiandrosterone sulfate (DHEAS), methotre...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SLCO1B3</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q9NPD5">Q9NPD5</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9NPD5">Q9NPD5</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Solute carrier organic anion transporter family member 1B3</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">77402.175 Da</dd>
                       </dl>
@@ -1281,7 +1281,7 @@ class Olmesartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A16014">Nakagomi-Hagihara R, Nakai D, Kawai K, Yoshigae Y, Tokui T, Abe T, Ikeda T: OATP1B1, OATP1B3, and mrp2 are involved in hepatobiliary transport of olmesartan, a novel angiotensin II blocker. Drug Metab Dispos. 2006 May;34(5):862-9. Epub 2006 Feb 24. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16501004">PubMed:16501004</a>] </li>
+                      <li id="reference-A16014">Nakagomi-Hagihara R, Nakai D, Kawai K, Yoshigae Y, Tokui T, Abe T, Ikeda T: OATP1B1, OATP1B3, and mrp2 are involved in hepatobiliary transport of olmesartan, a novel angiotensin II blocker. Drug Metab Dispos. 2006 May;34(5):862-9. Epub 2006 Feb 24. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16501004">PubMed:16501004</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1309,7 +1309,7 @@ class Olmesartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Sodium-independent organic anion transmembrane transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Mediates the Na(+)-independent uptake of organic anions such as pravastatin, taurocholate, methotrexate, dehydroepiandrosterone sulfate, 17-beta-glucuronosyl estradiol, estrone sulfate, prostagland...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SLCO1B1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q9Y6L6">Q9Y6L6</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9Y6L6">Q9Y6L6</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Solute carrier organic anion transporter family member 1B1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">76447.99 Da</dd>
                       </dl>
@@ -1318,7 +1318,7 @@ class Olmesartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A16014">Nakagomi-Hagihara R, Nakai D, Kawai K, Yoshigae Y, Tokui T, Abe T, Ikeda T: OATP1B1, OATP1B3, and mrp2 are involved in hepatobiliary transport of olmesartan, a novel angiotensin II blocker. Drug Metab Dispos. 2006 May;34(5):862-9. Epub 2006 Feb 24. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16501004">PubMed:16501004</a>] </li>
+                      <li id="reference-A16014">Nakagomi-Hagihara R, Nakai D, Kawai K, Yoshigae Y, Tokui T, Abe T, Ikeda T: OATP1B1, OATP1B3, and mrp2 are involved in hepatobiliary transport of olmesartan, a novel angiotensin II blocker. Drug Metab Dispos. 2006 May;34(5):862-9. Epub 2006 Feb 24. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16501004">PubMed:16501004</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1346,7 +1346,7 @@ class Olmesartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Involved in the ATP-dependent secretion of bile salts into the canaliculus of hepatocytes.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">ABCB11</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/O95342">O95342</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O95342">O95342</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Bile salt export pump</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">146405.83 Da</dd>
                       </dl>
@@ -1355,7 +1355,7 @@ class Olmesartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A33345">Pedersen JM, Matsson P, Bergstrom CA, Hoogstraate J, Noren A, LeCluyse EL, Artursson P: Early identification of clinically relevant drug interactions with the human bile salt export pump (BSEP/ABCB11). Toxicol Sci. 2013 Dec;136(2):328-43. doi: 10.1093/toxsci/kft197. Epub 2013 Sep 6. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/24014644">PubMed:24014644</a>] </li>
+                      <li id="reference-A33345">Pedersen JM, Matsson P, Bergstrom CA, Hoogstraate J, Noren A, LeCluyse EL, Artursson P: Early identification of clinically relevant drug interactions with the human bile salt export pump (BSEP/ABCB11). Toxicol Sci. 2013 Dec;136(2):328-43. doi: 10.1093/toxsci/kft197. Epub 2013 Sep 6. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/24014644">PubMed:24014644</a>] </li>
                     </ol>
                   </div>
                 </div>

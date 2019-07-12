@@ -91,7 +91,7 @@ class Escitalopram extends React.Component {
                 </ul>
               </div>
             </dd><dt className="col-md-2 col-sm-4">UNII</dt>
-            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=4O4S742ANY">4O4S742ANY</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
+            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener noreferrer" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=4O4S742ANY">4O4S742ANY</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
             <dd className="col-md-10 col-sm-8">128196-01-0</dd><dt className="col-md-2 col-sm-4">Weight</dt>
             <dd className="col-md-10 col-sm-8">Average: 324.3919
               <br />Monoisotopic: 324.163791509 </dd><dt className="col-md-2 col-sm-4">Chemical Formula</dt>
@@ -276,7 +276,7 @@ class Escitalopram extends React.Component {
                           <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">(A;A)</span></span>
                             </span>
                           </td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs25531">A allele</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs25531">A allele</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-danger basic-tip" title="SNP-Mediated Adverse Drug Reaction">ADR</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
@@ -287,7 +287,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*2</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4244285">681G&gt;A</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4244285">681G&gt;A</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
@@ -298,7 +298,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*3</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4986893">636G&gt;A</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4986893">636G&gt;A</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
@@ -309,7 +309,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*2A</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4244285">681G&gt;A</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4244285">681G&gt;A</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
@@ -320,7 +320,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*2B</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4244285">681G&gt;A</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs4244285">681G&gt;A</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
@@ -331,7 +331,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*4</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs28399504">1A&gt;G</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs28399504">1A&gt;G</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
@@ -342,7 +342,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*5</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs56337013">1297C&gt;T</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs56337013">1297C&gt;T</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
@@ -353,7 +353,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*6</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs72552267">395G&gt;A</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs72552267">395G&gt;A</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
@@ -364,7 +364,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*7</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs72558186">19294T&gt;A</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs72558186">19294T&gt;A</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
@@ -375,7 +375,7 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
                           <td>CYP2C19*22</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs140278421">557G&gt;C</a></span><span className="list-separator"> / </span><span className="separated-list-item">991A&gt;G</span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs140278421">557G&gt;C</a></span><span className="list-separator"> / </span><span className="separated-list-item">991A&gt;G</span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
@@ -530,17 +530,17 @@ class Escitalopram extends React.Component {
             <dt className="col-md-2 col-sm-4">External Links</dt>
             <dd className="col-md-10 col-sm-8">
               <dl><dt className="col-md-4 col-sm-5">Human Metabolome Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.hmdb.ca/metabolites/HMDB0005028">HMDB0005028</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=146570">146570</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46507040">46507040</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.chemspider.com/Chemical-Structure.129277.html">129277</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50302225">50302225</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=36791">36791</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1508">CHEMBL1508</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000741">DAP000741</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.pharmgkb.org/drug/PA10074">PA10074</a></dd><dt className="col-md-4 col-sm-5">HET</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/68P">68P</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Escitalopram">Escitalopram</a></dd>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.hmdb.ca/metabolites/HMDB0005028">HMDB0005028</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=146570">146570</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46507040">46507040</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.chemspider.com/Chemical-Structure.129277.html">129277</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50302225">50302225</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=36791">36791</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1508">CHEMBL1508</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000741">DAP000741</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.pharmgkb.org/drug/PA10074">PA10074</a></dd><dt className="col-md-4 col-sm-5">HET</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/68P">68P</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Escitalopram">Escitalopram</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
             <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/N06AB10">N06AB10 — Escitalopram</a>
@@ -556,7 +556,7 @@ class Escitalopram extends React.Component {
                 <li>28:16.04.20 — Selective-serotonin Reuptake Inhibitors</li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">PDB Entries</dt>
-            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item"><a target="_blank" rel="noopener" href="http://www.rcsb.org/pdb/explore.do?structureId=5i71">5i71</a></span><span className="list-separator"> / </span><span className="simple-separated-list-item"><a target="_blank" rel="noopener" href="http://www.rcsb.org/pdb/explore.do?structureId=5i73">5i73</a></span><span className="list-separator"> / </span><span className="simple-separated-list-item"><a target="_blank" rel="noopener" href="http://www.rcsb.org/pdb/explore.do?structureId=5i75">5i75</a></span></span>
+            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.rcsb.org/pdb/explore.do?structureId=5i71">5i71</a></span><span className="list-separator"> / </span><span className="simple-separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.rcsb.org/pdb/explore.do?structureId=5i73">5i73</a></span><span className="list-separator"> / </span><span className="simple-separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.rcsb.org/pdb/explore.do?structureId=5i75">5i75</a></span></span>
             </dd><dt className="col-md-2 col-sm-4">FDA label</dt>
             <dd className="col-md-10 col-sm-8">
               <div id="label-reference"><a href="//s3-us-west-2.amazonaws.com/drugbank/fda_labels/DB01175.pdf?1265922799">Download</a> <span className="text-muted">(1.09 MB) </span></div>
@@ -839,12 +839,12 @@ class Escitalopram extends React.Component {
                   <tr>
                     <td>Water Solubility</td>
                     <td>0.00588 mg/mL</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
                     <td>3.58</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
@@ -854,7 +854,7 @@ class Escitalopram extends React.Component {
                   <tr>
                     <td>logS</td>
                     <td>-4.7</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>pKa (Strongest Basic)</td>
@@ -1051,7 +1051,7 @@ class Escitalopram extends React.Component {
                   </tr>
                 </tbody>
               </table>
-              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
+              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
             </dd>
           </dl>
           <h2 id="spectra" className="section-header">Spectra</h2>
@@ -1063,7 +1063,7 @@ class Escitalopram extends React.Component {
                   <tr>
                     <th>Spectrum</th>
                     <th>Spectrum Type</th>
-                    <th><a target="_blank" rel="noopener" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
+                    <th><a target="_blank" rel="noopener noreferrer" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
                   </tr>
                 </thead>
                 <tbody data-no-turbolink>
@@ -1105,7 +1105,7 @@ class Escitalopram extends React.Component {
                   <tr>
                     <td><a href="/spectra/ms_ms/450960">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-1497000000-a840cd3176ff240d74f6">splash10-004i-1497000000-a840cd3176ff240d74f6</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-1497000000-a840cd3176ff240d74f6">splash10-004i-1497000000-a840cd3176ff240d74f6</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -1142,7 +1142,7 @@ class Escitalopram extends React.Component {
                 </div> show 15 more</a>
             </dd><dt className="col-md-2 col-sm-4">Molecular Framework</dt>
             <dd className="col-md-10 col-sm-8">Aromatic heteropolycyclic compounds</dd><dt className="col-md-2 col-sm-4">External Descriptors</dt>
-            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile (<a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:36791">CHEBI:36791</a>) </span></span>
+            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile (<a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:36791">CHEBI:36791</a>) </span></span>
             </dd>
           </dl>
           <div className="bond-list-container targets">
@@ -1174,7 +1174,7 @@ class Escitalopram extends React.Component {
                                 <td>1</td>
                                 <td><span className="not-available">N/A</span></td>
                                 <td><span className="not-available">N/A</span></td>
-                                <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19720528">19720528</a></span><span className="list-separator"> / </span><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/20347298">20347298</a></span></span>
+                                <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19720528">19720528</a></span><span className="list-separator"> / </span><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/20347298">20347298</a></span></span>
                                   </span>
                                 </td>
                               </tr>
@@ -1209,7 +1209,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Serotonin:sodium symporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Serotonin transporter whose primary function in the central nervous system involves the regulation of serotonergic signaling via transport of serotonin molecules from the synaptic cleft back into t...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SLC6A4</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P31645">P31645</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P31645">P31645</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Sodium-dependent serotonin transporter</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">70324.165 Da</dd>
                       </dl>
@@ -1218,14 +1218,14 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A6418">Owens MJ, Knight DL, Nemeroff CB: Second-generation SSRIs: human monoamine transporter binding profile of escitalopram and R-fluoxetine. Biol Psychiatry. 2001 Sep 1;50(5):345-50. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11543737">PubMed:11543737</a>] </li>
-                      <li id="reference-A6419">Owens JM, Knight DL, Nemeroff CB: [Second generation SSRIS: human monoamine transporter binding profile of escitalopram and R-fluoxetine]. Encephale. 2002 Jul-Aug;28(4):350-5. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12232544">PubMed:12232544</a>] </li>
-                      <li id="reference-A6420">Burke WJ: Escitalopram. Expert Opin Investig Drugs. 2002 Oct;11(10):1477-86. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12387707">PubMed:12387707</a>] </li>
-                      <li id="reference-A6421">Waugh J, Goa KL: Escitalopram : a review of its use in the management of major depressive and anxiety disorders. CNS Drugs. 2003;17(5):343-62. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12665392">PubMed:12665392</a>] </li>
-                      <li id="reference-A6422">Sanchez C, Bergqvist PB, Brennum LT, Gupta S, Hogg S, Larsen A, Wiborg O: Escitalopram, the S-(+)-enantiomer of citalopram, is a selective serotonin reuptake inhibitor with potent effects in animal models predictive of antidepressant and anxiolytic activities. Psychopharmacology (Berl). 2003 Jun;167(4):353-62. Epub 2003 Apr 26. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12719960">PubMed:12719960</a>] </li>
-                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
-                      <li id="reference-A6423">Fabre V, Hamon M: [Mechanisms of action of antidepressants: new data from Escitalopram]. Encephale. 2003 May-Jun;29(3 Pt 1):259-65. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12876551">PubMed:12876551</a>] </li>
-                      <li id="reference-A4335">Zhong H, Hansen KB, Boyle NJ, Han K, Muske G, Huang X, Egebjerg J, Sanchez C: An allosteric binding site at the human serotonin transporter mediates the inhibition of escitalopram by R-citalopram: kinetic binding studies with the ALI/VFL-SI/TT mutant. Neurosci Lett. 2009 Oct 25;462(3):207-12. doi: 10.1016/j.neulet.2009.07.030. Epub 2009 Jul 16. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19616061">PubMed:19616061</a>] </li>
+                      <li id="reference-A6418">Owens MJ, Knight DL, Nemeroff CB: Second-generation SSRIs: human monoamine transporter binding profile of escitalopram and R-fluoxetine. Biol Psychiatry. 2001 Sep 1;50(5):345-50. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11543737">PubMed:11543737</a>] </li>
+                      <li id="reference-A6419">Owens JM, Knight DL, Nemeroff CB: [Second generation SSRIS: human monoamine transporter binding profile of escitalopram and R-fluoxetine]. Encephale. 2002 Jul-Aug;28(4):350-5. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12232544">PubMed:12232544</a>] </li>
+                      <li id="reference-A6420">Burke WJ: Escitalopram. Expert Opin Investig Drugs. 2002 Oct;11(10):1477-86. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12387707">PubMed:12387707</a>] </li>
+                      <li id="reference-A6421">Waugh J, Goa KL: Escitalopram : a review of its use in the management of major depressive and anxiety disorders. CNS Drugs. 2003;17(5):343-62. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12665392">PubMed:12665392</a>] </li>
+                      <li id="reference-A6422">Sanchez C, Bergqvist PB, Brennum LT, Gupta S, Hogg S, Larsen A, Wiborg O: Escitalopram, the S-(+)-enantiomer of citalopram, is a selective serotonin reuptake inhibitor with potent effects in animal models predictive of antidepressant and anxiolytic activities. Psychopharmacology (Berl). 2003 Jun;167(4):353-62. Epub 2003 Apr 26. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12719960">PubMed:12719960</a>] </li>
+                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
+                      <li id="reference-A6423">Fabre V, Hamon M: [Mechanisms of action of antidepressants: new data from Escitalopram]. Encephale. 2003 May-Jun;29(3 Pt 1):259-65. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12876551">PubMed:12876551</a>] </li>
+                      <li id="reference-A4335">Zhong H, Hansen KB, Boyle NJ, Han K, Muske G, Huang X, Egebjerg J, Sanchez C: An allosteric binding site at the human serotonin transporter mediates the inhibition of escitalopram by R-citalopram: kinetic binding studies with the ALI/VFL-SI/TT mutant. Neurosci Lett. 2009 Oct 25;462(3):207-12. doi: 10.1016/j.neulet.2009.07.030. Epub 2009 Jul 16. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19616061">PubMed:19616061</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1253,7 +1253,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Monoamine transmembrane transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Amine transporter. Terminates the action of dopamine by its high affinity sodium-dependent reuptake into presynaptic terminals.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SLC6A3</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q01959">Q01959</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q01959">Q01959</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Sodium-dependent dopamine transporter</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">68494.255 Da</dd>
                       </dl>
@@ -1262,7 +1262,7 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
+                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1290,7 +1290,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Norepinephrine:sodium symporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Amine transporter. Terminates the action of noradrenaline by its high affinity sodium-dependent reuptake into presynaptic terminals.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SLC6A2</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P23975">P23975</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P23975">P23975</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Sodium-dependent noradrenaline transporter</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">69331.42 Da</dd>
                       </dl>
@@ -1299,7 +1299,7 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
+                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1327,7 +1327,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Protein heterodimerization activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">This alpha-adrenergic receptor mediates its action by association with G proteins that activate a phosphatidylinositol-calcium second messenger system. Its effect is mediated by G(q) and G(11) prot...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">ADRA1A</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P35348">P35348</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P35348">P35348</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Alpha-1A adrenergic receptor</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">51486.005 Da</dd>
                       </dl>
@@ -1336,8 +1336,8 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
-                      <li id="reference-A6423">Fabre V, Hamon M: [Mechanisms of action of antidepressants: new data from Escitalopram]. Encephale. 2003 May-Jun;29(3 Pt 1):259-65. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12876551">PubMed:12876551</a>] </li>
+                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
+                      <li id="reference-A6423">Fabre V, Hamon M: [Mechanisms of action of antidepressants: new data from Escitalopram]. Encephale. 2003 May-Jun;29(3 Pt 1):259-65. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12876551">PubMed:12876551</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1365,7 +1365,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Phosphatidylinositol phospholipase c activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">The muscarinic acetylcholine receptor mediates various cellular responses, including inhibition of adenylate cyclase, breakdown of phosphoinositides and modulation of potassium channels through the...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CHRM1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P11229">P11229</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P11229">P11229</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Muscarinic acetylcholine receptor M1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">51420.375 Da</dd>
                       </dl>
@@ -1374,7 +1374,7 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
+                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1402,7 +1402,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Histamine receptor activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">In peripheral tissues, the H1 subclass of histamine receptors mediates the contraction of smooth muscles, increase in capillary permeability due to contraction of terminal venules, and catecholamin...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">HRH1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P35367">P35367</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P35367">P35367</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Histamine H1 receptor</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">55783.61 Da</dd>
                       </dl>
@@ -1411,8 +1411,8 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
-                      <li id="reference-A6423">Fabre V, Hamon M: [Mechanisms of action of antidepressants: new data from Escitalopram]. Encephale. 2003 May-Jun;29(3 Pt 1):259-65. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12876551">PubMed:12876551</a>] </li>
+                      <li id="reference-A4337">Bareggi SR, Mundo E, Dell'Osso B, Altamura AC: The use of escitalopram beyond major depression: pharmacological aspects, efficacy and tolerability in anxiety disorders. Expert Opin Drug Metab Toxicol. 2007 Oct;3(5):741-53. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17916059">PubMed:17916059</a>] </li>
+                      <li id="reference-A6423">Fabre V, Hamon M: [Mechanisms of action of antidepressants: new data from Escitalopram]. Encephale. 2003 May-Jun;29(3 Pt 1):259-65. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12876551">PubMed:12876551</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1446,7 +1446,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Vitamin d3 25-hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It performs a variety of oxidation react...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP3A4</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P08684">P08684</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P08684">P08684</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 3A4</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">57342.67 Da</dd>
                       </dl>
@@ -1455,8 +1455,8 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A14710">Preissner S, Kroll K, Dunkel M, Senger C, Goldsobel G, Kuzman D, Guenther S, Winnenburg R, Schroeder M, Preissner R: SuperCYP: a comprehensive database on Cytochrome P450 enzymes including a tool for analysis of CYP-drug interactions. Nucleic Acids Res. 2010 Jan;38(Database issue):D237-43. doi: 10.1093/nar/gkp970. Epub 2009 Nov 24. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19934256">PubMed:19934256</a>] </li>
-                      <li id="reference-A37688">Sangkuhl K, Klein TE, Altman RB: PharmGKB summary: citalopram pharmacokinetics pathway. Pharmacogenet Genomics. 2011 Nov;21(11):769-72. doi: 10.1097/FPC.0b013e328346063f. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/21546862">PubMed:21546862</a>] </li>
+                      <li id="reference-A14710">Preissner S, Kroll K, Dunkel M, Senger C, Goldsobel G, Kuzman D, Guenther S, Winnenburg R, Schroeder M, Preissner R: SuperCYP: a comprehensive database on Cytochrome P450 enzymes including a tool for analysis of CYP-drug interactions. Nucleic Acids Res. 2010 Jan;38(Database issue):D237-43. doi: 10.1093/nar/gkp970. Epub 2009 Nov 24. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19934256">PubMed:19934256</a>] </li>
+                      <li id="reference-A37688">Sangkuhl K, Klein TE, Altman RB: PharmGKB summary: citalopram pharmacokinetics pathway. Pharmacogenet Genomics. 2011 Nov;21(11):769-72. doi: 10.1097/FPC.0b013e328346063f. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/21546862">PubMed:21546862</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1484,7 +1484,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Steroid hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Responsible for the metabolism of a number of therapeutic agents such as the anticonvulsant drug S-mephenytoin, omeprazole, proguanil, certain barbiturates, diazepam, propranolol, citalopram and im...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP2C19</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P33261">P33261</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P33261">P33261</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 2C19</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">55930.545 Da</dd>
                       </dl>
@@ -1493,8 +1493,8 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A14710">Preissner S, Kroll K, Dunkel M, Senger C, Goldsobel G, Kuzman D, Guenther S, Winnenburg R, Schroeder M, Preissner R: SuperCYP: a comprehensive database on Cytochrome P450 enzymes including a tool for analysis of CYP-drug interactions. Nucleic Acids Res. 2010 Jan;38(Database issue):D237-43. doi: 10.1093/nar/gkp970. Epub 2009 Nov 24. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19934256">PubMed:19934256</a>] </li>
-                      <li id="reference-A38624">Bishop JR, Najjar F, Rubin LH, Guter SJ, Owley T, Mosconi MW, Jacob S, Cook EH: Escitalopram pharmacogenetics: CYP2C19 relationships with dosing and clinical outcomes in autism spectrum disorder. Pharmacogenet Genomics. 2015 Nov;25(11):548-54. doi: 10.1097/FPC.0000000000000173. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/26313485">PubMed:26313485</a>] </li>
+                      <li id="reference-A14710">Preissner S, Kroll K, Dunkel M, Senger C, Goldsobel G, Kuzman D, Guenther S, Winnenburg R, Schroeder M, Preissner R: SuperCYP: a comprehensive database on Cytochrome P450 enzymes including a tool for analysis of CYP-drug interactions. Nucleic Acids Res. 2010 Jan;38(Database issue):D237-43. doi: 10.1093/nar/gkp970. Epub 2009 Nov 24. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19934256">PubMed:19934256</a>] </li>
+                      <li id="reference-A38624">Bishop JR, Najjar F, Rubin LH, Guter SJ, Owley T, Mosconi MW, Jacob S, Cook EH: Escitalopram pharmacogenetics: CYP2C19 relationships with dosing and clinical outcomes in autism spectrum disorder. Pharmacogenet Genomics. 2015 Nov;25(11):548-54. doi: 10.1097/FPC.0000000000000173. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/26313485">PubMed:26313485</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1523,7 +1523,7 @@ class Escitalopram extends React.Component {
                         <dd className="col-md-7 col-sm-6">Steroid hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Responsible for the metabolism of many drugs and environmental chemicals that it oxidizes. It is involved in the metabolism of drugs such as antiarrhythmics, adrenoceptor antagonists, and tricyclic...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP2D6</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P10635">P10635</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P10635">P10635</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 2D6</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">55768.94 Da</dd>
                       </dl>
@@ -1532,8 +1532,8 @@ class Escitalopram extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A14720">Baumann P: Pharmacokinetic-pharmacodynamic relationship of the selective serotonin reuptake inhibitors. Clin Pharmacokinet. 1996 Dec;31(6):444-69. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/8968657">PubMed:8968657</a>] </li>
-                      <li id="reference-A14710">Preissner S, Kroll K, Dunkel M, Senger C, Goldsobel G, Kuzman D, Guenther S, Winnenburg R, Schroeder M, Preissner R: SuperCYP: a comprehensive database on Cytochrome P450 enzymes including a tool for analysis of CYP-drug interactions. Nucleic Acids Res. 2010 Jan;38(Database issue):D237-43. doi: 10.1093/nar/gkp970. Epub 2009 Nov 24. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19934256">PubMed:19934256</a>] </li>
+                      <li id="reference-A14720">Baumann P: Pharmacokinetic-pharmacodynamic relationship of the selective serotonin reuptake inhibitors. Clin Pharmacokinet. 1996 Dec;31(6):444-69. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/8968657">PubMed:8968657</a>] </li>
+                      <li id="reference-A14710">Preissner S, Kroll K, Dunkel M, Senger C, Goldsobel G, Kuzman D, Guenther S, Winnenburg R, Schroeder M, Preissner R: SuperCYP: a comprehensive database on Cytochrome P450 enzymes including a tool for analysis of CYP-drug interactions. Nucleic Acids Res. 2010 Jan;38(Database issue):D237-43. doi: 10.1093/nar/gkp970. Epub 2009 Nov 24. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19934256">PubMed:19934256</a>] </li>
                       <li id="reference-L162">Drug Interactions: Cytochrome P450 Drug Interaction Table [<a target="_blank" href="http://medicine.iupui.edu/clinpharm/ddis/table.asp">Link</a>] </li>
                     </ol>
                   </div>

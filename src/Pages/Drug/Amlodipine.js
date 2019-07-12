@@ -281,7 +281,7 @@ class Amlodipine extends React.Component {
                 </ul>
               </div>
             </dd><dt className="col-md-2 col-sm-4">UNII</dt>
-            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=1J444QC288">1J444QC288</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
+            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener noreferrer" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=1J444QC288">1J444QC288</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
             <dd className="col-md-10 col-sm-8">88150-42-9</dd><dt className="col-md-2 col-sm-4">Weight</dt>
             <dd className="col-md-10 col-sm-8">Average: 408.876
               <br />Monoisotopic: 408.145199627 </dd><dt className="col-md-2 col-sm-4">Chemical Formula</dt>
@@ -512,7 +512,7 @@ class Amlodipine extends React.Component {
                           <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">(A;A)</span></span>
                             </span>
                           </td>
-                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs5065">AA allele</a></span></span>
+                          <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?rs=rs5065">AA allele</a></span></span>
                             </span>
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
@@ -664,32 +664,32 @@ class Amlodipine extends React.Component {
           </dl>
           <h2 id="references" className="section-header">References</h2>
           <dl><dt className="col-md-2 col-sm-4">Synthesis Reference</dt>
-            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener" href="https://www.google.com/?tbm=pts#q=4572909&tbm=pts">US4572909</a></dd><dt className="col-md-2 col-sm-4">General References</dt>
+            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/?tbm=pts#q=4572909&tbm=pts">US4572909</a></dd><dt className="col-md-2 col-sm-4">General References</dt>
             <dd className="col-md-10 col-sm-8">
               <ol className="cite-this-references">
-                <li id="reference-A573">Nayler WG, Gu XH: The unique binding properties of amlodipine: a long-acting calcium antagonist. J Hum Hypertens. 1991 Aug;5 Suppl 1:55-9. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/1834847">PubMed:1834847</a>] </li>
-                <li id="reference-A574">van Zwieten PA: Amlodipine: an overview of its pharmacodynamic and pharmacokinetic properties. Clin Cardiol. 1994 Sep;17(9 Suppl 3):III3-6. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/9156957">PubMed:9156957</a>] </li>
-                <li id="reference-A175321">Fares H, DiNicolantonio JJ, O'Keefe JH, Lavie CJ: Amlodipine in hypertension: a first-line agent with efficacy for improving blood pressure and patient outcomes. Open Heart. 2016 Sep 28;3(2):e000473. doi: 10.1136/openhrt-2016-000473. eCollection 2016. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/27752334">PubMed:27752334</a>] </li>
-                <li id="reference-A175324">Flynn JT, Nahata MC, Mahan JD Jr, Portman RJ: Population pharmacokinetics of amlodipine in hypertensive children and adolescents. J Clin Pharmacol. 2006 Aug;46(8):905-16. doi: 10.1177/0091270006289844. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16855075">PubMed:16855075</a>] </li>
-                <li id="reference-A175327">Meredith PA, Elliott HL: Clinical pharmacokinetics of amlodipine. Clin Pharmacokinet. 1992 Jan;22(1):22-31. doi: 10.2165/00003088-199222010-00003. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/1532771">PubMed:1532771</a>] </li>
-                <li id="reference-A175336">Faulkner JK, McGibney D, Chasseaud LF, Perry JL, Taylor IW: The pharmacokinetics of amlodipine in healthy volunteers after single intravenous and oral doses and after 14 repeated oral doses given once daily. Br J Clin Pharmacol. 1986 Jul;22(1):21-5. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/2943308">PubMed:2943308</a>] </li>
+                <li id="reference-A573">Nayler WG, Gu XH: The unique binding properties of amlodipine: a long-acting calcium antagonist. J Hum Hypertens. 1991 Aug;5 Suppl 1:55-9. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/1834847">PubMed:1834847</a>] </li>
+                <li id="reference-A574">van Zwieten PA: Amlodipine: an overview of its pharmacodynamic and pharmacokinetic properties. Clin Cardiol. 1994 Sep;17(9 Suppl 3):III3-6. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/9156957">PubMed:9156957</a>] </li>
+                <li id="reference-A175321">Fares H, DiNicolantonio JJ, O'Keefe JH, Lavie CJ: Amlodipine in hypertension: a first-line agent with efficacy for improving blood pressure and patient outcomes. Open Heart. 2016 Sep 28;3(2):e000473. doi: 10.1136/openhrt-2016-000473. eCollection 2016. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/27752334">PubMed:27752334</a>] </li>
+                <li id="reference-A175324">Flynn JT, Nahata MC, Mahan JD Jr, Portman RJ: Population pharmacokinetics of amlodipine in hypertensive children and adolescents. J Clin Pharmacol. 2006 Aug;46(8):905-16. doi: 10.1177/0091270006289844. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16855075">PubMed:16855075</a>] </li>
+                <li id="reference-A175327">Meredith PA, Elliott HL: Clinical pharmacokinetics of amlodipine. Clin Pharmacokinet. 1992 Jan;22(1):22-31. doi: 10.2165/00003088-199222010-00003. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/1532771">PubMed:1532771</a>] </li>
+                <li id="reference-A175336">Faulkner JK, McGibney D, Chasseaud LF, Perry JL, Taylor IW: The pharmacokinetics of amlodipine in healthy volunteers after single intravenous and oral doses and after 14 repeated oral doses given once daily. Br J Clin Pharmacol. 1986 Jul;22(1):21-5. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/2943308">PubMed:2943308</a>] </li>
                 <li id="reference-F3757">Apo amlodipine tablets, MedSafe NZ [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/757/original/ApoAmlodipinetab_MedSafe_NZ.pdf?1551474087">File</a>] </li>
               </ol>
             </dd><dt className="col-md-2 col-sm-4">External Links</dt>
             <dd className="col-md-10 col-sm-8">
               <dl><dt className="col-md-4 col-sm-5">Human Metabolome Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.hmdb.ca/metabolites/HMDB0005018">HMDB0005018</a></dd><dt className="col-md-4 col-sm-5">KEGG Drug</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.genome.jp/dbget-bin/www_bget?drug:D07450">D07450</a></dd><dt className="col-md-4 col-sm-5">KEGG Compound</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.genome.jp/dbget-bin/www_bget?cpd:C06825">C06825</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=2162">2162</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46507214">46507214</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.chemspider.com/Chemical-Structure.2077.html">2077</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50088383">50088383</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=2668">2668</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1491">CHEMBL1491</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000139">DAP000139</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.pharmgkb.org/drug/PA448388">PA448388</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Amlodipine">Amlodipine</a></dd>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.hmdb.ca/metabolites/HMDB0005018">HMDB0005018</a></dd><dt className="col-md-4 col-sm-5">KEGG Drug</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.genome.jp/dbget-bin/www_bget?drug:D07450">D07450</a></dd><dt className="col-md-4 col-sm-5">KEGG Compound</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.genome.jp/dbget-bin/www_bget?cpd:C06825">C06825</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=2162">2162</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46507214">46507214</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.chemspider.com/Chemical-Structure.2077.html">2077</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50088383">50088383</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=2668">2668</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1491">CHEMBL1491</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000139">DAP000139</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.pharmgkb.org/drug/PA448388">PA448388</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Amlodipine">Amlodipine</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
             <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/C09XA54">C09XA54 — Aliskiren, amlodipine and hydrochlorothiazide</a>
@@ -1366,7 +1366,7 @@ class Amlodipine extends React.Component {
                       </thead>
                       <tbody>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA2170278">CA2170278</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/CA2170278">CA2170278</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>1999-08-03</td>
                           <td>2014-08-10</td>
@@ -1374,7 +1374,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6162802">US6162802</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6162802">US6162802</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2000-12-19</td>
                           <td>2017-12-19</td>
@@ -1382,7 +1382,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5969156">US5969156</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5969156">US5969156</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>1999-10-19</td>
                           <td>2017-01-08</td>
@@ -1390,7 +1390,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6294197">US6294197</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6294197">US6294197</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>2001-09-25</td>
                           <td>2017-12-18</td>
@@ -1398,7 +1398,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5559111">US5559111</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5559111">US5559111</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>1996-09-24</td>
                           <td>2019-01-21</td>
@@ -1406,7 +1406,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6395728">US6395728</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6395728">US6395728</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2002-05-28</td>
                           <td>2019-07-08</td>
@@ -1414,7 +1414,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6828339">US6828339</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6828339">US6828339</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2004-12-07</td>
                           <td>2022-11-20</td>
@@ -1422,7 +1422,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5616599">US5616599</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5616599">US5616599</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>1997-04-01</td>
                           <td>2016-10-25</td>
@@ -1430,7 +1430,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6455574">US6455574</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6455574">US6455574</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2002-09-24</td>
                           <td>2018-08-11</td>
@@ -1438,7 +1438,7 @@ class Amlodipine extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US8101599">US8101599</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8101599">US8101599</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2012-01-24</td>
                           <td>2023-05-16</td>
@@ -1516,12 +1516,12 @@ class Amlodipine extends React.Component {
                   <tr>
                     <td>Water Solubility</td>
                     <td>0.0074 mg/mL</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
                     <td>2.22</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
@@ -1531,7 +1531,7 @@ class Amlodipine extends React.Component {
                   <tr>
                     <td>logS</td>
                     <td>-4.7</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>pKa (Strongest Acidic)</td>
@@ -1733,7 +1733,7 @@ class Amlodipine extends React.Component {
                   </tr>
                 </tbody>
               </table>
-              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
+              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
             </dd>
           </dl>
           <h2 id="spectra" className="section-header">Spectra</h2>
@@ -1745,7 +1745,7 @@ class Amlodipine extends React.Component {
                   <tr>
                     <th>Spectrum</th>
                     <th>Spectrum Type</th>
-                    <th><a target="_blank" rel="noopener" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
+                    <th><a target="_blank" rel="noopener noreferrer" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
                   </tr>
                 </thead>
                 <tbody data-no-turbolink>
@@ -1787,12 +1787,12 @@ class Amlodipine extends React.Component {
                   <tr>
                     <td><a href="/spectra/ms_ms/441085">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0192000000-988fbef9dd83defbfbe0">splash10-0a4u-0192000000-988fbef9dd83defbfbe0</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0192000000-988fbef9dd83defbfbe0">splash10-0a4u-0192000000-988fbef9dd83defbfbe0</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/450768">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-002o-1392000000-3e9bc5dcf61b0f4cae6a">splash10-002o-1392000000-3e9bc5dcf61b0f4cae6a</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-002o-1392000000-3e9bc5dcf61b0f4cae6a">splash10-002o-1392000000-3e9bc5dcf61b0f4cae6a</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/nmr_one_d/2020">1H NMR Spectrum</a></td>
@@ -1839,7 +1839,7 @@ class Amlodipine extends React.Component {
                 </div> show 25 more</a>
             </dd><dt className="col-md-2 col-sm-4">Molecular Framework</dt>
             <dd className="col-md-10 col-sm-8">Aromatic heteromonocyclic compounds</dd><dt className="col-md-2 col-sm-4">External Descriptors</dt>
-            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">ethyl ester, primary amino compound, methyl ester, monochlorobenzenes, dihydropyridine (<a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2668">CHEBI:2668</a>) </span></span>
+            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">ethyl ester, primary amino compound, methyl ester, monochlorobenzenes, dihydropyridine (<a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2668">CHEBI:2668</a>) </span></span>
             </dd>
           </dl>
           <div className="bond-list-container targets">
@@ -1869,7 +1869,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Voltage-gated calcium channel activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-sensitive calcium channels (VSCC) mediate the entry of calcium ions into excitable cells and are also involved in a variety of calcium-dependent processes, including muscle contraction, hor...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CACNA1C</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q13936">Q13936</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q13936">Q13936</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-dependent L-type calcium channel subunit alpha-1C</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">248974.1 Da</dd>
                       </dl>
@@ -1878,8 +1878,8 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A175408">Bodi I, Mikala G, Koch SE, Akhter SA, Schwartz A: The L-type calcium channel in the heart: the beat goes on. J Clin Invest. 2005 Dec;115(12):3306-17. doi: 10.1172/JCI27167. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16322774">PubMed:16322774</a>] </li>
-                      <li id="reference-A175411">Tang L, Gamal El-Din TM, Swanson TM, Pryde DC, Scheuer T, Zheng N, Catterall WA: Structural basis for inhibition of a voltage-gated Ca(2+) channel by Ca(2+) antagonist drugs. Nature. 2016 Sep 1;537(7618):117-121. doi: 10.1038/nature19102. Epub 2016 Aug 24. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/27556947">PubMed:27556947</a>] </li>
+                      <li id="reference-A175408">Bodi I, Mikala G, Koch SE, Akhter SA, Schwartz A: The L-type calcium channel in the heart: the beat goes on. J Clin Invest. 2005 Dec;115(12):3306-17. doi: 10.1172/JCI27167. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16322774">PubMed:16322774</a>] </li>
+                      <li id="reference-A175411">Tang L, Gamal El-Din TM, Swanson TM, Pryde DC, Scheuer T, Zheng N, Catterall WA: Structural basis for inhibition of a voltage-gated Ca(2+) channel by Ca(2+) antagonist drugs. Nature. 2016 Sep 1;537(7618):117-121. doi: 10.1038/nature19102. Epub 2016 Aug 24. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/27556947">PubMed:27556947</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1907,7 +1907,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Voltage-gated calcium channel activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-sensitive calcium channels (VSCC) mediate the entry of calcium ions into excitable cells and are also involved in a variety of calcium-dependent processes, including muscle contraction, hor...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CACNA1B</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q00975">Q00975</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q00975">Q00975</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-dependent N-type calcium channel subunit alpha-1B</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">262493.84 Da</dd>
                       </dl>
@@ -1916,12 +1916,12 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
-                      <li id="reference-A6133">Furukawa T, Yamakawa T, Midera T, Sagawa T, Mori Y, Nukada T: Selectivities of dihydropyridine derivatives in blocking Ca(2+) channel subtypes expressed in Xenopus oocytes. J Pharmacol Exp Ther. 1999 Nov;291(2):464-73. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10525060">PubMed:10525060</a>] </li>
-                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
-                      <li id="reference-A15326">Murakami M, Nakagawasai O, Fujii S, Kameyama K, Murakami S, Hozumi S, Esashi A, Taniguchi R, Yanagisawa T, Tan-no K, Tadano T, Kitamura K, Kisara K: Antinociceptive action of amlodipine blocking N-type Ca2+ channels at the primary afferent neurons in mice. Eur J Pharmacol. 2001 May 11;419(2-3):175-81. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11426839">PubMed:11426839</a>] </li>
-                      <li id="reference-A15327">Ogihara T, Kano T, Kakinuma C: Evaluation of the inhibitory effect of dihydropyridines on N-type calcium channel by virtual three-dimensional pharmacophore modeling. Arzneimittelforschung. 2009;59(6):283-8. doi: 10.1055/s-0031-1296398. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19634509">PubMed:19634509</a>] </li>
-                      <li id="reference-A15328">Qu YL, Sugiyama K, Ohnuki T, Hattori K, Watanabe K, Nagatomo T: Comparison of binding affinities of omega-conotoxin and amlodipine to N-type Ca2+ channels in rat brain. Zhongguo Yao Li Xue Bao. 1998 Mar;19(2):97-100. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10374627">PubMed:10374627</a>] </li>
+                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
+                      <li id="reference-A6133">Furukawa T, Yamakawa T, Midera T, Sagawa T, Mori Y, Nukada T: Selectivities of dihydropyridine derivatives in blocking Ca(2+) channel subtypes expressed in Xenopus oocytes. J Pharmacol Exp Ther. 1999 Nov;291(2):464-73. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10525060">PubMed:10525060</a>] </li>
+                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
+                      <li id="reference-A15326">Murakami M, Nakagawasai O, Fujii S, Kameyama K, Murakami S, Hozumi S, Esashi A, Taniguchi R, Yanagisawa T, Tan-no K, Tadano T, Kitamura K, Kisara K: Antinociceptive action of amlodipine blocking N-type Ca2+ channels at the primary afferent neurons in mice. Eur J Pharmacol. 2001 May 11;419(2-3):175-81. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11426839">PubMed:11426839</a>] </li>
+                      <li id="reference-A15327">Ogihara T, Kano T, Kakinuma C: Evaluation of the inhibitory effect of dihydropyridines on N-type calcium channel by virtual three-dimensional pharmacophore modeling. Arzneimittelforschung. 2009;59(6):283-8. doi: 10.1055/s-0031-1296398. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19634509">PubMed:19634509</a>] </li>
+                      <li id="reference-A15328">Qu YL, Sugiyama K, Ohnuki T, Hattori K, Watanabe K, Nagatomo T: Comparison of binding affinities of omega-conotoxin and amlodipine to N-type Ca2+ channels in rat brain. Zhongguo Yao Li Xue Bao. 1998 Mar;19(2):97-100. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10374627">PubMed:10374627</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1949,7 +1949,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Voltage-gated calcium channel activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">The beta subunit of voltage-dependent calcium channels contributes to the function of the calcium channel by increasing peak calcium current, shifting the voltage dependencies of activation and ina...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CACNB1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q02641">Q02641</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q02641">Q02641</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-dependent L-type calcium channel subunit beta-1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">65712.995 Da</dd>
                       </dl>
@@ -1958,12 +1958,12 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
-                      <li id="reference-A6133">Furukawa T, Yamakawa T, Midera T, Sagawa T, Mori Y, Nukada T: Selectivities of dihydropyridine derivatives in blocking Ca(2+) channel subtypes expressed in Xenopus oocytes. J Pharmacol Exp Ther. 1999 Nov;291(2):464-73. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10525060">PubMed:10525060</a>] </li>
-                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
-                      <li id="reference-A15326">Murakami M, Nakagawasai O, Fujii S, Kameyama K, Murakami S, Hozumi S, Esashi A, Taniguchi R, Yanagisawa T, Tan-no K, Tadano T, Kitamura K, Kisara K: Antinociceptive action of amlodipine blocking N-type Ca2+ channels at the primary afferent neurons in mice. Eur J Pharmacol. 2001 May 11;419(2-3):175-81. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11426839">PubMed:11426839</a>] </li>
-                      <li id="reference-A15327">Ogihara T, Kano T, Kakinuma C: Evaluation of the inhibitory effect of dihydropyridines on N-type calcium channel by virtual three-dimensional pharmacophore modeling. Arzneimittelforschung. 2009;59(6):283-8. doi: 10.1055/s-0031-1296398. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19634509">PubMed:19634509</a>] </li>
-                      <li id="reference-A15328">Qu YL, Sugiyama K, Ohnuki T, Hattori K, Watanabe K, Nagatomo T: Comparison of binding affinities of omega-conotoxin and amlodipine to N-type Ca2+ channels in rat brain. Zhongguo Yao Li Xue Bao. 1998 Mar;19(2):97-100. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10374627">PubMed:10374627</a>] </li>
+                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
+                      <li id="reference-A6133">Furukawa T, Yamakawa T, Midera T, Sagawa T, Mori Y, Nukada T: Selectivities of dihydropyridine derivatives in blocking Ca(2+) channel subtypes expressed in Xenopus oocytes. J Pharmacol Exp Ther. 1999 Nov;291(2):464-73. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10525060">PubMed:10525060</a>] </li>
+                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
+                      <li id="reference-A15326">Murakami M, Nakagawasai O, Fujii S, Kameyama K, Murakami S, Hozumi S, Esashi A, Taniguchi R, Yanagisawa T, Tan-no K, Tadano T, Kitamura K, Kisara K: Antinociceptive action of amlodipine blocking N-type Ca2+ channels at the primary afferent neurons in mice. Eur J Pharmacol. 2001 May 11;419(2-3):175-81. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11426839">PubMed:11426839</a>] </li>
+                      <li id="reference-A15327">Ogihara T, Kano T, Kakinuma C: Evaluation of the inhibitory effect of dihydropyridines on N-type calcium channel by virtual three-dimensional pharmacophore modeling. Arzneimittelforschung. 2009;59(6):283-8. doi: 10.1055/s-0031-1296398. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19634509">PubMed:19634509</a>] </li>
+                      <li id="reference-A15328">Qu YL, Sugiyama K, Ohnuki T, Hattori K, Watanabe K, Nagatomo T: Comparison of binding affinities of omega-conotoxin and amlodipine to N-type Ca2+ channels in rat brain. Zhongguo Yao Li Xue Bao. 1998 Mar;19(2):97-100. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10374627">PubMed:10374627</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1991,7 +1991,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Voltage-gated ion channel activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">The alpha-2/delta subunit of voltage-dependent calcium channels regulates calcium current density and activation/inactivation kinetics of the calcium channel. Acts as a regulatory subunit for P/Q-t...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CACNA2D3</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q8IZS8">Q8IZS8</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q8IZS8">Q8IZS8</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-dependent calcium channel subunit alpha-2/delta-3</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">123010.22 Da</dd>
                       </dl>
@@ -2000,12 +2000,12 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
-                      <li id="reference-A6133">Furukawa T, Yamakawa T, Midera T, Sagawa T, Mori Y, Nukada T: Selectivities of dihydropyridine derivatives in blocking Ca(2+) channel subtypes expressed in Xenopus oocytes. J Pharmacol Exp Ther. 1999 Nov;291(2):464-73. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10525060">PubMed:10525060</a>] </li>
-                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
-                      <li id="reference-A15326">Murakami M, Nakagawasai O, Fujii S, Kameyama K, Murakami S, Hozumi S, Esashi A, Taniguchi R, Yanagisawa T, Tan-no K, Tadano T, Kitamura K, Kisara K: Antinociceptive action of amlodipine blocking N-type Ca2+ channels at the primary afferent neurons in mice. Eur J Pharmacol. 2001 May 11;419(2-3):175-81. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11426839">PubMed:11426839</a>] </li>
-                      <li id="reference-A15327">Ogihara T, Kano T, Kakinuma C: Evaluation of the inhibitory effect of dihydropyridines on N-type calcium channel by virtual three-dimensional pharmacophore modeling. Arzneimittelforschung. 2009;59(6):283-8. doi: 10.1055/s-0031-1296398. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19634509">PubMed:19634509</a>] </li>
-                      <li id="reference-A15328">Qu YL, Sugiyama K, Ohnuki T, Hattori K, Watanabe K, Nagatomo T: Comparison of binding affinities of omega-conotoxin and amlodipine to N-type Ca2+ channels in rat brain. Zhongguo Yao Li Xue Bao. 1998 Mar;19(2):97-100. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10374627">PubMed:10374627</a>] </li>
+                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
+                      <li id="reference-A6133">Furukawa T, Yamakawa T, Midera T, Sagawa T, Mori Y, Nukada T: Selectivities of dihydropyridine derivatives in blocking Ca(2+) channel subtypes expressed in Xenopus oocytes. J Pharmacol Exp Ther. 1999 Nov;291(2):464-73. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10525060">PubMed:10525060</a>] </li>
+                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
+                      <li id="reference-A15326">Murakami M, Nakagawasai O, Fujii S, Kameyama K, Murakami S, Hozumi S, Esashi A, Taniguchi R, Yanagisawa T, Tan-no K, Tadano T, Kitamura K, Kisara K: Antinociceptive action of amlodipine blocking N-type Ca2+ channels at the primary afferent neurons in mice. Eur J Pharmacol. 2001 May 11;419(2-3):175-81. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11426839">PubMed:11426839</a>] </li>
+                      <li id="reference-A15327">Ogihara T, Kano T, Kakinuma C: Evaluation of the inhibitory effect of dihydropyridines on N-type calcium channel by virtual three-dimensional pharmacophore modeling. Arzneimittelforschung. 2009;59(6):283-8. doi: 10.1055/s-0031-1296398. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19634509">PubMed:19634509</a>] </li>
+                      <li id="reference-A15328">Qu YL, Sugiyama K, Ohnuki T, Hattori K, Watanabe K, Nagatomo T: Comparison of binding affinities of omega-conotoxin and amlodipine to N-type Ca2+ channels in rat brain. Zhongguo Yao Li Xue Bao. 1998 Mar;19(2):97-100. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10374627">PubMed:10374627</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -2033,7 +2033,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Zinc ion binding</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Reversible hydration of carbon dioxide. Can hydrates cyanamide to urea.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CA1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P00915">P00915</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P00915">P00915</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Carbonic anhydrase 1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">28870.0 Da</dd>
                       </dl>
@@ -2042,9 +2042,9 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A4741">Puscas I, Gilau L, Coltau M, Pasca R, Domuta G, Baican M, Hecht A: Hypotensive effect of calcium channel blockers is parallel with carbonic anhydrase I inhibition. Clin Pharmacol Ther. 2000 Oct;68(4):443-9. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11061585">PubMed:11061585</a>] </li>
-                      <li id="reference-A4742">Puscas L, Gilau L, Coltau M, Pasca R, Domuta G, Baican M, Hecht A: Calcium channel blockers reduce blood pressure in part by inhibiting vascular smooth muscle carbonic anhydrase I. Cardiovasc Drugs Ther. 2000 Oct;14(5):523-8. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11101200">PubMed:11101200</a>] </li>
-                      <li id="reference-A4743">Puscas I, Coltau M, Baican M, Pasca R, Domuta G, Hecht A: Vasoconstrictive drugs increase carbonic anhydrase I in vascular smooth muscle while vasodilating drugs reduce the activity of this isozyme by a direct mechanism of action. Drugs Exp Clin Res. 2001;27(2):53-60. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11392054">PubMed:11392054</a>] </li>
+                      <li id="reference-A4741">Puscas I, Gilau L, Coltau M, Pasca R, Domuta G, Baican M, Hecht A: Hypotensive effect of calcium channel blockers is parallel with carbonic anhydrase I inhibition. Clin Pharmacol Ther. 2000 Oct;68(4):443-9. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11061585">PubMed:11061585</a>] </li>
+                      <li id="reference-A4742">Puscas L, Gilau L, Coltau M, Pasca R, Domuta G, Baican M, Hecht A: Calcium channel blockers reduce blood pressure in part by inhibiting vascular smooth muscle carbonic anhydrase I. Cardiovasc Drugs Ther. 2000 Oct;14(5):523-8. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11101200">PubMed:11101200</a>] </li>
+                      <li id="reference-A4743">Puscas I, Coltau M, Baican M, Pasca R, Domuta G, Hecht A: Vasoconstrictive drugs increase carbonic anhydrase I in vascular smooth muscle while vasodilating drugs reduce the activity of this isozyme by a direct mechanism of action. Drugs Exp Clin Res. 2001;27(2):53-60. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11392054">PubMed:11392054</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -2072,7 +2072,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Sphingomyelin phosphodiesterase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Converts sphingomyelin to ceramide. Also has phospholipase C activities toward 1,2-diacylglycerolphosphocholine and 1,2-diacylglycerolphosphoglycerol. Isoform 2 and isoform 3 have lost catalytic ac...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SMPD1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P17405">P17405</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P17405">P17405</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Sphingomyelin phosphodiesterase</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">69751.3 Da</dd>
                       </dl>
@@ -2081,7 +2081,7 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A18210">Kornhuber J, Muehlbacher M, Trapp S, Pechmann S, Friedl A, Reichel M, Muhle C, Terfloth L, Groemer TW, Spitzer GM, Liedl KR, Gulbins E, Tripal P: Identification of novel functional inhibitors of acid sphingomyelinase. PLoS One. 2011;6(8):e23852. doi: 10.1371/journal.pone.0023852. Epub 2011 Aug 31. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/21909365">PubMed:21909365</a>] </li>
+                      <li id="reference-A18210">Kornhuber J, Muehlbacher M, Trapp S, Pechmann S, Friedl A, Reichel M, Muhle C, Terfloth L, Groemer TW, Spitzer GM, Liedl KR, Gulbins E, Tripal P: Identification of novel functional inhibitors of acid sphingomyelinase. PLoS One. 2011;6(8):e23852. doi: 10.1371/journal.pone.0023852. Epub 2011 Aug 31. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/21909365">PubMed:21909365</a>] </li>
                       <li id="reference-F3781">Identification of New Functional Inhibitors of Acid Sphingomyelinase Using a Structure-Property-Activity Relation Model [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/781/original/5642a377778bc6d0e3785f4d212a143096b1.pdf?1551735370">File</a>] </li>
                     </ol>
                   </div>
@@ -2125,71 +2125,71 @@ class Amlodipine extends React.Component {
                       <tbody>
                         <tr>
                           <td><a href="/polypeptides/Q06432">Voltage-dependent calcium channel gamma-1 subunit</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q06432">Q06432</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q06432">Q06432</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/P54289">Voltage-dependent calcium channel subunit alpha-2/delta-1</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P54289">P54289</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P54289">P54289</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q9NY47">Voltage-dependent calcium channel subunit alpha-2/delta-2</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q9NY47">Q9NY47</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9NY47">Q9NY47</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q8IZS8">Voltage-dependent calcium channel subunit alpha-2/delta-3</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q8IZS8">Q8IZS8</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q8IZS8">Q8IZS8</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q13936">Voltage-dependent L-type calcium channel subunit alpha-1C</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q13936">Q13936</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q13936">Q13936</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q01668">Voltage-dependent L-type calcium channel subunit alpha-1D</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q01668">Q01668</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q01668">Q01668</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/O60840">Voltage-dependent L-type calcium channel subunit alpha-1F</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/O60840">O60840</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O60840">O60840</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q13698">Voltage-dependent L-type calcium channel subunit alpha-1S</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q13698">Q13698</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q13698">Q13698</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q02641">Voltage-dependent L-type calcium channel subunit beta-1</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q02641">Q02641</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q02641">Q02641</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q08289">Voltage-dependent L-type calcium channel subunit beta-2</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q08289">Q08289</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q08289">Q08289</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/P54284">Voltage-dependent L-type calcium channel subunit beta-3</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P54284">P54284</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P54284">P54284</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/O00305">Voltage-dependent L-type calcium channel subunit beta-4</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/O00305">O00305</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O00305">O00305</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q00975">Voltage-dependent N-type calcium channel subunit alpha-1B</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q00975">Q00975</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q00975">Q00975</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/O00555">Voltage-dependent P/Q-type calcium channel subunit alpha-1A</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/O00555">O00555</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O00555">O00555</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/O43497">Voltage-dependent T-type calcium channel subunit alpha-1G</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/O43497">O43497</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O43497">O43497</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/O95180">Voltage-dependent T-type calcium channel subunit alpha-1H</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/O95180">O95180</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O95180">O95180</a></td>
                         </tr>
                         <tr>
                           <td><a href="/polypeptides/Q9P0X4">Voltage-dependent T-type calcium channel subunit alpha-1I</a></td>
-                          <td><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q9P0X4">Q9P0X4</a></td>
+                          <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9P0X4">Q9P0X4</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -2197,7 +2197,7 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A175390">Godfraind T: Discovery and Development of Calcium Channel Blockers. Front Pharmacol. 2017 May 29;8:286. doi: 10.3389/fphar.2017.00286. eCollection 2017. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/28611661">PubMed:28611661</a>] </li>
+                      <li id="reference-A175390">Godfraind T: Discovery and Development of Calcium Channel Blockers. Front Pharmacol. 2017 May 29;8:286. doi: 10.3389/fphar.2017.00286. eCollection 2017. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/28611661">PubMed:28611661</a>] </li>
                       <li id="reference-F3778">Amlodipine FDA label [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/778/original/Amlodipine_FDA_label.pdf?1551725078">File</a>] </li>
                       <li id="reference-F3757">Apo amlodipine tablets, MedSafe NZ [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/757/original/ApoAmlodipinetab_MedSafe_NZ.pdf?1551474087">File</a>] </li>
                     </ol>
@@ -2227,7 +2227,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Voltage-gated calcium channel activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-sensitive calcium channels (VSCC) mediate the entry of calcium ions into excitable cells and are also involved in a variety of calcium-dependent processes, including muscle contraction, hor...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CACNA1I</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q9P0X4">Q9P0X4</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9P0X4">Q9P0X4</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Voltage-dependent T-type calcium channel subunit alpha-1I</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">245100.8 Da</dd>
                       </dl>
@@ -2236,10 +2236,10 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A175393">Lin M, Aladejebi O, Hockerman GH: Distinct properties of amlodipine and nicardipine block of the voltage-dependent Ca2+ channels Cav1.2 and Cav2.1 and the mutant channels Cav1.2/dihydropyridine insensitive and Cav2.1/dihydropyridine sensitive. Eur J Pharmacol. 2011 Nov 16;670(1):105-13. doi: 10.1016/j.ejphar.2011.08.005. Epub 2011 Sep 2. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/21910984">PubMed:21910984</a>] </li>
-                      <li id="reference-A175396">Striessnig J, Ortner NJ, Pinggera A: Pharmacology of L-type Calcium Channels: Novel Drugs for Old Targets? Curr Mol Pharmacol. 2015;8(2):110-22. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/25966690">PubMed:25966690</a>] </li>
-                      <li id="reference-A175399">Inoue Y, Hisatome I, Tsuboi M, Ahmmed GU, Yatsuhashi T, Uchida K, Yamanouchi Y, Santo Y, Miake J, Tanaka Y, Hamada T, Watanabe M, Igawa O, Yoshida A, Shigemasa C, Makita N, Sato R: Effects of amlodipine on native cardiac Na+ channels and cloned alpha-subunits of cardiac Na+ channels. Arzneimittelforschung. 1999 May;49(5):394-7. doi: 10.1055/s-0031-1300433. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10367100">PubMed:10367100</a>] </li>
-                      <li id="reference-A175402">Ozawa Y, Hayashi K, Kobori H: New Generation Calcium Channel Blockers in Hypertensive Treatment. Curr Hypertens Rev. 2006 May 1;2(2):103-111. doi: 10.2174/157340206776877370. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19823601">PubMed:19823601</a>] </li>
+                      <li id="reference-A175393">Lin M, Aladejebi O, Hockerman GH: Distinct properties of amlodipine and nicardipine block of the voltage-dependent Ca2+ channels Cav1.2 and Cav2.1 and the mutant channels Cav1.2/dihydropyridine insensitive and Cav2.1/dihydropyridine sensitive. Eur J Pharmacol. 2011 Nov 16;670(1):105-13. doi: 10.1016/j.ejphar.2011.08.005. Epub 2011 Sep 2. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/21910984">PubMed:21910984</a>] </li>
+                      <li id="reference-A175396">Striessnig J, Ortner NJ, Pinggera A: Pharmacology of L-type Calcium Channels: Novel Drugs for Old Targets? Curr Mol Pharmacol. 2015;8(2):110-22. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/25966690">PubMed:25966690</a>] </li>
+                      <li id="reference-A175399">Inoue Y, Hisatome I, Tsuboi M, Ahmmed GU, Yatsuhashi T, Uchida K, Yamanouchi Y, Santo Y, Miake J, Tanaka Y, Hamada T, Watanabe M, Igawa O, Yoshida A, Shigemasa C, Makita N, Sato R: Effects of amlodipine on native cardiac Na+ channels and cloned alpha-subunits of cardiac Na+ channels. Arzneimittelforschung. 1999 May;49(5):394-7. doi: 10.1055/s-0031-1300433. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10367100">PubMed:10367100</a>] </li>
+                      <li id="reference-A175402">Ozawa Y, Hayashi K, Kobori H: New Generation Calcium Channel Blockers in Hypertensive Treatment. Curr Hypertens Rev. 2006 May 1;2(2):103-111. doi: 10.2174/157340206776877370. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19823601">PubMed:19823601</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -2258,9 +2258,9 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
-                      <li id="reference-A175390">Godfraind T: Discovery and Development of Calcium Channel Blockers. Front Pharmacol. 2017 May 29;8:286. doi: 10.3389/fphar.2017.00286. eCollection 2017. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/28611661">PubMed:28611661</a>] </li>
-                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
+                      <li id="reference-A15325">Miyashita Y, Furukawa T, Kamegaya E, Yoshii M, Nukada T: A region of N-type Ca(2+) channel critical for blockade by the dihydropyridine amlodipine. Eur J Pharmacol. 2010 Apr 25;632(1-3):14-22. doi: 10.1016/j.ejphar.2010.01.006. Epub 2010 Jan 22. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/20097194">PubMed:20097194</a>] </li>
+                      <li id="reference-A175390">Godfraind T: Discovery and Development of Calcium Channel Blockers. Front Pharmacol. 2017 May 29;8:286. doi: 10.3389/fphar.2017.00286. eCollection 2017. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/28611661">PubMed:28611661</a>] </li>
+                      <li id="reference-A15324">Furukawa T, Nukada T, Suzuki K, Fujita Y, Mori Y, Nishimura M, Yamanaka M: Voltage and pH dependent block of cloned N-type Ca2+ channels by amlodipine. Br J Pharmacol. 1997 Jul;121(6):1136-40. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/9249249">PubMed:9249249</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -2293,7 +2293,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Vitamin d3 25-hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It performs a variety of oxidation react...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP3A4</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P08684">P08684</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P08684">P08684</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 3A4</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">57342.67 Da</dd>
                       </dl>
@@ -2302,8 +2302,8 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A14786">Katoh M, Nakajima M, Shimada N, Yamazaki H, Yokoi T: Inhibition of human cytochrome P450 enzymes by 1,4-dihydropyridine calcium antagonists: prediction of in vivo drug-drug interactions. Eur J Clin Pharmacol. 2000 Feb-Mar;55(11-12):843-52. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10805063">PubMed:10805063</a>] </li>
-                      <li id="reference-A32032">Zhu Y, Wang F, Li Q, Zhu M, Du A, Tang W, Chen W: Amlodipine metabolism in human liver microsomes and roles of CYP3A4/5 in the dihydropyridine dehydrogenation. Drug Metab Dispos. 2014 Feb;42(2):245-9. doi: 10.1124/dmd.113.055400. Epub 2013 Dec 3. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/24301608">PubMed:24301608</a>] </li>
+                      <li id="reference-A14786">Katoh M, Nakajima M, Shimada N, Yamazaki H, Yokoi T: Inhibition of human cytochrome P450 enzymes by 1,4-dihydropyridine calcium antagonists: prediction of in vivo drug-drug interactions. Eur J Clin Pharmacol. 2000 Feb-Mar;55(11-12):843-52. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10805063">PubMed:10805063</a>] </li>
+                      <li id="reference-A32032">Zhu Y, Wang F, Li Q, Zhu M, Du A, Tang W, Chen W: Amlodipine metabolism in human liver microsomes and roles of CYP3A4/5 in the dihydropyridine dehydrogenation. Drug Metab Dispos. 2014 Feb;42(2):245-9. doi: 10.1124/dmd.113.055400. Epub 2013 Dec 3. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/24301608">PubMed:24301608</a>] </li>
                       <li id="reference-L162">Drug Interactions: Cytochrome P450 Drug Interaction Table [<a target="_blank" href="http://medicine.iupui.edu/clinpharm/ddis/table.asp">Link</a>] </li>
                       <li id="reference-F3766">Amlodipine FDA label [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/766/original/Amlodipine_FDA_label.pdf?1551718622">File</a>] </li>
                     </ol>
@@ -2334,7 +2334,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Vitamin d 24-hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It oxidizes a variety of structurally un...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP1A1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P04798">P04798</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P04798">P04798</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 1A1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">58164.815 Da</dd>
                       </dl>
@@ -2343,7 +2343,7 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A14786">Katoh M, Nakajima M, Shimada N, Yamazaki H, Yokoi T: Inhibition of human cytochrome P450 enzymes by 1,4-dihydropyridine calcium antagonists: prediction of in vivo drug-drug interactions. Eur J Clin Pharmacol. 2000 Feb-Mar;55(11-12):843-52. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10805063">PubMed:10805063</a>] </li>
+                      <li id="reference-A14786">Katoh M, Nakajima M, Shimada N, Yamazaki H, Yokoi T: Inhibition of human cytochrome P450 enzymes by 1,4-dihydropyridine calcium antagonists: prediction of in vivo drug-drug interactions. Eur J Clin Pharmacol. 2000 Feb-Mar;55(11-12):843-52. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10805063">PubMed:10805063</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -2373,7 +2373,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Steroid hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It oxidizes a variety of structurally un...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP2B6</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P20813">P20813</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P20813">P20813</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 2B6</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">56277.81 Da</dd>
                       </dl>
@@ -2382,8 +2382,8 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A14786">Katoh M, Nakajima M, Shimada N, Yamazaki H, Yokoi T: Inhibition of human cytochrome P450 enzymes by 1,4-dihydropyridine calcium antagonists: prediction of in vivo drug-drug interactions. Eur J Clin Pharmacol. 2000 Feb-Mar;55(11-12):843-52. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10805063">PubMed:10805063</a>] </li>
-                      <li id="reference-A121591">Shah MB, Wilderman PR, Pascual J, Zhang Q, Stout CD, Halpert JR: Conformational adaptation of human cytochrome P450 2B6 and rabbit cytochrome P450 2B4 revealed upon binding multiple amlodipine molecules. Biochemistry. 2012 Sep 18;51(37):7225-38. doi: 10.1021/bi300894z. Epub 2012 Sep 4. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/22909231">PubMed:22909231</a>] </li>
+                      <li id="reference-A14786">Katoh M, Nakajima M, Shimada N, Yamazaki H, Yokoi T: Inhibition of human cytochrome P450 enzymes by 1,4-dihydropyridine calcium antagonists: prediction of in vivo drug-drug interactions. Eur J Clin Pharmacol. 2000 Feb-Mar;55(11-12):843-52. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10805063">PubMed:10805063</a>] </li>
+                      <li id="reference-A121591">Shah MB, Wilderman PR, Pascual J, Zhang Q, Stout CD, Halpert JR: Conformational adaptation of human cytochrome P450 2B6 and rabbit cytochrome P450 2B4 revealed upon binding multiple amlodipine molecules. Biochemistry. 2012 Sep 18;51(37):7225-38. doi: 10.1021/bi300894z. Epub 2012 Sep 4. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/22909231">PubMed:22909231</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -2412,7 +2412,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Oxygen binding</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It oxidizes a variety of structurally un...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP3A5</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P20815">P20815</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P20815">P20815</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 3A5</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">57108.065 Da</dd>
                       </dl>
@@ -2421,10 +2421,10 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A32032">Zhu Y, Wang F, Li Q, Zhu M, Du A, Tang W, Chen W: Amlodipine metabolism in human liver microsomes and roles of CYP3A4/5 in the dihydropyridine dehydrogenation. Drug Metab Dispos. 2014 Feb;42(2):245-9. doi: 10.1124/dmd.113.055400. Epub 2013 Dec 3. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/24301608">PubMed:24301608</a>] </li>
-                      <li id="reference-A175363">Bhatnagar V, Garcia EP, O'Connor DT, Brophy VH, Alcaraz J, Richard E, Bakris GL, Middleton JP, Norris KC, Wright J, Hiremath L, Contreras G, Appel LJ, Lipkowitz MS: CYP3A4 and CYP3A5 polymorphisms and blood pressure response to amlodipine among African-American men and women with early hypertensive renal disease. Am J Nephrol. 2010;31(2):95-103. doi: 10.1159/000258688. Epub 2009 Nov 12. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19907160">PubMed:19907160</a>] </li>
-                      <li id="reference-A175366">Lu Y, Zhong H, Tang Q, Huang Z, Jing N, Smith J, Miao R, Li Y, Yuan H: Construction and verification of CYP3A5 gene polymorphisms using a Saccharomyces cerevisiae expression system to predict drug metabolism. Mol Med Rep. 2017 Apr;15(4):1593-1600. doi: 10.3892/mmr.2017.6214. Epub 2017 Feb 17. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/28259948">PubMed:28259948</a>] </li>
-                      <li id="reference-A175369">Zhang YP, Zuo XC, Huang ZJ, Cai JJ, Wen J, Duan DD, Yuan H: CYP3A5 polymorphism, amlodipine and hypertension. J Hum Hypertens. 2014 Mar;28(3):145-9. doi: 10.1038/jhh.2013.67. Epub 2013 Jul 18. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/23863802">PubMed:23863802</a>] </li>
+                      <li id="reference-A32032">Zhu Y, Wang F, Li Q, Zhu M, Du A, Tang W, Chen W: Amlodipine metabolism in human liver microsomes and roles of CYP3A4/5 in the dihydropyridine dehydrogenation. Drug Metab Dispos. 2014 Feb;42(2):245-9. doi: 10.1124/dmd.113.055400. Epub 2013 Dec 3. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/24301608">PubMed:24301608</a>] </li>
+                      <li id="reference-A175363">Bhatnagar V, Garcia EP, O'Connor DT, Brophy VH, Alcaraz J, Richard E, Bakris GL, Middleton JP, Norris KC, Wright J, Hiremath L, Contreras G, Appel LJ, Lipkowitz MS: CYP3A4 and CYP3A5 polymorphisms and blood pressure response to amlodipine among African-American men and women with early hypertensive renal disease. Am J Nephrol. 2010;31(2):95-103. doi: 10.1159/000258688. Epub 2009 Nov 12. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19907160">PubMed:19907160</a>] </li>
+                      <li id="reference-A175366">Lu Y, Zhong H, Tang Q, Huang Z, Jing N, Smith J, Miao R, Li Y, Yuan H: Construction and verification of CYP3A5 gene polymorphisms using a Saccharomyces cerevisiae expression system to predict drug metabolism. Mol Med Rep. 2017 Apr;15(4):1593-1600. doi: 10.3892/mmr.2017.6214. Epub 2017 Feb 17. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/28259948">PubMed:28259948</a>] </li>
+                      <li id="reference-A175369">Zhang YP, Zuo XC, Huang ZJ, Cai JJ, Wen J, Duan DD, Yuan H: CYP3A5 polymorphism, amlodipine and hypertension. J Hum Hypertens. 2014 Mar;28(3):145-9. doi: 10.1038/jhh.2013.67. Epub 2013 Jul 18. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/23863802">PubMed:23863802</a>] </li>
                       <li id="reference-L162">Drug Interactions: Cytochrome P450 Drug Interaction Table [<a target="_blank" href="http://medicine.iupui.edu/clinpharm/ddis/table.asp">Link</a>] </li>
                     </ol>
                   </div>
@@ -2453,7 +2453,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Steroid hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It oxidizes a variety of structurally un...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP2C8</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P10632">P10632</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P10632">P10632</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 2C8</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">55824.275 Da</dd>
                       </dl>
@@ -2462,7 +2462,7 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A175384">Floyd JS, Kaspera R, Marciante KD, Weiss NS, Heckbert SR, Lumley T, Wiggins KL, Tamraz B, Kwok PY, Totah RA, Psaty BM: A screening study of drug-drug interactions in cerivastatin users: an adverse effect of clopidogrel. Clin Pharmacol Ther. 2012 May;91(5):896-904. doi: 10.1038/clpt.2011.295. Epub 2012 Mar 14. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/22419147">PubMed:22419147</a>] </li>
+                      <li id="reference-A175384">Floyd JS, Kaspera R, Marciante KD, Weiss NS, Heckbert SR, Lumley T, Wiggins KL, Tamraz B, Kwok PY, Totah RA, Psaty BM: A screening study of drug-drug interactions in cerivastatin users: an adverse effect of clopidogrel. Clin Pharmacol Ther. 2012 May;91(5):896-904. doi: 10.1038/clpt.2011.295. Epub 2012 Mar 14. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/22419147">PubMed:22419147</a>] </li>
                       <li id="reference-F3775">Role of Cytochrome P450 2C8 in Drug Metabolism and Interactions [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/775/original/Role_of_cytochrome_p450_2c8.pdf?1551723132">File</a>] </li>
                     </ol>
                   </div>
@@ -2492,7 +2492,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Steroid hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Responsible for the metabolism of many drugs and environmental chemicals that it oxidizes. It is involved in the metabolism of drugs such as antiarrhythmics, adrenoceptor antagonists, and tricyclic...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP2D6</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P10635">P10635</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P10635">P10635</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 2D6</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">55768.94 Da</dd>
                       </dl>
@@ -2501,7 +2501,7 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A175387">Augustin M, Schoretsanitis G, Grunder G, Haen E, Paulzen M: How to Treat Hypertension in Venlafaxine-Medicated Patients-Pharmacokinetic Considerations in Prescribing Amlodipine and Ramipril. J Clin Psychopharmacol. 2018 Oct;38(5):498-501. doi: 10.1097/JCP.0000000000000929. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/30102628">PubMed:30102628</a>] </li>
+                      <li id="reference-A175387">Augustin M, Schoretsanitis G, Grunder G, Haen E, Paulzen M: How to Treat Hypertension in Venlafaxine-Medicated Patients-Pharmacokinetic Considerations in Prescribing Amlodipine and Ramipril. J Clin Psychopharmacol. 2018 Oct;38(5):498-501. doi: 10.1097/JCP.0000000000000929. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/30102628">PubMed:30102628</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -2606,7 +2606,7 @@ class Amlodipine extends React.Component {
                                 <td>22000</td>
                                 <td><span className="not-available">N/A</span></td>
                                 <td><span className="not-available">N/A</span></td>
-                                <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11145223">11145223</a></span></span>
+                                <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11145223">11145223</a></span></span>
                                   </span>
                                 </td>
                               </tr>
@@ -2642,7 +2642,7 @@ class Amlodipine extends React.Component {
                         <dd className="col-md-7 col-sm-6">Xenobiotic-transporting atpase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Energy-dependent efflux pump responsible for decreased drug accumulation in multidrug-resistant cells.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">ABCB1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P08183">P08183</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P08183">P08183</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Multidrug resistance protein 1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">141477.255 Da</dd>
                       </dl>
@@ -2651,10 +2651,10 @@ class Amlodipine extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A16130">Katoh M, Nakajima M, Yamazaki H, Yokoi T: Inhibitory potencies of 1,4-dihydropyridine calcium antagonists to P-glycoprotein-mediated transport: comparison with the effects on CYP3A4. Pharm Res. 2000 Oct;17(10):1189-97. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11145223">PubMed:11145223</a>] </li>
-                      <li id="reference-A175354">Darvari R, Boroujerdi M: Concentration dependency of modulatory effect of amlodipine on P-glycoprotein efflux activity of doxorubicin--a comparison with tamoxifen. J Pharm Pharmacol. 2004 Aug;56(8):985-91. doi: 10.1211/0022357043941. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/15285842">PubMed:15285842</a>] </li>
-                      <li id="reference-A175357">Kuzuya T, Kobayashi T, Moriyama N, Nagasaka T, Yokoyama I, Uchida K, Nakao A, Nabeshima T: Amlodipine, but not MDR1 polymorphisms, alters the pharmacokinetics of cyclosporine A in Japanese kidney transplant recipients. Transplantation. 2003 Sep 15;76(5):865-8. doi: 10.1097/01.TP.0000084873.20157.67. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/14501869">PubMed:14501869</a>] </li>
-                      <li id="reference-A175360">Kim KA, Park PW, Park JY: Effect of ABCB1 (MDR1) haplotypes derived from G2677T/C3435T on the pharmacokinetics of amlodipine in healthy subjects. Br J Clin Pharmacol. 2007 Jan;63(1):53-8. doi: 10.1111/j.1365-2125.2006.02733.x. Epub 2006 Jul 21. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16869811">PubMed:16869811</a>] </li>
+                      <li id="reference-A16130">Katoh M, Nakajima M, Yamazaki H, Yokoi T: Inhibitory potencies of 1,4-dihydropyridine calcium antagonists to P-glycoprotein-mediated transport: comparison with the effects on CYP3A4. Pharm Res. 2000 Oct;17(10):1189-97. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/11145223">PubMed:11145223</a>] </li>
+                      <li id="reference-A175354">Darvari R, Boroujerdi M: Concentration dependency of modulatory effect of amlodipine on P-glycoprotein efflux activity of doxorubicin--a comparison with tamoxifen. J Pharm Pharmacol. 2004 Aug;56(8):985-91. doi: 10.1211/0022357043941. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/15285842">PubMed:15285842</a>] </li>
+                      <li id="reference-A175357">Kuzuya T, Kobayashi T, Moriyama N, Nagasaka T, Yokoyama I, Uchida K, Nakao A, Nabeshima T: Amlodipine, but not MDR1 polymorphisms, alters the pharmacokinetics of cyclosporine A in Japanese kidney transplant recipients. Transplantation. 2003 Sep 15;76(5):865-8. doi: 10.1097/01.TP.0000084873.20157.67. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/14501869">PubMed:14501869</a>] </li>
+                      <li id="reference-A175360">Kim KA, Park PW, Park JY: Effect of ABCB1 (MDR1) haplotypes derived from G2677T/C3435T on the pharmacokinetics of amlodipine in healthy subjects. Br J Clin Pharmacol. 2007 Jan;63(1):53-8. doi: 10.1111/j.1365-2125.2006.02733.x. Epub 2006 Jul 21. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16869811">PubMed:16869811</a>] </li>
                     </ol>
                   </div>
                 </div>
