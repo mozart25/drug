@@ -41,7 +41,7 @@ class Search extends React.Component {
         </main>
 
         <footer className="footer-wrapper">
-          <div className="row">
+          <div className="footer-row">
             <div className="footer-domain">
               <h1 className="footer-brand">BioAI</h1>
               <p className="introduce">
