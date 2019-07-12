@@ -9,43 +9,7 @@ class Escitalopram extends React.Component {
       <header className="header-bg">
         <Navigation />
       </header>
-
-
       <div className="content-container">
-        <div id="jumper-tab">
-          <div className="jumper-toggle drugbank-icon icon-double-arrow-left">
-            <svg className="icon" role="img" title="double-arrow-left">
-              <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-left"> </use>
-            </svg>
-          </div>
-        </div>
-        <div className="list-group closed" id="jumper">
-          <div className="list-group-item jumper-header d-flex justify-content-between align-items-center">Jump to section
-            <div className="jumper-toggle drugbank-icon icon-double-arrow-right">
-              <svg className="icon" role="img" title="double-arrow-right">
-                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-right"> </use>
-              </svg>
-            </div>
-          </div>
-          <a className="list-group-item jumper-link" href="#identification">
-            <div className="circle" />Identification</a>
-          <a className="list-group-item jumper-link" href="#pharmacology">
-            <div className="circle" />Pharmacology</a>
-          <a className="list-group-item jumper-link" href="#interactions">
-            <div className="circle" />Interactions</a>
-          <a className="list-group-item jumper-link" href="#references">
-            <div className="circle" />References</a>
-          <a className="list-group-item jumper-link" href="#clinical-trials">
-            <div className="circle" />Trials</a>
-          <a className="list-group-item jumper-link" href="#pharmacoeconomics">
-            <div className="circle" />Economics</a>
-          <a className="list-group-item jumper-link" href="#properties">
-            <div className="circle" />Properties</a>
-          <a className="list-group-item jumper-link" href="#spectra">
-            <div className="circle" />Spectra</a>
-          <a className="list-group-item jumper-link" href="#taxonomy">
-            <div className="circle" />Taxonomy</a>
-        </div>
         <div className="content-header d-sm-flex align-items-center">
           <h1 className="align-self-center mr-4">Escitalopram</h1>
           <div className="page-actions justify-content-sm-end mt-2 mt-sm-0">
@@ -55,63 +19,18 @@ class Escitalopram extends React.Component {
         <div className="card-content px-md-4 px-sm-2 pb-md-4 pb-sm-2">
           <h2 id="identification" className="section-header">Identification</h2>
           <dl>
-            <a target="_blank" id="targeted-ad" className="track-link" href="https://drugbankplus.com/">
-              <div className="targeted-ad-box">
-                <div className="image-row"><img height={15} src="/assets/logo-pink-bd7264e3b993f48d681445728e394507ac912eb6e426e52c6d3230a78dae4bc6.svg" alt="Logo pink" /></div>
-                <div className="lead title">Are you a</div>
-                <div className="focus title">new drug developer?</div>
-                <div className="subtitle">
-                  <div>Contact us to learn more about our customized products and solutions.</div>
-                </div>
-              </div>
-            </a><dt className="col-md-2 col-sm-4">Name</dt>
+            <dt className="col-md-2 col-sm-4">Name</dt>
             <dd className="col-md-10 col-sm-8">Escitalopram</dd><dt className="col-md-2 col-sm-4">Accession Number</dt>
             <dd className="col-md-10 col-sm-8">DB01175&nbsp; (APRD00683) </dd><dt className="col-md-2 col-sm-4">Type</dt>
             <dd className="col-md-10 col-sm-8">Small Molecule</dd><dt className="col-md-2 col-sm-4">Groups</dt>
             <dd className="col-md-10 col-sm-8">Approved, Investigational</dd><dt className="col-md-2 col-sm-4">Description</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Escitalopram, the <i>S</i>-enantiomer of citalopram, belongs to a class of antidepressant agents known as selective serotonin-reuptake inhibitors (SSRIs). Despite distinct structural differences between compounds in this class, SSRIs possess similar pharmacological activity. As with other antidepressant agents, several weeks of therapy may be required before a clinical effect is seen. SSRIs are potent inhibitors of neuronal serotonin reuptake. They have little to no effect on norepinephrine or dopamine reuptake and do not antagonize α- or β-adrenergic, dopamine D<sub>2</sub> or histamine H<sub>1</sub> receptors. During acute use, SSRIs block serotonin reuptake and increase serotonin stimulation of somatodendritic 5-HT<sub>1A</sub> and terminal autoreceptors. Chronic use leads to desensitization of somatodendritic 5-HT<sub>1A</sub> and terminal autoreceptors. The overall clinical effect of increased mood and decreased anxiety is thought to be due to adaptive changes in neuronal function that leads to enhanced serotonergic neurotransmission. Side effects include dry mouth, nausea, dizziness, drowsiness, sexual dysfunction and headache. Side effects generally occur within the first two weeks of therapy and are usually less severe and frequent than those observed with tricyclic antidepressants. Escitalopram may be used to treat major depressive disorder (MDD) and generalized anxiety disorder (GAD).</p>
-            </dd><dt className="col-md-2 col-sm-4">Structure</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Structure</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="structure">
                 <a className="moldbi-vector-thumbnail" href="/structures/DB01175/image.svg"><img src="/structures/DB01175/thumb.svg" alt="Thumb" /></a>
-              </div>
-              <div className="structure-links">
-                <div className="btn-group btn-group-sm" data-no-turbolink>
-                  <a data-toggle="modal" className="btn btn-outline-secondary" rel="nofollow" href="#structure-zoom">
-                    <div className="drugbank-icon icon-zoom-in">
-                      <svg className="icon" role="img" title="zoom-in">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#zoom-in"> </use>
-                      </svg>
-                    </div>
-                  </a><a className="btn btn-outline-secondary" rel="nofollow" href="/structures/small_molecule_drugs/DB01175">3D</a>
-                  <div className="btn-group btn-group-sm" id="structure-download">
-                    <button aria-expanded="false" aria-haspopup="true" className="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" id="structure-download" type="button">Download </button>
-                    <div aria-labelledby="structure-download" className="dropdown-menu"><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB01175.mol">MOL</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB01175.sdf">SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB01175.sdf?type=3d">3D-SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB01175.pdb">PDB</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB01175.smiles">SMILES</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB01175.inchi">InChI</a></div>
-                  </div>
-                  <a className="btn btn-outline-secondary" rel="nofollow" href="/structures/search/small_molecule_drugs/structure?database_id=DB01175&search_type=similarity#results">
-                    <div className="drugbank-icon icon-chemquery">
-                      <svg className="icon" role="img" title="chemquery">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#chemquery"> </use>
-                      </svg>
-                    </div> Similar Structures</a>
-                </div>
-                <div className="modal fade" id="structure-zoom">
-                  <div className="modal-dialog modal-lg" role="document">
-                    <div className="modal-content">
-                      <div className="modal-header">
-                        <h4 className="modal-title">Structure for Escitalopram (DB01175)</h4>
-                        <button aria-hidden="true" className="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
-                      </div>
-                      <div className="modal-body">
-                        <div className="d-flex justify-content-center"><img src="/structures/DB01175/image.svg" alt="Image" /></div>
-                      </div>
-                      <div className="modal-footer">
-                        <button className="btn btn-default" data-dismiss="modal" type="button"> Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </dd><dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
@@ -129,806 +48,8 @@ class Escitalopram extends React.Component {
                 <li>S-(+)-Citalopram</li>
                 <li>S(+)-Citalopram</li>
               </ul>
-            </dd><dt className="col-md-2 col-sm-4">Product Ingredients <a tabIndex={0} role="button" data-toggle="popover" data-content="Active ingredients including salts and other forms of exact ingredients used in drug products." title id="product-ingredients-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Product Ingredients"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
-            <dd className="col-md-10 col-sm-8">
-              <table className="table table-sm responsive-table" id="drug-salts-table">
-                <thead>
-                  <tr>
-                    <th>Ingredient</th>
-                    <th>UNII</th>
-                    <th>CAS</th>
-                    <th>InChI Key</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong><a href="/salts/DBSALT002455">Escitalopram oxalate</a></strong></td>
-                    <td><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=5U85DBW7LO">5U85DBW7LO</a></td>
-                    <td>219861-08-2</td>
-                    <td>KTGRHKOEFSJQNS-BDQAORGHSA-N</td>
-                  </tr>
-                </tbody>
-              </table>
-            </dd><dt className="col-md-2 col-sm-4">Product Images</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="product-carousel-row" style={{maxWidth: '592px'}}>
-                <div className="carousel slide" data-active="true" id="product-carousel">
-                  <ol className="carousel-indicators">
-                    <li className="active" data-slide-to={0} data-target="#product-carousel" />
-                    <li data-slide-to={1} data-target="#product-carousel" />
-                    <li data-slide-to={2} data-target="#product-carousel" />
-                    <li data-slide-to={3} data-target="#product-carousel" />
-                    <li data-slide-to={4} data-target="#product-carousel" />
-                    <li data-slide-to={5} data-target="#product-carousel" />
-                    <li data-slide-to={6} data-target="#product-carousel" />
-                    <li data-slide-to={7} data-target="#product-carousel" />
-                    <li data-slide-to={8} data-target="#product-carousel" />
-                    <li data-slide-to={9} data-target="#product-carousel" />
-                    <li data-slide-to={10} data-target="#product-carousel" />
-                  </ol>
-                  <div className="carousel-inner">
-                    <div className="carousel-item w-100 active">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-5850-01_NLMIMAGE10_852BC2AE.jpg?1498431326" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-5850-01_NLMIMAGE10_852BC2AE.jpg?1498431326" data-description="Escitalopram 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-5850-01_NLMIMAGE10_852BC2AE.jpg?1498431326" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-5852-01_NLMIMAGE10_512BA8FD.jpg?1498431332" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-5852-01_NLMIMAGE10_512BA8FD.jpg?1498431332" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-5852-01_NLMIMAGE10_512BA8FD.jpg?1498431332" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-585120180907-15195-uyib98.jpg?1536299618" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-585120180907-15195-uyib98.jpg?1536299618" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-585120180907-15195-uyib98.jpg?1536299618" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-585020180907-15195-1x8gjmo.jpg?1536300445" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-585020180907-15195-1x8gjmo.jpg?1536300445" data-description="Escitalopram 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-585020180907-15195-1x8gjmo.jpg?1536300445" /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/64725-170020180907-15195-1wh60vl.jpg?1536301663" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/64725-170020180907-15195-1wh60vl.jpg?1536301663" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/64725-170020180907-15195-1wh60vl.jpg?1536301663" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-469920180907-15195-15novho.jpg?1536303372" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-469920180907-15195-15novho.jpg?1536303372" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-469920180907-15195-15novho.jpg?1536303372" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-534920180907-15195-i3a0fc.jpg?1536303396" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-534920180907-15195-i3a0fc.jpg?1536303396" data-description="Escitalopram 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-534920180907-15195-i3a0fc.jpg?1536303396" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50436-005320180907-15195-13p4m00.jpg?1536304711" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50436-005320180907-15195-13p4m00.jpg?1536304711" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50436-005320180907-15195-13p4m00.jpg?1536304711" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50436-585120180913-8702-njw9ln.jpg?1536862203" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50436-585120180913-8702-njw9ln.jpg?1536862203" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50436-585120180913-8702-njw9ln.jpg?1536862203" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-5851-01_NLMIMAGE10_812BC09E.jpg?1498431329" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-5851-01_NLMIMAGE10_812BC09E.jpg?1498431329" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-5851-01_NLMIMAGE10_812BC09E.jpg?1498431329" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-971420180913-8702-1311lfj.jpg?1536866689" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-971420180913-8702-1311lfj.jpg?1536866689" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-971420180913-8702-1311lfj.jpg?1536866689" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-678320180913-8702-nretfc.jpg?1536866720" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-678320180913-8702-nretfc.jpg?1536866720" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-678320180913-8702-nretfc.jpg?1536866720" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-640320180913-8702-ekfpfg.jpg?1536866726" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-640320180913-8702-ekfpfg.jpg?1536866726" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-640320180913-8702-ekfpfg.jpg?1536866726" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-945620180913-8702-1rz12wk.jpg?1536866731" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-945620180913-8702-1rz12wk.jpg?1536866731" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-945620180913-8702-1rz12wk.jpg?1536866731" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/16729-0168-01_NLMIMAGE10_F946FCE7.jpg?1498438182" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/16729-0168-01_NLMIMAGE10_F946FCE7.jpg?1498438182" data-description="Escitalopram 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/16729-0168-01_NLMIMAGE10_F946FCE7.jpg?1498438182" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/16729-0170-17_NLMIMAGE10_9E48CF36.jpg?1498438184" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/16729-0170-17_NLMIMAGE10_9E48CF36.jpg?1498438184" data-description="Not available" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/16729-0170-17_NLMIMAGE10_9E48CF36.jpg?1498438184" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-468820180913-8702-10q5una.jpg?1536864543" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-468820180913-8702-10q5una.jpg?1536864543" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-468820180913-8702-10q5una.jpg?1536864543" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50436-017020180907-15195-1bqseh0.jpg?1536301085" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50436-017020180907-15195-1bqseh0.jpg?1536301085" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50436-017020180907-15195-1bqseh0.jpg?1536301085" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0373-01_NLMIMAGE10_1E4A0F40.jpg?1498438386" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0373-01_NLMIMAGE10_1E4A0F40.jpg?1498438386" data-description="Escitalopram 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0373-01_NLMIMAGE10_1E4A0F40.jpg?1498438386" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0374-01_NLMIMAGE10_144A0A00.jpg?1498438389" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0374-01_NLMIMAGE10_144A0A00.jpg?1498438389" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0374-01_NLMIMAGE10_144A0A00.jpg?1498438389" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-193020180913-8702-17s8exi.jpg?1536864409" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-193020180913-8702-17s8exi.jpg?1536864409" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-193020180913-8702-17s8exi.jpg?1536864409" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-219620180913-8702-13m9zeu.jpg?1536864411" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-219620180913-8702-13m9zeu.jpg?1536864411" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-219620180913-8702-13m9zeu.jpg?1536864411" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0093-585020180913-8702-ttkd5r.jpg?1536862628" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0093-585020180913-8702-ttkd5r.jpg?1536862628" data-description="Escitalopram 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0093-585020180913-8702-ttkd5r.jpg?1536862628" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0093-585120180913-8702-7guogx.jpg?1536862630" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0093-585120180913-8702-7guogx.jpg?1536862630" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0093-585120180913-8702-7guogx.jpg?1536862630" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0093-585220180913-8702-n4whm5.jpg?1536862632" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0093-585220180913-8702-n4whm5.jpg?1536862632" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0093-585220180913-8702-n4whm5.jpg?1536862632" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-637520180907-15195-163q2ud.jpg?1536293266" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-637520180907-15195-163q2ud.jpg?1536293266" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-637520180907-15195-163q2ud.jpg?1536293266" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-637620180907-15195-7iko7e.jpg?1536293269" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-637620180907-15195-7iko7e.jpg?1536293269" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-637620180907-15195-7iko7e.jpg?1536293269" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/13668-0136-05_NLMIMAGE10_02470138.jpg?1498438134" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/13668-0136-05_NLMIMAGE10_02470138.jpg?1498438134" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/13668-0136-05_NLMIMAGE10_02470138.jpg?1498438134" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-127920180913-8702-mo09aj.jpg?1536864654" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-127920180913-8702-mo09aj.jpg?1536864654" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-127920180913-8702-mo09aj.jpg?1536864654" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00378-3855-77_NLMIMAGE10_FB1C7D93.jpg?1498431340" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00378-3855-77_NLMIMAGE10_FB1C7D93.jpg?1498431340" data-description="Escitalopram 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00378-3855-77_NLMIMAGE10_FB1C7D93.jpg?1498431340" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00378-3856-77_NLMIMAGE10_F71C7BE3.jpg?1498431335" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00378-3856-77_NLMIMAGE10_F71C7BE3.jpg?1498431335" data-description="Escitalopram 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00378-3856-77_NLMIMAGE10_F71C7BE3.jpg?1498431335" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00378-3857-77_NLMIMAGE10_FD1C7EE3.jpg?1498431337" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00378-3857-77_NLMIMAGE10_FD1C7EE3.jpg?1498431337" data-description="Escitalopram 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00378-3857-77_NLMIMAGE10_FD1C7EE3.jpg?1498431337" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65162-02120180913-8702-1yky9ji.jpg?1536862702" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65162-02120180913-8702-1yky9ji.jpg?1536862702" data-description="Phenytoin sodium 100 MG Extended Release Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65162-02120180913-8702-1yky9ji.jpg?1536862702" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-470020180907-15195-1c9bgns.jpg?1536291154" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-470020180907-15195-1c9bgns.jpg?1536291154" data-description="Escitalopram 10 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-470020180907-15195-1c9bgns.jpg?1536291154" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00456-2020-01_NLMIMAGE10_C2466113.jpg?1498431343" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00456-2020-01_NLMIMAGE10_C2466113.jpg?1498431343" data-description="Escitalopram 20 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00456-2020-01_NLMIMAGE10_C2466113.jpg?1498431343" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-461420180907-15195-n1yiq5.jpg?1536292867" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-461420180907-15195-n1yiq5.jpg?1536292867" data-description="Escitalopram 10 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-461420180907-15195-n1yiq5.jpg?1536292867" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-461620180907-15195-1bjk65g.jpg?1536292870" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-461620180907-15195-1bjk65g.jpg?1536292870" data-description="Escitalopram 20 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-461620180907-15195-1bjk65g.jpg?1536292870" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-461920180907-15195-ewmc22.jpg?1536295409" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-461920180907-15195-ewmc22.jpg?1536295409" data-description="Escitalopram 10 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-461920180907-15195-ewmc22.jpg?1536295409" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-462020180907-15195-1f82v08.jpg?1536295411" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-462020180907-15195-1f82v08.jpg?1536295411" data-description="Escitalopram 20 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-462020180907-15195-1f82v08.jpg?1536295411" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-331820180907-15195-10e8nd2.jpg?1536303079" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-331820180907-15195-10e8nd2.jpg?1536303079" data-description="Escitalopram 10 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-331820180907-15195-10e8nd2.jpg?1536303079" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00456-2010-01_NLMIMAGE10_5C1B2E29.jpg?1498431346" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00456-2010-01_NLMIMAGE10_5C1B2E29.jpg?1498431346" data-description="Escitalopram 10 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00456-2010-01_NLMIMAGE10_5C1B2E29.jpg?1498431346" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-298120180913-8702-y9pjbp.jpg?1536863150" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-298120180913-8702-y9pjbp.jpg?1536863150" data-description="Escitalopram 20 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-298120180913-8702-y9pjbp.jpg?1536863150" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0456-201020180913-8702-1kfk25h.jpg?1536863497" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0456-201020180913-8702-1kfk25h.jpg?1536863497" data-description="Escitalopram 10 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0456-201020180913-8702-1kfk25h.jpg?1536863497" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0456-202020180913-8702-19jkrc1.jpg?1536863499" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0456-202020180913-8702-19jkrc1.jpg?1536863499" data-description="Escitalopram 20 MG Oral Tablet [Lexapro]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0456-202020180913-8702-19jkrc1.jpg?1536863499" src /></a>
-                    </div>
-                  </div><a className="carousel-control-prev" data-slide="prev" href="#product-carousel" role="button"><span aria-hidden="true" className="carousel-control-prev-icon" /><span className="sr-only">Previous</span></a><a className="carousel-control-next" data-slide="next" href="#product-carousel" role="button"><span aria-hidden="true" className="carousel-control-next-icon" /><span className="sr-only">Next</span></a></div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Prescription Products</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="approved-products_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="approved-products_length">
-                      <label>Show
-                        <select name="approved-products_length" aria-controls="approved-products" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="approved-products_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="approved-products" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline collapsed" data-source="/drugs/DB01175/products.json?group=approved" data-total={64} id="approved-products" style={{width: '100%'}} role="grid" aria-describedby="approved-products_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '88.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '72.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '70.2px'}} aria-label="Strength: activate to sort column ascending">Strength</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '69.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '0px', display: 'none'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={9} rowSpan={1}>
-                            <div className="locked-link" data-field="approved-products" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Act Escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>5 mg</td>
-                          <td>Oral</td>
-                          <td>Teva</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Act Escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Teva</td>
-                          <td>2014-09-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Act Escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Teva</td>
-                          <td>2014-09-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Act Escitalopram ODT</strong></td>
-                          <td>Tablet, orally disintegrating</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2016-08-17</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Act Escitalopram ODT</strong></td>
-                          <td>Tablet, orally disintegrating</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2016-08-17</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Cipralex -10mg</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Lundbeck Inc.</td>
-                          <td>2005-02-14</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Cipralex -15mg</strong></td>
-                          <td>Tablet</td>
-                          <td>15 mg</td>
-                          <td>Oral</td>
-                          <td>Lundbeck Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Cipralex -20mg</strong></td>
-                          <td>Tablet</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Lundbeck Inc.</td>
-                          <td>2005-02-14</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Cipralex -5mg</strong></td>
-                          <td>Tablet</td>
-                          <td>5 mg</td>
-                          <td>Oral</td>
-                          <td>Lundbeck Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Cipralex Meltz</strong></td>
-                          <td>Tablet, orally disintegrating</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Lundbeck Inc.</td>
-                          <td>2012-10-04</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="approved-products_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="approved-products_info" role="status" aria-live="polite">Showing 1 to 10 of 64 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="approved-products_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="approved-products_previous"><a href="#" aria-controls="approved-products" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="approved-products" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={6} tabIndex={0} className="page-link">6</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={7} tabIndex={0} className="page-link">7</a></li>
-                        <li className="paginate_button page-item next" id="approved-products_next"><a href="#" aria-controls="approved-products" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#approved-products">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Application Number
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Application Number</div>
-                              <p>A unique ID assigned by the FDA when a product is submitted for approval by the labeller.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/approved-products-application-number" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Product Code
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Product Code</div>
-                              <p>A governmentally-recognized ID which uniquely identifies the product within its regulatory market.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/approved-products-product-code" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Generic Prescription Products</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="generic-products_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="generic-products_length">
-                      <label>Show
-                        <select name="generic-products_length" aria-controls="generic-products" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="generic-products_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="generic-products" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline collapsed" data-source="/drugs/DB01175/products.json?group=generic" data-total={286} id="generic-products" style={{width: '100%'}} role="grid" aria-describedby="generic-products_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '89.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '70.2px'}} aria-label="Strength: activate to sort column ascending">Strength</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '84.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '0px', display: 'none'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={9} rowSpan={1}>
-                            <div className="locked-link" data-field="generic-products" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Ach-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Accord Healthcare Limited</td>
-                          <td>2016-06-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Ach-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Accord Healthcare Limited</td>
-                          <td>2016-06-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Ag-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>15 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Ag-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td>2018-09-06</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Ag-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>5 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Ag-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td>2018-09-06</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Apo-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2014-09-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Apo-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2014-09-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Auro-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>15 mg</td>
-                          <td>Oral</td>
-                          <td>Auro Pharma Inc</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Auro-escitalopram</strong></td>
-                          <td>Tablet</td>
-                          <td>20 mg</td>
-                          <td>Oral</td>
-                          <td>Auro Pharma Inc</td>
-                          <td>2014-09-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="generic-products_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="generic-products_info" role="status" aria-live="polite">Showing 1 to 10 of 286 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="generic-products_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="generic-products_previous"><a href="#" aria-controls="generic-products" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="generic-products" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="generic-products_ellipsis"><a href="#" aria-controls="generic-products" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={7} tabIndex={0} className="page-link">29</a></li>
-                        <li className="paginate_button page-item next" id="generic-products_next"><a href="#" aria-controls="generic-products" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#generic-products">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Application Number
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Application Number</div>
-                              <p>A unique ID assigned by the FDA when a product is submitted for approval by the labeller.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/generic-products-application-number" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Product Code
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Product Code</div>
-                              <p>A governmentally-recognized ID which uniquely identifies the product within its regulatory market.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/generic-products-product-code" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Mixture Products</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_2_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_2_length">
-                      <label>Show
-                        <select name="DataTables_Table_2_length" aria-controls="DataTables_Table_2" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_2_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_2" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB01175/products.json?group=mixtures" data-total={1} style={{width: '100%'}} id="DataTables_Table_2" role="grid" aria-describedby="DataTables_Table_2_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '41.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="no-sort sorting_disabled" rowSpan={1} colSpan={1} style={{width: '145.4px'}} aria-label="Ingredients">Ingredients</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '87.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>PramLyte</strong></td>
-                          <td><a href="/salts/DBSALT002455">Escitalopram oxalate</a> <span className="text-muted">(10 mg/1)</span> + <a href="/salts/DBSALT002728">1,2-docosahexanoyl-sn-glycero-3-phosphoserine calcium</a> <span className="text-muted">(6.4 mg/1)</span> + <a href="/salts/DBSALT002729">1,2-icosapentoyl-sn-glycero-3-phosphoserine calcium</a> <span className="text-muted">(800 ug/1)</span> + <a href="/salts/DBSALT001502">Citric acid monohydrate</a> <span className="text-muted">(1.83 mg/1)</span> + <a href="/drugs/DB11191">Cobamamide</a> <span className="text-muted">(50 ug/1)</span> + <a href="/drugs/DB01987">Cocarboxylase</a> <span className="text-muted">(25 ug/1)</span> + <a href="/drugs/DB11197">Ferrous cysteine glycinate</a> <span className="text-muted">(13.6 mg/1)</span> + <a href="/drugs/DB03147">Flavin adenine dinucleotide</a> <span className="text-muted">(25 ug/1)</span> + <a href="/drugs/DB00158">Folic acid</a> <span className="text-muted">(1 mg/1)</span> + <a href="/drugs/DB06756">Glycine betaine</a> <span className="text-muted">(500 ug/1)</span> + <a href="/drugs/DB00650">Leucovorin</a> <span className="text-muted">(2.5 mg/1)</span> + <a href="/salts/DBSALT001534">Levomefolate magnesium</a> <span className="text-muted">(7 mg/1)</span> + <a href="/drugs/DB14484">Magnesium ascorbate</a> <span className="text-muted">(24 mg/1)</span> + <a href="/drugs/DB00157">NADH</a> <span className="text-muted">(25 ug/1)</span> + <a href="/drugs/DB00144">Phosphatidyl serine</a> <span className="text-muted">(12 mg/1)</span> + <a href="/drugs/DB00114">Pyridoxal phosphate</a> <span className="text-muted">(25 ug/1)</span> + <a href="/drugs/DB09154">Sodium citrate</a> <span className="text-muted">(3.67 mg/1)</span> + <a href="/drugs/DB14485">Zinc ascorbate</a> <span className="text-muted">(1 mg/1)</span></td>
-                          <td>Kit</td>
-                          <td />
-                          <td>Allegis Pharmaceuticals, LLC</td>
-                          <td>2015-09-11</td>
-                          <td>2016-01-04</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="DataTables_Table_2_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="DataTables_Table_2_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_2_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_2_previous"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="DataTables_Table_2_next"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Unapproved/Other Products <a tabIndex={0} role="button" data-toggle="popover" data-content="Products that have not been approved by a regulatory body (such as the FDA), but are still available on the market due to historical reasons." title id="unapproved-products-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Unapproved/Other Products"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_3_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_3_length">
-                      <label>Show
-                        <select name="DataTables_Table_3_length" aria-controls="DataTables_Table_3" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_3_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_3" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB01175/products.json?group=unapproved" data-total={1} style={{width: '100%'}} id="DataTables_Table_3" role="grid" aria-describedby="DataTables_Table_3_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '41.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="no-sort sorting_disabled" rowSpan={1} colSpan={1} style={{width: '145.4px'}} aria-label="Ingredients">Ingredients</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '87.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>PramLyte</strong></td>
-                          <td><a href="/salts/DBSALT002455">Escitalopram oxalate</a> <span className="text-muted">(10 mg/1)</span> + <a href="/drugs/DB00169">Cholecalciferol</a> <span className="text-muted">(1000 [iU]/1)</span> + <a href="/salts/DBSALT001534">Levomefolate magnesium</a> <span className="text-muted">(800 ug/1)</span> + <a href="/drugs/DB03614">Methylcobalamin</a> <span className="text-muted">(1000 ug/1)</span> + <a href="/drugs/DB00114">Pyridoxal phosphate</a> <span className="text-muted">(5 mg/1)</span></td>
-                          <td>Kit</td>
-                          <td />
-                          <td>Allegis Pharmaceuticals, LLC</td>
-                          <td>2015-10-12</td>
-                          <td>2017-09-09</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="DataTables_Table_3_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="DataTables_Table_3_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_3_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_3_previous"><a href="#" aria-controls="DataTables_Table_3" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_3" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="DataTables_Table_3_next"><a href="#" aria-controls="DataTables_Table_3" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">International/Other Brands</dt>
-            <dd className="col-md-10 col-sm-8"><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">Cipralex</span><span className="list-separator"> / </span><span className="separated-list-item">Esertia</span></span>
-              </span>
-            </dd><dt className="col-md-2 col-sm-4">Categories</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Categories</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
@@ -1060,55 +181,7 @@ class Escitalopram extends React.Component {
                 </tbody>
               </table>
             </dd>
-            <div className="col-sm-12 locked-section-container">
-              <div className="locked-section-flex">
-                <div className="locked-section-row locked-link" data-field="adv-cont-bb" data-target="#locked-modal" data-toggle="modal">
-                  <div className="drugbank-icon icon-lock">
-                    <svg className="icon" role="img" title="lock">
-                      <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                    </svg>
-                  </div> Unlock Additional Data</div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Adverse Effects</div>
-                      <p>Comprehensive structured data on known drug adverse effects with statistical prevalence. MedDRA and ICD10 ids are provided for adverse effect conditions and symptoms.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/adverse-effects" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Contraindications</div>
-                      <p>Structured data covering drug contraindications. Each contraindication describes a scenario in which the drug is not to be used. Includes restrictions on co-administration, contraindicated populations, and more.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/contraindications" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Blackbox Warnings</div>
-                      <p>Structured data representing warnings from the black box section of drug labels. These warnings cover important and dangerous risks, contraindications, or adverse effects.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/blackbox-warnings" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-              </div>
-            </div><dt className="col-md-2 col-sm-4">Absorption</dt>
+            <dt className="col-md-2 col-sm-4">Absorption</dt>
             <dd className="col-md-10 col-sm-8">
               <p>The absolute bioavailability of citalopram is about 80% relative to an intravenous dose.</p>
             </dd><dt className="col-md-2 col-sm-4">Volume of distribution</dt>
@@ -1332,7 +405,8 @@ class Escitalopram extends React.Component {
             </dd>
           </dl>
           <h2 id="interactions" className="section-header">Interactions</h2>
-          <dl><dt className="col-md-2 col-sm-4">Drug Interactions <a tabIndex={0} role="button" data-toggle="popover" data-content="Drug-drug interactions extracted from drug labels and scientific publications. The commercial version includes severity and basis for interaction. — <a target=&quot;_blank&quot; href=&quot;https://drugbankplus.com/data&quot;>Learn More</a>" title id="structured-interactions-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Drug Interactions"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
+          <dl>
+          <dt className="col-md-2 col-sm-4">Drug Interactions <a tabIndex={0} role="button" data-toggle="popover" data-content="Drug-drug interactions extracted from drug labels and scientific publications. The commercial version includes severity and basis for interaction. — <a target=&quot;_blank&quot; href=&quot;https://drugbankplus.com/data&quot;>Learn More</a>" title id="structured-interactions-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Drug Interactions"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="nav nav-tabs drug-interaction-tabs">
                 <li className="interactions index nav-item"><a className="toggle-row-display nav-link active" data-source="/drugs/DB01175/drug_interactions.json" href="#show-all">All Drugs</a></li>
@@ -1373,16 +447,6 @@ class Escitalopram extends React.Component {
                           <tr role="row">
                             <th className="head-sm sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '148.2px'}} aria-label="Drug: activate to sort column ascending">Drug</th>
                             <th className="sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '567.2px'}} aria-label="Interaction: activate to sort column ascending">Interaction</th>
-                          </tr>
-                          <tr className="unlock-row" role="row">
-                            <th className="no-sort" colSpan={2} rowSpan={1}>
-                              <div className="locked-link" data-field="ddi" data-target="#locked-modal" data-toggle="modal">
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div> Unlock Additional Data</div>
-                            </th>
                           </tr>
                         </thead>
                         <tbody>
@@ -1452,137 +516,9 @@ class Escitalopram extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="locked-fields-holder" data-for="#drug-interactions">
-                  <div className="locked-fields closed" data-collapsed="collapsed">
-                    <div className="locked-tab">
-                      <div className="drugbank-icon icon-lock">
-                        <svg className="icon" role="img" title="lock">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                        </svg>
-                      </div><span className="tab-label">Additional Data Available</span>
-                      <div className="drugbank-icon icon-arrow-left">
-                        <svg className="icon" role="img" title="arrow-left">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                        </svg>
-                      </div>
-                      <div className="drugbank-icon icon-arrow-right">
-                        <svg className="icon" role="img" title="arrow-right">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                        </svg>
-                      </div>
-                    </div>
-                    <ul className="locked-accordion">
-                      <div className="flex-content">
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Extended Description
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Extended Description</div>
-                                <p>Extended description of the mechanism of action and particular properties of each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-extended-description" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Severity
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Severity</div>
-                                <p>A severity rating for each drug interaction, from minor to major.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-severity" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Evidence Level
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Evidence Level</div>
-                                <p>A rating for the strength of the evidence supporting each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-evidence-level" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Action
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Action</div>
-                                <p>An effect category for each drug interaction. Know how this interaction affects the subject drug.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-action" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
               </div>
-            </dd><dt className="col-md-2 col-sm-4">Food Interactions</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Food Interactions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
                 <li>Take without regard to meals.</li>
@@ -1590,18 +526,8 @@ class Escitalopram extends React.Component {
             </dd>
           </dl>
           <h2 id="references" className="section-header">References</h2>
-          <dl><dt className="col-md-2 col-sm-4">Synthesis Reference</dt>
-            <dd className="col-md-10 col-sm-8"><span className="citations"><p>Robert Dancer, "Escitalopram hydrobromide and a method for the preparation thereof." U.S. Patent US20040167209, issued August 26, 2004.</p>
-              </span><a target="_blank" rel="noopener" href="https://www.google.com/?tbm=pts#q=20040167209&tbm=pts">US20040167209</a></dd><dt className="col-md-2 col-sm-4">General References</dt>
-            <dd className="col-md-10 col-sm-8">
-              <ol className="cite-this-references">
-                <li id="reference-A1992">Moore N, Verdoux H, Fantino B: Prospective, multicentre, randomized, double-blind study of the efficacy of escitalopram versus citalopram in outpatient treatment of major depressive disorder. Int Clin Psychopharmacol. 2005 May;20(3):131-7. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/15812262">PubMed:15812262</a>] </li>
-                <li id="reference-A1995">Boulenger JP, Huusom AK, Florea I, Baekdal T, Sarchiapone M: A comparative study of the efficacy of long-term treatment with escitalopram and paroxetine in severely depressed patients. Curr Med Res Opin. 2006 Jul;22(7):1331-41. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16834832">PubMed:16834832</a>] </li>
-                <li id="reference-A411">Bielski RJ, Ventura D, Chang CC: A double-blind comparison of escitalopram and venlafaxine extended release in the treatment of major depressive disorder. J Clin Psychiatry. 2004 Sep;65(9):1190-6. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/15367045">PubMed:15367045</a>] </li>
-                <li id="reference-A1997">Nierenberg AA, Greist JH, Mallinckrodt CH, Prakash A, Sambunaris A, Tollefson GD, Wohlreich MM: Duloxetine versus escitalopram and placebo in the treatment of patients with major depressive disorder: onset of antidepressant action, a non-inferiority study. Curr Med Res Opin. 2007 Feb;23(2):401-16. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17288694">PubMed:17288694</a>] </li>
-                <li id="reference-A1999">Chen F, Larsen MB, Sanchez C, Wiborg O: The S-enantiomer of R,S-citalopram, increases inhibitor binding to the human serotonin transporter by an allosteric mechanism. Comparison with other serotonin transporter inhibitors. Eur Neuropsychopharmacol. 2005 Mar;15(2):193-8. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/15695064">PubMed:15695064</a>] </li>
-              </ol>
-            </dd><dt className="col-md-2 col-sm-4">External Links</dt>
+          <dl>
+            <dt className="col-md-2 col-sm-4">External Links</dt>
             <dd className="col-md-10 col-sm-8">
               <dl><dt className="col-md-4 col-sm-5">Human Metabolome Database</dt>
                 <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.hmdb.ca/metabolites/HMDB0005028">HMDB0005028</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
@@ -1771,38 +697,8 @@ class Escitalopram extends React.Component {
             </dd>
           </dl>
           <h2 id="pharmacoeconomics" className="section-header">Pharmacoeconomics</h2>
-          <dl><dt className="col-md-2 col-sm-4">Manufacturers</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="manufacturer-columns"><span className="not-available">Not Available</span></div>
-            </dd><dt className="col-md-2 col-sm-4">Packagers</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="packager-columns">
-                <ul className="list-unstyled table-list">
-                  <li>AQ Pharmaceuticals Inc.</li>
-                  <li>A-S Medication Solutions LLC</li>
-                  <li>Atlantic Biologicals Corporation</li>
-                  <li>Bryant Ranch Prepack</li>
-                  <li>Cardinal Health</li>
-                  <li>Direct Pharmaceuticals Inc.</li>
-                  <li>Diversified Healthcare Services Inc.</li>
-                  <li>Forest Laboratories Inc.</li>
-                  <li>Forest Pharmaceuticals</li>
-                  <li>Heartland Repack Services LLC</li>
-                  <li>Innoviant Pharmacy Inc.</li>
-                  <li>Lake Erie Medical and Surgical Supply</li>
-                  <li>Lundbeck Inc.</li>
-                  <li>PD-Rx Pharmaceuticals Inc.</li>
-                  <li>Physicians Total Care Inc.</li>
-                  <li>Prepak Systems Inc.</li>
-                  <li>Rebel Distributors Corp.</li>
-                  <li>Remedy Repack</li>
-                  <li>Resource Optimization and Innovation LLC</li>
-                  <li>Southwood Pharmaceuticals</li>
-                  <li>Stat Rx Usa</li>
-                  <li>Vangard Labs Inc.</li>
-                </ul>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Dosage forms</dt>
+          <dl>
+            <dt className="col-md-2 col-sm-4">Dosage forms</dt>
             <dd className="col-md-10 col-sm-8">
               <div id="dosages_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                 <div className="row">
@@ -1906,240 +802,11 @@ class Escitalopram extends React.Component {
                   </div>
                 </div>
               </div>
-            </dd><dt className="col-md-2 col-sm-4">Prices</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="prices_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="prices_length">
-                      <label>Show
-                        <select name="prices_length" aria-controls="prices" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="prices_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="prices" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="table table-sm datatable dataTable no-footer" id="prices" role="grid" aria-describedby="prices_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Unit description: activate to sort column ascending" style={{width: '443.203px'}}>Unit description</th>
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Cost: activate to sort column ascending" style={{width: '139.203px'}}>Cost</th>
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Unit: activate to sort column ascending" style={{width: '135.203px'}}>Unit</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td>Lexapro 20 mg tablet</td>
-                          <td>3.71USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Lexapro 10 mg tablet</td>
-                          <td>3.55USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Lexapro 5 mg tablet</td>
-                          <td>3.4USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Lexapro 5 mg/5ml Solution</td>
-                          <td>0.72USD </td>
-                          <td>ml</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="prices_info" role="status" aria-live="polite">Showing 1 to 4 of 4 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="prices_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="prices_previous"><a href="#" aria-controls="prices" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="prices" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="prices_next"><a href="#" aria-controls="prices" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="alert alert-warning clearfix price-alert"><span className="glyphicon glyphicon-info-sign"> </span> DrugBank does not sell nor buy drugs. Pricing information is supplied for informational purposes only. </div>
-            </dd><dt className="col-md-2 col-sm-4">Patents</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="patents_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="patents_length">
-                      <label>Show
-                        <select name="patents_length" aria-controls="patents" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="patents_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="patents" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="table table-sm datatable dt-responsive dataTable no-footer dtr-inline" id="patents" style={{width: '100%'}} role="grid" aria-describedby="patents_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '143.2px'}} aria-label="Patent Number: activate to sort column ascending">Patent Number</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '187.2px'}} aria-label="Pediatric Extension: activate to sort column ascending">Pediatric Extension</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '92.2px'}} aria-label="Approved: activate to sort column ascending">Approved</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '181.2px'}} aria-label="Expires (estimated): activate to sort column ascending">Expires (estimated)</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '7.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={5} rowSpan={1}>
-                            <div className="locked-link" data-field="patents" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/USRE34712">USRE34712</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>1994-08-30</td>
-                          <td>2011-09-14</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA2373757">CA2373757</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2010-01-05</td>
-                          <td>2020-07-07</td>
-                          <td className="country"><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA1339452">CA1339452</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>1997-09-09</td>
-                          <td>2014-09-09</td>
-                          <td className="country"><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US7420069">US7420069</a></td>
-                          <td><span className="badge badge-primary badge-pill ">Yes</span></td>
-                          <td>2008-09-02</td>
-                          <td>2023-02-12</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6916941">US6916941</a></td>
-                          <td><span className="badge badge-primary badge-pill ">Yes</span></td>
-                          <td>2005-07-12</td>
-                          <td>2023-02-12</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="patents_info" role="status" aria-live="polite">Showing 1 to 5 of 5 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="patents_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="patents_previous"><a href="#" aria-controls="patents" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="patents" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="patents_next"><a href="#" aria-controls="patents" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#patents">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab condensed">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Filed On
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Filed On</div>
-                              <p>The date on which a patent was filed with the relevant government.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/patents-filed-on" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
             </dd>
           </dl>
           <h2 id="properties" className="section-header">Properties</h2>
-          <dl><dt className="col-md-2 col-sm-4">State</dt>
+          <dl>
+          <dt className="col-md-2 col-sm-4">State</dt>
             <dd className="col-md-10 col-sm-8">Solid</dd><dt className="col-md-2 col-sm-4">Experimental Properties</dt>
             <dd className="col-md-10 col-sm-8">
               <table className="table table-sm table-bordered" id="experimental-properties">
@@ -2520,17 +1187,9 @@ class Escitalopram extends React.Component {
                 </div>
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P31645">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a>
+                    Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0000749-binding-properties" data-toggle="modal" type="button">
-                    <div className="drugbank-icon icon-details">
-                      <svg className="icon" role="img" title="details">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#details"> </use>
-                      </svg>
-                    </div> <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P31645">Sodium-dependent serotonin transporter</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P31645">Sodium-dependent serotonin transporter</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2574,11 +1233,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0000647">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q01959">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/Q01959">Sodium-dependent dopamine transporter</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/Q01959">Sodium-dependent dopamine transporter</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2615,11 +1270,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0000486">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P23975">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>3. <a href="/polypeptides/P23975">Sodium-dependent noradrenaline transporter</a></strong></div>
+                    Details</a><strong>3. <a href="/polypeptides/P23975">Sodium-dependent noradrenaline transporter</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2656,11 +1307,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0000501">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35348">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>4. <a href="/polypeptides/P35348">Alpha-1A adrenergic receptor</a></strong></div>
+                    Details</a><strong>4. <a href="/polypeptides/P35348">Alpha-1A adrenergic receptor</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2698,11 +1345,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0000092">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11229">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>5. <a href="/polypeptides/P11229">Muscarinic acetylcholine receptor M1</a></strong></div>
+                    Details</a><strong>5. <a href="/polypeptides/P11229">Muscarinic acetylcholine receptor M1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2739,11 +1382,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0000442">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35367">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>6. <a href="/polypeptides/P35367">Histamine H1 receptor</a></strong></div>
+                    Details</a><strong>6. <a href="/polypeptides/P35367">Histamine H1 receptor</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2786,11 +1425,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                    Details</a><strong>1. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2829,11 +1464,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0003536">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P33261">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/P33261">Cytochrome P450 2C19</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/P33261">Cytochrome P450 2C19</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2871,11 +1502,7 @@ class Escitalopram extends React.Component {
               <div className="bond card" id="BE0002363">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10635">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>3. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
+                    Details</a><strong>3. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">

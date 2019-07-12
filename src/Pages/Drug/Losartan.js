@@ -11,40 +11,6 @@ class Losartan extends React.Component {
       </header>
 
       <div className="content-container">
-        <div id="jumper-tab">
-          <div className="jumper-toggle drugbank-icon icon-double-arrow-left">
-            <svg className="icon" role="img" title="double-arrow-left">
-              <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-left"> </use>
-            </svg>
-          </div>
-        </div>
-        <div className="list-group closed" id="jumper">
-          <div className="list-group-item jumper-header d-flex justify-content-between align-items-center">Jump to section
-            <div className="jumper-toggle drugbank-icon icon-double-arrow-right">
-              <svg className="icon" role="img" title="double-arrow-right">
-                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-right"> </use>
-              </svg>
-            </div>
-          </div>
-          <a className="list-group-item jumper-link" href="#identification">
-            <div className="circle" />Identification</a>
-          <a className="list-group-item jumper-link" href="#pharmacology">
-            <div className="circle" />Pharmacology</a>
-          <a className="list-group-item jumper-link" href="#interactions">
-            <div className="circle" />Interactions</a>
-          <a className="list-group-item jumper-link" href="#references">
-            <div className="circle" />References</a>
-          <a className="list-group-item jumper-link" href="#clinical-trials">
-            <div className="circle" />Trials</a>
-          <a className="list-group-item jumper-link" href="#pharmacoeconomics">
-            <div className="circle" />Economics</a>
-          <a className="list-group-item jumper-link" href="#properties">
-            <div className="circle" />Properties</a>
-          <a className="list-group-item jumper-link" href="#spectra">
-            <div className="circle" />Spectra</a>
-          <a className="list-group-item jumper-link" href="#taxonomy">
-            <div className="circle" />Taxonomy</a>
-        </div>
         <div className="content-header d-sm-flex align-items-center">
           <h1 className="align-self-center mr-4">Losartan</h1>
           <div className="page-actions justify-content-sm-end mt-2 mt-sm-0">
@@ -54,966 +20,33 @@ class Losartan extends React.Component {
         <div className="card-content px-md-4 px-sm-2 pb-md-4 pb-sm-2">
           <h2 id="identification" className="section-header">Identification</h2>
           <dl>
-            <a target="_blank" id="targeted-ad" className="track-link" href="https://drugbankplus.com/">
-              <div className="targeted-ad-box">
-                <div className="image-row"><img height={15} src="/assets/logo-pink-bd7264e3b993f48d681445728e394507ac912eb6e426e52c6d3230a78dae4bc6.svg" alt="Logo pink" /></div>
-                <div className="lead title">Are you a</div>
-                <div className="focus title">new drug developer?</div>
-                <div className="subtitle">
-                  <div>Contact us to learn more about our customized products and solutions.</div>
-                </div>
-              </div>
-            </a><dt className="col-md-2 col-sm-4">Name</dt>
+            <dt className="col-md-2 col-sm-4">Name</dt>
             <dd className="col-md-10 col-sm-8">Losartan</dd><dt className="col-md-2 col-sm-4">Accession Number</dt>
             <dd className="col-md-10 col-sm-8">DB00678&nbsp; (APRD00052) </dd><dt className="col-md-2 col-sm-4">Type</dt>
             <dd className="col-md-10 col-sm-8">Small Molecule</dd><dt className="col-md-2 col-sm-4">Groups</dt>
             <dd className="col-md-10 col-sm-8">Approved</dd><dt className="col-md-2 col-sm-4">Description</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Losartan is an angiotensin-receptor blocker (ARB) that may be used alone or with other agents to treat hypertension. Losartan and its longer acting metabolite, E-3174, lower blood pressure by antagonizing the renin-angiotensin-aldosterone system (RAAS); they compete with angiotensin II for binding to the type-1 angiotensin II receptor (AT1) subtype and prevents the blood pressure increasing effects of angiotensin II. Unlike angiotensin-converting enzyme (ACE) inhibitors, ARBs do not have the adverse effect of dry cough. Losartan may be used to treat hypertension, isolated systolic hypertension, left ventricular hypertrophy and diabetic nephropathy. It may also be used as an alternative agent for the treatment of systolic dysfunction, myocardial infarction, coronary artery disease, and heart failure.</p>
-            </dd><dt className="col-md-2 col-sm-4">Structure</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Structure</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="structure">
                 <a className="moldbi-vector-thumbnail" href="/structures/DB00678/image.svg"><img src="/structures/DB00678/thumb.svg" alt="Thumb" /></a>
               </div>
-              <div className="structure-links">
-                <div className="btn-group btn-group-sm" data-no-turbolink>
-                  <a data-toggle="modal" className="btn btn-outline-secondary" rel="nofollow" href="#structure-zoom">
-                    <div className="drugbank-icon icon-zoom-in">
-                      <svg className="icon" role="img" title="zoom-in">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#zoom-in"> </use>
-                      </svg>
-                    </div>
-                  </a><a className="btn btn-outline-secondary" rel="nofollow" href="/structures/small_molecule_drugs/DB00678">3D</a>
-                  <div className="btn-group btn-group-sm" id="structure-download">
-                    <button aria-expanded="false" aria-haspopup="true" className="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" id="structure-download" type="button">Download </button>
-                    <div aria-labelledby="structure-download" className="dropdown-menu"><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00678.mol">MOL</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00678.sdf">SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00678.sdf?type=3d">3D-SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00678.pdb">PDB</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00678.smiles">SMILES</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00678.inchi">InChI</a></div>
-                  </div>
-                  <a className="btn btn-outline-secondary" rel="nofollow" href="/structures/search/small_molecule_drugs/structure?database_id=DB00678&search_type=similarity#results">
-                    <div className="drugbank-icon icon-chemquery">
-                      <svg className="icon" role="img" title="chemquery">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#chemquery"> </use>
-                      </svg>
-                    </div> Similar Structures</a>
-                </div>
-                <div className="modal fade" id="structure-zoom">
-                  <div className="modal-dialog modal-lg" role="document">
-                    <div className="modal-content">
-                      <div className="modal-header">
-                        <h4 className="modal-title">Structure for Losartan (DB00678)</h4>
-                        <button aria-hidden="true" className="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
-                      </div>
-                      <div className="modal-body">
-                        <div className="d-flex justify-content-center"><img src="/structures/DB00678/image.svg" alt="Image" /></div>
-                      </div>
-                      <div className="modal-footer">
-                        <button className="btn btn-default" data-dismiss="modal" type="button"> Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Synonyms</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list-break">
                 <li>(2-butyl-4-chloro-1-{'{'}[2'-(1H-tetrazol-5-yl)biphenyl-4-yl]methyl{'}'}-1H-imidazol-5-yl)methanol</li>
                 <li>2-n-butyl-4-chloro-5-hydroxymethyl-1-[(2'-(1H-tetrazol-5-yl)biphenyl-4-yl)methyl]imidazole</li>
                 <li>Losartan</li>
               </ul>
-            </dd><dt className="col-md-2 col-sm-4">External IDs <a tabIndex={0} role="button" data-toggle="popover" data-content="Codes and identifiers used by other resources and companies, often used before choosing a marketing name." title id="external-identifiers-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About External Identifiers"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">External IDs <a tabIndex={0} role="button" data-toggle="popover" data-content="Codes and identifiers used by other resources and companies, often used before choosing a marketing name." title id="external-identifiers-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About External Identifiers"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
             <dd className="col-md-10 col-sm-8"><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">DUP 89</span><span className="list-separator"> / </span><span className="separated-list-item">HGP-1405</span><span className="list-separator"> / </span><span className="separated-list-item">HGP1405</span><span className="list-separator"> / </span><span className="separated-list-item">MK594</span></span>
               </span>
-            </dd><dt className="col-md-2 col-sm-4">Product Ingredients <a tabIndex={0} role="button" data-toggle="popover" data-content="Active ingredients including salts and other forms of exact ingredients used in drug products." title id="product-ingredients-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Product Ingredients"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
-            <dd className="col-md-10 col-sm-8">
-              <table className="table table-sm responsive-table" id="drug-salts-table">
-                <thead>
-                  <tr>
-                    <th>Ingredient</th>
-                    <th>UNII</th>
-                    <th>CAS</th>
-                    <th>InChI Key</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong><a href="/salts/DBSALT000112">Losartan potassium</a></strong></td>
-                    <td><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=3ST302B24A">3ST302B24A</a></td>
-                    <td>124750-99-8</td>
-                    <td>OXCMYAYHXIHQOA-UHFFFAOYSA-N</td>
-                  </tr>
-                </tbody>
-              </table>
-            </dd><dt className="col-md-2 col-sm-4">Product Images</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="product-carousel-row" style={{maxWidth: '592px'}}>
-                <div className="carousel slide" data-active="true" id="product-carousel">
-                  <ol className="carousel-indicators">
-                    <li className="active" data-slide-to={0} data-target="#product-carousel" />
-                    <li data-slide-to={1} data-target="#product-carousel" />
-                    <li data-slide-to={2} data-target="#product-carousel" />
-                    <li data-slide-to={3} data-target="#product-carousel" />
-                    <li data-slide-to={4} data-target="#product-carousel" />
-                    <li data-slide-to={5} data-target="#product-carousel" />
-                    <li data-slide-to={6} data-target="#product-carousel" />
-                    <li data-slide-to={7} data-target="#product-carousel" />
-                    <li data-slide-to={8} data-target="#product-carousel" />
-                    <li data-slide-to={9} data-target="#product-carousel" />
-                    <li data-slide-to={10} data-target="#product-carousel" />
-                    <li data-slide-to={11} data-target="#product-carousel" />
-                    <li data-slide-to={12} data-target="#product-carousel" />
-                    <li data-slide-to={13} data-target="#product-carousel" />
-                    <li data-slide-to={14} data-target="#product-carousel" />
-                    <li data-slide-to={15} data-target="#product-carousel" />
-                    <li data-slide-to={16} data-target="#product-carousel" />
-                    <li data-slide-to={17} data-target="#product-carousel" />
-                  </ol>
-                  <div className="carousel-inner">
-                    <div className="carousel-item w-100 active">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-501620180907-15195-3d0psx.jpg?1536292874" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-501620180907-15195-3d0psx.jpg?1536292874" data-description="Losartan Potassium 50 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-501620180907-15195-3d0psx.jpg?1536292874" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00006-0952-54_NLMIMAGE10_C51362FB.jpg?1498433784" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00006-0952-54_NLMIMAGE10_C51362FB.jpg?1498433784" data-description="Losartan Potassium 50 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00006-0952-54_NLMIMAGE10_C51362FB.jpg?1498433784" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-233520180907-15195-32v6cd.jpg?1536293936" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-233520180907-15195-32v6cd.jpg?1536293936" data-description="Losartan Potassium 100 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-233520180907-15195-32v6cd.jpg?1536293936" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-291220180907-15195-ry6v4m.jpg?1536294366" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-291220180907-15195-ry6v4m.jpg?1536294366" data-description="Losartan Potassium 100 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-291220180907-15195-ry6v4m.jpg?1536294366" /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-133720180907-15195-10kqq0.jpg?1536294427" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-133720180907-15195-10kqq0.jpg?1536294427" data-description="Losartan Potassium 50 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-133720180907-15195-10kqq0.jpg?1536294427" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0006-095220180810-16125-ho34bp.jpg?1533914891" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0006-095220180810-16125-ho34bp.jpg?1533914891" data-description="Losartan Potassium 50 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0006-095220180810-16125-ho34bp.jpg?1533914891" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0006-096020180810-16125-18fhek0.jpg?1533914893" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0006-096020180810-16125-18fhek0.jpg?1533914893" data-description="Losartan Potassium 100 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0006-096020180810-16125-18fhek0.jpg?1533914893" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00006-0960-54_NLMIMAGE10_C31361AB.jpg?1498433782" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00006-0960-54_NLMIMAGE10_C31361AB.jpg?1498433782" data-description="Losartan Potassium 100 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00006-0960-54_NLMIMAGE10_C31361AB.jpg?1498433782" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-386620180907-15195-ygw4u7.jpg?1536293361" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-386620180907-15195-ygw4u7.jpg?1536293361" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet [Hyzaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-386620180907-15195-ygw4u7.jpg?1536293361" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00006-0747-31_NLMIMAGE10_0A07854C.jpg?1498432629" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00006-0747-31_NLMIMAGE10_0A07854C.jpg?1498432629" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet [Hyzaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00006-0747-31_NLMIMAGE10_0A07854C.jpg?1498432629" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00006-0717-31_NLMIMAGE10_0407824C.jpg?1498432625" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00006-0717-31_NLMIMAGE10_0407824C.jpg?1498432625" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet [Hyzaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00006-0717-31_NLMIMAGE10_0407824C.jpg?1498432625" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0006-071720180810-16125-ggnzt7.jpg?1533914886" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0006-071720180810-16125-ggnzt7.jpg?1533914886" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet [Hyzaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0006-071720180810-16125-ggnzt7.jpg?1533914886" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0006-074720180810-16125-1ksqp3m.jpg?1533914889" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0006-074720180810-16125-1ksqp3m.jpg?1533914889" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet [Hyzaar]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0006-074720180810-16125-1ksqp3m.jpg?1533914889" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7364-98_NLMIMAGE10_28089404.jpg?1498433801" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7364-98_NLMIMAGE10_28089404.jpg?1498433801" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7364-98_NLMIMAGE10_28089404.jpg?1498433801" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-610420180907-15195-akrbti.jpg?1536294249" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-610420180907-15195-akrbti.jpg?1536294249" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-610420180907-15195-akrbti.jpg?1536294249" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-610720180907-15195-11sjfpt.jpg?1536294251" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-610720180907-15195-11sjfpt.jpg?1536294251" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-610720180907-15195-11sjfpt.jpg?1536294251" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-020320180907-15195-kherh7.jpg?1536298719" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-020320180907-15195-kherh7.jpg?1536298719" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-020320180907-15195-kherh7.jpg?1536298719" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-736520180907-15195-1q9m2iv.jpg?1536299203" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-736520180907-15195-1q9m2iv.jpg?1536299203" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-736520180907-15195-1q9m2iv.jpg?1536299203" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-020120180907-15195-18rclse.jpg?1536301919" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-020120180907-15195-18rclse.jpg?1536301919" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-020120180907-15195-18rclse.jpg?1536301919" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/76439-0140-90_NLMIMAGE10_B340D9D6.jpg?1498433786" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/76439-0140-90_NLMIMAGE10_B340D9D6.jpg?1498433786" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/76439-0140-90_NLMIMAGE10_B340D9D6.jpg?1498433786" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/76439-0141-11_NLMIMAGE10_8440C236.jpg?1498433798" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/76439-0141-11_NLMIMAGE10_8440C236.jpg?1498433798" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/76439-0141-11_NLMIMAGE10_8440C236.jpg?1498433798" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-738620180907-15195-e0s88w.jpg?1536306208" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-738620180907-15195-e0s88w.jpg?1536306208" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-738620180907-15195-e0s88w.jpg?1536306208" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-633320180907-15195-18awk0p.jpg?1536306222" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-633320180907-15195-18awk0p.jpg?1536306222" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-633320180907-15195-18awk0p.jpg?1536306222" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0202-90_NLMIMAGE10_A2445172.jpg?1498433796" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0202-90_NLMIMAGE10_A2445172.jpg?1498433796" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0202-90_NLMIMAGE10_A2445172.jpg?1498433796" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-930520180907-15195-gci2h1.jpg?1536306241" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-930520180907-15195-gci2h1.jpg?1536306241" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-930520180907-15195-gci2h1.jpg?1536306241" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/58118-736620180907-15195-ppge8h.jpg?1536306611" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/58118-736620180907-15195-ppge8h.jpg?1536306611" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/58118-736620180907-15195-ppge8h.jpg?1536306611" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/70786-036020180913-8702-5ydoq8.jpg?1536861572" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/70786-036020180913-8702-5ydoq8.jpg?1536861572" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/70786-036020180913-8702-5ydoq8.jpg?1536861572" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/31722-0700-90_NLMIMAGE10_174E0BA0.jpg?1498438550" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/31722-0700-90_NLMIMAGE10_174E0BA0.jpg?1498438550" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/31722-0700-90_NLMIMAGE10_174E0BA0.jpg?1498438550" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68151-018320180913-8702-uqfbh1.jpg?1536863303" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68151-018320180913-8702-uqfbh1.jpg?1536863303" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68151-018320180913-8702-uqfbh1.jpg?1536863303" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-196720180913-8702-1p8s0ir.jpg?1536864396" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-196720180913-8702-1p8s0ir.jpg?1536864396" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-196720180913-8702-1p8s0ir.jpg?1536864396" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7365-56_NLMIMAGE10_AA305552.jpg?1498433789" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7365-56_NLMIMAGE10_AA305552.jpg?1498433789" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7365-56_NLMIMAGE10_AA305552.jpg?1498433789" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0093-736420180913-8702-16af4rw.jpg?1536868459" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0093-736420180913-8702-16af4rw.jpg?1536868459" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0093-736420180913-8702-16af4rw.jpg?1536868459" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0093-736520180913-8702-1opbn7m.jpg?1536868461" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0093-736520180913-8702-1opbn7m.jpg?1536868461" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0093-736520180913-8702-1opbn7m.jpg?1536868461" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7366-56_NLMIMAGE10_B12FD8DE.jpg?1498433793" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7366-56_NLMIMAGE10_B12FD8DE.jpg?1498433793" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7366-56_NLMIMAGE10_B12FD8DE.jpg?1498433793" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-736520180907-15195-gj4g8f.jpg?1536306219" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-736520180907-15195-gj4g8f.jpg?1536306219" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-736520180907-15195-gj4g8f.jpg?1536306219" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68382-0137-10_NLMIMAGE10_2E089704.jpg?1498433803" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68382-0137-10_NLMIMAGE10_2E089704.jpg?1498433803" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68382-0137-10_NLMIMAGE10_2E089704.jpg?1498433803" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0201-90_NLMIMAGE10_234A1180.jpg?1498438383" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0201-90_NLMIMAGE10_234A1180.jpg?1498438383" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0201-90_NLMIMAGE10_234A1180.jpg?1498438383" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0203-90_NLMIMAGE10_A74453E2.jpg?1498433806" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0203-90_NLMIMAGE10_A74453E2.jpg?1498433806" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0203-90_NLMIMAGE10_A74453E2.jpg?1498433806" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-611020180907-15195-qsfsx5.jpg?1536291664" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-611020180907-15195-qsfsx5.jpg?1536291664" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-611020180907-15195-qsfsx5.jpg?1536291664" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-610820180907-15195-lc6v2u.jpg?1536291666" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-610820180907-15195-lc6v2u.jpg?1536291666" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-610820180907-15195-lc6v2u.jpg?1536291666" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-610920180907-15195-fnnlqn.jpg?1536291668" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-610920180907-15195-fnnlqn.jpg?1536291668" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-610920180907-15195-fnnlqn.jpg?1536291668" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68258-604020180111-6664-sy7r5l.jpg?1515724624" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68258-604020180111-6664-sy7r5l.jpg?1515724624" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68258-604020180111-6664-sy7r5l.jpg?1515724624" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-503220180907-15195-fwj8qd.jpg?1536294798" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-503220180907-15195-fwj8qd.jpg?1536294798" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-503220180907-15195-fwj8qd.jpg?1536294798" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68382-0143-16_NLMIMAGE10_34089A34.jpg?1498432713" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68382-0143-16_NLMIMAGE10_34089A34.jpg?1498432713" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68382-0143-16_NLMIMAGE10_34089A34.jpg?1498432713" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7367-56_NLMIMAGE10_C02FE05F.jpg?1498432703" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7367-56_NLMIMAGE10_C02FE05F.jpg?1498432703" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7367-56_NLMIMAGE10_C02FE05F.jpg?1498432703" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-736720180907-15195-1hy6fmk.jpg?1536298543" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-736720180907-15195-1hy6fmk.jpg?1536298543" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-736720180907-15195-1hy6fmk.jpg?1536298543" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54569-622320180907-15195-eoezqs.jpg?1536299682" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54569-622320180907-15195-eoezqs.jpg?1536299682" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54569-622320180907-15195-eoezqs.jpg?1536299682" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/13668-0118-90_NLMIMAGE10_7640BB75.jpg?1498432695" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/13668-0118-90_NLMIMAGE10_7640BB75.jpg?1498432695" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/13668-0118-90_NLMIMAGE10_7640BB75.jpg?1498432695" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50436-666520180907-15195-1rzn3iq.jpg?1536302432" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50436-666520180907-15195-1rzn3iq.jpg?1536302432" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50436-666520180907-15195-1rzn3iq.jpg?1536302432" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50436-666720180907-15195-aq2e5o.jpg?1536305730" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50436-666720180907-15195-aq2e5o.jpg?1536305730" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50436-666720180907-15195-aq2e5o.jpg?1536305730" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-187220180913-8702-1ctchvb.jpg?1536864312" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-187220180913-8702-1ctchvb.jpg?1536864312" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-187220180913-8702-1ctchvb.jpg?1536864312" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/16714-0225-04_NLMIMAGE10_7C453E79.jpg?1498432706" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/16714-0225-04_NLMIMAGE10_7C453E79.jpg?1498432706" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/16714-0225-04_NLMIMAGE10_7C453E79.jpg?1498432706" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68382-0142-16_NLMIMAGE10_310898B4.jpg?1498432711" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68382-0142-16_NLMIMAGE10_310898B4.jpg?1498432711" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68382-0142-16_NLMIMAGE10_310898B4.jpg?1498432711" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/16714-0224-01_NLMIMAGE10_B616DB56.jpg?1498432700" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/16714-0224-01_NLMIMAGE10_B616DB56.jpg?1498432700" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/16714-0224-01_NLMIMAGE10_B616DB56.jpg?1498432700" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68180-0216-09_NLMIMAGE10_37089BE4.jpg?1498432716" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68180-0216-09_NLMIMAGE10_37089BE4.jpg?1498432716" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68180-0216-09_NLMIMAGE10_37089BE4.jpg?1498432716" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/13668-0116-30_NLMIMAGE10_08468454.jpg?1498432693" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/13668-0116-30_NLMIMAGE10_08468454.jpg?1498432693" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/13668-0116-30_NLMIMAGE10_08468454.jpg?1498432693" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-117620180907-15195-hsjj69.jpg?1536306092" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-117620180907-15195-hsjj69.jpg?1536306092" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-117620180907-15195-hsjj69.jpg?1536306092" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-121020180907-15195-6c8o9u.jpg?1536306094" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-121020180907-15195-6c8o9u.jpg?1536306094" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-121020180907-15195-6c8o9u.jpg?1536306094" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0093-736720180907-15195-18j4tf.jpg?1536302029" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0093-736720180907-15195-18j4tf.jpg?1536302029" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0093-736720180907-15195-18j4tf.jpg?1536302029" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7369-56_NLMIMAGE10_B916DCA6.jpg?1498432709" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7369-56_NLMIMAGE10_B916DCA6.jpg?1498432709" data-description="Hydrochlorothiazide 12.5 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7369-56_NLMIMAGE10_B916DCA6.jpg?1498432709" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7368-56_NLMIMAGE10_A42FD24E.jpg?1498432698" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7368-56_NLMIMAGE10_A42FD24E.jpg?1498432698" data-description="Hydrochlorothiazide 25 MG / Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7368-56_NLMIMAGE10_A42FD24E.jpg?1498432698" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/53808-107220180907-15195-1d6qy2d.jpg?1536297882" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/53808-107220180907-15195-1d6qy2d.jpg?1536297882" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/53808-107220180907-15195-1d6qy2d.jpg?1536297882" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68382-0136-10_NLMIMAGE10_2B0895B4.jpg?1498433808" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68382-0136-10_NLMIMAGE10_2B0895B4.jpg?1498433808" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68382-0136-10_NLMIMAGE10_2B0895B4.jpg?1498433808" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-205420180907-15195-1b3y8vj.jpg?1536299932" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-205420180907-15195-1b3y8vj.jpg?1536299932" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-205420180907-15195-1b3y8vj.jpg?1536299932" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-438320180907-15195-1lns9jr.jpg?1536302839" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-438320180907-15195-1lns9jr.jpg?1536302839" data-description="Losartan Potassium 100 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-438320180907-15195-1lns9jr.jpg?1536302839" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-423820180907-15195-1aun624.jpg?1536303362" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-423820180907-15195-1aun624.jpg?1536303362" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-423820180907-15195-1aun624.jpg?1536303362" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-644520180907-15195-w6lz8z.jpg?1536306231" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-644520180907-15195-w6lz8z.jpg?1536306231" data-description="Losartan Potassium 50 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-644520180907-15195-w6lz8z.jpg?1536306231" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68382-0135-16_NLMIMAGE10_CB16E5D7.jpg?1498433811" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68382-0135-16_NLMIMAGE10_CB16E5D7.jpg?1498433811" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68382-0135-16_NLMIMAGE10_CB16E5D7.jpg?1498433811" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/70786-013520180913-8702-60ul3a.jpg?1536861602" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/70786-013520180913-8702-60ul3a.jpg?1536861602" data-description="Losartan Potassium 25 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/70786-013520180913-8702-60ul3a.jpg?1536861602" src /></a>
-                    </div>
-                  </div><a className="carousel-control-prev" data-slide="prev" href="#product-carousel" role="button"><span aria-hidden="true" className="carousel-control-prev-icon" /><span className="sr-only">Previous</span></a><a className="carousel-control-next" data-slide="next" href="#product-carousel" role="button"><span aria-hidden="true" className="carousel-control-next-icon" /><span className="sr-only">Next</span></a></div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Prescription Products</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="approved-products_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="approved-products_length">
-                      <label>Show
-                        <select name="approved-products_length" aria-controls="approved-products" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="approved-products_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="approved-products" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline collapsed" data-source="/drugs/DB00678/products.json?group=approved" data-total={47} id="approved-products" style={{width: '100%'}} role="grid" aria-describedby="approved-products_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '61.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '69.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '70.2px'}} aria-label="Strength: activate to sort column ascending">Strength</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '95.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '84.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '0px', display: 'none'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={9} rowSpan={1}>
-                            <div className="locked-link" data-field="approved-products" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Act Losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>50 mg</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Act Losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>25 mg</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Act Losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>100 mg</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Cozaar</strong></td>
-                          <td>Tablet, film coated</td>
-                          <td>50 mg/1</td>
-                          <td>Oral</td>
-                          <td>Med Pharma Co., Ltd.</td>
-                          <td>1995-04-14</td>
-                          <td>2012-07-11</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Cozaar</strong></td>
-                          <td>Tablet, film coated</td>
-                          <td>100 mg/1</td>
-                          <td>Oral</td>
-                          <td>Remedy Repack</td>
-                          <td>2009-10-14</td>
-                          <td>2010-10-15</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Cozaar</strong></td>
-                          <td>Tablet, film coated</td>
-                          <td>100 mg/1</td>
-                          <td>Oral</td>
-                          <td>Physicians Total Care, Inc.</td>
-                          <td>2003-08-06</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}}>
-                            <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-233520180907-15195-32v6cd.jpg?1536293936" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-233520180907-15195-32v6cd.jpg?1536293936" data-description="Losartan Potassium 100 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="package-thumb" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/tiny/54868-233520180907-15195-32v6cd.jpg?1536293936" alt="54868 233520180907 15195 32v6cd" /></a>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Cozaar</strong></td>
-                          <td>Tablet, film coated</td>
-                          <td>25 mg/1</td>
-                          <td>Oral</td>
-                          <td>Med Pharma Co., Ltd.</td>
-                          <td>1995-04-14</td>
-                          <td>2012-07-11</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Cozaar</strong></td>
-                          <td>Tablet, film coated</td>
-                          <td>100 mg/1</td>
-                          <td>Oral</td>
-                          <td>PD-Rx Pharmaceuticals, Inc.</td>
-                          <td>1995-04-14</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}}>
-                            <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00006-0960-54_NLMIMAGE10_C31361AB.jpg?1498433782" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00006-0960-54_NLMIMAGE10_C31361AB.jpg?1498433782" data-description="Losartan Potassium 100 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="package-thumb" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/tiny/00006-0960-54_NLMIMAGE10_C31361AB.jpg?1498433782" alt="00006 0960 54 nlmimage10 c31361ab" /></a>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Cozaar</strong></td>
-                          <td>Tablet</td>
-                          <td>25 mg/1</td>
-                          <td>Oral</td>
-                          <td>Remedy Repack</td>
-                          <td>2011-04-07</td>
-                          <td>2011-04-08</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Cozaar</strong></td>
-                          <td>Tablet, film coated</td>
-                          <td>50 mg/1</td>
-                          <td>Oral</td>
-                          <td>Physicians Total Care, Inc.</td>
-                          <td>1996-04-01</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}}>
-                            <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00006-0952-54_NLMIMAGE10_C51362FB.jpg?1498433784" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00006-0952-54_NLMIMAGE10_C51362FB.jpg?1498433784" data-description="Losartan Potassium 50 MG Oral Tablet [Cozaar]" href="#modal-package"><img className="package-thumb" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/tiny/00006-0952-54_NLMIMAGE10_C51362FB.jpg?1498433784" alt="00006 0952 54 nlmimage10 c51362fb" /></a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="approved-products_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="approved-products_info" role="status" aria-live="polite">Showing 1 to 10 of 47 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="approved-products_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="approved-products_previous"><a href="#" aria-controls="approved-products" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="approved-products" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="approved-products" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item next" id="approved-products_next"><a href="#" aria-controls="approved-products" data-dt-idx={6} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#approved-products">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Application Number
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Application Number</div>
-                              <p>A unique ID assigned by the FDA when a product is submitted for approval by the labeller.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/approved-products-application-number" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Product Code
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Product Code</div>
-                              <p>A governmentally-recognized ID which uniquely identifies the product within its regulatory market.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/approved-products-product-code" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Generic Prescription Products</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="generic-products_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="generic-products_length">
-                      <label>Show
-                        <select name="generic-products_length" aria-controls="generic-products" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="generic-products_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="generic-products" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB00678/products.json?group=generic" data-total={458} id="generic-products" style={{width: '100%'}} role="grid" aria-describedby="generic-products_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '48.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '70.2px'}} aria-label="Strength: activate to sort column ascending">Strength</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '74.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '91.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '85.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={9} rowSpan={1}>
-                            <div className="locked-link" data-field="generic-products" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Ag-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>25 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Ag-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>100 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Ag-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>50 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Apo-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>25 mg</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2012-04-13</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Apo-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>100 mg</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Apo-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>50 mg</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Auro-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>100.0 mg</td>
-                          <td>Oral</td>
-                          <td>Auro Pharma Inc</td>
-                          <td>2013-03-26</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Auro-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>50.0 mg</td>
-                          <td>Oral</td>
-                          <td>Auro Pharma Inc</td>
-                          <td>2013-03-26</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Auro-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>25.0 mg</td>
-                          <td>Oral</td>
-                          <td>Auro Pharma Inc</td>
-                          <td>2013-03-26</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Bio-losartan</strong></td>
-                          <td>Tablet</td>
-                          <td>100 mg</td>
-                          <td>Oral</td>
-                          <td>Biomed Pharma</td>
-                          <td>2016-06-08</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="generic-products_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="generic-products_info" role="status" aria-live="polite">Showing 1 to 10 of 458 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="generic-products_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="generic-products_previous"><a href="#" aria-controls="generic-products" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="generic-products" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="generic-products_ellipsis"><a href="#" aria-controls="generic-products" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={7} tabIndex={0} className="page-link">46</a></li>
-                        <li className="paginate_button page-item next" id="generic-products_next"><a href="#" aria-controls="generic-products" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#generic-products">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Application Number
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Application Number</div>
-                              <p>A unique ID assigned by the FDA when a product is submitted for approval by the labeller.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/generic-products-application-number" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Product Code
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Product Code</div>
-                              <p>A governmentally-recognized ID which uniquely identifies the product within its regulatory market.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/generic-products-product-code" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Mixture Products</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_1_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_1_length">
-                      <label>Show
-                        <select name="DataTables_Table_1_length" aria-controls="DataTables_Table_1" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_1_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_1" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline collapsed" data-source="/drugs/DB00678/products.json?group=mixtures" data-total={251} style={{width: '100%'}} id="DataTables_Table_1" role="grid" aria-describedby="DataTables_Table_1_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '91.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="no-sort sorting_disabled" rowSpan={1} colSpan={1} style={{width: '149.4px'}} aria-label="Ingredients">Ingredients</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '68.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '0px', display: 'none'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Act Losartan/hct</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(100 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(25 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2012-07-03</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Act Losartan/hct</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(100 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(12.5 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2012-07-03</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Act Losartan/hct</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(50 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(12.5 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Actavis Pharma Company</td>
-                          <td>2012-07-03</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Ag-losartan Hctz</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(100 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(25 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Ag-losartan Hctz</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(50 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(12.5 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Apo-losartan/hctz</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(100 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(25 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Apo-losartan/hctz</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(100 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(12.5 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Apo-losartan/hctz</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(50 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(12.5 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Apotex Corporation</td>
-                          <td>2012-01-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Auro-losartan Hct</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(100 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(25 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Auro Pharma Inc</td>
-                          <td>2014-04-29</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Auro-losartan Hct</strong></td>
-                          <td><a href="/salts/DBSALT000112">Losartan potassium</a> <span className="text-muted">(100 mg)</span> + <a href="/drugs/DB00999">Hydrochlorothiazide</a> <span className="text-muted">(12.5 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Auro Pharma Inc</td>
-                          <td>2014-04-29</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="DataTables_Table_1_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="DataTables_Table_1_info" role="status" aria-live="polite">Showing 1 to 10 of 251 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_1_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_1_previous"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="DataTables_Table_1_ellipsis"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={7} tabIndex={0} className="page-link">26</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_1_next"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">International/Other Brands</dt>
-            <dd className="col-md-10 col-sm-8"><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">Lortaan</span></span>
-              </span>
-            </dd><dt className="col-md-2 col-sm-4">Categories</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Categories</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
@@ -1059,7 +92,8 @@ class Losartan extends React.Component {
                   <li><a href="/categories/DBCAT004610">UGT2B7 substrates</a></li>
                 </ul>
               </div>
-            </dd><dt className="col-md-2 col-sm-4">UNII</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">UNII</dt>
             <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=JMS50MPO89">JMS50MPO89</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
             <dd className="col-md-10 col-sm-8">114798-26-4</dd><dt className="col-md-2 col-sm-4">Weight</dt>
             <dd className="col-md-10 col-sm-8">Average: 422.911
@@ -1114,55 +148,7 @@ class Losartan extends React.Component {
                 </tbody>
               </table>
             </dd>
-            <div className="col-sm-12 locked-section-container">
-              <div className="locked-section-flex">
-                <div className="locked-section-row locked-link" data-field="adv-cont-bb" data-target="#locked-modal" data-toggle="modal">
-                  <div className="drugbank-icon icon-lock">
-                    <svg className="icon" role="img" title="lock">
-                      <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                    </svg>
-                  </div> Unlock Additional Data</div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Adverse Effects</div>
-                      <p>Comprehensive structured data on known drug adverse effects with statistical prevalence. MedDRA and ICD10 ids are provided for adverse effect conditions and symptoms.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/adverse-effects" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Contraindications</div>
-                      <p>Structured data covering drug contraindications. Each contraindication describes a scenario in which the drug is not to be used. Includes restrictions on co-administration, contraindicated populations, and more.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/contraindications" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Blackbox Warnings</div>
-                      <p>Structured data representing warnings from the black box section of drug labels. These warnings cover important and dangerous risks, contraindications, or adverse effects.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/blackbox-warnings" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-              </div>
-            </div><dt className="col-md-2 col-sm-4">Absorption</dt>
+            <dt className="col-md-2 col-sm-4">Absorption</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Losartan is well absorbed and undergoes substantial first-pass metabolism; the systemic bioavailability of losartan is approximately 33%. Mean peak concentrations of losartan and its active metabolite are reached in 1 hour and in 3-4 hours, respectively. While maximum plasma concentrations of losartan and its active metabolite are approximately equal, the AUC of the metabolite is about 4 times as great as that of losartan. When given with a meal, absorption is slows down and Cmax decreases. </p>
             </dd><dt className="col-md-2 col-sm-4">Volume of distribution</dt>
@@ -1180,13 +166,13 @@ class Losartan extends React.Component {
               <p>Hepatic. Losartan is metabolized to a 5-carboxylic acid derivative (E-3174) via an aldehyde intermediate (E-3179) primarily by cytochrome P450 (CYP) 2C9 and CYP3A4. E-3174 is an active metabolite with 10- to 40-fold higher potency than its parent compound, losartan. Approxiamtely 14% of losartan is converted to E-3174; however, the AUC of E-3174 was found to be 4- to 8-fold higher than losartan and E-3174 is considered the main contributor to the pharmacologic effects of this medication. </p>
               <p />
               <ul className="list-unstyled">
-                <li><a href="/reactions/9"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> E-3179</a>
+                <li><a href="/reactions/9"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> E-3179</a>
                   <ul>
-                    <li><a href="/reactions/1047">E-3179 <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> E-3174</a></li>
+                    <li><a href="/reactions/1047">E-3179 <div className="drugbank-icon icon-arrow-right"></div> E-3174</a></li>
                   </ul>
                 </li>
-                <li><a href="/reactions/10"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> Losartan N2-glucuronide</a></li>
-                <li><a href="/reactions/2001"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> E-3174</a></li>
+                <li><a href="/reactions/10"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> Losartan N2-glucuronide</a></li>
+                <li><a href="/reactions/2001"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> E-3174</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Route of elimination</dt>
             <dd className="col-md-10 col-sm-8">
@@ -1272,16 +258,6 @@ class Losartan extends React.Component {
                             <th className="head-sm sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '196.2px'}} aria-label="Drug: activate to sort column ascending">Drug</th>
                             <th className="sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '519.2px'}} aria-label="Interaction: activate to sort column ascending">Interaction</th>
                           </tr>
-                          <tr className="unlock-row" role="row">
-                            <th className="no-sort" colSpan={2} rowSpan={1}>
-                              <div className="locked-link" data-field="ddi" data-target="#locked-modal" data-toggle="modal">
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div> Unlock Additional Data</div>
-                            </th>
-                          </tr>
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
@@ -1350,137 +326,9 @@ class Losartan extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="locked-fields-holder" data-for="#drug-interactions">
-                  <div className="locked-fields closed" data-collapsed="collapsed">
-                    <div className="locked-tab">
-                      <div className="drugbank-icon icon-lock">
-                        <svg className="icon" role="img" title="lock">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                        </svg>
-                      </div><span className="tab-label">Additional Data Available</span>
-                      <div className="drugbank-icon icon-arrow-left">
-                        <svg className="icon" role="img" title="arrow-left">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                        </svg>
-                      </div>
-                      <div className="drugbank-icon icon-arrow-right">
-                        <svg className="icon" role="img" title="arrow-right">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                        </svg>
-                      </div>
-                    </div>
-                    <ul className="locked-accordion">
-                      <div className="flex-content">
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Extended Description
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Extended Description</div>
-                                <p>Extended description of the mechanism of action and particular properties of each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-extended-description" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Severity
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Severity</div>
-                                <p>A severity rating for each drug interaction, from minor to major.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-severity" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Evidence Level
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Evidence Level</div>
-                                <p>A rating for the strength of the evidence supporting each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-evidence-level" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Action
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Action</div>
-                                <p>An effect category for each drug interaction. Know how this interaction affects the subject drug.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-action" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
               </div>
-            </dd><dt className="col-md-2 col-sm-4">Food Interactions</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Food Interactions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
                 <li>Take without regard to meals. Take at same time each day. Food delays absorption, but does not affect the extent of absorption.</li>
@@ -1488,19 +336,8 @@ class Losartan extends React.Component {
             </dd>
           </dl>
           <h2 id="references" className="section-header">References</h2>
-          <dl><dt className="col-md-2 col-sm-4">Synthesis Reference</dt>
-            <dd className="col-md-10 col-sm-8"><span className="citations"><p>Gordon C. Campbell, Jr., Anil M. Dwivedi, Dorothy A. Levorse, James A. McCauley, Krishnaswamy S. Raghavan, "Polymorphs of losartan and the process for the preparation of form II of losartan." U.S. Patent US5608075, issued May, 1994.</p>
-              </span><a target="_blank" rel="noopener" href="https://www.google.com/?tbm=pts#q=5608075&tbm=pts">US5608075</a></dd><dt className="col-md-2 col-sm-4">General References</dt>
-            <dd className="col-md-10 col-sm-8">
-              <ol className="cite-this-references">
-                <li id="reference-A1030">Dahlof B, Devereux RB, Kjeldsen SE, Julius S, Beevers G, de Faire U, Fyhrquist F, Ibsen H, Kristiansson K, Lederballe-Pedersen O, Lindholm LH, Nieminen MS, Omvik P, Oparil S, Wedel H: Cardiovascular morbidity and mortality in the Losartan Intervention For Endpoint reduction in hypertension study (LIFE): a randomised trial against atenolol. Lancet. 2002 Mar 23;359(9311):995-1003. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11937178">PubMed:11937178</a>] </li>
-                <li id="reference-A1031">Guo ZX, Qiu MC: [Losartan downregulates the expression of transforming growth factor beta type I and type II receptors in kidney of diabetic rat]. Zhonghua Nei Ke Za Zhi. 2003 Jun;42(6):403-8. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12895325">PubMed:12895325</a>] </li>
-                <li id="reference-A1032">Habashi JP, Judge DP, Holm TM, Cohn RD, Loeys BL, Cooper TK, Myers L, Klein EC, Liu G, Calvi C, Podowski M, Neptune ER, Halushka MK, Bedja D, Gabrielson K, Rifkin DB, Carta L, Ramirez F, Huso DL, Dietz HC: Losartan, an AT1 antagonist, prevents aortic aneurysm in a mouse model of Marfan syndrome. Science. 2006 Apr 7;312(5770):117-21. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16601194">PubMed:16601194</a>] </li>
-                <li id="reference-A1033">Sica DA, Gehr TW, Ghosh S: Clinical pharmacokinetics of losartan. Clin Pharmacokinet. 2005;44(8):797-814. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16029066">PubMed:16029066</a>] </li>
-                <li id="reference-T11">Stanfield, Cindy L.;Germann, William J. (2009). Principles of Human Physiology (3rd ed.). Benjamin-Cummings Publishing Company. [<a target="_blank" rel="noopener" href="http://www.google.com/search?tbo=p&tbm=bks&q=978-0321556660">ISBN:978-0321556660</a>] </li>
-                <li id="reference-T5">Bader, M. (2004). Renin-angiotensin-aldosterone system. In Encyclopedic reference of molecular pharmacology (pp. 810-814). Berlin: Springer. [<a target="_blank" rel="noopener" href="http://www.google.com/search?tbo=p&tbm=bks&q=9783540298328">ISBN:9783540298328</a>] </li>
-              </ol>
-            </dd><dt className="col-md-2 col-sm-4">External Links</dt>
+          <dl>
+            <dt className="col-md-2 col-sm-4">External Links</dt>
             <dd className="col-md-10 col-sm-8">
               <dl><dt className="col-md-4 col-sm-5">Human Metabolome Database</dt>
                 <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.hmdb.ca/metabolites/HMDB0014816">HMDB0014816</a></dd><dt className="col-md-4 col-sm-5">KEGG Drug</dt>
@@ -1688,45 +525,8 @@ class Losartan extends React.Component {
             </dd>
           </dl>
           <h2 id="pharmacoeconomics" className="section-header">Pharmacoeconomics</h2>
-          <dl><dt className="col-md-2 col-sm-4">Manufacturers</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="manufacturer-columns">
-                <ul className="list-unstyled table-list">
-                  <li>Merck research laboratories div merck co inc</li>
-                  <li>Teva pharmaceuticals usa inc</li>
-                  <li>Merck &amp; Co., Inc.</li>
-                </ul>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Packagers</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="packager-columns">
-                <ul className="list-unstyled table-list">
-                  <li>AQ Pharmaceuticals Inc.</li>
-                  <li>A-S Medication Solutions LLC</li>
-                  <li>Bristol-Myers Squibb Co.</li>
-                  <li>Cardinal Health</li>
-                  <li>Dispensing Solutions</li>
-                  <li>Ipca Laboratories Ltd.</li>
-                  <li>Kaiser Foundation Hospital</li>
-                  <li>Lake Erie Medical and Surgical Supply</li>
-                  <li>Merck &amp; Co.</li>
-                  <li>Mylan</li>
-                  <li>Neuman Distributors Inc.</li>
-                  <li>PD-Rx Pharmaceuticals Inc.</li>
-                  <li>Physicians Total Care Inc.</li>
-                  <li>Prepak Systems Inc.</li>
-                  <li>Remedy Repack</li>
-                  <li>Roxane Labs</li>
-                  <li>Sandhills Packaging Inc.</li>
-                  <li>Sandoz</li>
-                  <li>Southwood Pharmaceuticals</li>
-                  <li>Stat Rx Usa</li>
-                  <li>Teva Pharmaceutical Industries Ltd.</li>
-                  <li>Torrent Pharmaceuticals</li>
-                  <li>Vangard Labs Inc.</li>
-                </ul>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Dosage forms</dt>
+          <dl>
+            <dt className="col-md-2 col-sm-4">Dosage forms</dt>
             <dd className="col-md-10 col-sm-8">
               <div id="dosages_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                 <div className="row">
@@ -1830,263 +630,11 @@ class Losartan extends React.Component {
                   </div>
                 </div>
               </div>
-            </dd><dt className="col-md-2 col-sm-4">Prices</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="prices_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="prices_length">
-                      <label>Show
-                        <select name="prices_length" aria-controls="prices" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="prices_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="prices" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="table table-sm datatable dataTable no-footer" id="prices" role="grid" aria-describedby="prices_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Unit description: activate to sort column ascending" style={{width: '547.203px'}}>Unit description</th>
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Cost: activate to sort column ascending" style={{width: '95.2031px'}}>Cost</th>
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Unit: activate to sort column ascending" style={{width: '75.2031px'}}>Unit</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td>Losartan Potassium 90 50 mg tablet Bottle</td>
-                          <td>211.78USD </td>
-                          <td>bottle</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Losartan Potassium-HCTZ 30 50-12.5 mg tablet Bottle</td>
-                          <td>78.05USD </td>
-                          <td>bottle</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Hyzaar 100-25 mg tablet</td>
-                          <td>3.91USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Hyzaar 100-12.5 mg tablet</td>
-                          <td>3.87USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Hyzaar 100-12.5 tablet</td>
-                          <td>3.61USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Hyzaar 100-25 tablet</td>
-                          <td>3.61USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Losartan Potassium-HCTZ 100-12.5 mg tablet</td>
-                          <td>3.54USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Losartan Potassium-HCTZ 100-25 mg tablet</td>
-                          <td>3.54USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Cozaar 100 mg tablet</td>
-                          <td>3.41USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Losartan potassium 100 mg tablet</td>
-                          <td>3.14USD </td>
-                          <td>tablet</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="prices_info" role="status" aria-live="polite">Showing 1 to 10 of 19 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="prices_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="prices_previous"><a href="#" aria-controls="prices" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="prices" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="prices" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item next" id="prices_next"><a href="#" aria-controls="prices" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="alert alert-warning clearfix price-alert"><span className="glyphicon glyphicon-info-sign"> </span> DrugBank does not sell nor buy drugs. Pricing information is supplied for informational purposes only. </div>
-            </dd><dt className="col-md-2 col-sm-4">Patents</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="patents_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="patents_length">
-                      <label>Show
-                        <select name="patents_length" aria-controls="patents" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="patents_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="patents" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="table table-sm datatable dt-responsive dataTable no-footer dtr-inline" id="patents" style={{width: '100%'}} role="grid" aria-describedby="patents_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '143.2px'}} aria-label="Patent Number: activate to sort column ascending">Patent Number</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '187.2px'}} aria-label="Pediatric Extension: activate to sort column ascending">Pediatric Extension</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '92.2px'}} aria-label="Approved: activate to sort column ascending">Approved</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '181.2px'}} aria-label="Expires (estimated): activate to sort column ascending">Expires (estimated)</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '7.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={5} rowSpan={1}>
-                            <div className="locked-link" data-field="patents" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5210079">US5210079</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>1993-05-11</td>
-                          <td>2010-11-11</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5608075">US5608075</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>1997-03-04</td>
-                          <td>2009-03-04</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA2085584">CA2085584</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2003-02-11</td>
-                          <td>2011-06-07</td>
-                          <td className="country"><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA1334092">CA1334092</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>1995-01-24</td>
-                          <td>2012-01-24</td>
-                          <td className="country"><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="patents_info" role="status" aria-live="polite">Showing 1 to 4 of 4 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="patents_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="patents_previous"><a href="#" aria-controls="patents" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="patents" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="patents_next"><a href="#" aria-controls="patents" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#patents">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab condensed">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Filed On
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Filed On</div>
-                              <p>The date on which a patent was filed with the relevant government.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/patents-filed-on" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
             </dd>
           </dl>
           <h2 id="properties" className="section-header">Properties</h2>
-          <dl><dt className="col-md-2 col-sm-4">State</dt>
+          <dl>
+          <dt className="col-md-2 col-sm-4">State</dt>
             <dd className="col-md-10 col-sm-8">Solid</dd><dt className="col-md-2 col-sm-4">Experimental Properties</dt>
             <dd className="col-md-10 col-sm-8">
               <table className="table table-sm table-bordered" id="experimental-properties">
@@ -2619,17 +1167,9 @@ class Losartan extends React.Component {
                 </div>
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P30556">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a>
+                    Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0000062-binding-properties" data-toggle="modal" type="button">
-                    <div className="drugbank-icon icon-details">
-                      <svg className="icon" role="img" title="details">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#details"> </use>
-                      </svg>
-                    </div> <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P30556">Type-1 angiotensin II receptor</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P30556">Type-1 angiotensin II receptor</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2676,11 +1216,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0002793">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11712">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/P11712">Cytochrome P450 2C9</a></strong></div>
+                    Details</a><strong>1. <a href="/polypeptides/P11712">Cytochrome P450 2C9</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2722,11 +1258,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2767,11 +1299,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0002887">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10632">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>3. <a href="/polypeptides/P10632">Cytochrome P450 2C8</a></strong></div>
+                    Details</a><strong>3. <a href="/polypeptides/P10632">Cytochrome P450 2C8</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2809,11 +1337,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0003536">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P33261">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>4. <a href="/polypeptides/P33261">Cytochrome P450 2C19</a></strong></div>
+                    Details</a><strong>4. <a href="/polypeptides/P33261">Cytochrome P450 2C19</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2852,11 +1376,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0003541">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P22309">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>5. <a href="/polypeptides/P22309">UDP-glucuronosyltransferase 1-1</a></strong></div>
+                    Details</a><strong>5. <a href="/polypeptides/P22309">UDP-glucuronosyltransferase 1-1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2893,11 +1413,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0003677">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35503">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>6. <a href="/polypeptides/P35503">UDP-glucuronosyltransferase 1-3</a></strong></div>
+                    Details</a><strong>6. <a href="/polypeptides/P35503">UDP-glucuronosyltransferase 1-3</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2934,11 +1450,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0003678">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9HAW8">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>7. <a href="/polypeptides/Q9HAW8">UDP-glucuronosyltransferase 1-10</a></strong></div>
+                    Details</a><strong>7. <a href="/polypeptides/Q9HAW8">UDP-glucuronosyltransferase 1-10</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2975,11 +1487,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0003679">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P16662">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>8. <a href="/polypeptides/P16662">UDP-glucuronosyltransferase 2B7</a></strong></div>
+                    Details</a><strong>8. <a href="/polypeptides/P16662">UDP-glucuronosyltransferase 2B7</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3016,11 +1524,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0003680">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O75795">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>9. <a href="/polypeptides/O75795">UDP-glucuronosyltransferase 2B17</a></strong></div>
+                    Details</a><strong>9. <a href="/polypeptides/O75795">UDP-glucuronosyltransferase 2B17</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3062,11 +1566,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0000530">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P02768">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/P02768">Serum albumin</a></strong></div>
+                    Details</a><strong>1. <a href="/polypeptides/P02768">Serum albumin</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3102,11 +1602,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0001032">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08183">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
+                    Details</a><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3146,11 +1642,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0001066">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q4U2R8">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/Q4U2R8">Solute carrier family 22 member 6</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/Q4U2R8">Solute carrier family 22 member 6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3187,11 +1679,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0004782">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q96S37">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>3. <a href="/polypeptides/Q96S37">Solute carrier family 22 member 12</a></strong></div>
+                    Details</a><strong>3. <a href="/polypeptides/Q96S37">Solute carrier family 22 member 12</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3229,11 +1717,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0004783">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9NRM0">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>4. <a href="/polypeptides/Q9NRM0">Solute carrier family 2, facilitated glucose transporter member 9</a></strong></div>
+                    Details</a><strong>4. <a href="/polypeptides/Q9NRM0">Solute carrier family 2, facilitated glucose transporter member 9</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3271,11 +1755,7 @@ class Losartan extends React.Component {
               <div className="bond card" id="BE0000703">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O95342">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>5. <a href="/polypeptides/O95342">Bile salt export pump</a></strong></div>
+                    Details</a><strong>5. <a href="/polypeptides/O95342">Bile salt export pump</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">

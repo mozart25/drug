@@ -10,40 +10,6 @@ class Acetaminophen extends React.Component {
         <Navigation />
       </header>
       <div className="content-container">
-        <div id="jumper-tab" className="hidden">
-          <div className="jumper-toggle drugbank-icon icon-double-arrow-left">
-            <svg className="icon" role="img" title="double-arrow-left">
-              <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-left"> </use>
-            </svg>
-          </div>
-        </div>
-        <div className="list-group" id="jumper">
-          <div className="list-group-item jumper-header d-flex justify-content-between align-items-center">Jump to section
-            <div className="jumper-toggle drugbank-icon icon-double-arrow-right">
-              <svg className="icon" role="img" title="double-arrow-right">
-                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-right"> </use>
-              </svg>
-            </div>
-          </div>
-          <a className="list-group-item jumper-link" href="#identification">
-            <div className="circle" />Identification</a>
-          <a className="list-group-item jumper-link" href="#pharmacology">
-            <div className="circle" />Pharmacology</a>
-          <a className="list-group-item jumper-link" href="#interactions">
-            <div className="circle" />Interactions</a>
-          <a className="list-group-item jumper-link" href="#references">
-            <div className="circle" />References</a>
-          <a className="list-group-item jumper-link" href="#clinical-trials">
-            <div className="circle" />Trials</a>
-          <a className="list-group-item jumper-link" href="#pharmacoeconomics">
-            <div className="circle" />Economics</a>
-          <a className="list-group-item jumper-link" href="#properties">
-            <div className="circle" />Properties</a>
-          <a className="list-group-item jumper-link" href="#spectra">
-            <div className="circle" />Spectra</a>
-          <a className="list-group-item jumper-link" href="#taxonomy">
-            <div className="circle" />Taxonomy</a>
-        </div>
         <div className="content-header d-sm-flex align-items-center">
           <h1 className="align-self-center mr-4">Acetaminophen</h1>
           <div className="page-actions justify-content-sm-end mt-2 mt-sm-0">
@@ -66,44 +32,9 @@ class Acetaminophen extends React.Component {
               <div className="structure">
                 <a className="moldbi-vector-thumbnail" href="/structures/DB00316/image.svg"><img src="/structures/DB00316/thumb.svg" alt="Thumb" /></a>
               </div>
-              <div className="structure-links">
-                <div className="btn-group btn-group-sm" data-no-turbolink>
-                  <a data-toggle="modal" className="btn btn-outline-secondary" rel="nofollow" href="#structure-zoom">
-                    <div className="drugbank-icon icon-zoom-in">
-                      <svg className="icon" role="img" title="zoom-in">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#zoom-in"> </use>
-                      </svg>
-                    </div>
-                  </a><a className="btn btn-outline-secondary" rel="nofollow" href="/structures/small_molecule_drugs/DB00316">3D</a>
-                  <div className="btn-group btn-group-sm" id="structure-download">
-                    <button aria-expanded="false" aria-haspopup="true" className="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" id="structure-download" type="button">Download </button>
-                    <div aria-labelledby="structure-download" className="dropdown-menu"><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00316.mol">MOL</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00316.sdf">SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00316.sdf?type=3d">3D-SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00316.pdb">PDB</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00316.smiles">SMILES</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00316.inchi">InChI</a></div>
-                  </div>
-                  <a className="btn btn-outline-secondary" rel="nofollow" href="/structures/search/small_molecule_drugs/structure?database_id=DB00316&search_type=similarity#results">
-                    <div className="drugbank-icon icon-chemquery">
-                      <svg className="icon" role="img" title="chemquery">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#chemquery"> </use>
-                      </svg>
-                    </div> Similar Structures</a>
-                </div>
-                <div className="modal fade" id="structure-zoom">
-                  <div className="modal-dialog modal-lg" role="document">
-                    <div className="modal-content">
-                      <div className="modal-header">
-                        <h4 className="modal-title">Structure for Acetaminophen (DB00316)</h4>
-                        <button aria-hidden="true" className="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
-                      </div>
-                      <div className="modal-body">
-                        <div className="d-flex justify-content-center"><img src="/structures/DB00316/image.svg" alt="Image" /></div>
-                      </div>
-                      <div className="modal-footer">
-                        <button className="btn btn-default" data-dismiss="modal" type="button"> Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Synonyms</dt>
+
+            </dd>
+            <dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list-break">
                 <li>4-(Acetylamino)phenol</li>
@@ -135,7 +66,8 @@ class Acetaminophen extends React.Component {
                   <div className="language-flag latin" title data-original-title="Latin" />
                 </li>
               </ul>
-            </dd><dt className="col-md-2 col-sm-4">External IDs <a tabIndex={0} role="button" data-toggle="popover" data-content="Codes and identifiers used by other resources and companies, often used before choosing a marketing name." title id="external-identifiers-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About External Identifiers"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">External IDs</dt>
             <dd className="col-md-10 col-sm-8"><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">NSC-109028</span><span className="list-separator"> / </span><span className="separated-list-item">NSC-3991</span></span>
               </span>
             </dd>

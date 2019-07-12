@@ -11,40 +11,6 @@ class Amlodipine extends React.Component {
       </header>
 
       <div className="content-container">
-        <div id="jumper-tab">
-          <div className="jumper-toggle drugbank-icon icon-double-arrow-left">
-            <svg className="icon" role="img" title="double-arrow-left">
-              <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-left"> </use>
-            </svg>
-          </div>
-        </div>
-        <div className="list-group closed" id="jumper">
-          <div className="list-group-item jumper-header d-flex justify-content-between align-items-center">Jump to section
-            <div className="jumper-toggle drugbank-icon icon-double-arrow-right">
-              <svg className="icon" role="img" title="double-arrow-right">
-                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#double-arrow-right"> </use>
-              </svg>
-            </div>
-          </div>
-          <a className="list-group-item jumper-link" href="#identification">
-            <div className="circle" />Identification</a>
-          <a className="list-group-item jumper-link" href="#pharmacology">
-            <div className="circle" />Pharmacology</a>
-          <a className="list-group-item jumper-link" href="#interactions">
-            <div className="circle" />Interactions</a>
-          <a className="list-group-item jumper-link" href="#references">
-            <div className="circle" />References</a>
-          <a className="list-group-item jumper-link" href="#clinical-trials">
-            <div className="circle" />Trials</a>
-          <a className="list-group-item jumper-link" href="#pharmacoeconomics">
-            <div className="circle" />Economics</a>
-          <a className="list-group-item jumper-link" href="#properties">
-            <div className="circle" />Properties</a>
-          <a className="list-group-item jumper-link" href="#spectra">
-            <div className="circle" />Spectra</a>
-          <a className="list-group-item jumper-link" href="#taxonomy">
-            <div className="circle" />Taxonomy</a>
-        </div>
         <div className="content-header d-sm-flex align-items-center">
           <h1 className="align-self-center mr-4">Amlodipine</h1>
           <div className="page-actions justify-content-sm-end mt-2 mt-sm-0">
@@ -54,16 +20,7 @@ class Amlodipine extends React.Component {
         <div className="card-content px-md-4 px-sm-2 pb-md-4 pb-sm-2">
           <h2 id="identification" className="section-header">Identification</h2>
           <dl>
-            <a target="_blank" id="targeted-ad" className="track-link" href="https://drugbankplus.com/">
-              <div className="targeted-ad-box">
-                <div className="image-row"><img height={15} src="/assets/logo-pink-bd7264e3b993f48d681445728e394507ac912eb6e426e52c6d3230a78dae4bc6.svg" alt="Logo pink" /></div>
-                <div className="lead title">Are you a</div>
-                <div className="focus title">new drug developer?</div>
-                <div className="subtitle">
-                  <div>Contact us to learn more about our customized products and solutions.</div>
-                </div>
-              </div>
-            </a><dt className="col-md-2 col-sm-4">Name</dt>
+            <dt className="col-md-2 col-sm-4">Name</dt>
             <dd className="col-md-10 col-sm-8">Amlodipine</dd><dt className="col-md-2 col-sm-4">Accession Number</dt>
             <dd className="col-md-10 col-sm-8">DB00381&nbsp; (APRD00520) </dd><dt className="col-md-2 col-sm-4">Type</dt>
             <dd className="col-md-10 col-sm-8">Small Molecule</dd><dt className="col-md-2 col-sm-4">Groups</dt>
@@ -76,44 +33,8 @@ class Amlodipine extends React.Component {
               <div className="structure">
                 <a className="moldbi-vector-thumbnail" href="/structures/DB00381/image.svg"><img src="/structures/DB00381/thumb.svg" alt="Thumb" /></a>
               </div>
-              <div className="structure-links">
-                <div className="btn-group btn-group-sm" data-no-turbolink>
-                  <a data-toggle="modal" className="btn btn-outline-secondary" rel="nofollow" href="#structure-zoom">
-                    <div className="drugbank-icon icon-zoom-in">
-                      <svg className="icon" role="img" title="zoom-in">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#zoom-in"> </use>
-                      </svg>
-                    </div>
-                  </a><a className="btn btn-outline-secondary" rel="nofollow" href="/structures/small_molecule_drugs/DB00381">3D</a>
-                  <div className="btn-group btn-group-sm" id="structure-download">
-                    <button aria-expanded="false" aria-haspopup="true" className="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" id="structure-download" type="button">Download </button>
-                    <div aria-labelledby="structure-download" className="dropdown-menu"><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00381.mol">MOL</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00381.sdf">SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00381.sdf?type=3d">3D-SDF</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00381.pdb">PDB</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00381.smiles">SMILES</a><a className="dropdown-item" rel="nofollow" href="/structures/small_molecule_drugs/DB00381.inchi">InChI</a></div>
-                  </div>
-                  <a className="btn btn-outline-secondary" rel="nofollow" href="/structures/search/small_molecule_drugs/structure?database_id=DB00381&search_type=similarity#results">
-                    <div className="drugbank-icon icon-chemquery">
-                      <svg className="icon" role="img" title="chemquery">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#chemquery"> </use>
-                      </svg>
-                    </div> Similar Structures</a>
-                </div>
-                <div className="modal fade" id="structure-zoom">
-                  <div className="modal-dialog modal-lg" role="document">
-                    <div className="modal-content">
-                      <div className="modal-header">
-                        <h4 className="modal-title">Structure for Amlodipine (DB00381)</h4>
-                        <button aria-hidden="true" className="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
-                      </div>
-                      <div className="modal-body">
-                        <div className="d-flex justify-content-center"><img src="/structures/DB00381/image.svg" alt="Image" /></div>
-                      </div>
-                      <div className="modal-footer">
-                        <button className="btn btn-default" data-dismiss="modal" type="button"> Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Synonyms</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list-break">
                 <li>(RS)-3-ethyl 5-methyl 2-[(2-aminoethoxy)methyl]-4-(2-chlorophenyl)-6-methyl-1,4-dihydropyridine-3,5-dicarboxylate</li>
@@ -130,293 +51,8 @@ class Amlodipine extends React.Component {
                   <div className="language-flag latin" title data-original-title="Latin" />
                 </li>
               </ul>
-            </dd><dt className="col-md-2 col-sm-4">Product Ingredients <a tabIndex={0} role="button" data-toggle="popover" data-content="Active ingredients including salts and other forms of exact ingredients used in drug products." title id="product-ingredients-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Product Ingredients"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
-            <dd className="col-md-10 col-sm-8">
-              <table className="table table-sm responsive-table" id="drug-salts-table">
-                <thead>
-                  <tr>
-                    <th>Ingredient</th>
-                    <th>UNII</th>
-                    <th>CAS</th>
-                    <th>InChI Key</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><strong><a href="/salts/DBSALT001054">Amlodipine besylate</a></strong></td>
-                    <td><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=864V2Q084H">864V2Q084H</a></td>
-                    <td>111470-99-6</td>
-                    <td>ZPBWCRDSRKPIDG-UHFFFAOYSA-N</td>
-                  </tr>
-                  <tr>
-                    <td><strong><a href="/salts/DBSALT001056">Amlodipine maleate</a></strong></td>
-                    <td><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=CQ27G2BZJM">CQ27G2BZJM</a></td>
-                    <td>88150-47-4</td>
-                    <td>TZNOWAJJWCGILX-BTJKTKAUSA-N</td>
-                  </tr>
-                  <tr>
-                    <td><strong><a href="/salts/DBSALT001964">Amlodipine mesylate</a></strong></td>
-                    <td><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=291Y33EZHA">291Y33EZHA</a></td>
-                    <td>246852-12-0</td>
-                    <td>MUVFCHUBATVFPP-UHFFFAOYSA-N</td>
-                  </tr>
-                </tbody>
-              </table>
-            </dd><dt className="col-md-2 col-sm-4">Product Images</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="product-carousel-row" style={{maxWidth: '592px'}}>
-                <div className="carousel slide" data-active="true" id="product-carousel">
-                  <ol className="carousel-indicators">
-                    <li className="active" data-slide-to={0} data-target="#product-carousel" />
-                    <li data-slide-to={1} data-target="#product-carousel" />
-                    <li data-slide-to={2} data-target="#product-carousel" />
-                    <li data-slide-to={3} data-target="#product-carousel" />
-                    <li data-slide-to={4} data-target="#product-carousel" />
-                    <li data-slide-to={5} data-target="#product-carousel" />
-                    <li data-slide-to={6} data-target="#product-carousel" />
-                    <li data-slide-to={7} data-target="#product-carousel" />
-                    <li data-slide-to={8} data-target="#product-carousel" />
-                    <li data-slide-to={9} data-target="#product-carousel" />
-                    <li data-slide-to={10} data-target="#product-carousel" />
-                    <li data-slide-to={11} data-target="#product-carousel" />
-                    <li data-slide-to={12} data-target="#product-carousel" />
-                    <li data-slide-to={13} data-target="#product-carousel" />
-                    <li data-slide-to={14} data-target="#product-carousel" />
-                    <li data-slide-to={15} data-target="#product-carousel" />
-                    <li data-slide-to={16} data-target="#product-carousel" />
-                    <li data-slide-to={17} data-target="#product-carousel" />
-                    <li data-slide-to={18} data-target="#product-carousel" />
-                    <li data-slide-to={19} data-target="#product-carousel" />
-                    <li data-slide-to={20} data-target="#product-carousel" />
-                    <li data-slide-to={21} data-target="#product-carousel" />
-                    <li data-slide-to={22} data-target="#product-carousel" />
-                    <li data-slide-to={23} data-target="#product-carousel" />
-                    <li data-slide-to={24} data-target="#product-carousel" />
-                    <li data-slide-to={25} data-target="#product-carousel" />
-                    <li data-slide-to={26} data-target="#product-carousel" />
-                    <li data-slide-to={27} data-target="#product-carousel" />
-                    <li data-slide-to={28} data-target="#product-carousel" />
-                    <li data-slide-to={29} data-target="#product-carousel" />
-                    <li data-slide-to={30} data-target="#product-carousel" />
-                    <li data-slide-to={31} data-target="#product-carousel" />
-                    <li data-slide-to={32} data-target="#product-carousel" />
-                    <li data-slide-to={33} data-target="#product-carousel" />
-                    <li data-slide-to={34} data-target="#product-carousel" />
-                  </ol>
-                  <div className="carousel-inner">
-                    <div className="carousel-item w-100 active">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55111-0339-01_NLMIMAGE10_6D03B6BD.jpg?1498428783" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55111-0339-01_NLMIMAGE10_6D03B6BD.jpg?1498428783" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55111-0339-01_NLMIMAGE10_6D03B6BD.jpg?1498428783" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55111-0341-01_NLMIMAGE10_C238E107.jpg?1498428786" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55111-0341-01_NLMIMAGE10_C238E107.jpg?1498428786" data-description="Amlodipine 10 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55111-0341-01_NLMIMAGE10_C238E107.jpg?1498428786" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54569-593720180907-15195-11yqk41.jpg?1536300809" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54569-593720180907-15195-11yqk41.jpg?1536300809" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54569-593720180907-15195-11yqk41.jpg?1536300809" /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00378-6897-01_NLMIMAGE10_834D41BA.jpg?1498438541" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00378-6897-01_NLMIMAGE10_834D41BA.jpg?1498438541" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00378-6897-01_NLMIMAGE10_834D41BA.jpg?1498438541" /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-103920180907-15195-1ojz6ik.jpg?1536305797" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-103920180907-15195-1ojz6ik.jpg?1536305797" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-103920180907-15195-1ojz6ik.jpg?1536305797" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-104220180907-15195-1228t51.jpg?1536305829" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-104220180907-15195-1228t51.jpg?1536305829" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-104220180907-15195-1228t51.jpg?1536305829" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-141820180907-15195-11s0rzz.jpg?1536305831" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-141820180907-15195-11s0rzz.jpg?1536305831" data-description="Amlodipine 10 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-141820180907-15195-11s0rzz.jpg?1536305831" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-200820180913-8702-85k5un.jpg?1536865856" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-200820180913-8702-85k5un.jpg?1536865856" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-200820180913-8702-85k5un.jpg?1536865856" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0378-689520180913-8702-1dipxa7.jpg?1536867612" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0378-689520180913-8702-1dipxa7.jpg?1536867612" data-description="Amlodipine 2.5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0378-689520180913-8702-1dipxa7.jpg?1536867612" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0378-689620180913-8702-191l2f6.jpg?1536867614" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0378-689620180913-8702-191l2f6.jpg?1536867614" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0378-689620180913-8702-191l2f6.jpg?1536867614" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0378-689720180913-8702-199ac6q.jpg?1536867616" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0378-689720180913-8702-199ac6q.jpg?1536867616" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0378-689720180913-8702-199ac6q.jpg?1536867616" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0583-01_NLMIMAGE10_6039B03D.jpg?1498428792" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0583-01_NLMIMAGE10_6039B03D.jpg?1498428792" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0583-01_NLMIMAGE10_6039B03D.jpg?1498428792" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0584-01_NLMIMAGE10_6439B24D.jpg?1498428797" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0584-01_NLMIMAGE10_6439B24D.jpg?1498428797" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0584-01_NLMIMAGE10_6439B24D.jpg?1498428797" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65862-0587-01_NLMIMAGE10_33489994.jpg?1498438395" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65862-0587-01_NLMIMAGE10_33489994.jpg?1498438395" data-description="Not available" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65862-0587-01_NLMIMAGE10_33489994.jpg?1498438395" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0591-376220180907-15195-fiu5ii.jpg?1536305092" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0591-376220180907-15195-fiu5ii.jpg?1536305092" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0591-376220180907-15195-fiu5ii.jpg?1536305092" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7370-01_NLMIMAGE10_F026F807.jpg?1498428794" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7370-01_NLMIMAGE10_F026F807.jpg?1498428794" data-description="Amlodipine 2.5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7370-01_NLMIMAGE10_F026F807.jpg?1498428794" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7371-01_NLMIMAGE10_CE19671B.jpg?1498428801" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7371-01_NLMIMAGE10_CE19671B.jpg?1498428801" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7371-01_NLMIMAGE10_CE19671B.jpg?1498428801" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7372-01_NLMIMAGE10_C819641B.jpg?1498428804" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7372-01_NLMIMAGE10_C819641B.jpg?1498428804" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7372-01_NLMIMAGE10_C819641B.jpg?1498428804" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7670-01_NLMIMAGE10_8327C19E.jpg?1498428810" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7670-01_NLMIMAGE10_8327C19E.jpg?1498428810" data-description="Amlodipine 5 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7670-01_NLMIMAGE10_8327C19E.jpg?1498428810" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7373-01_NLMIMAGE10_031B81CC.jpg?1498428807" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7373-01_NLMIMAGE10_031B81CC.jpg?1498428807" data-description="Amlodipine 10 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7373-01_NLMIMAGE10_031B81CC.jpg?1498428807" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7671-01_NLMIMAGE10_FE26FF27.jpg?1498428813" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7671-01_NLMIMAGE10_FE26FF27.jpg?1498428813" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7671-01_NLMIMAGE10_FE26FF27.jpg?1498428813" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/49884-0574-11_NLMIMAGE10_973ECBA6.jpg?1498428830" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/49884-0574-11_NLMIMAGE10_973ECBA6.jpg?1498428830" data-description="Amlodipine 5 MG / valsartan 160 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/49884-0574-11_NLMIMAGE10_973ECBA6.jpg?1498428830" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/49884-0576-11_NLMIMAGE10_BA3F5D3A.jpg?1498428832" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/49884-0576-11_NLMIMAGE10_BA3F5D3A.jpg?1498428832" data-description="Amlodipine 5 MG / valsartan 320 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/49884-0576-11_NLMIMAGE10_BA3F5D3A.jpg?1498428832" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/49884-0577-11_NLMIMAGE10_8E3EC726.jpg?1498428815" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/49884-0577-11_NLMIMAGE10_8E3EC726.jpg?1498428815" data-description="Amlodipine 10 MG / valsartan 320 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/49884-0577-11_NLMIMAGE10_8E3EC726.jpg?1498428815" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00378-1721-93_NLMIMAGE10_DB48ED97.jpg?1498438008" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00378-1721-93_NLMIMAGE10_DB48ED97.jpg?1498438008" data-description="Not available" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00378-1721-93_NLMIMAGE10_DB48ED97.jpg?1498438008" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00378-1723-93_NLMIMAGE10_E348F1E7.jpg?1498438012" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00378-1723-93_NLMIMAGE10_E348F1E7.jpg?1498438012" data-description="Not available" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00378-1723-93_NLMIMAGE10_E348F1E7.jpg?1498438012" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0378-172420180907-15195-12sbtqm.jpg?1536299503" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0378-172420180907-15195-12sbtqm.jpg?1536299503" data-description="Amlodipine 10 MG / valsartan 320 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0378-172420180907-15195-12sbtqm.jpg?1536299503" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7690-56_NLMIMAGE10_8C43C65E.jpg?1498428818" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7690-56_NLMIMAGE10_8C43C65E.jpg?1498428818" data-description="Amlodipine 5 MG / valsartan 160 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7690-56_NLMIMAGE10_8C43C65E.jpg?1498428818" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7691-56_NLMIMAGE10_9A43CD1E.jpg?1498428821" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7691-56_NLMIMAGE10_9A43CD1E.jpg?1498428821" data-description="Amlodipine 10 MG / valsartan 160 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7691-56_NLMIMAGE10_9A43CD1E.jpg?1498428821" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7692-56_NLMIMAGE10_9143C8CE.jpg?1498428824" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7692-56_NLMIMAGE10_9143C8CE.jpg?1498428824" data-description="Amlodipine 5 MG / valsartan 320 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7692-56_NLMIMAGE10_9143C8CE.jpg?1498428824" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7693-56_NLMIMAGE10_9F43CF8E.jpg?1498428827" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7693-56_NLMIMAGE10_9F43CF8E.jpg?1498428827" data-description="Amlodipine 10 MG / valsartan 320 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7693-56_NLMIMAGE10_9F43CF8E.jpg?1498428827" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/53808-020020180906-25352-1gumnny.jpg?1536257438" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/53808-020020180906-25352-1gumnny.jpg?1536257438" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/53808-020020180906-25352-1gumnny.jpg?1536257438" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/53808-065320180906-25352-1vezar8.jpg?1536257440" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/53808-065320180906-25352-1vezar8.jpg?1536257440" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/53808-065320180906-25352-1vezar8.jpg?1536257440" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/59762-1540-01_NLMIMAGE10_923DC97E.jpg?1498428845" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/59762-1540-01_NLMIMAGE10_923DC97E.jpg?1498428845" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/59762-1540-01_NLMIMAGE10_923DC97E.jpg?1498428845" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/67296-067320180907-15195-1nifcvv.jpg?1536292132" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/67296-067320180907-15195-1nifcvv.jpg?1536292132" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/67296-067320180907-15195-1nifcvv.jpg?1536292132" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/67296-067220180907-15195-okr83u.jpg?1536292598" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/67296-067220180907-15195-okr83u.jpg?1536292598" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/67296-067220180907-15195-okr83u.jpg?1536292598" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/64725-023820180907-15195-qqs7sz.jpg?1536295943" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/64725-023820180907-15195-qqs7sz.jpg?1536295943" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/64725-023820180907-15195-qqs7sz.jpg?1536295943" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/53808-102920180907-15195-1p1z3py.jpg?1536297134" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/53808-102920180907-15195-1p1z3py.jpg?1536297134" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/53808-102920180907-15195-1p1z3py.jpg?1536297134" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/13668-02220180907-15195-1jqd87k.jpg?1536298044" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/13668-02220180907-15195-1jqd87k.jpg?1536298044" data-description="aripiprazole 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/13668-02220180907-15195-1jqd87k.jpg?1536298044" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/31722-0238-10_NLMIMAGE10_E4047243.jpg?1498428848" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/31722-0238-10_NLMIMAGE10_E4047243.jpg?1498428848" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/31722-0238-10_NLMIMAGE10_E4047243.jpg?1498428848" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-154020180907-15195-momnqg.jpg?1536298496" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-154020180907-15195-momnqg.jpg?1536298496" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-154020180907-15195-momnqg.jpg?1536298496" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69189-023920180907-15195-ku3vvu.jpg?1536298593" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69189-023920180907-15195-ku3vvu.jpg?1536298593" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69189-023920180907-15195-ku3vvu.jpg?1536298593" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-102820180907-15195-1j9m31a.jpg?1536299697" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-102820180907-15195-1j9m31a.jpg?1536299697" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-102820180907-15195-1j9m31a.jpg?1536299697" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-102920180907-15195-o4pzpp.jpg?1536299699" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-102920180907-15195-o4pzpp.jpg?1536299699" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-102920180907-15195-o4pzpp.jpg?1536299699" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50436-662420180907-15195-alayag.jpg?1536300036" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50436-662420180907-15195-alayag.jpg?1536300036" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50436-662420180907-15195-alayag.jpg?1536300036" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/31722-0237-10_NLMIMAGE10_C503E29F.jpg?1498428835" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/31722-0237-10_NLMIMAGE10_C503E29F.jpg?1498428835" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/31722-0237-10_NLMIMAGE10_C503E29F.jpg?1498428835" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/69097-0126-15_NLMIMAGE10_BB4D5DDA.jpg?1498438468" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/69097-0126-15_NLMIMAGE10_BB4D5DDA.jpg?1498438468" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/69097-0126-15_NLMIMAGE10_BB4D5DDA.jpg?1498438468" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54569-590120180907-15195-1bb70bi.jpg?1536300788" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54569-590120180907-15195-1bb70bi.jpg?1536300788" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54569-590120180907-15195-1bb70bi.jpg?1536300788" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54569-590220180907-15195-16yj1a1.jpg?1536300814" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54569-590220180907-15195-16yj1a1.jpg?1536300814" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54569-590220180907-15195-16yj1a1.jpg?1536300814" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/58118-023820180907-15195-17vng8d.jpg?1536301011" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/58118-023820180907-15195-17vng8d.jpg?1536301011" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/58118-023820180907-15195-17vng8d.jpg?1536301011" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/58118-023920180907-15195-107ejes.jpg?1536301013" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/58118-023920180907-15195-107ejes.jpg?1536301013" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/58118-023920180907-15195-107ejes.jpg?1536301013" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65162-0007-50_NLMIMAGE10_7245B91D.jpg?1498428862" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65162-0007-50_NLMIMAGE10_7245B91D.jpg?1498428862" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65162-0007-50_NLMIMAGE10_7245B91D.jpg?1498428862" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/70786-024120180907-15195-scet7f.jpg?1536303608" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/70786-024120180907-15195-scet7f.jpg?1536303608" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/70786-024120180907-15195-scet7f.jpg?1536303608" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68645-44520180110-646-qidwf7.jpg?1515566983" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68645-44520180110-646-qidwf7.jpg?1515566983" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68645-44520180110-646-qidwf7.jpg?1515566983" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00603-2110-33_NLMIMAGE10_6445B25D.jpg?1498428856" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00603-2110-33_NLMIMAGE10_6445B25D.jpg?1498428856" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00603-2110-33_NLMIMAGE10_6445B25D.jpg?1498428856" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50436-028420180907-15195-96zhk7.jpg?1536304740" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50436-028420180907-15195-96zhk7.jpg?1536304740" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50436-028420180907-15195-96zhk7.jpg?1536304740" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00603-2109-34_NLMIMAGE10_853DC2BE.jpg?1498428838" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00603-2109-34_NLMIMAGE10_853DC2BE.jpg?1498428838" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00603-2109-34_NLMIMAGE10_853DC2BE.jpg?1498428838" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-140520180907-15195-trtdzn.jpg?1536306441" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-140520180907-15195-trtdzn.jpg?1536306441" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-140520180907-15195-trtdzn.jpg?1536306441" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-150820180907-15195-137g9v2.jpg?1536306443" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-150820180907-15195-137g9v2.jpg?1536306443" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-150820180907-15195-137g9v2.jpg?1536306443" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/58118-010820180907-15195-c9vedp.jpg?1536306866" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/58118-010820180907-15195-c9vedp.jpg?1536306866" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/58118-010820180907-15195-c9vedp.jpg?1536306866" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/58118-010920180907-15195-1yct8ky.jpg?1536306868" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/58118-010920180907-15195-1yct8ky.jpg?1536306868" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/58118-010920180907-15195-1yct8ky.jpg?1536306868" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-102020180913-8702-1n0o612.jpg?1536861605" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-102020180913-8702-1n0o612.jpg?1536861605" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-102020180913-8702-1n0o612.jpg?1536861605" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-102120180913-8702-1xe558b.jpg?1536861607" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-102120180913-8702-1xe558b.jpg?1536861607" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-102120180913-8702-1xe558b.jpg?1536861607" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/29300-0242-10_NLMIMAGE10_7F45BFDD.jpg?1498428859" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/29300-0242-10_NLMIMAGE10_7F45BFDD.jpg?1498428859" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/29300-0242-10_NLMIMAGE10_7F45BFDD.jpg?1498428859" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68151-099520180913-8702-1j5dacz.jpg?1536863305" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68151-099520180913-8702-1j5dacz.jpg?1536863305" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68151-099520180913-8702-1j5dacz.jpg?1536863305" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-053520180913-8702-s9ol5b.jpg?1536864769" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-053520180913-8702-s9ol5b.jpg?1536864769" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-053520180913-8702-s9ol5b.jpg?1536864769" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/31722-0239-10_NLMIMAGE10_E90474E3.jpg?1498428840" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/31722-0239-10_NLMIMAGE10_E90474E3.jpg?1498428840" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/31722-0239-10_NLMIMAGE10_E90474E3.jpg?1498428840" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-931420180913-8702-b5k6nm.jpg?1536865207" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-931420180913-8702-b5k6nm.jpg?1536865207" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-931420180913-8702-b5k6nm.jpg?1536865207" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-173820180913-8702-12s4r9r.jpg?1536865211" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-173820180913-8702-12s4r9r.jpg?1536865211" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-173820180913-8702-12s4r9r.jpg?1536865211" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-173720180913-8702-jh9zjk.jpg?1536865213" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-173720180913-8702-jh9zjk.jpg?1536865213" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-173720180913-8702-jh9zjk.jpg?1536865213" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68788-678120180913-8702-6blvr5.jpg?1536865216" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68788-678120180913-8702-6blvr5.jpg?1536865216" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68788-678120180913-8702-6blvr5.jpg?1536865216" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/29300-0241-10_NLMIMAGE10_AF3DD7BE.jpg?1498428864" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/29300-0241-10_NLMIMAGE10_AF3DD7BE.jpg?1498428864" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/29300-0241-10_NLMIMAGE10_AF3DD7BE.jpg?1498428864" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/29300-0243-10_NLMIMAGE10_8A3DC52E.jpg?1498428843" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/29300-0243-10_NLMIMAGE10_8A3DC52E.jpg?1498428843" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/29300-0243-10_NLMIMAGE10_8A3DC52E.jpg?1498428843" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0603-210920180913-8702-qv449d.jpg?1536866515" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0603-210920180913-8702-qv449d.jpg?1536866515" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0603-210920180913-8702-qv449d.jpg?1536866515" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0603-211020180913-8702-1kokv5c.jpg?1536866517" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0603-211020180913-8702-1kokv5c.jpg?1536866517" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0603-211020180913-8702-1kokv5c.jpg?1536866517" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-140420180907-15195-17asdgs.jpg?1536306790" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-140420180907-15195-17asdgs.jpg?1536306790" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-140420180907-15195-17asdgs.jpg?1536306790" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-152720180907-15195-1tagomi.jpg?1536306792" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-152720180907-15195-1tagomi.jpg?1536306792" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-152720180907-15195-1tagomi.jpg?1536306792" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-152920180907-15195-19w1l3h.jpg?1536306794" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-152920180907-15195-19w1l3h.jpg?1536306794" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-152920180907-15195-19w1l3h.jpg?1536306794" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-0083-98_NLMIMAGE10_3B299DDC.jpg?1498428866" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-0083-98_NLMIMAGE10_3B299DDC.jpg?1498428866" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-0083-98_NLMIMAGE10_3B299DDC.jpg?1498428866" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7167-98_NLMIMAGE10_6129B0CD.jpg?1498428853" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7167-98_NLMIMAGE10_6129B0CD.jpg?1498428853" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7167-98_NLMIMAGE10_6129B0CD.jpg?1498428853" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7168-98_NLMIMAGE10_4229A13D.jpg?1498428851" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7168-98_NLMIMAGE10_4229A13D.jpg?1498428851" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7168-98_NLMIMAGE10_4229A13D.jpg?1498428851" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-162720180913-8702-16syrs.jpg?1536865714" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-162720180913-8702-16syrs.jpg?1536865714" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-162720180913-8702-16syrs.jpg?1536865714" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/67877-0197-05_NLMIMAGE10_914948BA.jpg?1498438407" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/67877-0197-05_NLMIMAGE10_914948BA.jpg?1498438407" data-description="Amlodipine 2.5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/67877-0197-05_NLMIMAGE10_914948BA.jpg?1498438407" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/59762-153020180913-8702-1vo8v6i.jpg?1536865072" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/59762-153020180913-8702-1vo8v6i.jpg?1536865072" data-description="Amlodipine 5 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/59762-153020180913-8702-1vo8v6i.jpg?1536865072" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/59762-154020180913-8702-sfutju.jpg?1536865074" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/59762-154020180913-8702-sfutju.jpg?1536865074" data-description="Amlodipine 10 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/59762-154020180913-8702-sfutju.jpg?1536865074" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63304-0589-30_NLMIMAGE10_F53A7A83.jpg?1498428869" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63304-0589-30_NLMIMAGE10_F53A7A83.jpg?1498428869" data-description="Amlodipine 5 MG / atorvastatin 40 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63304-0589-30_NLMIMAGE10_F53A7A83.jpg?1498428869" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/59762-672120180913-8702-1ge6ubx.jpg?1536868935" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/59762-672120180913-8702-1ge6ubx.jpg?1536868935" data-description="Amlodipine 5 MG / atorvastatin 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/59762-672120180913-8702-1ge6ubx.jpg?1536868935" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/59762-6722-01_NLMIMAGE10_DC3FEE1F.jpg?1498428874" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/59762-6722-01_NLMIMAGE10_DC3FEE1F.jpg?1498428874" data-description="Amlodipine 5 MG / atorvastatin 40 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/59762-6722-01_NLMIMAGE10_DC3FEE1F.jpg?1498428874" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/59762-6733-01_NLMIMAGE10_BB3FDDCE.jpg?1498428881" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/59762-6733-01_NLMIMAGE10_BB3FDDCE.jpg?1498428881" data-description="Amlodipine 10 MG / atorvastatin 80 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/59762-6733-01_NLMIMAGE10_BB3FDDCE.jpg?1498428881" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/43598-0323-30_NLMIMAGE10_38491C78.jpg?1498438257" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/43598-0323-30_NLMIMAGE10_38491C78.jpg?1498438257" data-description="Not available" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/43598-0323-30_NLMIMAGE10_38491C78.jpg?1498438257" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/43598-0319-30_NLMIMAGE10_E43FF26F.jpg?1498428872" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/43598-0319-30_NLMIMAGE10_E43FF26F.jpg?1498428872" data-description="Amlodipine 5 MG / atorvastatin 20 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/43598-0319-30_NLMIMAGE10_E43FF26F.jpg?1498428872" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/43598-0316-30_NLMIMAGE10_F63FFB6F.jpg?1498428877" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/43598-0316-30_NLMIMAGE10_F63FFB6F.jpg?1498428877" data-description="Amlodipine 5 MG / atorvastatin 40 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/43598-0316-30_NLMIMAGE10_F63FFB6F.jpg?1498428877" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-629720180907-15195-i6pb1u.jpg?1536292520" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-629720180907-15195-i6pb1u.jpg?1536292520" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-629720180907-15195-i6pb1u.jpg?1536292520" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55111-0587-01_NLMIMAGE10_FB3AFD97.jpg?1498428892" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55111-0587-01_NLMIMAGE10_FB3AFD97.jpg?1498428892" data-description="Amlodipine 5 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55111-0587-01_NLMIMAGE10_FB3AFD97.jpg?1498428892" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55111-0586-01_NLMIMAGE10_6439B27D.jpg?1498428895" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55111-0586-01_NLMIMAGE10_6439B27D.jpg?1498428895" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55111-0586-01_NLMIMAGE10_6439B27D.jpg?1498428895" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-579220180907-15195-5nuitq.jpg?1536293857" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-579220180907-15195-5nuitq.jpg?1536293857" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-579220180907-15195-5nuitq.jpg?1536293857" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68180-0757-01_NLMIMAGE10_553DAAED.jpg?1498428889" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68180-0757-01_NLMIMAGE10_553DAAED.jpg?1498428889" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68180-0757-01_NLMIMAGE10_553DAAED.jpg?1498428889" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68180-0758-01_NLMIMAGE10_483DA45D.jpg?1498428884" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68180-0758-01_NLMIMAGE10_483DA45D.jpg?1498428884" data-description="Amlodipine 10 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68180-0758-01_NLMIMAGE10_483DA45D.jpg?1498428884" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/63629-536620180907-15195-tthyqq.jpg?1536297118" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/63629-536620180907-15195-tthyqq.jpg?1536297118" data-description="Amlodipine 5 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/63629-536620180907-15195-tthyqq.jpg?1536297118" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-103820180907-15195-1d7oix9.jpg?1536305786" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-103820180907-15195-1d7oix9.jpg?1536305786" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-103820180907-15195-1d7oix9.jpg?1536305786" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/50090-164420180913-8702-11zndje.jpg?1536862436" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/50090-164420180913-8702-11zndje.jpg?1536862436" data-description="Amlodipine 5 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/50090-164420180913-8702-11zndje.jpg?1536862436" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68151-136420180913-8702-1ni19ql.jpg?1536863273" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68151-136420180913-8702-1ni19ql.jpg?1536863273" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68151-136420180913-8702-1ni19ql.jpg?1536863273" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68180-0756-01_NLMIMAGE10_473DA3FD.jpg?1498428887" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68180-0756-01_NLMIMAGE10_473DA3FD.jpg?1498428887" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68180-0756-01_NLMIMAGE10_473DA3FD.jpg?1498428887" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68180-0759-01_NLMIMAGE10_3C3E9E74.jpg?1498428897" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68180-0759-01_NLMIMAGE10_3C3E9E74.jpg?1498428897" data-description="Amlodipine 5 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68180-0759-01_NLMIMAGE10_3C3E9E74.jpg?1498428897" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/68180-0760-01_NLMIMAGE10_513DA8DD.jpg?1498428900" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/68180-0760-01_NLMIMAGE10_513DA8DD.jpg?1498428900" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/68180-0760-01_NLMIMAGE10_513DA8DD.jpg?1498428900" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55111-0340-01_NLMIMAGE10_7303B98D.jpg?1498428789" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55111-0340-01_NLMIMAGE10_7303B98D.jpg?1498428789" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55111-0340-01_NLMIMAGE10_7303B98D.jpg?1498428789" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7807-56_NLMIMAGE10_8443C20E.jpg?1498428906" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7807-56_NLMIMAGE10_8443C20E.jpg?1498428906" data-description="Amlodipine 5 MG / Hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7807-56_NLMIMAGE10_8443C20E.jpg?1498428906" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7037-56_NLMIMAGE10_7643BB4D.jpg?1498428909" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7037-56_NLMIMAGE10_7643BB4D.jpg?1498428909" data-description="Amlodipine 5 MG / Hydrochlorothiazide 25 MG / valsartan 160 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7037-56_NLMIMAGE10_7643BB4D.jpg?1498428909" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7810-56_NLMIMAGE10_5B43AD9D.jpg?1498437955" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7810-56_NLMIMAGE10_5B43AD9D.jpg?1498437955" data-description="Amlodipine 10 MG / Hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7810-56_NLMIMAGE10_5B43AD9D.jpg?1498437955" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00093-7038-56_NLMIMAGE10_B63FDB5E.jpg?1498428903" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00093-7038-56_NLMIMAGE10_B63FDB5E.jpg?1498428903" data-description="Amlodipine 10 MG / Hydrochlorothiazide 25 MG / valsartan 160 MG Oral Tablet" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00093-7038-56_NLMIMAGE10_B63FDB5E.jpg?1498428903" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65597-0113-90_NLMIMAGE10_D139E8DF.jpg?1498428912" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65597-0113-90_NLMIMAGE10_D139E8DF.jpg?1498428912" data-description="Amlodipine 10 MG / Olmesartan medoxomil 40 MG Oral Tablet [Azor]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65597-0113-90_NLMIMAGE10_D139E8DF.jpg?1498428912" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65597-0112-90_NLMIMAGE10_E239F11F.jpg?1498428915" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65597-0112-90_NLMIMAGE10_E239F11F.jpg?1498428915" data-description="Amlodipine 5 MG / Olmesartan medoxomil 40 MG Oral Tablet [Azor]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65597-0112-90_NLMIMAGE10_E239F11F.jpg?1498428915" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-520920180907-15195-wztotv.jpg?1536291083" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-520920180907-15195-wztotv.jpg?1536291083" data-description="Amlodipine 10 MG / atorvastatin 20 MG Oral Tablet [Caduet]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-520920180907-15195-wztotv.jpg?1536291083" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00069-2180-30_NLMIMAGE10_41132099.jpg?1498428918" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00069-2180-30_NLMIMAGE10_41132099.jpg?1498428918" data-description="Amlodipine 10 MG / atorvastatin 20 MG Oral Tablet [Caduet]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00069-2180-30_NLMIMAGE10_41132099.jpg?1498428918" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-599720180907-15195-12b7xl4.jpg?1536293088" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-599720180907-15195-12b7xl4.jpg?1536293088" data-description="Amlodipine 5 MG / valsartan 160 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-599720180907-15195-12b7xl4.jpg?1536293088" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0489-15_NLMIMAGE10_1F3B0F98.jpg?1498428930" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0489-15_NLMIMAGE10_1F3B0F98.jpg?1498428930" data-description="Amlodipine 10 MG / valsartan 160 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0489-15_NLMIMAGE10_1F3B0F98.jpg?1498428930" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-599620180907-15195-eqaq3.jpg?1536293091" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-599620180907-15195-eqaq3.jpg?1536293091" data-description="Amlodipine 5 MG / valsartan 320 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-599620180907-15195-eqaq3.jpg?1536293091" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-598320180907-15195-18mjji7.jpg?1536293093" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-598320180907-15195-18mjji7.jpg?1536293093" data-description="Amlodipine 10 MG / valsartan 320 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-598320180907-15195-18mjji7.jpg?1536293093" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0488-15_NLMIMAGE10_233B11A8.jpg?1498428927" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0488-15_NLMIMAGE10_233B11A8.jpg?1498428927" data-description="Amlodipine 5 MG / valsartan 160 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0488-15_NLMIMAGE10_233B11A8.jpg?1498428927" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0078-048820180814-13942-v2j8rg.jpg?1534246785" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0078-048820180814-13942-v2j8rg.jpg?1534246785" data-description="Amlodipine 5 MG / valsartan 160 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0078-048820180814-13942-v2j8rg.jpg?1534246785" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0078-048920180814-13942-16xts6z.jpg?1534246787" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0078-048920180814-13942-16xts6z.jpg?1534246787" data-description="Amlodipine 10 MG / valsartan 160 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0078-048920180814-13942-16xts6z.jpg?1534246787" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0490-15_NLMIMAGE10_0B3B05A8.jpg?1498428921" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0490-15_NLMIMAGE10_0B3B05A8.jpg?1498428921" data-description="Amlodipine 5 MG / valsartan 320 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0490-15_NLMIMAGE10_0B3B05A8.jpg?1498428921" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0491-15_NLMIMAGE10_193B0C98.jpg?1498428924" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0491-15_NLMIMAGE10_193B0C98.jpg?1498428924" data-description="Amlodipine 10 MG / valsartan 320 MG Oral Tablet [Exforge]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0491-15_NLMIMAGE10_193B0C98.jpg?1498428924" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0563-15_NLMIMAGE10_153B0A88.jpg?1498428933" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0563-15_NLMIMAGE10_153B0A88.jpg?1498428933" data-description="Amlodipine 10 MG / Hydrochlorothiazide 25 MG / valsartan 320 MG Oral Tablet [Exforge HCT]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0563-15_NLMIMAGE10_153B0A88.jpg?1498428933" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0560-15_NLMIMAGE10_8F3B47AA.jpg?1498428937" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0560-15_NLMIMAGE10_8F3B47AA.jpg?1498428937" data-description="Amlodipine 5 MG / Hydrochlorothiazide 25 MG / valsartan 160 MG Oral Tablet [Exforge HCT]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0560-15_NLMIMAGE10_8F3B47AA.jpg?1498428937" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0078-056320180814-13942-lkcjo1.jpg?1534246793" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0078-056320180814-13942-lkcjo1.jpg?1534246793" data-description="Amlodipine 10 MG / Hydrochlorothiazide 25 MG / valsartan 320 MG Oral Tablet [Exforge HCT]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0078-056320180814-13942-lkcjo1.jpg?1534246793" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55154-966820180907-15195-1sqj5fu.jpg?1536291693" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55154-966820180907-15195-1sqj5fu.jpg?1536291693" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule [Lotrel]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/55154-966820180907-15195-1sqj5fu.jpg?1536291693" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0406-05_NLMIMAGE10_5E15AF2D.jpg?1498428947" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0406-05_NLMIMAGE10_5E15AF2D.jpg?1498428947" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule [Lotrel]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0406-05_NLMIMAGE10_5E15AF2D.jpg?1498428947" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0384-05_NLMIMAGE10_052102A8.jpg?1498428943" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0384-05_NLMIMAGE10_052102A8.jpg?1498428943" data-description="Amlodipine 5 MG / Benazepril hydrochloride 40 MG Oral Capsule [Lotrel]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0384-05_NLMIMAGE10_052102A8.jpg?1498428943" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/54868-569020180907-15195-1307hca.jpg?1536293238" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/54868-569020180907-15195-1307hca.jpg?1536293238" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule [Lotrel]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/54868-569020180907-15195-1307hca.jpg?1536293238" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0078-040620180814-13942-1izbam0.jpg?1534246774" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0078-040620180814-13942-1izbam0.jpg?1534246774" data-description="Amlodipine 5 MG / Benazepril hydrochloride 20 MG Oral Capsule [Lotrel]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0078-040620180814-13942-1izbam0.jpg?1534246774" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0078-038420180814-13942-1ni0fnj.jpg?1534246772" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0078-038420180814-13942-1ni0fnj.jpg?1534246772" data-description="Amlodipine 5 MG / Benazepril hydrochloride 40 MG Oral Capsule [Lotrel]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0078-038420180814-13942-1ni0fnj.jpg?1534246772" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00078-0379-05_NLMIMAGE10_6115B0AD.jpg?1498428940" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00078-0379-05_NLMIMAGE10_6115B0AD.jpg?1498428940" data-description="Amlodipine 10 MG / Benazepril hydrochloride 40 MG Oral Capsule [Lotrel]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00078-0379-05_NLMIMAGE10_6115B0AD.jpg?1498428940" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/00069-1540-68_NLMIMAGE10_BB1C5DE2.jpg?1498428950" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/00069-1540-68_NLMIMAGE10_BB1C5DE2.jpg?1498428950" data-description="Amlodipine 10 MG Oral Tablet [Norvasc]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/00069-1540-68_NLMIMAGE10_BB1C5DE2.jpg?1498428950" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/0069-154020180814-13942-nzy3h1.jpg?1534246665" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/0069-154020180814-13942-nzy3h1.jpg?1534246665" data-description="Amlodipine 10 MG Oral Tablet [Norvasc]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/0069-154020180814-13942-nzy3h1.jpg?1534246665" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65597-0114-30_NLMIMAGE10_7C1DBE6D.jpg?1498428961" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65597-0114-30_NLMIMAGE10_7C1DBE6D.jpg?1498428961" data-description="Amlodipine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 20 MG Oral Tablet [Tribenzor]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65597-0114-30_NLMIMAGE10_7C1DBE6D.jpg?1498428961" src /></a>
-                    </div>
-                    <div className="carousel-item w-100">
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65597-0115-90_NLMIMAGE10_1F1D8FEC.jpg?1498428964" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65597-0115-90_NLMIMAGE10_1F1D8FEC.jpg?1498428964" data-description="Amlodipine 5 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 40 MG Oral Tablet [Tribenzor]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65597-0115-90_NLMIMAGE10_1F1D8FEC.jpg?1498428964" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65597-0116-30_NLMIMAGE10_D13CE8D7.jpg?1498428953" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65597-0116-30_NLMIMAGE10_D13CE8D7.jpg?1498428953" data-description="Amlodipine 5 MG / Hydrochlorothiazide 25 MG / Olmesartan medoxomil 40 MG Oral Tablet [Tribenzor]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65597-0116-30_NLMIMAGE10_D13CE8D7.jpg?1498428953" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65597-0117-30_NLMIMAGE10_A441D24E.jpg?1498428958" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65597-0117-30_NLMIMAGE10_A441D24E.jpg?1498428958" data-description="Amlodipine 10 MG / Hydrochlorothiazide 12.5 MG / Olmesartan medoxomil 40 MG Oral Tablet [Tribenzor]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65597-0117-30_NLMIMAGE10_A441D24E.jpg?1498428958" src /></a>
-                      <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/65597-0118-30_NLMIMAGE10_071D83EC.jpg?1498428956" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/65597-0118-30_NLMIMAGE10_071D83EC.jpg?1498428956" data-description="Amlodipine 10 MG / Hydrochlorothiazide 25 MG / Olmesartan medoxomil 40 MG Oral Tablet [Tribenzor]" href="#modal-package"><img className="img-fluid" data-source="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/thumb/65597-0118-30_NLMIMAGE10_071D83EC.jpg?1498428956" src /></a>
-                    </div>
-                  </div><a className="carousel-control-prev" data-slide="prev" href="#product-carousel" role="button"><span aria-hidden="true" className="carousel-control-prev-icon" /><span className="sr-only">Previous</span></a><a className="carousel-control-next" data-slide="next" href="#product-carousel" role="button"><span aria-hidden="true" className="carousel-control-next-icon" /><span className="sr-only">Next</span></a></div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Prescription Products</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Prescription Products</dt>
             <dd className="col-md-10 col-sm-8 has-locked-content">
               <div id="approved-products_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                 <div className="row">
@@ -453,16 +89,6 @@ class Amlodipine extends React.Component {
                           <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
                           <th className="sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
                           <th className="drug-image sorting" tabIndex={0} aria-controls="approved-products" rowSpan={1} colSpan={1} style={{width: '0px', display: 'none'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={9} rowSpan={1}>
-                            <div className="locked-link" data-field="approved-products" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
                         </tr>
                       </thead>
                       <tbody>
@@ -612,622 +238,8 @@ class Amlodipine extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="locked-fields-holder" data-for="#approved-products">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Application Number
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Application Number</div>
-                              <p>A unique ID assigned by the FDA when a product is submitted for approval by the labeller.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/approved-products-application-number" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Product Code
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Product Code</div>
-                              <p>A governmentally-recognized ID which uniquely identifies the product within its regulatory market.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/approved-products-product-code" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Generic Prescription Products</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="generic-products_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="generic-products_length">
-                      <label>Show
-                        <select name="generic-products_length" aria-controls="generic-products" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="generic-products_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="generic-products" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline collapsed" data-source="/drugs/DB00381/products.json?group=generic" data-total={538} id="generic-products" style={{width: '100%'}} role="grid" aria-describedby="generic-products_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '76.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '70.2px'}} aria-label="Strength: activate to sort column ascending">Strength</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '97.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="generic-products" rowSpan={1} colSpan={1} style={{width: '0px', display: 'none'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={9} rowSpan={1}>
-                            <div className="locked-link" data-field="generic-products" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Accel-amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>5 mg</td>
-                          <td>Oral</td>
-                          <td>Accel Pharma Inc</td>
-                          <td>2010-03-05</td>
-                          <td>2016-10-19</td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Accel-amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>2.5 mg</td>
-                          <td>Oral</td>
-                          <td>Accel Pharma Inc</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Accel-amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Accel Pharma Inc</td>
-                          <td>2010-03-05</td>
-                          <td>2016-10-19</td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Ag-amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>2.5 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Ag-amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td>2014-09-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Ag-amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>5 mg</td>
-                          <td>Oral</td>
-                          <td>Angita Pharma Inc.</td>
-                          <td>2014-09-25</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>5 mg/1</td>
-                          <td>Oral</td>
-                          <td>Macleods Pharmaceuticals Limited</td>
-                          <td>2012-04-13</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg/1</td>
-                          <td>Oral</td>
-                          <td>Remedy Repack</td>
-                          <td>2011-04-13</td>
-                          <td>2011-04-14</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg/1</td>
-                          <td>Oral</td>
-                          <td>State of Florida DOH Central Pharmacy</td>
-                          <td>2013-01-01</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Amlodipine</strong></td>
-                          <td>Tablet</td>
-                          <td>10 mg/1</td>
-                          <td>Oral</td>
-                          <td>Macleods Pharmaceuticals Limited</td>
-                          <td>2012-04-13</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="generic-products_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="generic-products_info" role="status" aria-live="polite">Showing 1 to 10 of 538 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="generic-products_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="generic-products_previous"><a href="#" aria-controls="generic-products" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="generic-products" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="generic-products_ellipsis"><a href="#" aria-controls="generic-products" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="generic-products" data-dt-idx={7} tabIndex={0} className="page-link">54</a></li>
-                        <li className="paginate_button page-item next" id="generic-products_next"><a href="#" aria-controls="generic-products" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#generic-products">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Application Number
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Application Number</div>
-                              <p>A unique ID assigned by the FDA when a product is submitted for approval by the labeller.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/generic-products-application-number" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Product Code
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Product Code</div>
-                              <p>A governmentally-recognized ID which uniquely identifies the product within its regulatory market.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/generic-products-product-code" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Mixture Products</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_2_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_2_length">
-                      <label>Show
-                        <select name="DataTables_Table_2_length" aria-controls="DataTables_Table_2" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_2_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_2" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB00381/products.json?group=mixtures" data-total={749} style={{width: '100%'}} id="DataTables_Table_2" role="grid" aria-describedby="DataTables_Table_2_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '59.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="no-sort sorting_disabled" rowSpan={1} colSpan={1} style={{width: '124.4px'}} aria-label="Ingredients">Ingredients</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '84.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '6.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Amlobenz</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(5 mg/1)</span> + <a href="/salts/DBSALT000554">Benazepril hydrochloride</a> <span className="text-muted">(10 mg/1)</span></td>
-                          <td>Capsule</td>
-                          <td>Oral</td>
-                          <td>Rebel Distributors</td>
-                          <td>2010-04-19</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td>
-                            <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55111-0339-01_NLMIMAGE10_6D03B6BD.jpg?1498428783" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55111-0339-01_NLMIMAGE10_6D03B6BD.jpg?1498428783" data-description="Amlodipine 5 MG / Benazepril hydrochloride 10 MG Oral Capsule" href="#modal-package"><img className="package-thumb" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/tiny/55111-0339-01_NLMIMAGE10_6D03B6BD.jpg?1498428783" alt="55111 0339 01 nlmimage10 6d03b6bd" /></a>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Amlobenz</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(10 mg/1)</span> + <a href="/salts/DBSALT000554">Benazepril hydrochloride</a> <span className="text-muted">(20 mg/1)</span></td>
-                          <td>Capsule</td>
-                          <td>Oral</td>
-                          <td>Rebel Distributors</td>
-                          <td>2010-04-19</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td>
-                            <a className="package-picture" data-toggle="modal" data-url="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/medium/55111-0341-01_NLMIMAGE10_C238E107.jpg?1498428786" data-fullurl="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/original/55111-0341-01_NLMIMAGE10_C238E107.jpg?1498428786" data-description="Amlodipine 10 MG / Benazepril hydrochloride 20 MG Oral Capsule" href="#modal-package"><img className="package-thumb" src="//s3-us-west-2.amazonaws.com/drugbank/product_images/images/tiny/55111-0341-01_NLMIMAGE10_C238E107.jpg?1498428786" alt="55111 0341 01 nlmimage10 c238e107" /></a>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(10 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(10 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Zydus Pharmaceuticals (USA) Inc.</td>
-                          <td>2019-05-30</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(2.5 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(40 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Zydus Pharmaceuticals (USA) Inc.</td>
-                          <td>2019-05-30</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(5 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(80 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Mylan Pharmaceuticals Inc.</td>
-                          <td>2014-10-10</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(2.5 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(20 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Mylan Pharmaceuticals Inc.</td>
-                          <td>2014-06-19</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(10 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(20 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Cadila Healthcare Limited</td>
-                          <td>2019-05-30</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(5 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(10 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Cadila Healthcare Limited</td>
-                          <td>2019-05-30</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(5 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(80 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Zydus Pharmaceuticals (USA) Inc.</td>
-                          <td>2019-05-30</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>Amlodipine and atorvastatin</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(10 mg/1)</span> + <a href="/salts/DBSALT001499">Atorvastatin calcium trihydrate</a> <span className="text-muted">(80 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>Mylan Pharmaceuticals Inc.</td>
-                          <td>2014-05-21</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="DataTables_Table_2_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="DataTables_Table_2_info" role="status" aria-live="polite">Showing 1 to 10 of 749 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_2_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_2_previous"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="DataTables_Table_2_ellipsis"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={7} tabIndex={0} className="page-link">75</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_2_next"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Unapproved/Other Products <a tabIndex={0} role="button" data-toggle="popover" data-content="Products that have not been approved by a regulatory body (such as the FDA), but are still available on the market due to historical reasons." title id="unapproved-products-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Unapproved/Other Products"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_3_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_3_length">
-                      <label>Show
-                        <select name="DataTables_Table_3_length" aria-controls="DataTables_Table_3" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_3_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_3" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB00381/products.json?group=unapproved" data-total={1} style={{width: '100%'}} id="DataTables_Table_3" role="grid" aria-describedby="DataTables_Table_3_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '71.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="no-sort sorting_disabled" rowSpan={1} colSpan={1} style={{width: '134.4px'}} aria-label="Ingredients">Ingredients</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '68.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="DataTables_Table_3" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>Hypertenipine</strong></td>
-                          <td><a href="/salts/DBSALT001054">Amlodipine besylate</a> <span className="text-muted">(2.5 mg/1)</span> + <a href="/drugs/DB00125">L-Arginine</a> <span className="text-muted">(90 mg/1)</span></td>
-                          <td>Kit</td>
-                          <td />
-                          <td>Physician Therapeutics Llc</td>
-                          <td>2011-07-07</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="DataTables_Table_3_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="DataTables_Table_3_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_3_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_3_previous"><a href="#" aria-controls="DataTables_Table_3" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_3" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="DataTables_Table_3_next"><a href="#" aria-controls="DataTables_Table_3" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">International/Other Brands</dt>
-            <dd className="col-md-10 col-sm-8"><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">Aforbes (Merck)</span><span className="list-separator"> / </span><span className="separated-list-item">Agen (Zentiva)</span><span className="list-separator"> / </span><span className="separated-list-item">Aken (Kendrick Farmaceutica)</span><span className="list-separator"> / </span><span className="separated-list-item">Amcard (Apex Pharma Ltd)</span><span className="list-separator"> / </span><span className="separated-list-item">Amdepin (Cadila Pharmaceuticals)</span><span className="list-separator"> / </span><span className="separated-list-item">Amdipin (Laboratorios Lafrancol)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlocard (AWD (Germany))</span><span className="list-separator"> / </span><span className="separated-list-item">Amlod</span><span className="list-separator"> / </span><span className="separated-list-item">Amlodine (Sumitomo Pharmaceuticals)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlodipin</span><span className="list-separator"> / </span><span className="separated-list-item">Amlodipin-Mepha 5/10 (Mepha Pharma AG)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlodipine 5 (PT KALBE FARMA Tbk)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlodis (Eczacibasi (Turkey))</span><span className="list-separator"> / </span><span className="separated-list-item">Amlong (Micro Labs)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlopin (Lek)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlopine (Berlin)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlostin (Discovery Pharmaceuticals)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlosun (Sun Pharmaceutical)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlovas (Macleods Pharmaceuticals Ltd)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlovasc (Dr. Reddy's Laboratories)</span><span className="list-separator"> / </span><span className="separated-list-item">Amlozek (Adamed)</span><span className="list-separator"> / </span><span className="separated-list-item">Amvaz (Reddy (Malaysia))</span><span className="list-separator"> / </span><span className="separated-list-item">Asomex (Emcure Pharmaceuticals)</span><span className="list-separator"> / </span><span className="separated-list-item">Atecard-AM (Alembic Ltd)</span><span className="list-separator"> / </span><span className="separated-list-item">Camlodin (Square)</span><span className="list-separator"> / </span><span className="separated-list-item">Coroval (Sandoz (Argentina))</span><span className="list-separator"> / </span><span className="separated-list-item">Dailyvasc (Xeno Pharmaceuticals)</span><span className="list-separator"> / </span><span className="separated-list-item">Istin</span><span className="list-separator"> / </span><span className="separated-list-item">Lama (Stadmed Private Limited)</span><span className="list-separator"> / </span><span className="separated-list-item">Lodip (TIME Pharmaceuticals)</span><span className="list-separator"> / </span><span className="separated-list-item">Lodopin (Merck Pakistan)</span><span className="list-separator"> / </span><span className="separated-list-item">Lopin (Edruc Ltd)</span><span className="list-separator"> / </span><span className="separated-list-item">Nelod (The Kemiko Pharmaceuticals Ltd)</span><span className="list-separator"> / </span><span className="separated-list-item">Nopidin (Ad-din Pharmaceuticals Ltd)</span><span className="list-separator"> / </span><span className="separated-list-item">Nordip</span><span className="list-separator"> / </span><span className="separated-list-item">Perivasc</span><span className="list-separator"> / </span><span className="separated-list-item">Pharex Amlodipine (PHAREX HealthCorp)</span><span className="list-separator"> / </span><span className="separated-list-item">Tenox (Krka)</span></span>
-              </span>
-            </dd><dt className="col-md-2 col-sm-4">Categories</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Categories</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
@@ -1313,7 +325,8 @@ class Amlodipine extends React.Component {
               <p>Amlodipine does not change sinoatrial (SA) nodal function or atrioventricular (AV) conduction in animals or humans. In patients who were diagnosed with chronic stable angina, the intravenous administration of 10 mg of amlodipine did not cause clinically significant alterations A-H and H-V conduction and sinus node recovery time after cardiac pacing. Patients administered amlodipine with concomitant beta-blockers produced similar results. In clinical trials in which amlodipine was given in combination with beta-blockers to patients diagnosed with hypertension or angina, no adverse effects on electrocardiographic parameters were noted. In clinical studies comprised of angina patients alone, amlodipine did not change electrocardiographic intervals or produce high degrees of AV block <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. </p>
               <p><strong>Effects on angina</strong></p>
               <p>Amlodipine relieves the symptoms of chest pain associated with angina. In patients diagnosed with angina, daily administration of a single amlodipine dose increases total exercise time, the time to angina onset, and the time to 1 mm ST-segment depression on ECG studies, decreases anginal attack frequency, and decreases the requirement for nitroglycerin tablets <sup className="text-reference-group"><a className="reference-popover-link" data-content="Apo amlodipine tablets, MedSafe NZ" href="#reference-F3757" data-original-title title>7</a></sup>. </p>
-            </dd><dt className="col-md-2 col-sm-4">Mechanism of action</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Mechanism of action</dt>
             <dd className="col-md-10 col-sm-8">
               <p><strong>Mechanism of action on blood pressure</strong></p>
               <p>Amlodipine is considered a peripheral arterial vasodilator that exerts its action directly on vascular smooth muscle to lead to a reduction in peripheral vascular resistance, causing a decrease in blood pressure. Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the influx of calcium ions into both vascular smooth muscle and cardiac muscle. Experimental studies imply that amlodipine binds to both <em>dihydropyridine</em> and <em>nondihydropyridine</em> binding sites, located on cell membranes. The contraction of cardiac muscle and vascular smooth muscle are dependent on the movement of extracellular calcium ions into these cells by specific ion channels. Amlodipine blocks calcium ion influx across cell membranes with selectivity. A stronger effect of amlodipine is exerted on vascular smooth muscle cells than on cardiac muscle cells <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. Direct actions of amlodipine on vascular smooth muscle result in reduced blood pressure <sup className="text-reference-group"><a className="reference-popover-link" data-content="Apo amlodipine tablets, MedSafe NZ" href="#reference-F3757" data-original-title title>7</a></sup>. </p>
@@ -1396,55 +409,7 @@ class Amlodipine extends React.Component {
                 </tbody>
               </table>
             </dd>
-            <div className="col-sm-12 locked-section-container">
-              <div className="locked-section-flex">
-                <div className="locked-section-row locked-link" data-field="adv-cont-bb" data-target="#locked-modal" data-toggle="modal">
-                  <div className="drugbank-icon icon-lock">
-                    <svg className="icon" role="img" title="lock">
-                      <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                    </svg>
-                  </div> Unlock Additional Data</div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Adverse Effects</div>
-                      <p>Comprehensive structured data on known drug adverse effects with statistical prevalence. MedDRA and ICD10 ids are provided for adverse effect conditions and symptoms.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/adverse-effects" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Contraindications</div>
-                      <p>Structured data covering drug contraindications. Each contraindication describes a scenario in which the drug is not to be used. Includes restrictions on co-administration, contraindicated populations, and more.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/contraindications" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Blackbox Warnings</div>
-                      <p>Structured data representing warnings from the black box section of drug labels. These warnings cover important and dangerous risks, contraindications, or adverse effects.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/blackbox-warnings" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-              </div>
-            </div><dt className="col-md-2 col-sm-4">Absorption</dt>
+            <dt className="col-md-2 col-sm-4">Absorption</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Amlodipine absorbed slowly and almost completely from the gastrointestinal tract. Peak plasma concentrations are achieved 6-12 hours after oral administration. The estimated bioavailability of amlodipine is 64-90%. Steady-state plasma amlodipine levels are achieved after 7-8 days of consecutive daily dosing. Absorption is not affected by food <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. </p>
             </dd><dt className="col-md-2 col-sm-4">Volume of distribution</dt>
@@ -1458,13 +423,6 @@ class Amlodipine extends React.Component {
               <p />
               <p>Amlodipine is heavily (approximately 90%) converted to inactive metabolites via hepatic breakdown with 10% of the parent compound and 60% of the metabolites found excreted in the urine. <em>Ex vivo</em> studies have shown that about 93% of the circulating drug is bound to plasma proteins in hypertensive patients <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. Characteristics that add to amlodipine's unique pharmacologic profile include nearly complete absorption, late-peak plasma concentrations, high bioavailability, and slow hepatic breakdown <sup className="text-reference-group"><a className="reference-popover-link" data-content="van Zwieten PA: Amlodipine: an overview of its pharmacodynamic and pharmacokinetic properties. Clin Cardiol. 1994 Sep;17(9 Suppl 3):III3-6. (PubMed ID 9156957)" href="#reference-A574" data-original-title title>2</a></sup>.</p>
               <p />
-              <ul className="list-unstyled">
-                <li><a href="/reactions/2857"><strong>Amlodipine</strong> <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> Pyridine derivative</a>
-                  <ul>
-                    <li><a href="/reactions/2860">Pyridine derivative <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> Pyridine derivatives</a></li>
-                  </ul>
-                </li>
-              </ul>
             </dd><dt className="col-md-2 col-sm-4">Route of elimination</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Elimination from the plasma occurs in a biphasic with a terminal elimination half-life of about 30–50 hours. Steady-state plasma levels of amlodipine are reached after 7-8 days of consecutive daily dosing <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. Amlodipine is 10% excreted as unchanged drug in the urine. Amlodipine can be initiated at normal doses in patients diagnosed with renal failure <sup className="text-reference-group"><a className="reference-popover-link" data-content="Apo amlodipine tablets, MedSafe NZ" href="#reference-F3757" data-original-title title>7</a></sup>, <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. </p>
@@ -1625,16 +583,6 @@ class Amlodipine extends React.Component {
                             <th className="head-sm sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '195.2px'}} aria-label="Drug: activate to sort column ascending">Drug</th>
                             <th className="sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '520.2px'}} aria-label="Interaction: activate to sort column ascending">Interaction</th>
                           </tr>
-                          <tr className="unlock-row" role="row">
-                            <th className="no-sort" colSpan={2} rowSpan={1}>
-                              <div className="locked-link" data-field="ddi" data-target="#locked-modal" data-toggle="modal">
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div> Unlock Additional Data</div>
-                            </th>
-                          </tr>
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
@@ -1703,137 +651,9 @@ class Amlodipine extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="locked-fields-holder" data-for="#drug-interactions">
-                  <div className="locked-fields closed" data-collapsed="collapsed">
-                    <div className="locked-tab">
-                      <div className="drugbank-icon icon-lock">
-                        <svg className="icon" role="img" title="lock">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                        </svg>
-                      </div><span className="tab-label">Additional Data Available</span>
-                      <div className="drugbank-icon icon-arrow-left">
-                        <svg className="icon" role="img" title="arrow-left">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                        </svg>
-                      </div>
-                      <div className="drugbank-icon icon-arrow-right">
-                        <svg className="icon" role="img" title="arrow-right">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                        </svg>
-                      </div>
-                    </div>
-                    <ul className="locked-accordion">
-                      <div className="flex-content">
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Extended Description
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Extended Description</div>
-                                <p>Extended description of the mechanism of action and particular properties of each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-extended-description" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Severity
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Severity</div>
-                                <p>A severity rating for each drug interaction, from minor to major.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-severity" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Evidence Level
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Evidence Level</div>
-                                <p>A rating for the strength of the evidence supporting each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-evidence-level" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Action
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Action</div>
-                                <p>An effect category for each drug interaction. Know how this interaction affects the subject drug.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-action" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
               </div>
-            </dd><dt className="col-md-2 col-sm-4">Food Interactions</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Food Interactions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
                 <li>Avoid natural licorice.</li>
@@ -2543,16 +1363,6 @@ class Amlodipine extends React.Component {
                           <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '181.2px'}} aria-label="Expires (estimated): activate to sort column ascending">Expires (estimated)</th>
                           <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '7.2px'}} aria-label=": activate to sort column ascending" />
                         </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={5} rowSpan={1}>
-                            <div className="locked-link" data-field="patents" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
                       </thead>
                       <tbody>
                         <tr role="row" className="odd">
@@ -2653,57 +1463,6 @@ class Amlodipine extends React.Component {
                       </ul>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#patents">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Filed On
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Filed On</div>
-                              <p>The date on which a patent was filed with the relevant government.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/patents-filed-on" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
                 </div>
               </div>
             </dd>
@@ -3089,11 +1848,8 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0000430">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q13936">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/Q13936">Voltage-dependent L-type calcium channel subunit alpha-1C</a></strong></div>
+                    Details</a>
+                    <strong>1. <a href="/polypeptides/Q13936">Voltage-dependent L-type calcium channel subunit alpha-1C</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3131,11 +1887,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0002226">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q00975">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/Q00975">Voltage-dependent N-type calcium channel subunit alpha-1B</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/Q00975">Voltage-dependent N-type calcium channel subunit alpha-1B</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3177,11 +1929,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0000303">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q02641">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>3. <a href="/polypeptides/Q02641">Voltage-dependent L-type calcium channel subunit beta-1</a></strong></div>
+                    Details</a><strong>3. <a href="/polypeptides/Q02641">Voltage-dependent L-type calcium channel subunit beta-1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3223,11 +1971,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0003563">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q8IZS8">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>4. <a href="/polypeptides/Q8IZS8">Voltage-dependent calcium channel subunit alpha-2/delta-3</a></strong></div>
+                    Details</a><strong>4. <a href="/polypeptides/Q8IZS8">Voltage-dependent calcium channel subunit alpha-2/delta-3</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3269,11 +2013,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0000267">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P00915">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>5. <a href="/polypeptides/P00915">Carbonic anhydrase 1</a></strong></div>
+                    Details</a><strong>5. <a href="/polypeptides/P00915">Carbonic anhydrase 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3312,11 +2052,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0000973">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P17405">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>6. <a href="/polypeptides/P17405">Sphingomyelin phosphodiesterase</a></strong></div>
+                    Details</a><strong>6. <a href="/polypeptides/P17405">Sphingomyelin phosphodiesterase</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3354,11 +2090,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0004902">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/bio_entities/BE0004902">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>7. <a href="/bio_entities/BE0004902">Voltage-dependent calcium channel (Protein Group)</a></strong></div>
+                    Details</a><strong>7. <a href="/bio_entities/BE0004902">Voltage-dependent calcium channel (Protein Group)</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3475,11 +2207,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0000012">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9P0X4">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>8. <a href="/polypeptides/Q9P0X4">Voltage-dependent T-type calcium channel subunit alpha-1I</a></strong></div>
+                    Details</a><strong>8. <a href="/polypeptides/Q9P0X4">Voltage-dependent T-type calcium channel subunit alpha-1I</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3545,11 +2273,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                    Details</a><strong>1. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3589,11 +2313,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0003543">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P04798">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/P04798">Cytochrome P450 1A1</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/P04798">Cytochrome P450 1A1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3631,11 +2351,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0003549">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P20813">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>3. <a href="/polypeptides/P20813">Cytochrome P450 2B6</a></strong></div>
+                    Details</a><strong>3. <a href="/polypeptides/P20813">Cytochrome P450 2B6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3675,11 +2391,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0002362">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P20815">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>4. <a href="/polypeptides/P20815">Cytochrome P450 3A5</a></strong></div>
+                    Details</a><strong>4. <a href="/polypeptides/P20815">Cytochrome P450 3A5</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3721,11 +2433,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0002887">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10632">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>5. <a href="/polypeptides/P10632">Cytochrome P450 2C8</a></strong></div>
+                    Details</a><strong>5. <a href="/polypeptides/P10632">Cytochrome P450 2C8</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3763,11 +2471,7 @@ class Amlodipine extends React.Component {
               <div className="bond card" id="BE0002363">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10635">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>6. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
+                    Details</a><strong>6. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3915,17 +2619,9 @@ class Amlodipine extends React.Component {
                 </div>
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08183">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a>
+                    Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0001032-binding-properties" data-toggle="modal" type="button">
-                    <div className="drugbank-icon icon-details">
-                      <svg className="icon" role="img" title="details">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#details"> </use>
-                      </svg>
-                    </div> <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
