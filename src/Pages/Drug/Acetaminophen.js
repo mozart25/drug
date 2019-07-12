@@ -109,16 +109,6 @@ class Acetaminophen extends React.Component {
                           <th className="sorting" tabIndex={0} aria-controls="otc-products" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
                           <th className="drug-image sorting" tabIndex={0} aria-controls="otc-products" rowSpan={1} colSpan={1} style={{width: '0.2px', display: 'none'}} aria-label=": activate to sort column ascending" />
                         </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={9} rowSpan={1}>
-                            <div className="locked-link" data-field="otc-products" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
                       </thead>
                       <tbody>
                         <tr role="row" className="odd">
@@ -267,459 +257,8 @@ class Acetaminophen extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="locked-fields-holder" data-for="#otc-products">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Application Number
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Application Number</div>
-                              <p>A unique ID assigned by the FDA when a product is submitted for approval by the labeller.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/otc-products-application-number" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Product Code
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Product Code</div>
-                              <p>A governmentally-recognized ID which uniquely identifies the product within its regulatory market.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/otc-products-product-code" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Mixture Products</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_1_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_1_length">
-                      <label>Show
-                        <select name="DataTables_Table_1_length" aria-controls="DataTables_Table_1" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_1_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_1" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline collapsed" data-source="/drugs/DB00316/products.json?group=mixtures" data-total={6794} style={{width: '100%'}} id="DataTables_Table_1" role="grid" aria-describedby="DataTables_Table_1_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '45.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="no-sort sorting_disabled" rowSpan={1} colSpan={1} style={{width: '160.4px'}} aria-label="Ingredients">Ingredients</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '46.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '68.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting_asc" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column descending" aria-sort="ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="DataTables_Table_1" rowSpan={1} colSpan={1} style={{width: '0.2px', display: 'none'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}>Children's Tylenol Cold and Cough</td>
-                          <td>Acetaminophen <span className="text-muted">(160 mg)</span> + <a href="/salts/DBSALT000987">Chlorpheniramine maleate</a> <span className="text-muted">(1 mg)</span> + <a href="/salts/DBSALT000376">Dextromethorphan hydrobromide</a> <span className="text-muted">(7.5 mg)</span> + <a href="/salts/DBSALT000149">Pseudoephedrine hydrochloride</a> <span className="text-muted">(15 mg)</span></td>
-                          <td>Suspension</td>
-                          <td>Oral</td>
-                          <td>Mcneil Consumer Healthcare Division Of Johnson &amp; Johnson Inc</td>
-                          <td>1997-08-12</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}>Vicks NyQuil Cold and Flu Nighttime Relief</td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001898">Dextromethorphan hydrobromide monohydrate</a> <span className="text-muted">(15 mg/1)</span> + <a href="/salts/DBSALT001402">Doxylamine succinate</a> <span className="text-muted">(6.25 mg/1)</span></td>
-                          <td>Capsule, liquid filled</td>
-                          <td>Oral</td>
-                          <td>Procter And Gamble</td>
-                          <td>2011-06-09</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}>Childrens Pain Relief Plus Multi Symptom Cold</td>
-                          <td>Acetaminophen <span className="text-muted">(160 mg/5mL)</span> + <a href="/salts/DBSALT000987">Chlorpheniramine maleate</a> <span className="text-muted">(1 mg/5mL)</span> + <a href="/salts/DBSALT001898">Dextromethorphan hydrobromide monohydrate</a> <span className="text-muted">(5 mg/5mL)</span> + <a href="/salts/DBSALT000858">Phenylephrine hydrochloride</a> <span className="text-muted">(2.5 mg/5mL)</span></td>
-                          <td>Suspension</td>
-                          <td>Oral</td>
-                          <td>CVS Health</td>
-                          <td>2018-05-31</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}>Extra Strength Tylenol Back Pain</td>
-                          <td>Acetaminophen <span className="text-muted">(500 mg)</span> + <a href="/drugs/DB00423">Methocarbamol</a> <span className="text-muted">(400 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Mcneil Consumer Healthcare Division Of Johnson &amp; Johnson Inc</td>
-                          <td>2009-07-10</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}>Acetaminophen PM</td>
-                          <td>Acetaminophen <span className="text-muted">(500 mg/1)</span> + <a href="/salts/DBSALT000056">Diphenhydramine hydrochloride</a> <span className="text-muted">(25 mg/1)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Rite Aid</td>
-                          <td>2007-12-17</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}>Benylin Cold &amp; Sinus</td>
-                          <td>Acetaminophen <span className="text-muted">(500 mg)</span> + <a href="/salts/DBSALT000858">Phenylephrine hydrochloride</a> <span className="text-muted">(5 mg)</span></td>
-                          <td>Tablet</td>
-                          <td>Oral</td>
-                          <td>Mcneil Consumer Healthcare Division Of Johnson &amp; Johnson Inc</td>
-                          <td>2006-08-16</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}>Severe Tussin CF</td>
-                          <td>Acetaminophen <span className="text-muted">(650 mg/20mL)</span> + <a href="/salts/DBSALT001898">Dextromethorphan hydrobromide monohydrate</a> <span className="text-muted">(20 mg/20mL)</span> + <a href="/drugs/DB00874">Guaifenesin</a> <span className="text-muted">(400 mg/20mL)</span> + <a href="/salts/DBSALT000858">Phenylephrine hydrochloride</a> <span className="text-muted">(10 mg/20mL)</span></td>
-                          <td>Solution</td>
-                          <td>Oral</td>
-                          <td>CVS Health</td>
-                          <td>2018-06-25</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}>Good Sense Migraine Formula</td>
-                          <td>Acetaminophen <span className="text-muted">(250 mg/1)</span> + <a href="/drugs/DB00945">Acetylsalicylic acid</a> <span className="text-muted">(250 mg/1)</span> + <a href="/drugs/DB00201">Caffeine</a> <span className="text-muted">(65 mg/1)</span></td>
-                          <td>Tablet, film coated</td>
-                          <td>Oral</td>
-                          <td>L. Perrigo Company</td>
-                          <td>2002-04-17</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}>Benylin All-IN-one Cold and Flu Extra Strength Syrup</td>
-                          <td>Acetaminophen <span className="text-muted">(500 mg)</span> + <a href="/salts/DBSALT000376">Dextromethorphan hydrobromide</a> <span className="text-muted">(15 mg)</span> + <a href="/drugs/DB00874">Guaifenesin</a> <span className="text-muted">(100 mg)</span> + <a href="/salts/DBSALT000149">Pseudoephedrine hydrochloride</a> <span className="text-muted">(30 mg)</span></td>
-                          <td>Syrup</td>
-                          <td>Oral</td>
-                          <td>Mcneil Consumer Healthcare Division Of Johnson &amp; Johnson Inc</td>
-                          <td>2003-07-03</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}>Sinus Relief Congestion and Cough Maximum Strength</td>
-                          <td>Acetaminophen <span className="text-muted">(650 mg/20mL)</span> + <a href="/salts/DBSALT000056">Diphenhydramine hydrochloride</a> <span className="text-muted">(25 mg/20mL)</span> + <a href="/salts/DBSALT000858">Phenylephrine hydrochloride</a> <span className="text-muted">(10 mg/20mL)</span></td>
-                          <td>Liquid</td>
-                          <td>Oral</td>
-                          <td>CVS Health</td>
-                          <td>2018-04-30</td>
-                          <td className="sorting_1"><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td style={{display: 'none'}} />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="DataTables_Table_1_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="DataTables_Table_1_info" role="status" aria-live="polite">Showing 1 to 10 of 6,351 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_1_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_1_previous"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="DataTables_Table_1_ellipsis"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={7} tabIndex={0} className="page-link">636</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_1_next"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Unapproved/Other Products <a tabIndex={0} role="button" data-toggle="popover" data-content="Products that have not been approved by a regulatory body (such as the FDA), but are still available on the market due to historical reasons." title id="unapproved-products-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Unapproved/Other Products"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_2_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_2_length">
-                      <label>Show
-                        <select name="DataTables_Table_2_length" aria-controls="DataTables_Table_2" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_2_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_2" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="products table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB00316/products.json?group=unapproved" data-total={120} style={{width: '100%'}} id="DataTables_Table_2" role="grid" aria-describedby="DataTables_Table_2_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '41.2px'}} aria-label="Name: activate to sort column ascending">Name</th>
-                          <th className="no-sort sorting_disabled" rowSpan={1} colSpan={1} style={{width: '154.4px'}} aria-label="Ingredients">Ingredients</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Dosage: activate to sort column ascending">Dosage</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '56.2px'}} aria-label="Route: activate to sort column ascending">Route</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '68.2px'}} aria-label="Labeller: activate to sort column ascending">Labeller</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing Start: activate to sort column ascending">Marketing Start</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '80.2px'}} aria-label="Marketing End: activate to sort column ascending">Marketing End</th>
-                          <th className="sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                          <th className="drug-image sorting" tabIndex={0} aria-controls="DataTables_Table_2" rowSpan={1} colSpan={1} style={{width: '0.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>4017 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td />
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>4022 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td />
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>4056 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td>2018-12-30</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>4068 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td>2018-12-30</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>4069 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td>2019-03-10</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>4076 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/drugs/DB11118">Ammonia</a> <span className="text-muted">(0.045 g/0.3mL)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td><span className="not-available">Not applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>4081 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td>2018-12-30</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>4082 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td>2018-12-30</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><strong>4083 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td>2018-12-30</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><strong>4084 First Aid Kit</strong></td>
-                          <td>Acetaminophen <span className="text-muted">(325 mg/1)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(0.13 g/100g)</span> + <a href="/salts/DBSALT001509">Benzalkonium chloride</a> <span className="text-muted">(1.3 mg/1mL)</span> + <a href="/drugs/DB00898">Ethanol</a> <span className="text-muted">(0.5 mL/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(20 mg/1mL)</span> + <a href="/salts/DBSALT000900">Lidocaine hydrochloride</a> <span className="text-muted">(0.5 g/100g)</span> + <a href="/salts/DBSALT000472">Neomycin sulfate</a> <span className="text-muted">(3.5 mg/1g)</span> + <a href="/drugs/DB09145">Water</a> <span className="text-muted">(98.6 mL/100mL)</span></td>
-                          <td>Kit</td>
-                          <td>Ophthalmic; Oral; Topical</td>
-                          <td>Honeywell Safety Products USA, Inc</td>
-                          <td>2018-10-18</td>
-                          <td>2018-12-30</td>
-                          <td><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                          <td />
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div id="DataTables_Table_2_processing" className="dataTables_processing card" style={{display: 'none'}}>Processing...</div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="DataTables_Table_2_info" role="status" aria-live="polite">Showing 1 to 10 of 120 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_2_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_2_previous"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="DataTables_Table_2_ellipsis"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={7} tabIndex={0} className="page-link">12</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_2_next"><a href="#" aria-controls="DataTables_Table_2" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">International/Other Brands</dt>
-            <dd className="col-md-10 col-sm-8"><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">Acamol (Teva)</span><span className="list-separator"> / </span><span className="separated-list-item">Aceta Elixir</span><span className="list-separator"> / </span><span className="separated-list-item">Aceta Tablets</span><span className="list-separator"> / </span><span className="separated-list-item">Acetalgin</span><span className="list-separator"> / </span><span className="separated-list-item">Actamin</span><span className="list-separator"> / </span><span className="separated-list-item">Actimol</span><span className="list-separator"> / </span><span className="separated-list-item">Algotropyl</span><span className="list-separator"> / </span><span className="separated-list-item">Alvedon</span><span className="list-separator"> / </span><span className="separated-list-item">Aminofen</span><span className="list-separator"> / </span><span className="separated-list-item">Anacin-3</span><span className="list-separator"> / </span><span className="separated-list-item">Anhiba</span><span className="list-separator"> / </span><span className="separated-list-item">Apacet</span><span className="list-separator"> / </span><span className="separated-list-item">Banesin</span><span className="list-separator"> / </span><span className="separated-list-item">Calpol</span><span className="list-separator"> / </span><span className="separated-list-item">Conacetol</span><span className="list-separator"> / </span><span className="separated-list-item">Dafalgan</span><span className="list-separator"> / </span><span className="separated-list-item">Dapa X-S</span><span className="list-separator"> / </span><span className="separated-list-item">Disprol</span><span className="list-separator"> / </span><span className="separated-list-item">Dolprone</span><span className="list-separator"> / </span><span className="separated-list-item">Dymadon</span><span className="list-separator"> / </span><span className="separated-list-item">Dypap</span><span className="list-separator"> / </span><span className="separated-list-item">Enelfa</span><span className="list-separator"> / </span><span className="separated-list-item">Febridol</span><span className="list-separator"> / </span><span className="separated-list-item">Febrilix</span><span className="list-separator"> / </span><span className="separated-list-item">Finimal</span><span className="list-separator"> / </span><span className="separated-list-item">Gelocatil</span><span className="list-separator"> / </span><span className="separated-list-item">Genapap</span><span className="list-separator"> / </span><span className="separated-list-item">Genebs</span><span className="list-separator"> / </span><span className="separated-list-item">Injectapap</span><span className="list-separator"> / </span><span className="separated-list-item">Liquiprin</span><span className="list-separator"> / </span><span className="separated-list-item">Napafen</span><span className="list-separator"> / </span><span className="separated-list-item">Oraphen-PD</span><span className="list-separator"> / </span><span className="separated-list-item">Paldesic</span><span className="list-separator"> / </span><span className="separated-list-item">Panofen</span><span className="list-separator"> / </span><span className="separated-list-item">Paraspen</span><span className="list-separator"> / </span><span className="separated-list-item">Parmol</span><span className="list-separator"> / </span><span className="separated-list-item">Redutemp</span><span className="list-separator"> / </span><span className="separated-list-item">Rounox</span><span className="list-separator"> / </span><span className="separated-list-item">Salzone</span><span className="list-separator"> / </span><span className="separated-list-item">Snaplets-FR</span><span className="list-separator"> / </span><span className="separated-list-item">St. Joseph Fever Reducer</span><span className="list-separator"> / </span><span className="separated-list-item">Suppap</span><span className="list-separator"> / </span><span className="separated-list-item">Tapanol</span><span className="list-separator"> / </span><span className="separated-list-item">Valorin</span></span>
-              </span>
-            </dd><dt className="col-md-2 col-sm-4">Categories</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Categories</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
@@ -853,55 +392,7 @@ class Acetaminophen extends React.Component {
                 </tbody>
               </table>
             </dd>
-            <div className="col-sm-12 locked-section-container">
-              <div className="locked-section-flex">
-                <div className="locked-section-row locked-link" data-field="adv-cont-bb" data-target="#locked-modal" data-toggle="modal">
-                  <div className="drugbank-icon icon-lock">
-                    <svg className="icon" role="img" title="lock">
-                      <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                    </svg>
-                  </div> Unlock Additional Data</div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Adverse Effects</div>
-                      <p>Comprehensive structured data on known drug adverse effects with statistical prevalence. MedDRA and ICD10 ids are provided for adverse effect conditions and symptoms.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/adverse-effects" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Contraindications</div>
-                      <p>Structured data covering drug contraindications. Each contraindication describes a scenario in which the drug is not to be used. Includes restrictions on co-administration, contraindicated populations, and more.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/contraindications" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-                <div className="locked-section-box">
-                  <div className="locked-header">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div> Additional Data Available</div>
-                  <div className="locked-content">
-                    <div className="locked-info">
-                      <div className="locked-panel-header">Blackbox Warnings</div>
-                      <p>Structured data representing warnings from the black box section of drug labels. These warnings cover important and dangerous risks, contraindications, or adverse effects.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/blackbox-warnings" href="https://drugbankplus.com/data">Learn more</a></div>
-                  </div>
-                </div>
-              </div>
-            </div><dt className="col-md-2 col-sm-4">Absorption</dt>
+            <dt className="col-md-2 col-sm-4">Absorption</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Acetaminophen has 88% oral bioavailability and reaches its highest plasma concentration 90 minutes after ingestion <sup className="text-reference-group"><a className="reference-popover-link" data-content="Mazaleuskaya LL, Sangkuhl K, Thorn CF, FitzGerald GA, Altman RB, Klein TE: PharmGKB summary: pathways of acetaminophen metabolism at the therapeutic versus toxic doses. Pharmacogenet Genomics. 2015 Aug;25(8):416-26. doi: 10.1097/FPC.0000000000000150. (PubMed ID 26049587)" href="#reference-A35815" data-original-title title>9</a></sup>. Peak blood levels of free acetaminophen are not reached until 3 hours after rectal administration of the suppository form of acetaminophen and the peak blood concentration is approximately 50% of the observed concentration after the ingestion of an equivalent oral dose (10-20 mcg/mL) <sup className="text-reference-group"><a className="reference-popover-link" data-content="Acetaminophen monograph, suppository" href="#reference-F4124" data-original-title title>22</a></sup>.</p>
               <p>The percentage of a systemically absorbed rectal dose of acetaminophen is inconsistent, demonstrated by major differences in the bioavailability of acetaminophen after a dose administered rectally. Higher rectal doses or an increased frequency of administration may be used to attain blood concentrations of acetaminophen similar to those attained after oral acetaminophen administration <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. </p>
@@ -919,13 +410,13 @@ class Acetaminophen extends React.Component {
               <p>High doses of acetaminophen (overdoses) can lead to hepatic necrosis due to the depletion of glutathione and of binding of high levels of reactive metabolite (NAPQI) to important parts of liver cells. The abovementioned damage to the liver can be prevented by the early administration of sulfhydryl compounds, for example, methionine and N-acetylcysteine <sup className="text-reference-group"><a className="reference-popover-link" data-content="Forrest JA, Clements JA, Prescott LF: Clinical pharmacokinetics of paracetamol. Clin Pharmacokinet. 1982 Mar-Apr;7(2):93-107. (PubMed ID 7039926)" href="#reference-A35814" data-original-title title>12</a></sup>.</p>
               <p />
               <ul className="list-unstyled">
-                <li><a href="/reactions/244"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> NAPQI</a>
+                <li><a href="/reactions/244"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> NAPQI</a>
                   <ul>
-                    <li><a href="/reactions/1045">NAPQI <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> Acetaminophen cystein</a></li>
+                    <li><a href="/reactions/1045">NAPQI <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen cystein</a></li>
                   </ul>
                 </li>
-                <li><a href="/reactions/598"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> Acetaminophen glucuronide</a></li>
-                <li><a href="/reactions/674"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"><svg className="icon" role="img" title="arrow-right"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use></svg></div> Acetaminophen sulfate</a></li>
+                <li><a href="/reactions/598"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen glucuronide</a></li>
+                <li><a href="/reactions/674"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen sulfate</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Route of elimination</dt>
             <dd className="col-md-10 col-sm-8">
@@ -1021,16 +512,6 @@ class Acetaminophen extends React.Component {
                             <th className="head-sm sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '149.2px'}} aria-label="Drug: activate to sort column ascending">Drug</th>
                             <th className="sorting" tabIndex={0} aria-controls="drug-interactions" rowSpan={1} colSpan={1} style={{width: '566.2px'}} aria-label="Interaction: activate to sort column ascending">Interaction</th>
                           </tr>
-                          <tr className="unlock-row" role="row">
-                            <th className="no-sort" colSpan={2} rowSpan={1}>
-                              <div className="locked-link" data-field="ddi" data-target="#locked-modal" data-toggle="modal">
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div> Unlock Additional Data</div>
-                            </th>
-                          </tr>
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
@@ -1099,137 +580,9 @@ class Acetaminophen extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="locked-fields-holder" data-for="#drug-interactions">
-                  <div className="locked-fields closed" data-collapsed="collapsed">
-                    <div className="locked-tab">
-                      <div className="drugbank-icon icon-lock">
-                        <svg className="icon" role="img" title="lock">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                        </svg>
-                      </div><span className="tab-label">Additional Data Available</span>
-                      <div className="drugbank-icon icon-arrow-left">
-                        <svg className="icon" role="img" title="arrow-left">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                        </svg>
-                      </div>
-                      <div className="drugbank-icon icon-arrow-right">
-                        <svg className="icon" role="img" title="arrow-right">
-                          <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                        </svg>
-                      </div>
-                    </div>
-                    <ul className="locked-accordion">
-                      <div className="flex-content">
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Extended Description
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Extended Description</div>
-                                <p>Extended description of the mechanism of action and particular properties of each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-extended-description" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Severity
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Severity</div>
-                                <p>A severity rating for each drug interaction, from minor to major.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-severity" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Evidence Level
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Evidence Level</div>
-                                <p>A rating for the strength of the evidence supporting each drug interaction.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-evidence-level" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                        <li className="closed">
-                          <div className="flex-content">
-                            <div className="locked-header">Action
-                              <div className="drugbank-icon icon-plus">
-                                <svg className="icon" role="img" title="plus">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                                </svg>
-                              </div>
-                            </div>
-                            <div className="locked-content">
-                              <div className="locked-info">
-                                <div className="close-tab drugbank-icon icon-exit">
-                                  <svg className="icon" role="img" title="exit">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                  </svg>
-                                </div>
-                                <div className="drugbank-icon icon-lock">
-                                  <svg className="icon" role="img" title="lock">
-                                    <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                  </svg>
-                                </div>
-                                <div className="locked-panel-header">Action</div>
-                                <p>An effect category for each drug interaction. Know how this interaction affects the subject drug.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/ddi-action" href="https://drugbankplus.com/data">Learn more</a></div>
-                            </div>
-                          </div>
-                        </li>
-                      </div>
-                    </ul>
-                  </div>
-                </div>
               </div>
-            </dd><dt className="col-md-2 col-sm-4">Food Interactions</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Food Interactions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
                 <li>Avoid alcohol (may increase risk of hepatotoxicity).</li>
@@ -1457,73 +810,6 @@ class Acetaminophen extends React.Component {
           </dl>
           <h2 id="pharmacoeconomics" className="section-header">Pharmacoeconomics</h2>
           <dl>
-          <dt className="col-md-2 col-sm-4">Manufacturers</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="manufacturer-columns">
-                <ul className="list-unstyled table-list">
-                  <li>Ortho mcneil pharmaceutical inc</li>
-                  <li>G and w laboratories inc</li>
-                  <li>Able laboratories inc</li>
-                  <li>Actavis mid atlantic llc</li>
-                  <li>Perrigo new york inc</li>
-                  <li>Roxane laboratories inc</li>
-                  <li>Polymedica industries inc</li>
-                  <li>Mcneil consumer healthcare</li>
-                  <li>Ohm laboratories inc</li>
-                  <li>L perrigo co</li>
-                  <li>Ranbaxy inc</li>
-                </ul>
-              </div>
-            </dd>
-            <dt className="col-md-2 col-sm-4">Packagers</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="packager-columns">
-                <ul className="list-unstyled table-list">
-                  <li>Actavis Group</li>
-                  <li>Advent Pharmaceuticals Inc.</li>
-                  <li>Amneal Pharmaceuticals</li>
-                  <li>Aristos Pharmaceuticals</li>
-                  <li>A-S Medication Solutions LLC</li>
-                  <li>Bergen Brunswig</li>
-                  <li>Chain Drug</li>
-                  <li>Concord Labs</li>
-                  <li>CVS Pharmacy</li>
-                  <li>DRX Pharmaceuticals</li>
-                  <li>Equaline Vitamins</li>
-                  <li>G &amp; W Labs</li>
-                  <li>International Ethical Labs Inc.</li>
-                  <li>Ivax Pharmaceuticals</li>
-                  <li>Kroger Co.</li>
-                  <li>Letco Medical Inc.</li>
-                  <li>Longs Drug Store</li>
-                  <li>Major Pharmaceuticals</li>
-                  <li>Mallinckrodt Inc.</li>
-                  <li>Maneesh Pharmaceuticals Ltd.</li>
-                  <li>McNeil Laboratories</li>
-                  <li>Medique Products</li>
-                  <li>Medtech Labs</li>
-                  <li>Nexgen Pharma Inc.</li>
-                  <li>Novartis AG</li>
-                  <li>Nucare Pharmaceuticals Inc.</li>
-                  <li>PCA LLC</li>
-                  <li>Perrigo Co.</li>
-                  <li>Pharmpak Inc.</li>
-                  <li>Physicians Total Care Inc.</li>
-                  <li>Prepackage Specialists</li>
-                  <li>Prescript Pharmaceuticals</li>
-                  <li>Qualitest</li>
-                  <li>Quality Care</li>
-                  <li>Rite Aid Corp.</li>
-                  <li>S&amp;P Healthcare</li>
-                  <li>Schwarz Pharma Inc.</li>
-                  <li>Teva Pharmaceutical Industries Ltd.</li>
-                  <li>Valeant Ltd.</li>
-                  <li>Walgreen Co.</li>
-                  <li>Watson Pharmaceuticals</li>
-                  <li>Xanodyne Pharmaceuticals Inc.</li>
-                </ul>
-              </div>
-            </dd>
             <dt className="col-md-2 col-sm-4">Dosage forms</dt>
             <dd className="col-md-10 col-sm-8">
               <div id="dosages_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
@@ -1631,314 +917,6 @@ class Acetaminophen extends React.Component {
                       </ul>
                     </div>
                   </div>
-                </div>
-              </div>
-            </dd><dt className="col-md-2 col-sm-4">Prices</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div id="prices_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="prices_length">
-                      <label>Show
-                        <select name="prices_length" aria-controls="prices" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="prices_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="prices" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="table table-sm datatable dataTable no-footer" id="prices" role="grid" aria-describedby="prices_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Unit description: activate to sort column ascending" style={{width: '697.203px'}}>Unit description</th>
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Cost: activate to sort column ascending" style={{width: '138.203px'}}>Cost</th>
-                          <th className="sorting" tabIndex={0} aria-controls="prices" rowSpan={1} colSpan={1} aria-label="Unit: activate to sort column ascending" style={{width: '178.203px'}}>Unit</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td>Tylenol 100 325 mg tablet Bottle</td>
-                          <td>16.98USD </td>
-                          <td>bottle</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Phrenilin Forte 50-650 mg capsule</td>
-                          <td>5.24USD </td>
-                          <td>capsule</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Phrenilin forte capsule</td>
-                          <td>4.46USD </td>
-                          <td>capsule</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Norco 7.5-325 tablet</td>
-                          <td>2.77USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Norco 10-325 tablet</td>
-                          <td>2.76USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Propoxyphen-apap 100-325 mg tablet</td>
-                          <td>2.66USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Darvocet-N 100 100-650 mg tablet</td>
-                          <td>2.33USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Norco 10-325 mg tablet</td>
-                          <td>2.14USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td>Ultracet 37.5-325 mg tablet</td>
-                          <td>1.95USD </td>
-                          <td>tablet</td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td>Propoxyphen-apap 100-500 mg tablet</td>
-                          <td>1.85USD </td>
-                          <td>tablet</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="prices_info" role="status" aria-live="polite">Showing 1 to 10 of 172 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="prices_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="prices_previous"><a href="#" aria-controls="prices" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="prices" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="prices" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="prices" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="prices" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="prices" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="prices_ellipsis"><a href="#" aria-controls="prices" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="prices" data-dt-idx={7} tabIndex={0} className="page-link">18</a></li>
-                        <li className="paginate_button page-item next" id="prices_next"><a href="#" aria-controls="prices" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="alert alert-warning clearfix price-alert"><span className="glyphicon glyphicon-info-sign"> </span> DrugBank does not sell nor buy drugs. Pricing information is supplied for informational purposes only. </div>
-            </dd><dt className="col-md-2 col-sm-4">Patents</dt>
-            <dd className="col-md-10 col-sm-8 has-locked-content">
-              <div id="patents_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="patents_length">
-                      <label>Show
-                        <select name="patents_length" aria-controls="patents" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="patents_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="patents" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12">
-                    <table className="table table-sm datatable dt-responsive dataTable no-footer dtr-inline" id="patents" style={{width: '100%'}} role="grid" aria-describedby="patents_info">
-                      <thead>
-                        <tr role="row">
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '143.2px'}} aria-label="Patent Number: activate to sort column ascending">Patent Number</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '187.2px'}} aria-label="Pediatric Extension: activate to sort column ascending">Pediatric Extension</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '92.2px'}} aria-label="Approved: activate to sort column ascending">Approved</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '181.2px'}} aria-label="Expires (estimated): activate to sort column ascending">Expires (estimated)</th>
-                          <th className="sorting" tabIndex={0} aria-controls="patents" rowSpan={1} colSpan={1} style={{width: '7.2px'}} aria-label=": activate to sort column ascending" />
-                        </tr>
-                        <tr className="unlock-row" role="row">
-                          <th className="no-sort" colSpan={5} rowSpan={1}>
-                            <div className="locked-link" data-field="patents" data-target="#locked-modal" data-toggle="modal">
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div> Unlock Additional Data</div>
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/USRE39221">USRE39221</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2006-08-01</td>
-                          <td>2011-08-09</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5972916">US5972916</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>1999-10-26</td>
-                          <td>2017-07-14</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6488962">US6488962</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2002-12-03</td>
-                          <td>2020-06-20</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6028222">US6028222</a></td>
-                          <td><span className="badge badge-primary badge-pill ">Yes</span></td>
-                          <td>2000-02-22</td>
-                          <td>2018-02-05</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6992218">US6992218</a></td>
-                          <td><span className="badge badge-primary badge-pill ">Yes</span></td>
-                          <td>2006-01-31</td>
-                          <td>2021-12-06</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8372432">US8372432</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2013-02-12</td>
-                          <td>2029-03-11</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8668929">US8668929</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2014-03-11</td>
-                          <td>2029-03-11</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8377453">US8377453</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2013-02-19</td>
-                          <td>2029-11-19</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US7976870">US7976870</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2011-07-12</td>
-                          <td>2027-06-01</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                        <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8741885">US8741885</a></td>
-                          <td><span className="badge badge-secondary badge-pill ">No</span></td>
-                          <td>2014-06-03</td>
-                          <td>2032-05-16</td>
-                          <td className="country"><span className="country"><span hidden="hidden">US</span><img src="/assets/countries/us-827348b033d3b349931e036455f341029a75d10b2533057ebfbfdb0ca0e45c47.svg" alt="Us" /></span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-sm-12 col-md-5">
-                    <div className="dataTables_info" id="patents_info" role="status" aria-live="polite">Showing 1 to 10 of 25 entries</div>
-                  </div>
-                  <div className="col-sm-12 col-md-7">
-                    <div className="dataTables_paginate paging_simple_numbers" id="patents_paginate">
-                      <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="patents_previous"><a href="#" aria-controls="patents" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="patents" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="patents" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="patents" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item next" id="patents_next"><a href="#" aria-controls="patents" data-dt-idx={4} tabIndex={0} className="page-link">›</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="locked-fields-holder" data-for="#patents">
-                <div className="locked-fields closed" data-collapsed="collapsed">
-                  <div className="locked-tab">
-                    <div className="drugbank-icon icon-lock">
-                      <svg className="icon" role="img" title="lock">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                      </svg>
-                    </div><span className="tab-label">Additional Data Available</span>
-                    <div className="drugbank-icon icon-arrow-left">
-                      <svg className="icon" role="img" title="arrow-left">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-left"> </use>
-                      </svg>
-                    </div>
-                    <div className="drugbank-icon icon-arrow-right">
-                      <svg className="icon" role="img" title="arrow-right">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#arrow-right"> </use>
-                      </svg>
-                    </div>
-                  </div>
-                  <ul className="locked-accordion">
-                    <div className="flex-content">
-                      <li className="closed">
-                        <div className="flex-content">
-                          <div className="locked-header">Filed On
-                            <div className="drugbank-icon icon-plus">
-                              <svg className="icon" role="img" title="plus">
-                                <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#plus"> </use>
-                              </svg>
-                            </div>
-                          </div>
-                          <div className="locked-content">
-                            <div className="locked-info">
-                              <div className="close-tab drugbank-icon icon-exit">
-                                <svg className="icon" role="img" title="exit">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#exit"> </use>
-                                </svg>
-                              </div>
-                              <div className="drugbank-icon icon-lock">
-                                <svg className="icon" role="img" title="lock">
-                                  <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#lock"> </use>
-                                </svg>
-                              </div>
-                              <div className="locked-panel-header">Filed On</div>
-                              <p>The date on which a patent was filed with the relevant government.</p><a className="btn btn-sm btn-pink track-link" target="_blank" data-link-id="locked/patents-filed-on" href="https://drugbankplus.com/data">Learn more</a></div>
-                          </div>
-                        </div>
-                      </li>
-                    </div>
-                  </ul>
                 </div>
               </div>
             </dd>
@@ -2598,17 +1576,9 @@ class Acetaminophen extends React.Component {
                 </div>
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35354">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a>
+                    Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0000262-binding-properties" data-toggle="modal" type="button">
-                    <div className="drugbank-icon icon-details">
-                      <svg className="icon" role="img" title="details">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#details"> </use>
-                      </svg>
-                    </div> <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P35354">Prostaglandin G/H synthase 2</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P35354">Prostaglandin G/H synthase 2</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2648,11 +1618,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0000017">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P23219">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/P23219">Prostaglandin G/H synthase 1</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/P23219">Prostaglandin G/H synthase 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2710,11 +1676,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0002194">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O00519">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>4. <a href="/polypeptides/O00519">Fatty-acid amide hydrolase 1</a></strong></div>
+                    Details</a><strong>4. <a href="/polypeptides/O00519">Fatty-acid amide hydrolase 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2754,11 +1716,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0001023">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q8NER1">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>5. <a href="/polypeptides/Q8NER1">Transient receptor potential cation channel subfamily V member 1</a></strong></div>
+                    Details</a><strong>5. <a href="/polypeptides/Q8NER1">Transient receptor potential cation channel subfamily V member 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2796,11 +1754,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0000814">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P09211">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>6. <a href="/polypeptides/P09211">Glutathione S-transferase P</a></strong></div>
+                    Details</a><strong>6. <a href="/polypeptides/P09211">Glutathione S-transferase P</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2841,11 +1795,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0003533">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P05181">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/P05181">Cytochrome P450 2E1</a></strong></div>
+                    Details</a><strong>1. <a href="/polypeptides/P05181">Cytochrome P450 2E1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2884,11 +1834,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0002433">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P05177">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>2. <a href="/polypeptides/P05177">Cytochrome P450 1A2</a></strong></div>
+                    Details</a><strong>2. <a href="/polypeptides/P05177">Cytochrome P450 1A2</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2929,11 +1875,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>3. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                    Details</a><strong>3. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2972,11 +1914,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0002363">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10635">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>4. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
+                    Details</a><strong>4. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3014,11 +1952,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0003336">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11509">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>5. <a href="/polypeptides/P11509">Cytochrome P450 2A6</a></strong></div>
+                    Details</a><strong>5. <a href="/polypeptides/P11509">Cytochrome P450 2A6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3056,11 +1990,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0003541">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P22309">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>6. <a href="/polypeptides/P22309">UDP-glucuronosyltransferase 1-1</a></strong></div>
+                    Details</a><strong>6. <a href="/polypeptides/P22309">UDP-glucuronosyltransferase 1-1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3100,11 +2030,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0004694">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P19224">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>7. <a href="/polypeptides/P19224">UDP-glucuronosyltransferase 1-6</a></strong></div>
+                    Details</a><strong>7. <a href="/polypeptides/P19224">UDP-glucuronosyltransferase 1-6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3143,11 +2069,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0003538">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O60656">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>8. <a href="/polypeptides/O60656">UDP-glucuronosyltransferase 1-9</a></strong></div>
+                    Details</a><strong>8. <a href="/polypeptides/O60656">UDP-glucuronosyltransferase 1-9</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3185,11 +2107,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0004696">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P54855">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>9. <a href="/polypeptides/P54855">UDP-glucuronosyltransferase 2B15</a></strong></div>
+                    Details</a><strong>9. <a href="/polypeptides/P54855">UDP-glucuronosyltransferase 2B15</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3227,11 +2145,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0000927">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P50225">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>10. <a href="/polypeptides/P50225">Sulfotransferase 1A1</a></strong></div>
+                    Details</a><strong>10. <a href="/polypeptides/P50225">Sulfotransferase 1A1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3270,11 +2184,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0004767">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P0DMM9">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>11. <a href="/polypeptides/P0DMM9">Sulfotransferase 1A3/1A4</a></strong></div>
+                    Details</a><strong>11. <a href="/polypeptides/P0DMM9">Sulfotransferase 1A3/1A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3313,11 +2223,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0003607">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11245">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>12. <a href="/polypeptides/P11245">Arylamine N-acetyltransferase 2</a></strong></div>
+                    Details</a><strong>12. <a href="/polypeptides/P11245">Arylamine N-acetyltransferase 2</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -3360,11 +2266,7 @@ class Acetaminophen extends React.Component {
               <div className="bond card" id="BE0001032">
                 <div className="card-header">
                   <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08183">
-                    <div className="drugbank-icon icon-expand">
-                      <svg className="icon" role="img" title="expand">
-                        <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#expand"> </use>
-                      </svg>
-                    </div> Details</a><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
+                    Details</a><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
