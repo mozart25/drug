@@ -76,7 +76,7 @@ class Valsartan extends React.Component {
                 </ul>
               </div>
             </dd><dt className="col-md-2 col-sm-4">UNII</dt>
-            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=80M03YXJ7I">80M03YXJ7I</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
+            <dd className="col-md-10 col-sm-8"><a target="_blank" rel="noopener noreferrer" href="http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=80M03YXJ7I">80M03YXJ7I</a></dd><dt className="col-md-2 col-sm-4">CAS number</dt>
             <dd className="col-md-10 col-sm-8">137862-53-4</dd><dt className="col-md-2 col-sm-4">Weight</dt>
             <dd className="col-md-10 col-sm-8">Average: 435.5188
               <br />Monoisotopic: 435.227039819 </dd><dt className="col-md-2 col-sm-4">Chemical Formula</dt>
@@ -327,18 +327,18 @@ class Valsartan extends React.Component {
           <h2 id="references" className="section-header">References</h2>
           <dl><dt className="col-md-2 col-sm-4">Synthesis Reference</dt>
             <dd className="col-md-10 col-sm-8"><span className="citations"><p>Zvi Harel, Igor Rukhman, "Process for the preparation of valsartan." U.S. Patent US20050010053, issued January 13, 2005.</p>
-              </span><a target="_blank" rel="noopener" href="https://www.google.com/?tbm=pts#q=20050010053&tbm=pts">US20050010053</a></dd><dt className="col-md-2 col-sm-4">General References</dt>
+              </span><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/?tbm=pts#q=20050010053&tbm=pts">US20050010053</a></dd><dt className="col-md-2 col-sm-4">General References</dt>
             <dd className="col-md-10 col-sm-8">
               <ol className="cite-this-references">
-                <li id="reference-A174124">Black HR, Bailey J, Zappe D, Samuel R: Valsartan: more than a decade of experience. Drugs. 2009;69(17):2393-414. doi: 10.2165/11319460-000000000-00000. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19911855">PubMed:19911855</a>] </li>
-                <li id="reference-A174127">Fogari R, Zoppi A: A drug safety evaluation of valsartan. Expert Opin Drug Saf. 2011 Mar;10(2):295-303. doi: 10.1517/14740338.2011.543416. Epub 2010 Dec 11. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/21142805">PubMed:21142805</a>] </li>
-                <li id="reference-A174130">McInnes GT: Clinical advantage of valsartan. Cardiology. 1999;91 Suppl 1:14-8. doi: 10.1159/000047283. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/10449890">PubMed:10449890</a>] </li>
-                <li id="reference-A174133">Chiolero A, Burnier M: Pharmacology of valsartan, an angiotensin II receptor antagonist. Expert Opin Investig Drugs. 1998 Nov;7(11):1915-25. doi: 10.1517/13543784.7.11.1915 . [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/15991938">PubMed:15991938</a>] </li>
-                <li id="reference-A174154">Akazawa H, Yabumoto C, Yano M, Kudo-Sakamoto Y, Komuro I: ARB and cardioprotection. Cardiovasc Drugs Ther. 2013 Apr;27(2):155-60. doi: 10.1007/s10557-012-6392-2. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/22538956">PubMed:22538956</a>] </li>
-                <li id="reference-A174157">Zhou G, Cheung AK, Liu X, Huang Y: Valsartan slows the progression of diabetic nephropathy in db/db mice via a reduction in podocyte injury, and renal oxidative stress and inflammation. Clin Sci (Lond). 2014 May;126(10):707-20. doi: 10.1042/CS20130223. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/24195695">PubMed:24195695</a>] </li>
-                <li id="reference-A174160">Suzuki K, Souda S, Ikarashi T, Kaneko S, Nakagawa O, Aizawa Y: Renoprotective effects of low-dose valsartan in type 2 diabetic patients with diabetic nephropathy. Diabetes Res Clin Pract. 2002 Sep;57(3):179-83. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12126767">PubMed:12126767</a>] </li>
-                <li id="reference-A174163">Currie G, Bethel MA, Holzhauer B, Haffner SM, Holman RR, McMurray JJV: Effect of valsartan on kidney outcomes in people with impaired glucose tolerance. Diabetes Obes Metab. 2017 Jun;19(6):791-799. doi: 10.1111/dom.12877. Epub 2017 Mar 17. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/28093841">PubMed:28093841</a>] </li>
-                <li id="reference-T5">Bader, M. (2004). Renin-angiotensin-aldosterone system. In Encyclopedic reference of molecular pharmacology (pp. 810-814). Berlin: Springer. [<a target="_blank" rel="noopener" href="http://www.google.com/search?tbo=p&tbm=bks&q=9783540298328">ISBN:9783540298328</a>] </li>
+                <li id="reference-A174124">Black HR, Bailey J, Zappe D, Samuel R: Valsartan: more than a decade of experience. Drugs. 2009;69(17):2393-414. doi: 10.2165/11319460-000000000-00000. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19911855">PubMed:19911855</a>] </li>
+                <li id="reference-A174127">Fogari R, Zoppi A: A drug safety evaluation of valsartan. Expert Opin Drug Saf. 2011 Mar;10(2):295-303. doi: 10.1517/14740338.2011.543416. Epub 2010 Dec 11. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/21142805">PubMed:21142805</a>] </li>
+                <li id="reference-A174130">McInnes GT: Clinical advantage of valsartan. Cardiology. 1999;91 Suppl 1:14-8. doi: 10.1159/000047283. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/10449890">PubMed:10449890</a>] </li>
+                <li id="reference-A174133">Chiolero A, Burnier M: Pharmacology of valsartan, an angiotensin II receptor antagonist. Expert Opin Investig Drugs. 1998 Nov;7(11):1915-25. doi: 10.1517/13543784.7.11.1915 . [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/15991938">PubMed:15991938</a>] </li>
+                <li id="reference-A174154">Akazawa H, Yabumoto C, Yano M, Kudo-Sakamoto Y, Komuro I: ARB and cardioprotection. Cardiovasc Drugs Ther. 2013 Apr;27(2):155-60. doi: 10.1007/s10557-012-6392-2. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/22538956">PubMed:22538956</a>] </li>
+                <li id="reference-A174157">Zhou G, Cheung AK, Liu X, Huang Y: Valsartan slows the progression of diabetic nephropathy in db/db mice via a reduction in podocyte injury, and renal oxidative stress and inflammation. Clin Sci (Lond). 2014 May;126(10):707-20. doi: 10.1042/CS20130223. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/24195695">PubMed:24195695</a>] </li>
+                <li id="reference-A174160">Suzuki K, Souda S, Ikarashi T, Kaneko S, Nakagawa O, Aizawa Y: Renoprotective effects of low-dose valsartan in type 2 diabetic patients with diabetic nephropathy. Diabetes Res Clin Pract. 2002 Sep;57(3):179-83. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12126767">PubMed:12126767</a>] </li>
+                <li id="reference-A174163">Currie G, Bethel MA, Holzhauer B, Haffner SM, Holman RR, McMurray JJV: Effect of valsartan on kidney outcomes in people with impaired glucose tolerance. Diabetes Obes Metab. 2017 Jun;19(6):791-799. doi: 10.1111/dom.12877. Epub 2017 Mar 17. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/28093841">PubMed:28093841</a>] </li>
+                <li id="reference-T5">Bader, M. (2004). Renin-angiotensin-aldosterone system. In Encyclopedic reference of molecular pharmacology (pp. 810-814). Berlin: Springer. [<a target="_blank" rel="noopener noreferrer" href="http://www.google.com/search?tbo=p&tbm=bks&q=9783540298328">ISBN:9783540298328</a>] </li>
                 <li id="reference-F3136">NZ Data Sheet, Valsartan and sacubitril [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/136/original/NZ_Data_sheet__Valsartan_and_sacubitril.pdf?1548434596">File</a>] </li>
                 <li id="reference-F3139">Valsartan HCT Canadian Monograph [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/139/original/Valsartan_HCT_TAB_Monograph.pdf?1548434624">File</a>] </li>
                 <li id="reference-F3142">Valsartan and Sacubitril FDA label [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/142/original/Valsartan_and_Sacubitril_FDA_label.pdf?1548436930">File</a>] </li>
@@ -348,18 +348,18 @@ class Valsartan extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">External Links</dt>
             <dd className="col-md-10 col-sm-8">
               <dl><dt className="col-md-4 col-sm-5">Human Metabolome Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.hmdb.ca/metabolites/HMDB0014323">HMDB0014323</a></dd><dt className="col-md-4 col-sm-5">KEGG Drug</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.genome.jp/dbget-bin/www_bget?drug:D00400">D00400</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=60846">60846</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46509000">46509000</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.chemspider.com/Chemical-Structure.54833.html">54833</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50049186">50049186</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=9927">9927</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1069">CHEMBL1069</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000363">DAP000363</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.pharmgkb.org/drug/PA451848">PA451848</a></dd><dt className="col-md-4 col-sm-5">Guide to Pharmacology</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=3937">GtP Drug Page</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
-                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener" href="http://en.wikipedia.org/wiki/Valsartan">Valsartan</a></dd>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.hmdb.ca/metabolites/HMDB0014323">HMDB0014323</a></dd><dt className="col-md-4 col-sm-5">KEGG Drug</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.genome.jp/dbget-bin/www_bget?drug:D00400">D00400</a></dd><dt className="col-md-4 col-sm-5">PubChem Compound</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=60846">60846</a></dd><dt className="col-md-4 col-sm-5">PubChem Substance</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=46509000">46509000</a></dd><dt className="col-md-4 col-sm-5">ChemSpider</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.chemspider.com/Chemical-Structure.54833.html">54833</a></dd><dt className="col-md-4 col-sm-5">BindingDB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=50049186">50049186</a></dd><dt className="col-md-4 col-sm-5">ChEBI</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=9927">9927</a></dd><dt className="col-md-4 col-sm-5">ChEMBL</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chembldb/index.php/compound/inspect/CHEMBL1069">CHEMBL1069</a></dd><dt className="col-md-4 col-sm-5">Therapeutic Targets Database</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://bidd.nus.edu.sg/group/cjttd/ZFTTDDRUG.asp?ID=DAP000363">DAP000363</a></dd><dt className="col-md-4 col-sm-5">PharmGKB</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.pharmgkb.org/drug/PA451848">PA451848</a></dd><dt className="col-md-4 col-sm-5">Guide to Pharmacology</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=3937">GtP Drug Page</a></dd><dt className="col-md-4 col-sm-5">Wikipedia</dt>
+                <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Valsartan">Valsartan</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
             <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/C09DX05">C09DX05 — Valsartan and nebivolol</a>
@@ -841,7 +841,7 @@ class Valsartan extends React.Component {
                       </thead>
                       <tbody>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5399578">US5399578</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5399578">US5399578</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>1995-03-21</td>
                           <td>2012-03-21</td>
@@ -849,7 +849,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA2259148">CA2259148</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/CA2259148">CA2259148</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2009-09-29</td>
                           <td>2017-06-18</td>
@@ -857,7 +857,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/CA2036427">CA2036427</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/CA2036427">CA2036427</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>1998-12-29</td>
                           <td>2011-02-15</td>
@@ -865,7 +865,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6294197">US6294197</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6294197">US6294197</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>2001-09-25</td>
                           <td>2017-12-18</td>
@@ -873,7 +873,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5559111">US5559111</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5559111">US5559111</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>1996-09-24</td>
                           <td>2019-01-21</td>
@@ -881,7 +881,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US6395728">US6395728</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US6395728">US6395728</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2002-05-28</td>
                           <td>2019-07-08</td>
@@ -889,7 +889,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US5972990">US5972990</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US5972990">US5972990</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>1999-10-26</td>
                           <td>2017-04-26</td>
@@ -897,7 +897,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US8168616">US8168616</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8168616">US8168616</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2012-05-01</td>
                           <td>2026-07-03</td>
@@ -905,7 +905,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="odd">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US8101599">US8101599</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8101599">US8101599</a></td>
                           <td><span className="badge badge-secondary badge-pill ">No</span></td>
                           <td>2012-01-24</td>
                           <td>2023-05-16</td>
@@ -913,7 +913,7 @@ class Valsartan extends React.Component {
                           </td>
                         </tr>
                         <tr role="row" className="even">
-                          <td tabIndex={0}><a target="_blank" rel="noopener" href="https://patents.google.com/patent/US8475839">US8475839</a></td>
+                          <td tabIndex={0}><a target="_blank" rel="noopener noreferrer" href="https://patents.google.com/patent/US8475839">US8475839</a></td>
                           <td><span className="badge badge-primary badge-pill ">Yes</span></td>
                           <td>2013-07-02</td>
                           <td>2023-11-16</td>
@@ -997,12 +997,12 @@ class Valsartan extends React.Component {
                   <tr>
                     <td>Water Solubility</td>
                     <td>0.0234 mg/mL</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
                     <td>3.68</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>logP</td>
@@ -1012,7 +1012,7 @@ class Valsartan extends React.Component {
                   <tr>
                     <td>logS</td>
                     <td>-4.3</td>
-                    <td><a target="_blank" rel="noopener" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://www.vcclab.org/lab/alogps/">ALOGPS</a></td>
                   </tr>
                   <tr>
                     <td>pKa (Strongest Acidic)</td>
@@ -1214,7 +1214,7 @@ class Valsartan extends React.Component {
                   </tr>
                 </tbody>
               </table>
-              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
+              <div className="alert alert-warning clearfix admetsar-alert"><span className="glyphicon glyphicon-info-sign"> </span> ADMET data is predicted using <a href="http://lmmd.ecust.edu.cn:8000">admetSAR</a>, a free tool for evaluating chemical ADMET properties. (<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/23092397">23092397</a>) </div>
             </dd>
           </dl>
           <h2 id="spectra" className="section-header">Spectra</h2>
@@ -1226,7 +1226,7 @@ class Valsartan extends React.Component {
                   <tr>
                     <th>Spectrum</th>
                     <th>Spectrum Type</th>
-                    <th><a target="_blank" rel="noopener" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
+                    <th><a target="_blank" rel="noopener noreferrer" href="http://splash.fiehnlab.ucdavis.edu/">Splash Key</a></th>
                   </tr>
                 </thead>
                 <tbody data-no-turbolink>
@@ -1278,212 +1278,212 @@ class Valsartan extends React.Component {
                   <tr>
                     <td><a href="/spectra/ms_ms/435392">LC-MS/MS Spectrum - LC-ESI-QTOF , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-001i-0000900000-45397dbc5403f1111d85">splash10-001i-0000900000-45397dbc5403f1111d85</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-001i-0000900000-45397dbc5403f1111d85">splash10-001i-0000900000-45397dbc5403f1111d85</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435393">LC-MS/MS Spectrum - LC-ESI-QTOF , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-003r-0303900000-1056988fef13dc9becc8">splash10-003r-0303900000-1056988fef13dc9becc8</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-003r-0303900000-1056988fef13dc9becc8">splash10-003r-0303900000-1056988fef13dc9becc8</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435394">LC-MS/MS Spectrum - LC-ESI-QTOF , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-65d8dfbf9280fcea77fb">splash10-004i-0900000000-65d8dfbf9280fcea77fb</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-65d8dfbf9280fcea77fb">splash10-004i-0900000000-65d8dfbf9280fcea77fb</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435395">LC-MS/MS Spectrum - LC-ESI-QTOF , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-77a9588a3e936c9d2e28">splash10-004i-0900000000-77a9588a3e936c9d2e28</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-77a9588a3e936c9d2e28">splash10-004i-0900000000-77a9588a3e936c9d2e28</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435878">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0009000000-160f82ad0952fc9b3350">splash10-0udi-0009000000-160f82ad0952fc9b3350</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0009000000-160f82ad0952fc9b3350">splash10-0udi-0009000000-160f82ad0952fc9b3350</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435879">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-001i-0000900000-d7bf9d8976f47e44ab4a">splash10-001i-0000900000-d7bf9d8976f47e44ab4a</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-001i-0000900000-d7bf9d8976f47e44ab4a">splash10-001i-0000900000-d7bf9d8976f47e44ab4a</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435880">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0fb9-0915000000-1f5a4e134cd8450810e7">splash10-0fb9-0915000000-1f5a4e134cd8450810e7</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0fb9-0915000000-1f5a4e134cd8450810e7">splash10-0fb9-0915000000-1f5a4e134cd8450810e7</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435881">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-19095db3835430e9fe16">splash10-004i-0900000000-19095db3835430e9fe16</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-19095db3835430e9fe16">splash10-004i-0900000000-19095db3835430e9fe16</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435882">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-00e9b9924b37c4db7a8d">splash10-004i-0900000000-00e9b9924b37c4db7a8d</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-00e9b9924b37c4db7a8d">splash10-004i-0900000000-00e9b9924b37c4db7a8d</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435883">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-fb8741bb91ee87d8245e">splash10-004i-0900000000-fb8741bb91ee87d8245e</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-fb8741bb91ee87d8245e">splash10-004i-0900000000-fb8741bb91ee87d8245e</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435884">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-001i-0000900000-be5ab1c8cde8851235e3">splash10-001i-0000900000-be5ab1c8cde8851235e3</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-001i-0000900000-be5ab1c8cde8851235e3">splash10-001i-0000900000-be5ab1c8cde8851235e3</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435885">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0fb9-0915000000-08501c181e1066f2aa0a">splash10-0fb9-0915000000-08501c181e1066f2aa0a</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0fb9-0915000000-08501c181e1066f2aa0a">splash10-0fb9-0915000000-08501c181e1066f2aa0a</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435886">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-6cabcfa5948837eddb2e">splash10-004i-0900000000-6cabcfa5948837eddb2e</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-6cabcfa5948837eddb2e">splash10-004i-0900000000-6cabcfa5948837eddb2e</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435887">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-d0aedd0bab06b374571a">splash10-004i-0900000000-d0aedd0bab06b374571a</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-d0aedd0bab06b374571a">splash10-004i-0900000000-d0aedd0bab06b374571a</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435888">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0901000000-a4572421f0a393f299a1">splash10-004i-0901000000-a4572421f0a393f299a1</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0901000000-a4572421f0a393f299a1">splash10-004i-0901000000-a4572421f0a393f299a1</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/435889">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0009000000-0f743f9e78dce83f2414">splash10-0udi-0009000000-0f743f9e78dce83f2414</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0009000000-0f743f9e78dce83f2414">splash10-0udi-0009000000-0f743f9e78dce83f2414</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/440628">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-003r-0912600000-feeef5a05d8ef569460d">splash10-003r-0912600000-feeef5a05d8ef569460d</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-003r-0912600000-feeef5a05d8ef569460d">splash10-003r-0912600000-feeef5a05d8ef569460d</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/440901">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-000i-0022900000-07c84eac301d580a8bea">splash10-000i-0022900000-07c84eac301d580a8bea</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-000i-0022900000-07c84eac301d580a8bea">splash10-000i-0022900000-07c84eac301d580a8bea</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/440902">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0190000000-8a48f701b19b54e7ebf9">splash10-0a4u-0190000000-8a48f701b19b54e7ebf9</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0190000000-8a48f701b19b54e7ebf9">splash10-0a4u-0190000000-8a48f701b19b54e7ebf9</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/440903">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0190000000-34257438319cae238dcb">splash10-0a4u-0190000000-34257438319cae238dcb</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0190000000-34257438319cae238dcb">splash10-0a4u-0190000000-34257438319cae238dcb</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/440904">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0590000000-403ef14fce06289de8e7">splash10-0a4i-0590000000-403ef14fce06289de8e7</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0590000000-403ef14fce06289de8e7">splash10-0a4i-0590000000-403ef14fce06289de8e7</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/440905">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a59-0960000000-d4e79af5b474f613f6e9">splash10-0a59-0960000000-d4e79af5b474f613f6e9</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a59-0960000000-d4e79af5b474f613f6e9">splash10-0a59-0960000000-d4e79af5b474f613f6e9</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/440906">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-052u-0093000000-ee050d1727838e542ce7">splash10-052u-0093000000-ee050d1727838e542ce7</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-052u-0093000000-ee050d1727838e542ce7">splash10-052u-0093000000-ee050d1727838e542ce7</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442519">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-066r-0013900000-27f31e9591de9c0d036b">splash10-066r-0013900000-27f31e9591de9c0d036b</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-066r-0013900000-27f31e9591de9c0d036b">splash10-066r-0013900000-27f31e9591de9c0d036b</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442520">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0096600000-2c9e5fef1cb7e2e64e67">splash10-0a4u-0096600000-2c9e5fef1cb7e2e64e67</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0096600000-2c9e5fef1cb7e2e64e67">splash10-0a4u-0096600000-2c9e5fef1cb7e2e64e67</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442521">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0091000000-0bff344a92ee0cc41b8f">splash10-0a4u-0091000000-0bff344a92ee0cc41b8f</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0091000000-0bff344a92ee0cc41b8f">splash10-0a4u-0091000000-0bff344a92ee0cc41b8f</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442522">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0390000000-fa2f74ef15c1a6b93838">splash10-0a4i-0390000000-fa2f74ef15c1a6b93838</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0390000000-fa2f74ef15c1a6b93838">splash10-0a4i-0390000000-fa2f74ef15c1a6b93838</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442523">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a59-0960000000-ca847cc390cd0e68c6b6">splash10-0a59-0960000000-ca847cc390cd0e68c6b6</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a59-0960000000-ca847cc390cd0e68c6b6">splash10-0a59-0960000000-ca847cc390cd0e68c6b6</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442524">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0pec-0920000000-5c29e64b37c8cde1c7ba">splash10-0pec-0920000000-5c29e64b37c8cde1c7ba</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0pec-0920000000-5c29e64b37c8cde1c7ba">splash10-0pec-0920000000-5c29e64b37c8cde1c7ba</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442525">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0ziu-0910000000-08f3eecf83a71f4fb485">splash10-0ziu-0910000000-08f3eecf83a71f4fb485</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0ziu-0910000000-08f3eecf83a71f4fb485">splash10-0ziu-0910000000-08f3eecf83a71f4fb485</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442526">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0096600000-598ea56da3433ecd4bab">splash10-0a4u-0096600000-598ea56da3433ecd4bab</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0096600000-598ea56da3433ecd4bab">splash10-0a4u-0096600000-598ea56da3433ecd4bab</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442527">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0091000000-0aaf7a6567cb3745cb23">splash10-0a4u-0091000000-0aaf7a6567cb3745cb23</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0091000000-0aaf7a6567cb3745cb23">splash10-0a4u-0091000000-0aaf7a6567cb3745cb23</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442528">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0490000000-4b8d8ce6d0a486599b71">splash10-0a4i-0490000000-4b8d8ce6d0a486599b71</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0490000000-4b8d8ce6d0a486599b71">splash10-0a4i-0490000000-4b8d8ce6d0a486599b71</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442529">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a59-0950000000-6cd1be141d3f05844a75">splash10-0a59-0950000000-6cd1be141d3f05844a75</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a59-0950000000-6cd1be141d3f05844a75">splash10-0a59-0950000000-6cd1be141d3f05844a75</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442530">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0pec-0920000000-053a50818908a33699b3">splash10-0pec-0920000000-053a50818908a33699b3</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0pec-0920000000-053a50818908a33699b3">splash10-0pec-0920000000-053a50818908a33699b3</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442531">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0ziu-0910000000-c10b0879c877503826c5">splash10-0ziu-0910000000-c10b0879c877503826c5</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0ziu-0910000000-c10b0879c877503826c5">splash10-0ziu-0910000000-c10b0879c877503826c5</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/442532">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-066r-0013900000-af025bf00303b40b6d48">splash10-066r-0013900000-af025bf00303b40b6d48</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-066r-0013900000-af025bf00303b40b6d48">splash10-066r-0013900000-af025bf00303b40b6d48</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/450763">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0122900000-e2d5ae1b4433254a8ebe">splash10-0a4i-0122900000-e2d5ae1b4433254a8ebe</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0122900000-e2d5ae1b4433254a8ebe">splash10-0a4i-0122900000-e2d5ae1b4433254a8ebe</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/450764">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-1492000000-bc19c44b1bd382b3180f">splash10-0a4u-1492000000-bc19c44b1bd382b3180f</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-1492000000-bc19c44b1bd382b3180f">splash10-0a4u-1492000000-bc19c44b1bd382b3180f</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/451109">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0012900000-1b87098801f65211057a">splash10-0a4i-0012900000-1b87098801f65211057a</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0012900000-1b87098801f65211057a">splash10-0a4i-0012900000-1b87098801f65211057a</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/451110">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0392000000-5823d4f7c41e4fd6208b">splash10-0a4u-0392000000-5823d4f7c41e4fd6208b</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0392000000-5823d4f7c41e4fd6208b">splash10-0a4u-0392000000-5823d4f7c41e4fd6208b</a></td>
                   </tr>
                   <tr>
                     <td><a href="/spectra/ms_ms/452403">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
-                    <td><a target="_blank" rel="noopener" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0391100000-8997765a9ed3c9424c07">splash10-0a4u-0391100000-8997765a9ed3c9424c07</a></td>
+                    <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0391100000-8997765a9ed3c9424c07">splash10-0a4u-0391100000-8997765a9ed3c9424c07</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -1520,7 +1520,7 @@ class Valsartan extends React.Component {
                 </div> show 17 more</a>
             </dd><dt className="col-md-2 col-sm-4">Molecular Framework</dt>
             <dd className="col-md-10 col-sm-8">Aromatic heteromonocyclic compounds</dd><dt className="col-md-2 col-sm-4">External Descriptors</dt>
-            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">monocarboxylic acid, monocarboxylic acid amide, biphenylyltetrazole (<a target="_blank" rel="noopener" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:9927">CHEBI:9927</a>) </span></span>
+            <dd className="col-md-10 col-sm-8"><span className="inline-separated-list-container"><span className="simple-separated-list-item">monocarboxylic acid, monocarboxylic acid amide, biphenylyltetrazole (<a target="_blank" rel="noopener noreferrer" href="http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:9927">CHEBI:9927</a>) </span></span>
             </dd>
           </dl>
           <div className="bond-list-container targets">
@@ -1552,7 +1552,7 @@ class Valsartan extends React.Component {
                                 <td>4700</td>
                                 <td><span className="not-available">N/A</span></td>
                                 <td><span className="not-available">N/A</span></td>
-                                <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12773029">12773029</a></span></span>
+                                <td><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item"><a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12773029">12773029</a></span></span>
                                   </span>
                                 </td>
                               </tr>
@@ -1587,7 +1587,7 @@ class Valsartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Protein heterodimerization activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Receptor for angiotensin II. Mediates its action by association with G proteins that activate a phosphatidylinositol-calcium second messenger system.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">AGTR1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P30556">P30556</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer"href="http://www.uniprot.org/uniprot/P30556">P30556</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Type-1 angiotensin II receptor</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">41060.53 Da</dd>
                       </dl>
@@ -1596,13 +1596,13 @@ class Valsartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A9">Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/11752352">PubMed:11752352</a>] </li>
-                      <li id="reference-A4229">Azizi M, Menard J, Bissery A, Guyenne TT, Bura-Riviere A, Vaidyanathan S, Camisasca RP: Pharmacologic demonstration of the synergistic effects of a combination of the renin inhibitor aliskiren and the AT1 receptor antagonist valsartan on the angiotensin II-renin feedback interruption. J Am Soc Nephrol. 2004 Dec;15(12):3126-33. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/15579516">PubMed:15579516</a>] </li>
-                      <li id="reference-A4230">Criscione L, de Gasparo M, Buhlmayer P, Whitebread S, Ramjoue HP, Wood J: Pharmacological profile of valsartan: a potent, orally active, nonpeptide antagonist of the angiotensin II AT1-receptor subtype. Br J Pharmacol. 1993 Oct;110(2):761-71. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/8242249">PubMed:8242249</a>] </li>
-                      <li id="reference-A4231">Shargorodsky M, Leibovitz E, Lubimov L, Gavish D, Zimlichman R: Prolonged treatment with the AT1 receptor blocker, valsartan, increases small and large artery compliance in uncomplicated essential hypertension. Am J Hypertens. 2002 Dec;15(12):1087-91. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12460705">PubMed:12460705</a>] </li>
-                      <li id="reference-A4232">de Gasparo M, Whitebread S: Binding of valsartan to mammalian angiotensin AT1 receptors. Regul Pept. 1995 Nov 10;59(3):303-11. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/8577935">PubMed:8577935</a>] </li>
-                      <li id="reference-A4233">Siragy HM, El-Kersh MA, De Gasparo M, Webb RL, Carey RM: Differences in AT2 -receptor stimulation between AT1 -receptor blockers valsartan and losartan quantified by renal interstitial fluid cGMP. J Hypertens. 2002 Jun;20(6):1157-63. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/12023686">PubMed:12023686</a>] </li>
-                      <li id="reference-T11">Stanfield, Cindy L.;Germann, William J. (2009). Principles of Human Physiology (3rd ed.). Benjamin-Cummings Publishing Company. [<a target="_blank" rel="noopener" href="http://www.google.com/search?tbo=p&tbm=bks&q=978-0321556660">ISBN:978-0321556660</a>] </li>
+                      <li id="reference-A9">Chen X, Ji ZL, Chen YZ: TTD: Therapeutic Target Database. Nucleic Acids Res. 2002 Jan 1;30(1):412-5. [<a target="_blank" rel="noopener noreferrer"  rel="noopener noreferrer"href="http://www.ncbi.nlm.nih.gov/pubmed/11752352">PubMed:11752352</a>] </li>
+                      <li id="reference-A4229">Azizi M, Menard J, Bissery A, Guyenne TT, Bura-Riviere A, Vaidyanathan S, Camisasca RP: Pharmacologic demonstration of the synergistic effects of a combination of the renin inhibitor aliskiren and the AT1 receptor antagonist valsartan on the angiotensin II-renin feedback interruption. J Am Soc Nephrol. 2004 Dec;15(12):3126-33. [<a target="_blank" rel="noopener noreferrer"href="http://www.ncbi.nlm.nih.gov/pubmed/15579516">PubMed:15579516</a>] </li>
+                      <li id="reference-A4230">Criscione L, de Gasparo M, Buhlmayer P, Whitebread S, Ramjoue HP, Wood J: Pharmacological profile of valsartan: a potent, orally active, nonpeptide antagonist of the angiotensin II AT1-receptor subtype. Br J Pharmacol. 1993 Oct;110(2):761-71. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/8242249">PubMed:8242249</a>] </li>
+                      <li id="reference-A4231">Shargorodsky M, Leibovitz E, Lubimov L, Gavish D, Zimlichman R: Prolonged treatment with the AT1 receptor blocker, valsartan, increases small and large artery compliance in uncomplicated essential hypertension. Am J Hypertens. 2002 Dec;15(12):1087-91. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12460705">PubMed:12460705</a>] </li>
+                      <li id="reference-A4232">de Gasparo M, Whitebread S: Binding of valsartan to mammalian angiotensin AT1 receptors. Regul Pept. 1995 Nov 10;59(3):303-11. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/8577935">PubMed:8577935</a>] </li>
+                      <li id="reference-A4233">Siragy HM, El-Kersh MA, De Gasparo M, Webb RL, Carey RM: Differences in AT2 -receptor stimulation between AT1 -receptor blockers valsartan and losartan quantified by renal interstitial fluid cGMP. J Hypertens. 2002 Jun;20(6):1157-63. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/12023686">PubMed:12023686</a>] </li>
+                      <li id="reference-T11">Stanfield, Cindy L.;Germann, William J. (2009). Principles of Human Physiology (3rd ed.). Benjamin-Cummings Publishing Company. [<a target="_blank" rel="noopener noreferrer" href="http://www.google.com/search?tbo=p&tbm=bks&q=978-0321556660">ISBN:978-0321556660</a>] </li>
                       <li id="reference-F3151">Valsartan HCT monograph [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/151/original/Valsartan_HCT_TAB_Monograph.pdf?1548441492">File</a>] </li>
                     </ol>
                   </div>
@@ -1637,7 +1637,7 @@ class Valsartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Steroid hydroxylase activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Cytochromes P450 are a group of heme-thiolate monooxygenases. In liver microsomes, this enzyme is involved in an NADPH-dependent electron transport pathway. It oxidizes a variety of structurally un...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">CYP2C9</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/P11712">P11712</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P11712">P11712</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Cytochrome P450 2C9</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">55627.365 Da</dd>
                       </dl>
@@ -1646,10 +1646,10 @@ class Valsartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A15583">Nakashima A, Kawashita H, Masuda N, Saxer C, Niina M, Nagae Y, Iwasaki K: Identification of cytochrome P450 forms involved in the 4-hydroxylation of valsartan, a potent and specific angiotensin II receptor antagonist, in human liver microsomes. Xenobiotica. 2005 Jun;35(6):589-602. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16192110">PubMed:16192110</a>] </li>
-                      <li id="reference-A39430">Kamiyama E, Yoshigae Y, Kasuya A, Takei M, Kurihara A, Ikeda T: Inhibitory effects of angiotensin receptor blockers on CYP2C9 activity in human liver microsomes. Drug Metab Pharmacokinet. 2007 Aug;22(4):267-75. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/17827781">PubMed:17827781</a>] </li>
-                      <li id="reference-A39431">Cabaleiro T, Roman M, Ochoa D, Talegon M, Prieto-Perez R, Wojnicz A, Lopez-Rodriguez R, Novalbos J, Abad-Santos F: Evaluation of the relationship between sex, polymorphisms in CYP2C8 and CYP2C9, and pharmacokinetics of angiotensin receptor blockers. Drug Metab Dispos. 2013 Jan;41(1):224-9. doi: 10.1124/dmd.112.046292. Epub 2012 Nov 1. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/23118328">PubMed:23118328</a>] </li>
-                      <li id="reference-A39432">Guo G, Zhao Y, Chai J, Hao D, Song F: Effectiveness evaluation of cardiovascular drugs based on CYP2C9 target protein. Pak J Pharm Sci. 2015 Jul;28(4 Suppl):1545-9. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/26431654">PubMed:26431654</a>] </li>
+                      <li id="reference-A15583">Nakashima A, Kawashita H, Masuda N, Saxer C, Niina M, Nagae Y, Iwasaki K: Identification of cytochrome P450 forms involved in the 4-hydroxylation of valsartan, a potent and specific angiotensin II receptor antagonist, in human liver microsomes. Xenobiotica. 2005 Jun;35(6):589-602. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16192110">PubMed:16192110</a>] </li>
+                      <li id="reference-A39430">Kamiyama E, Yoshigae Y, Kasuya A, Takei M, Kurihara A, Ikeda T: Inhibitory effects of angiotensin receptor blockers on CYP2C9 activity in human liver microsomes. Drug Metab Pharmacokinet. 2007 Aug;22(4):267-75. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/17827781">PubMed:17827781</a>] </li>
+                      <li id="reference-A39431">Cabaleiro T, Roman M, Ochoa D, Talegon M, Prieto-Perez R, Wojnicz A, Lopez-Rodriguez R, Novalbos J, Abad-Santos F: Evaluation of the relationship between sex, polymorphisms in CYP2C8 and CYP2C9, and pharmacokinetics of angiotensin receptor blockers. Drug Metab Dispos. 2013 Jan;41(1):224-9. doi: 10.1124/dmd.112.046292. Epub 2012 Nov 1. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/23118328">PubMed:23118328</a>] </li>
+                      <li id="reference-A39432">Guo G, Zhao Y, Chai J, Hao D, Song F: Effectiveness evaluation of cardiovascular drugs based on CYP2C9 target protein. Pak J Pharm Sci. 2015 Jul;28(4 Suppl):1545-9. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/26431654">PubMed:26431654</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1682,7 +1682,7 @@ class Valsartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Sodium-independent organic anion transmembrane transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Mediates the Na(+)-independent uptake of organic anions such as 17-beta-glucuronosyl estradiol, taurocholate, triiodothyronine (T3), leukotriene C4, dehydroepiandrosterone sulfate (DHEAS), methotre...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SLCO1B3</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q9NPD5">Q9NPD5</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9NPD5">Q9NPD5</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Solute carrier organic anion transporter family member 1B3</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">77402.175 Da</dd>
                       </dl>
@@ -1691,10 +1691,10 @@ class Valsartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A16475">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in human based on in vitro uptake transport data. J Pharmacokinet Pharmacodyn. 2009 Dec;36(6):585-611. doi: 10.1007/s10928-009-9139-3. Epub 2009 Nov 20. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19936896">PubMed:19936896</a>] </li>
-                      <li id="reference-A16476">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in humans based on in vitro uptake-transport data. Chem Biodivers. 2009 Nov;6(11):1975-87. doi: 10.1002/cbdv.200900116. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19937834">PubMed:19937834</a>] </li>
-                      <li id="reference-A174145">Hanna I, Alexander N, Crouthamel MH, Davis J, Natrillo A, Tran P, Vapurcuyan A, Zhu B: Transport properties of valsartan, sacubitril and its active metabolite (LBQ657) as determinants of disposition. Xenobiotica. 2018 Mar;48(3):300-313. doi: 10.1080/00498254.2017.1295171. Epub 2017 Mar 10. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/28281384">PubMed:28281384</a>] </li>
-                      <li id="reference-A174148">Alam K, Crowe A, Wang X, Zhang P, Ding K, Li L, Yue W: Regulation of Organic Anion Transporting Polypeptides (OATP) 1B1- and OATP1B3-Mediated Transport: An Updated Review in the Context of OATP-Mediated Drug-Drug Interactions. Int J Mol Sci. 2018 Mar 14;19(3). pii: ijms19030855. doi: 10.3390/ijms19030855. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/29538325">PubMed:29538325</a>] </li>
+                      <li id="reference-A16475">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in human based on in vitro uptake transport data. J Pharmacokinet Pharmacodyn. 2009 Dec;36(6):585-611. doi: 10.1007/s10928-009-9139-3. Epub 2009 Nov 20. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19936896">PubMed:19936896</a>] </li>
+                      <li id="reference-A16476">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in humans based on in vitro uptake-transport data. Chem Biodivers. 2009 Nov;6(11):1975-87. doi: 10.1002/cbdv.200900116. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19937834">PubMed:19937834</a>] </li>
+                      <li id="reference-A174145">Hanna I, Alexander N, Crouthamel MH, Davis J, Natrillo A, Tran P, Vapurcuyan A, Zhu B: Transport properties of valsartan, sacubitril and its active metabolite (LBQ657) as determinants of disposition. Xenobiotica. 2018 Mar;48(3):300-313. doi: 10.1080/00498254.2017.1295171. Epub 2017 Mar 10. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/28281384">PubMed:28281384</a>] </li>
+                      <li id="reference-A174148">Alam K, Crowe A, Wang X, Zhang P, Ding K, Li L, Yue W: Regulation of Organic Anion Transporting Polypeptides (OATP) 1B1- and OATP1B3-Mediated Transport: An Updated Review in the Context of OATP-Mediated Drug-Drug Interactions. Int J Mol Sci. 2018 Mar 14;19(3). pii: ijms19030855. doi: 10.3390/ijms19030855. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/29538325">PubMed:29538325</a>] </li>
                     </ol>
                   </div>
                 </div>
@@ -1723,7 +1723,7 @@ class Valsartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Sodium-independent organic anion transmembrane transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Mediates the Na(+)-independent uptake of organic anions such as pravastatin, taurocholate, methotrexate, dehydroepiandrosterone sulfate, 17-beta-glucuronosyl estradiol, estrone sulfate, prostagland...</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">SLCO1B1</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q9Y6L6">Q9Y6L6</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9Y6L6">Q9Y6L6</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Solute carrier organic anion transporter family member 1B1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">76447.99 Da</dd>
                       </dl>
@@ -1732,11 +1732,11 @@ class Valsartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A16475">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in human based on in vitro uptake transport data. J Pharmacokinet Pharmacodyn. 2009 Dec;36(6):585-611. doi: 10.1007/s10928-009-9139-3. Epub 2009 Nov 20. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19936896">PubMed:19936896</a>] </li>
-                      <li id="reference-A16476">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in humans based on in vitro uptake-transport data. Chem Biodivers. 2009 Nov;6(11):1975-87. doi: 10.1002/cbdv.200900116. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/19937834">PubMed:19937834</a>] </li>
-                      <li id="reference-A34540">Karlgren M, Ahlin G, Bergstrom CA, Svensson R, Palm J, Artursson P: In vitro and in silico strategies to identify OATP1B1 inhibitors and predict clinical drug-drug interactions. Pharm Res. 2012 Feb;29(2):411-26. doi: 10.1007/s11095-011-0564-9. Epub 2011 Aug 23. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/21861202">PubMed:21861202</a>] </li>
-                      <li id="reference-A174148">Alam K, Crowe A, Wang X, Zhang P, Ding K, Li L, Yue W: Regulation of Organic Anion Transporting Polypeptides (OATP) 1B1- and OATP1B3-Mediated Transport: An Updated Review in the Context of OATP-Mediated Drug-Drug Interactions. Int J Mol Sci. 2018 Mar 14;19(3). pii: ijms19030855. doi: 10.3390/ijms19030855. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/29538325">PubMed:29538325</a>] </li>
-                      <li id="reference-A174145">Hanna I, Alexander N, Crouthamel MH, Davis J, Natrillo A, Tran P, Vapurcuyan A, Zhu B: Transport properties of valsartan, sacubitril and its active metabolite (LBQ657) as determinants of disposition. Xenobiotica. 2018 Mar;48(3):300-313. doi: 10.1080/00498254.2017.1295171. Epub 2017 Mar 10. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/28281384">PubMed:28281384</a>] </li>
+                      <li id="reference-A16475">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in human based on in vitro uptake transport data. J Pharmacokinet Pharmacodyn. 2009 Dec;36(6):585-611. doi: 10.1007/s10928-009-9139-3. Epub 2009 Nov 20. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19936896">PubMed:19936896</a>] </li>
+                      <li id="reference-A16476">Poirier A, Cascais AC, Funk C, Lave T: Prediction of pharmacokinetic profile of valsartan in humans based on in vitro uptake-transport data. Chem Biodivers. 2009 Nov;6(11):1975-87. doi: 10.1002/cbdv.200900116. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/19937834">PubMed:19937834</a>] </li>
+                      <li id="reference-A34540">Karlgren M, Ahlin G, Bergstrom CA, Svensson R, Palm J, Artursson P: In vitro and in silico strategies to identify OATP1B1 inhibitors and predict clinical drug-drug interactions. Pharm Res. 2012 Feb;29(2):411-26. doi: 10.1007/s11095-011-0564-9. Epub 2011 Aug 23. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/21861202">PubMed:21861202</a>] </li>
+                      <li id="reference-A174148">Alam K, Crowe A, Wang X, Zhang P, Ding K, Li L, Yue W: Regulation of Organic Anion Transporting Polypeptides (OATP) 1B1- and OATP1B3-Mediated Transport: An Updated Review in the Context of OATP-Mediated Drug-Drug Interactions. Int J Mol Sci. 2018 Mar 14;19(3). pii: ijms19030855. doi: 10.3390/ijms19030855. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/29538325">PubMed:29538325</a>] </li>
+                      <li id="reference-A174145">Hanna I, Alexander N, Crouthamel MH, Davis J, Natrillo A, Tran P, Vapurcuyan A, Zhu B: Transport properties of valsartan, sacubitril and its active metabolite (LBQ657) as determinants of disposition. Xenobiotica. 2018 Mar;48(3):300-313. doi: 10.1080/00498254.2017.1295171. Epub 2017 Mar 10. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/28281384">PubMed:28281384</a>] </li>
                       <li id="reference-F3133">Valsartan Canadian Monograph [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/133/original/Valsartan_HCT_TAB_Monograph.pdf?1548371352">File</a>] </li>
                     </ol>
                   </div>
@@ -1765,7 +1765,7 @@ class Valsartan extends React.Component {
                         <dd className="col-md-7 col-sm-6">Organic anion transmembrane transporter activity</dd><dt className="col-md-5 col-sm-6">Specific Function</dt>
                         <dd className="col-md-7 col-sm-6">Mediates hepatobiliary excretion of numerous organic anions. May function as a cellular cisplatin transporter.</dd><dt className="col-md-5 col-sm-6">Gene Name</dt>
                         <dd className="col-md-7 col-sm-6">ABCC2</dd><dt className="col-md-5 col-sm-6">Uniprot ID</dt>
-                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener" href="http://www.uniprot.org/uniprot/Q92887">Q92887</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
+                        <dd className="col-md-7 col-sm-6"><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q92887">Q92887</a></dd><dt className="col-md-5 col-sm-6">Uniprot Name</dt>
                         <dd className="col-md-7 col-sm-6">Canalicular multispecific organic anion transporter 1</dd><dt className="col-md-5 col-sm-6">Molecular Weight</dt>
                         <dd className="col-md-7 col-sm-6">174205.64 Da</dd>
                       </dl>
@@ -1774,8 +1774,8 @@ class Valsartan extends React.Component {
                   <h5>References</h5>
                   <div className="references">
                     <ol className="cite-this-references">
-                      <li id="reference-A174166">Yamashiro W, Maeda K, Hirouchi M, Adachi Y, Hu Z, Sugiyama Y: Involvement of transporters in the hepatic uptake and biliary excretion of valsartan, a selective antagonist of the angiotensin II AT1-receptor, in humans. Drug Metab Dispos. 2006 Jul;34(7):1247-54. doi: 10.1124/dmd.105.008938. Epub 2006 Apr 19. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/16624871">PubMed:16624871</a>] </li>
-                      <li id="reference-A174145">Hanna I, Alexander N, Crouthamel MH, Davis J, Natrillo A, Tran P, Vapurcuyan A, Zhu B: Transport properties of valsartan, sacubitril and its active metabolite (LBQ657) as determinants of disposition. Xenobiotica. 2018 Mar;48(3):300-313. doi: 10.1080/00498254.2017.1295171. Epub 2017 Mar 10. [<a target="_blank" rel="noopener" href="http://www.ncbi.nlm.nih.gov/pubmed/28281384">PubMed:28281384</a>] </li>
+                      <li id="reference-A174166">Yamashiro W, Maeda K, Hirouchi M, Adachi Y, Hu Z, Sugiyama Y: Involvement of transporters in the hepatic uptake and biliary excretion of valsartan, a selective antagonist of the angiotensin II AT1-receptor, in humans. Drug Metab Dispos. 2006 Jul;34(7):1247-54. doi: 10.1124/dmd.105.008938. Epub 2006 Apr 19. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/16624871">PubMed:16624871</a>] </li>
+                      <li id="reference-A174145">Hanna I, Alexander N, Crouthamel MH, Davis J, Natrillo A, Tran P, Vapurcuyan A, Zhu B: Transport properties of valsartan, sacubitril and its active metabolite (LBQ657) as determinants of disposition. Xenobiotica. 2018 Mar;48(3):300-313. doi: 10.1080/00498254.2017.1295171. Epub 2017 Mar 10. [<a target="_blank" rel="noopener noreferrer" href="http://www.ncbi.nlm.nih.gov/pubmed/28281384">PubMed:28281384</a>] </li>
                       <li id="reference-F3139">Valsartan HCT Canadian Monograph [<a target="_blank" href="//s3-us-west-2.amazonaws.com/drugbank/cite_this/attachments/files/000/003/139/original/Valsartan_HCT_TAB_Monograph.pdf?1548434624">File</a>] </li>
                     </ol>
                   </div>
