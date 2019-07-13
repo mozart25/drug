@@ -14,6 +14,7 @@ import Escitalopram from 'Pages/Drug/Escitalopram';
 import Losartan from 'Pages/Drug/Losartan';
 import Olmesartan from 'Pages/Drug/Olmesartan';
 import Valsartan from 'Pages/Drug/Valsartan';
+import Recommendation from 'Pages/Recommendation/Recommendation';
 
 
 class Routes extends React.Component {
@@ -31,6 +32,7 @@ class Routes extends React.Component {
           <Route exact path="/losartan" component={Losartan} />
           <Route exact path="/olmesartan" component={Olmesartan} />
           <Route exact path="/valsartan" component={Valsartan} />
+          <Route exact path="/recommendation" component={Recommendation} />
         </Switch>
       </Router>
     );
