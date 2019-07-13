@@ -1,0 +1,244 @@
+
+.recommend-container {
+  background-color: white;
+}
+
+
+.title {
+  .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+}
+
+.item {
+    width: 98%;
+    margin-bottom: 50px;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-color: #cccccc;
+    min-height: 220px;
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
+    transition: background-color 0.25s, color 0.25s, box-shadow 0.25s;
+    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.1), 0 0.15rem 0.9rem rgba(0, 0, 0, 0.2);
+}
+
+.title h1 {
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-family: Raleway;
+}
+
+
+.item-interact .badge-light, .item-interact .badge-light:focus {
+    background-color: #1ab37c;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: none;
+    font-family: "Raleway";
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 130px;
+    letter-spacing: 0.5px;
+}
+
+ion-icon svg {
+    fill: currentColor;
+    stroke: currentColor;
+}
+
+.item-content h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.item-content p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.item-interact {
+    font-family: "Raleway";
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+}
+
+.item-content .badge-primary {
+    color: #fff;
+    background-color: #f9f9f9;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #888888;
+    font-weight: none;
+    font-family: "Raleway";
+    font-size: 11px;
+    height: 32px;
+    margin-bottom: 5px;
+}
+
+.item-interact .badge-secondary {
+    background-color: #fdfdfd;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #111111;
+    font-weight: none;
+    font-family: "Roboto";
+    font-size: 14px;
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.stars-accumulated {
+    font-size: 10px;
+    padding-top: 8px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+
+.col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 100%;
+}
+
+.item-header {
+  border-radius: 5px;
+  background-color: #21cbce;
+  p {
+    color: white;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+}
+
+.col-lg-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.navbar-brand {
+  p {
+    color: #21cbce;
+    font-size: 24px;
+    font-weight: 800;
+  }
+}
+
+.header {
+    vertical-align: middle;
+    padding: 2px 40px;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-light .navbar-nav .nav-link-right a {
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #222;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-light .navbar-nav .nav-link-right {
+    display: block;
+    padding: 0.5rem 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.header-logo {
+  float: left;
+}
+
+#navbarSupportedContent {
+  float: right;
+}
+
+
+.navbar-recommendation {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+
+.process-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 25.1%;
+  display: -webkit-inline-box;
+
+  .item {
+      padding: 0.5em;
+      width: 90%;
+      }
+  p {
+    font-size: 20px;
+    padding-left: 0px;
+  }
+
+  .item-header {
+    text-align: center;
+    margin-left: 0px;
+  }
+}
