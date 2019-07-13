@@ -16,7 +16,7 @@
 }
 
 .item {
-    width: 95%;
+    width: 98%;
     margin-bottom: 50px;
     border: 0px solid;
     border-radius: 10px;
@@ -217,5 +217,28 @@ ion-icon svg {
   .col-lg-6 {
       flex: 0 0 100%;
       max-width: 100%;
+  }
+}
+
+
+.process-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 25.1%;
+  display: -webkit-inline-box;
+
+  .item {
+      padding: 0.5em;
+      width: 90%;
+      }
+  p {
+    font-size: 20px;
+    padding-left: 0px;
+  }
+
+  .item-header {
+    text-align: center;
+    margin-left: 0px;
   }
 }

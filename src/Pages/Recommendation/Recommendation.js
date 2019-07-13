@@ -41,9 +41,86 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
+
+            <div className="process-wrapper">
+
+
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
-                  <div className="col-lg-3 item-image-col"></div>
+                  <div className="item-header"><p>Data Preparation</p></div>
+                  <div className="col-lg-9 item-col">
+                    <div className="row">
+                      <div className="col-lg-9 item-content">
+                        <p style={{paddingTop: '2px'}}>
+                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
+                        </p>
+                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
+                        <p><span className="badge badge-primary">Data Types</span></p>
+                        <p><span className="badge badge-primary">Data Source</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="infinite-container text-center">
+                <div className="row infinite-item item">
+                <div className="item-header"><p>Data Preprocessing</p></div>
+                  <div className="col-lg-9 item-col">
+                    <div className="row">
+                      <div className="col-lg-9 item-content">
+                        <p style={{paddingTop: '2px'}}>
+                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
+                        </p>
+                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
+                        <p><span className="badge badge-primary">Data Types</span></p>
+                        <p><span className="badge badge-primary">Data Source</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="infinite-container text-center">
+                <div className="row infinite-item item">
+                <div className="item-header"><p>Modeling</p></div>
+                  <div className="col-lg-9 item-col">
+                    <div className="row">
+                      <div className="col-lg-9 item-content">
+                        <p style={{paddingTop: '2px'}}>
+                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
+                        </p>
+                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
+                        <p><span className="badge badge-primary">Data Types</span></p>
+                        <p><span className="badge badge-primary">Data Source</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="infinite-container text-center">
+                <div className="row infinite-item item">
+                <div className="item-header"><p>Model Modification</p></div>
+                  <div className="col-lg-9 item-col">
+                    <div className="row">
+                      <div className="col-lg-9 item-content">
+                        <p style={{paddingTop: '2px'}}>
+                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
+                        </p>
+                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
+                        <p><span className="badge badge-primary">Data Types</span></p>
+                        <p><span className="badge badge-primary">Data Source</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+              <div className="infinite-container text-center">
+                <div className="row infinite-item item">
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
@@ -63,7 +140,6 @@ class Recommendation extends React.Component {
 
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
-                  <div className="col-lg-3 item-image-col"></div>
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
