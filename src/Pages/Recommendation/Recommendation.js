@@ -1,6 +1,8 @@
 import React from 'react';
 import './Recommendation.scss';
 import Navigation from '../../Components/Navigation/Navigation' ;
+import { FaStar } from 'react-icons/fa';
+
 
 class Recommendation extends React.Component {
   render() {
@@ -55,7 +57,7 @@ class Recommendation extends React.Component {
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Numeric Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Drug Information Data </li>
+                                  <li style={{listStyle: 'circle'}}> Drug Information Data  </li>
                                   <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data</li>
                                 </ol>
                             </ol>
@@ -143,30 +145,30 @@ class Recommendation extends React.Component {
                       <div className="col-lg-9 item-content">
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li> Data Types </li>
+                          <li id="top-list"> Data Types </li>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Numeric Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Drug Information Data </li>
+                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/></li>
                                   <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data</li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Image Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Molecular formula data </li>
+                                  <li style={{listStyle: 'circle'}}> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Text Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> SMILES </li>
+                                  <li style={{listStyle: 'circle'}}> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /></li>
                                 </ol>
                             </ol>
-                          <li> Data Source </li>
+                          <li id="top-list"> Data Source </li>
                             <ol style={{paddingLeft: '18px'}}>
-                              <li ><p id="badge-link"><span className="badge badge-primary">DrugBank</span></p></li>
-                              <li ><p id="badge-link"><span className="badge badge-primary">PubChem</span></p></li>
+                              <li style={{listStyle: 'circle'}}><p id="badge-link"><span className="badge badge-primary">DrugBank</span></p></li>
+                              <li style={{listStyle: 'circle'}}><p id="badge-link"><span className="badge badge-primary">PubChem</span></p></li>
                             </ol>
                         </ol>
 
@@ -184,20 +186,20 @@ class Recommendation extends React.Component {
                       <div className="col-lg-9 item-content">
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li> Data Processing</li>
-                            <ol style={{paddingLeft: '18px'}}>
-                              <li > Molecule autoencoder </li>
-                              <li > Mol2Vec </li>
+                          <li id="top-list"> Data Processing</li>
+                            <ol style={{paddingLeft: '18px'}} >
+                              <li style={{listStyle: 'circle'}}> Molecule autoencoder </li>
+                              <li style={{listStyle: 'circle'}}> Mol2Vec </li>
                             </ol>
-                          <li> Class Imbalance </li>
+                          <li id="top-list"> Class Imbalance </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li > SMOTE </li>
-                            <li > WEMOTE </li>
+                            <li style={{listStyle: 'circle'}}> SMOTE </li>
+                            <li style={{listStyle: 'circle'}}> WEMOTE </li>
                             </ol>
-                          <li> Dimension Reduction </li>
+                          <li id="top-list"> Dimension Reduction </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li > PCA </li>
-                            <li > ICA</li>
+                            <li style={{listStyle: 'circle'}}> PCA </li>
+                            <li style={{listStyle: 'circle'}}> ICA</li>
                             </ol>
                         </ol>
 
@@ -214,14 +216,14 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <p style={{paddingTop: '2px'}}>
-                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
-                        </p>
-                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
-                        <p><span className="badge badge-primary">Support Vector Machine</span></p>
-                        <p><span className="badge badge-primary">Decision Tree</span></p>
-                        <p><span className="badge badge-primary">Multilayer Perceptron</span></p>
-                        <p><span className="badge badge-primary">Recurrent Neural Networks</span></p>
+
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li id="top-list"> Support Vector Machine</li>
+                          <li id="top-list"> Decision Trees</li>
+                          <li id="top-list"> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /></li>
+                          <li id="top-list"> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /></li>
+                        </ol>
+
                       </div>
                     </div>
                   </div>
@@ -235,13 +237,21 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <p style={{paddingTop: '2px'}}>
-                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
-                        </p>
-                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
-                        <p><span className="badge badge-primary">Ensemble</span></p>
-                        <p><span className="badge badge-primary">Optimization</span></p>
-                        <p><span className="badge badge-primary">Dropouts</span></p>
+
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li id="top-list"> Ensemble </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li style={{listStyle: 'circle'}}> Horizontal epochs ensemble <FaStar color={'#ffd700'} /></li>
+                              <li style={{listStyle: 'circle'}}> Model averaging ensemble </li>
+                            </ol>
+                          <li id="top-list"> Optimization </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                            <li style={{listStyle: 'circle'}}> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /></li>
+                            <li style={{listStyle: 'circle'}}> Batch size <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /></li>
+                            <li style={{listStyle: 'circle'}}> Momentum <FaStar color={'#ffd700'} /></li>
+                            </ol>
+                          <li id="top-list"> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /></li>
+                        </ol>
 
                       </div>
                     </div>

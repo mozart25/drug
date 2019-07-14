@@ -266,8 +266,17 @@ ion-icon svg {
     margin-left: 10px;
     margin-top: 5px;
   }
+
+  svg {
+    height: 21px;
+  }
 }
 
 #badge-link {
    margin-bottom: 0px;
+}
+
+#top-list {
+  font-size: 17px;
+  font-weight: 700;
 }
