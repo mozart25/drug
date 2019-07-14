@@ -120,17 +120,39 @@ class Recommendation extends React.Component {
             </div>
               <div className="infinite-container text-center" id="position_1">
                 <div className="row infinite-item item">
+                  <div className="item-header" id="data-preparation"><p>Data Preparation</p></div>
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <div className="item-header" id="data-preparation"><p>Data Preparation</p></div>
 
-                        <p style={{paddingTop: '2px'}}>
-                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
-                        </p>
-                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
-                        <p><span className="badge badge-primary">Data Types</span></p>
-                        <p><span className="badge badge-primary">Data Source</span></p>
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li> Data Types </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li > Numeric Data </li>
+                                <ol style={{paddingLeft: '18px'}}>
+                                  <li style={{listStyle: 'circle'}}> Drug Information Data </li>
+                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data</li>
+                                </ol>
+                            </ol>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li > Image Data </li>
+                                <ol style={{paddingLeft: '18px'}}>
+                                  <li style={{listStyle: 'circle'}}> Molecular formula data </li>
+                                </ol>
+                            </ol>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li > Text Data </li>
+                                <ol style={{paddingLeft: '18px'}}>
+                                  <li style={{listStyle: 'circle'}}> SMILES </li>
+                                </ol>
+                            </ol>
+                          <li> Data Source </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li ><p id="badge-link"><span className="badge badge-primary">DrugBank</span></p></li>
+                              <li ><p id="badge-link"><span className="badge badge-primary">PubChem</span></p></li>
+                            </ol>
+                        </ol>
+
                       </div>
                     </div>
                   </div>
@@ -139,10 +161,10 @@ class Recommendation extends React.Component {
 
               <div className="infinite-container text-center" id="position_2">
                 <div className="row infinite-item item">
+                  <div className="item-header" id="data-preprocessing"><p>Data Preprocessing</p></div>
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <div className="item-header" id="data-preprocessing"><p>Data Preprocessing</p></div>
                         <p style={{paddingTop: '2px'}}>
                           <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
                         </p>
@@ -158,11 +180,11 @@ class Recommendation extends React.Component {
 
               <div className="infinite-container text-center" id="position_3">
                 <div className="row infinite-item item">
+                  <div className="item-header" id="modeling"><p>Modeling</p></div>
                   <div className="col-lg-3 item-image-col"></div>
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <div className="item-header" id="modeling"><p>Modeling</p></div>
                         <p style={{paddingTop: '2px'}}>
                           <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
                         </p>
@@ -179,11 +201,11 @@ class Recommendation extends React.Component {
 
               <div className="infinite-container text-center" id="position_4">
                 <div className="row infinite-item item">
+                  <div className="item-header" id="model-modification"><p>Model modification</p></div>
                   <div className="col-lg-3 item-image-col"></div>
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <div className="item-header" id="model-modification"><p>Model modification</p></div>
                         <p style={{paddingTop: '2px'}}>
                           <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
                         </p>
