@@ -48,15 +48,32 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <ol>
-                          <li> Numeric Data </li>
-                            <ol>
-                              <li>Drug information Data</li>
-                              <li>Drug-Drug-information occurence data </li>
+
+
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li> Data Types </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li > Numeric Data </li>
+                                <ol style={{paddingLeft: '18px'}}>
+                                  <li style={{listStyle: 'circle'}}> Drug Information Data </li>
+                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data</li>
+                                </ol>
+                            </ol>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li > Image Data </li>
+                                <ol style={{paddingLeft: '18px'}}>
+                                  <li style={{listStyle: 'circle'}}> Molecular formula data </li>
+                                </ol>
+                            </ol>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li > Text Data </li>
+                                <ol style={{paddingLeft: '18px'}}>
+                                  <li style={{listStyle: 'circle'}}> SMILES </li>
+                                </ol>
                             </ol>
                         </ol>
-                        <p><span className="badge badge-primary">Data Types</span></p>
-                        <p><span className="badge badge-primary">Data Source</span></p>
+
+
                       </div>
                     </div>
                   </div>
@@ -165,13 +182,25 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <p style={{paddingTop: '2px'}}>
-                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
-                        </p>
-                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
-                        <p><span className="badge badge-primary">Data Processing</span></p>
-                        <p><span className="badge badge-primary">Class Imbalance</span></p>
-                        <p><span className="badge badge-primary">Dimension Reduction</span></p>
+
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li> Data Processing</li>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li > Molecule autoencoder </li>
+                              <li > Mol2Vec </li>
+                            </ol>
+                          <li> Class Imbalance </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                            <li > SMOTE </li>
+                            <li > WEMOTE </li>
+                            </ol>
+                          <li> Dimension Reduction </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                            <li > PCA </li>
+                            <li > ICA</li>
+                            </ol>
+                        </ol>
+
                       </div>
                     </div>
                   </div>
