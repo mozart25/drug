@@ -1,6 +1,7 @@
 
 .recommend-container {
   background-color: white;
+  height: 300vh;
 }
 
 
@@ -233,7 +234,7 @@ ion-icon svg {
       width: 90%;
       }
   p {
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 0px;
   }
 
@@ -241,4 +242,17 @@ ion-icon svg {
     text-align: center;
     margin-left: 0px;
   }
+}
+
+#data-preprocessing  {
+  background-color: #FF5A5F;
+}
+
+#modeling {
+  background-color: #3D9970;
+}
+
+
+#model-modification {
+  background-color: #FF851B;
 }
