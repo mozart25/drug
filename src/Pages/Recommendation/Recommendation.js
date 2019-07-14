@@ -88,12 +88,25 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <p style={{paddingTop: '2px'}}>
-                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
-                        </p>
-                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
-                        <p><span className="badge badge-primary">Data Types</span></p>
-                        <p><span className="badge badge-primary">Data Source</span></p>
+
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li id="top-list"> Data Processing</li>
+                            <ol style={{paddingLeft: '18px'}} >
+                              <li style={{listStyle: 'circle'}}> Molecule autoencoder </li>
+                              <li style={{listStyle: 'circle'}}> Mol2Vec </li>
+                            </ol>
+                          <li id="top-list"> Class Imbalance </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                            <li style={{listStyle: 'circle'}}> SMOTE </li>
+                            <li style={{listStyle: 'circle'}}> WEMOTE </li>
+                            </ol>
+                          <li id="top-list"> Dimension Reduction </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                            <li style={{listStyle: 'circle'}}> PCA </li>
+                            <li style={{listStyle: 'circle'}}> ICA</li>
+                            </ol>
+                        </ol>
+
                       </div>
                     </div>
                   </div>
@@ -106,12 +119,14 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <p style={{paddingTop: '2px'}}>
-                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
-                        </p>
-                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
-                        <p><span className="badge badge-primary">Data Types</span></p>
-                        <p><span className="badge badge-primary">Data Source</span></p>
+
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li id="top-list"> Support Vector Machine</li>
+                          <li id="top-list"> Decision Trees</li>
+                          <li id="top-list"> Multilayer Perceptron</li>
+                          <li id="top-list"> Recurrent Neural Networks</li>
+                        </ol>
+
                       </div>
                     </div>
                   </div>
@@ -124,12 +139,22 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-                        <p style={{paddingTop: '2px'}}>
-                          <span className="author-name-text">19 May 2019</span> • <a href="https://github.com/facebookresearch/adaptive-span" style={{fontSize: '13px'}}>facebookresearch/adaptive-span</a>
-                        </p>
-                        <p className="item-strip-abstract">We propose a novel self-attention mechanism that can learn its optimal attention span.</p>
-                        <p><span className="badge badge-primary">Data Types</span></p>
-                        <p><span className="badge badge-primary">Data Source</span></p>
+
+                        <ol style={{paddingTop: '2px'}} className="preparation-list">
+                          <li id="top-list"> Ensemble </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li style={{listStyle: 'circle'}}> Horizontal epochs ensemble </li>
+                              <li style={{listStyle: 'circle'}}> Model averaging ensemble </li>
+                            </ol>
+                          <li id="top-list"> Optimization </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                            <li style={{listStyle: 'circle'}}> Learning rate </li>
+                            <li style={{listStyle: 'circle'}}> Batch size </li>
+                            <li style={{listStyle: 'circle'}}> Momentum </li>
+                            </ol>
+                          <li id="top-list"> Dropouts</li>
+                        </ol>
+
                       </div>
                     </div>
                   </div>
@@ -189,17 +214,107 @@ class Recommendation extends React.Component {
                           <li id="top-list"> Data Processing</li>
                             <ol style={{paddingLeft: '18px'}} >
                               <li style={{listStyle: 'circle'}}> Molecule autoencoder </li>
-                              <li style={{listStyle: 'circle'}}> Mol2Vec </li>
+                              <li style={{listStyle: 'circle'}}> Mol2Vec
+
+                                  <div className="contents-wrapper">
+                                    <div className="border b-active b-thick b-radius p-sm">
+                                      <table>
+                                        <tbody>
+                                          <tr className="contents-table">
+                                            <p id="contents-head">Summary</p>
+                                            <p>{`Similarly, to the Word2vec models where vectors of closely
+                                                related words are in close proximity in the vector space, Mol2vec
+                                                learns vector representations of molecular substructures that are
+                                                pointing in similar directions for chemically related substructures.`}</p>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+
+                              </li>
                             </ol>
                           <li id="top-list"> Class Imbalance </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> SMOTE </li>
-                            <li style={{listStyle: 'circle'}}> WEMOTE </li>
+                            <li style={{listStyle: 'circle'}}> SMOTE
+
+                              <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
+                                  <table>
+                                    <tbody>
+                                      <tr className="contents-table">
+                                        <p id="contents-head">Summary</p>
+                                        <p>{`Similarly, to the Word2vec models where vectors of closely
+                                            related words are in close proximity in the vector space, Mol2vec
+                                            learns vector representations of molecular substructures that are
+                                            pointing in similar directions for chemically related substructures.`}</p>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                            </li>
+                            <li style={{listStyle: 'circle'}}> WEMOTE
+
+                              <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
+                                  <table>
+                                    <tbody>
+                                      <tr className="contents-table">
+                                        <p id="contents-head">Summary</p>
+                                        <p>{`Similarly, to the Word2vec models where vectors of closely
+                                            related words are in close proximity in the vector space, Mol2vec
+                                            learns vector representations of molecular substructures that are
+                                            pointing in similar directions for chemically related substructures.`}</p>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                            </li>
                             </ol>
                           <li id="top-list"> Dimension Reduction </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> PCA </li>
-                            <li style={{listStyle: 'circle'}}> ICA</li>
+                            <li style={{listStyle: 'circle'}}> PCA
+
+                              <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
+                                  <table>
+                                    <tbody>
+                                      <tr className="contents-table">
+                                        <p id="contents-head">Summary</p>
+                                        <p>{`Similarly, to the Word2vec models where vectors of closely
+                                            related words are in close proximity in the vector space, Mol2vec
+                                            learns vector representations of molecular substructures that are
+                                            pointing in similar directions for chemically related substructures.`}</p>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                            </li>
+                            <li style={{listStyle: 'circle'}}> ICA
+
+                              <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
+                                  <table>
+                                    <tbody>
+                                      <tr className="contents-table">
+                                        <p id="contents-head">Summary</p>
+                                        <p>{`Similarly, to the Word2vec models where vectors of closely
+                                            related words are in close proximity in the vector space, Mol2vec
+                                            learns vector representations of molecular substructures that are
+                                            pointing in similar directions for chemically related substructures.`}</p>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                            </li>
                             </ol>
                         </ol>
 
