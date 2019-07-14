@@ -40,25 +40,6 @@
     font-family: Raleway;
 }
 
-
-.item-interact .badge-light, .item-interact .badge-light:focus {
-    background-color: #1ab37c;
-    border: 1px solid;
-    border-color: #e0e0e0;
-    padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    color: #fff;
-    font-weight: none;
-    font-family: "Raleway";
-    font-size: 14px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    width: 130px;
-    letter-spacing: 0.5px;
-}
-
 ion-icon svg {
     fill: currentColor;
     stroke: currentColor;
@@ -297,18 +278,18 @@ ion-icon svg {
   }
 
   .border {
-      border-style: solid;
-      border-width: 1px;
-      border-color: #d6d7d9;
+      border: 1px solid;
+      border-color: #e0e0e0 !important;
       padding: 10px;
+      background-color: #f9f9f9
   }
 
   .b-thick {
-      border-width: 2px !important;
+      border-width: 1px !important;
   }
 
   .b-radius {
-      border-radius: 2px !important;
+      border-radius: 5px !important;
   }
 
   tr {
@@ -316,6 +297,11 @@ ion-icon svg {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
+  }
+
+  table {
+    width: 675px;
+    display: inline-block;
   }
 }
 
@@ -327,4 +313,71 @@ ion-icon svg {
   #contents-head {
     text-decoration: underline;
   }
+}
+
+
+.entity {
+  display: inline-block;
+  margin-left: 40px;
+
+  .badge-light {
+      border: 1px solid;
+      border-color: #e0e0e0;
+      padding: 10px;
+      padding-top: 0px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      font-weight: none;
+      font-family: "Raleway";
+      font-size: 14px;
+      margin-bottom: 10px;
+      margin-left: 0px;
+      width: 130px;
+      letter-spacing: 0.5px;
+  }
+
+  .badge-light {
+    background-color: #1ab37c !important;
+    color: #fff !important;
+  }
+
+  .badge-dark {
+      background-color: #1f6bcd !important;
+      border: 1px solid;
+      border-color: #e0e0e0;
+      padding: 10px;
+      padding-top: 0px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: none;
+      font-family: "Raleway";
+      font-size: 14px;
+      width: 130px;
+      letter-spacing: 0.5px;
+      margin-left: 0px;
+    }
+
+  .badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 90%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+  }
+}
+
+.icon-inner {
+  svg {
+    height: 25px;
+  }
+}
+
+
+.icon .hydrated {
+  display: inline-block;
 }
