@@ -744,42 +744,42 @@ class Acetaminophen extends React.Component {
                           <td>Completed</td>
                           <td>Treatment</td>
                           <td><a href="javascript:void(0)">Impacted Third Molar Tooth</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0053771&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
                           <td><a href="javascript:void(0)">Lumbar Spinal Instability</a> <span>/</span> <a href="/indications/DBCOND0047859">Lumbar Spine Degeneration</a> <span>/</span> <a href="/indications/DBCOND0054418">Spinal Stenosis of Lumbar Region</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0087575%2CDBCOND0047859%2CDBCOND0054418&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Not Yet Recruiting</td>
                           <td>Treatment</td>
                           <td><a href="javascript:void(0)">Obesity, Morbid</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0004080&phase=0&purpose=treatment&status=not_yet_recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Diagnostic</td>
                           <td><a href="javascript:void(0)">Stage IIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088919">Stage IIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0088896">Stage III Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048768">Stage IIIA Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088899">Stage IIIA Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048769">Stage IIIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088902">Stage IIIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048770">Stage IIIC Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088905">Stage IIIC Esophageal Cancer AJCC v7</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0048777%2CDBCOND0088919%2CDBCOND0088896%2CDBCOND0048768%2CDBCOND0088899%2CDBCOND0048769%2CDBCOND0088902%2CDBCOND0048770%2CDBCOND0088905&phase=0&purpose=diagnostic&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Prevention</td>
-                          <td><a href="javascript:void(0)">Acetaminophen</a> <span>/</span> <a href="/indications/DBCOND0089104">Delirium in Old Age</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0082718%2CDBCOND0089104&phase=0&purpose=prevention&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Acetaminophen</a> <span>/</span> <a href="javascript:void(0)">Delirium in Old Age</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0020862">Analgesia</a> <span>/</span> <a href="/indications/DBCOND0022333">Postoperative pain</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0020862%2CDBCOND0022333&phase=0&purpose=treatment&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Analgesia</a> <span>/</span> <a href="javascript:void(0)">Postoperative pain</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                       </tbody>
                     </table>
