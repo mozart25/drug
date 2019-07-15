@@ -119,7 +119,7 @@ class Acetaminophen extends React.Component {
                           <td>Lil' Drug Store Products, Inc.</td>
                           <td>2014-08-20</td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -131,7 +131,7 @@ class Acetaminophen extends React.Component {
                           <td>Lil' Drug Store Products, Inc.</td>
                           <td>2013-11-12</td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -143,7 +143,7 @@ class Acetaminophen extends React.Component {
                           <td>Pharmel Inc</td>
                           <td><span className="not-available">Not Applicable</span></td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -155,7 +155,7 @@ class Acetaminophen extends React.Component {
                           <td>Pharmel Inc</td>
                           <td><span className="not-available">Not Applicable</span></td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -167,7 +167,7 @@ class Acetaminophen extends React.Component {
                           <td>Pharmel Inc</td>
                           <td><span className="not-available">Not Applicable</span></td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -179,7 +179,7 @@ class Acetaminophen extends React.Component {
                           <td>Pharmel Inc</td>
                           <td><span className="not-available">Not Applicable</span></td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -191,7 +191,7 @@ class Acetaminophen extends React.Component {
                           <td>Perrigo International</td>
                           <td><span className="not-available">Not Applicable</span></td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -203,7 +203,7 @@ class Acetaminophen extends React.Component {
                           <td>Euro Pharm International Canada Inc</td>
                           <td>2009-03-25</td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -215,7 +215,7 @@ class Acetaminophen extends React.Component {
                           <td>Euro Pharm International Canada Inc</td>
                           <td>2009-03-25</td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -227,7 +227,7 @@ class Acetaminophen extends React.Component {
                           <td>Euro Pharm International Canada Inc</td>
                           <td>2011-11-24</td>
                           <td><span className="not-available">Not Applicable</span></td>
-                          <td><span className="country"><span hidden="hidden">Canada</span><img src="/assets/countries/canada-64ffe8c476c257597eca3ded684da90a2b1a500bd6389ebd2ca5e213b1cc7574.svg" alt="Canada" /></span>
+                          <td><span className="country"><span>Canada</span></span>
                           </td>
                           <td style={{display: 'none'}} />
                         </tr>
@@ -243,15 +243,15 @@ class Acetaminophen extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="otc-products_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous" id="otc-products_previous"><a href="#" aria-controls="otc-products" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="otc-products" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="otc-products" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="otc-products" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="otc-products" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="otc-products" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="otc-products_ellipsis"><a href="#" aria-controls="otc-products" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="otc-products" data-dt-idx={7} tabIndex={0} className="page-link">218</a></li>
-                        <li className="paginate_button page-item next" id="otc-products_next"><a href="#" aria-controls="otc-products" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous" id="otc-products_previous"><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                        <li className="paginate_button page-item disabled" id="otc-products_ellipsis"><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={7} tabIndex={0} className="page-link">218</a></li>
+                        <li className="paginate_button page-item next" id="otc-products_next"><a href="javascript:void(0)" aria-controls="otc-products" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -566,15 +566,15 @@ class Acetaminophen extends React.Component {
                     <div className="col-sm-12 col-md-7">
                       <div className="dataTables_paginate paging_simple_numbers" id="drug-interactions_paginate">
                         <ul className="pagination">
-                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="#" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                          <li className="paginate_button page-item active"><a href="#" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="#" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">184</a></li>
-                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="#" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                          <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">184</a></li>
+                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                         </ul>
                       </div>
                     </div>
@@ -612,46 +612,46 @@ class Acetaminophen extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
             <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/N02BE71">N02BE71 — Paracetamol, combinations with psycholeptics</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N02BE">N02BE — Anilides</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02B">N02B — OTHER ANALGESICS AND ANTIPYRETICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02">N02 — ANALGESICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/N02BE01">N02BE01 — Paracetamol</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02BE — Anilides</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02B — OTHER ANALGESICS AND ANTIPYRETICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02 — ANALGESICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">N02BE01 — Paracetamol</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N02BE">N02BE — Anilides</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02B">N02B — OTHER ANALGESICS AND ANTIPYRETICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02">N02 — ANALGESICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/N02AJ13">N02AJ13 — Tramadol and paracetamol</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02BE — Anilides</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02B — OTHER ANALGESICS AND ANTIPYRETICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02 — ANALGESICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">N02AJ13 — Tramadol and paracetamol</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N02AJ">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02A">N02A — OPIOIDS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02">N02 — ANALGESICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/N02AJ17">N02AJ17 — Oxycodone and paracetamol</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02A — OPIOIDS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02 — ANALGESICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">N02AJ17 — Oxycodone and paracetamol</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N02AJ">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02A">N02A — OPIOIDS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02">N02 — ANALGESICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/N02BE51">N02BE51 — Paracetamol, combinations excl. psycholeptics</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02A — OPIOIDS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02 — ANALGESICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">N02BE51 — Paracetamol, combinations excl. psycholeptics</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N02BE">N02BE — Anilides</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02B">N02B — OTHER ANALGESICS AND ANTIPYRETICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02">N02 — ANALGESICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/N02AJ06">N02AJ06 — Codeine and paracetamol</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02BE — Anilides</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02B — OTHER ANALGESICS AND ANTIPYRETICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02 — ANALGESICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">N02AJ06 — Codeine and paracetamol</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N02AJ">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02A">N02A — OPIOIDS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02">N02 — ANALGESICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/N02AJ01">N02AJ01 — Dihydrocodeine and paracetamol</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02A — OPIOIDS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02 — ANALGESICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">N02AJ01 — Dihydrocodeine and paracetamol</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N02AJ">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02A">N02A — OPIOIDS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N02">N02 — ANALGESICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02AJ — Opioids in combination with non-opioid analgesics</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02A — OPIOIDS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N02 — ANALGESICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">AHFS Codes</dt>
             <dd className="col-md-10 col-sm-8">
@@ -715,71 +715,71 @@ class Acetaminophen extends React.Component {
                           <td tabIndex={0}>0</td>
                           <td>Active Not Recruiting</td>
                           <td>Other</td>
-                          <td><a href="/indications/DBCOND0046659">Healthy Adult Volunteers</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0046659&phase=0&purpose=other&status=active_not_recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Healthy Adult Volunteers</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0038162">Emergence Agitation</a> <span>/</span> <a href="/indications/DBCOND0093532">Pain NOS</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0038162%2CDBCOND0093532&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Emergence Agitation</a> <span>/</span> <a href="/indications/DBCOND0093532">Pain NOS</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0083709">Fracture, Ankle</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0083709&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Fracture, Ankle</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0010013">Glaucoma</a></td>
+                          <td><a href="javascript:void(0)">Glaucoma</a></td>
                           <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0010013&phase=0&purpose=treatment&status=completed">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0053771">Impacted Third Molar Tooth</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0053771&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Impacted Third Molar Tooth</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0087575">Lumbar Spinal Instability</a> <span>/</span> <a href="/indications/DBCOND0047859">Lumbar Spine Degeneration</a> <span>/</span> <a href="/indications/DBCOND0054418">Spinal Stenosis of Lumbar Region</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0087575%2CDBCOND0047859%2CDBCOND0054418&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Lumbar Spinal Instability</a> <span>/</span> <a href="/indications/DBCOND0047859">Lumbar Spine Degeneration</a> <span>/</span> <a href="/indications/DBCOND0054418">Spinal Stenosis of Lumbar Region</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Not Yet Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0004080">Obesity, Morbid</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0004080&phase=0&purpose=treatment&status=not_yet_recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Obesity, Morbid</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Diagnostic</td>
-                          <td><a href="/indications/DBCOND0048777">Stage IIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088919">Stage IIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0088896">Stage III Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048768">Stage IIIA Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088899">Stage IIIA Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048769">Stage IIIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088902">Stage IIIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048770">Stage IIIC Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088905">Stage IIIC Esophageal Cancer AJCC v7</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0048777%2CDBCOND0088919%2CDBCOND0088896%2CDBCOND0048768%2CDBCOND0088899%2CDBCOND0048769%2CDBCOND0088902%2CDBCOND0048770%2CDBCOND0088905&phase=0&purpose=diagnostic&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Stage IIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088919">Stage IIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0088896">Stage III Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048768">Stage IIIA Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088899">Stage IIIA Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048769">Stage IIIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088902">Stage IIIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048770">Stage IIIC Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088905">Stage IIIC Esophageal Cancer AJCC v7</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Prevention</td>
-                          <td><a href="/indications/DBCOND0082718">Acetaminophen</a> <span>/</span> <a href="/indications/DBCOND0089104">Delirium in Old Age</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0082718%2CDBCOND0089104&phase=0&purpose=prevention&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Acetaminophen</a> <span>/</span> <a href="javascript:void(0)">Delirium in Old Age</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0020862">Analgesia</a> <span>/</span> <a href="/indications/DBCOND0022333">Postoperative pain</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0020862%2CDBCOND0022333&phase=0&purpose=treatment&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Analgesia</a> <span>/</span> <a href="javascript:void(0)">Postoperative pain</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -792,15 +792,15 @@ class Acetaminophen extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="DataTables_Table_0_ellipsis"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={7} tabIndex={0} className="page-link">70</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                        <li className="paginate_button page-item disabled" id="DataTables_Table_0_ellipsis"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={7} tabIndex={0} className="page-link">70</a></li>
+                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -905,15 +905,15 @@ class Acetaminophen extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="dosages_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="#" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="dosages_ellipsis"><a href="#" aria-controls="dosages" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={7} tabIndex={0} className="page-link">15</a></li>
-                        <li className="paginate_button page-item next" id="dosages_next"><a href="#" aria-controls="dosages" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                        <li className="paginate_button page-item disabled" id="dosages_ellipsis"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={7} tabIndex={0} className="page-link">15</a></li>
+                        <li className="paginate_button page-item next" id="dosages_next"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
