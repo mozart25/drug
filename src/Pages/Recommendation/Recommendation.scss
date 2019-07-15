@@ -1,7 +1,7 @@
 
 .recommend-container {
   background-color: white;
-  height: 600vh;
+  height: 650vh;
 }
 
 
@@ -207,12 +207,17 @@ ion-icon svg {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 25.1%;
+  width: 100%;
   display: -webkit-inline-box;
+
+  .infinite-container {
+    width: 25%;
+  }
 
   .item {
       padding: 0.5em;
-      width: 90%;
+      width: 95%;
+      height: 400px;
       }
   p {
     font-size: 15px;
@@ -263,9 +268,16 @@ ion-icon svg {
   margin-top: 15px;
 }
 
+#top-list-process {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+
+}
+
 @media screen and (min-width: 992px) {
   .container {
-      max-width: 1089px;
+      max-width: 1260px;
   }
 }
 
