@@ -2,9 +2,27 @@ import React from 'react';
 import './Recommendation.scss';
 import Navigation from '../../Components/Navigation/Navigation' ;
 import { FaStar } from 'react-icons/fa';
+import Button from '../../Components/Button/Button';
 
 
 class Recommendation extends React.Component {
+
+  constructor() {
+    super();
+    this.state = {
+      clicked: false
+    };
+  }
+
+  handleClick = (e) => {
+    this.setState(
+      {
+        clicked: !this.state.clicked
+      } ,() => console.log("clicked!!!!", this.state.clicked)
+    )
+    console.log("끼루끼룩!!!!")
+  }
+
   render() {
     return (
       <div className="recommend-container">
@@ -39,7 +57,7 @@ class Recommendation extends React.Component {
               <div className="title">
                 <div className="row">
                   <div className="col-lg-6">
-                    <h1 className="home-page-title">AI algorithm recommendation service</h1>
+                    <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
                   </div>
                 </div>
               </div>
@@ -53,22 +71,22 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list-process"> Data Types </li>
                             <ol style={{paddingLeft: '10px'}}>
-                              <li id="top-list-process"> Numeric Data </li>
+                              <li id="top-list-process"> Structured Data </li>
                                 <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '13px'}}> Drug Information Data  </li>
-                                  <li style={{listStyle: 'circle', fontSize: '13px'}}> Real drug-drug-information occurrence data</li>
+                                  <li style={{listStyle: 'circle', fontSize: '15px'}}> Drug Information Data  </li>
+                                  <li style={{listStyle: 'circle', fontSize: '14px'}}> Real drug-drug-information occurrence data</li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '10px'}}>
                               <li id="top-list-process"> Image Data </li>
                                 <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '13px'}}> Molecular formula data </li>
+                                  <li style={{listStyle: 'circle', fontSize: '15px'}}> Molecular formula data </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '10px'}}>
                               <li id="top-list-process"> Text Data </li>
                                 <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '13px'}}> SMILES </li>
+                                  <li style={{listStyle: 'circle', fontSize: '15px'}}> SMILES </li>
                                 </ol>
                             </ol>
                         </ol>
@@ -87,18 +105,18 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list-process"> Data Processing</li>
                             <ol style={{paddingLeft: '18px'}} >
-                              <li style={{listStyle: 'circle', fontSize: '13px'}}> Molecule autoencoder </li>
-                              <li style={{listStyle: 'circle', fontSize: '13px'}}> Mol2Vec </li>
+                              <li style={{listStyle: 'circle', fontSize: '15px'}}> Molecule autoencoder </li>
+                              <li style={{listStyle: 'circle', fontSize: '15px'}}> Mol2Vec </li>
                             </ol>
                           <li id="top-list-process"> Class Imbalance </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle', fontSize: '13px'}}> SMOTE </li>
-                            <li style={{listStyle: 'circle', fontSize: '13px'}}> WEMOTE </li>
+                            <li style={{listStyle: 'circle', fontSize: '15px'}}> SMOTE </li>
+                            <li style={{listStyle: 'circle', fontSize: '15px'}}> WEMOTE </li>
                             </ol>
                           <li id="top-list-process"> Dimension Reduction </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle', fontSize: '13px'}}> PCA </li>
-                            <li style={{listStyle: 'circle', fontSize: '13px'}}> ICA</li>
+                            <li style={{listStyle: 'circle', fontSize: '15px'}}> PCA </li>
+                            <li style={{listStyle: 'circle', fontSize: '15px'}}> ICA</li>
                             </ol>
                         </ol>
                       </div>
@@ -136,14 +154,14 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list"> Ensemble </li>
                             <ol style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'circle', fontSize: '13px'}}> Horizontal epochs ensemble </li>
-                              <li style={{listStyle: 'circle', fontSize: '13px'}}> Model averaging ensemble </li>
+                              <li style={{listStyle: 'circle', fontSize: '14px'}}> Horizontal epochs ensemble </li>
+                              <li style={{listStyle: 'circle', fontSize: '15px'}}> Model averaging ensemble </li>
                             </ol>
                           <li id="top-list"> Optimization </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle', fontSize: '13px'}}> Learning rate </li>
-                            <li style={{listStyle: 'circle', fontSize: '13px'}}> Batch size </li>
-                            <li style={{listStyle: 'circle', fontSize: '13px'}}> Momentum </li>
+                            <li style={{listStyle: 'circle', fontSize: '15px'}}> Learning rate </li>
+                            <li style={{listStyle: 'circle', fontSize: '15px'}}> Batch size </li>
+                            <li style={{listStyle: 'circle', fontSize: '15px'}}> Momentum </li>
                             </ol>
                           <li id="top-list"> Dropouts</li>
                         </ol>
@@ -165,9 +183,9 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list"> Data Types </li>
                             <ol style={{paddingLeft: '18px'}}>
-                              <li > Numeric Data </li>
+                              <li > Structured Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/></li>
+                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/> <button onClick={this.handleClick}> <Button onClick={this.handleClick}/> </button></li>
                                   <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data</li>
                                 </ol>
                             </ol>
