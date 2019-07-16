@@ -10,19 +10,20 @@ class Recommendation extends React.Component {
   constructor() {
     super();
     this.state = {
-      clicked: false,
-      view : '',
+      arr: {
+            'view1': {clicked: false },
+            'view2': {clicked: false },
+            'view3': {clicked: false },
+            'view4': {clicked: false },
+        }
     };
   }
 
   handleClick = view => (e) => {
-    this.setState(
-      {
-        clicked: !this.state.clicked,
-        view
-      } ,()=> console.log("after: ", this.state.clicked, this.state.view)
-    )
-    console.log("before: ", this.state.clicked, this.state.view)
+    let tmp = this.state.arr;
+    tmp[view].clicked = !tmp[view].clicked;
+    this.setState({ arr: tmp }, ()=> console.log("after", this.state.arr[view].clicked));
+    console.log("before", this.state.arr[view].clicked)
   }
 
   render() {
@@ -75,8 +76,8 @@ class Recommendation extends React.Component {
                             <ol style={{paddingLeft: '10px'}}>
                               <li id="top-list-process"> Structured Data </li>
                                 <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '15px', display: this.state.view === 'view1' && this.state.clicked === false ? 'none':''}}> Drug Information Data  </li>
-                                  <li style={{listStyle: 'circle', fontSize: '14px'}}> Real drug-drug-information occurrence data</li>
+                                  <li style={{listStyle: 'circle', fontSize: '15px', display: this.state.arr['view1'].clicked === false ? 'none':''}}> Drug Information Data  </li>
+                                  <li style={{listStyle: 'circle', fontSize: '14px', display:  this.state.arr.clicked === false ? 'none':''}}> Real drug-drug-information occurrence data</li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '10px'}}>
@@ -188,7 +189,7 @@ class Recommendation extends React.Component {
                               <li > Structured Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
                                   <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/> <Button action={this.handleClick('view1')}/></li>
-                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data <button onClick={this.handleClick('view2')}> <Button /> </button></li>
+                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data <Button action={this.handleClick('view2')}/></li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
