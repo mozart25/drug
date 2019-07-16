@@ -10,17 +10,19 @@ class Recommendation extends React.Component {
   constructor() {
     super();
     this.state = {
-      clicked: false
+      clicked: false,
+      view : '',
     };
   }
 
-  handleClick = (e) => {
+  handleClick = view => (e) => {
     this.setState(
       {
-        clicked: !this.state.clicked
-      } ,() => console.log("clicked!!!!", this.state.clicked)
+        clicked: !this.state.clicked,
+        view
+      } ,()=> console.log("after: ", this.state.clicked, this.state.view)
     )
-    console.log("끼루끼룩!!!!")
+    console.log("before: ", this.state.clicked, this.state.view)
   }
 
   render() {
@@ -73,7 +75,7 @@ class Recommendation extends React.Component {
                             <ol style={{paddingLeft: '10px'}}>
                               <li id="top-list-process"> Structured Data </li>
                                 <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '15px'}}> Drug Information Data  </li>
+                                  <li style={{listStyle: 'circle', fontSize: '15px', display: this.state.view === 'view1' && this.state.clicked === false ? 'none':''}}> Drug Information Data  </li>
                                   <li style={{listStyle: 'circle', fontSize: '14px'}}> Real drug-drug-information occurrence data</li>
                                 </ol>
                             </ol>
@@ -185,20 +187,20 @@ class Recommendation extends React.Component {
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Structured Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/> <button onClick={this.handleClick}> <Button onClick={this.handleClick}/> </button></li>
-                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data</li>
+                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/> <Button action={this.handleClick('view1')}/></li>
+                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data <button onClick={this.handleClick('view2')}> <Button /> </button></li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Image Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
+                                  <li style={{listStyle: 'circle'}}> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /><button onClick={this.handleClick('view3')}> <Button /> </button> </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Text Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /></li>
+                                  <li style={{listStyle: 'circle'}}> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /><button onClick={this.handleClick('view4')}> <Button /> </button></li>
                                 </ol>
                             </ol>
                           <li id="top-list"> Data Source </li>
@@ -224,7 +226,7 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list"> Data Processing</li>
                             <ol style={{paddingLeft: '18px'}} >
-                              <li style={{listStyle: 'circle'}}> Molecule autoencoder
+                              <li style={{listStyle: 'circle'}}> Molecule autoencoder <button onClick={this.handleClick('view5')}> <Button /> </button>
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
@@ -268,7 +270,7 @@ class Recommendation extends React.Component {
 
 
                               </li>
-                              <li style={{listStyle: 'circle'}}> Mol2Vec
+                              <li style={{listStyle: 'circle'}}> Mol2Vec <button onClick={this.handleClick('view6')}> <Button /> </button>
 
                                   <div className="contents-wrapper">
                                     <div className="border b-active b-thick b-radius p-sm">
@@ -314,7 +316,7 @@ class Recommendation extends React.Component {
                             </ol>
                           <li id="top-list"> Class Imbalance </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> SMOTE
+                            <li style={{listStyle: 'circle'}}> SMOTE <button onClick={this.handleClick('view7')}> <Button /> </button>
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -360,7 +362,7 @@ class Recommendation extends React.Component {
                             </ol>
 
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> WEMOTE
+                            <li style={{listStyle: 'circle'}}> WEMOTE <button onClick={this.handleClick('view8')}> <Button /> </button>
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -400,7 +402,7 @@ class Recommendation extends React.Component {
 
                           <li id="top-list"> Dimension Reduction </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> PCA
+                            <li style={{listStyle: 'circle'}}> PCA <button onClick={this.handleClick('view9')}> <Button /> </button>
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -464,7 +466,7 @@ class Recommendation extends React.Component {
                       <div className="col-lg-9 item-content">
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list"> Support Vector Machine
+                          <li id="top-list"> Support Vector Machine <button onClick={this.handleClick('view10')}> <Button /> </button>
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -511,7 +513,7 @@ class Recommendation extends React.Component {
                           </li>
 
 
-                          <li id="top-list"> Decision Trees
+                          <li id="top-list"> Decision Trees <button onClick={this.handleClick('view11')}> <Button /> </button>
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -556,7 +558,7 @@ class Recommendation extends React.Component {
                           </li>
 
 
-                          <li id="top-list"> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list"> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view12')}> <Button /> </button>
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -600,7 +602,7 @@ class Recommendation extends React.Component {
 
 
                           </li>
-                          <li id="top-list"> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list"> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view13')}> <Button /> </button>
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -663,7 +665,7 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list"> Ensemble </li>
                             <ol style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'circle'}}> Horizontal epochs ensemble <FaStar color={'#ffd700'} />
+                              <li style={{listStyle: 'circle'}}> Horizontal epochs ensemble <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view14')}> <Button /> </button>
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
@@ -695,7 +697,7 @@ class Recommendation extends React.Component {
                                 </div>
 
                               </li>
-                              <li style={{listStyle: 'circle'}}> Model averaging ensemble
+                              <li style={{listStyle: 'circle'}}> Model averaging ensemble <button onClick={this.handleClick('view15')}> <Button /> </button>
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
@@ -732,7 +734,7 @@ class Recommendation extends React.Component {
                             </ol>
                           <li id="top-list"> Optimization </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                            <li style={{listStyle: 'circle'}}> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view16')}> <Button /> </button>
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -765,7 +767,7 @@ class Recommendation extends React.Component {
                               </div>
 
                             </li>
-                            <li style={{listStyle: 'circle'}}> Batch size <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                            <li style={{listStyle: 'circle'}}> Batch size <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view17')}> <Button /> </button>
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -798,7 +800,7 @@ class Recommendation extends React.Component {
                               </div>
 
                             </li>
-                            <li style={{listStyle: 'circle'}}> Momentum <FaStar color={'#ffd700'} />
+                            <li style={{listStyle: 'circle'}}> Momentum <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view18')}> <Button /> </button>
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -833,7 +835,7 @@ class Recommendation extends React.Component {
 
                             </li>
                             </ol>
-                          <li id="top-list"> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list"> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view19')}> <Button /> </button>
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">

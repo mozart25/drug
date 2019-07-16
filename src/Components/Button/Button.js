@@ -6,7 +6,7 @@ class Button extends React.Component {
     return (
       <div className="button-wrapper">
         <label className="button-container"> 선택
-          <input type="checkbox"/>
+          <input type="checkbox" onClick={this.props.action}/>
           <span className="checkmark"></span>
         </label>
       </div>
