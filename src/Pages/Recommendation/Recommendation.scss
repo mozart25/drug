@@ -202,7 +202,6 @@ ion-icon svg {
   }
 }
 
-
 .process-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -255,6 +254,31 @@ ion-icon svg {
 
   svg {
     height: 21px;
+  }
+}
+
+.preparation-list2 {
+  padding-left: 10px;
+
+  li {
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  svg {
+    height: 21px;
+  }
+  .round #rec {
+    background-color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 9px;
+    border-radius: 0%;
   }
 }
 
@@ -399,4 +423,55 @@ button {
   border-width: none;
   position: relative;
   z-index:5;
+}
+
+
+// for change button
+
+.round {
+  position: relative;
+  display: inline-block;
+}
+
+.round label {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 7px;
+  width: 9px;
+
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + label {
+  background-color: #21cbce;
+  border-color: #66bb6a;
+}
+
+.round input[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+.round input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round input[type="checkbox"]:checked + #rec {
+  background-color: #21cbce;
+  border-color: #66bb6a;
+}
+
+.round input[type="checkbox"]:checked + #rec:after {
+  opacity: 1;
+}
+
+#delete-circle {
+  list-style: none !important;
 }
