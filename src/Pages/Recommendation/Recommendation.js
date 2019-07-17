@@ -4,6 +4,12 @@ import { FaStar } from 'react-icons/fa';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
 import Choice1 from '../../Components/Process1/Choice1';
+import Process2 from '../../Components/Process2/Process2';
+import Choice2 from '../../Components/Process2/Choice2';
+import Process3 from '../../Components/Process3/Process3';
+import Choice3 from '../../Components/Process3/Choice3';
+import Process4 from '../../Components/Process4/Process4';
+import Choice4 from '../../Components/Process4/Choice4';
 
 
 class Recommendation extends React.Component {
@@ -13,10 +19,29 @@ class Recommendation extends React.Component {
 
     this.state = {
       clicked: 0,
+      clicked2: 0,
+      clicked3: 0,
+      clicked4: 0,
       view1: false,
       view2: false,
       view3: false,
       view4: false,
+      view5: false,
+      view6: false,
+      view7: false,
+      view8: false,
+      view9: false,
+      view10: false,
+      view11: false,
+      view12: false,
+      view13: false,
+      view14: false,
+      view15: false,
+      view16: false,
+      view17: false,
+      view18: false,
+      view19: false,
+      view20: false,
       e: '',
     };
   }
@@ -65,17 +90,174 @@ class Recommendation extends React.Component {
     console.log("before", this.state.view2, e)
   }
 
-  handleClick = (view, id) => (e) => {
+  handleClick5 = (e) => {
     this.setState(
       {
-        clicked: this.state.clicked + 1,
-        view3: !this.state.view3,
+        clicked2: this.state.clicked2 + 1,
+        view5: !this.state.view5,
         e
       }, () => console.log("after", this.state.view2, e)
     )
     console.log("before", this.state.view2, e)
   }
 
+  handleClick6 = (e) => {
+    this.setState(
+      {
+        clicked2: this.state.clicked2 + 1,
+        view6: !this.state.view6,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick7 = (e) => {
+    this.setState(
+      {
+        clicked2: this.state.clicked2 + 1,
+        view7: !this.state.view7,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick8 = (e) => {
+    this.setState(
+      {
+        clicked2: this.state.clicked2 + 1,
+        view8: !this.state.view8,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick9 = (e) => {
+    this.setState(
+      {
+        clicked2: this.state.clicked2 + 1,
+        view9: !this.state.view9,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick10 = (e) => {
+    this.setState(
+      {
+        clicked2: this.state.clicked2 + 1,
+        view10: !this.state.view10,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick11 = (e) => {
+    this.setState(
+      {
+        clicked3: this.state.clicked3 + 1,
+        view11: !this.state.view11,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick12 = (e) => {
+    this.setState(
+      {
+        clicked3: this.state.clicked3 + 1,
+        view12: !this.state.view12,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick13 = (e) => {
+    this.setState(
+      {
+        clicked3: this.state.clicked3 + 1,
+        view13: !this.state.view13,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick14 = (e) => {
+    this.setState(
+      {
+        clicked3: this.state.clicked3 + 1,
+        view14: !this.state.view14,
+        e
+      }
+    )
+  }
+
+  handleClick15 = (e) => {
+    this.setState(
+      {
+        clicked4: this.state.clicked4 + 1,
+        view15: !this.state.view15,
+        e
+      }
+    )
+  }
+
+  handleClick16 = (e) => {
+    this.setState(
+      {
+        clicked4: this.state.clicked4 + 1,
+        view16: !this.state.view16,
+        e
+      }
+    )
+  }
+
+  handleClick17 = (e) => {
+    this.setState(
+      {
+        clicked4: this.state.clicked4 + 1,
+        view17: !this.state.view17,
+        e
+      }
+    )
+  }
+
+  handleClick18 = (e) => {
+    this.setState(
+      {
+        clicked4: this.state.clicked4 + 1,
+        view18: !this.state.view18,
+        e
+      }
+    )
+  }
+
+  handleClick19 = (e) => {
+    this.setState(
+      {
+        clicked4: this.state.clicked4 + 1,
+        view19: !this.state.view19,
+        e
+      }
+    )
+  }
+
+  handleClick20 = (e) => {
+    this.setState(
+      {
+        clicked4: this.state.clicked4 + 1,
+        view20: !this.state.view20,
+        e
+      }
+    )
+  }
 
 
 
@@ -136,76 +318,48 @@ class Recommendation extends React.Component {
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                 <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><a href="#position_2"><p>Data Preprocessing</p></a></div>
-                  <div className="col-lg-9 item-col">
-                    <div className="row">
-                      <div className="col-lg-9 item-content">
-                        <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list-process"> Data Processing</li>
-                            <ol style={{paddingLeft: '18px'}} >
-                              <li style={{listStyle: 'circle', fontSize: '15px'}}> Molecule autoencoder </li>
-                              <li style={{listStyle: 'circle', fontSize: '15px'}}> Mol2Vec </li>
-                            </ol>
-                          <li id="top-list-process"> Class Imbalance </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle', fontSize: '15px'}}> SMOTE </li>
-                            <li style={{listStyle: 'circle', fontSize: '15px'}}> WEMOTE </li>
-                            </ol>
-                          <li id="top-list-process"> Dimension Reduction </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle', fontSize: '15px'}}> PCA </li>
-                            <li style={{listStyle: 'circle', fontSize: '15px'}}> ICA</li>
-                            </ol>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
+                  { this.state.clicked2 > 0 ?
+                    <Choice2
+                    s5={this.state.view5}
+                    s6={this.state.view6}
+                    s7={this.state.view7}
+                    s8={this.state.view8}
+                    s9={this.state.view9}
+                    s10={this.state.view10}
+                    />
+                    : <Process2 />
+                  }
                 </div>
               </div>
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                 <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><a href="#position_3"><p>Modeling</p></a></div>
-                  <div className="col-lg-9 item-col">
-                    <div className="row">
-                      <div className="col-lg-9 item-content">
-
-                        <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list-process"> Support Vector Machine</li>
-                          <li id="top-list-process"> Decision Trees</li>
-                          <li id="top-list-process"> Multilayer Perceptron</li>
-                          <li id="top-list-process"> Recurrent Neural Networks</li>
-                        </ol>
-
-                      </div>
-                    </div>
-                  </div>
+                  { this.state.clicked3 > 0 ?
+                    <Choice3
+                    s11={this.state.view11}
+                    s12={this.state.view12}
+                    s13={this.state.view13}
+                    s14={this.state.view14}
+                    />
+                    : <Process3 />
+                  }
                 </div>
               </div>
 
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                 <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><a href="#position_4"><p>Model Modification</p></a></div>
-                  <div className="col-lg-9 item-col">
-                    <div className="row">
-                      <div className="col-lg-9 item-content">
-
-                        <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list"> Ensemble </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'circle', fontSize: '14px'}}> Horizontal epochs ensemble </li>
-                              <li style={{listStyle: 'circle', fontSize: '15px'}}> Model averaging ensemble </li>
-                            </ol>
-                          <li id="top-list"> Optimization </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle', fontSize: '15px'}}> Learning rate </li>
-                            <li style={{listStyle: 'circle', fontSize: '15px'}}> Batch size </li>
-                            <li style={{listStyle: 'circle', fontSize: '15px'}}> Momentum </li>
-                            </ol>
-                          <li id="top-list"> Dropouts</li>
-                        </ol>
-
-                      </div>
-                    </div>
-                  </div>
+                  { this.state.clicked4 > 0 ?
+                    <Choice4
+                    s15={this.state.view15}
+                    s16={this.state.view16}
+                    s17={this.state.view17}
+                    s18={this.state.view18}
+                    s19={this.state.view19}
+                    s20={this.state.view20}
+                    />
+                    : <Process4 />
+                  }
                 </div>
               </div>
 
@@ -221,21 +375,21 @@ class Recommendation extends React.Component {
                           <li id="top-list"> Data Types </li>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Structured Data </li>
-                                <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/> <input type="checkbox" name="test1" onClick={this.handleClick1}/></li>
-                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data <input type="checkbox" name="test2" onClick={this.handleClick2}/></li>
+                                <ol>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox1" onClick={this.handleClick1}/> <label for="checkbox1"></label></div> Drug Information Data <FaStar color={'#ffd700'}/></li>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Real drug-drug-information occurrence data </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Image Data </li>
-                                <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <input type="checkbox" name="test1" onClick={this.handleClick3}/> </li>
+                                <ol>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox3" onClick={this.handleClick3}/> <label for="checkbox3"></label></div> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Text Data </li>
-                                <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <input type="checkbox" name="test1" onClick={this.handleClick4}/></li>
+                                <ol>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox4" onClick={this.handleClick4}/> <label for="checkbox4"></label></div> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
                                 </ol>
                             </ol>
                           <li id="top-list"> Data Source </li>
@@ -260,8 +414,8 @@ class Recommendation extends React.Component {
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list"> Data Processing</li>
-                            <ol style={{paddingLeft: '18px'}} >
-                              <li style={{listStyle: 'circle'}}> Molecule autoencoder <button onClick={this.handleClick}> <Button /> </button>
+                            <ol>
+                              <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox5" onClick={this.handleClick5}/> <label for="checkbox5"></label></div> Molecule autoencoder
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
@@ -305,7 +459,7 @@ class Recommendation extends React.Component {
 
 
                               </li>
-                              <li style={{listStyle: 'circle'}}> Mol2Vec <button onClick={this.handleClick}> <Button /> </button>
+                              <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox6" onClick={this.handleClick6}/> <label for="checkbox6"></label></div> Mol2Vec
 
                                   <div className="contents-wrapper">
                                     <div className="border b-active b-thick b-radius p-sm">
@@ -350,8 +504,8 @@ class Recommendation extends React.Component {
                               </li>
                             </ol>
                           <li id="top-list"> Class Imbalance </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> SMOTE <button onClick={this.handleClick('view7')}> <Button /> </button>
+                            <ol>
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox7" onClick={this.handleClick7}/> <label for="checkbox7"></label></div> SMOTE
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -396,9 +550,8 @@ class Recommendation extends React.Component {
                             </li>
                             </ol>
 
-                            <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> WEMOTE <button onClick={this.handleClick('view8')}> <Button /> </button>
-
+                            <ol>
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox8" onClick={this.handleClick8}/> <label for="checkbox8"></label></div> WEMOTE
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                   <table>
@@ -436,8 +589,8 @@ class Recommendation extends React.Component {
 
 
                           <li id="top-list"> Dimension Reduction </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> PCA <button onClick={this.handleClick('view9')}> <Button /> </button>
+                            <ol>
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox9" onClick={this.handleClick9}/> <label for="checkbox9"></label></div> PCA
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -500,8 +653,8 @@ class Recommendation extends React.Component {
                     <div className="row">
                       <div className="col-lg-9 item-content">
 
-                        <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list"> Support Vector Machine <button onClick={this.handleClick('view10')}> <Button /> </button>
+                        <ol style={{paddingTop: '2px'}} className="preparation-list2">
+                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox11" onClick={this.handleClick11}/> <label id="rec" for="checkbox11"></label></div> Support Vector Machine
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -548,7 +701,7 @@ class Recommendation extends React.Component {
                           </li>
 
 
-                          <li id="top-list"> Decision Trees <button onClick={this.handleClick('view11')}> <Button /> </button>
+                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox12" onClick={this.handleClick12}/> <label id="rec" for="checkbox12"></label></div> Decision Trees
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -593,7 +746,7 @@ class Recommendation extends React.Component {
                           </li>
 
 
-                          <li id="top-list"> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view12')}> <Button /> </button>
+                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox13" onClick={this.handleClick13}/> <label id="rec" for="checkbox13"></label></div> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -634,10 +787,8 @@ class Recommendation extends React.Component {
                               </div>
                             </div>
 
-
-
                           </li>
-                          <li id="top-list"> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view13')}> <Button /> </button>
+                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox14" onClick={this.handleClick14}/> <label id="rec" for="checkbox14"></label></div> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -699,8 +850,8 @@ class Recommendation extends React.Component {
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list"> Ensemble </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'circle'}}> Horizontal epochs ensemble <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view14')}> <Button /> </button>
+                            <ol>
+                              <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox15" onClick={this.handleClick15}/> <label id="rec" for="checkbox15"></label></div>  Horizontal epochs ensemble <FaStar color={'#ffd700'} />
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
@@ -732,7 +883,7 @@ class Recommendation extends React.Component {
                                 </div>
 
                               </li>
-                              <li style={{listStyle: 'circle'}}> Model averaging ensemble <button onClick={this.handleClick('view15')}> <Button /> </button>
+                              <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox16" onClick={this.handleClick16}/> <label id="rec" for="checkbox16"></label></div> Model averaging ensemble
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
@@ -769,7 +920,7 @@ class Recommendation extends React.Component {
                             </ol>
                           <li id="top-list"> Optimization </li>
                             <ol style={{paddingLeft: '18px'}}>
-                            <li style={{listStyle: 'circle'}}> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view16')}> <Button /> </button>
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox17" onClick={this.handleClick17}/> <label id="rec" for="checkbox17"></label></div> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -802,7 +953,7 @@ class Recommendation extends React.Component {
                               </div>
 
                             </li>
-                            <li style={{listStyle: 'circle'}}> Batch size <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view17')}> <Button /> </button>
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox18" onClick={this.handleClick18}/> <label id="rec" for="checkbox18"></label></div> Batch size <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -835,7 +986,7 @@ class Recommendation extends React.Component {
                               </div>
 
                             </li>
-                            <li style={{listStyle: 'circle'}}> Momentum <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view18')}> <Button /> </button>
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox19" onClick={this.handleClick19}/> <label id="rec" for="checkbox19"></label></div> Momentum <FaStar color={'#ffd700'} />
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -870,7 +1021,7 @@ class Recommendation extends React.Component {
 
                             </li>
                             </ol>
-                          <li id="top-list"> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <button onClick={this.handleClick('view19')}> <Button /> </button>
+                          <li style={{listStyle: "none"}}id="top-list"><div className="round"><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
