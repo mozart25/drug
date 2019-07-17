@@ -1,9 +1,8 @@
 import React from 'react';
 import './Recommendation.scss';
-import Navigation from '../../Components/Navigation/Navigation' ;
 import { FaStar } from 'react-icons/fa';
 import Button from '../../Components/Button/Button';
-
+import Process1 from '../../Components/Process1/Process1';
 
 class Recommendation extends React.Component {
 
@@ -11,8 +10,8 @@ class Recommendation extends React.Component {
     super();
 
     this.state = {
-      view1: false,
-      view2: false,
+      view1: true,
+      view2: true,
       view3: false,
       view4: false,
       e: '',
@@ -48,6 +47,8 @@ class Recommendation extends React.Component {
     )
     console.log("before", this.state.view2, id)
   }
+
+
 
   render() {
     return (
@@ -91,34 +92,7 @@ class Recommendation extends React.Component {
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                   <div  className="item-header" style={{cursor:"pointer"}} ><a href="#position_1"><p>Data Preparation</p></a></div>
-                  <div className="col-lg-9 item-col">
-                    <div className="row">
-                      <div className="col-lg-9 item-content">
-                        <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list-process"> Data Types </li>
-                            <ol style={{paddingLeft: '10px'}}>
-                              <li id="top-list-process"> Structured Data </li>
-                                <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '15px', display: this.state.e === 'view1' && this.state.view1 === false ? 'none':''}}> Drug Information Data </li>
-                                  <li style={{listStyle: 'circle', fontSize: '14px', display:  this.state.e === 'view2' && this.state.view2 === false ? 'none':''}}> Real drug-drug-information occurrence data</li>
-                                </ol>
-                            </ol>
-                            <ol style={{paddingLeft: '10px'}}>
-                              <li id="top-list-process"> Image Data </li>
-                                <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '15px'}}> Molecular formula data </li>
-                                </ol>
-                            </ol>
-                            <ol style={{paddingLeft: '10px'}}>
-                              <li id="top-list-process"> Text Data </li>
-                                <ol style={{paddingLeft: '10px'}}>
-                                  <li style={{listStyle: 'circle', fontSize: '15px'}}> SMILES </li>
-                                </ol>
-                            </ol>
-                        </ol>
-                      </div>
-                    </div>
-                  </div>
+                    <Process1 />
                 </div>
               </div>
 
@@ -211,8 +185,8 @@ class Recommendation extends React.Component {
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Structured Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/> <Button action={(e) => this.handleClick1('view1')}/></li>
-                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data <Button action={(e)=>this.handleClick2('view2')}/></li>
+                                  <li style={{listStyle: 'circle'}}> Drug Information Data <FaStar color={'#ffd700'}/> <input type="checkbox" name="test1" onClick={this.handleClick1}/></li>
+                                  <li style={{listStyle: 'circle'}}> Real drug-drug-information occurrence data <input type="checkbox" name="test2" onClick={this.handleClick2}/></li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
