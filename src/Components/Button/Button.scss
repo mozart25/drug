@@ -3,6 +3,7 @@
 
 .button-wrapper {
   display: inline-block;
+  z-index: 0;
 }
 
 
@@ -64,7 +65,7 @@
 
 /* Style the checkmark/indicator */
 .button-container .checkmark:after {
-  left: 4.5px;
+  left: 4px;
   top: 2px;
   width: 6px;
   height: 8px;

@@ -32,14 +32,12 @@ class Search extends React.Component {
             <SearchDrug
             />
           </div>
-
-          <div className="main-bg">
-            <div className="main-picture">
-              <img src={require(`./database.png`)} alt=""/>
-            </div>
-          </div>
         </main>
-
+        <div className="main-bg">
+          <div className="main-picture">
+            <img src={require(`./database.png`)} alt=""/>
+          </div>
+        </div>
         <footer className="footer-wrapper">
           <div className="footer-row">
             <div className="footer-domain">
