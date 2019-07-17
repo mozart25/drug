@@ -3,6 +3,8 @@ import './Recommendation.scss';
 import { FaStar } from 'react-icons/fa';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
+import Choice1 from '../../Components/Process1/Choice1';
+
 
 class Recommendation extends React.Component {
 
@@ -10,8 +12,9 @@ class Recommendation extends React.Component {
     super();
 
     this.state = {
-      view1: true,
-      view2: true,
+      clicked: 0,
+      view1: false,
+      view2: false,
       view3: false,
       view4: false,
       e: '',
@@ -21,6 +24,7 @@ class Recommendation extends React.Component {
   handleClick1 = (e) => {
     this.setState(
       {
+        clicked: this.state.clicked + 1,
         view1: !this.state.view1,
         e
       }, () => console.log("after", this.state.view1, e)
@@ -31,6 +35,7 @@ class Recommendation extends React.Component {
   handleClick2 = (e) => {
     this.setState(
       {
+        clicked: this.state.clicked + 1,
         view2: !this.state.view2,
         e
       }, () => console.log("after", this.state.view2, e)
@@ -38,15 +43,39 @@ class Recommendation extends React.Component {
     console.log("before", this.state.view2)
   }
 
+  handleClick3 = (e) => {
+    this.setState(
+      {
+        clicked: this.state.clicked + 1,
+        view3: !this.state.view3,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
+  handleClick4 = (e) => {
+    this.setState(
+      {
+        clicked: this.state.clicked + 1,
+        view4: !this.state.view4,
+        e
+      }, () => console.log("after", this.state.view2, e)
+    )
+    console.log("before", this.state.view2, e)
+  }
+
   handleClick = (view, id) => (e) => {
     this.setState(
       {
-        view2: !this.state.view2,
-        id: id
-      }, () => console.log("after", this.state.view2, id)
+        clicked: this.state.clicked + 1,
+        view3: !this.state.view3,
+        e
+      }, () => console.log("after", this.state.view2, e)
     )
-    console.log("before", this.state.view2, id)
+    console.log("before", this.state.view2, e)
   }
+
 
 
 
@@ -92,7 +121,15 @@ class Recommendation extends React.Component {
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                   <div  className="item-header" style={{cursor:"pointer"}} ><a href="#position_1"><p>Data Preparation</p></a></div>
-                    <Process1 />
+                    { this.state.clicked > 0 ?
+                      <Choice1
+                      s1={this.state.view1}
+                      s2={this.state.view2}
+                      s3={this.state.view3}
+                      s4={this.state.view4}
+                      />
+                      : <Process1 />
+                    }
                 </div>
               </div>
 
@@ -192,13 +229,13 @@ class Recommendation extends React.Component {
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Image Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /><button onClick={(e)=>this.handleClick('view3', 1)}> <Button /> </button> </li>
+                                  <li style={{listStyle: 'circle'}}> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <input type="checkbox" name="test1" onClick={this.handleClick3}/> </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Text Data </li>
                                 <ol style={{paddingLeft: '18px'}}>
-                                  <li style={{listStyle: 'circle'}}> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /><button onClick={this.handleClick('view4')}> <Button /> </button></li>
+                                  <li style={{listStyle: 'circle'}}> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <input type="checkbox" name="test1" onClick={this.handleClick4}/></li>
                                 </ol>
                             </ol>
                           <li id="top-list"> Data Source </li>
@@ -224,7 +261,7 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list"> Data Processing</li>
                             <ol style={{paddingLeft: '18px'}} >
-                              <li style={{listStyle: 'circle'}}> Molecule autoencoder <button onClick={this.handleClick('view5')}> <Button /> </button>
+                              <li style={{listStyle: 'circle'}}> Molecule autoencoder <button onClick={this.handleClick}> <Button /> </button>
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
@@ -268,7 +305,7 @@ class Recommendation extends React.Component {
 
 
                               </li>
-                              <li style={{listStyle: 'circle'}}> Mol2Vec <button onClick={this.handleClick('view6')}> <Button /> </button>
+                              <li style={{listStyle: 'circle'}}> Mol2Vec <button onClick={this.handleClick}> <Button /> </button>
 
                                   <div className="contents-wrapper">
                                     <div className="border b-active b-thick b-radius p-sm">
