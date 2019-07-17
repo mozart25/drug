@@ -1,6 +1,6 @@
 import React from 'react';
 import './Recommendation.scss';
-import { FaStar } from 'react-icons/fa';
+import { FaStar, FaCaretRight } from 'react-icons/fa';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
 import Choice1 from '../../Components/Process1/Choice1';
@@ -314,7 +314,7 @@ class Recommendation extends React.Component {
                     }
                 </div>
               </div>
-
+              <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                 <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><a href="#position_2"><p>Data Preprocessing</p></a></div>
@@ -331,6 +331,7 @@ class Recommendation extends React.Component {
                   }
                 </div>
               </div>
+              <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                 <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><a href="#position_3"><p>Modeling</p></a></div>
@@ -345,7 +346,7 @@ class Recommendation extends React.Component {
                   }
                 </div>
               </div>
-
+              <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
               <div className="infinite-container text-center">
                 <div className="row infinite-item item">
                 <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><a href="#position_4"><p>Model Modification</p></a></div>
