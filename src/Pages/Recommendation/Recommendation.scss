@@ -246,6 +246,7 @@ ion-icon svg {
 
 .preparation-list {
   padding-left: 10px;
+  display: inline-block;
 
   li {
     list-style: square;
@@ -543,4 +544,21 @@ button {
 
 .text-center {
   margin-bottom: 50px;
+}
+
+.finish-btn-pos {
+  float: right;
+  margin-top: 310px;
+}
+
+.finish-btn-pos2 {
+  float: right;
+  margin-top: 1250px;
+  margin-bottom: 20px;
+}
+
+.finish-btn-pos3 {
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }

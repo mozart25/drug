@@ -10,6 +10,7 @@ import Process3 from '../../Components/Process3/Process3';
 import Choice3 from '../../Components/Process3/Choice3';
 import Process4 from '../../Components/Process4/Process4';
 import Choice4 from '../../Components/Process4/Choice4';
+import FinishButton from '../../Components/Button/FinishButton';
 
 
 class Recommendation extends React.Component {
@@ -43,6 +44,9 @@ class Recommendation extends React.Component {
       view19: false,
       view20: false,
       e: '',
+      process1: false,
+      process2: false,
+      process3: false,
     };
   }
 
@@ -96,9 +100,9 @@ class Recommendation extends React.Component {
         clicked2: this.state.clicked2 + 1,
         view5: !this.state.view5,
         e
-      }, () => console.log("after", this.state.view2, e)
+      }, () => console.log("after view5", this.state.view5, "state.process1", this.state.process1, "this.state.clicked2", this.state.clicked2)
     )
-    console.log("before", this.state.view2, e)
+    console.log("before view5", this.state.view5, "state.process1", this.state.process1, "this.state.clicked2", this.state.clicked2)
   }
 
   handleClick6 = (e) => {
@@ -107,9 +111,9 @@ class Recommendation extends React.Component {
         clicked2: this.state.clicked2 + 1,
         view6: !this.state.view6,
         e
-      }, () => console.log("after", this.state.view2, e)
+      }, () => console.log("after", this.state.view6, e)
     )
-    console.log("before", this.state.view2, e)
+    console.log("before", this.state.view6, e)
   }
 
   handleClick7 = (e) => {
@@ -118,9 +122,9 @@ class Recommendation extends React.Component {
         clicked2: this.state.clicked2 + 1,
         view7: !this.state.view7,
         e
-      }, () => console.log("after", this.state.view2, e)
+      }, () => console.log("after", this.state.view7, e)
     )
-    console.log("before", this.state.view2, e)
+    console.log("before", this.state.view7, e)
   }
 
   handleClick8 = (e) => {
@@ -259,9 +263,33 @@ class Recommendation extends React.Component {
     )
   }
 
+  goToProcess = () => {
+    this.setState(
+      {
+        process1: !this.state.process1
+    }
+  )
+}
+
+  goToProcess2 = () => {
+    this.setState(
+      {
+        process2: !this.state.process2
+    }
+  )
+  }
+
+  goToProcess3 = () => {
+    this.setState(
+      {
+        process3: !this.state.process3
+    }
+  )
+  }
 
 
   render() {
+
     return (
       <div className="recommend-container">
 
@@ -326,7 +354,8 @@ class Recommendation extends React.Component {
               <a href="#position_2">
                 <div className="row infinite-item item">
                 <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
-                  { this.state.clicked2 > 0 ?
+
+                  {this.state.process1 === false || this.state.clicked2 > 0 ?
                     <Choice2
                     s5={this.state.view5}
                     s6={this.state.view6}
@@ -334,9 +363,8 @@ class Recommendation extends React.Component {
                     s8={this.state.view8}
                     s9={this.state.view9}
                     s10={this.state.view10}
-                    />
-                    : <Process2 />
-                  }
+                    /> :  <Process2 />}
+
                 </div>
                 </a>
                 </div>
@@ -348,7 +376,7 @@ class Recommendation extends React.Component {
               <a href="#position_3">
                 <div className="row infinite-item item">
                 <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><p>Modeling</p></div>
-                  { this.state.clicked3 > 0 ?
+                  { this.state.process2 === false || this.state.clicked3 > 0 ?
                     <Choice3
                     s11={this.state.view11}
                     s12={this.state.view12}
@@ -368,7 +396,7 @@ class Recommendation extends React.Component {
               <a href="#position_4">
                 <div className="row infinite-item item">
                 <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><p>Model Modification</p></div>
-                  { this.state.clicked4 > 0 ?
+                  { this.state.process3 === false || this.state.clicked4 > 0 ?
                     <Choice4
                     s15={this.state.view15}
                     s16={this.state.view16}
@@ -418,6 +446,9 @@ class Recommendation extends React.Component {
                               <li style={{listStyle: 'circle'}}><p id="badge-link"><span className="badge badge-primary">PubChem</span></p></li>
                             </ol>
                         </ol>
+                        <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
+                            <FinishButton />
+                        </a>
 
                       </div>
                     </div>
@@ -658,7 +689,9 @@ class Recommendation extends React.Component {
                             </li>
                             </ol>
                         </ol>
-
+                        <a href ="#" className="finish-btn-pos2" onClick={this.goToProcess2}>
+                            <FinishButton />
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -849,10 +882,11 @@ class Recommendation extends React.Component {
                               </div>
                             </div>
 
-
-
                           </li>
                         </ol>
+                        <a href ="#" className="finish-btn-pos3" onClick={this.goToProcess3}>
+                            <FinishButton />
+                        </a>
 
                       </div>
                     </div>
@@ -1077,6 +1111,9 @@ class Recommendation extends React.Component {
 
                           </li>
                         </ol>
+                        <a href ="#" className="finish-btn-pos" onClick={this.goToProcess2}>
+                            <FinishButton />
+                        </a>
 
                       </div>
                     </div>
