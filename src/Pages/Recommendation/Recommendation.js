@@ -347,13 +347,13 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
+              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
                 <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
               <a href="#position_2">
                 <div className="row infinite-item item">
-                <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
+                <div className="item-header" id={`${this.state.process1 ? "data-preprocessing" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
 
                   {this.state.process1 === false || this.state.clicked2 > 0 ?
                     <Choice2
@@ -369,13 +369,13 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
+              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
                 <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
               <a href="#position_3">
                 <div className="row infinite-item item">
-                <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><p>Modeling</p></div>
+                <div className="item-header" id={`${this.state.process2 ? "modeling" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Modeling</p></div>
                   { this.state.process2 === false || this.state.clicked3 > 0 ?
                     <Choice3
                     s11={this.state.view11}
@@ -389,13 +389,13 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
+              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
                 <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
               <a href="#position_4">
                 <div className="row infinite-item item">
-                <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><p>Model Modification</p></div>
+                <div className="item-header" id={`${this.state.process3 ? "model-modification" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Model Modification</p></div>
                   { this.state.process3 === false || this.state.clicked4 > 0 ?
                     <Choice4
                     s15={this.state.view15}
