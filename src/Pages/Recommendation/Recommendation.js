@@ -301,8 +301,9 @@ class Recommendation extends React.Component {
               </div>
             <div className="process-wrapper">
               <div className="infinite-container text-center">
+              <a href="#position_1">
                 <div className="row infinite-item item">
-                  <div  className="item-header" style={{cursor:"pointer"}} ><a href="#position_1"><p>Data Preparation</p></a></div>
+                  <div  className="item-header" style={{cursor:"pointer"}} ><p>Data Preparation</p></div>
                     { this.state.clicked > 0 ?
                       <Choice1
                       s1={this.state.view1}
@@ -313,11 +314,13 @@ class Recommendation extends React.Component {
                       : <Process1 />
                     }
                 </div>
+                </a>
               </div>
               <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
               <div className="infinite-container text-center">
+              <a href="#position_2">
                 <div className="row infinite-item item">
-                <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><a href="#position_2"><p>Data Preprocessing</p></a></div>
+                <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
                   { this.state.clicked2 > 0 ?
                     <Choice2
                     s5={this.state.view5}
@@ -330,11 +333,13 @@ class Recommendation extends React.Component {
                     : <Process2 />
                   }
                 </div>
+                </a>
               </div>
               <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
               <div className="infinite-container text-center">
+              <a href="#position_3">
                 <div className="row infinite-item item">
-                <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><a href="#position_3"><p>Modeling</p></a></div>
+                <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><p>Modeling</p></div>
                   { this.state.clicked3 > 0 ?
                     <Choice3
                     s11={this.state.view11}
@@ -345,11 +350,13 @@ class Recommendation extends React.Component {
                     : <Process3 />
                   }
                 </div>
+                </a>
               </div>
               <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
               <div className="infinite-container text-center">
+              <a href="#position_4">
                 <div className="row infinite-item item">
-                <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><a href="#position_4"><p>Model Modification</p></a></div>
+                <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><p>Model Modification</p></div>
                   { this.state.clicked4 > 0 ?
                     <Choice4
                     s15={this.state.view15}
@@ -362,6 +369,7 @@ class Recommendation extends React.Component {
                     : <Process4 />
                   }
                 </div>
+                </a>
               </div>
 
             </div>
