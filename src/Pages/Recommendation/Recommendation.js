@@ -473,16 +473,14 @@ class Recommendation extends React.Component {
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
-                                          <p id="contents-head">Summary</p>
-                                          <p>{`Similarly, to the Word2vec models where vectors of closely
-                                              related words are in close proximity in the vector space, Mol2vec
-                                              learns vector representations of molecular substructures that are
-                                              pointing in similar directions for chemically related substructures.`}</p>
+                                          <p>1. Importing and normalizing the SMILES string data </p>
+                                          <p>2. Translating normalized strings into one hot vectors </p>
+                                          <p>3. Building the deep NN model </p>
+                                          <p>4. Compiling the model and fitting the data </p>
                                         </tr>
                                       </tbody>
                                     </table>
-
-                                    <div className="entity" style={{marginBottom: '20px'}}>
+                                    <div className="entity">
                                       <a href="/paper/unsupervised-data-augmentation-1" className="badge badge-light">
                                         <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                           <div className="icon-inner">
@@ -502,12 +500,9 @@ class Recommendation extends React.Component {
                                           </div>
                                         </ion-icon> Code
                                       </a>
-                                      <br />
                                     </div>
                                   </div>
                                 </div>
-
-
 
                               </li>
                               <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox6" onClick={this.handleClick6}/> <label for="checkbox6"></label></div> Mol2Vec
@@ -517,8 +512,7 @@ class Recommendation extends React.Component {
                                       <table>
                                         <tbody>
                                           <tr className="contents-table">
-                                            <p id="contents-head">Summary</p>
-                                            <p>{`Similarly, to the Word2vec models where vectors of closely
+                                            <p>{`Word2vec models where vectors of closely
                                                 related words are in close proximity in the vector space, Mol2vec
                                                 learns vector representations of molecular substructures that are
                                                 pointing in similar directions for chemically related substructures.`}</p>
@@ -526,7 +520,7 @@ class Recommendation extends React.Component {
                                         </tbody>
                                       </table>
 
-                                      <div className="entity" style={{marginBottom: '20px'}}>
+                                      <div className="entity">
                                         <a href="https://s3-eu-west-1.amazonaws.com/itempdf74155353254prod/5513581/Mol2vec__Unsupervised_Machine_Learning_Approach_with_Chemical_Intuition_v1.pdf" className="badge badge-light">
                                           <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                             <div className="icon-inner">
@@ -556,14 +550,14 @@ class Recommendation extends React.Component {
                             </ol>
                           <li id="top-list"> Class Imbalance </li>
                             <ol>
-                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox7" onClick={this.handleClick7}/> <label for="checkbox7"></label></div> SMOTE
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox7" onClick={this.handleClick7}/> <label for="checkbox7"></label></div> SMOTE: Synthetic Minority Over-sampling Technique
+
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p id="contents-head">Summary</p>
                                         <p>{`This paper shows that a combination of our method of over-sampling the minority
                                           (abnormal) class and under-sampling the majority (normal) class can achieve better
                                           classifier performance (in ROC space) than only under-sampling the majority class.
@@ -573,7 +567,7 @@ class Recommendation extends React.Component {
                                     </tbody>
                                   </table>
 
-                                  <div className="entity" style={{marginBottom: '20px'}}>
+                                  <div className="entity">
                                     <a href="https://arxiv.org/pdf/1106.1813" className="badge badge-light">
                                       <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                         <div className="icon-inner">
@@ -602,13 +596,12 @@ class Recommendation extends React.Component {
                             </ol>
 
                             <ol>
-                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox8" onClick={this.handleClick8}/> <label for="checkbox8"></label></div> WEMOTE
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox8" onClick={this.handleClick8}/> <label for="checkbox8"></label></div> WEMOTE: Word Embedding based Minority Oversampling
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p id="contents-head">Summary</p>
                                         <p>{`This paper presents a word embedding based oversampling method.
                                             Firstly, a large-scale text corpus is used to train a continuous
                                             skip-gram model in order to form word embedding. A feature selection
@@ -618,7 +611,7 @@ class Recommendation extends React.Component {
                                     </tbody>
                                   </table>
 
-                                  <div className="entity" style={{marginBottom: '20px'}}>
+                                  <div className="entity">
                                     <a href="https://sentic.net/wisdom2014chen.pdf" className="badge badge-light">
                                       <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                         <div className="icon-inner">
@@ -629,8 +622,7 @@ class Recommendation extends React.Component {
                                       </ion-icon> Paper
                                     </a>
                                     <br />
-                                    <br />
-                                    <br />
+
                                   </div>
                                 </div>
                               </div>
@@ -648,7 +640,6 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p id="contents-head">Summary</p>
                                         <p>{`Principal component analysis (PCA) is a statistical procedure
                                           that uses an orthogonal transformation to convert a set of observations
                                           of possibly correlated variables (entities each of which takes on various
@@ -660,7 +651,7 @@ class Recommendation extends React.Component {
                                     </tbody>
                                   </table>
 
-                                  <div className="entity" style={{marginBottom: '20px'}}>
+                                  <div className="entity">
                                     <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-04898-2_455.pdf" className="badge badge-light">
                                       <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                         <div className="icon-inner">
@@ -672,6 +663,50 @@ class Recommendation extends React.Component {
                                     </a>
                                     <br />
                                     <a href="https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/decomposition/pca.py" className="badge badge-dark">
+                                      <ion-icon name="logo-github" role="img" aria-label="logo github" className="icon hydrated">
+                                        <div className="icon-inner">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9 1.4.3 2.6.4 3.8.4 8.3 0 11.5-6.1 11.5-11.4 0-5.5-.2-19.9-.3-39.1-8.4 1.9-15.9 2.7-22.6 2.7-43.1 0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8 11.2 19.6 26.2 25.1 39.6 25.1 10.5 0 20-3.4 25.6-6 2-14.8 7.8-24.9 14.2-30.7-49.7-5.8-102-25.5-102-113.5 0-25.1 8.7-45.6 23-61.6-2.3-5.8-10-29.2 2.2-60.8 0 0 1.6-.5 5-.5 8.1 0 26.4 3.1 56.6 24.1 17.9-5.1 37-7.6 56.1-7.7 19 .1 38.2 2.6 56.1 7.7 30.2-21 48.5-24.1 56.6-24.1 3.4 0 5 .5 5 .5 12.2 31.6 4.5 55 2.2 60.8 14.3 16.1 23 36.6 23 61.6 0 88.2-52.4 107.6-102.3 113.3 8 7.1 15.2 21.1 15.2 42.5 0 30.7-.3 55.5-.3 63 0 5.4 3.1 11.5 11.4 11.5 1.2 0 2.6-.1 4-.4C415.9 449.2 480 363.1 480 261.7 480 134.9 379.7 32 256 32z" />
+                                          </svg>
+                                        </div>
+                                      </ion-icon> Code
+                                    </a>
+                                    <br />
+                                    <br />
+                                  </div>
+                                </div>
+                              </div>
+
+                            </li>
+
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox9" onClick={this.handleClick9}/> <label for="checkbox9"></label></div> ICA
+
+                              <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
+                                  <table>
+                                    <tbody>
+                                      <tr className="contents-table">
+                                        <p>{`Independent component analysis attempts to decompose a multivariate
+                                            signal into independent non-Gaussian signals. As an example, sound is
+                                            usually a signal that is composed of the numerical addition, at each time t,
+                                            of signals from several sources. The question then is whether it is possible
+                                            to separate these contributing sources from the observed total signal.`}</p>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <div className="entity">
+                                    <a href="http://mlsp.cs.cmu.edu/courses/fall2012/lectures/ICA_Hyvarinen.pdf" className="badge badge-light">
+                                      <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
+                                        <div className="icon-inner">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path d="M288 48H136c-22.092 0-40 17.908-40 40v336c0 22.092 17.908 40 40 40h240c22.092 0 40-17.908 40-40V176L288 48zm-16 144V80l112 112H272z" />
+                                          </svg>
+                                        </div>
+                                      </ion-icon> Paper
+                                    </a>
+                                    <br />
+                                    <a href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html" className="badge badge-dark">
                                       <ion-icon name="logo-github" role="img" aria-label="logo github" className="icon hydrated">
                                         <div className="icon-inner">
                                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -714,8 +749,7 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p id="contents-head">Summary</p>
-                                      <p>{`In machine learning, support-vector machines are supervised learning
+                                      <p>{`Support-vector machines are supervised learning
                                         models with associated learning algorithms that analyze data used for
                                         classification and regression analysis. Given a set of training examples,
                                         each marked as belonging to one or the other of two categories, an SVM training
@@ -726,7 +760,7 @@ class Recommendation extends React.Component {
                                   </tbody>
                                 </table>
 
-                                <div className="entity" style={{marginBottom: '20px'}}>
+                                <div className="entity">
                                   <a href="https://link.springer.com/content/pdf/10.1007%2FBF00994018.pdf" className="badge badge-light">
                                     <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                       <div className="icon-inner">
@@ -761,7 +795,6 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p id="contents-head">Summary</p>
                                       <p>{`A decision tree is a decision support tool that uses a tree-like
                                         model of decisions and their possible consequences, including chance
                                         event outcomes, resource costs, and utility. It is one way to display
@@ -772,7 +805,7 @@ class Recommendation extends React.Component {
                                   </tbody>
                                 </table>
 
-                                <div className="entity" style={{marginBottom: '20px'}}>
+                                <div className="entity">
                                   <a href="https://link.springer.com/content/pdf/10.1007/BF00116251.pdf" className="badge badge-light">
                                     <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                       <div className="icon-inner">
@@ -806,7 +839,6 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p id="contents-head">Summary</p>
                                       <p>{`Similarly, to the Word2vec models where vectors of closely
                                           related words are in close proximity in the vector space, Mol2vec
                                           learns vector representations of molecular substructures that are
@@ -815,7 +847,7 @@ class Recommendation extends React.Component {
                                   </tbody>
                                 </table>
 
-                                <div className="entity" style={{marginBottom: '20px'}}>
+                                <div className="entity">
                                   <a href="http://ml.informatik.uni-freiburg.de/former/_media/teaching/ss10/05_mlps.printer.pdf" className="badge badge-light">
                                     <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                       <div className="icon-inner">
@@ -848,7 +880,6 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p id="contents-head">Summary</p>
                                       <p>{`Similarly, to the Word2vec models where vectors of closely
                                           related words are in close proximity in the vector space, Mol2vec
                                           learns vector representations of molecular substructures that are
@@ -857,7 +888,7 @@ class Recommendation extends React.Component {
                                   </tbody>
                                 </table>
 
-                                <div className="entity" style={{marginBottom: '20px'}}>
+                                <div className="entity">
                                   <a href="https://www.isca-speech.org/archive/archive_papers/interspeech_2010/i10_1045.pdf" className="badge badge-light">
                                     <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                       <div className="icon-inner">
@@ -912,7 +943,6 @@ class Recommendation extends React.Component {
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
-                                          <p id="contents-head">Summary</p>
                                           <p>{`Horizontal Vot-ing Vertical Voting and Horizontal Stacked
                                               Ensemble methods to improve the classification performance of
                                               deep neural networks.`}</p>
@@ -920,7 +950,7 @@ class Recommendation extends React.Component {
                                       </tbody>
                                     </table>
 
-                                    <div className="entity" style={{marginBottom: '20px'}}>
+                                    <div className="entity">
                                       <a href="http://deeplearning.net/wp-content/uploads/2013/03/Horizontal-and-Vertical-Ensemble-with-Deep-Representation-for-Classification.pdf" className="badge badge-light">
                                         <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                           <div className="icon-inner">
@@ -944,7 +974,6 @@ class Recommendation extends React.Component {
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
-                                          <p id="contents-head">Summary</p>
                                           <p>{`Horizontal Vot-ing Vertical Voting and Horizontal Stacked
                                               Ensemble methods to improve the classification performance of
                                               deep neural networks.`}</p>
@@ -952,7 +981,7 @@ class Recommendation extends React.Component {
                                       </tbody>
                                     </table>
 
-                                    <div className="entity" style={{marginBottom: '20px'}}>
+                                    <div className="entity">
                                       <a href="https://machinelearningmastery.com/weighted-average-ensemble-for-deep-learning-neural-networks/" className="badge badge-light">
                                         <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                           <div className="icon-inner">
@@ -981,7 +1010,6 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p id="contents-head">Summary</p>
                                         <p>{`Learning rate is a hyper-parameter that controls how
                                             much we are adjusting the weights of our network with respect
                                             the loss gradient. The lower the value, the slower we travel
@@ -990,7 +1018,7 @@ class Recommendation extends React.Component {
                                     </tbody>
                                   </table>
 
-                                  <div className="entity" style={{marginBottom: '20px'}}>
+                                  <div className="entity">
                                     <a href="https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10" className="badge badge-light">
                                       <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                         <div className="icon-inner">
@@ -1014,7 +1042,6 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p id="contents-head">Summary</p>
                                         <p>{`Unlike the learning rate hyper-parameter where its value
                                             doesn’t affect computational time, batch size must be examined
                                             in conjunction with the execution time of the training. The batch
@@ -1023,7 +1050,7 @@ class Recommendation extends React.Component {
                                     </tbody>
                                   </table>
 
-                                  <div className="entity" style={{marginBottom: '20px'}}>
+                                  <div className="entity">
                                     <a href="https://towardsdatascience.com/hyper-parameter-tuning-techniques-in-deep-learning-4dad592c63c8" className="badge badge-light">
                                       <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                         <div className="icon-inner">
@@ -1047,7 +1074,6 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p id="contents-head">Summary</p>
                                         <p>{`The optimal learning rate is dependent on the momentum and momentum
                                             is dependent on the learning rate. Since learning rate is regarded as
                                             the most important hyper-parameter to tune then momentum is also important.
@@ -1057,7 +1083,7 @@ class Recommendation extends React.Component {
                                     </tbody>
                                   </table>
 
-                                  <div className="entity" style={{marginBottom: '20px'}}>
+                                  <div className="entity">
                                     <a href="https://towardsdatascience.com/hyper-parameter-tuning-techniques-in-deep-learning-4dad592c63c8" className="badge badge-light">
                                       <ion-icon name="document" role="img" aria-label="document" className="icon hydrated">
                                         <div className="icon-inner">
@@ -1082,7 +1108,6 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p id="contents-head">Summary</p>
                                       <p>{`Dropout is a regularization technique patented by Google for
                                         reducing overfitting in neural networks by preventing complex
                                         co-adaptations on training data. It is a very efficient way of
@@ -1093,7 +1118,7 @@ class Recommendation extends React.Component {
                                   </tbody>
                                 </table>
 
-                                <div className="entity" style={{marginBottom: '20px'}}>
+                                <div className="entity">
                                   <a href="https://keras.io/layers/core/" className="badge badge-dark">
                                     <ion-icon name="logo-github" role="img" aria-label="logo github" className="icon hydrated">
                                       <div className="icon-inner">
@@ -1111,7 +1136,7 @@ class Recommendation extends React.Component {
 
                           </li>
                         </ol>
-                        <a href ="#" className="finish-btn-pos" onClick={this.goToProcess2}>
+                        <a href ="#" className="finish-btn-pos4">
                             <FinishButton />
                         </a>
 

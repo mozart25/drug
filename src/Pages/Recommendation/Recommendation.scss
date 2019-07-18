@@ -17,7 +17,7 @@
 }
 
 .item {
-    width: 98%;
+    width: 82%;
     margin-bottom: 0px;
     border: 0px solid;
     border-radius: 10px;
@@ -55,8 +55,8 @@ ion-icon svg {
 
 .item-content p {
     font-size: 13px;
-    margin-bottom: 15px;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .item-interact {
@@ -310,6 +310,7 @@ ion-icon svg {
 
 .contents-wrapper {
   margin-top: 10px;
+  width: 85%;
 
   .b-active {
       border-color: #5b616b !important;
@@ -319,7 +320,7 @@ ion-icon svg {
       border: 1px solid;
       border-color: #e0e0e0 !important;
       padding: 10px;
-      background-color: #f9f9f9
+      background-color: white;
   }
 
   .b-thick {
@@ -338,7 +339,7 @@ ion-icon svg {
   }
 
   table {
-    width: 800px;
+    width: 72%;
     display: inline-block;
   }
 }
@@ -357,6 +358,7 @@ ion-icon svg {
 .entity {
   display: inline-block;
   margin-left: 40px;
+  vertical-align: super;
 
   .badge-light {
       border: 1px solid;
@@ -554,12 +556,15 @@ button {
 
 .finish-btn-pos2 {
   float: right;
-  margin-top: 1250px;
   margin-bottom: 20px;
 }
 
 .finish-btn-pos3 {
   float: right;
-  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.finish-btn-pos4 {
+  float: right;
   margin-bottom: 20px;
 }
