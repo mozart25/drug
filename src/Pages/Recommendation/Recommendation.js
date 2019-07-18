@@ -316,7 +316,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
-              <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
+              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
               <a href="#position_2">
                 <div className="row infinite-item item">
@@ -335,7 +335,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
-              <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
+              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
               <a href="#position_3">
                 <div className="row infinite-item item">
@@ -352,7 +352,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
-              <FaCaretRight style={{color: '#21cbce', height: '370px' }} />
+              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
               <a href="#position_4">
                 <div className="row infinite-item item">
