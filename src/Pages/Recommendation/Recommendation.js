@@ -301,23 +301,28 @@ class Recommendation extends React.Component {
               </div>
             <div className="process-wrapper">
               <div className="infinite-container text-center">
-              <a href="#position_1">
-                <div className="row infinite-item item">
-                  <div  className="item-header" style={{cursor:"pointer"}} ><p>Data Preparation</p></div>
-                    { this.state.clicked > 0 ?
-                      <Choice1
-                      s1={this.state.view1}
-                      s2={this.state.view2}
-                      s3={this.state.view3}
-                      s4={this.state.view4}
-                      />
-                      : <Process1 />
-                    }
-                </div>
+              <div id="tooltip">
+                <span className="tooltiptext"> Click to get More Info </span>
+                <a href="#position_1">
+                  <div className="row infinite-item item">
+                      <div className="item-header" style={{cursor:"pointer"}} ><p>Data Preparation</p></div>
+                        { this.state.clicked > 0 ?
+                          <Choice1
+                          s1={this.state.view1}
+                          s2={this.state.view2}
+                          s3={this.state.view3}
+                          s4={this.state.view4}
+                          />
+                          : <Process1 />
+                        }
+                      </div>
                 </a>
+                </div>
               </div>
               <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
+              <div id="tooltip">
+                <span className="tooltiptext"> Click to get More Info </span>
               <a href="#position_2">
                 <div className="row infinite-item item">
                 <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
@@ -334,9 +339,12 @@ class Recommendation extends React.Component {
                   }
                 </div>
                 </a>
+                </div>
               </div>
               <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
+              <div id="tooltip">
+                <span className="tooltiptext"> Click to get More Info </span>
               <a href="#position_3">
                 <div className="row infinite-item item">
                 <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><p>Modeling</p></div>
@@ -351,9 +359,12 @@ class Recommendation extends React.Component {
                   }
                 </div>
                 </a>
+                </div>
               </div>
               <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
+              <div id="tooltip">
+                <span className="tooltiptext"> Click to get More Info </span>
               <a href="#position_4">
                 <div className="row infinite-item item">
                 <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><p>Model Modification</p></div>
@@ -371,7 +382,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
-
+            </div>
             </div>
               <div className="infinite-container text-center" id="position_1">
                 <div className="row infinite-item item">
