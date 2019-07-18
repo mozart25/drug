@@ -266,7 +266,7 @@ class Recommendation extends React.Component {
   goToProcess = () => {
     this.setState(
       {
-        process1: !this.state.process1
+        process1: true
     }
   )
 }
@@ -274,7 +274,7 @@ class Recommendation extends React.Component {
   goToProcess2 = () => {
     this.setState(
       {
-        process2: !this.state.process2
+        process2: true
     }
   )
   }
@@ -282,7 +282,7 @@ class Recommendation extends React.Component {
   goToProcess3 = () => {
     this.setState(
       {
-        process3: !this.state.process3
+        process3: true
     }
   )
   }
@@ -679,7 +679,7 @@ class Recommendation extends React.Component {
 
                             </li>
 
-                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox9" onClick={this.handleClick9}/> <label for="checkbox9"></label></div> ICA
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox10" onClick={this.handleClick10}/> <label for="checkbox10"></label></div> ICA
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
