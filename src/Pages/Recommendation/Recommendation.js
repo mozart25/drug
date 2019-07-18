@@ -330,7 +330,7 @@ class Recommendation extends React.Component {
             <div className="process-wrapper">
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click to get More Info </span>
+                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
                 <a href="#position_1">
                   <div className="row infinite-item item">
                       <div className="item-header" style={{cursor:"pointer"}} ><p>Data Preparation</p></div>
@@ -350,7 +350,7 @@ class Recommendation extends React.Component {
               <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click to get More Info </span>
+                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
               <a href="#position_2">
                 <div className="row infinite-item item">
                 <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
@@ -372,7 +372,7 @@ class Recommendation extends React.Component {
               <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click to get More Info </span>
+                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
               <a href="#position_3">
                 <div className="row infinite-item item">
                 <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><p>Modeling</p></div>
@@ -392,7 +392,7 @@ class Recommendation extends React.Component {
               <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click to get More Info </span>
+                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
               <a href="#position_4">
                 <div className="row infinite-item item">
                 <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><p>Model Modification</p></div>

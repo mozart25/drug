@@ -493,14 +493,11 @@ button {
  }
 }
 
-
 .process-wrapper .infinite-container:hover .row{
   -webkit-filter: blur(3px);
   filter: blur(3px);
   background-color: #F0F0F0;
 }
-
-
 
 #tooltip {
   position: relative;
@@ -510,10 +507,11 @@ button {
 }
 
 #tooltip .tooltiptext {
+  text-decoration: underline;
+  font-weight: 800;
   visibility: hidden;
   width: 190px;
-  background-color: #FF00FF;
-  color: #fff;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -524,7 +522,10 @@ button {
   margin-left: -60px;
 
   opacity: 0;
-  transition: opacity 5s;
+}
+
+.tooltip-sub {
+  color: grey;
 }
 
 #tooltip .tooltiptext::after {
