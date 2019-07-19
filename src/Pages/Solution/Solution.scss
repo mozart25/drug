@@ -1,0 +1,40 @@
+@import "Style/_global.scss";
+
+.solution-container {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: white;
+  min-height: 100vh;
+  overflow: hidden;
+
+}
+
+.main-container {
+   .sol-row {
+    width: 100%;
+  }
+}
+
+
+.solution-page-title {
+  text-align: center;
+  color: black;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+
+.sol-col-lg-6 {
+  width: 82%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sol-title {
+
+  h1 {
+    font-size: 35px;
+  }
+}
