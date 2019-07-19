@@ -512,7 +512,7 @@ class Recommendation extends React.Component {
                                       <table>
                                         <tbody>
                                           <tr className="contents-table">
-                                            <p><span>Word2vec</span>{` models where vectors of closely
+                                            <p style={{height:'79px'}}><span>Word2vec</span>{` models where vectors of closely
                                                 related words are in close proximity in the vector space, Mol2vec
                                                 learns vector representations of molecular substructures that are
                                                 pointing in similar directions for chemically related substructures.`}</p>
@@ -643,9 +643,11 @@ class Recommendation extends React.Component {
                                           that uses an orthogonal transformation to convert a set of observations
                                           of possibly correlated variables (entities each of which takes on various
                                              numerical values) into a set of values of linearly uncorrelated variables
-                                             called principal components.
-
-                                            source : https://en.wikipedia.org/wiki/Principal_component_analysis`}</p>
+                                             called principal components.`}
+                                         </p>
+                                          <a  href="https://en.wikipedia.org/wiki/Principal_component_analysis">
+                                            <p className="wiki">From Wikipedia</p>
+                                          </a>
                                       </tr>
                                     </tbody>
                                   </table>
@@ -689,6 +691,9 @@ class Recommendation extends React.Component {
                                             usually a signal that is composed of the numerical addition, at each time t,
                                             of signals from several sources. The question then is whether it is possible
                                             to separate these contributing sources from the observed total signal.`}</p>
+                                        <a  href="https://en.wikipedia.org/wiki/Independent_component_analysis">
+                                          <p className="wiki">From Wikipedia</p>
+                                        </a>
                                       </tr>
                                     </tbody>
                                   </table>
@@ -753,6 +758,9 @@ class Recommendation extends React.Component {
                                         algorithm builds a model that assigns new examples to one category or the other,
                                         making it a non-probabilistic binary linear classifier.
                                         source : https://en.wikipedia.org/wiki/Support-vector_machine`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Support-vector_machine">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -794,9 +802,10 @@ class Recommendation extends React.Component {
                                       <p>{`A `}<span>decision tree</span>{` is a decision support tool that uses a tree-like
                                         model of decisions and their possible consequences, including chance
                                         event outcomes, resource costs, and utility. It is one way to display
-                                        an algorithm that only contains conditional control statements.
-
-                                        source : https://en.wikipedia.org/wiki/Decision_tree`}</p>
+                                        an algorithm that only contains conditional control statements.`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Decision_tree">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -841,6 +850,9 @@ class Recommendation extends React.Component {
                                           input nodes, each node is a neuron that uses a nonlinear activation
                                           function. MLP utilizes a supervised learning technique called backpropagate
                                           on for training.`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Multilayer_perceptron">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -883,6 +895,9 @@ class Recommendation extends React.Component {
                                         a temporal sequence. This allows it to exhibit temporal dynamic behavior.
                                         Unlike feedforward neural networks, RNNs can use their internal state
                                         (memory) to process sequences of inputs.`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Recurrent_neural_network">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -1104,8 +1119,10 @@ class Recommendation extends React.Component {
                                         reducing overfitting in neural networks by preventing complex
                                         co-adaptations on training data. It is a very efficient way of
                                         performing model averaging with neural networks. The term "dropout"
-                                        refers to dropping out units (both hidden and visible) in a neural network
-                                        Source : https://en.wikipedia.org/wiki/Dropout_(neural_networks)`}</p>
+                                        refers to dropping out units (both hidden and visible) in a neural network`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Dropout_(neural_networks)">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
