@@ -1,6 +1,6 @@
 @import "Style/_global.scss";
 
-.btn {
+.btn-finish {
   background-color: DodgerBlue;
   border: none;
   color: white;
@@ -9,6 +9,6 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-finish:hover {
   background-color: RoyalBlue;
 }
