@@ -997,12 +997,10 @@ class Recommendation extends React.Component {
                                   </div>
                                 </div>
 
-
-
                               </li>
                             </ol>
                           <li id="top-list"> Optimization </li>
-                            <ol style={{paddingLeft: '18px'}}>
+                            <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox17" onClick={this.handleClick17}/> <label id="rec" for="checkbox17"></label></div> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                               <div className="contents-wrapper">
@@ -1101,7 +1099,7 @@ class Recommendation extends React.Component {
 
                             </li>
                             </ol>
-                          <li style={{listStyle: "none"}}id="top-list"><div className="round"><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> 
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
