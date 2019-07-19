@@ -20,14 +20,12 @@ class Search extends React.Component {
         <header className="header-bg">
           <Navigation />
         </header>
-
         <main role="search" className="main-wrapper">
           <div className="main-comment">
             <p>
               {`Drug-Drug Interaction Integrated Database`}
             </p>
           </div>
-
           <div>
             <SearchDrug
             />
@@ -35,7 +33,7 @@ class Search extends React.Component {
         </main>
         <div className="main-bg">
           <div className="main-picture">
-            <img src={require(`./database.png`)} alt=""/>
+            <img src={require(`./database_purple.png`)} alt=""/>
           </div>
         </div>
         <footer className="footer-wrapper">

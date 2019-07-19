@@ -425,7 +425,7 @@ class Recommendation extends React.Component {
                               <li > Structured Data </li>
                                 <ol>
                                   <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox1" onClick={this.handleClick1}/> <label for="checkbox1"></label></div> Drug Information Data <FaStar color={'#ffd700'}/></li>
-                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Real drug-drug-information occurrence data </li>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Drug-Drug Interaction Real World Data </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
@@ -512,7 +512,7 @@ class Recommendation extends React.Component {
                                       <table>
                                         <tbody>
                                           <tr className="contents-table">
-                                            <p>{`Word2vec models where vectors of closely
+                                            <p style={{height:'79px'}}><span>Word2vec</span>{` models where vectors of closely
                                                 related words are in close proximity in the vector space, Mol2vec
                                                 learns vector representations of molecular substructures that are
                                                 pointing in similar directions for chemically related substructures.`}</p>
@@ -561,8 +561,8 @@ class Recommendation extends React.Component {
                                         <p>{`This paper shows that a combination of our method of over-sampling the minority
                                           (abnormal) class and under-sampling the majority (normal) class can achieve better
                                           classifier performance (in ROC space) than only under-sampling the majority class.
-                                          Our method of over-sampling the minority class involves creating synthetic minority
-                                          class examples. `}</p>
+                                          Our method of `} <span>over-sampling the minority class involves creating synthetic minority
+                                          class examples. </span> </p>
                                       </tr>
                                     </tbody>
                                   </table>
@@ -588,7 +588,6 @@ class Recommendation extends React.Component {
                                       </ion-icon> Code
                                     </a>
                                     <br />
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -602,8 +601,8 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p>{`This paper presents a word embedding based oversampling method.
-                                            Firstly, a large-scale text corpus is used to train a continuous
+                                        <p>{`This paper presents a `}<span>word embedding based oversampling method.</span>
+                                            {`Firstly, a large-scale text corpus is used to train a continuous
                                             skip-gram model in order to form word embedding. A feature selection
                                             and linear combination algorithm is developed to construct text
                                             representation vector from word embedding.`}</p>
@@ -622,7 +621,7 @@ class Recommendation extends React.Component {
                                       </ion-icon> Paper
                                     </a>
                                     <br />
-
+                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -640,13 +639,15 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p>{`Principal component analysis (PCA) is a statistical procedure
+                                        <p><span>Principal component analysis (PCA)</span>{` is a statistical procedure
                                           that uses an orthogonal transformation to convert a set of observations
                                           of possibly correlated variables (entities each of which takes on various
                                              numerical values) into a set of values of linearly uncorrelated variables
-                                             called principal components.
-
-                                            source : https://en.wikipedia.org/wiki/Principal_component_analysis`}</p>
+                                             called principal components.`}
+                                         </p>
+                                          <a  href="https://en.wikipedia.org/wiki/Principal_component_analysis">
+                                            <p className="wiki">From Wikipedia</p>
+                                          </a>
                                       </tr>
                                     </tbody>
                                   </table>
@@ -672,7 +673,6 @@ class Recommendation extends React.Component {
                                       </ion-icon> Code
                                     </a>
                                     <br />
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -686,11 +686,14 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p>{`Independent component analysis attempts to decompose a multivariate
+                                        <p><span>Independent component analysis (ICA)</span>{` attempts to decompose a multivariate
                                             signal into independent non-Gaussian signals. As an example, sound is
                                             usually a signal that is composed of the numerical addition, at each time t,
                                             of signals from several sources. The question then is whether it is possible
                                             to separate these contributing sources from the observed total signal.`}</p>
+                                        <a  href="https://en.wikipedia.org/wiki/Independent_component_analysis">
+                                          <p className="wiki">From Wikipedia</p>
+                                        </a>
                                       </tr>
                                     </tbody>
                                   </table>
@@ -715,7 +718,6 @@ class Recommendation extends React.Component {
                                         </div>
                                       </ion-icon> Code
                                     </a>
-                                    <br />
                                     <br />
                                   </div>
                                 </div>
@@ -749,13 +751,16 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p>{`Support-vector machines are supervised learning
+                                      <p><span>Support-vector machines</span>{` are supervised learning
                                         models with associated learning algorithms that analyze data used for
                                         classification and regression analysis. Given a set of training examples,
                                         each marked as belonging to one or the other of two categories, an SVM training
                                         algorithm builds a model that assigns new examples to one category or the other,
                                         making it a non-probabilistic binary linear classifier.
                                         source : https://en.wikipedia.org/wiki/Support-vector_machine`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Support-vector_machine">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -787,7 +792,6 @@ class Recommendation extends React.Component {
                             </div>
                           </li>
 
-
                           <li id="top-list"><div className="round"><input type="checkbox" id="checkbox12" onClick={this.handleClick12}/> <label id="rec" for="checkbox12"></label></div> Decision Trees
 
                             <div className="contents-wrapper">
@@ -795,12 +799,13 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p>{`A decision tree is a decision support tool that uses a tree-like
+                                      <p>{`A `}<span>decision tree</span>{` is a decision support tool that uses a tree-like
                                         model of decisions and their possible consequences, including chance
                                         event outcomes, resource costs, and utility. It is one way to display
-                                        an algorithm that only contains conditional control statements.
-
-                                        source : https://en.wikipedia.org/wiki/Decision_tree`}</p>
+                                        an algorithm that only contains conditional control statements.`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Decision_tree">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -839,10 +844,15 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p>{`Similarly, to the Word2vec models where vectors of closely
-                                          related words are in close proximity in the vector space, Mol2vec
-                                          learns vector representations of molecular substructures that are
-                                          pointing in similar directions for chemically related substructures.`}</p>
+                                      <p>{`A `}<span>multilayer perceptron (MLP)</span>{` is a class of feedforward artificial
+                                          neural network. A MLP consists of at least three layers of nodes:
+                                          an input layer, a hidden layer and an output layer. Except for the
+                                          input nodes, each node is a neuron that uses a nonlinear activation
+                                          function. MLP utilizes a supervised learning technique called backpropagate
+                                          on for training.`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Multilayer_perceptron">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -880,10 +890,14 @@ class Recommendation extends React.Component {
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p>{`Similarly, to the Word2vec models where vectors of closely
-                                          related words are in close proximity in the vector space, Mol2vec
-                                          learns vector representations of molecular substructures that are
-                                          pointing in similar directions for chemically related substructures.`}</p>
+                                      <p>{`A `}<span>recurrent neural network (RNN)</span>{` is a class of artificial neural
+                                        networks where connections between nodes form a directed graph along
+                                        a temporal sequence. This allows it to exhibit temporal dynamic behavior.
+                                        Unlike feedforward neural networks, RNNs can use their internal state
+                                        (memory) to process sequences of inputs.`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Recurrent_neural_network">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -908,7 +922,6 @@ class Recommendation extends React.Component {
                                       </div>
                                     </ion-icon> Code
                                   </a>
-                                  <br />
                                 </div>
                               </div>
                             </div>
@@ -943,8 +956,8 @@ class Recommendation extends React.Component {
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
-                                          <p>{`Horizontal Vot-ing Vertical Voting and Horizontal Stacked
-                                              Ensemble methods to improve the classification performance of
+                                          <p><span>Horizontal Vot-ing Vertical Voting and Horizontal Stacked
+                                              Ensemble</span>{` methods to improve the classifica-tion performance of
                                               deep neural networks.`}</p>
                                         </tr>
                                       </tbody>
@@ -960,8 +973,6 @@ class Recommendation extends React.Component {
                                           </div>
                                         </ion-icon> Paper
                                       </a>
-                                      <br />
-                                      <br />
                                     </div>
                                   </div>
                                 </div>
@@ -974,9 +985,9 @@ class Recommendation extends React.Component {
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
-                                          <p>{`Horizontal Vot-ing Vertical Voting and Horizontal Stacked
-                                              Ensemble methods to improve the classification performance of
-                                              deep neural networks.`}</p>
+                                          <p>{`A `}<span>modeling averaging ensemble</span>{` combines the prediction from
+                                              each model equally and often results in better performance on
+                                              average than a given single model.`}</p>
                                         </tr>
                                       </tbody>
                                     </table>
@@ -991,7 +1002,6 @@ class Recommendation extends React.Component {
                                           </div>
                                         </ion-icon> Blog
                                       </a>
-                                      <br />
                                       <br />
                                     </div>
                                   </div>
@@ -1008,7 +1018,7 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p>{`Learning rate is a hyper-parameter that controls how
+                                        <p><span>Learning rate</span>{` is a hyper-parameter that controls how
                                             much we are adjusting the weights of our network with respect
                                             the loss gradient. The lower the value, the slower we travel
                                             along the downward slope.`}</p>
@@ -1027,7 +1037,6 @@ class Recommendation extends React.Component {
                                       </ion-icon> Blog
                                     </a>
                                     <br />
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -1041,7 +1050,7 @@ class Recommendation extends React.Component {
                                     <tbody>
                                       <tr className="contents-table">
                                         <p>{`Unlike the learning rate hyper-parameter where its value
-                                            doesn’t affect computational time, batch size must be examined
+                                            doesn’t affect computational time, `}<span>batch size</span>{` must be examined
                                             in conjunction with the execution time of the training. The batch
                                             size is limited by your hardware’s memory, while the learning rate is not.`}</p>
                                       </tr>
@@ -1072,7 +1081,7 @@ class Recommendation extends React.Component {
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
-                                        <p>{`The optimal learning rate is dependent on the momentum and momentum
+                                        <p>{`The optimal learning rate is dependent on the `}<span>momentum</span> {`and momentum
                                             is dependent on the learning rate. Since learning rate is regarded as
                                             the most important hyper-parameter to tune then momentum is also important.
                                             Like learning rates, it is valuable to set momentum as large as possible
@@ -1099,19 +1108,21 @@ class Recommendation extends React.Component {
 
                             </li>
                             </ol>
-                          <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> 
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
-                                      <p>{`Dropout is a regularization technique patented by Google for
+                                      <p><span>Dropout</span>{` is a regularization technique patented by Google for
                                         reducing overfitting in neural networks by preventing complex
                                         co-adaptations on training data. It is a very efficient way of
                                         performing model averaging with neural networks. The term "dropout"
-                                        refers to dropping out units (both hidden and visible) in a neural network
-                                        Source : https://en.wikipedia.org/wiki/Dropout_(neural_networks)`}</p>
+                                        refers to dropping out units (both hidden and visible) in a neural network`}</p>
+                                      <a  href="https://en.wikipedia.org/wiki/Dropout_(neural_networks)">
+                                        <p className="wiki">From Wikipedia</p>
+                                      </a>
                                     </tr>
                                   </tbody>
                                 </table>
