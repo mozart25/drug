@@ -425,7 +425,7 @@ class Recommendation extends React.Component {
                               <li > Structured Data </li>
                                 <ol>
                                   <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox1" onClick={this.handleClick1}/> <label for="checkbox1"></label></div> Drug Information Data <FaStar color={'#ffd700'}/></li>
-                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Real drug-drug-information occurrence data </li>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Drug-Drug Interaction Real World Data </li>
                                 </ol>
                             </ol>
                             <ol style={{paddingLeft: '18px'}}>
@@ -1099,7 +1099,7 @@ class Recommendation extends React.Component {
 
                             </li>
                             </ol>
-                          <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> 
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">

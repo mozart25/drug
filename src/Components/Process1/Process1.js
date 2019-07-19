@@ -13,7 +13,7 @@ class Process1 extends React.Component {
                     <li id="top-list-process"> Structured Data </li>
                       <ol style={{paddingLeft: '10px'}}>
                         <li style={{listStyle: 'circle', fontSize: '15px'}}> Drug Information Data </li>
-                        <li style={{listStyle: 'circle', fontSize: '14px'}}> Real drug-drug-information occurrence data</li>
+                        <li style={{listStyle: 'circle', fontSize: '14px'}}> Drug-Drug Interaction Real World Data</li>
                       </ol>
                   </ol>
                   <ol style={{paddingLeft: '10px'}}>
