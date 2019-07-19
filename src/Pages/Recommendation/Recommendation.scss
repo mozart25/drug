@@ -296,6 +296,10 @@ ion-icon svg {
   font-size: 17px;
   font-weight: 700;
   margin-top: 15px;
+
+  P {
+    font-weight: 300;
+  }
 }
 
 #top-list-process {
@@ -314,7 +318,7 @@ ion-icon svg {
 
 .contents-wrapper {
   margin-top: 10px;
-  width: 85%;
+  width: 97%;
 
   .b-active {
       border-color: #5b616b !important;
@@ -355,6 +359,10 @@ ion-icon svg {
 
   #contents-head {
     text-decoration: underline;
+  }
+
+  span {
+    font-weight: 800;
   }
 }
 
