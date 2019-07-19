@@ -266,7 +266,7 @@ class Recommendation extends React.Component {
   goToProcess = () => {
     this.setState(
       {
-        process1: !this.state.process1
+        process1: true
     }
   )
 }
@@ -274,7 +274,7 @@ class Recommendation extends React.Component {
   goToProcess2 = () => {
     this.setState(
       {
-        process2: !this.state.process2
+        process2: true
     }
   )
   }
@@ -282,7 +282,7 @@ class Recommendation extends React.Component {
   goToProcess3 = () => {
     this.setState(
       {
-        process3: !this.state.process3
+        process3: true
     }
   )
   }
@@ -330,7 +330,7 @@ class Recommendation extends React.Component {
             <div className="process-wrapper">
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
+                <span className="tooltiptext"> Click here → <p className="tooltip-sub">PREVIEW</p></span>
                 <a href="#position_1">
                   <div className="row infinite-item item">
                       <div className="item-header" style={{cursor:"pointer"}} ><p>Data Preparation</p></div>
@@ -347,13 +347,13 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
+              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
+                <span className="tooltiptext"> Click here → <p className="tooltip-sub">PREVIEW</p></span>
               <a href="#position_2">
                 <div className="row infinite-item item">
-                <div className="item-header" id="data-preprocessing" style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
+                <div className="item-header" id={`${this.state.process1 ? "data-preprocessing" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
 
                   {this.state.process1 === false || this.state.clicked2 > 0 ?
                     <Choice2
@@ -369,13 +369,13 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
+              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
+                <span className="tooltiptext"> Click here →   <p className="tooltip-sub">PREVIEW</p></span>
               <a href="#position_3">
                 <div className="row infinite-item item">
-                <div className="item-header" id="modeling" style={{cursor:"pointer"}} ><p>Modeling</p></div>
+                <div className="item-header" id={`${this.state.process2 ? "modeling" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Modeling</p></div>
                   { this.state.process2 === false || this.state.clicked3 > 0 ?
                     <Choice3
                     s11={this.state.view11}
@@ -389,13 +389,13 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#D8BFD8', height: '370px' }} />
+              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> START HERE → <span className="tooltip-sub">PREVIEW</span></span>
+                <span className="tooltiptext"> Click here → <p className="tooltip-sub">PREVIEW</p></span>
               <a href="#position_4">
                 <div className="row infinite-item item">
-                <div className="item-header" id="model-modification" style={{cursor:"pointer"}} ><p>Model Modification</p></div>
+                <div className="item-header" id={`${this.state.process3 ? "model-modification" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Model Modification</p></div>
                   { this.state.process3 === false || this.state.clicked4 > 0 ?
                     <Choice4
                     s15={this.state.view15}
@@ -679,7 +679,7 @@ class Recommendation extends React.Component {
 
                             </li>
 
-                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox9" onClick={this.handleClick9}/> <label for="checkbox9"></label></div> ICA
+                            <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox10" onClick={this.handleClick10}/> <label for="checkbox10"></label></div> ICA
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
@@ -997,12 +997,10 @@ class Recommendation extends React.Component {
                                   </div>
                                 </div>
 
-
-
                               </li>
                             </ol>
                           <li id="top-list"> Optimization </li>
-                            <ol style={{paddingLeft: '18px'}}>
+                            <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox17" onClick={this.handleClick17}/> <label id="rec" for="checkbox17"></label></div> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                               <div className="contents-wrapper">
@@ -1101,7 +1099,7 @@ class Recommendation extends React.Component {
 
                             </li>
                             </ol>
-                          <li style={{listStyle: "none"}}id="top-list"><div className="round"><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> 
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">

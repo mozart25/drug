@@ -4,7 +4,7 @@ import './FinishButton.scss'
 class FinishButton extends React.Component {
   render() {
     return (
-        <button className="btn">선택 완료</button>
+        <button className="btn-finish">Selected</button>
     )
   }
 }
