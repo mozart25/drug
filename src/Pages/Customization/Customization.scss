@@ -1,0 +1,53 @@
+@import "Style/_global.scss";
+
+
+
+.custom-wrapper {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.custom-main {
+  min-height: 40vh;
+  background-color: #6C0BA9;
+
+  .c-main-wrapper {
+    padding: 50px;
+
+    h1 {
+      font-size: 40px;
+      font-family: 'Gilroy-Bold';
+      color: #fff;
+      line-height: 56px;
+      letter-spacing: 0;
+      margin: 0;
+      font-weight: 800;
+      margin-bottom: 80px;
+    }
+
+    h2 {
+      font-size: 56px;
+      font-family: 'Gilroy-Bold';
+      color: #fff;
+      line-height: 64px;
+      letter-spacing: 0;
+      font-weight: 900;
+      margin-bottom: 20px;
+
+    }
+
+    p {
+      font-size: 20px;
+      color: #fff;
+    }
+  }
+}
+
+.custom-survey {
+  .s-wapper {
+
+    section {
+      padding: 40px;
+    }
+  }
+}
