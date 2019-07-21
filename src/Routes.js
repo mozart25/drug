@@ -18,6 +18,7 @@ import Recommendation from 'Pages/Recommendation/Recommendation';
 import Solution from 'Pages/Solution/Solution';
 import Sub from 'Pages/Solution/Sub';
 import Customization from 'Pages/Customization/Customization';
+import Supercomputer from 'Pages/Supercomputer/Supercomputer';
 
 
 class Routes extends React.Component {
@@ -39,6 +40,7 @@ class Routes extends React.Component {
           <Route exact path="/solution" component={Solution} />
           <Route exact path="/sub" component={Sub} />
           <Route exact path="/customization" component={Customization} />
+          <Route exact path="/supercomputer" component={Supercomputer} />
         </Switch>
       </Router>
     );
