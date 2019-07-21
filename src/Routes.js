@@ -17,6 +17,8 @@ import Valsartan from 'Pages/Drug/Valsartan';
 import Recommendation from 'Pages/Recommendation/Recommendation';
 import Solution from 'Pages/Solution/Solution';
 import Sub from 'Pages/Solution/Sub';
+import Customization from 'Pages/Customization/Customization';
+
 
 class Routes extends React.Component {
   render() {
@@ -36,6 +38,7 @@ class Routes extends React.Component {
           <Route exact path="/recommendation" component={Recommendation} />
           <Route exact path="/solution" component={Solution} />
           <Route exact path="/sub" component={Sub} />
+          <Route exact path="/customization" component={Customization} />
         </Switch>
       </Router>
     );
