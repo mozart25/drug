@@ -16,12 +16,9 @@ class SelectionButton extends React.Component {
               {this.props.service}
             </div>
             <small>
-              <span className="badge badge-success">곱하기</span>
-              <span className="badge badge-dark text-white">
-                1.0배
-              </span>
+              <span className="badge badge-dark text-white">{this.props.addition}</span>
             </small>
-            <div className="muted small mt-1">PC와 모바일에서 모두 대응하도록 제작하지만 웹앱과 비교해 모바일에서 사용성이 떨어집니다</div>
+            <div className="muted small mt-1">각 선택지에 대한 상세 설명을 달아 놓을 가능성을 고려하여 임시로 세팅</div>
           </div>
         </label>
       </div>
