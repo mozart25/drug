@@ -442,8 +442,8 @@ class Recommendation extends React.Component {
                             </ol>
                           <li id="top-list"> Data Source </li>
                             <ol style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'circle'}}><p id="badge-link"><span className="badge badge-primary">DrugBank</span></p></li>
-                              <li style={{listStyle: 'circle'}}><p id="badge-link"><span className="badge badge-primary">PubChem</span></p></li>
+                              <li style={{listStyle: 'none'}}><p id="badge-link"><span className="badge badge-primary">DrugBank</span></p></li>
+                              <li style={{listStyle: 'none'}}><p id="badge-link"><span className="badge badge-primary">PubChem</span></p></li>
                             </ol>
                         </ol>
                         <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
@@ -756,8 +756,7 @@ class Recommendation extends React.Component {
                                         classification and regression analysis. Given a set of training examples,
                                         each marked as belonging to one or the other of two categories, an SVM training
                                         algorithm builds a model that assigns new examples to one category or the other,
-                                        making it a non-probabilistic binary linear classifier.
-                                        source : https://en.wikipedia.org/wiki/Support-vector_machine`}</p>
+                                        making it a non-probabilistic binary linear classifier.`}</p>
                                       <a  href="https://en.wikipedia.org/wiki/Support-vector_machine">
                                         <p className="wiki">From Wikipedia</p>
                                       </a>
@@ -956,8 +955,8 @@ class Recommendation extends React.Component {
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
-                                          <p><span>Horizontal Vot-ing Vertical Voting and Horizontal Stacked
-                                              Ensemble</span>{` methods to improve the classifica-tion performance of
+                                          <p><span>Horizontal Voting Vertical Voting and Horizontal Stacked
+                                              Ensemble</span>{` methods to improve the classification performance of
                                               deep neural networks.`}</p>
                                         </tr>
                                       </tbody>
