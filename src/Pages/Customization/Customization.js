@@ -1,5 +1,6 @@
 import React from 'react';
 import './Customization.scss';
+import SelectionButton from '../../Components/Button/SelectionButton'
 
 
 class Customization extends React.Component {
@@ -38,7 +39,13 @@ class Customization extends React.Component {
              </section>
 
              <section>
-              <p>what is your current occupation?</p>
+              <h3>what is your current occupation?</h3>
+              <SelectionButton
+              service="Pharmaceutical industry researcher"
+              name='148'/>
+              <SelectionButton
+              service="Pharmaceutical industry researcher"
+              name="148"/>
              </section>
 
              <section>
