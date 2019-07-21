@@ -38,8 +38,11 @@ class Customization extends React.Component {
 
              </section>
              <div className="question-container">
+
+             <hr/>
+
                <section className="q-quatro">
-                  <h3 style={{marginBottom:'30px'}}>What is your current occupation?</h3>
+                  <h3 style={{marginBottom:'12px'}}>What is your current occupation?</h3>
                   <SelectionButton
                   service="Pharmaceutical industry researcher"
                   name='100'/>
@@ -55,7 +58,7 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}>What is the purpose of your AI development? </h3>
+                <h3 style={{marginBottom: '12px'}}>What is the purpose of your AI development? </h3>
                 <SelectionButton
                 service="Commercial use"
                 name='101'/>
@@ -65,7 +68,7 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}>Do you have any data for analysis?</h3>
+                <h3 style={{marginBottom: '12px'}}>Do you have any data for analysis?</h3>
                 <SelectionButton
                 service="Yes"
                 name='102'/>
@@ -77,7 +80,7 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}> What type of data do you want to analyze? </h3>
+                <h3 style={{marginBottom: '12px'}}> What type of data do you want to analyze? </h3>
                 <SelectionButton
                 service="Structured data"
                 name='103'
@@ -96,7 +99,7 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}> What is the size of your data? </h3>
+                <h3 style={{marginBottom: '12px'}}> What is the size of your data? </h3>
                 <SelectionButton
                 service="x < 10GB"
                 name='104'/>
@@ -112,13 +115,15 @@ class Customization extends React.Component {
                 />
                </section>
 
+               <hr/>
+
                <section>
-                <h3 style={{marginBottom: '30px'}}>  Have you preprocessed your data?  </h3>
-                <p style={{fontSize: '17px', marginBottom: '30px'}}>Data preprocessing usually takes such a long time. If you already have techniques to preprocess, we can help with that. Also, we will find right techniques for you if you don’t have. </p>
+                <h3 style={{marginBottom: '12px'}}>  Have you preprocessed your data?  </h3>
+                <p id="header-explain">Data preprocessing usually takes such a long time. If you already have techniques to preprocess, we can help with that. Also, we will find right techniques for you if you don’t have. </p>
                 <ul className='preprocess-list'>
                   <li>
-                    <h3 style={{marginBottom: '30px', marginTop: '20px'}}> Do you need data cleansing? </h3>
-                    <p>Let’s assume that you have text data. Your data include the dirty parts caused grammatical errors or typos. We help you with detecting and correcting corrupt and inaccurate data and replace with accurate and validate data. </p>
+                    <h3 style={{marginBottom: '12px', marginTop: '20px'}}> Do you need data cleansing? </h3>
+                    <p id="header-explain">Let’s assume that you have text data. Your data include the dirty parts caused grammatical errors or typos. We help you with detecting and correcting corrupt and inaccurate data and replace with accurate and validate data. </p>
                     <SelectionButton
                     service="Yes"
                     name="105"
@@ -129,8 +134,8 @@ class Customization extends React.Component {
                     name="105"/>
                   </li>
                   <li>
-                    <h3 style={{marginBottom: '30px'}}> Do you need to deal with the missing values? </h3>
-                    <p>Although your data contain the missing values, we will provide an optimal solution to deal with them. This process might increase the accuracy of model.</p>
+                    <h3 style={{marginBottom: '12px'}}> Do you need to deal with the missing values? </h3>
+                    <p id="header-explain">Although your data contain the missing values, we will provide an optimal solution to deal with them. This process might increase the accuracy of model.</p>
                     <SelectionButton
                     service="Yes"
                     name="106"
@@ -143,12 +148,14 @@ class Customization extends React.Component {
                 </ul>
                </section>
 
+               <hr/>
+
                <section>
-                <h3 style={{marginBottom: '30px'}}>  Which model do you want to use?  </h3>
-                <p>Machine learning and deep learning are two main categories of AI model.</p>
-                <p>Machine learning : The methods which give power to the systems to automatically determine and boost from experience without being particularly programmed.</p>
-                <p>Deep learning : The methods which  automatically acquires representation of information from datasets which contain images, video or text, without recommending well-programmed rules or human domain expertise.</p>
-                <p>With our experiences and know-how, we will provide the best learning model according to your study. Also, the related materials such as code, preliminary research paper will be provided.</p>
+                <h3 style={{marginBottom: '12px'}}>  Which model do you want to use?  </h3>
+                <p id="header-explain">Machine learning and deep learning are two main categories of AI model.</p>
+                <p id="header-explain"><span id='h-e-bold'>Machine learning</span> : The methods which give power to the systems to automatically determine and boost from experience without being particularly programmed.</p>
+                <p id="header-explain"><span id='h-e-bold'>Deep learning</span> : The methods which  automatically acquires representation of information from datasets which contain images, video or text, without recommending well-programmed rules or human domain expertise.</p>
+                <p id="header-explain">With our experiences and know-how, we will provide the best learning model according to your study. Also, the related materials such as code, preliminary research paper will be provided.</p>
                </section>
                <SelectionButton
                service="Machine learning only"
@@ -160,8 +167,8 @@ class Customization extends React.Component {
                name="107"/>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}> Do you want us to fit the model?</h3>
-                <p>This process is called “model training”. We will provide fitting and result from model selection.</p>
+                <h3 style={{marginBottom: '12px'}}> Do you want us to fit the model?</h3>
+                <p id="header-explain">This process is called “model training”. We will provide fitting and result from model selection.</p>
                 <SelectionButton
                 service="Yes"
                 name="108"
@@ -173,8 +180,8 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}>  Do you want us to validate & verify your model?  </h3>
-                <p>This process is called “model verification”. We will provide a robust model through work such as hyperparameter tuning, ensemble, optimization, etc.</p>
+                <h3 style={{marginBottom: '12px'}}>  Do you want us to validate & verify your model?  </h3>
+                <p id="header-explain">This process is called “model verification”. We will provide a robust model through work such as hyperparameter tuning, ensemble, optimization, etc.</p>
                 <SelectionButton
                 service="Yes"
                 name="113"
@@ -185,7 +192,7 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}>  Do you want to get results compared to other models?  </h3>
+                <h3 style={{marginBottom: '12px'}}>  Do you want to get results compared to other models?  </h3>
                 <SelectionButton
                 service="Yes"
                 name="109"
@@ -197,7 +204,7 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}>  Do you want to receive graphs that visualize data and model?  </h3>
+                <h3 style={{marginBottom: '12px'}}>  Do you want to receive graphs that visualize data and model?  </h3>
                 <SelectionButton
                 service="Yes"
                 name="110"
@@ -208,7 +215,7 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '30px'}}>  Do you want to receive a report including the analysis results?   </h3>
+                <h3 style={{marginBottom: '12px'}}>  Do you want to receive a report including the analysis results?   </h3>
                 <SelectionButton
                 service="Yes"
                 name="112"
