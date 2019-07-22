@@ -8,8 +8,10 @@ class Supercomputer extends React.Component {
       <div className='supercomputer-container'>
         <div className='s-main'>
           <div className='s-main-wrapper'>
+            <hr className="s-interior"/>
             <h1> Easy Supercomputer use Service </h1>
           </div>
+
 
           <div className='s-main-introduce'>
             <h2>Optimize Parallel Computer Use</h2>
