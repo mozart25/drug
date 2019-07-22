@@ -110,7 +110,10 @@
 }
 
 .s-memory-wrapper {
+  max-width: 280px;
   position: absolute;
-  top: 10px;
-  left: 10px; 
+  top: 32%;
+  left: 40%;
+  display: flex;
+  flex-wrap: wrap;
 }

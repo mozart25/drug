@@ -7,14 +7,17 @@ class Supercomputer extends React.Component {
 
   render() {
 
-    const percentage = 66;
+    const percentage_a = 66;
+    const percentage_b = 43;
+    const percentage_c = 85;
+    const percentage_d = 77;
 
     const Example = (props)=> {
       return (
           <div style={{ marginTop: 30, display: "flex" }}>
             <div style={{ width: 100 }}>{props.children}</div>
             <div style={{ marginLeft: 30 }}>
-              <h3 className="h5">{props.label}</h3>
+              <h3 className="p">{props.label}</h3>
               <p>{props.description}</p>
             </div>
           </div>
@@ -47,10 +50,37 @@ class Supercomputer extends React.Component {
         <div className="s-usage">
           <img src={require(`./mac.png`)} alt=""/>
           <div className="s-memory-wrapper">
-            <Example label="Square linecaps">
+            <Example>
               <CircularProgressbar
-                value={percentage}
-                text={`${percentage}%`}
+                value={percentage_a}
+                text={`${percentage_a}%`}
+                styles={buildStyles({
+                  strokeLinecap: "butt"
+                })}
+              />
+            </Example>
+            <Example>
+              <CircularProgressbar
+                value={percentage_b}
+                text={`${percentage_b}%`}
+                styles={buildStyles({
+                  strokeLinecap: "butt"
+                })}
+              />
+            </Example>
+            <Example>
+              <CircularProgressbar
+                value={percentage_c}
+                text={`${percentage_c}%`}
+                styles={buildStyles({
+                  strokeLinecap: "butt"
+                })}
+              />
+            </Example>
+            <Example>
+              <CircularProgressbar
+                value={percentage_d}
+                text={`${percentage_d}%`}
                 styles={buildStyles({
                   strokeLinecap: "butt"
                 })}
@@ -79,7 +109,6 @@ class Supercomputer extends React.Component {
             than in a single computer environment by utilizing the apex package
             provided by Nvida. BioAi will optimize parallelism in a variety of
             ways to provide users with a pleasant working environment.`}</p>
-
         </div>
       </div>
     );
