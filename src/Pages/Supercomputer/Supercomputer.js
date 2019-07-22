@@ -1,9 +1,26 @@
 import React from 'react';
 import './Supercomputer.scss';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import "react-circular-progressbar/dist/styles.css";
 
 class Supercomputer extends React.Component {
 
   render() {
+
+    const percentage = 66;
+
+    const Example = (props)=> {
+      return (
+          <div style={{ marginTop: 30, display: "flex" }}>
+            <div style={{ width: 100 }}>{props.children}</div>
+            <div style={{ marginLeft: 30 }}>
+              <h3 className="h5">{props.label}</h3>
+              <p>{props.description}</p>
+            </div>
+          </div>
+      );
+    }
+
     return (
       <div className='supercomputer-container'>
         <div className='s-main'>
@@ -12,18 +29,34 @@ class Supercomputer extends React.Component {
             <h1> Easy Supercomputer use Service </h1>
           </div>
 
-
           <div className='s-main-introduce'>
             <h2>Optimize Parallel Computer Use</h2>
-            <p> Deep Learning models uses a lot of computational power. Because training a model with CPU takes such a long time, GPU is widely used. GPU performance has a great impact on the learning speed and performance of the model. However, since GPU's performance cannot grow indefinitely, optimization of performance by using parallel processing technology is in need. In multi-GPU situations, we, BioAI optimizes models through GPU parallel processing technology to maximize time, memory, and efficiency performance compared to single GPUs to maximize efficiency of its operation.</p>
+            <p> {`Deep Learning models uses a lot of computational power.
+                  Because training a model with CPU takes such a long time,
+                  GPU is widely used. GPU performance has a great impact on
+                  the learning speed and performance of the model. However,
+                  since GPU's performance cannot grow indefinitely, optimization
+                  of performance by using parallel processing technology is in need.
+                  In multi-GPU situations, we, BioAI optimizes models through GPU
+                  parallel processing technology to maximize time, memory, and
+                  efficiency performance compared to single GPUs to maximize
+                  efficiency of its operation.`}</p>
           </div>
-        </div>
-        <div>
-
         </div>
 
         <div className="s-usage">
           <img src={require(`./mac.png`)} alt=""/>
+          <div className="s-memory-wrapper">
+            <Example label="Square linecaps">
+              <CircularProgressbar
+                value={percentage}
+                text={`${percentage}%`}
+                styles={buildStyles({
+                  strokeLinecap: "butt"
+                })}
+              />
+            </Example>
+          </div>
         </div>
 
         <div className="s-footer">
