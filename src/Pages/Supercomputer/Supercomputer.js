@@ -25,6 +25,29 @@ class Supercomputer extends React.Component {
         <div className="s-usage">
           <img src={require(`./mac.png`)} alt=""/>
         </div>
+
+        <div className="s-footer">
+          <div className="s-footer-top">
+            <span className="s-footer-text"> BioAI</span>
+           </div>
+          <p>
+          {`BioAI performs GPU parallelization optimization in a variety of
+            ways to help users work faster. BioAI basically uses Pytorch tool
+            and applied data parallelism for work efficiency. In brief, the
+            data parallel operation, involves dividing the work by “scatter”
+            operation and aggregating the work by “gather” operation. After
+            a gather operation, computations performed on a specific GPU results
+            in memory imbalance and increases the inefficiency of the operation.
+            This will cause inefficiency of work.In order to reduce memory imbalance,
+            not perform operations on a specific gpu, but rather to combine them after
+            the operation ends on each GPU. Modify loss function will resolve these
+            problems. Finally, optimization through distributed learning can be done.
+            Distributed learning is optimized in multi-computer environments rather
+            than in a single computer environment by utilizing the apex package
+            provided by Nvida. BioAi will optimize parallelism in a variety of
+            ways to provide users with a pleasant working environment.`}</p>
+
+        </div>
       </div>
     );
   }
