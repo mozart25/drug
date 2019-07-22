@@ -2,7 +2,6 @@ import React from 'react';
 import './Customization.scss';
 import SelectionButton from '../../Components/Button/SelectionButton'
 
-
 class Customization extends React.Component {
 
   render() {

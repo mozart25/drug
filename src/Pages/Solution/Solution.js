@@ -41,7 +41,7 @@ class Solution extends React.Component {
               </div>
             </div>
             <div align='center'>
-              <iframe style={{border:'2px solid #D7A1F9', borderRadius: '10px'}} src="http://mzrt-drug-deploy.s3-website.ap-northeast-2.amazonaws.com/sub" height="421px" width="60%"></iframe>
+              <iframe style={{border:'0.5px solid lightgray'}} src="http://mzrt-drug-deploy.s3-website.ap-northeast-2.amazonaws.com/sub" height="421px" width="60%"></iframe>
             </div>
           </div>
         </div>
