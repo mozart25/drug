@@ -14,12 +14,21 @@ class Supercomputer extends React.Component {
 
     const Example = (props)=> {
       return (
-          <div style={{ marginTop: 30, display: "flex" }}>
-            <div style={{ width: 100 }}>{props.children}</div>
-            <div style={{ marginLeft: 30 }}>
-              <h3 className="p">{props.label}</h3>
-              <p>{props.description}</p>
+          <div className="s-c-example">
+            <div className="gpu-items-wrapper">
+              <span id ="gpu-items-text"> {props.value}</span>
+              <span id ="gpu-items-digit"> {`${percentage_a}MB`} </span>
             </div>
+            <p>{props.label}</p>
+              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="status-checking-box">
+                <div className="status-wrapper">
+                  <div className="status-box"></div> <span>used </span>
+                </div>
+                <div className="status-wrapper">
+                  <div className="status-box"></div> <span>Available </span>
+                </div>
+              </div>
           </div>
       );
     }
@@ -49,43 +58,49 @@ class Supercomputer extends React.Component {
 
         <div className="s-usage">
           <img src={require(`./mac.png`)} alt=""/>
+          <div className="s-gpu-wrapper">
+            <p className="s-gpu-service"> GPU </p>
+          </div>
           <div className="s-memory-wrapper">
-            <Example>
-              <CircularProgressbar
-                value={percentage_a}
-                text={`${percentage_a}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
-            <Example>
-              <CircularProgressbar
-                value={percentage_b}
-                text={`${percentage_b}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
-            <Example>
-              <CircularProgressbar
-                value={percentage_c}
-                text={`${percentage_c}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
-            <Example>
-              <CircularProgressbar
-                value={percentage_d}
-                text={`${percentage_d}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
+            <p className="s-m-service"> Memory </p>
+            <div className="s-m-progress-bar">
+              <Example value="GPU1">
+                <CircularProgressbar
+                  value={percentage_a}
+                  text={`${percentage_a}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt"
+                  })}
+                />
+              </Example>
+              <Example value="GPU2">
+                <CircularProgressbar
+                  value={percentage_b}
+                  text={`${percentage_b}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt"
+                  })}
+                />
+              </Example>
+              <Example value="GPU3">
+                <CircularProgressbar
+                  value={percentage_c}
+                  text={`${percentage_c}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt"
+                  })}
+                />
+              </Example>
+              <Example value="GPU4">
+                <CircularProgressbar
+                  value={percentage_d}
+                  text={`${percentage_d}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt"
+                  })}
+                />
+              </Example>
+            </div>
           </div>
         </div>
 
