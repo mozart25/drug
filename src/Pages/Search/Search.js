@@ -33,7 +33,7 @@ class Search extends React.Component {
         </main>
         <div className="main-bg">
           <div className="main-picture">
-            <img src={require(`./database_purple.png`)} alt=""/>
+            <img src={require(`./drug_database.png`)} alt=""/>
           </div>
         </div>
         <footer className="footer-wrapper">
