@@ -16,7 +16,7 @@ class Supercomputer extends React.Component {
   this.updateChart = this.updateChart.bind(this);
 
   this.state = {
-   gpuData:[]
+   gpuData:'',
   };
 }
   componentDidMount() {
@@ -80,6 +80,7 @@ class Supercomputer extends React.Component {
 				text: "CPU Usage",
         verticalAlign: "bottom",
         horizontalAlign: "left",
+        padding: 5,
 			},
 			axisY: {
 				title: "CPU Usage (GB)",
