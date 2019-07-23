@@ -30,15 +30,14 @@ class Supercomputer extends React.Component {
     var chart = this.chart;
     for (var i = 0; i < dps.length; i++) {
       deltaY = Math.round(2 + Math.random() *(-2-2));
-      yVal = deltaY + dps[i].y > 0 ? (deltaY + dps[i].y < 100 ? dps[i].y + deltaY : 100) : 0;
-      dpsColor = yVal >= 90 ? "#FD0E35" : yVal >= 70 ? "#FF6037" : yVal >= 50 ? "#00FEFE" : "#00e640";
+      yVal = deltaY + dps[i].y > 0 ? (deltaY + dps[i].y < 827 ? dps[i].y + deltaY : 827) : 0;
+      dpsColor = yVal >= 220 ? "#FD0E35" : yVal >= 210 ? "#FF6037" : yVal >= 200 ? "#00FEFE" : "#00e640";
       dps[i] = {label: "GPU "+(i+1) , y: yVal, color: dpsColor};
       dpsTotal += yVal;
       temp.push(dps[i])
     }
     chart.options.data[0].dataPoints = dps;
-
-    chart.options.title.text = "CPU Usage " + Math.round(dpsTotal / 6) + "%";
+    chart.options.title.text = "Total Usage " + dpsTotal + "GB";
     console.log("check dpsTotal", dpsTotal)
     chart.render()
   }
@@ -83,20 +82,20 @@ class Supercomputer extends React.Component {
         horizontalAlign: "left",
 			},
 			axisY: {
-				title: "CPU Usage (%)",
-				suffix: "%",
+				title: "CPU Usage (GB)",
+				suffix: "GB",
         gridThickness: 0,
-			maximum: 100
+			maximum: 827
 			},
 			data: [{
 				type: "column",
-				yValueFormatString: "#,###'%'",
+				yValueFormatString: "#,###'GB'",
 				indexLabel: "{y}",
 				dataPoints: [
-					{ label: "Core 1", y: 28 },
-					{ label: "Core 2", y: 76 },
-					{ label: "Core 3", y: 56 },
-					{ label: "Core 4", y: 93 },
+					{ label: "Core 1", y: 206 },
+					{ label: "Core 2", y: 200 },
+					{ label: "Core 3", y: 190 },
+					{ label: "Core 4", y: 231 },
 				]
 			}]
 		}
@@ -205,6 +204,7 @@ class Supercomputer extends React.Component {
               </div>
               <div className="current-usage">
                 <ol>
+
                 </ol>
               </div>
             </div>
