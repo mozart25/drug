@@ -2,27 +2,104 @@ import React from 'react';
 import './Supercomputer.scss';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";
+import CanvasJSReact from './canvasjs.react';
+import Clock from 'react-live-clock';
+var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+var updateInterval = 500;
 
 class Supercomputer extends React.Component {
 
+  constructor() {
+
+  super();
+
+  this.updateChart = this.updateChart.bind(this);
+
+  this.state = {
+   gpuData:'',
+  };
+}
+  componentDidMount() {
+    setInterval(this.updateChart, updateInterval);
+  }
+
+  updateChart() {
+    var temp =[];
+    var dpsColor, dpsTotal = 0, deltaY, yVal;
+    var dps = this.chart.options.data[0].dataPoints;
+    var chart = this.chart;
+    for (var i = 0; i < dps.length; i++) {
+      deltaY = Math.round(2 + Math.random() *(-2-2));
+      yVal = deltaY + dps[i].y > 0 ? (deltaY + dps[i].y < 827 ? dps[i].y + deltaY : 827) : 0;
+      dpsColor = yVal >= 220 ? "#FD0E35" : yVal >= 210 ? "#FF6037" : yVal >= 200 ? "#00FEFE" : "#00e640";
+      dps[i] = {label: "GPU "+(i+1) , y: yVal, color: dpsColor};
+      dpsTotal += yVal;
+      temp.push(dps[i])
+    }
+    chart.options.data[0].dataPoints = dps;
+    chart.options.title.text = "Total Usage " + dpsTotal + "GB";
+    console.log("check dpsTotal", dpsTotal)
+    chart.render()
+  }
+
+
   render() {
 
-    const percentage_a = 66;
-    const percentage_b = 43;
+    const percentage_a = 64;
+    const percentage_b = 53;
     const percentage_c = 85;
     const percentage_d = 77;
 
     const Example = (props)=> {
       return (
-          <div style={{ marginTop: 30, display: "flex" }}>
-            <div style={{ width: 100 }}>{props.children}</div>
-            <div style={{ marginLeft: 30 }}>
-              <h3 className="p">{props.label}</h3>
-              <p>{props.description}</p>
+          <div className="s-c-example">
+            <div className="gpu-items-wrapper">
+              <span id ="gpu-items-text"> {props.value}</span>
+              <span id ="gpu-items-digit"> {`${percentage_a}MB`} </span>
             </div>
+            <p>{props.label}</p>
+              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="status-checking-box">
+                <div className="status-wrapper">
+                  <div className="status-box-used"></div> <span>Used </span>
+                </div>
+                <div className="status-wrapper">
+                  <div className="status-box-avail"></div> <span>Available </span>
+                </div>
+              </div>
           </div>
       );
     }
+
+    const options = {
+      backgroundColor: null,
+      width: 310,
+      height:300,
+			theme: "light1",
+			title: {
+				text: "CPU Usage",
+        verticalAlign: "bottom",
+        horizontalAlign: "left",
+        padding: 5,
+			},
+			axisY: {
+				title: "CPU Usage (GB)",
+				suffix: "GB",
+        gridThickness: 0,
+			maximum: 827
+			},
+			data: [{
+				type: "column",
+				yValueFormatString: "#,###'GB'",
+				indexLabel: "{y}",
+				dataPoints: [
+					{ label: "Core 1", y: 206 },
+					{ label: "Core 2", y: 200 },
+					{ label: "Core 3", y: 190 },
+					{ label: "Core 4", y: 231 },
+				]
+			}]
+		}
 
     return (
       <div className='supercomputer-container'>
@@ -49,43 +126,89 @@ class Supercomputer extends React.Component {
 
         <div className="s-usage">
           <img src={require(`./mac.png`)} alt=""/>
+          <div className="s-gpu-wrapper">
+            <p className="s-gpu-service"> GPU </p>
+            <div className="gpu-img-wrapper">
+              <img src={require(`./gpu.png`)} alt="" style={{height:130}} />
+              <div className="gpu-status-wrapper">
+                <p>GPU Average</p>
+                <ol>
+                  <li>GPU1 0.03%</li>
+                  <li>GPU2 1.03% </li>
+                  <li>GPU3 5.03% </li>
+                  <li>GPU4 9.03% </li>
+                </ol>
+              </div>
+            </div>
+          </div>
           <div className="s-memory-wrapper">
-            <Example>
-              <CircularProgressbar
-                value={percentage_a}
-                text={`${percentage_a}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
-            <Example>
-              <CircularProgressbar
-                value={percentage_b}
-                text={`${percentage_b}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
-            <Example>
-              <CircularProgressbar
-                value={percentage_c}
-                text={`${percentage_c}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
-            <Example>
-              <CircularProgressbar
-                value={percentage_d}
-                text={`${percentage_d}%`}
-                styles={buildStyles({
-                  strokeLinecap: "butt"
-                })}
-              />
-            </Example>
+            <p className="s-m-service"> Memory </p>
+            <div className="s-m-progress-bar">
+              <Example value="GPU1">
+                <CircularProgressbar
+                  value={percentage_a}
+                  text={`${percentage_a}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
+                  })}
+                />
+              </Example>
+              <Example value="GPU2">
+                <CircularProgressbar
+                  value={percentage_b}
+                  text={`${percentage_b}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
+                  })}
+                />
+              </Example>
+              <Example value="GPU3">
+                <CircularProgressbar
+                  value={percentage_c}
+                  text={`${percentage_c}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
+                  })}
+                />
+              </Example>
+              <Example value="GPU4">
+                <CircularProgressbar
+                  value={percentage_d}
+                  text={`${percentage_d}%`}
+                  styles={buildStyles({
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
+                  })}
+                />
+              </Example>
+            </div>
+          </div>
+          <div className="s-usage-wrapper">
+            <p className="s-m-service"> Usage </p>
+            <CanvasJSChart options = {options}
+  					 onRef={ref => this.chart = ref}
+            />
+            <div className="s-m-u-status-wapper">
+              <div className="total-usage">
+                <p> Total Usage </p>
+                <p> 12GB </p>
+                <div>
+                  <Clock format={'YYYY/MM/DD HH:mm:ss'} ticking={true} timezone={'Asia/Seoul'} />
+                </div>
+              </div>
+              <div className="current-usage">
+                <ol>
+
+                </ol>
+              </div>
+            </div>
           </div>
         </div>
 

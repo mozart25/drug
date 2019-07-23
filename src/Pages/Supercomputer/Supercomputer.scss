@@ -3,7 +3,7 @@
 .supercomputer-container {
   min-height: 100vh;
   overflow: hidden;
-  background-color: white;
+  background-color: grey;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -110,10 +110,131 @@
 }
 
 .s-memory-wrapper {
-  max-width: 280px;
   position: absolute;
-  top: 32%;
-  left: 40%;
+  top: 13%;
+  left: 36%;
+  width: 25%;;
+}
+
+.s-gpu-wrapper {
+  position: absolute;
+  top: 13%;
+  left: 10%;
+  width: 23%;;
+}
+
+.s-usage-wrapper {
+  position: absolute;
+  top: 13%;
+  left: 63%;
+  width: 25%;;
+}
+
+
+.s-m-progress-bar {
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.s-m-service {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.s-gpu-service {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#gpu-items-text {
+  margin-bottom: 20px;
+  color: dimgrey;
+}
+
+.s-c-example {
+  border: 0.5px solid #DCDCDC;
+  margin-top: 10px;
+  width: 45%;
+  border-radius: 5px;
+}
+
+#gpu-items-digit {
+  float: right;
+}
+
+.status-box-used {
+  display: inline-block;
+  height:10px;
+  width:15px;
+  background-color: rgba(0, 230, 64, 1);
+}
+
+.status-box-avail {
+  display: inline-block;
+  height:10px;
+  width:15px;
+  background-color: #DCDCDC;
+}
+
+.status-wrapper {
+  line-height: 1;
+  span {
+    font-size: 7px;
+  }
+}
+
+.status-checking-box {
+  float: right;
+  align-self: flex-end;
+  padding: 5px;
+}
+
+.gpu-items-wrapper {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.CircularProgressbar {
+    width: 85%;
+    vertical-align: middle;
+    padding: 7px;
+}
+
+.canvasjs-chart-credit {
+  display: none !important;
+}
+
+.canvasjs-chart-canvas {
+  p span {
+    display: none !important;
+  }
+}
+
+.gpu-img-wrapper {
+  img {
+    display: inline-block;
+  }
+}
+
+.gpu-status-wrapper {
+  display: inline-block;
+  float: right;
+}
+
+.s-m-u-status-wapper {
+  .total-usage {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .current-usage {
+    display: inline-block;
+  }
+
 }
