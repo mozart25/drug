@@ -126,7 +126,7 @@
 .s-usage-wrapper {
   position: absolute;
   top: 13%;
-  left: 63%;
+  left: 62%;
   width: 25%;;
 }
 
@@ -225,16 +225,13 @@
 .gpu-status-wrapper {
   display: inline-block;
   float: right;
+
+  p {
+    font-family: 'Oswald', sans-serif;
+  }
 }
 
 .s-m-u-status-wapper {
-  .total-usage {
-    display: inline-block;
-    text-align: center;
-  }
-
-  .current-usage {
-    display: inline-block;
-  }
-
+  width: 310px;
+  text-align: center;
 }
