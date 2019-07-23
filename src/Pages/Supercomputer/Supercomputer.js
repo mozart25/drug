@@ -3,20 +3,28 @@ import './Supercomputer.scss';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";
 import CanvasJSReact from './canvasjs.react';
+import Clock from 'react-live-clock';
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var updateInterval = 500;
-
 
 class Supercomputer extends React.Component {
 
   constructor() {
+
   super();
+
   this.updateChart = this.updateChart.bind(this);
+
+  this.state = {
+   gpuData:[]
+  };
 }
-  componentDidMount(){
+  componentDidMount() {
     setInterval(this.updateChart, updateInterval);
   }
+
   updateChart() {
+    var temp =[];
     var dpsColor, dpsTotal = 0, deltaY, yVal;
     var dps = this.chart.options.data[0].dataPoints;
     var chart = this.chart;
@@ -26,21 +34,15 @@ class Supercomputer extends React.Component {
       dpsColor = yVal >= 90 ? "#FD0E35" : yVal >= 70 ? "#FF6037" : yVal >= 50 ? "#00FEFE" : "#00e640";
       dps[i] = {label: "GPU "+(i+1) , y: yVal, color: dpsColor};
       dpsTotal += yVal;
+      temp.push(dps[i])
     }
     chart.options.data[0].dataPoints = dps;
+
     chart.options.title.text = "CPU Usage " + Math.round(dpsTotal / 6) + "%";
     console.log("check dpsTotal", dpsTotal)
-    chart.render();
+    chart.render()
   }
 
-  getTime = () => {
-    var tempDate = new Date();
-    var date = tempDate.getFullYear() + '/' + (tempDate.getMonth()+1) + '/' + tempDate.getDate() +' '+ tempDate.getHours()+':'+ tempDate.getMinutes()+':'+ tempDate.getSeconds();
-    const currDate = date + 'GMT';
-    return (
-      <p>{currDate}</p>
-    );
-  }
 
   render() {
 
@@ -197,14 +199,12 @@ class Supercomputer extends React.Component {
               <div className="total-usage">
                 <p> Total Usage </p>
                 <p> 12GB </p>
-                <p> {this.getTime()}</p>
+                <div>
+                  <Clock format={'YYYY/MM/DD HH:mm:ss'} ticking={true} timezone={'Asia/Seoul'} />
+                </div>
               </div>
               <div className="current-usage">
                 <ol>
-                  <li>GPU1 0.03%</li>
-                  <li>GPU2 1.03% </li>
-                  <li>GPU3 5.03% </li>
-                  <li>GPU4 9.03% </li>
                 </ol>
               </div>
             </div>
