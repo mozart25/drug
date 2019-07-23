@@ -111,17 +111,25 @@
 
 .s-memory-wrapper {
   position: absolute;
-  top: 17%;
-  left: 33%;
-  width: 33.33%;;
+  top: 13%;
+  left: 36%;
+  width: 25%;;
 }
 
 .s-gpu-wrapper {
   position: absolute;
-  top: 17%;
-  left: 3%;
-  width: 33.33%;;
+  top: 13%;
+  left: 10%;
+  width: 23%;;
 }
+
+.s-usage-wrapper {
+  position: absolute;
+  top: 13%;
+  left: 63%;
+  width: 25%;;
+}
+
 
 .s-m-progress-bar {
   max-width: 100%;
@@ -150,23 +158,32 @@
 }
 
 .s-c-example {
-  border: 1px solid dimgrey;
+  border: 0.5px solid #DCDCDC;
   margin-top: 10px;
   width: 45%;
+  border-radius: 5px;
 }
 
 #gpu-items-digit {
   float: right;
 }
 
-.status-box {
+.status-box-used {
   display: inline-block;
   height:10px;
   width:15px;
-  border: 1px solid black;
+  background-color: rgba(0, 230, 64, 1);
+}
+
+.status-box-avail {
+  display: inline-block;
+  height:10px;
+  width:15px;
+  background-color: #DCDCDC;
 }
 
 .status-wrapper {
+  line-height: 1;
   span {
     font-size: 7px;
   }
@@ -175,15 +192,49 @@
 .status-checking-box {
   float: right;
   align-self: flex-end;
-  margin-top: 72px;
+  padding: 5px;
 }
 
 .gpu-items-wrapper {
   margin-bottom: 15px;
+  padding: 5px;
 }
 
 .CircularProgressbar {
     width: 85%;
     vertical-align: middle;
-    margin-left: 5px;
+    padding: 7px;
+}
+
+.canvasjs-chart-credit {
+  display: none !important;
+}
+
+.canvasjs-chart-canvas {
+  p span {
+    display: none !important;
+  }
+}
+
+.gpu-img-wrapper {
+  img {
+    display: inline-block;
+  }
+}
+
+.gpu-status-wrapper {
+  display: inline-block;
+  float: right;
+}
+
+.s-m-u-status-wapper {
+  .total-usage {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .current-usage {
+    display: inline-block;
+  }
+
 }

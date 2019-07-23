@@ -2,13 +2,50 @@ import React from 'react';
 import './Supercomputer.scss';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";
+import CanvasJSReact from './canvasjs.react';
+var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+var updateInterval = 500;
+
 
 class Supercomputer extends React.Component {
 
+  constructor() {
+  super();
+  this.updateChart = this.updateChart.bind(this);
+}
+  componentDidMount(){
+    setInterval(this.updateChart, updateInterval);
+  }
+  updateChart() {
+    var dpsColor, dpsTotal = 0, deltaY, yVal;
+    var dps = this.chart.options.data[0].dataPoints;
+    var chart = this.chart;
+    for (var i = 0; i < dps.length; i++) {
+      deltaY = Math.round(2 + Math.random() *(-2-2));
+      yVal = deltaY + dps[i].y > 0 ? (deltaY + dps[i].y < 100 ? dps[i].y + deltaY : 100) : 0;
+      dpsColor = yVal >= 90 ? "#FD0E35" : yVal >= 70 ? "#FF6037" : yVal >= 50 ? "#00FEFE" : "#00e640";
+      dps[i] = {label: "GPU "+(i+1) , y: yVal, color: dpsColor};
+      dpsTotal += yVal;
+    }
+    chart.options.data[0].dataPoints = dps;
+    chart.options.title.text = "CPU Usage " + Math.round(dpsTotal / 6) + "%";
+    console.log("check dpsTotal", dpsTotal)
+    chart.render();
+  }
+
+  getTime = () => {
+    var tempDate = new Date();
+    var date = tempDate.getFullYear() + '/' + (tempDate.getMonth()+1) + '/' + tempDate.getDate() +' '+ tempDate.getHours()+':'+ tempDate.getMinutes()+':'+ tempDate.getSeconds();
+    const currDate = date + 'GMT';
+    return (
+      <p>{currDate}</p>
+    );
+  }
+
   render() {
 
-    const percentage_a = 66;
-    const percentage_b = 43;
+    const percentage_a = 64;
+    const percentage_b = 53;
     const percentage_c = 85;
     const percentage_d = 77;
 
@@ -23,15 +60,44 @@ class Supercomputer extends React.Component {
               <div style={{ float:'left', width: 100 }}>{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
-                  <div className="status-box"></div> <span>used </span>
+                  <div className="status-box-used"></div> <span>Used </span>
                 </div>
                 <div className="status-wrapper">
-                  <div className="status-box"></div> <span>Available </span>
+                  <div className="status-box-avail"></div> <span>Available </span>
                 </div>
               </div>
           </div>
       );
     }
+
+    const options = {
+      backgroundColor: null,
+      width: 310,
+      height:300,
+			theme: "light1",
+			title: {
+				text: "CPU Usage",
+        verticalAlign: "bottom",
+        horizontalAlign: "left",
+			},
+			axisY: {
+				title: "CPU Usage (%)",
+				suffix: "%",
+        gridThickness: 0,
+			maximum: 100
+			},
+			data: [{
+				type: "column",
+				yValueFormatString: "#,###'%'",
+				indexLabel: "{y}",
+				dataPoints: [
+					{ label: "Core 1", y: 28 },
+					{ label: "Core 2", y: 76 },
+					{ label: "Core 3", y: 56 },
+					{ label: "Core 4", y: 93 },
+				]
+			}]
+		}
 
     return (
       <div className='supercomputer-container'>
@@ -60,6 +126,18 @@ class Supercomputer extends React.Component {
           <img src={require(`./mac.png`)} alt=""/>
           <div className="s-gpu-wrapper">
             <p className="s-gpu-service"> GPU </p>
+            <div className="gpu-img-wrapper">
+              <img src={require(`./gpu.png`)} alt="" style={{height:130}} />
+              <div className="gpu-status-wrapper">
+                <p>GPU Average</p>
+                <ol>
+                  <li>GPU1 0.03%</li>
+                  <li>GPU2 1.03% </li>
+                  <li>GPU3 5.03% </li>
+                  <li>GPU4 9.03% </li>
+                </ol>
+              </div>
+            </div>
           </div>
           <div className="s-memory-wrapper">
             <p className="s-m-service"> Memory </p>
@@ -69,7 +147,9 @@ class Supercomputer extends React.Component {
                   value={percentage_a}
                   text={`${percentage_a}%`}
                   styles={buildStyles({
-                    strokeLinecap: "butt"
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
                   })}
                 />
               </Example>
@@ -78,7 +158,9 @@ class Supercomputer extends React.Component {
                   value={percentage_b}
                   text={`${percentage_b}%`}
                   styles={buildStyles({
-                    strokeLinecap: "butt"
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
                   })}
                 />
               </Example>
@@ -87,7 +169,9 @@ class Supercomputer extends React.Component {
                   value={percentage_c}
                   text={`${percentage_c}%`}
                   styles={buildStyles({
-                    strokeLinecap: "butt"
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
                   })}
                 />
               </Example>
@@ -96,10 +180,33 @@ class Supercomputer extends React.Component {
                   value={percentage_d}
                   text={`${percentage_d}%`}
                   styles={buildStyles({
-                    strokeLinecap: "butt"
+                    strokeLinecap: "butt",
+                    pathColor: `rgba(0, 230, 64, 1)`,
+                    textColor: `rgba(0, 230, 64, 1)`
                   })}
                 />
               </Example>
+            </div>
+          </div>
+          <div className="s-usage-wrapper">
+            <p className="s-m-service"> Usage </p>
+            <CanvasJSChart options = {options}
+  					 onRef={ref => this.chart = ref}
+            />
+            <div className="s-m-u-status-wapper">
+              <div className="total-usage">
+                <p> Total Usage </p>
+                <p> 12GB </p>
+                <p> {this.getTime()}</p>
+              </div>
+              <div className="current-usage">
+                <ol>
+                  <li>GPU1 0.03%</li>
+                  <li>GPU2 1.03% </li>
+                  <li>GPU3 5.03% </li>
+                  <li>GPU4 9.03% </li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
