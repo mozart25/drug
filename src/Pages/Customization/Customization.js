@@ -191,7 +191,8 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '12px'}}>  Do you want to get results compared to other models?  </h3>
+                <h3 style={{marginBottom: '12px'}}>  Do you need a comparison of your model performance?  </h3>
+                <p id="header-explain">We can compare results with other models to validate the performance of your model. These can be used in a thesis or elsewhere to explain various reasons for your model selection.</p>
                 <SelectionButton
                 service="Yes"
                 name="109"
@@ -203,7 +204,8 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '12px'}}>  Do you want to receive graphs that visualize data and model?  </h3>
+                <h3 style={{marginBottom: '12px'}}>  Do you need visualization of data and model?  </h3>
+                <p id="header-explain">We can provide not only plots for exploratory data analysis but plots for your model results such as ROC curve and accuracy plot.</p>
                 <SelectionButton
                 service="Yes"
                 name="110"
@@ -214,7 +216,8 @@ class Customization extends React.Component {
                </section>
 
                <section>
-                <h3 style={{marginBottom: '12px'}}>  Do you want to receive a report including the analysis results?   </h3>
+                <h3 style={{marginBottom: '12px'}}>  Do you need an analysis final report?  </h3>
+                <p id="header-explain">We can provide a clear report that summarizes the above processes.</p>
                 <SelectionButton
                 service="Yes"
                 name="112"
