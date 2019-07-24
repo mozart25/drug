@@ -17,6 +17,7 @@ class SelectionButton extends React.Component {
             </div>
             <small>
               <span className="badge badge-dark text-white">{this.props.addition}</span>
+              <span className="badge badge-primary text-white">{this.props.period}</span>
             </small>
             <div className="muted small mt-1">각 선택지에 대한 상세 설명을 달아 놓을 가능성을 고려하여 임시로 세팅</div>
           </div>
