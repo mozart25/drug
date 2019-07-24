@@ -4,6 +4,11 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";
 import CanvasJSReact from './canvasjs.react';
 import Clock from 'react-live-clock';
+import Battery from '../../Components/Battery/Battery';
+import Battery2 from '../../Components/Battery/Battery2';
+import Battery3 from '../../Components/Battery/Battery3';
+import Battery4 from '../../Components/Battery/Battery4';
+
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var updateInterval = 500;
 
@@ -128,6 +133,38 @@ class Supercomputer extends React.Component {
         </div>
 
         <div className="s-usage">
+          <div className="s-gpu-wrapper">
+            <p className="s-gpu-service"> GPU </p>
+            <div className="gpu-status-wrapper">
+              <img src={require(`./gpu.png`)} style={{width: "150px"}} alt=""/>
+              <div className="temp-wrapper">
+                <p style={{marginBottom: "20px", fontColor: "#fff"}}> GPU Average </p>
+                <p>{`GPU1  20%`}</p>
+                <p>{`GPU2  10%`}</p>
+                <p>{`GPU3  30%`}</p>
+                <p>{`GPU4  40%`}</p>
+             </div>
+            </div>
+            <div className="gpu-battery-wrapper">
+              <Battery
+              id="GPU1"
+              randValue={50}
+              />
+              <Battery2
+              id="GPU2"
+              randValue={30}
+              />
+              <Battery3
+              id="GPU3"
+              randValue={20}
+              />
+              <Battery4
+              id="GPU4"
+              randValue={90}
+              />
+            </div>
+          </div>
+
           <img src={require(`./mac.png`)} alt=""/>
           <div className="s-memory-wrapper">
             <p className="s-m-service"> Memory </p>
