@@ -8,9 +8,7 @@ class SelectionButton extends React.Component {
         <label>
           <div className="card-box tilebox-one border rounded p-3 mb-3" id="box-629">
             <div className="float-right" id="form-0">
-              <input type="radio" name={this.props.name} id="148_629_0" />
-              <input type="hidden" name="hidden_148_629[0]" id="hidden_148_629_0" />
-              <input type="hidden" name="title" id="title" />
+              <input type="radio" name={this.props.name} id={this.props.id} onClick={this.props.action}/>
             </div>
             <div className="muted font-weight-bold">
               {this.props.service}

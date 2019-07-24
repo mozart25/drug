@@ -4,6 +4,47 @@ import SelectionButton from '../../Components/Button/SelectionButton'
 
 class Customization extends React.Component {
 
+  constructor(props) {
+  super(props);
+
+  this.state = {
+    q: false,
+    q2: false,
+    q5: false,
+    selectedList: [],
+    totalAmount: 0,
+  };
+}
+
+  handleClick=(e)=> {
+    console.log("e.target.id", e.target.id)
+    if (e.target.id === "1") {
+      this.setState(
+        {
+          q: !this.state.q
+        }
+        ,()=> console.log("check id 1", this.state.q)
+      )
+      console.log("e.target.id", this.state.q)
+    } else if (e.target.id === "2") {
+      this.setState(
+        {q2: !this.state.q2}
+        ,()=> console.log("check id 2", this.state.q2)
+      )
+      console.log("e.target.id", this.state.q2)
+    } else if (e.target.id === "5") {
+    this.setState(
+      {q5: !this.state.q5}
+      ,()=> console.log(this.state.q5)
+    )
+    console.log(this.state.q5)
+  }
+  console.log("ID: 1", this.state.q,"ID: 2", this.state.q2,"ID: 5", this.state.q5)
+
+}
+
+
+
   render() {
     return (
       <div className="custom-wrapper">
@@ -43,15 +84,21 @@ class Customization extends React.Component {
                <section className="q-quatro">
                   <h3 style={{marginBottom:'12px'}}>What is your current occupation?</h3>
                   <SelectionButton
+                  id={1}
+                  action={this.handleClick}
                   service="Pharmaceutical industry researcher"
                   name='100'/>
                   <SelectionButton
+                  id={2}
+                  action={this.handleClick}
                   service="Academic researcher at university or colleges"
                   name="100"/>
                   <SelectionButton
+                  id={3}
                   service="Student"
                   name="100"/>
                   <SelectionButton
+                  id={4}
                   service="Others"
                   name="100"/>
                </section>
@@ -59,6 +106,8 @@ class Customization extends React.Component {
                <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}>What is the purpose of your AI development? </h3>
                 <SelectionButton
+                id={5}
+                action={this.handleClick}
                 service="Commercial use"
                 name='101'/>
                 <SelectionButton
@@ -248,7 +297,7 @@ class Customization extends React.Component {
                </section>
                <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
                  예상 견적 :
-                 <span id="price">5,460,000 ~ 7,800,000</span> 원
+                 <span id="price">{this.state.q} ~ ,000</span> 원
                  <small style={{color: 'gray'}}>(예상 기간: <span id="period_month">1</span>개월)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
