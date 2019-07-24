@@ -11,6 +11,12 @@ class Customization extends React.Component {
     q7: false,
     q7_count: 0,
     q8: false,
+    q9: false,
+    q10: false,
+    q11: false,
+    q12: false,
+    q13: false,
+    q14: false,
     q15: false,
     q16: false,
     q17: false,
@@ -28,6 +34,7 @@ class Customization extends React.Component {
     q29: false,
     q30: false,
     totalAmount: 0,
+    totalPeriod: 0,
   };
 }
 
@@ -198,6 +205,152 @@ class Customization extends React.Component {
     }
 
     // Do you need an analysis final report?
+    if (e.target.id === "9" && this.state.q9 === false && this.state.q10 === true){
+      this.setState(
+        {
+          q9: !this.state.q9,
+          totalAmount: this.state.totalAmount - 700,
+          q10: false,
+          q11: false
+        }
+      )
+    } else if (e.target.id === "9" && this.state.q9 === false && this.state.q11 === true){
+      this.setState(
+        {
+          q9: !this.state.q9,
+          totalAmount: this.state.totalAmount - 300,
+          q10: false,
+          q11: false
+        }
+      )
+    } else if (e.target.id === "10" && this.state.q10 === false && this.state.q9 === true){
+      this.setState(
+        {
+          q10: !this.state.q10,
+          totalAmount: this.state.totalAmount + 700,
+          q9: false,
+          q11: false
+        }
+      )
+    } else if (e.target.id === "10" && this.state.q10 === false && this.state.q11 === true){
+      this.setState(
+        {
+          q10: !this.state.q10,
+          totalAmount: this.state.totalAmount + 400,
+          q9: false,
+          q11: false
+        }
+      )
+    } else if (e.target.id === "11" && this.state.q11 === false && this.state.q9 === true){
+      this.setState(
+        {
+          q11: !this.state.q11,
+          totalAmount: this.state.totalAmount + 300,
+          q9: false,
+          q10: false
+        }
+      )
+    } else if (e.target.id === "11" && this.state.q11 === false && this.state.q10 === true){
+      this.setState(
+        {
+          q11: !this.state.q11,
+          totalAmount: this.state.totalAmount - 400,
+          q9: false,
+          q10: false
+        }
+      )
+    } else if (e.target.id === "9" && this.state.q9 === false) {
+      this.setState(
+        {
+          q9: !this.state.q9,
+          totalAmount: this.state.totalAmount + 700,
+          q10: false,
+          q11: false
+        }
+      )
+    }
+
+    else if (e.target.id === "10" && this.state.q10 === false) {
+      this.setState(
+        {
+          q10: !this.state.q10,
+          totalAmount: this.state.totalAmount + 1400,
+          q9: false,
+          q11: false
+        }
+      )
+    } else if (e.target.id === "11" && this.state.q11 === false) {
+      this.setState(
+        {
+          q11: !this.state.q11,
+          totalAmount: this.state.totalAmount + 1000,
+          q9: false,
+          q10: false
+        }
+      )
+    }
+
+    // What type of data do you want to analyze?
+    if (e.target.id ==="12" && this.state.q13 === false && this.state.q14 === false ) {
+      return
+
+    }  else if (e.target.id ==="12"  && this.state.q13 === true){
+      this.setState(
+        {
+          q12: !this.state.q12,
+          totalAmount: this.state.totalAmount - 600,
+          q13: false,
+          q14: false
+        }
+      )
+    } else if (e.target.id === "12" && this.state.q14 === true) {
+      this.setState(
+        {
+          q12: !this.state.q12,
+          totalAmount: this.state.totalAmount - 1200,
+          q13: false,
+          q14: false
+        }
+      )
+    } else if (e.target.id === "13" && this.state.q14 === true) {
+      this.setState(
+        {
+          q13: !this.state.q13,
+          totalAmount: this.state.totalAmount - 600,
+          q12: false,
+          q14: false
+        }
+      )
+    } else if (e.target.id === "14" && this.state.q13 === true) {
+      this.setState(
+        {
+          q14: !this.state.q14,
+          totalAmount: this.state.totalAmount + 600,
+          q12: false,
+          q13: false
+        }
+      )
+    } else if (e.target.id === "13" && this.state.q13 === false) {
+      this.setState(
+        {
+          q13: !this.state.q13,
+          totalAmount: this.state.totalAmount + 600,
+          q12: false,
+          q14: false,
+        }
+      )
+    } else if (e.target.id === "14" && this.state.q14 === false) {
+      this.setState(
+        {
+          q14: !this.state.q14,
+          totalAmount: this.state.totalAmount + 1200,
+          q13: false,
+          q12: false,
+        }
+      )
+    }
+
+    // Do you need an analysis final report?
     if (e.target.id ==="30" && this.state.q29 === false) {
       return
     } else if (e.target.id === "29" && this.state.q29 === false) {
@@ -217,14 +370,7 @@ class Customization extends React.Component {
         }
       )
     }
-
-
-
-
-
-
-
-}
+  }
 
 
 
@@ -528,9 +674,9 @@ class Customization extends React.Component {
                 name="112"/>
                </section>
                <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
-                 예상 견적 :
-                 <span id="price">{this.state.totalAmount} ~ ,000</span> 원
-                 <small style={{color: 'gray'}}>(예상 기간: <span id="period_month">1</span>개월)</small>
+                 Average expected cost :
+                 <span id="price">${this.state.totalAmount}</span>
+                 <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{this.state.totalPeriod}</span> months)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
                    <a className="btn btn-primary new_contact_button" href="#">견적과 함께 문의하기</a>
