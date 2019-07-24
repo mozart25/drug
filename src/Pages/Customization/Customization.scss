@@ -147,3 +147,21 @@ hr {
   display: flex;
   flex-wrap: wrap;
 }
+
+.calculation-box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 34px;
+  z-index: 1;
+}
+.btn-primary {
+  color: #fff;
+  border-color: #510fa8;
+  background-color: #510fa8 !important;
+  box-shadow: none;
+}

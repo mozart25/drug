@@ -246,6 +246,16 @@ class Customization extends React.Component {
                 service="No"
                 name="112"/>
                </section>
+               <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
+                 예상 견적 :
+                 <span id="price">5,460,000 ~ 7,800,000</span> 원
+                 <small style={{color: 'gray'}}>(예상 기간: <span id="period_month">1</span>개월)</small>
+                 <br />
+                 <div style={{lineHeight: '20px'}}>
+                   <a className="btn btn-primary new_contact_button" href="#">견적과 함께 문의하기</a>
+                   <div style={{fontWeight: '400', fontSize: '14px', color: 'light-gray', marginTop: '5px'}}>문의를 남기시면 견적서 PDF를 보내드립니다</div>
+                 </div>
+               </div>
              </div>
           </div>
         </div>
