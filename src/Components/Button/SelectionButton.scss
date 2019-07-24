@@ -9,8 +9,8 @@
 .q-quatro {
   @media screen and (min-width: 768px) {
   .col-md-4 {
-      flex: 0 0 49.333333%;
-      max-width: 49.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
     }
   }
 }
@@ -18,5 +18,10 @@
 small {
   > .badge-dark {
     background: purple !important;
+  }
+
+  > .badge-primary {
+    color: #2e016a;
+    background-color: #ac77f3;
   }
 }

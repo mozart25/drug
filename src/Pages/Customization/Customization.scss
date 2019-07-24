@@ -1,7 +1,5 @@
 @import "Style/_global.scss";
 
-
-
 .custom-wrapper {
   min-height: 100vh;
   background-color: #fff;
@@ -54,7 +52,6 @@
   }
 }
 
-
 .question-container {
   padding: 2rem;
   border-radius: .375rem;
@@ -63,6 +60,7 @@
 
   h3 {
     font-weight: 800;
+    width: 100%;
   }
 
   .form-check{
@@ -95,6 +93,7 @@
   font-size: 1.1rem;
   letter-spacing: -.02rem;
   line-height: 1.6;
+  width: 100%;
 }
 
 .mt-1 {
@@ -103,7 +102,6 @@
 
 
 .muted {
-  display: inline-block;
   font-size: 18px;
   max-width: 90%;
 }
@@ -111,7 +109,7 @@
 
 small {
   > .badge {
-    margin-left: 10px;
+    margin-right: 10px;
     line-height: 1.5;
     vertical-align: text-bottom;
   }
@@ -120,7 +118,7 @@ small {
 .preprocess-list {
   margin-left: 20px;
 
-  > li {
+  > .q-quatro {
     list-style-type: square;
   }
 }
@@ -134,9 +132,36 @@ small {
   cursor: pointer;
 }
 
-
 hr {
   border-width: 10px;
   border-color: purple;
   border-radius: 16px;
+}
+
+.card-box {
+  min-height: 136px;
+  height: 150px;
+}
+
+.q-quatro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculation-box {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 34px;
+  z-index: 1;
+}
+.btn-primary {
+  color: #fff;
+  border-color: #510fa8;
+  background-color: #510fa8 !important;
+  box-shadow: none;
 }

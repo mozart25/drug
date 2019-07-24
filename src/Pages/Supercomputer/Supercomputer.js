@@ -4,6 +4,11 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";
 import CanvasJSReact from './canvasjs.react';
 import Clock from 'react-live-clock';
+import Battery from '../../Components/Battery/Battery';
+import Battery2 from '../../Components/Battery/Battery2';
+import Battery3 from '../../Components/Battery/Battery3';
+import Battery4 from '../../Components/Battery/Battery4';
+
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var updateInterval = 500;
 
@@ -16,7 +21,7 @@ class Supercomputer extends React.Component {
   this.updateChart = this.updateChart.bind(this);
 
   this.state = {
-   gpuData:'',
+   gpuData:[],
   };
 }
   componentDidMount() {
@@ -34,12 +39,17 @@ class Supercomputer extends React.Component {
       dpsColor = yVal >= 220 ? "#FD0E35" : yVal >= 210 ? "#FF6037" : yVal >= 200 ? "#00FEFE" : "#00e640";
       dps[i] = {label: "GPU "+(i+1) , y: yVal, color: dpsColor};
       dpsTotal += yVal;
-      temp.push(dps[i])
     }
+
     chart.options.data[0].dataPoints = dps;
-    chart.options.title.text = "Total Usage " + dpsTotal + "GB";
+    chart.options.title.text = `Total Usage ${dpsTotal}GB`
+
     console.log("check dpsTotal", dpsTotal)
+    console.log("chart.options.data[0].dataPoints", chart.options.data[0].dataPoints)
+    console.log("dpsdpsdps", dps)
+    console.log("gpudatagpudata", this.state.gpuData)
     chart.render()
+
   }
 
 
@@ -74,16 +84,14 @@ class Supercomputer extends React.Component {
     const options = {
       backgroundColor: null,
       width: 310,
-      height:300,
+      height:380,
 			theme: "light1",
 			title: {
 				text: "CPU Usage",
         verticalAlign: "bottom",
-        horizontalAlign: "left",
-        padding: 5,
+        horizontalAlign: "center",
 			},
 			axisY: {
-				title: "CPU Usage (GB)",
 				suffix: "GB",
         gridThickness: 0,
 			maximum: 827
@@ -93,10 +101,10 @@ class Supercomputer extends React.Component {
 				yValueFormatString: "#,###'GB'",
 				indexLabel: "{y}",
 				dataPoints: [
-					{ label: "Core 1", y: 206 },
-					{ label: "Core 2", y: 200 },
-					{ label: "Core 3", y: 190 },
-					{ label: "Core 4", y: 231 },
+					{ label: "GPU 1", y: 206 },
+					{ label: "GPU 2", y: 200 },
+					{ label: "GPU 3", y: 190 },
+					{ label: "GPU 4", y: 231 },
 				]
 			}]
 		}
@@ -125,22 +133,39 @@ class Supercomputer extends React.Component {
         </div>
 
         <div className="s-usage">
-          <img src={require(`./mac.png`)} alt=""/>
           <div className="s-gpu-wrapper">
             <p className="s-gpu-service"> GPU </p>
-            <div className="gpu-img-wrapper">
-              <img src={require(`./gpu.png`)} alt="" style={{height:130}} />
-              <div className="gpu-status-wrapper">
-                <p>GPU Average</p>
-                <ol>
-                  <li>GPU1 0.03%</li>
-                  <li>GPU2 1.03% </li>
-                  <li>GPU3 5.03% </li>
-                  <li>GPU4 9.03% </li>
-                </ol>
-              </div>
+            <div className="gpu-status-wrapper">
+              <img src={require(`./gpu.png`)} style={{width: "150px"}} alt=""/>
+              <div className="temp-wrapper">
+                <p style={{marginBottom: "20px", fontColor: "#fff"}}> GPU Average </p>
+                <p>{`GPU1  20%`}</p>
+                <p>{`GPU2  10%`}</p>
+                <p>{`GPU3  30%`}</p>
+                <p>{`GPU4  40%`}</p>
+             </div>
+            </div>
+            <div className="gpu-battery-wrapper">
+              <Battery
+              id="GPU1"
+              randValue={50}
+              />
+              <Battery2
+              id="GPU2"
+              randValue={30}
+              />
+              <Battery3
+              id="GPU3"
+              randValue={20}
+              />
+              <Battery4
+              id="GPU4"
+              randValue={90}
+              />
             </div>
           </div>
+
+          <img src={require(`./mac.png`)} alt=""/>
           <div className="s-memory-wrapper">
             <p className="s-m-service"> Memory </p>
             <div className="s-m-progress-bar">
@@ -196,18 +221,7 @@ class Supercomputer extends React.Component {
   					 onRef={ref => this.chart = ref}
             />
             <div className="s-m-u-status-wapper">
-              <div className="total-usage">
-                <p> Total Usage </p>
-                <p> 12GB </p>
-                <div>
-                  <Clock format={'YYYY/MM/DD HH:mm:ss'} ticking={true} timezone={'Asia/Seoul'} />
-                </div>
-              </div>
-              <div className="current-usage">
-                <ol>
-
-                </ol>
-              </div>
+                <Clock style={{fontFamily: 'Oswald',color:'#FF8C00'}}format={'YYYY/MM/DD HH:mm:ss'} ticking={true} timezone={'Asia/Seoul'} />
             </div>
           </div>
         </div>

@@ -4,6 +4,230 @@ import SelectionButton from '../../Components/Button/SelectionButton'
 
 class Customization extends React.Component {
 
+  constructor(props) {
+  super(props);
+
+  this.state = {
+    q7: false,
+    q7_count: 0,
+    q8: false,
+    q15: false,
+    q16: false,
+    q17: false,
+    q18: false,
+    q19: false,
+    q20: false,
+    q21: false,
+    q22: false,
+    q23: false,
+    q24: false,
+    q25: false,
+    q26: false,
+    q27: false,
+    q28: false,
+    q29: false,
+    q30: false,
+    totalAmount: 0,
+  };
+}
+
+  handleClick=(e)=> {
+
+    if (e.target.id ==="7" && this.state.q8 === false) {
+      return
+    } else if (e.target.id === "8" && this.state.q8 === false) {
+      this.setState(
+        {
+          q8: !this.state.q8,
+          totalAmount: this.state.totalAmount + 700,
+          q7: false
+        }
+      )
+    } else if (e.target.id === "7" && this.state.q7 === false) {
+      this.setState(
+        {
+          q7: !this.state.q7,
+          totalAmount: this.state.totalAmount - 700,
+          q8: false,
+        }
+      )
+    }
+
+    if (e.target.id ==="16" && this.state.q15 === false) {
+      return
+    } else if (e.target.id === "15" && this.state.q15 === false) {
+      this.setState(
+        {
+          q15: !this.state.q15,
+          totalAmount: this.state.totalAmount + 1300,
+          q16: false
+        }
+      )
+    } else if (e.target.id === "16" && this.state.q16 === false) {
+      this.setState(
+        {
+          q16: !this.state.q16,
+          totalAmount: this.state.totalAmount - 1300,
+          q15: false
+        }
+      )
+    }
+    // Do you need to deal with the missing values?
+    if (e.target.id ==="18" && this.state.q17 === false) {
+      return
+    } else if (e.target.id === "17" && this.state.q17 === false) {
+      this.setState(
+        {
+          q17: !this.state.q17,
+          totalAmount: this.state.totalAmount + 400,
+          q18: false
+        }
+      )
+    } else if (e.target.id === "18" && this.state.q18 === false) {
+      this.setState(
+        {
+          q18: !this.state.q18,
+          totalAmount: this.state.totalAmount - 400,
+          q17: false
+        }
+      )
+    }
+    // which model do you want to use?
+    if (e.target.id ==="19" && this.state.q20 === false) {
+      return
+    } else if (e.target.id === "20" && this.state.q20 === false) {
+      this.setState(
+        {
+          q20: !this.state.q20,
+          totalAmount: this.state.totalAmount + 500,
+          q19: false
+        }
+      )
+    } else if (e.target.id === "19" && this.state.q19 === false) {
+      this.setState(
+        {
+          q19: !this.state.q19,
+          totalAmount: this.state.totalAmount - 500,
+          q20: false
+        }
+      )
+    }
+
+    // Do you want us to fit the model?
+    if (e.target.id ==="22" && this.state.q21 === false) {
+      return
+    } else if (e.target.id === "21" && this.state.q21 === false) {
+      this.setState(
+        {
+          q21: !this.state.q21,
+          totalAmount: this.state.totalAmount + 1200,
+          q22: false
+        }
+      )
+    } else if (e.target.id === "22" && this.state.q22 === false) {
+      this.setState(
+        {
+          q22: !this.state.q22,
+          totalAmount: this.state.totalAmount - 1200,
+          q21: false
+        }
+      )
+    }
+
+    // Do you want us to validate & verify your model?
+    if (e.target.id ==="24" && this.state.q23 === false) {
+      return
+    } else if (e.target.id === "23" && this.state.q23 === false) {
+      this.setState(
+        {
+          q23: !this.state.q23,
+          totalAmount: this.state.totalAmount + 700,
+          q24: false
+        }
+      )
+    } else if (e.target.id === "24" && this.state.q24 === false) {
+      this.setState(
+        {
+          q24: !this.state.q24,
+          totalAmount: this.state.totalAmount - 700,
+          q23: false
+        }
+      )
+    }
+
+    // Do you need a comparison of your model performance?
+    if (e.target.id ==="26" && this.state.q25 === false) {
+      return
+    } else if (e.target.id === "25" && this.state.q25 === false) {
+      this.setState(
+        {
+          q25: !this.state.q25,
+          totalAmount: this.state.totalAmount + 1000,
+          q26: false
+        }
+      )
+    } else if (e.target.id === "26" && this.state.q26 === false) {
+      this.setState(
+        {
+          q26: !this.state.q26,
+          totalAmount: this.state.totalAmount - 1000,
+          q25: false
+        }
+      )
+    }
+
+    // Do you need visualization of data and model?
+    if (e.target.id ==="28" && this.state.q27 === false) {
+      return
+    } else if (e.target.id === "27" && this.state.q27 === false) {
+      this.setState(
+        {
+          q27: !this.state.q27,
+          totalAmount: this.state.totalAmount + 700,
+          q28: false
+        }
+      )
+    } else if (e.target.id === "28" && this.state.q28 === false) {
+      this.setState(
+        {
+          q28: !this.state.q28,
+          totalAmount: this.state.totalAmount - 700,
+          q27: false
+        }
+      )
+    }
+
+    // Do you need an analysis final report?
+    if (e.target.id ==="30" && this.state.q29 === false) {
+      return
+    } else if (e.target.id === "29" && this.state.q29 === false) {
+      this.setState(
+        {
+          q29: !this.state.q29,
+          totalAmount: this.state.totalAmount + 600,
+          q30: false
+        }
+      )
+    } else if (e.target.id === "30" && this.state.q30 === false) {
+      this.setState(
+        {
+          q30: !this.state.q30,
+          totalAmount: this.state.totalAmount - 600,
+          q29: false
+        }
+      )
+    }
+
+
+
+
+
+
+
+}
+
+
+
   render() {
     return (
       <div className="custom-wrapper">
@@ -43,74 +267,107 @@ class Customization extends React.Component {
                <section className="q-quatro">
                   <h3 style={{marginBottom:'12px'}}>What is your current occupation?</h3>
                   <SelectionButton
+                  id={1}
+                  action={this.handleClick}
                   service="Pharmaceutical industry researcher"
                   name='100'/>
                   <SelectionButton
+                  id={2}
+                  action={this.handleClick}
                   service="Academic researcher at university or colleges"
                   name="100"/>
                   <SelectionButton
+                  id={3}
                   service="Student"
                   name="100"/>
                   <SelectionButton
+                  id={4}
                   service="Others"
                   name="100"/>
                </section>
 
-               <section>
+               <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}>What is the purpose of your AI development? </h3>
                 <SelectionButton
+                id={5}
+                action={this.handleClick}
                 service="Commercial use"
                 name='101'/>
                 <SelectionButton
+                id={6}
                 service="Research"
                 name="101"/>
                </section>
 
-               <section>
+               <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}>Do you have any data for analysis?</h3>
+                <p id="header-explain">If you don’t, we can find data for your study.</p>
                 <SelectionButton
+                id={7}
+                action={this.handleClick}
                 service="Yes"
                 name='102'/>
                 <SelectionButton
+                id={8}
+                action={this.handleClick}
                 service="No"
                 name="102"
-                addition="$700"
+                addition="$500~$900"
+                period="1 weeks"
                 />
                </section>
 
-               <section>
+               <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}> What type of data do you want to analyze? </h3>
+                <p id="header-explain">Because the analysis time depends on the type of data, the price will vary.</p>
                 <SelectionButton
+                id={9}
+                action={this.handleClick}
                 service="Structured data"
                 name='103'
-                addition="$300"
+                addition="$700"
                 />
                 <SelectionButton
+                id={10}
+                action={this.handleClick}
                 service="Image data"
                 name="103"
-                addition="$900"
+                addition="$1400"
+                period="3 weeks"
                 />
                 <SelectionButton
+                id={11}
+                action={this.handleClick}
                 service="Text data"
                 name="103"
-                addition="$700"
+                addition="$1000"
+                period="2 weeks"
                 />
                </section>
 
-               <section>
+               <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}> What is the size of your data? </h3>
+                <p id="header-explain">Because the analysis time depends on the size of data, the price will vary. </p>
                 <SelectionButton
+                id={12}
+                action={this.handleClick}
                 service="x < 10GB"
                 name='104'/>
                 <SelectionButton
-                service="10GB <= x < 100GB"
-                name="104"
-                addition="$300"
-                />
-                <SelectionButton
-                service="100GB <= x"
+                id={13}
+                action={this.handleClick}
+                service="10GB ≤ x < 100GB"
                 name="104"
                 addition="$600"
+                period="1 weeks"
+                />
+                <SelectionButton
+                id={14}
+                action={this.handleClick}
+                service="100GB ≤ x"
+                name="104"
+                addition="$1200"
+                period="2 weeks"
                 />
                </section>
 
@@ -120,27 +377,37 @@ class Customization extends React.Component {
                 <h3 style={{marginBottom: '12px'}}>  Have you preprocessed your data?  </h3>
                 <p id="header-explain">Data preprocessing usually takes such a long time. If you already have techniques to preprocess, we can help with that. Also, we will find right techniques for you if you don’t have. </p>
                 <ul className='preprocess-list'>
-                  <li>
+                  <li className="q-quatro">
                     <h3 style={{marginBottom: '12px', marginTop: '20px'}}> Do you need data cleansing? </h3>
                     <p id="header-explain">Let’s assume that you have text data. Your data include the dirty parts caused grammatical errors or typos. We help you with detecting and correcting corrupt and inaccurate data and replace with accurate and validate data. </p>
                     <SelectionButton
+                    id={15}
+                    action={this.handleClick}
                     service="Yes"
                     name="105"
-                    addition="$700-$1000"
+                    addition="$1,000-$1,500"
+                    period="2-3 weeks"
                     />
                     <SelectionButton
+                    id={16}
+                    action={this.handleClick}
                     service="No"
                     name="105"/>
                   </li>
-                  <li>
+                  <li className="q-quatro">
                     <h3 style={{marginBottom: '12px'}}> Do you need to deal with the missing values? </h3>
                     <p id="header-explain">Although your data contain the missing values, we will provide an optimal solution to deal with them. This process might increase the accuracy of model.</p>
                     <SelectionButton
+                    id={17}
+                    action={this.handleClick}
                     service="Yes"
                     name="106"
-                    addition="$100-$400"
+                    addition="$200-$500"
+                    period="1 weeks"
                     />
                     <SelectionButton
+                    id={18}
+                    action={this.handleClick}
                     service="No"
                     name="106"/>
                   </li>
@@ -149,80 +416,127 @@ class Customization extends React.Component {
 
                <hr/>
 
-               <section>
+               <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}>  Which model do you want to use?  </h3>
                 <p id="header-explain">Machine learning and deep learning are two main categories of AI model.</p>
                 <p id="header-explain"><span id='h-e-bold'>Machine learning</span> : The methods which give power to the systems to automatically determine and boost from experience without being particularly programmed.</p>
                 <p id="header-explain"><span id='h-e-bold'>Deep learning</span> : The methods which  automatically acquires representation of information from datasets which contain images, video or text, without recommending well-programmed rules or human domain expertise.</p>
                 <p id="header-explain">With our experiences and know-how, we will provide the best learning model according to your study. Also, the related materials such as code, preliminary research paper will be provided.</p>
+                 <SelectionButton
+                 id={19}
+                 action={this.handleClick}
+                 service="Machine learning only"
+                 name="107"
+                 />
+                 <SelectionButton
+                 id={20}
+                 action={this.handleClick}
+                 service="Both"
+                 addition="$500"
+                 period="1 weeks"
+                 name="107"/>
                </section>
-               <SelectionButton
-               service="Machine learning only"
-               name="107"
-               />
-               <SelectionButton
-               service="Both"
-               addition="$500"
-               name="107"/>
 
-               <section>
+
+               <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}> Do you want us to fit the model?</h3>
                 <p id="header-explain">This process is called “model training”. We will provide fitting and result from model selection.</p>
                 <SelectionButton
+                id={21}
+                action={this.handleClick}
                 service="Yes"
                 name="108"
-                addition="$600-$800"
+                addition="$800-$1,600"
+                period="2-3 weeks"
                 />
                 <SelectionButton
+                id={22}
+                action={this.handleClick}
                 service="No"
                 name="108"/>
                </section>
 
-               <section>
+               <section className="q-quatro">
                 <h3 style={{marginBottom: '12px'}}>  Do you want us to validate & verify your model?  </h3>
                 <p id="header-explain">This process is called “model verification”. We will provide a robust model through work such as hyperparameter tuning, ensemble, optimization, etc.</p>
                 <SelectionButton
+                id={23}
+                action={this.handleClick}
                 service="Yes"
                 name="113"
-                addition="$200-$300"/>
+                addition="$500-$900"
+                period="1-2 weeks"
+                />
                 <SelectionButton
+                id={24}
+                action={this.handleClick}
                 service="No"
                 name="113"/>
                </section>
 
-               <section>
-                <h3 style={{marginBottom: '12px'}}>  Do you want to get results compared to other models?  </h3>
+               <section className="q-quatro">
+                <h3 style={{marginBottom: '12px'}}>  Do you need a comparison of your model performance?  </h3>
+                <p id="header-explain">We can compare results with other models to validate the performance of your model. These can be used in a thesis or elsewhere to explain various reasons for your model selection.</p>
                 <SelectionButton
+                id={25}
+                action={this.handleClick}
                 service="Yes"
                 name="109"
-                addition="$500"
+                addition="$1,000"
+                period="2 weeks"
                 />
                 <SelectionButton
+                id={26}
+                action={this.handleClick}
                 service="No"
                 name="109"/>
                </section>
 
-               <section>
-                <h3 style={{marginBottom: '12px'}}>  Do you want to receive graphs that visualize data and model?  </h3>
+               <section className="q-quatro">
+                <h3 style={{marginBottom: '12px'}}>  Do you need visualization of data and model?  </h3>
+                <p id="header-explain">We can provide not only plots for exploratory data analysis but plots for your model results such as ROC curve and accuracy plot.</p>
                 <SelectionButton
+                id={27}
+                action={this.handleClick}
                 service="Yes"
                 name="110"
-                addition="$400-$600"/>
+                addition="$500-$800"
+                period="1-2 weeks"
+                />
                 <SelectionButton
+                id={28}
+                action={this.handleClick}
                 service="No"
                 name="110"/>
                </section>
 
-               <section>
-                <h3 style={{marginBottom: '12px'}}>  Do you want to receive a report including the analysis results?   </h3>
+               <section className="q-quatro">
+                <h3 style={{marginBottom: '12px'}}>  Do you need an analysis final report?  </h3>
+                <p id="header-explain">We can provide a clear report that summarizes the above processes.</p>
                 <SelectionButton
+                id={29}
+                action={this.handleClick}
                 service="Yes"
                 name="112"
-                addition="$200"/>
+                addition="$600"
+                period="1 weeks"
+                />
                 <SelectionButton
+                id={30}
+                action={this.handleClick}
                 service="No"
                 name="112"/>
                </section>
+               <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
+                 예상 견적 :
+                 <span id="price">{this.state.totalAmount} ~ ,000</span> 원
+                 <small style={{color: 'gray'}}>(예상 기간: <span id="period_month">1</span>개월)</small>
+                 <br />
+                 <div style={{lineHeight: '20px'}}>
+                   <a className="btn btn-primary new_contact_button" href="#">견적과 함께 문의하기</a>
+                   <div style={{fontWeight: '400', fontSize: '14px', color: 'light-gray', marginTop: '5px'}}>문의를 남기시면 견적서 PDF를 보내드립니다</div>
+                 </div>
+               </div>
              </div>
           </div>
         </div>

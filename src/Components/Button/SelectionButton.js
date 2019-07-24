@@ -8,15 +8,14 @@ class SelectionButton extends React.Component {
         <label>
           <div className="card-box tilebox-one border rounded p-3 mb-3" id="box-629">
             <div className="float-right" id="form-0">
-              <input type="radio" name={this.props.name} id="148_629_0" />
-              <input type="hidden" name="hidden_148_629[0]" id="hidden_148_629_0" />
-              <input type="hidden" name="title" id="title" />
+              <input type="radio" name={this.props.name} id={this.props.id} onClick={this.props.action}/>
             </div>
             <div className="muted font-weight-bold">
               {this.props.service}
             </div>
             <small>
               <span className="badge badge-dark text-white">{this.props.addition}</span>
+              <span className="badge badge-primary text-white">{this.props.period}</span>
             </small>
             <div className="muted small mt-1">각 선택지에 대한 상세 설명을 달아 놓을 가능성을 고려하여 임시로 세팅</div>
           </div>
