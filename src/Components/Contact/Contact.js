@@ -5,19 +5,35 @@ class Contact extends React.Component {
 
 
 
-  getContactMessage= () => {
-    if (this.props.contactStatus === true) {
-      return (
-        `■ Data preparation
-    Finding data(${this.props.q7 === false ? (this.props.q8 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
-    Data type(${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "" : "Text data") : "Image data") : "Structured data"}): ${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "Unselected" : "$1,000") : "$1,400") : "$700"}
-    Data size(${this.props.q12 === false ? (this.props.q13 === false ? (this.props.q14 === false ? "" : "100GB ≤ x") : "10GB ≤ x < 100GB") : "x < 10GB"}): ${this.props.q12 === false ? (this.props.q13 === false ? (this.props.q14 === false ? "Unselected" : "$1,200") : "$600") : "$0"}
-■ Total: ${this.props.total}
-        `
-      )
+      getContactMessage= () => {
+        if (this.props.contactStatus === true) {
+          return (
+            `
+  ■ Data preparation
+      Finding data(${this.props.q7 === false ? (this.props.q8 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
+      Data type(${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "" : "Text data") : "Image data") : "Structured data"}): ${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "Unselected" : "$1,000") : "$1,400") : "$700"}
+      Data size(${this.props.q12 === false ? (this.props.q13 === false ? (this.props.q14 === false ? "" : "100GB ≤ x") : "10GB ≤ x < 100GB") : "x < 10GB"}): ${this.props.q12 === false ? (this.props.q13 === false ? (this.props.q14 === false ? "Unselected" : "$1,200") : "$600") : "$0"}
 
-    }
-  }
+  ■ Data preparation
+      Data cleansing(${this.props.q15 === false ? (this.props.q16 === false ? "" : "No") : "yes"}): ${this.props.q15 === false ? (this.props.q16 === false ? "Unselected" : "$0") : "$1,300"}
+      Dealing with missing values(${this.props.q17 === false ? (this.props.q18 === false ? "" : "No") : "yes"}): ${this.props.q17 === false ? (this.props.q18 === false ? "Unselected" : "$0") : "$400"}
+
+  ■ Modeling
+      Model selection(${this.props.q19 === false ? (this.props.q20 === false ? "" : "Both") : "Machine Learning only"}): ${this.props.q19 === false ? (this.props.q20 === false ? "Unselected" : "$500") : "$0"}
+      Model training(${this.props.q21 === false ? (this.props.q22 === false ? "" : "No") : "yes"}): ${this.props.q21 === false ? (this.props.q22 === false ? "Unselected" : "$0") : "$1,400"}
+      Model validating(${this.props.q23 === false ? (this.props.q24 === false ? "" : "No") : "yes"}): ${this.props.q23 === false ? (this.props.q24 === false ? "Unselected" : "$0") : "$700"}
+
+  ■ Result
+      Model comparing(${this.props.q25 === false ? (this.props.q26 === false ? "" : "No") : "yes"}): ${this.props.q25 === false ? (this.props.q26 === false ? "Unselected" : "$0") : "$1,000"}
+      Visualizing(${this.props.q27 === false ? (this.props.q28 === false ? "" : "No") : "yes"}): ${this.props.q27 === false ? (this.props.q28 === false ? "Unselected" : "$0") : "$700"}
+      Results report(${this.props.q29 === false ? (this.props.q30 === false ? "" : "No") : "yes"}): ${this.props.q29 === false ? (this.props.q30 === false ? "Unselected" : "$0") : "$600"}
+
+  ■ Total: ${this.props.total}
+          `
+          )
+
+        }
+      }
 
   // Data type(${this.props.q9 === false ? (this.props.q10 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
 

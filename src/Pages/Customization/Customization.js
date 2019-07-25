@@ -51,7 +51,7 @@ class Customization extends React.Component {
   handleClick=(e)=> {
     // Do you have any data for analysis?
     if (e.target.id ==="7" && this.state.q8 === false) {
-      return
+      this.setState({q7: !this.state.q7})
     } else if (e.target.id === "8" && this.state.q8 === false) {
       this.setState(
         {
@@ -75,7 +75,7 @@ class Customization extends React.Component {
     }
     // Do you need data cleansing?
     if (e.target.id ==="16" && this.state.q15 === false) {
-      return
+      this.setState({q16: !this.state.q16})
     } else if (e.target.id === "15" && this.state.q15 === false) {
       this.setState(
         {
@@ -99,7 +99,7 @@ class Customization extends React.Component {
     }
     // Do you need to deal with the missing values?
     if (e.target.id ==="18" && this.state.q17 === false) {
-      return
+      this.setState({q18: !this.state.q18})
     } else if (e.target.id === "17" && this.state.q17 === false) {
       this.setState(
         {
@@ -123,7 +123,7 @@ class Customization extends React.Component {
     }
     // which model do you want to use?
     if (e.target.id ==="19" && this.state.q20 === false) {
-      return
+      this.setState({q19: !this.state.q19})
     } else if (e.target.id === "20" && this.state.q20 === false) {
       this.setState(
         {
@@ -148,7 +148,7 @@ class Customization extends React.Component {
 
     // Do you want us to fit the model?
     if (e.target.id ==="22" && this.state.q21 === false) {
-      return
+      this.setState({q22: !this.state.qw22})
     } else if (e.target.id === "21" && this.state.q21 === false) {
       this.setState(
         {
@@ -173,7 +173,7 @@ class Customization extends React.Component {
 
     // Do you want us to validate & verify your model?
     if (e.target.id ==="24" && this.state.q23 === false) {
-      return
+      this.setState({q24: !this.state.q24})
     } else if (e.target.id === "23" && this.state.q23 === false) {
       this.setState(
         {
@@ -198,7 +198,7 @@ class Customization extends React.Component {
 
     // Do you need a comparison of your model performance?
     if (e.target.id ==="26" && this.state.q25 === false) {
-      return
+      this.setState({q26: !this.state.q26})
     } else if (e.target.id === "25" && this.state.q25 === false) {
       this.setState(
         {
@@ -223,7 +223,7 @@ class Customization extends React.Component {
 
     // Do you need visualization of data and model?
     if (e.target.id ==="28" && this.state.q27 === false) {
-      return
+      this.setState({q28: !this.state.q28})
     } else if (e.target.id === "27" && this.state.q27 === false) {
       this.setState(
         {
@@ -423,7 +423,7 @@ class Customization extends React.Component {
 
     // Do you need an analysis final report?
     if (e.target.id ==="30" && this.state.q29 === false) {
-      return
+      this.setState({q30: !this.state.q30})
     } else if (e.target.id === "29" && this.state.q29 === false) {
       this.setState(
         {
@@ -724,7 +724,7 @@ class Customization extends React.Component {
                 action={this.handleClick}
                 service="Yes"
                 name="110"
-                addition="$500-$800"
+                addition="$500-$900"
                 period="1-2 weeks"
                 />
                 <SelectionButton
