@@ -715,7 +715,6 @@ class Customization extends React.Component {
                  <br />
                  <div style={{lineHeight: '20px'}}>
                    <a className="btn btn-primary-cost new_contact_button" href="#">Contact Us with Estimated Cost </a>
-                   <div style={{fontWeight: '400', fontSize: '14px', color: 'light-gray', marginTop: '5px'}}>문의를 남기시면 견적서 PDF를 보내드립니다</div>
                  </div>
                </div>
              </div>
