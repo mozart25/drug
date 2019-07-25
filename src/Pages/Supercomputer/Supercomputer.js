@@ -136,7 +136,7 @@ class Supercomputer extends React.Component {
           <div className="s-gpu-wrapper">
             <p className="s-gpu-service"> GPU </p>
             <div className="gpu-status-wrapper">
-              <img src={require(`./gpu.png`)} style={{width: "150px"}} alt=""/>
+              <img src={require(`./gpu.png`)} style={{width: "55%"}} alt=""/>
               <div className="temp-wrapper">
                 <p style={{marginBottom: "20px", fontColor: "#fff"}}> GPU Average </p>
                 <p>{`GPU1  20%`}</p>
