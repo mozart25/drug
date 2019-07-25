@@ -1,7 +1,7 @@
 import React from 'react';
 import './Customization.scss';
-import SelectionButton from '../../Components/Button/SelectionButton'
-
+import SelectionButton from '../../Components/Button/SelectionButton';
+import Contact from '../../Components/Contact/Contact';
 class Customization extends React.Component {
 
   constructor(props) {
@@ -720,6 +720,7 @@ class Customization extends React.Component {
                </div>
              </div>
           </div>
+          <Contact />
         </div>
 
       </div>
