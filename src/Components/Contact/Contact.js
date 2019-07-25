@@ -2,6 +2,21 @@ import React from 'react';
 import './Contact.scss'
 
 class Contact extends React.Component {
+
+
+
+  getContactMessage= () => {
+    if (this.props.contactStatus === true) {
+      return (
+        `■ Data preparation
+    Finding data(${this.props.q7 === false ? (this.props.q8 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
+■ Total: ${this.props.total}
+        `
+      )
+
+    }
+  }
+
   render() {
     return (
       <section className="page-section" id="contact">
@@ -67,7 +82,7 @@ class Contact extends React.Component {
                   <div className="col-md-12">
                     <div className="form-group text required contact_body focused">
                       <label className="control-label text required textLabel" htmlFor="contact_body"> Message </label>
-                      <textarea className="form-control text required" rows={10} name="contact[body]" id="contact_body" defaultValue={"test"} />
+                      <textarea className="form-control text required" rows={10} name="contact[body]" id="contact_body" value={this.getContactMessage()} />
                     </div>
                   </div>
                 </div>

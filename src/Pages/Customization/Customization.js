@@ -35,8 +35,18 @@ class Customization extends React.Component {
     q30: false,
     totalAmount: 0,
     totalPeriod: 0,
+    contactStatus: false,
   };
 }
+
+  contactClick=()=> {
+    console.log("i clicked that contact")
+    this.setState(
+      {
+        contactStatus: !this.state.contactStatus
+      }, ()=> console.log(this.state.contactStatus)
+    )
+  }
 
   handleClick=(e)=> {
     // Do you have any data for analysis?
@@ -714,12 +724,16 @@ class Customization extends React.Component {
                  <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{months}</span> months)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
-                   <a className="btn btn-primary-cost new_contact_button" href="#">Contact Us with Estimated Cost </a>
+                   <a className="btn btn-primary-cost new_contact_button" onClick={this.contactClick}>Contact Us with Estimated Cost </a>
                  </div>
                </div>
              </div>
           </div>
-          <Contact />
+          <Contact
+          {...this.state}
+          contactStatus={this.state.contactStatus}
+          total = {`$${this.state.totalAmount.toString().replace(regex, ',')}`}
+          />
         </div>
 
       </div>
