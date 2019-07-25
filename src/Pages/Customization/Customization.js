@@ -407,7 +407,8 @@ class Customization extends React.Component {
 
 
   render() {
-    var regex = /\B(?=(\d{3})+(?!\d))/g;
+    let regex = /\B(?=(\d{3})+(?!\d))/g;
+    let months = this.state.totalPeriod / 4
 
     return (
       <div className="custom-wrapper">
@@ -710,7 +711,7 @@ class Customization extends React.Component {
                <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
                  Average expected cost :
                  <span id="price">${this.state.totalAmount.toString().replace(regex, ',')}</span>
-                 <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{this.state.totalPeriod}</span> weeks)</small>
+                 <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{months}</span> months)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
                    <a className="btn btn-primary new_contact_button" href="#">Contact Us with Estimated Cost </a>
