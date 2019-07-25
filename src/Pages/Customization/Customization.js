@@ -1,7 +1,7 @@
 import React from 'react';
 import './Customization.scss';
-import SelectionButton from '../../Components/Button/SelectionButton'
-
+import SelectionButton from '../../Components/Button/SelectionButton';
+import Contact from '../../Components/Contact/Contact';
 class Customization extends React.Component {
 
   constructor(props) {
@@ -39,7 +39,7 @@ class Customization extends React.Component {
 }
 
   handleClick=(e)=> {
-
+    // Do you have any data for analysis?
     if (e.target.id ==="7" && this.state.q8 === false) {
       return
     } else if (e.target.id === "8" && this.state.q8 === false) {
@@ -47,7 +47,8 @@ class Customization extends React.Component {
         {
           q8: !this.state.q8,
           totalAmount: this.state.totalAmount + 700,
-          q7: false
+          q7: false,
+          totalPeriod: this.state.totalPeriod + 1
         }
       )
     } else if (e.target.id === "7" && this.state.q7 === false) {
@@ -55,11 +56,12 @@ class Customization extends React.Component {
         {
           q7: !this.state.q7,
           totalAmount: this.state.totalAmount - 700,
+          totalPeriod: this.state.totalPeriod - 1,
           q8: false,
         }
       )
     }
-
+    // Do you need data cleansing?
     if (e.target.id ==="16" && this.state.q15 === false) {
       return
     } else if (e.target.id === "15" && this.state.q15 === false) {
@@ -67,6 +69,7 @@ class Customization extends React.Component {
         {
           q15: !this.state.q15,
           totalAmount: this.state.totalAmount + 1300,
+          totalPeriod: this.state.totalPeriod + 2,
           q16: false
         }
       )
@@ -75,6 +78,7 @@ class Customization extends React.Component {
         {
           q16: !this.state.q16,
           totalAmount: this.state.totalAmount - 1300,
+          totalPeriod: this.state.totalPeriod - 2,
           q15: false
         }
       )
@@ -87,6 +91,7 @@ class Customization extends React.Component {
         {
           q17: !this.state.q17,
           totalAmount: this.state.totalAmount + 400,
+          totalPeriod: this.state.totalPeriod + 1,
           q18: false
         }
       )
@@ -95,6 +100,7 @@ class Customization extends React.Component {
         {
           q18: !this.state.q18,
           totalAmount: this.state.totalAmount - 400,
+          totalPeriod: this.state.totalPeriod - 1,
           q17: false
         }
       )
@@ -107,6 +113,7 @@ class Customization extends React.Component {
         {
           q20: !this.state.q20,
           totalAmount: this.state.totalAmount + 500,
+          totalPeriod: this.state.totalPeriod + 1,
           q19: false
         }
       )
@@ -115,6 +122,7 @@ class Customization extends React.Component {
         {
           q19: !this.state.q19,
           totalAmount: this.state.totalAmount - 500,
+          totalPeriod: this.state.totalPeriod - 1,
           q20: false
         }
       )
@@ -128,6 +136,7 @@ class Customization extends React.Component {
         {
           q21: !this.state.q21,
           totalAmount: this.state.totalAmount + 1200,
+          totalPeriod: this.state.totalPeriod + 2,
           q22: false
         }
       )
@@ -136,6 +145,7 @@ class Customization extends React.Component {
         {
           q22: !this.state.q22,
           totalAmount: this.state.totalAmount - 1200,
+          totalPeriod: this.state.totalPeriod - 2,
           q21: false
         }
       )
@@ -149,6 +159,7 @@ class Customization extends React.Component {
         {
           q23: !this.state.q23,
           totalAmount: this.state.totalAmount + 700,
+          totalPeriod: this.state.totalPeriod + 1,
           q24: false
         }
       )
@@ -157,6 +168,7 @@ class Customization extends React.Component {
         {
           q24: !this.state.q24,
           totalAmount: this.state.totalAmount - 700,
+          totalPeriod: this.state.totalPeriod - 1,
           q23: false
         }
       )
@@ -170,6 +182,7 @@ class Customization extends React.Component {
         {
           q25: !this.state.q25,
           totalAmount: this.state.totalAmount + 1000,
+          totalPeriod: this.state.totalPeriod + 2,
           q26: false
         }
       )
@@ -178,6 +191,7 @@ class Customization extends React.Component {
         {
           q26: !this.state.q26,
           totalAmount: this.state.totalAmount - 1000,
+          totalPeriod: this.state.totalPeriod - 2,
           q25: false
         }
       )
@@ -191,6 +205,7 @@ class Customization extends React.Component {
         {
           q27: !this.state.q27,
           totalAmount: this.state.totalAmount + 700,
+          totalPeriod: this.state.totalPeriod + 1,
           q28: false
         }
       )
@@ -199,6 +214,7 @@ class Customization extends React.Component {
         {
           q28: !this.state.q28,
           totalAmount: this.state.totalAmount - 700,
+          totalPeriod: this.state.totalPeriod - 1,
           q27: false
         }
       )
@@ -210,6 +226,7 @@ class Customization extends React.Component {
         {
           q9: !this.state.q9,
           totalAmount: this.state.totalAmount - 700,
+          totalPeriod: this.state.totalPeriod - 3,
           q10: false,
           q11: false
         }
@@ -219,6 +236,7 @@ class Customization extends React.Component {
         {
           q9: !this.state.q9,
           totalAmount: this.state.totalAmount - 300,
+          totalPeriod: this.state.totalPeriod - 2,
           q10: false,
           q11: false
         }
@@ -228,6 +246,7 @@ class Customization extends React.Component {
         {
           q10: !this.state.q10,
           totalAmount: this.state.totalAmount + 700,
+          totalPeriod: this.state.totalPeriod + 3,
           q9: false,
           q11: false
         }
@@ -237,6 +256,7 @@ class Customization extends React.Component {
         {
           q10: !this.state.q10,
           totalAmount: this.state.totalAmount + 400,
+          totalPeriod: this.state.totalPeriod + 1,
           q9: false,
           q11: false
         }
@@ -246,6 +266,7 @@ class Customization extends React.Component {
         {
           q11: !this.state.q11,
           totalAmount: this.state.totalAmount + 300,
+          totalPeriod: this.state.totalPeriod + 2,
           q9: false,
           q10: false
         }
@@ -255,6 +276,7 @@ class Customization extends React.Component {
         {
           q11: !this.state.q11,
           totalAmount: this.state.totalAmount - 400,
+          totalPeriod: this.state.totalPeriod - 1,
           q9: false,
           q10: false
         }
@@ -275,6 +297,7 @@ class Customization extends React.Component {
         {
           q10: !this.state.q10,
           totalAmount: this.state.totalAmount + 1400,
+          totalPeriod: this.state.totalPeriod + 3,
           q9: false,
           q11: false
         }
@@ -284,6 +307,7 @@ class Customization extends React.Component {
         {
           q11: !this.state.q11,
           totalAmount: this.state.totalAmount + 1000,
+          totalPeriod: this.state.totalPeriod + 2,
           q9: false,
           q10: false
         }
@@ -299,6 +323,7 @@ class Customization extends React.Component {
         {
           q12: !this.state.q12,
           totalAmount: this.state.totalAmount - 600,
+          totalPeriod: this.state.totalPeriod - 1,
           q13: false,
           q14: false
         }
@@ -308,6 +333,7 @@ class Customization extends React.Component {
         {
           q12: !this.state.q12,
           totalAmount: this.state.totalAmount - 1200,
+          totalPeriod: this.state.totalPeriod - 2,
           q13: false,
           q14: false
         }
@@ -317,6 +343,7 @@ class Customization extends React.Component {
         {
           q13: !this.state.q13,
           totalAmount: this.state.totalAmount - 600,
+          totalPeriod: this.state.totalPeriod - 1,
           q12: false,
           q14: false
         }
@@ -326,6 +353,7 @@ class Customization extends React.Component {
         {
           q14: !this.state.q14,
           totalAmount: this.state.totalAmount + 600,
+          totalPeriod: this.state.totalPeriod + 1,
           q12: false,
           q13: false
         }
@@ -335,6 +363,7 @@ class Customization extends React.Component {
         {
           q13: !this.state.q13,
           totalAmount: this.state.totalAmount + 600,
+          totalPeriod: this.state.totalPeriod + 1,
           q12: false,
           q14: false,
         }
@@ -344,6 +373,7 @@ class Customization extends React.Component {
         {
           q14: !this.state.q14,
           totalAmount: this.state.totalAmount + 1200,
+          totalPeriod: this.state.totalPeriod + 2,
           q13: false,
           q12: false,
         }
@@ -358,6 +388,7 @@ class Customization extends React.Component {
         {
           q29: !this.state.q29,
           totalAmount: this.state.totalAmount + 600,
+          totalPeriod: this.state.totalPeriod + 1,
           q30: false
         }
       )
@@ -366,6 +397,7 @@ class Customization extends React.Component {
         {
           q30: !this.state.q30,
           totalAmount: this.state.totalAmount - 600,
+          totalPeriod: this.state.totalPeriod - 1,
           q29: false
         }
       )
@@ -375,6 +407,9 @@ class Customization extends React.Component {
 
 
   render() {
+    let regex = /\B(?=(\d{3})+(?!\d))/g;
+    let months = this.state.totalPeriod / 4
+
     return (
       <div className="custom-wrapper">
         <div className="custom-main">
@@ -531,8 +566,8 @@ class Customization extends React.Component {
                     action={this.handleClick}
                     service="Yes"
                     name="105"
-                    addition="$1,000-$1,500"
-                    period="2-3 weeks"
+                    addition="$1,000-$1,600"
+                    period="2 weeks"
                     />
                     <SelectionButton
                     id={16}
@@ -548,7 +583,7 @@ class Customization extends React.Component {
                     action={this.handleClick}
                     service="Yes"
                     name="106"
-                    addition="$200-$500"
+                    addition="$200-$600"
                     period="1 weeks"
                     />
                     <SelectionButton
@@ -675,16 +710,16 @@ class Customization extends React.Component {
                </section>
                <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
                  Average expected cost :
-                 <span id="price">${this.state.totalAmount}</span>
-                 <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{this.state.totalPeriod}</span> months)</small>
+                 <span id="price">${this.state.totalAmount.toString().replace(regex, ',')}</span>
+                 <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{months}</span> months)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
-                   <a className="btn btn-primary new_contact_button" href="#">견적과 함께 문의하기</a>
-                   <div style={{fontWeight: '400', fontSize: '14px', color: 'light-gray', marginTop: '5px'}}>문의를 남기시면 견적서 PDF를 보내드립니다</div>
+                   <a className="btn btn-primary-cost new_contact_button" href="#">Contact Us with Estimated Cost </a>
                  </div>
                </div>
              </div>
           </div>
+          <Contact />
         </div>
 
       </div>

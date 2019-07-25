@@ -159,9 +159,12 @@ hr {
   font-size: 34px;
   z-index: 1;
 }
-.btn-primary {
+.btn-primary-cost {
   color: #fff;
-  border-color: #510fa8;
-  background-color: #510fa8 !important;
+  border-color: #4a43f4;
+  background-color: #4a43f4 !important;
   box-shadow: none;
+  height: 59px;
+  line-height: 46px;
+  text-transform: none;
 }

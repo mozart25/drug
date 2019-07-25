@@ -1,0 +1,117 @@
+@import "Style/_global.scss";
+
+.page-section {
+    padding: 140px 0;
+}
+
+section#contact {
+    background-color: #212529;
+}
+
+section#contact .section-heading {
+    color: #fff;
+    font-family: 'Righteous', cursive;
+}
+
+.page-section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.page-section h3.section-subheading {
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'Droid Serif';
+}
+
+button {
+    border: none;
+    border-width: none;
+    position: relative;
+    z-index: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .col-lg-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+
+section#contact .form-group textarea.form-control {
+    height: 248px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+.contact-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-container {
+      max-width: 450px;
+  }
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+.btn {
+  color: #fff;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.textLabel {
+  color: #fff;
+  font-family: 'righteous';
+}
+
+.textLabel-sub {
+  color: grey;
+  font-family: 'righteous';
+  margin-left: 4px;
+  margin-bottom: 0rem;
+}
+
+.text-center-submit {
+  margin-left: -17px;
+}
+
+#sendMessageButton {
+  float: left;
+  margin-bottom: 80px;
+}
