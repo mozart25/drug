@@ -407,6 +407,8 @@ class Customization extends React.Component {
 
 
   render() {
+    var regex = /\B(?=(\d{3})+(?!\d))/g;
+
     return (
       <div className="custom-wrapper">
         <div className="custom-main">
@@ -707,7 +709,7 @@ class Customization extends React.Component {
                </section>
                <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
                  Average expected cost :
-                 <span id="price">${this.state.totalAmount}</span>
+                 <span id="price">${this.state.totalAmount.toString().replace(regex, ',')}</span>
                  <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{this.state.totalPeriod}</span> weeks)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
