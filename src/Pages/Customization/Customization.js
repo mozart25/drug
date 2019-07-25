@@ -566,8 +566,8 @@ class Customization extends React.Component {
                     action={this.handleClick}
                     service="Yes"
                     name="105"
-                    addition="$1,000-$1,500"
-                    period="2-3 weeks"
+                    addition="$1,000-$1,600"
+                    period="2 weeks"
                     />
                     <SelectionButton
                     id={16}
@@ -583,7 +583,7 @@ class Customization extends React.Component {
                     action={this.handleClick}
                     service="Yes"
                     name="106"
-                    addition="$200-$500"
+                    addition="$200-$600"
                     period="1 weeks"
                     />
                     <SelectionButton
@@ -714,7 +714,7 @@ class Customization extends React.Component {
                  <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{months}</span> months)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
-                   <a className="btn btn-primary new_contact_button" href="#">Contact Us with Estimated Cost </a>
+                   <a className="btn btn-primary-cost new_contact_button" href="#">Contact Us with Estimated Cost </a>
                    <div style={{fontWeight: '400', fontSize: '14px', color: 'light-gray', marginTop: '5px'}}>문의를 남기시면 견적서 PDF를 보내드립니다</div>
                  </div>
                </div>
