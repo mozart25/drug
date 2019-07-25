@@ -8,6 +8,10 @@ import Battery from '../../Components/Battery/Battery';
 import Battery2 from '../../Components/Battery/Battery2';
 import Battery3 from '../../Components/Battery/Battery3';
 import Battery4 from '../../Components/Battery/Battery4';
+import { easeQuadInOut } from "d3-ease";
+import AnimatedProgressProvider from "./AnimatedProgressProvider";
+import ChangingProgressProvider from "./ChangingProgressProvider";
+
 
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var updateInterval = 500;
@@ -35,7 +39,7 @@ class Supercomputer extends React.Component {
     var chart = this.chart;
     for (var i = 0; i < dps.length; i++) {
       deltaY = Math.round(2 + Math.random() *(-2-2));
-      yVal = deltaY + dps[i].y > 0 ? (deltaY + dps[i].y < 827 ? dps[i].y + deltaY : 827) : 0;
+      yVal = deltaY + dps[i].y > 0 ? (deltaY + dps[i].y < 500 ? dps[i].y + deltaY : 500) : 0;
       dpsColor = yVal >= 220 ? "#FD0E35" : yVal >= 210 ? "#FF6037" : yVal >= 200 ? "#00FEFE" : "#00e640";
       dps[i] = {label: "GPU "+(i+1) , y: yVal, color: dpsColor};
       dpsTotal += yVal;
@@ -59,6 +63,22 @@ class Supercomputer extends React.Component {
     const percentage_b = 53;
     const percentage_c = 85;
     const percentage_d = 77;
+
+    const efficiency_1 = (Math.random() * (100-80+1)) + 80;
+    const efficiency_2 = (Math.random() * (100-80+1)) + 80;
+    const efficiency_3 = (Math.random() * (100-80+1)) + 80;
+    const efficiency_4 = (Math.random() * (100-80+1)) + 80;
+
+    const temp_a1 = Math.floor((Math.random() * (100-85+1)) + 85);
+    const temp_a2 = Math.floor((Math.random() * (100-85+1)) + 85);
+    const temp_b1 = Math.floor((Math.random() * (100-85+1)) + 85);
+    const temp_b2 = Math.floor((Math.random() * (100-85+1)) + 85);
+    const temp_c1 = Math.floor((Math.random() * (100-85+1)) + 85);
+    const temp_c2 = Math.floor((Math.random() * (100-85+1)) + 85);
+    const temp_d1 = Math.floor((Math.random() * (100-85+1)) + 85);
+    const temp_d2 = Math.floor((Math.random() * (100-85+1)) + 85);
+
+
 
     const Example = (props)=> {
       return (
@@ -94,7 +114,7 @@ class Supercomputer extends React.Component {
 			axisY: {
 				suffix: "GB",
         gridThickness: 0,
-			maximum: 827
+			maximum: 500
 			},
 			data: [{
 				type: "column",
@@ -136,13 +156,13 @@ class Supercomputer extends React.Component {
           <div className="s-gpu-wrapper">
             <p className="s-gpu-service"> GPU </p>
             <div className="gpu-status-wrapper">
-              <img src={require(`./gpu.png`)} style={{width: "55%"}} alt=""/>
+              <img src={require(`./gpu.png`)} alt=""/>
               <div className="temp-wrapper">
                 <p style={{marginBottom: "20px", fontColor: "#fff"}}> GPU Average </p>
-                <p>{`GPU1  20%`}</p>
-                <p>{`GPU2  10%`}</p>
-                <p>{`GPU3  30%`}</p>
-                <p>{`GPU4  40%`}</p>
+                <p>{`GPU1 ${efficiency_1}`}</p>
+                <p>{`GPU2 ${efficiency_2}`}</p>
+                <p>{`GPU3 ${efficiency_3}`}</p>
+                <p>{`GPU4 ${efficiency_4}`}</p>
              </div>
             </div>
             <div className="gpu-battery-wrapper">
@@ -170,48 +190,112 @@ class Supercomputer extends React.Component {
             <p className="s-m-service"> Memory </p>
             <div className="s-m-progress-bar">
               <Example value="GPU1">
-                <CircularProgressbar
-                  value={percentage_a}
-                  text={`${percentage_a}%`}
-                  styles={buildStyles({
-                    strokeLinecap: "butt",
-                    pathColor: `rgba(0, 230, 64, 1)`,
-                    textColor: `rgba(0, 230, 64, 1)`
-                  })}
-                />
+                <AnimatedProgressProvider
+                  valueStart={temp_a1}
+                  valueEnd={temp_a2}
+                  duration={0.7}
+                  easingFunction={easeQuadInOut}
+                  repeat
+                >
+                  {value => {
+                    const roundedValue = Math.round(value);
+                    return (
+                      <CircularProgressbar
+                        value={value}
+                        text={`${roundedValue}%`}
+                        styles={buildStyles(
+                          {
+                            pathTransition: "none",
+                            pathColor: `rgba(0, 230, 64, 1)`,
+                            textColor: `rgba(0, 230, 64, 1)`
+                          }
+                        )
+                      }
+                      />
+                    );
+                  }}
+                </AnimatedProgressProvider>
               </Example>
               <Example value="GPU2">
-                <CircularProgressbar
-                  value={percentage_b}
-                  text={`${percentage_b}%`}
-                  styles={buildStyles({
-                    strokeLinecap: "butt",
-                    pathColor: `rgba(0, 230, 64, 1)`,
-                    textColor: `rgba(0, 230, 64, 1)`
-                  })}
-                />
+                <AnimatedProgressProvider
+                  valueStart={temp_b1}
+                  valueEnd={temp_b2}
+                  duration={0.7}
+                  easingFunction={easeQuadInOut}
+                  repeat
+                >
+                  {value => {
+                    const roundedValue = Math.round(value);
+                    return (
+                      <CircularProgressbar
+                        value={value}
+                        text={`${roundedValue}%`}
+                        styles={buildStyles(
+                          {
+                            pathTransition: "none",
+                            pathColor: `rgba(0, 230, 64, 1)`,
+                            textColor: `rgba(0, 230, 64, 1)`
+                          }
+                        )
+                      }
+                      />
+                    );
+                  }}
+                </AnimatedProgressProvider>
               </Example>
               <Example value="GPU3">
-                <CircularProgressbar
-                  value={percentage_c}
-                  text={`${percentage_c}%`}
-                  styles={buildStyles({
-                    strokeLinecap: "butt",
-                    pathColor: `rgba(0, 230, 64, 1)`,
-                    textColor: `rgba(0, 230, 64, 1)`
-                  })}
-                />
+                <AnimatedProgressProvider
+                  valueStart={temp_c1}
+                  valueEnd={temp_c2}
+                  duration={0.7}
+                  easingFunction={easeQuadInOut}
+                  repeat
+                >
+                  {value => {
+                    const roundedValue = Math.round(value);
+                    return (
+                      <CircularProgressbar
+                        value={value}
+                        text={`${roundedValue}%`}
+                        styles={buildStyles(
+                          {
+                            pathTransition: "none",
+                            pathColor: `rgba(0, 230, 64, 1)`,
+                            textColor: `rgba(0, 230, 64, 1)`
+                          }
+                        )
+                      }
+                      />
+                    );
+                  }}
+                </AnimatedProgressProvider>
               </Example>
               <Example value="GPU4">
-                <CircularProgressbar
-                  value={percentage_d}
-                  text={`${percentage_d}%`}
-                  styles={buildStyles({
-                    strokeLinecap: "butt",
-                    pathColor: `rgba(0, 230, 64, 1)`,
-                    textColor: `rgba(0, 230, 64, 1)`
-                  })}
-                />
+                <AnimatedProgressProvider
+                  valueStart={temp_d1}
+                  valueEnd={temp_d2}
+                  duration={0.7}
+                  easingFunction={easeQuadInOut}
+                  repeat
+                >
+                  {value => {
+                    const roundedValue = Math.round(value);
+                    return (
+                      <CircularProgressbar
+                        value={value}
+                        text={`${roundedValue}%`}
+                        styles={buildStyles(
+                          {
+                            pathTransition: "none",
+                            pathColor: `rgba(0, 230, 64, 1)`,
+                            textColor: `rgba(0, 230, 64, 1)`
+                          }
+                        )
+                      }
+                      />
+                    );
+                  }}
+                </AnimatedProgressProvider>
               </Example>
             </div>
           </div>

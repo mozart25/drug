@@ -3,7 +3,7 @@
 .supercomputer-container {
   min-height: 100vh;
   overflow: hidden;
-  background-color: grey;
+  background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -69,6 +69,7 @@
   img {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
   }
 }
 
