@@ -64,10 +64,10 @@ class Supercomputer extends React.Component {
     const percentage_c = 85;
     const percentage_d = 77;
 
-    const efficiency_1 = (Math.random() * (100-80+1)) + 80;
-    const efficiency_2 = (Math.random() * (100-80+1)) + 80;
-    const efficiency_3 = (Math.random() * (100-80+1)) + 80;
-    const efficiency_4 = (Math.random() * (100-80+1)) + 80;
+    const efficiency_1 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const efficiency_2 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const efficiency_3 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const efficiency_4 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
 
     const temp_a1 = Math.floor((Math.random() * (100-85+1)) + 85);
     const temp_a2 = Math.floor((Math.random() * (100-85+1)) + 85);
@@ -159,28 +159,28 @@ class Supercomputer extends React.Component {
               <img src={require(`./gpu.png`)} alt=""/>
               <div className="temp-wrapper">
                 <p style={{marginBottom: "20px", fontColor: "#fff"}}> GPU Average </p>
-                <p>{`GPU1 ${efficiency_1}`}</p>
-                <p>{`GPU2 ${efficiency_2}`}</p>
-                <p>{`GPU3 ${efficiency_3}`}</p>
-                <p>{`GPU4 ${efficiency_4}`}</p>
+                <p>{`GPU1 ${efficiency_1}%`}</p>
+                <p>{`GPU2 ${efficiency_2}%`}</p>
+                <p>{`GPU3 ${efficiency_3}%`}</p>
+                <p>{`GPU4 ${efficiency_4}%`}</p>
              </div>
             </div>
             <div className="gpu-battery-wrapper">
               <Battery
               id="GPU1"
-              randValue={50}
+              randValue={efficiency_1}
               />
               <Battery2
               id="GPU2"
-              randValue={30}
+              randValue={efficiency_2}
               />
               <Battery3
               id="GPU3"
-              randValue={20}
+              randValue={efficiency_3}
               />
               <Battery4
               id="GPU4"
-              randValue={90}
+              randValue={efficiency_4}
               />
             </div>
           </div>
