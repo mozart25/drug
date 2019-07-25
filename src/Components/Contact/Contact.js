@@ -2,6 +2,25 @@ import React from 'react';
 import './Contact.scss'
 
 class Contact extends React.Component {
+
+
+
+  getContactMessage= () => {
+    if (this.props.contactStatus === true) {
+      return (
+        `■ Data preparation
+    Finding data(${this.props.q7 === false ? (this.props.q8 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
+    Data type(${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "" : "Text data") : "Image data") : "Structured data"}): ${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "Unselected" : "$1,000") : "$1,400") : "$700"}
+■ Total: ${this.props.total}
+        `
+      )
+
+    }
+  }
+
+  // Data type(${this.props.q9 === false ? (this.props.q10 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
+
+
   render() {
     return (
       <section className="page-section" id="contact">
@@ -67,7 +86,7 @@ class Contact extends React.Component {
                   <div className="col-md-12">
                     <div className="form-group text required contact_body focused">
                       <label className="control-label text required textLabel" htmlFor="contact_body"> Message </label>
-                      <textarea className="form-control text required" rows={10} name="contact[body]" id="contact_body" defaultValue={"test"} />
+                      <textarea className="form-control text required" rows={10} name="contact[body]" id="contact_body" value={this.getContactMessage()} />
                     </div>
                   </div>
                 </div>
