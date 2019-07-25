@@ -478,7 +478,7 @@ class Customization extends React.Component {
                       development time and difficulty.`} </li>
                 <li>{`Total estimated time for project completion is about 2~3 months,
                       which can vary depending on the component of the project. You can
-                      always discuss with use the progress and timeline.`}</li>
+                      always discuss with us the progress and timeline.`}</li>
                 <li>{`We typically use a Python programming language with scikit-learn
                       for machine learning and PyTorch as deep learning platform.`}</li>
               </ul>
