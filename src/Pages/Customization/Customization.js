@@ -351,7 +351,7 @@ class Customization extends React.Component {
 
     // What type of data do you want to analyze?
     if (e.target.id ==="12" && this.state.q13 === false && this.state.q14 === false ) {
-      return
+      this.setState({q12: !this.state.q12})
 
     }  else if (e.target.id ==="12"  && this.state.q13 === true){
       this.setState(

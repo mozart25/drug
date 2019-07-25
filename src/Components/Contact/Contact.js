@@ -11,6 +11,7 @@ class Contact extends React.Component {
         `■ Data preparation
     Finding data(${this.props.q7 === false ? (this.props.q8 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
     Data type(${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "" : "Text data") : "Image data") : "Structured data"}): ${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "Unselected" : "$1,000") : "$1,400") : "$700"}
+    Data size(${this.props.q12 === false ? (this.props.q13 === false ? (this.props.q14 === false ? "" : "100GB ≤ x") : "10GB ≤ x < 100GB") : "x < 10GB"}): ${this.props.q12 === false ? (this.props.q13 === false ? (this.props.q14 === false ? "Unselected" : "$1,200") : "$600") : "$0"}
 ■ Total: ${this.props.total}
         `
       )
