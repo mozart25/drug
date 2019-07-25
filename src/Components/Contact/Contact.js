@@ -10,12 +10,16 @@ class Contact extends React.Component {
       return (
         `■ Data preparation
     Finding data(${this.props.q7 === false ? (this.props.q8 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
+    Data type(${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "" : "Text data") : "Image data") : "Structured data"}): ${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "Unselected" : "$1,000") : "$1,400") : "$700"}
 ■ Total: ${this.props.total}
         `
       )
 
     }
   }
+
+  // Data type(${this.props.q9 === false ? (this.props.q10 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
+
 
   render() {
     return (

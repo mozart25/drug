@@ -58,7 +58,8 @@ class Customization extends React.Component {
           q8: !this.state.q8,
           totalAmount: this.state.totalAmount + 700,
           q7: false,
-          totalPeriod: this.state.totalPeriod + 1
+          totalPeriod: this.state.totalPeriod + 1,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "7" && this.state.q7 === false) {
@@ -68,6 +69,7 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount - 700,
           totalPeriod: this.state.totalPeriod - 1,
           q8: false,
+          contactStatus: false
         }
       )
     }
@@ -80,7 +82,8 @@ class Customization extends React.Component {
           q15: !this.state.q15,
           totalAmount: this.state.totalAmount + 1300,
           totalPeriod: this.state.totalPeriod + 2,
-          q16: false
+          q16: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "16" && this.state.q16 === false) {
@@ -89,7 +92,8 @@ class Customization extends React.Component {
           q16: !this.state.q16,
           totalAmount: this.state.totalAmount - 1300,
           totalPeriod: this.state.totalPeriod - 2,
-          q15: false
+          q15: false,
+          contactStatus: false
         }
       )
     }
@@ -102,7 +106,8 @@ class Customization extends React.Component {
           q17: !this.state.q17,
           totalAmount: this.state.totalAmount + 400,
           totalPeriod: this.state.totalPeriod + 1,
-          q18: false
+          q18: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "18" && this.state.q18 === false) {
@@ -111,7 +116,8 @@ class Customization extends React.Component {
           q18: !this.state.q18,
           totalAmount: this.state.totalAmount - 400,
           totalPeriod: this.state.totalPeriod - 1,
-          q17: false
+          q17: false,
+          contactStatus: false
         }
       )
     }
@@ -124,7 +130,8 @@ class Customization extends React.Component {
           q20: !this.state.q20,
           totalAmount: this.state.totalAmount + 500,
           totalPeriod: this.state.totalPeriod + 1,
-          q19: false
+          q19: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "19" && this.state.q19 === false) {
@@ -133,7 +140,8 @@ class Customization extends React.Component {
           q19: !this.state.q19,
           totalAmount: this.state.totalAmount - 500,
           totalPeriod: this.state.totalPeriod - 1,
-          q20: false
+          q20: false,
+          contactStatus: false
         }
       )
     }
@@ -147,7 +155,8 @@ class Customization extends React.Component {
           q21: !this.state.q21,
           totalAmount: this.state.totalAmount + 1200,
           totalPeriod: this.state.totalPeriod + 2,
-          q22: false
+          q22: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "22" && this.state.q22 === false) {
@@ -156,7 +165,8 @@ class Customization extends React.Component {
           q22: !this.state.q22,
           totalAmount: this.state.totalAmount - 1200,
           totalPeriod: this.state.totalPeriod - 2,
-          q21: false
+          q21: false,
+          contactStatus: false
         }
       )
     }
@@ -170,7 +180,8 @@ class Customization extends React.Component {
           q23: !this.state.q23,
           totalAmount: this.state.totalAmount + 700,
           totalPeriod: this.state.totalPeriod + 1,
-          q24: false
+          q24: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "24" && this.state.q24 === false) {
@@ -179,7 +190,8 @@ class Customization extends React.Component {
           q24: !this.state.q24,
           totalAmount: this.state.totalAmount - 700,
           totalPeriod: this.state.totalPeriod - 1,
-          q23: false
+          q23: false,
+          contactStatus: false
         }
       )
     }
@@ -193,7 +205,8 @@ class Customization extends React.Component {
           q25: !this.state.q25,
           totalAmount: this.state.totalAmount + 1000,
           totalPeriod: this.state.totalPeriod + 2,
-          q26: false
+          q26: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "26" && this.state.q26 === false) {
@@ -202,7 +215,8 @@ class Customization extends React.Component {
           q26: !this.state.q26,
           totalAmount: this.state.totalAmount - 1000,
           totalPeriod: this.state.totalPeriod - 2,
-          q25: false
+          q25: false,
+          contactStatus: false
         }
       )
     }
@@ -216,7 +230,8 @@ class Customization extends React.Component {
           q27: !this.state.q27,
           totalAmount: this.state.totalAmount + 700,
           totalPeriod: this.state.totalPeriod + 1,
-          q28: false
+          q28: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "28" && this.state.q28 === false) {
@@ -225,7 +240,8 @@ class Customization extends React.Component {
           q28: !this.state.q28,
           totalAmount: this.state.totalAmount - 700,
           totalPeriod: this.state.totalPeriod - 1,
-          q27: false
+          q27: false,
+          contactStatus: false
         }
       )
     }
@@ -238,7 +254,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount - 700,
           totalPeriod: this.state.totalPeriod - 3,
           q10: false,
-          q11: false
+          q11: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "9" && this.state.q9 === false && this.state.q11 === true){
@@ -248,7 +265,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount - 300,
           totalPeriod: this.state.totalPeriod - 2,
           q10: false,
-          q11: false
+          q11: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "10" && this.state.q10 === false && this.state.q9 === true){
@@ -258,7 +276,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount + 700,
           totalPeriod: this.state.totalPeriod + 3,
           q9: false,
-          q11: false
+          q11: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "10" && this.state.q10 === false && this.state.q11 === true){
@@ -268,7 +287,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount + 400,
           totalPeriod: this.state.totalPeriod + 1,
           q9: false,
-          q11: false
+          q11: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "11" && this.state.q11 === false && this.state.q9 === true){
@@ -278,7 +298,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount + 300,
           totalPeriod: this.state.totalPeriod + 2,
           q9: false,
-          q10: false
+          q10: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "11" && this.state.q11 === false && this.state.q10 === true){
@@ -288,7 +309,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount - 400,
           totalPeriod: this.state.totalPeriod - 1,
           q9: false,
-          q10: false
+          q10: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "9" && this.state.q9 === false) {
@@ -297,7 +319,8 @@ class Customization extends React.Component {
           q9: !this.state.q9,
           totalAmount: this.state.totalAmount + 700,
           q10: false,
-          q11: false
+          q11: false,
+          contactStatus: false
         }
       )
     }
@@ -309,7 +332,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount + 1400,
           totalPeriod: this.state.totalPeriod + 3,
           q9: false,
-          q11: false
+          q11: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "11" && this.state.q11 === false) {
@@ -319,7 +343,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount + 1000,
           totalPeriod: this.state.totalPeriod + 2,
           q9: false,
-          q10: false
+          q10: false,
+          contactStatus: false
         }
       )
     }
@@ -335,7 +360,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount - 600,
           totalPeriod: this.state.totalPeriod - 1,
           q13: false,
-          q14: false
+          q14: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "12" && this.state.q14 === true) {
@@ -345,7 +371,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount - 1200,
           totalPeriod: this.state.totalPeriod - 2,
           q13: false,
-          q14: false
+          q14: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "13" && this.state.q14 === true) {
@@ -355,7 +382,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount - 600,
           totalPeriod: this.state.totalPeriod - 1,
           q12: false,
-          q14: false
+          q14: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "14" && this.state.q13 === true) {
@@ -365,7 +393,8 @@ class Customization extends React.Component {
           totalAmount: this.state.totalAmount + 600,
           totalPeriod: this.state.totalPeriod + 1,
           q12: false,
-          q13: false
+          q13: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "13" && this.state.q13 === false) {
@@ -376,6 +405,7 @@ class Customization extends React.Component {
           totalPeriod: this.state.totalPeriod + 1,
           q12: false,
           q14: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "14" && this.state.q14 === false) {
@@ -386,6 +416,7 @@ class Customization extends React.Component {
           totalPeriod: this.state.totalPeriod + 2,
           q13: false,
           q12: false,
+          contactStatus: false
         }
       )
     }
@@ -399,7 +430,8 @@ class Customization extends React.Component {
           q29: !this.state.q29,
           totalAmount: this.state.totalAmount + 600,
           totalPeriod: this.state.totalPeriod + 1,
-          q30: false
+          q30: false,
+          contactStatus: false
         }
       )
     } else if (e.target.id === "30" && this.state.q30 === false) {
@@ -408,7 +440,8 @@ class Customization extends React.Component {
           q30: !this.state.q30,
           totalAmount: this.state.totalAmount - 600,
           totalPeriod: this.state.totalPeriod - 1,
-          q29: false
+          q29: false,
+          contactStatus: false
         }
       )
     }
