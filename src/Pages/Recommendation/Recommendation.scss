@@ -1,18 +1,18 @@
+@import "Style/_global.scss";
 
 .recommend-container {
   background-color: white;
-  height: 800vh;
+  height: 100%;
 }
-
 
 .title {
   .row {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      margin-right: -15px;
-      margin-left: -15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
   }
 }
 
@@ -37,7 +37,7 @@
     font-size: 34px;
     margin-bottom: 100px;
     font-weight: 700;
-    font-family: Raleway;
+    font-family: "Raleway";
 }
 
 ion-icon svg {
@@ -175,7 +175,7 @@ ion-icon svg {
     padding: 0.5rem 0.5rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
@@ -195,7 +195,7 @@ ion-icon svg {
   padding-top: 10px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
   .col-lg-6 {
       flex: 0 0 100%;
       max-width: 100%;
@@ -270,6 +270,7 @@ ion-icon svg {
 
 .preparation-list2 {
   padding-left: 10px;
+  width: 95%;
 
   li {
     list-style: none;
@@ -314,7 +315,7 @@ ion-icon svg {
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
   .container {
       max-width: 1260px;
   }
@@ -345,6 +346,7 @@ ion-icon svg {
       display: flex;
       align-items: center;
       justify-content: center;
+      width: 100%;
   }
 
   tr {
@@ -605,13 +607,56 @@ button {
   display: inline-block;
   text-align: center;
   max-width:300px;
-  margin-right: 50px;
+  margin-right: 40px;
   align-items: center;
   justify-content: center;
   display: flex;
+  padding-left: 10px;
 
   img {
     max-width: 185px;
     min-height: 185px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contents-wrapper {
+    display: block;
+  }
+  .img-contents-wrapper {
+    max-width: none;
+    margin-right: 0px;
+  }
+  .contents-wrapper .b-radius {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+
+@media screen and (max-width:1025px) {
+  .process-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .process-wrapper .infinite-container {
+    width: 48%;
+    margin-bottom: 20px;
+
+    @media screen and (max-width:600px) {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:860px) {
+  .caretDelete {
+    display: none;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .for2ndDelete {
+    display: none;
   }
 }

@@ -602,7 +602,7 @@ class Customization extends React.Component {
                 <p id="header-explain">Data preprocessing usually takes such a long time. If you already have techniques to preprocess, we can help with that. Also, we will find right techniques for you if you don’t have. </p>
                 <ul className='preprocess-list'>
                   <li className="q-quatro">
-                    <h3 style={{marginBottom: '12px', marginTop: '20px'}}> Do you need data cleansing? </h3>
+                    <h3 style={{marginBottom: '12px', marginTop: '20px'}}> • Do you need data cleansing? </h3>
                     <p id="header-explain">Let’s assume that you have text data. Your data include the dirty parts caused grammatical errors or typos. We help you with detecting and correcting corrupt and inaccurate data and replace with accurate and validate data. </p>
                     <SelectionButton
                     id={15}
@@ -619,7 +619,7 @@ class Customization extends React.Component {
                     name="105"/>
                   </li>
                   <li className="q-quatro">
-                    <h3 style={{marginBottom: '12px'}}> Do you need to deal with the missing values? </h3>
+                    <h3 style={{marginBottom: '12px'}}> • Do you need to deal with the missing values? </h3>
                     <p id="header-explain">Although your data contain the missing values, we will provide an optimal solution to deal with them. This process might increase the accuracy of model.</p>
                     <SelectionButton
                     id={17}

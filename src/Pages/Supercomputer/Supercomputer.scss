@@ -87,7 +87,8 @@
       display: block;
       font-size: 1.55rem;
       color: #fff;
-      font-family: 'Righteous', cursive;
+      font-family: -webkit-body;
+      font-weight: 800;
     }
   }
 
@@ -132,8 +133,6 @@
   margin: 0 auto;
   margin-top: 30px;
 }
-
-
 
 .s-usage-wrapper {
   position: absolute;
@@ -247,7 +246,6 @@
     padding-top: 34px;
   }
 }
-
 
 .s-m-u-status-wapper {
   width: 310px;
