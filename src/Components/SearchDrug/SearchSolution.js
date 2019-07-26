@@ -41,7 +41,7 @@ class SearchSolution extends React.Component {
   }
 
   compareName = () => {
-    const solution_list = ["A", "E", "C", "D", "L", "O"];
+    const solution_list = ["Deep learning Drug-Drug Interaction"];
 
     for (var i = 0; i < solution_list.length; i++) {
       if (this.state.keyword.toLowerCase().localeCompare(solution_list[i].toLowerCase()) === 0) {
@@ -51,7 +51,7 @@ class SearchSolution extends React.Component {
   }
 
   movePage = (e) => {
-    this.props.history.push(`/${this.compareName().toLowerCase()}`)
+    window.parent.location.href="http://localhost:3000/recommendation"
     console.log(this.compareName)
   }
 
@@ -71,7 +71,7 @@ class SearchSolution extends React.Component {
           />
           <MDBIcon icon="search" />
         </form>
-        <div className="search-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
+        <div className="search-sol-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
       </MDBCol>
     )
   }
