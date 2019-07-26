@@ -251,6 +251,7 @@ ion-icon svg {
 .preparation-list {
   padding-left: 10px;
   display: inline-block;
+  width: 95%;
 
   li {
     list-style: square;
@@ -464,7 +465,7 @@ button {
 }
 
 .round input[type="checkbox"]:checked + label:after {
-  opacity: 1;
+  opacity: 1;    width: 95%;
 }
 
 .round input[type="checkbox"] {
@@ -559,7 +560,7 @@ button {
 
 .finish-btn-pos {
   float: right;
-  margin-top: 310px;
+  margin-bottom: 20px;
 }
 
 .finish-btn-pos2 {
@@ -586,4 +587,8 @@ button {
 #icon-change {
   background-color: #fff !important;
   width:0px;
+}
+
+.badge-additional {
+  background-color: coral !important;
 }

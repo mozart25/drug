@@ -441,9 +441,15 @@ class Recommendation extends React.Component {
                                 </ol>
                             </ol>
                           <li id="top-list"> Data Source </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'none'}}><p id="badge-link"><span className="badge badge-primary">DrugBank</span></p></li>
-                              <li style={{listStyle: 'none'}}><p id="badge-link"><span className="badge badge-primary">PubChem</span></p></li>
+                            <ol style={{paddingLeft: '18px', width: "250px"}}>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="https://www.drugbank.ca/releases/latest"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DrugBank</span></p></a></li>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="https://pubchem.ncbi.nlm.nih.gov/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>PubChem</span></p></a></li>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="https://www.pharmgkb.org/downloads"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>PharmGKB</span></p></a></li>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="http://sideeffects.embl.de/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>SIDER</span></p></a></li>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="https://clinicaltrials.gov/ct2/resources/download"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>ClinicalTrials.gov</span></p></a></li>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="https://www.genome.jp/kegg/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>KEGG</span></p></a></li>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DIKB</span></p></a></li>
+                              <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DGV</span></p></a></li>
                             </ol>
                         </ol>
                         <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
@@ -500,7 +506,7 @@ class Recommendation extends React.Component {
                                       <table>
                                         <tbody>
                                           <tr className="contents-table">
-                                            <p style={{height:'79px'}}><span>Word2vec</span>{` models where vectors of closely
+                                            <p><span>Word2vec</span>{` models where vectors of closely
                                                 related words are in close proximity in the vector space, Mol2vec
                                                 learns vector representations of molecular substructures that are
                                                 pointing in similar directions for chemically related substructures.`}</p>
