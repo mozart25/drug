@@ -17,7 +17,7 @@
 }
 
 .item {
-    width: 82%;
+    width: 90%;
     margin-bottom: 0px;
     border: 0px solid;
     border-radius: 10px;
@@ -70,13 +70,13 @@ ion-icon svg {
     color: #fff;
     background-color: #f9f9f9;
     border: 1px solid;
-    border-color: #e0e0e0;
+    border-color: lightcoral;;
     padding: 10px;
     border-radius: 5px;
     color: #888888;
     font-weight: none;
     font-family: "Raleway";
-    font-size: 11px;
+    font-size: 12px;
     height: 32px;
     margin-bottom: 5px;
 }
@@ -256,7 +256,7 @@ ion-icon svg {
   li {
     list-style: square;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   svg {
@@ -300,7 +300,7 @@ ion-icon svg {
 #top-list {
   font-size: 17px;
   font-weight: 700;
-  margin-top: 15px;
+  margin-top: 25px;
 
   P {
     font-weight: 300;
@@ -323,7 +323,7 @@ ion-icon svg {
 
 .contents-wrapper {
   margin-top: 10px;
-  width: 97%;
+  display: flex;
 
   .b-active {
       border-color: #5b616b !important;
@@ -342,24 +342,28 @@ ion-icon svg {
 
   .b-radius {
       border-radius: 5px !important;
+      display: flex;
   }
 
   tr {
-
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
+    line-height: 180%;
   }
 
   table {
-    width: 72%;
+    width: 90%;
     display: inline-block;
+
   }
+
 }
 
 .contents-table {
   p {
   font-size: 15px;
+  font-family: "Raleway";
   }
 
   #contents-head {
@@ -374,8 +378,10 @@ ion-icon svg {
 
 .entity {
   display: inline-block;
-  margin-left: 40px;
   vertical-align: super;
+  float: right;
+  width: 59px;
+  margin-right: 20px;
 
   .badge-light {
       padding: 10px;
@@ -591,4 +597,16 @@ button {
 
 .badge-additional {
   background-color: coral !important;
+}
+
+.img-contents-wrapper {
+  display: inline-block;
+  text-align: center;
+  max-width:300px;
+  margin-right: 50px;
+
+  img {
+    max-width: 185px;
+    min-height: 185px;
+  }
 }
