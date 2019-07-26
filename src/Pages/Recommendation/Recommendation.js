@@ -475,7 +475,7 @@ class Recommendation extends React.Component {
                               <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox5" onClick={this.handleClick5}/> <label for="checkbox5"></label></div> Molecule autoencoder
                                 <div className="contents-wrapper">
                                   <div className="img-contents-wrapper" style={{}}>
-                                    <img src={require(`./molecular.png`)} style={{}} alt=""/>
+                                    <img src={require(`./molecular.png`)} style={{minHeight: "153px"}} alt=""/>
                                   </div>
                                   <div className="border b-active b-thick b-radius p-sm" style={{width: "75%"}}>
                                     <table>
@@ -770,7 +770,7 @@ class Recommendation extends React.Component {
 
                             <div className="contents-wrapper">
                               <div className="img-contents-wrapper">
-                                <img src={require(`./multilayer.png`)} style={{}} alt=""/>
+                                <img src={require(`./multilayer.png`)} style={{minHeight: "136px"}} alt=""/>
                               </div>
                               <div className="border b-active b-thick b-radius p-sm">
                                 <table>
@@ -872,7 +872,6 @@ class Recommendation extends React.Component {
                                         </tr>
                                       </tbody>
                                     </table>
-
                                     <div className="entity">
                                       <a href="http://deeplearning.net/wp-content/uploads/2013/03/Horizontal-and-Vertical-Ensemble-with-Deep-Representation-for-Classification.pdf" className="badge badge-light" id="icon-change">
                                         <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
@@ -880,7 +879,6 @@ class Recommendation extends React.Component {
                                     </div>
                                   </div>
                                 </div>
-
                               </li>
                               <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox16" onClick={this.handleClick16}/> <label id="rec" for="checkbox16"></label></div> Model averaging ensemble
 
