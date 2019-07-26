@@ -624,9 +624,38 @@ button {
   }
   .img-contents-wrapper {
     max-width: none;
+    margin-right: 0px;
   }
   .contents-wrapper .b-radius {
     width: 100%;
-    margin-top: 2%;
+    margin-top: 5%;
+  }
+}
+
+
+@media screen and (max-width:1025px) {
+  .process-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .process-wrapper .infinite-container {
+    width: 48%;
+    margin-bottom: 20px;
+
+    @media screen and (max-width:600px) {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:860px) {
+  .caretDelete {
+    display: none;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .for2ndDelete {
+    display: none;
   }
 }

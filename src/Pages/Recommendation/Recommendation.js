@@ -347,7 +347,9 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
+              <div className="for2ndDelete">
+                <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
+              </div>
               <div className="infinite-container text-center">
               <div id="tooltip">
                 <span className="tooltiptext"> Click here for more info <p className="tooltip-sub">PREVIEW</p></span>
@@ -369,7 +371,9 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
+              <div className="caretDelete">
+                <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
+              </div>
               <div className="infinite-container text-center">
               <div id="tooltip">
                 <span className="tooltiptext"> Click here for more info   <p className="tooltip-sub">PREVIEW</p></span>
@@ -389,7 +393,9 @@ class Recommendation extends React.Component {
                 </a>
                 </div>
               </div>
-              <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
+              <div className="for2ndDelete">
+                <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
+              </div>
               <div className="infinite-container text-center">
               <div id="tooltip">
                 <span className="tooltiptext"> Click here for more info <p className="tooltip-sub">PREVIEW</p></span>
@@ -477,7 +483,7 @@ class Recommendation extends React.Component {
                                   <div className="img-contents-wrapper" style={{}}>
                                     <img src={require(`./molecular.png`)} style={{minHeight: "153px"}} alt=""/>
                                   </div>
-                                  <div className="border b-active b-thick b-radius p-sm" style={{width: "75%"}}>
+                                  <div className="border b-active b-thick b-radius p-sm">
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
