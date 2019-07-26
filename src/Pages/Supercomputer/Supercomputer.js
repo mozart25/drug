@@ -312,7 +312,7 @@ class Supercomputer extends React.Component {
 
         <div className="s-footer">
           <div className="s-footer-top">
-            <span className="s-footer-text"> BioAI</span>
+            <span className="s-footer-text"> Parallel Computing Optimization Task </span>
            </div>
           <p>
           {`BioAI performs GPU parallelization optimization in a variety of
