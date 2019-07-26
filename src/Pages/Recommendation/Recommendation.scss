@@ -343,6 +343,8 @@ ion-icon svg {
   .b-radius {
       border-radius: 5px !important;
       display: flex;
+      align-items: center;
+      justify-content: center;
   }
 
   tr {
@@ -382,6 +384,7 @@ ion-icon svg {
   float: right;
   width: 59px;
   margin-right: 20px;
+  margin-left: 10px;
 
   .badge-light {
       padding: 10px;

@@ -595,8 +595,6 @@ class Recommendation extends React.Component {
                                     <a href="https://sentic.net/wisdom2014chen.pdf" className="badge badge-light" id="icon-change">
                                       <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
-                                    <br />
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -672,8 +670,6 @@ class Recommendation extends React.Component {
                                     <a href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html" className="badge badge-dark" id="icon-change">
                                       <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
-                                    <br />
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -730,8 +726,6 @@ class Recommendation extends React.Component {
                                   <a href="https://scikit-learn.org/stable/modules/svm.html" className="badge badge-dark" id="icon-change">
                                     <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                   </a>
-                                  <br />
-                                  <br />
                                 </div>
                               </div>
                             </div>
@@ -766,7 +760,6 @@ class Recommendation extends React.Component {
                                   <a href="https://scikit-learn.org/stable/modules/tree.html" className="badge badge-dark" id="icon-change">
                                     <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                   </a>
-                                  <br />
                                 </div>
                               </div>
                             </div>
@@ -804,8 +797,6 @@ class Recommendation extends React.Component {
                                   <a href="https://scikit-learn.org/stable/modules/neural_networks_supervised.html" className="badge badge-dark" id="icon-change">
                                     <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                   </a>
-                                  <br />
-                                  <br />
                                 </div>
                               </div>
                             </div>
@@ -909,7 +900,6 @@ class Recommendation extends React.Component {
                                       <a href="https://machinelearningmastery.com/weighted-average-ensemble-for-deep-learning-neural-networks/" className="badge badge-light" id="icon-change">
                                         <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
                                       </a>
-                                      <br />
                                     </div>
                                   </div>
                                 </div>
@@ -937,7 +927,6 @@ class Recommendation extends React.Component {
                                     <a href="https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10" className="badge badge-light" id="icon-change">
                                       <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -962,8 +951,6 @@ class Recommendation extends React.Component {
                                     <a href="https://towardsdatascience.com/hyper-parameter-tuning-techniques-in-deep-learning-4dad592c63c8" className="badge badge-light" id="icon-change">
                                       <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
-                                    <br />
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -989,8 +976,6 @@ class Recommendation extends React.Component {
                                     <a href="https://towardsdatascience.com/hyper-parameter-tuning-techniques-in-deep-learning-4dad592c63c8" className="badge badge-light" id="icon-change">
                                       <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
-                                    <br />
-                                    <br />
                                   </div>
                                 </div>
                               </div>
@@ -1023,28 +1008,21 @@ class Recommendation extends React.Component {
                                   <a href="https://keras.io/layers/core/" className="badge badge-dark" id="icon-change">
                                     <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                   </a>
-                                  <br />
-                                  <br />
-                                  <br />
                                 </div>
                               </div>
                             </div>
-
                           </li>
                         </ol>
                         <a href ="#" className="finish-btn-pos4">
                             <FinishButton />
                         </a>
-
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
           </div>
         </div>
-
       </div>
     );
   }
