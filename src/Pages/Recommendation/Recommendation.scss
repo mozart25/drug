@@ -261,6 +261,10 @@ ion-icon svg {
   svg {
     height: 21px;
   }
+
+  #text-change {
+    width: 80% !important;
+  }
 }
 
 .preparation-list2 {
@@ -480,6 +484,10 @@ button {
   list-style: none !important;
 }
 
+#text-change {
+  width: 80% !important;
+}
+
 .infinite-container {
   a:link {
     color: black;
@@ -578,5 +586,4 @@ button {
 #icon-change {
   background-color: #fff !important;
   width:0px;
-
 }

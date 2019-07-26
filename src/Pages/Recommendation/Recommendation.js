@@ -548,7 +548,7 @@ class Recommendation extends React.Component {
                                       <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
                                     <br />
-                                    <a href="https://github.com/scikit-learn-contrib/imbalanced-learn" className="badge badge-dark">
+                                    <a href="https://github.com/scikit-learn-contrib/imbalanced-learn" className="badge badge-dark" id="icon-change">
                                       <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
                                     <br />
@@ -652,6 +652,7 @@ class Recommendation extends React.Component {
                                     <a href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html" className="badge badge-dark" id="icon-change">
                                       <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                     </a>
+                                    <br />
                                     <br />
                                   </div>
                                 </div>
@@ -774,6 +775,7 @@ class Recommendation extends React.Component {
                                   <a href="https://scikit-learn.org/stable/modules/neural_networks_supervised.html" className="badge badge-dark" id="icon-change">
                                     <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                   </a>
+                                  <br />
                                   <br />
                                 </div>
                               </div>
@@ -986,6 +988,7 @@ class Recommendation extends React.Component {
                                   <a href="https://keras.io/layers/core/" className="badge badge-dark" id="icon-change">
                                     <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
                                   </a>
+                                  <br />
                                   <br />
                                   <br />
                                 </div>

@@ -13,7 +13,7 @@ class Choice1 extends React.Component {
                     <li id="top-list-process" style={{display: `${this.props.s1  === false && this.props.s2 === false ? 'none' : ''}`}}> Structured Data </li>
                       <ol style={{paddingLeft: '10px'}}>
                         <li style={{listStyle: 'circle', fontSize: '15px', display: `${this.props.s1  === false ? 'none' : ''}`}}> Drug Information Data </li>
-                        <li style={{listStyle: 'circle', fontSize: '14px', display: `${this.props.s2  === false ? 'none' : ''}`}}> Drug-Drug Interaction Real World Data</li>
+                        <li style={{listStyle: 'circle', width: "85%", fontSize: '14px', display: `${this.props.s2  === false ? 'none' : ''}`}}> Drug-Drug Interaction Real World Data</li>
                       </ol>
                   </ol>
                   <ol style={{paddingLeft: '10px'}}>
