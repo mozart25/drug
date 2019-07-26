@@ -18,7 +18,7 @@ class Solution extends React.Component {
             </div>
             <div className="c-search">
               <div className="c-card">
-                <iframe style={{border:'0.5px solid lightgray'}} src="http://mzrt-drug-deploy.s3-website.ap-northeast-2.amazonaws.com/sub" height="421px" width="60%"></iframe>
+                <iframe style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/sub" height="100%" width="100%"></iframe>
               </div>
               <div className="c-sneak"> Search! </div>
 

@@ -99,6 +99,7 @@
 }
 
 .c-card {
+    height: 450px;
     position: relative;
     z-index: 2;
     display: -webkit-box;
@@ -106,7 +107,6 @@
     display: -ms-flexbox;
     display: flex;
     min-width: 376px;
-    padding: 0rem 2rem 1.5rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;

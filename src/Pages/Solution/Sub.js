@@ -9,7 +9,10 @@ class Sub extends React.Component {
       <div className="sub-wrapper">
         <main role="search">
           <div>
-            <p className="sub-search-title">Drug AI algorithm rocommendation solution</p>
+            <p className="sub-search-title">
+            {`Drug AI algorithm
+              
+              rocommendation solution`}</p>
             <SearchDrug
             />
           </div>
