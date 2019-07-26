@@ -1,14 +1,14 @@
 @import "Style/_global.scss";
 
 .sub-wrapper {
-  background-color: white;
-  min-height: 100vh;
+    background-color: indigo;
+    min-height: 100vh;
 }
 
 .sub-search-title {
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
-  font-weight: 800;
-  color: purple;
+  color: #fff;
   padding-top: 50px;
+  font-family: 'Athiti', sans-serif;
 }

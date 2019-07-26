@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sub.scss';
-import SearchDrug from '../../Components/SearchDrug/SearchDrug';
+import SearchSolution from '../../Components/SearchDrug/SearchSolution';
 
 class Sub extends React.Component {
 
@@ -9,8 +9,9 @@ class Sub extends React.Component {
       <div className="sub-wrapper">
         <main role="search">
           <div>
-            <p className="sub-search-title">Drug AI algorithm rocommendation solution</p>
-            <SearchDrug
+            <p className="sub-search-title">
+            {`Drug AI algorithm rocommendation solution`}</p>
+            <SearchSolution
             />
           </div>
         </main>
