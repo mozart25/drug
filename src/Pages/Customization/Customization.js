@@ -478,7 +478,7 @@ class Customization extends React.Component {
                       development time and difficulty.`} </li>
                 <li>{`Total estimated time for project completion is about 2~3 months,
                       which can vary depending on the component of the project. You can
-                      always discuss with use the progress and timeline.`}</li>
+                      always discuss with us the progress and timeline.`}</li>
                 <li>{`We typically use a Python programming language with scikit-learn
                       for machine learning and PyTorch as deep learning platform.`}</li>
               </ul>
@@ -757,7 +757,7 @@ class Customization extends React.Component {
                  <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{months}</span> months)</small>
                  <br />
                  <div style={{lineHeight: '20px'}}>
-                   <a className="btn btn-primary-cost new_contact_button" onClick={this.contactClick}>Contact Us with Estimated Cost </a>
+                   <a className="btn btn-primary-cost new_contact_button" href="#bottom" onClick={this.contactClick}>Contact Us with Estimated Cost </a>
                  </div>
                </div>
              </div>
@@ -768,6 +768,7 @@ class Customization extends React.Component {
           total = {`$${this.state.totalAmount.toString().replace(regex, ',')}`}
           />
         </div>
+        <div id="bottom"> </div>
 
       </div>
     );
