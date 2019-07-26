@@ -1,35 +1,152 @@
 @import "Style/_global.scss";
 
-.solution-container {
-  min-height: 100vh;
-  overflow: hidden;
-  background-color: #f4f1fa;
-  min-height: 100vh;
-  overflow: hidden;
-
+.l-section-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f9fafb !important;
+    background-image: none;
+    background-position: 0px 0px;
 }
 
-.main-container {
-   .sol-row {
-    width: 100%;
-  }
+.l-wrapper {
+    position: relative;
+    display: block;
+    max-width: 1160px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
-.sol-col-lg-6 {
-  width: 82%;
-  text-align: center;
-  margin: 0 auto;
+.c-hero_container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.solution-page-title {
-  text-align: center;
-  color: black;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  font-size: 50px;
-  font-weight: 800;
-  font-family: 'Gilroy-Bold';
-  color: #232D41;
-  line-height: 64px;
-  letter-spacing: 0;
+.c-hero {
+    max-width: 43rem;
+    margin-right: 4rem;
+}
+
+.c-hero_headline {
+    margin-top: 2.2rem;
+    margin-bottom: 0rem;
+    color: #333996;
+    font-size: 3.1rem;
+    line-height: 3.8rem;
+    font-weight: 700;
+    font-family: 'Staatliches', cursive;
+}
+
+.c-hero_subline {
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
+    color: #8993a4;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+.c-search {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.c-card {
+    position: relative;
+    z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 376px;
+    padding: 0rem 2rem 1.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(137, 147, 164, 0.11);
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px 0 rgba(66, 82, 110, 0.05);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+
+.c-sneak {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3px 16px 1px;
+    border-radius: 100px;
+    background-color: rgba(72, 80, 212, 0.06);
+    color: #333996;
+    font-size: 0.8rem;
+    line-height: 21px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
 }
