@@ -26,10 +26,17 @@ class Supercomputer extends React.Component {
 
   this.state = {
    gpuData:[],
+   curTime : null
   };
 }
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
+
+    setInterval( () => {
+      this.setState({
+    curTime : new Date().toLocaleString()
+  })
+},1000)
   }
 
   updateChart() {
@@ -86,6 +93,7 @@ class Supercomputer extends React.Component {
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <span id ="gpu-items-digit"> {`${percentage_a}MB`} </span>
+
             </div>
             <p>{props.label}</p>
               <div style={{ float:'left', width: 100 }}>{props.children}</div>
