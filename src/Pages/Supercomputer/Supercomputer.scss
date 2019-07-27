@@ -61,16 +61,10 @@
 
 .s-usage {
   position: relative;
-  max-width: 95%;
+  max-width: 85%;
   margin: 0 auto;
   margin-top: 70px;
   margin-bottom: 70px;
-
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-  }
 }
 
 .s-footer {
@@ -119,9 +113,6 @@
 }
 
 .s-gpu-wrapper {
-  position: absolute;
-  top: 13%;
-  left: 13%;
   width: 23%;;
 }
 
@@ -254,4 +245,21 @@
 
 .temp-wrapper {
   float: right;
+}
+
+div.relative-img::before {
+  position: relative;
+  content:url('./mac.png');
+  display: block;
+  margin: 0 auto;
+}
+
+.gpu-total-wrapper {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.final-mac-img {
+  width: 100%;
 }
