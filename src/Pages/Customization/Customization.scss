@@ -170,3 +170,15 @@ hr {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+@media screen and (max-width:590px) {
+  .question-container {
+    padding: 0rem;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .s-wapper {
+    padding: 1rem !important;
+  }
+}

@@ -51,7 +51,7 @@ class SearchSolution extends React.Component {
   }
 
   movePage = (e) => {
-    window.parent.location.href="http://localhost:3000/recommendation"
+    window.parent.location.href="http://mzrt-drug-deploy.s3-website.ap-northeast-2.amazonaws.com/recommendation"
     console.log(this.compareName)
   }
 
