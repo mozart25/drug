@@ -7,10 +7,23 @@
 
 
 .q-quatro {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 977px) {
   .col-md-4 {
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
+    }
+  }
+  @media screen and (max-width: 976px) {
+  .col-md-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 746px) {
+  .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
     }
   }
 }
@@ -23,5 +36,30 @@ small {
   > .badge-primary {
     color: #2e016a;
     background-color: #ac77f3;
+  }
+}
+
+.muted {
+  max-width: 85%;
+  font-size: 18px;
+
+  @media screen and (max-width: 1035px) {
+    font-size: 15px;
+}
+  @media screen and (max-width: 927px) {
+    font-size: 13px;
+  }
+  @media screen and (max-width: 746px) {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .calculation-box {
+    font-size: 27px;
+
+    @media screen and (max-width:756px) {
+      font-size: 20px;
+    }
   }
 }
