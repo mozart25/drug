@@ -55,11 +55,7 @@ class Supercomputer extends React.Component {
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
 
-    setInterval( () => {
-  this.setState({
-    curTime : new Date().toLocaleString()
-  })
-},1000)
+
   }
 
 
@@ -67,23 +63,32 @@ class Supercomputer extends React.Component {
 
     const percentage =  Math.floor((Math.random() * (100-85+1)) + 85);
     const memoryMult = (percentage/100 * 32480).toFixed(2);
-
     const percentage2 =  Math.floor((Math.random() * (100-85+1)) + 85);
     const memoryMult2 = (percentage2/100 * 32480).toFixed(2);
-
     const percentage3 =  Math.floor((Math.random() * (100-85+1)) + 85);
     const memoryMult3 = (percentage3/100 * 32480).toFixed(2);
-
     const percentage4 =  Math.floor((Math.random() * (100-85+1)) + 85);
     const memoryMult4 = (percentage4/100 * 32480).toFixed(2);
 
-    const efficiency_1 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
-    const efficiency_2 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
-    const efficiency_3 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
-    const efficiency_4 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const battery_1 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const battery_2 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const battery_3 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const battery_4 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+
+    const efficiency_1 = ((Math.random() * (30-20+1)) + 20).toFixed(2);
+    const efficiency_2 = ((Math.random() * (30-20+1)) + 20).toFixed(2);
+    const efficiency_3 = ((Math.random() * (30-20+1)) + 20).toFixed(2);
+    const efficiency_4 = ((Math.random() * (30-20+1)) + 20).toFixed(2);
+
+    const effMult1 = Math.floor((efficiency_1/100)*827)
+    const effMult2 = Math.floor((efficiency_2/100)*827)
+    const effMult3 = Math.floor((efficiency_3/100)*827)
+    const effMult4 = Math.floor((efficiency_4/100)*827)
+
+
 
     const series = [{
-      data: [percentage, percentage2, percentage3, percentage4],
+      data: [effMult1, effMult2, effMult3, effMult4],
   }]
 
     const Example = (props)=> {
@@ -206,52 +211,52 @@ class Supercomputer extends React.Component {
         <div className="s-usage">
           <img className="final-mac-img" src={require(`./mac.png`)} alt=""/>
             <div className="gpu-total-wrapper">
-              <div className="gpu-total-first">GPU
+              <div className="gpu-total-first gpu-header-text"><div id="gpu-temp-header">GPU</div>
                 <div className="gpu-img">
-                  <img src={require(`./gpu.png`)} style={{width: "49%"}} alt=""/>
+                  <img src={require(`./gpu.png`)} style={{paddingTop: "25px", width: "49%"}} alt=""/>
                   <table>
                     <tr className="eff-gpu">
                       <th colSpan="2">GPU Average</th>
                     </tr>
-                    <tr className="eff-gpu">
+                    <tr className="eff-gpu-sub">
                       <td> GPU1 </td>
-                      <td> {efficiency_1}% </td>
+                      <td className="eff-sub-per"> {battery_1}% </td>
                     </tr>
-                    <tr className="eff-gpu">
+                    <tr className="eff-gpu-sub">
                       <td> GPU2 </td>
-                      <td> {efficiency_2}% </td>
+                      <td className="eff-sub-per"> {battery_2}% </td>
                     </tr>
-                    <tr className="eff-gpu">
+                    <tr className="eff-gpu-sub">
                       <td> GPU1 </td>
-                      <td> {efficiency_3}% </td>
+                      <td className="eff-sub-per"> {battery_3}% </td>
                     </tr>
-                    <tr className="eff-gpu">
+                    <tr className="eff-gpu-sub">
                       <td> GPU1 </td>
-                      <td> {efficiency_4}% </td>
+                      <td className="eff-sub-per"> {battery_4}% </td>
                     </tr>
                   </table>
                </div>
                <div className="gpu-battery-wrapper">
                 <Battery
                 id="GPU1"
-                randValue={efficiency_1}
+                randValue={battery_1}
                 />
                 <Battery2
                 id="GPU2"
-                randValue={efficiency_2}
+                randValue={battery_2}
                 />
                 <Battery3
                 id="GPU3"
-                randValue={efficiency_3}
+                randValue={battery_3}
                 />
                 <Battery4
                 id="GPU4"
-                randValue={efficiency_4}
+                randValue={battery_4}
                 />
               </div>
 
               </div>
-              <div className="gpu-total-second"><div id="gpu-temp-header">memory</div>
+              <div className="gpu-total-second gpu-header-text"><div id="gpu-temp-header">MEMORY</div>
 
                 <div className="gpu-second-wapper">
                   <Example label="GPU1">
@@ -301,14 +306,39 @@ class Supercomputer extends React.Component {
                 </div>
               </div>
 
-              <div className="gpu-total-third">usage
-                <div>
+              <div className="gpu-total-third gpu-header-text"><div id="gpu-temp-header">USAGE</div>
+                <div style={{width:"100%"}}>
                   <div id="chart">
-                    <ReactApexCharts options={this.state.options} series={series} type="bar" height="350" />
+                    <ReactApexCharts options={this.state.options} series={series} type="bar" height="315" />
                   </div>
                 </div>
-                <div>
-                  <p>{this.state.curTime}</p>
+                <div className="third-total-usage">
+                  <div id="third-status-final"> Total Usage </div>
+                  <p id="check-time-style"> {effMult1+effMult2+effMult3+effMult4}GB</p>
+                  <p id="checking-time">{this.state.curTime}</p>
+                </div>
+                <div className="third-total-usage">
+
+                  <table id="third-status">
+                    <tr>
+                      <td> GPU1 </td>
+                      <td className="eff-sub-per-third"> {effMult1}GB /827GB </td>
+                    </tr>
+                    <tr>
+                      <td> GPU2 </td>
+                      <td className="eff-sub-per-third"> {effMult2}GB /827GB  </td>
+                    </tr>
+                    <tr>
+                      <td> GPU3 </td>
+                      <td className="eff-sub-per-third"> {effMult3}GB /827GB  </td>
+                    </tr>
+                    <tr>
+                      <td> GPU4 </td>
+                      <td className="eff-sub-per-third"> {effMult4}GB /827GB  </td>
+                    </tr>
+                  </table>
+
+
                 </div>
               </div>
           </div>
