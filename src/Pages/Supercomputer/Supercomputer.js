@@ -11,8 +11,9 @@ import Battery4 from '../../Components/Battery/Battery4';
 import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
 import ChangingProgressProvider from "./ChangingProgressProvider";
-import { Bar } from "react-chartjs-2";
-import { MDBContainer } from "mdbreact";
+import ApexCharts from 'apexcharts';
+import ReactApexCharts from 'react-apexcharts'
+
 
 
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
@@ -29,7 +30,27 @@ class Supercomputer extends React.Component {
    curTime : null,
    currentGpuA : null,
    currentGpuB : null,
-  };
+
+     options: {
+          plotOptions: {
+            bar: {
+              horizontal: true,
+              distributed: true,
+            }
+          },
+          dataLabels: {
+            enabled: false
+          },
+          xaxis: {
+            categories: ['GPU1','GPU2','GPU3','GPU4' ],
+          },
+        },
+    series: [{
+      data: [null, null, null, null],
+
+  }],
+  }
+  ;
 }
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
@@ -39,8 +60,6 @@ class Supercomputer extends React.Component {
     curTime : new Date().toLocaleString()
   })
 },1000)
-
-
   }
 
 
@@ -62,6 +81,10 @@ class Supercomputer extends React.Component {
     const efficiency_2 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
     const efficiency_3 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
     const efficiency_4 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+
+    const series = [{
+      data: [percentage, percentage2, percentage3, percentage4],
+  }]
 
     const Example = (props)=> {
 
@@ -278,11 +301,12 @@ class Supercomputer extends React.Component {
                 </div>
               </div>
 
-
-
-
-
               <div className="gpu-total-third">usage
+                <div>
+                  <div id="chart">
+                    <ReactApexCharts options={this.state.options} series={series} type="bar" height="350" />
+                  </div>
+                </div>
                 <div>
                   <p>{this.state.curTime}</p>
                 </div>
