@@ -11,6 +11,8 @@ import Battery4 from '../../Components/Battery/Battery4';
 import { easeQuadInOut } from "d3-ease";
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
 import ChangingProgressProvider from "./ChangingProgressProvider";
+import { Bar } from "react-chartjs-2";
+import { MDBContainer } from "mdbreact";
 
 
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
@@ -32,6 +34,12 @@ class Supercomputer extends React.Component {
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
 
+    setInterval( () => {
+  this.setState({
+    curTime : new Date().toLocaleString()
+  })
+},1000)
+
 
   }
 
@@ -40,6 +48,15 @@ class Supercomputer extends React.Component {
 
     const percentage =  Math.floor((Math.random() * (100-85+1)) + 85);
     const memoryMult = (percentage/100 * 32480).toFixed(2);
+
+    const percentage2 =  Math.floor((Math.random() * (100-85+1)) + 85);
+    const memoryMult2 = (percentage2/100 * 32480).toFixed(2);
+
+    const percentage3 =  Math.floor((Math.random() * (100-85+1)) + 85);
+    const memoryMult3 = (percentage3/100 * 32480).toFixed(2);
+
+    const percentage4 =  Math.floor((Math.random() * (100-85+1)) + 85);
+    const memoryMult4 = (percentage4/100 * 32480).toFixed(2);
 
     const efficiency_1 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
     const efficiency_2 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
@@ -77,7 +94,7 @@ class Supercomputer extends React.Component {
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
-                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult}MB`} </span>
+                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult2}MB`} </span>
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
@@ -99,7 +116,7 @@ class Supercomputer extends React.Component {
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
-                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult}MB`} </span>
+                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult3}MB`} </span>
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
@@ -121,7 +138,7 @@ class Supercomputer extends React.Component {
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
-                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult}MB`} </span>
+                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult4}MB`} </span>
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
@@ -227,8 +244,8 @@ class Supercomputer extends React.Component {
 
                   <Example label="GPU2">
                     <CircularProgressbar
-                      value={percentage}
-                      text={`${percentage}%`}
+                      value={percentage2}
+                      text={`${percentage2}%`}
                       styles={buildStyles({
                         strokeLinecap: "round",
                         trailColor: '#d6d6d6',
@@ -239,8 +256,8 @@ class Supercomputer extends React.Component {
                 <div className="gpu-second-wapper">
                   <Example label="GPU3">
                     <CircularProgressbar
-                      value={percentage}
-                      text={`${percentage}%`}
+                      value={percentage3}
+                      text={`${percentage3}%`}
                       styles={buildStyles({
                         strokeLinecap: "round",
                         trailColor: '#d6d6d6',
@@ -250,8 +267,8 @@ class Supercomputer extends React.Component {
 
                   <Example label="GPU4">
                     <CircularProgressbar
-                      value={percentage}
-                      text={`${percentage}%`}
+                      value={percentage4}
+                      text={`${percentage4}%`}
                       styles={buildStyles({
                         strokeLinecap: "round",
                         trailColor: '#d6d6d6',
