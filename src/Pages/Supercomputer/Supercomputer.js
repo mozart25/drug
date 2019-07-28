@@ -55,6 +55,11 @@ class Supercomputer extends React.Component {
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
 
+    setInterval( () => {
+      this.setState({
+        curTime : new Date().toLocaleString()
+      })
+    },1000)
 
   }
 
