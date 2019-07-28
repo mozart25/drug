@@ -32,17 +32,14 @@ class Supercomputer extends React.Component {
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
 
-    setInterval( () => {
-      this.setState({
-        curTime : new Date().toLocaleString()
-      })
-    },1000)
+
   }
 
 
   render() {
 
     const percentage =  Math.floor((Math.random() * (100-85+1)) + 85);
+    const memoryMult = (percentage/100 * 32480).toFixed(2);
 
     const efficiency_1 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
     const efficiency_2 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
@@ -50,24 +47,97 @@ class Supercomputer extends React.Component {
     const efficiency_4 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
 
     const Example = (props)=> {
-      return (
-        <div className="s-c-example">
-          <div className="gpu-items-wrapper">
-            <span id ="gpu-items-text"> {props.value}</span>
-            <span id ="gpu-items-digit"> {`${percentage}MB`} </span>
-          </div>
-          <p>{props.label}</p>
-            <div style={{ float:'left', width: 100 }}>{props.children}</div>
-            <div className="status-checking-box">
-              <div className="status-wrapper">
-                <div className="status-box-used"></div> <span>Used </span>
-              </div>
-              <div className="status-wrapper">
-                <div className="status-box-avail"></div> <span>Available </span>
+
+      if (props.label ==="GPU1") {
+
+        return (
+          <div className="s-c-example">
+            <div className="gpu-items-wrapper">
+              <span id ="gpu-items-text"> {props.value}</span>
+              <div>
+                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult}MB`} </span>
+                <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-        </div>
-      );
+            <p id="gpu-header">{props.label}</p>
+              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="status-checking-box">
+                <div className="status-wrapper">
+                  <div className="status-box-used"></div> <span>Used </span>
+                </div>
+                <div className="status-wrapper">
+                  <div className="status-box-avail"></div> <span>Available </span>
+                </div>
+              </div>
+          </div>
+        );
+      } else if (props.label ==="GPU2") {
+        return (
+          <div className="s-c-example">
+            <div className="gpu-items-wrapper">
+              <span id ="gpu-items-text"> {props.value}</span>
+              <div>
+                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult}MB`} </span>
+                <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
+              </div>
+            </div>
+            <p id="gpu-header">{props.label}</p>
+              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="status-checking-box">
+                <div className="status-wrapper">
+                  <div className="status-box-used"></div> <span>Used </span>
+                </div>
+                <div className="status-wrapper">
+                  <div className="status-box-avail"></div> <span>Available </span>
+                </div>
+              </div>
+          </div>
+        );
+      } else if (props.label ==="GPU3") {
+        return (
+          <div className="s-c-example">
+            <div className="gpu-items-wrapper">
+              <span id ="gpu-items-text"> {props.value}</span>
+              <div>
+                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult}MB`} </span>
+                <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
+              </div>
+            </div>
+            <p id="gpu-header">{props.label}</p>
+              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="status-checking-box">
+                <div className="status-wrapper">
+                  <div className="status-box-used"></div> <span>Used </span>
+                </div>
+                <div className="status-wrapper">
+                  <div className="status-box-avail"></div> <span>Available </span>
+                </div>
+              </div>
+          </div>
+        );
+      } else {
+        return (
+          <div className="s-c-example">
+            <div className="gpu-items-wrapper">
+              <span id ="gpu-items-text"> {props.value}</span>
+              <div>
+                <span style={{fontSize:"11px", fontWeight:"800"}}id ="gpu-items-digit"> {`${memoryMult}MB`} </span>
+                <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
+              </div>
+            </div>
+            <p id="gpu-header">{props.label}</p>
+              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="status-checking-box">
+                <div className="status-wrapper">
+                  <div className="status-box-used"></div> <span>Used </span>
+                </div>
+                <div className="status-wrapper">
+                  <div className="status-box-avail"></div> <span>Available </span>
+                </div>
+              </div>
+          </div>
+        );
+      }
     }
 
     return (
@@ -141,19 +211,54 @@ class Supercomputer extends React.Component {
               </div>
 
               </div>
-              <div className="gpu-total-second">memory
-                <div className="s-memory-wrapper">
+              <div className="gpu-total-second"><div id="gpu-temp-header">memory</div>
+
+                <div className="gpu-second-wapper">
                   <Example label="GPU1">
                     <CircularProgressbar
                       value={percentage}
                       text={`${percentage}%`}
                       styles={buildStyles({
-                        strokeLinecap: "butt"
+                        strokeLinecap: "round",
+                        trailColor: '#d6d6d6',
+                      })}
+                    />
+                  </Example>
+
+                  <Example label="GPU2">
+                    <CircularProgressbar
+                      value={percentage}
+                      text={`${percentage}%`}
+                      styles={buildStyles({
+                        strokeLinecap: "round",
+                        trailColor: '#d6d6d6',
                       })}
                     />
                   </Example>
                 </div>
+                <div className="gpu-second-wapper">
+                  <Example label="GPU3">
+                    <CircularProgressbar
+                      value={percentage}
+                      text={`${percentage}%`}
+                      styles={buildStyles({
+                        strokeLinecap: "round",
+                        trailColor: '#d6d6d6',
+                      })}
+                    />
+                  </Example>
 
+                  <Example label="GPU4">
+                    <CircularProgressbar
+                      value={percentage}
+                      text={`${percentage}%`}
+                      styles={buildStyles({
+                        strokeLinecap: "round",
+                        trailColor: '#d6d6d6',
+                      })}
+                    />
+                  </Example>
+                </div>
               </div>
 
 

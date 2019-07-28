@@ -150,6 +150,7 @@
   margin-top: 10px;
   width: 45%;
   border-radius: 5px;
+  margin-right: 2%;
 }
 
 #gpu-items-digit {
@@ -172,6 +173,7 @@
 
 .status-wrapper {
   line-height: 1;
+  text-align: left;
   span {
     font-size: 7px;
   }
@@ -186,12 +188,29 @@
 .gpu-items-wrapper {
   margin-bottom: 15px;
   padding: 5px;
+  display: inline-block;
+  float: right;
+}
+
+#gpu-header {
+  float: left;
+  padding: 5px;
 }
 
 .CircularProgressbar {
     width: 85%;
     vertical-align: middle;
     padding: 7px;
+}
+
+.CircularProgressbar-text {
+  fill: #00e640 !important;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #00e640 !important;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
 }
 
 .canvasjs-chart-credit {
@@ -270,6 +289,8 @@ div.relative-img::before {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 .gpu-total-third {
   flex: 0 0 33.333333%;
@@ -297,4 +318,12 @@ table td {
 .s-memory-wrapper {
   display: flex;
   flex-wrap: wrap;
+}
+
+.gpu-second-wapper {
+  display: flex;
+}
+
+#gpu-temp-header {
+  margin: 0 auto;
 }
