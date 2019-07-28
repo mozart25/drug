@@ -355,7 +355,7 @@ class Recommendation extends React.Component {
                 <span className="tooltiptext"> Click here for more info <p className="tooltip-sub">PREVIEW</p></span>
               <a href="#position_2">
                 <div className="row infinite-item item">
-                <div className="item-header" id={`${this.state.process1 ? "data-preprocessing" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
+                <div className="item-header" id={`${this.state.process1 && this.state.clicked2 > 0 ? "data-preprocessing" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
 
                   {this.state.process1 === false || this.state.clicked2 > 0 ?
                     <Choice2
@@ -365,7 +365,7 @@ class Recommendation extends React.Component {
                     s8={this.state.view8}
                     s9={this.state.view9}
                     s10={this.state.view10}
-                    /> :  <Process2 />}
+                    /> :  ""}
 
                 </div>
                 </a>
@@ -379,7 +379,7 @@ class Recommendation extends React.Component {
                 <span className="tooltiptext"> Click here for more info   <p className="tooltip-sub">PREVIEW</p></span>
               <a href="#position_3">
                 <div className="row infinite-item item">
-                <div className="item-header" id={`${this.state.process2 ? "modeling" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Modeling</p></div>
+                <div className="item-header" id={`${this.state.process2 && this.state.clicked3 > 0 ? "modeling" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Modeling</p></div>
                   { this.state.process2 === false || this.state.clicked3 > 0 ?
                     <Choice3
                     s11={this.state.view11}
@@ -387,7 +387,7 @@ class Recommendation extends React.Component {
                     s13={this.state.view13}
                     s14={this.state.view14}
                     />
-                    : <Process3 />
+                    : ""
                   }
                 </div>
                 </a>
@@ -401,7 +401,7 @@ class Recommendation extends React.Component {
                 <span className="tooltiptext"> Click here for more info <p className="tooltip-sub">PREVIEW</p></span>
               <a href="#position_4">
                 <div className="row infinite-item item">
-                <div className="item-header" id={`${this.state.process3 ? "model-modification" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Model Modification</p></div>
+                <div className="item-header" id={`${this.state.process3 && this.state.clicked4 > 0 ? "model-modification" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Model Modification</p></div>
                   { this.state.process3 === false || this.state.clicked4 > 0 ?
                     <Choice4
                     s15={this.state.view15}
@@ -411,7 +411,7 @@ class Recommendation extends React.Component {
                     s19={this.state.view19}
                     s20={this.state.view20}
                     />
-                    : <Process4 />
+                    : ""
                   }
                 </div>
                 </a>
