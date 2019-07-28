@@ -105,12 +105,6 @@
     background: #263b72;
 }
 
-.s-memory-wrapper {
-  position: absolute;
-  top: 13%;
-  left: 36%;
-  width: 25%;;
-}
 
 .s-gpu-wrapper {
   width: 23%;;
@@ -137,13 +131,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.s-m-service {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 10px;
 }
 
 .s-gpu-service {
@@ -255,11 +242,59 @@ div.relative-img::before {
 }
 
 .gpu-total-wrapper {
+  width: 92%;
+  top: 15%;
+  left: 4%;
   position: absolute;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .final-mac-img {
   width: 100%;
+}
+
+.gpu-total-first {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  text-align: center;
+
+  table {
+    width: 47%;
+  }
+}
+
+.gpu-total-second {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  text-align: center;
+}
+.gpu-total-third {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  text-align: center;
+}
+
+.gpu-img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.eff-gpu {
+  line-height: 40px;
+  font-family: "Raleway";
+}
+
+table td {
+  font-size: 1.1rem;
+}
+
+.s-memory-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }

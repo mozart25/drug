@@ -24,6 +24,7 @@ class Supercomputer extends React.Component {
 
   this.state = {
    gpuData:[],
+   curTime : null,
    currentGpuA : null,
    currentGpuB : null,
   };
@@ -31,18 +32,43 @@ class Supercomputer extends React.Component {
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
 
-    setInterval( ()=> {
+    setInterval( () => {
       this.setState({
-        currentGpuA: Math.floor((Math.random() * (100-85+1)) + 85),
-        currentGpuB: Math.floor((Math.random() * (100-85+1)) + 85)
-
+        curTime : new Date().toLocaleString()
       })
-
-    }, 1000);
+    },1000)
   }
 
 
   render() {
+
+    const percentage =  Math.floor((Math.random() * (100-85+1)) + 85);
+
+    const efficiency_1 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const efficiency_2 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const efficiency_3 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+    const efficiency_4 = ((Math.random() * (100-80+1)) + 80).toFixed(2);
+
+    const Example = (props)=> {
+      return (
+        <div className="s-c-example">
+          <div className="gpu-items-wrapper">
+            <span id ="gpu-items-text"> {props.value}</span>
+            <span id ="gpu-items-digit"> {`${percentage}MB`} </span>
+          </div>
+          <p>{props.label}</p>
+            <div style={{ float:'left', width: 100 }}>{props.children}</div>
+            <div className="status-checking-box">
+              <div className="status-wrapper">
+                <div className="status-box-used"></div> <span>Used </span>
+              </div>
+              <div className="status-wrapper">
+                <div className="status-box-avail"></div> <span>Available </span>
+              </div>
+            </div>
+        </div>
+      );
+    }
 
     return (
       <div className='supercomputer-container'>
@@ -70,9 +96,75 @@ class Supercomputer extends React.Component {
         <div className="s-usage">
           <img className="final-mac-img" src={require(`./mac.png`)} alt=""/>
             <div className="gpu-total-wrapper">
-              <div>gpu </div>
-              <div>memory </div>
-              <div>usage </div>
+              <div className="gpu-total-first">GPU
+                <div className="gpu-img">
+                  <img src={require(`./gpu.png`)} style={{width: "49%"}} alt=""/>
+                  <table>
+                    <tr className="eff-gpu">
+                      <th colSpan="2">GPU Average</th>
+                    </tr>
+                    <tr className="eff-gpu">
+                      <td> GPU1 </td>
+                      <td> {efficiency_1}% </td>
+                    </tr>
+                    <tr className="eff-gpu">
+                      <td> GPU2 </td>
+                      <td> {efficiency_2}% </td>
+                    </tr>
+                    <tr className="eff-gpu">
+                      <td> GPU1 </td>
+                      <td> {efficiency_3}% </td>
+                    </tr>
+                    <tr className="eff-gpu">
+                      <td> GPU1 </td>
+                      <td> {efficiency_4}% </td>
+                    </tr>
+                  </table>
+               </div>
+               <div className="gpu-battery-wrapper">
+                <Battery
+                id="GPU1"
+                randValue={efficiency_1}
+                />
+                <Battery2
+                id="GPU2"
+                randValue={efficiency_2}
+                />
+                <Battery3
+                id="GPU3"
+                randValue={efficiency_3}
+                />
+                <Battery4
+                id="GPU4"
+                randValue={efficiency_4}
+                />
+              </div>
+
+              </div>
+              <div className="gpu-total-second">memory
+                <div className="s-memory-wrapper">
+                  <Example label="GPU1">
+                    <CircularProgressbar
+                      value={percentage}
+                      text={`${percentage}%`}
+                      styles={buildStyles({
+                        strokeLinecap: "butt"
+                      })}
+                    />
+                  </Example>
+                </div>
+
+              </div>
+
+
+
+
+
+              <div className="gpu-total-third">usage
+                <div>
+                  <p>{this.state.curTime}</p>
+                </div>
+              </div>
           </div>
         </div>
 
