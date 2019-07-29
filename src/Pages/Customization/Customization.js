@@ -8,6 +8,12 @@ class Customization extends React.Component {
   super(props);
 
   this.state = {
+    q1 : false,
+    q2 : false,
+    q3 : false,
+    q4 : false,
+    q5 : false,
+    q6 : false,
     q7: false,
     q7_count: 0,
     q8: false,
@@ -49,6 +55,43 @@ class Customization extends React.Component {
   }
 
   handleClick=(e)=> {
+    // What is your current occupation?
+    if (e.target.id ==="1") {
+      this.setState({q1: !this.state.q1})
+    } else if (e.target.id ==="2") {
+      this.setState({
+        q2: !this.state.q2,
+        q1: false,
+        q3: false,
+        q4: false,
+      })
+    } else if (e.target.id ==="3") {
+      this.setState({
+        q3: !this.state.q3,
+        q1: false,
+        q2: false,
+        q4: false,
+      })
+    } else if (e.target.id ==="4") {
+      this.setState({
+        q4: !this.state.q4,
+        q1: false,
+        q2: false,
+        q3: false,
+      })
+    }
+
+    if (e.target.id ==="5"){
+      this.setState({q5: !this.state.q5})
+    } else if (e.target.id ==="6"){
+      this.setState(
+        {
+          q6: !this.state.q6,
+          q5: false,
+        }
+      )
+    }
+
     // Do you have any data for analysis?
     if (e.target.id ==="7" && this.state.q8 === false) {
       this.setState({q7: !this.state.q7})
@@ -502,10 +545,12 @@ class Customization extends React.Component {
                   name="100"/>
                   <SelectionButton
                   id={3}
+                  action={this.handleClick}
                   service="Student"
                   name="100"/>
                   <SelectionButton
                   id={4}
+                  action={this.handleClick}
                   service="Others"
                   name="100"/>
                </section>
@@ -519,6 +564,7 @@ class Customization extends React.Component {
                 name='101'/>
                 <SelectionButton
                 id={6}
+                action={this.handleClick}
                 service="Research"
                 name="101"/>
                </section>
@@ -602,7 +648,7 @@ class Customization extends React.Component {
                 <p id="header-explain">Data preprocessing usually takes such a long time. If you already have techniques to preprocess, we can help with that. Also, we will find right techniques for you if you don’t have. </p>
                 <ul className='preprocess-list'>
                   <li className="q-quatro">
-                    <h3 style={{marginBottom: '12px', marginTop: '20px'}}> • Do you need data cleansing? </h3>
+                    <h3 style={{marginBottom: '12px', marginTop: '20px'}}>Do you need data cleansing? </h3>
                     <p id="header-explain">Let’s assume that you have text data. Your data include the dirty parts caused grammatical errors or typos. We help you with detecting and correcting corrupt and inaccurate data and replace with accurate and validate data. </p>
                     <SelectionButton
                     id={15}
@@ -619,7 +665,7 @@ class Customization extends React.Component {
                     name="105"/>
                   </li>
                   <li className="q-quatro">
-                    <h3 style={{marginBottom: '12px'}}> • Do you need to deal with the missing values? </h3>
+                    <h3 style={{marginBottom: '12px'}}>Do you need to deal with the missing values? </h3>
                     <p id="header-explain">Although your data contain the missing values, we will provide an optimal solution to deal with them. This process might increase the accuracy of model.</p>
                     <SelectionButton
                     id={17}

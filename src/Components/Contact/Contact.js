@@ -9,6 +9,10 @@ class Contact extends React.Component {
         if (this.props.contactStatus === true) {
           return (
             `
+  ■ Your info
+      Occupation(${this.props.q1 === false ? (this.props.q2 === false ? (this.props.q3 === false ? (this.props.q4 === false ? "" : "yes"): "yes"):"yes"):"yes"}): ${this.props.q1 === false ? (this.props.q2 === false ? (this.props.q3 === false ? (this.props.q4 === false ? "Unselected" : "Others"): "Student"):"Academic researcher"):"Pharmaceutical industry researcher"}
+      Purpose(${this.props.q5 === false ? (this.props.q6 === false ? "" :"yes"):"yes"}): ${this.props.q5 === false ? (this.props.q6 === false ? "Unselected" :"Research"):"Commercial use"}
+
   ■ Data preparation
       Finding data(${this.props.q7 === false ? (this.props.q8 === false ? "" : "No") : "yes"}): ${this.props.q7 === false ? (this.props.q8 === false ? "Unselected" : "$700") : "$0"}
       Data type(${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "" : "Text data") : "Image data") : "Structured data"}): ${this.props.q9 === false ? (this.props.q10 === false ? (this.props.q11 === false ? "Unselected" : "$1,000") : "$1,400") : "$700"}
