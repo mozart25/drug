@@ -293,7 +293,7 @@ class Recommendation extends React.Component {
         process3: true
     }
   )
-    } 
+    }
   }
 
 
@@ -520,7 +520,7 @@ class Recommendation extends React.Component {
 
                                   <div className="contents-wrapper">
                                     <div className="img-contents-wrapper">
-                                      <img src={require(`./mol2vec.png`)} style={{}} alt=""/>
+                                      <img src={require(`./mol2vec_2.png`)} style={{}} alt=""/>
                                     </div>
                                     <div className="border b-active b-thick b-radius p-sm">
                                       <table>
