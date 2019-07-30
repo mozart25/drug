@@ -308,6 +308,17 @@ ion-icon svg {
   }
 }
 
+.top-list-ol {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+
+  > li {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    display: inline-block;
+  }
+}
+
 #top-list-process {
   font-size: 15px;
   font-weight: 700;
@@ -604,7 +615,7 @@ button {
 }
 
 .badge-additional {
-  background-color: coral !important;
+  background-color: #e97683 !important;
 }
 
 .img-contents-wrapper {
