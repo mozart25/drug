@@ -466,10 +466,11 @@ class Recommendation extends React.Component {
                               <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DIKB</span></p></a></li>
                               <li style={{listStyle: 'none', width: "45%", display: "inline-block"}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DGV</span></p></a></li>
                             </ol>
+                            <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
+                                <FinishButton />
+                            </a>
                         </ol>
-                        <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
-                            <FinishButton />
-                        </a>
+
 
                       </div>
                     </div>
@@ -691,10 +692,11 @@ class Recommendation extends React.Component {
 
                             </li>
                             </ol>
+                            <a href ="#" className="finish-btn-pos2" onClick={this.goToProcess2}>
+                                <FinishButton />
+                            </a>
                         </ol>
-                        <a href ="#" className="finish-btn-pos2" onClick={this.goToProcess2}>
-                            <FinishButton />
-                        </a>
+
                       </div>
                     </div>
                   </div>
@@ -852,10 +854,11 @@ class Recommendation extends React.Component {
                             </div>
 
                           </li>
+                          <a href ="#" className="finish-btn-pos3" onClick={this.goToProcess3}>
+                              <FinishButton />
+                          </a>
                         </ol>
-                        <a href ="#" className="finish-btn-pos3" onClick={this.goToProcess3}>
-                            <FinishButton />
-                        </a>
+
 
                       </div>
                     </div>
@@ -1025,10 +1028,11 @@ class Recommendation extends React.Component {
                               </div>
                             </div>
                           </li>
+                          <a href ="#" className="finish-btn-pos4">
+                              <FinishButton />
+                          </a>
                         </ol>
-                        <a href ="#" className="finish-btn-pos4">
-                            <FinishButton />
-                        </a>
+
                       </div>
                     </div>
                   </div>
