@@ -308,6 +308,17 @@ ion-icon svg {
   }
 }
 
+.top-list-ol {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+
+  > li {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    display: inline-block;
+  }
+}
+
 #top-list-process {
   font-size: 15px;
   font-weight: 700;
@@ -571,21 +582,25 @@ button {
 .finish-btn-pos {
   float: right;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .finish-btn-pos2 {
   float: right;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .finish-btn-pos3 {
   float: right;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .finish-btn-pos4 {
   float: right;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .wiki {
@@ -600,7 +615,7 @@ button {
 }
 
 .badge-additional {
-  background-color: coral !important;
+  background-color: #e97683 !important;
 }
 
 .img-contents-wrapper {

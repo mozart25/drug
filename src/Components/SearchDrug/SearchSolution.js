@@ -41,7 +41,7 @@ class SearchSolution extends React.Component {
   }
 
   compareName = () => {
-    const solution_list = ["Deep learning Drug-Drug Interaction"];
+    const solution_list = ["Drug-Drug Interaction"];
 
     for (var i = 0; i < solution_list.length; i++) {
       if (this.state.keyword.toLowerCase().localeCompare(solution_list[i].toLowerCase()) === 0) {
@@ -63,7 +63,7 @@ class SearchSolution extends React.Component {
           <input
             className="form-control form-control-sm ml-3 w-75"
             type="text"
-            placeholder="Deep learning Drug-Drug Interaction"
+            placeholder="Drug-Drug Interaction"
             aria-label="Search"
             value={this.state.keyword}
             onChange={this.keywordChange}
