@@ -1,7 +1,10 @@
 @import "Style/_global.scss";
 
+
+#body {
+  background-color: #fff !important;
+}
 footer {
-  border-bottom: .6rem solid #8A2BE2;
   font-weight: lighter;
 }
 
