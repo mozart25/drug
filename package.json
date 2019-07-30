@@ -17,6 +17,7 @@
     "react-circular-progressbar": "^2.0.1",
     "react-dom": "^16.8.6",
     "react-dynamic-charts": "^1.0.5",
+    "react-helmet": "^5.2.1",
     "react-icons": "^3.7.0",
     "react-live-clock": "^3.1.0",
     "react-move": "^6.0.0",

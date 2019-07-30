@@ -1,7 +1,9 @@
 import React from 'react';
 import './Customization.scss';
 import SelectionButton from '../../Components/Button/SelectionButton';
+import { Helmet } from 'react-helmet';
 import Contact from '../../Components/Contact/Contact';
+
 class Customization extends React.Component {
 
   constructor(props) {
@@ -498,6 +500,9 @@ class Customization extends React.Component {
 
     return (
       <div className="custom-wrapper">
+        <Helmet>
+          <title>Customized Drug AI study-BioAI</title>
+        </Helmet>
         <div className="custom-main">
           <div className="c-main-wrapper">
             <h1>BioAI </h1>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Recommendation.scss';
 import { FaStar, FaCaretRight } from 'react-icons/fa';
+import { Helmet } from 'react-helmet';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
 import Choice1 from '../../Components/Process1/Choice1';
@@ -301,6 +302,9 @@ class Recommendation extends React.Component {
 
     return (
       <div className="recommend-container">
+      <Helmet>
+        <title>Drug AI algorithm recommendation solution-BioAI</title>
+      </Helmet>
 
         <nav className="navbar-recommendation navbar-expand-lg navbar-light bg-white header">
           <div className="header-logo">
@@ -339,7 +343,7 @@ class Recommendation extends React.Component {
             <div className="process-wrapper">
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click here for more info <p className="tooltip-sub">PREVIEW</p></span>
+                <span className="tooltiptext"> Click here for more info →</span>
                 <a href="#position_1">
                   <div className="row infinite-item item">
                       <div className="item-header" style={{cursor:"pointer"}} ><p>Data Preparation</p></div>
@@ -361,7 +365,7 @@ class Recommendation extends React.Component {
               </div>
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click here for more info <p className="tooltip-sub">PREVIEW</p></span>
+                <span className="tooltiptext"> Click here for more info →</span>
               <a href="#position_2">
                 <div className="row infinite-item item">
                 <div className="item-header" id={`${this.state.process1 ? "data-preprocessing" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Data Preprocessing</p></div>
@@ -385,7 +389,7 @@ class Recommendation extends React.Component {
               </div>
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click here for more info   <p className="tooltip-sub">PREVIEW</p></span>
+                <span className="tooltiptext"> Click here for more info →</span>
               <a href="#position_3">
                 <div className="row infinite-item item">
                 <div className="item-header" id={`${this.state.process2 ? "modeling" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Modeling</p></div>
@@ -407,7 +411,7 @@ class Recommendation extends React.Component {
               </div>
               <div className="infinite-container text-center">
               <div id="tooltip">
-                <span className="tooltiptext"> Click here for more info <p className="tooltip-sub">PREVIEW</p></span>
+                <span className="tooltiptext"> Click here for more info →</span>
               <a href="#position_4">
                 <div className="row infinite-item item">
                 <div className="item-header" id={`${this.state.process3 ? "model-modification" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Model Modification</p></div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Supercomputer.scss';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import { Helmet } from 'react-helmet';
 import "react-circular-progressbar/dist/styles.css";
 import CanvasJSReact from './canvasjs.react';
 import Clock from 'react-live-clock';
@@ -102,6 +103,9 @@ class Supercomputer extends React.Component {
 
         return (
           <div className="s-c-example">
+            <Helmet>
+              <title>Easy Supercomputer Use Service-BioAI</title>
+            </Helmet>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>

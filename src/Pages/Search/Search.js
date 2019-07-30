@@ -1,6 +1,7 @@
 import React from 'react';
 import './Search.scss';
 import { withRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Navigation from '../../Components/Navigation/Navigation';
 import SearchDrug from '../../Components/SearchDrug/SearchDrug';
 
@@ -17,6 +18,9 @@ class Search extends React.Component {
   render() {
     return (
       <div className="search-wrapper">
+      <Helmet>
+        <title>Drug Data Integration service-BioAI</title>
+      </Helmet>
         <header className="header-bg">
           <Navigation />
         </header>
