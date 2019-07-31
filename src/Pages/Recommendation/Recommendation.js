@@ -443,7 +443,7 @@ class Recommendation extends React.Component {
                             <ol style={{paddingLeft: '18px'}}>
                               <li > Structured Data </li>
                                 <ol>
-                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox1" onClick={this.handleClick1}/> <label for="checkbox1"></label></div> Drug Information Data <FaStar color={'#ffd700'}/></li>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox1" onClick={this.handleClick1}/><label for="checkbox1"></label></div> Drug Information Data <FaStar color={'#ffd700'}/></li>
                                   <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Drug-Drug Interaction Real World Data </li>
                                 </ol>
                             </ol>
