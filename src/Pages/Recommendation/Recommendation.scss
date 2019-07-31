@@ -55,7 +55,7 @@ ion-icon svg {
 
 .item-content p {
     font-size: 13px;
-    margin-top: 5px;
+    margin-top: 12px;
     margin-bottom: 5px;
 }
 
@@ -309,13 +309,18 @@ ion-icon svg {
 }
 
 .top-list-ol {
-  display: grid;
-  grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr;
+  display: flex;
+  flex-wrap: wrap;
 
   > li {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
     display: inline-block;
+
+    @media screen and (max-width: 800px) {
+      flex: 0 0 33% !important;
+      max-width: 33% !important;
+    }
   }
 }
 

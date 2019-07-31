@@ -461,18 +461,15 @@ class Recommendation extends React.Component {
                             </ol>
                           <li id="top-list"> Data Source </li>
                             <ol className="top-list-ol" style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'none'}}><a href="https://www.drugbank.ca/releases/latest"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>DrugBank</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://pubchem.ncbi.nlm.nih.gov/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>PubChem</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://www.pharmgkb.org/downloads"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>PharmGKB</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://www.genome.jp/kegg/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>KEGG</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://clinicaltrials.gov/ct2/resources/download"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>ClinicalTrials.gov</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="http://sideeffects.embl.de/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>SIDER</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>DIKB</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "85%"}}>DGV</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://www.drugbank.ca/releases/latest"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DrugBank</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://pubchem.ncbi.nlm.nih.gov/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>PubChem</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://www.pharmgkb.org/downloads"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>PharmGKB</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://www.genome.jp/kegg/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>KEGG</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://clinicaltrials.gov/ct2/resources/download"><p id="badge-link"><span id="badge-media" className="badge badge-primary badge-additional" style={{width: "100%"}}>ClinicalTrials.gov</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="http://sideeffects.embl.de/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>SIDER</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DIKB</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DGV</span></p></a></li>
                             </ol>
-                            <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
-                                <FinishButton />
-                            </a>
                         </ol>
 
 
