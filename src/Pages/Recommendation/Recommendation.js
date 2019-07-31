@@ -470,6 +470,9 @@ class Recommendation extends React.Component {
                               <li style={{listStyle: 'none'}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DIKB</span></p></a></li>
                               <li style={{listStyle: 'none'}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DGV</span></p></a></li>
                             </ol>
+                            <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
+                              <FinishButton />
+                            </a>
                         </ol>
 
 
