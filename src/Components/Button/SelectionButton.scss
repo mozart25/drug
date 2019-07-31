@@ -6,25 +6,54 @@
 }
 
 
+
 .q-quatro {
   @media screen and (min-width: 977px) {
+
   .col-md-4 {
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
     }
+
+    #col-customizing {
+      flex: 0 0 42%;
+      max-width: 42%;
+    }
   }
   @media screen and (max-width: 976px) {
+
   .col-md-4 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    #col-customizing {
       flex: 0 0 50%;
       max-width: 50%;
     }
   }
 
   @media screen and (max-width: 746px) {
+
+
   .col-md-4 {
       flex: 0 0 100%;
       max-width: 100%;
     }
+    #col-customizing {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+#q-quatro-custom {
+
+  @media screen and (min-width: 977px) {
+    width: 80%
+  }
+  @media screen and (max-width: 976px) {
+    width: 100%
   }
 }
 
