@@ -285,12 +285,12 @@ ion-icon svg {
     background-color: #fff;
     border: 1px solid black;
     cursor: pointer;
-    height: 12px;
-    left: 0;
+    height: 15px;
+    left: -2px;
     position: absolute;
-    top: 7px;
-    width: 12px;
-    border-radius: 0%;
+    top: 5px;
+    width: 15px;
+    border-radius: 2px;
   }
 }
 
@@ -466,14 +466,13 @@ button {
 .round label {
   background-color: #fff;
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 2px;
   cursor: pointer;
-  height: 12px;
-  left: 0;
+  height: 15px;
+  left: -2px;
   position: absolute;
-  top: 7px;
-  width: 12px;
-
+  top: 5px;
+  width: 15px;
 }
 
 .round input[type="checkbox"] {
@@ -481,12 +480,17 @@ button {
 }
 
 .round input[type="checkbox"]:checked + label {
-  background-color: #FF00FF;
-  border-color: #66bb6a;
+  background-color: #fff;
+  border-color: black;
 }
 
 .round input[type="checkbox"]:checked + label:after {
   opacity: 1;    width: 95%;
+  content: "✓";
+  color: black;
+  font-weight: 900;
+  position: absolute;
+  top: -6px;
 }
 
 .round input[type="checkbox"] {
@@ -494,8 +498,8 @@ button {
 }
 
 .round input[type="checkbox"]:checked + #rec {
-  background-color: #FF00FF;
-  border-color: #66bb6a;
+  background-color: #fff;
+  border-color: black;
 }
 
 .round input[type="checkbox"]:checked + #rec:after {
