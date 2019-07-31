@@ -4,10 +4,10 @@ import './SelectionButton.scss'
 class SelectionButton extends React.Component {
   render() {
     return (
-      <div className="col-md-4 selection_option form-check">
+      <div className="col-md-4 selection_option form-check" id={`${this.props.id === 1 || this.props.id === 2||this.props.id === 3 ||this.props.id === 4 ? "col-customizing" : "" }`}>
         <label style={{width: "100%"}}>
-          <div className="card-box tilebox-one border rounded p-3 mb-3" id="box-629">
-            <div className="float-right" id="form-0">
+          <div className="card-box tilebox-one border rounded p-3 mb-3">
+            <div className="float-right">
               <input type="radio" name={this.props.name} id={this.props.id} onClick={this.props.action}/>
             </div>
             <div className="muted font-weight-bold">

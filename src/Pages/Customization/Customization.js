@@ -535,9 +535,8 @@ class Customization extends React.Component {
              <div className="question-container">
 
              <hr/>
-
-               <section className="q-quatro">
-                  <h3 style={{marginBottom:'12px'}}>What is your current occupation?</h3>
+              <h3 style={{marginBottom:'12px', marginLeft:'26px'}}>What is your current occupation?</h3>
+               <section className="q-quatro" id="q-quatro-custom">
                   <SelectionButton
                   id={1}
                   action={this.handleClick}
