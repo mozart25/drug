@@ -31,7 +31,7 @@ class Losartan extends React.Component {
             <dt className="col-md-2 col-sm-4">Structure</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="structure">
-                <a className="moldbi-vector-thumbnail" href="/structures/DB00678/image.svg"><img src="/structures/DB00678/thumb.svg" alt="Thumb" /></a>
+                <img src={require(`./losartan.png`)} style={{width: "20%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
@@ -42,7 +42,7 @@ class Losartan extends React.Component {
                 <li>Losartan</li>
               </ul>
             </dd>
-            <dt className="col-md-2 col-sm-4">External IDs <a tabIndex={0} role="button" data-toggle="popover" data-content="Codes and identifiers used by other resources and companies, often used before choosing a marketing name." title id="external-identifiers-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About External Identifiers"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
+            <dt className="col-md-2 col-sm-4">External IDs <a tabIndex={0} role="button" data-toggle="popover" data-content="Codes and identifiers used by other resources and companies, often used before choosing a marketing name." title id="external-identifiers-info" className="drug-info-popup" href="javascript:void(0)" data-original-title="About External Identifiers"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
             <dd className="col-md-10 col-sm-8"><span className="separated-list-container row"><span className="separated-list col-sm-6"><span className="separated-list-item">DUP 89</span><span className="list-separator"> / </span><span className="separated-list-item">HGP-1405</span><span className="list-separator"> / </span><span className="separated-list-item">HGP1405</span><span className="list-separator"> / </span><span className="separated-list-item">MK594</span></span>
               </span>
             </dd>
@@ -50,46 +50,46 @@ class Losartan extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
-                  <li><a href="/categories/DBCAT002171">Agents Acting on the Renin-Angiotensin System</a></li>
-                  <li><a href="/categories/DBCAT004043">Agents causing angioedema</a></li>
-                  <li><a href="/categories/DBCAT003960">Agents causing hyperkalemia</a></li>
-                  <li><a href="/categories/DBCAT003287">Angiotensin 2 Receptor Blocker</a></li>
-                  <li><a href="/categories/DBCAT004595">Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                  <li><a href="/categories/DBCAT004593">Angiotensin II receptor blockers (ARBs) and diuretics</a></li>
-                  <li><a href="/categories/DBCAT004594">Angiotensin II receptor blockers (ARBs), plain</a></li>
-                  <li><a href="/categories/DBCAT000409">Angiotensin II Type 1 Receptor Blockers</a></li>
-                  <li><a href="/categories/DBCAT001168">Angiotensin II Type 2 Receptor Blockers</a></li>
-                  <li><a href="/categories/DBCAT000408">Angiotensin Receptor Antagonists</a></li>
-                  <li><a href="/categories/DBCAT003297">Antiarrhythmic agents</a></li>
-                  <li><a href="/categories/DBCAT000410">Antihypertensive Agents</a></li>
-                  <li><a href="/categories/DBCAT000418">Benzene Derivatives</a></li>
-                  <li><a href="/categories/DBCAT001053">Biphenyl Compounds</a></li>
-                  <li><a href="/categories/DBCAT003979">BSEP/ABCB11 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000010">Cardiovascular Agents</a></li>
-                  <li><a href="/categories/DBCAT000403">Cytochrome P-450 CYP2C19 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT004482">Cytochrome P-450 CYP2C19 inhibitors (unknown strength)</a></li>
-                  <li><a href="/categories/DBCAT000868">Cytochrome P-450 CYP2C8 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002644">Cytochrome P-450 CYP2C8 Inhibitors (moderate)</a></li>
-                  <li><a href="/categories/DBCAT002642">Cytochrome P-450 CYP2C8 Substrates</a></li>
-                  <li><a href="/categories/DBCAT002634">Cytochrome P-450 CYP2C9 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000934">Cytochrome P-450 CYP3A Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT003919">Cytochrome P-450 CYP3A Substrates</a></li>
-                  <li><a href="/categories/DBCAT003232">Cytochrome P-450 CYP3A4 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT004049">Cytochrome P-450 CYP3A4 Inhibitors (strength unknown)</a></li>
-                  <li><a href="/categories/DBCAT002646">Cytochrome P-450 CYP3A4 Substrates</a></li>
-                  <li><a href="/categories/DBCAT003973">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
-                  <li><a href="/categories/DBCAT000394">Cytochrome P-450 Enzyme Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002696">Hypotensive Agents</a></li>
-                  <li><a href="/categories/DBCAT000263">Imidazoles</a></li>
-                  <li><a href="/categories/DBCAT004041">OAT1/SLC22A6 inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002667">P-glycoprotein/ABCB1 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002668">P-glycoprotein/ABCB1 Substrates</a></li>
-                  <li><a href="/categories/DBCAT002691">Potential QTc-Prolonging Agents</a></li>
-                  <li><a href="/categories/DBCAT003823">QTc Prolonging Agents</a></li>
-                  <li><a href="/categories/DBCAT000407">Tetrazoles</a></li>
-                  <li><a href="/categories/DBCAT003871">UGT1A1 Substrates</a></li>
-                  <li><a href="/categories/DBCAT004554">UGT1A3 substrates</a></li>
-                  <li><a href="/categories/DBCAT004610">UGT2B7 substrates</a></li>
+                  <li><a href="javascript:void(0)">Agents Acting on the Renin-Angiotensin System</a></li>
+                  <li><a href="javascript:void(0)">Agents causing angioedema</a></li>
+                  <li><a href="javascript:void(0)">Agents causing hyperkalemia</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin 2 Receptor Blocker</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin II receptor blockers (ARBs) and diuretics</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin II receptor blockers (ARBs), plain</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin II Type 1 Receptor Blockers</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin II Type 2 Receptor Blockers</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin Receptor Antagonists</a></li>
+                  <li><a href="javascript:void(0)">Antiarrhythmic agents</a></li>
+                  <li><a href="javascript:void(0)">Antihypertensive Agents</a></li>
+                  <li><a href="javascript:void(0)">Benzene Derivatives</a></li>
+                  <li><a href="javascript:void(0)">Biphenyl Compounds</a></li>
+                  <li><a href="javascript:void(0)">BSEP/ABCB11 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cardiovascular Agents</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C19 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C19 inhibitors (unknown strength)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C8 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C8 Inhibitors (moderate)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C8 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C9 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Inhibitors (strength unknown)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 Enzyme Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Hypotensive Agents</a></li>
+                  <li><a href="javascript:void(0)">Imidazoles</a></li>
+                  <li><a href="javascript:void(0)">OAT1/SLC22A6 inhibitors</a></li>
+                  <li><a href="javascript:void(0)">P-glycoprotein/ABCB1 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">P-glycoprotein/ABCB1 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Potential QTc-Prolonging Agents</a></li>
+                  <li><a href="javascript:void(0)">QTc Prolonging Agents</a></li>
+                  <li><a href="javascript:void(0)">Tetrazoles</a></li>
+                  <li><a href="javascript:void(0)">UGT1A1 Substrates</a></li>
+                  <li><a href="javascript:void(0)">UGT1A3 substrates</a></li>
+                  <li><a href="javascript:void(0)">UGT2B7 substrates</a></li>
                 </ul>
               </div>
             </dd>
@@ -117,11 +117,11 @@ class Losartan extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Associated Conditions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
-                <li><a href="/indications/DBCOND0000983">Diabetic Nephropathies</a></li>
-                <li><a href="/indications/DBCOND0027920">Heart Failure</a></li>
-                <li><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></li>
-                <li><a href="/indications/DBCOND0000515">Marfan Syndrome</a></li>
-                <li><a href="/indications/DBCOND0085133">Strokes</a></li>
+                <li><a href="javascript:void(0)">Diabetic Nephropathies</a></li>
+                <li><a href="javascript:void(0)">Heart Failure</a></li>
+                <li><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></li>
+                <li><a href="javascript:void(0)">Marfan Syndrome</a></li>
+                <li><a href="javascript:void(0)">Strokes</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Pharmacodynamics</dt>
             <dd className="col-md-10 col-sm-8">
@@ -166,13 +166,13 @@ class Losartan extends React.Component {
               <p>Hepatic. Losartan is metabolized to a 5-carboxylic acid derivative (E-3174) via an aldehyde intermediate (E-3179) primarily by cytochrome P450 (CYP) 2C9 and CYP3A4. E-3174 is an active metabolite with 10- to 40-fold higher potency than its parent compound, losartan. Approxiamtely 14% of losartan is converted to E-3174; however, the AUC of E-3174 was found to be 4- to 8-fold higher than losartan and E-3174 is considered the main contributor to the pharmacologic effects of this medication. </p>
               <p />
               <ul className="list-unstyled">
-                <li><a href="/reactions/9"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> E-3179</a>
+                <li><a href="javascript:void(0)"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> E-3179</a>
                   <ul>
-                    <li><a href="/reactions/1047">E-3179 <div className="drugbank-icon icon-arrow-right"></div> E-3174</a></li>
+                    <li><a href="javascript:void(0)">E-3179 <div className="drugbank-icon icon-arrow-right"></div> E-3174</a></li>
                   </ul>
                 </li>
-                <li><a href="/reactions/10"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> Losartan N2-glucuronide</a></li>
-                <li><a href="/reactions/2001"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> E-3174</a></li>
+                <li><a href="javascript:void(0)"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> Losartan N2-glucuronide</a></li>
+                <li><a href="javascript:void(0)"><strong>Losartan</strong> <div className="drugbank-icon icon-arrow-right"></div> E-3174</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Route of elimination</dt>
             <dd className="col-md-10 col-sm-8">
@@ -261,43 +261,43 @@ class Losartan extends React.Component {
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB08496">(R)-warfarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">(R)-warfarin</a></td>
                             <td>The serum concentration of (R)-warfarin can be increased when it is combined with Losartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB14055">(S)-Warfarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">(S)-Warfarin</a></td>
                             <td>The serum concentration of (S)-Warfarin can be increased when it is combined with Losartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB02032">1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid</a></td>
                             <td>The risk or severity of adverse effects can be increased when Losartan is combined with 1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB04581">1-benzylimidazole</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">1-benzylimidazole</a></td>
                             <td>1-benzylimidazole may decrease the antihypertensive activities of Losartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB01467">2,5-Dimethoxy-4-ethylamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylamphetamine</a></td>
                             <td>2,5-Dimethoxy-4-ethylamphetamine may decrease the antihypertensive activities of Losartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB13940">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
                             <td>2,5-Dimethoxy-4-ethylthioamphetamine may decrease the antihypertensive activities of Losartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB12629">3,5-diiodothyropropionic acid</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">3,5-diiodothyropropionic acid</a></td>
                             <td>The metabolism of 3,5-diiodothyropropionic acid can be decreased when combined with Losartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01484">4-Bromo-2,5-dimethoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-Bromo-2,5-dimethoxyamphetamine</a></td>
                             <td>4-Bromo-2,5-dimethoxyamphetamine may decrease the antihypertensive activities of Losartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB03410">4-hydroxycoumarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-hydroxycoumarin</a></td>
                             <td>The metabolism of 4-hydroxycoumarin can be decreased when combined with Losartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01472">4-Methoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-Methoxyamphetamine</a></td>
                             <td>4-Methoxyamphetamine may decrease the antihypertensive activities of Losartan.</td>
                           </tr>
                         </tbody>
@@ -312,15 +312,15 @@ class Losartan extends React.Component {
                     <div className="col-sm-12 col-md-7">
                       <div className="dataTables_paginate paging_simple_numbers" id="drug-interactions_paginate">
                         <ul className="pagination">
-                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="#" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                          <li className="paginate_button page-item active"><a href="#" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="#" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">179</a></li>
-                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="#" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                          <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">179</a></li>
+                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                         </ul>
                       </div>
                     </div>
@@ -356,24 +356,24 @@ class Losartan extends React.Component {
                 <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Losartan">Losartan</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
-            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/C09CA01">C09CA01 — Losartan</a>
+            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="javascript:void(0)">C09CA01 — Losartan</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09CA">C09CA — Angiotensin II receptor blockers (ARBs), plain</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09C">C09C — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), PLAIN</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DA01">C09DA01 — Losartan and diuretics</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09CA — Angiotensin II receptor blockers (ARBs), plain</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09C — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), PLAIN</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DA01 — Losartan and diuretics</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DA">C09DA — Angiotensin II receptor blockers (ARBs) and diuretics</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB06">C09DB06 — Losartan and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DA — Angiotensin II receptor blockers (ARBs) and diuretics</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB06 — Losartan and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">AHFS Codes</dt>
             <dd className="col-md-10 col-sm-8">
@@ -431,71 +431,71 @@ class Losartan extends React.Component {
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Basic Science</td>
-                          <td><a href="/indications/DBCOND0032833">Peripheral Arterial Disease (PAD)</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0032833&phase=0&purpose=basic_science&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Peripheral Arterial Disease (PAD)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Diagnostic</td>
-                          <td><a href="/indications/DBCOND0030364">Postural Tachycardia Syndrome</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0030364&phase=0&purpose=diagnostic&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Postural Tachycardia Syndrome</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0000983">Diabetic Nephropathies</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0000983&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Diabetic Nephropathies</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0040789&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0051876">Sickle Cell Disorders</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0051876&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Sickle Cell Disorders</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Not Yet Recruiting</td>
                           <td>Other</td>
-                          <td><a href="/indications/DBCOND0040212">Cystic Fibrosis (CF)</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0040212&phase=0&purpose=other&status=not_yet_recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Cystic Fibrosis (CF)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Not Yet Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0074969">Blood Pressures</a> <span>/</span> <a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0074969%2CDBCOND0040789&phase=0&purpose=treatment&status=not_yet_recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Blood Pressures</a> <span>/</span> <a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Terminated</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0087260">Malignant Neoplasm of Pancreas</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0087260&phase=0&purpose=treatment&status=terminated">1</a></td>
+                          <td><a href="javascript:void(0)">Malignant Neoplasm of Pancreas</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0028122&phase=1&status=completed">11</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">11</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0028223">Kidney Diseases</a></td>
-                          <td><a href="/drugs/DB00678/clinical_trials?conditions=DBCOND0028223&phase=1&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Kidney Diseases</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -508,15 +508,15 @@ class Losartan extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="DataTables_Table_0_ellipsis"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={7} tabIndex={0} className="page-link">20</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                        <li className="paginate_button page-item disabled" id="DataTables_Table_0_ellipsis"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={7} tabIndex={0} className="page-link">20</a></li>
+                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -621,10 +621,10 @@ class Losartan extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="dosages_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="#" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item next" id="dosages_next"><a href="#" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item next" id="dosages_next"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -916,147 +916,147 @@ class Losartan extends React.Component {
                 </thead>
                 <tbody data-no-turbolink>
                   <tr>
-                    <td><a href="/spectra/c_ms/18299">Predicted GC-MS Spectrum - GC-MS</a></td>
+                    <td><a href="javascript:void(0)">Predicted GC-MS Spectrum - GC-MS</a></td>
                     <td>Predicted GC-MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/98370">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/98371">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/98372">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/163278">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/163279">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/163280">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436212">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-00di-0000900000-657db16bb4bfe9184114">splash10-00di-0000900000-657db16bb4bfe9184114</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436213">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-056r-0900000000-43bb8508cd1dbc71bcee">splash10-056r-0900000000-43bb8508cd1dbc71bcee</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436214">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-55368087829d113fdb7b">splash10-004i-0900000000-55368087829d113fdb7b</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436215">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-af470646c547613f82a0">splash10-004i-0900000000-af470646c547613f82a0</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436216">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-746dcf7a43a3f8839c1d">splash10-004i-0900000000-746dcf7a43a3f8839c1d</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436217">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-0bee80f7ccbc4b68eee0">splash10-004i-0900000000-0bee80f7ccbc4b68eee0</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436218">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-0900000000-d845ae166a10faff242a">splash10-004i-0900000000-d845ae166a10faff242a</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436219">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-2900000000-d39a309c02e1aaa956b0">splash10-004i-2900000000-d39a309c02e1aaa956b0</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/436220">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-7900000000-d27d10ab008deb157e7a">splash10-004i-7900000000-d27d10ab008deb157e7a</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/440572">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-00fr-0900700000-fef78a7f52d4aa515bb4">splash10-00fr-0900700000-fef78a7f52d4aa515bb4</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/440627">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-00fr-0900600000-c62f0db44e17f79e0c70">splash10-00fr-0900600000-c62f0db44e17f79e0c70</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443382">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0034900000-22ba49ec64d374c8965e">splash10-0a4i-0034900000-22ba49ec64d374c8965e</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443383">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0191000000-8ff1b5a21f6ef4a462cd">splash10-0a4i-0191000000-8ff1b5a21f6ef4a462cd</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443384">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0590000000-9841ff7f881c3e9c11b9">splash10-0a4i-0590000000-9841ff7f881c3e9c11b9</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443385">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a59-0960000000-a24e287a018dae01dd0d">splash10-0a59-0960000000-a24e287a018dae01dd0d</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443386">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a5c-0930000000-ff3e675bd445225bf04e">splash10-0a5c-0930000000-ff3e675bd445225bf04e</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443387">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0pxu-0920000000-9adf4aef59fc1545fea6">splash10-0pxu-0920000000-9adf4aef59fc1545fea6</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443388">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0v00-1900000000-3591888cf5831cbe3d11">splash10-0v00-1900000000-3591888cf5831cbe3d11</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443389">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0wmi-2900000000-ab9304c8cebc201d0178">splash10-0wmi-2900000000-ab9304c8cebc201d0178</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/443390">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0j70-5900000000-efa87b7770206ac0ff3e">splash10-0j70-5900000000-efa87b7770206ac0ff3e</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/452300">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0491300000-f4b08850a154cfc2117c">splash10-0a4i-0491300000-f4b08850a154cfc2117c</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/452402">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0591300000-32a922edf20b3eb76950">splash10-0a4i-0591300000-32a922edf20b3eb76950</a></td>
                   </tr>
@@ -1166,10 +1166,10 @@ class Losartan extends React.Component {
                   </div>
                 </div>
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P30556">
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
                     Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0000062-binding-properties" data-toggle="modal" type="button">
-                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P30556">Type-1 angiotensin II receptor</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="javascript:void(0)">Type-1 angiotensin II receptor</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1215,8 +1215,8 @@ class Losartan extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0002793">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11712">
-                    Details</a><strong>1. <a href="/polypeptides/P11712">Cytochrome P450 2C9</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Cytochrome P450 2C9</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1257,8 +1257,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    Details</a><strong>2. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1298,8 +1298,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0002887">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10632">
-                    Details</a><strong>3. <a href="/polypeptides/P10632">Cytochrome P450 2C8</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Cytochrome P450 2C8</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1336,8 +1336,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0003536">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P33261">
-                    Details</a><strong>4. <a href="/polypeptides/P33261">Cytochrome P450 2C19</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Cytochrome P450 2C19</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1375,8 +1375,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0003541">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P22309">
-                    Details</a><strong>5. <a href="/polypeptides/P22309">UDP-glucuronosyltransferase 1-1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>5. <a href="javascript:void(0)">UDP-glucuronosyltransferase 1-1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1412,8 +1412,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0003677">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35503">
-                    Details</a><strong>6. <a href="/polypeptides/P35503">UDP-glucuronosyltransferase 1-3</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>6. <a href="javascript:void(0)">UDP-glucuronosyltransferase 1-3</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1449,8 +1449,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0003678">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9HAW8">
-                    Details</a><strong>7. <a href="/polypeptides/Q9HAW8">UDP-glucuronosyltransferase 1-10</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>7. <a href="javascript:void(0)">UDP-glucuronosyltransferase 1-10</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1486,8 +1486,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0003679">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P16662">
-                    Details</a><strong>8. <a href="/polypeptides/P16662">UDP-glucuronosyltransferase 2B7</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>8. <a href="javascript:void(0)">UDP-glucuronosyltransferase 2B7</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1523,8 +1523,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0003680">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O75795">
-                    Details</a><strong>9. <a href="/polypeptides/O75795">UDP-glucuronosyltransferase 2B17</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>9. <a href="javascript:void(0)">UDP-glucuronosyltransferase 2B17</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1565,8 +1565,8 @@ class Losartan extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0000530">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P02768">
-                    Details</a><strong>1. <a href="/polypeptides/P02768">Serum albumin</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Serum albumin</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1601,8 +1601,8 @@ class Losartan extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0001032">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08183">
-                    Details</a><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Multidrug resistance protein 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1641,8 +1641,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0001066">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q4U2R8">
-                    Details</a><strong>2. <a href="/polypeptides/Q4U2R8">Solute carrier family 22 member 6</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Solute carrier family 22 member 6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1678,8 +1678,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0004782">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q96S37">
-                    Details</a><strong>3. <a href="/polypeptides/Q96S37">Solute carrier family 22 member 12</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Solute carrier family 22 member 12</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1716,8 +1716,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0004783">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9NRM0">
-                    Details</a><strong>4. <a href="/polypeptides/Q9NRM0">Solute carrier family 2, facilitated glucose transporter member 9</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Solute carrier family 2, facilitated glucose transporter member 9</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1754,8 +1754,8 @@ class Losartan extends React.Component {
               </div>
               <div className="bond card" id="BE0000703">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O95342">
-                    Details</a><strong>5. <a href="/polypeptides/O95342">Bile salt export pump</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>5. <a href="javascript:void(0)">Bile salt export pump</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">

@@ -30,7 +30,7 @@ class Acetaminophen extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Structure</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="structure">
-                <a className="moldbi-vector-thumbnail" href="/structures/DB00316/image.svg"><img src="/structures/DB00316/thumb.svg" alt="Thumb" /></a>
+                <img src={require(`./acetaminophen.png`)} style={{width: "8%"}} alt=""/>
               </div>
 
             </dd>
@@ -262,38 +262,38 @@ class Acetaminophen extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
-                  <li><a href="/categories/DBCAT003969">Acetaminophen and Prodrugs</a></li>
-                  <li><a href="/categories/DBCAT000494">Amides</a></li>
-                  <li><a href="/categories/DBCAT000041">Analgesics</a></li>
-                  <li><a href="/categories/DBCAT000040">Analgesics, Non-Narcotic</a></li>
-                  <li><a href="/categories/DBCAT000599">Anilides</a></li>
-                  <li><a href="/categories/DBCAT000735">Antipyretics</a></li>
-                  <li><a href="/categories/DBCAT000044">Central Nervous System Agents</a></li>
-                  <li><a href="/categories/DBCAT002609">Cytochrome P-450 CYP1A2 Substrates</a></li>
-                  <li><a href="/categories/DBCAT002613">Cytochrome P-450 CYP2A6 Substrates</a></li>
-                  <li><a href="/categories/DBCAT002623">Cytochrome P-450 CYP2D6 Substrates</a></li>
-                  <li><a href="/categories/DBCAT002628">Cytochrome P-450 CYP2E1 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000492">Cytochrome P-450 CYP3A Inducers</a></li>
-                  <li><a href="/categories/DBCAT000934">Cytochrome P-450 CYP3A Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT003919">Cytochrome P-450 CYP3A Substrates</a></li>
-                  <li><a href="/categories/DBCAT003896">Cytochrome P-450 CYP3A4 Inducers</a></li>
-                  <li><a href="/categories/DBCAT004039">Cytochrome P-450 CYP3A4 Inducers (strength unknown)</a></li>
-                  <li><a href="/categories/DBCAT003232">Cytochrome P-450 CYP3A4 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002713">Cytochrome P-450 CYP3A4 Inhibitors (weak)</a></li>
-                  <li><a href="/categories/DBCAT002646">Cytochrome P-450 CYP3A4 Substrates</a></li>
-                  <li><a href="/categories/DBCAT003973">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
-                  <li><a href="/categories/DBCAT000491">Cytochrome P-450 Enzyme Inducers</a></li>
-                  <li><a href="/categories/DBCAT000394">Cytochrome P-450 Enzyme Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT003987">Drugs that are Mainly Renally Excreted</a></li>
-                  <li><a href="/categories/DBCAT002719">Methemoglobinemia Associated Agents</a></li>
-                  <li><a href="/categories/DBCAT003661">Miscellaneous Analgesics and Antipyretics</a></li>
-                  <li><a href="/categories/DBCAT002148">Nervous System</a></li>
-                  <li><a href="/categories/DBCAT002667">P-glycoprotein/ABCB1 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002668">P-glycoprotein/ABCB1 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000042">Sensory System Agents</a></li>
-                  <li><a href="/categories/DBCAT003871">UGT1A1 Substrates</a></li>
-                  <li><a href="/categories/DBCAT004045">UGT1A6 substrate</a></li>
-                  <li><a href="/categories/DBCAT003966">UGT1A9 Substrates</a></li>
+                  <li><a href="#1">Acetaminophen and Prodrugs</a></li>
+                  <li><a href="#1">Amides</a></li>
+                  <li><a href="#1">Analgesics</a></li>
+                  <li><a href="#1">Analgesics, Non-Narcotic</a></li>
+                  <li><a href="#1">Anilides</a></li>
+                  <li><a href="#1">Antipyretics</a></li>
+                  <li><a href="#1">Central Nervous System Agents</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP1A2 Substrates</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP2A6 Substrates</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP2D6 Substrates</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP2E1 Substrates</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A Inducers</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A Inhibitors</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A Substrates</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A4 Inducers</a></li>
+                  <li><a href="v">Cytochrome P-450 CYP3A4 Inducers (strength unknown)</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A4 Inhibitors</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A4 Inhibitors (weak)</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A4 Substrates</a></li>
+                  <li><a href="#1">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
+                  <li><a href="#1">Cytochrome P-450 Enzyme Inducers</a></li>
+                  <li><a href="#1">Cytochrome P-450 Enzyme Inhibitors</a></li>
+                  <li><a href="#1">Drugs that are Mainly Renally Excreted</a></li>
+                  <li><a href="v">Methemoglobinemia Associated Agents</a></li>
+                  <li><a href="#1">Miscellaneous Analgesics and Antipyretics</a></li>
+                  <li><a href="#1">Nervous System</a></li>
+                  <li><a href="#1">P-glycoprotein/ABCB1 Inhibitors</a></li>
+                  <li><a href="#1">P-glycoprotein/ABCB1 Substrates</a></li>
+                  <li><a href="#1">Sensory System Agents</a></li>
+                  <li><a href="#1">UGT1A1 Substrates</a></li>
+                  <li><a href="#1">UGT1A6 substrate</a></li>
+                  <li><a href="#1">UGT1A9 Substrates</a></li>
                 </ul>
               </div>
             </dd><dt className="col-md-2 col-sm-4">UNII</dt>
@@ -326,12 +326,12 @@ class Acetaminophen extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Associated Conditions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
-                <li><a href="/indications/DBCOND0039783">Fevers</a></li>
-                <li><a href="/indications/DBCOND0093532">Pain NOS</a></li>
-                <li><a href="/indications/DBCOND0066540">Severe Pain</a></li>
-                <li><a href="/indications/DBCOND0093533">Mild Pain NOS</a></li>
-                <li><a href="/indications/DBCOND0118556">Minor aches and pains</a></li>
-                <li><a href="/indications/DBCOND0020636">Moderate Pain</a></li>
+                <li><a href="#1">Fevers</a></li>
+                <li><a href="#1">Pain NOS</a></li>
+                <li><a href="#1">Severe Pain</a></li>
+                <li><a href="#1">Mild Pain NOS</a></li>
+                <li><a href="#1">Minor aches and pains</a></li>
+                <li><a href="#1">Moderate Pain</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Pharmacodynamics</dt>
             <dd className="col-md-10 col-sm-8">
@@ -410,13 +410,13 @@ class Acetaminophen extends React.Component {
               <p>High doses of acetaminophen (overdoses) can lead to hepatic necrosis due to the depletion of glutathione and of binding of high levels of reactive metabolite (NAPQI) to important parts of liver cells. The abovementioned damage to the liver can be prevented by the early administration of sulfhydryl compounds, for example, methionine and N-acetylcysteine <sup className="text-reference-group"><a className="reference-popover-link" data-content="Forrest JA, Clements JA, Prescott LF: Clinical pharmacokinetics of paracetamol. Clin Pharmacokinet. 1982 Mar-Apr;7(2):93-107. (PubMed ID 7039926)" href="#reference-A35814" data-original-title title>12</a></sup>.</p>
               <p />
               <ul className="list-unstyled">
-                <li><a href="/reactions/244"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> NAPQI</a>
+                <li><a href="#1"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> NAPQI</a>
                   <ul>
-                    <li><a href="/reactions/1045">NAPQI <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen cystein</a></li>
+                    <li><a href="#1">NAPQI <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen cystein</a></li>
                   </ul>
                 </li>
-                <li><a href="/reactions/598"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen glucuronide</a></li>
-                <li><a href="/reactions/674"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen sulfate</a></li>
+                <li><a href="#1"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen glucuronide</a></li>
+                <li><a href="#1"><strong>Acetaminophen</strong> <div className="drugbank-icon icon-arrow-right"></div> Acetaminophen sulfate</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Route of elimination</dt>
             <dd className="col-md-10 col-sm-8">
@@ -515,43 +515,43 @@ class Acetaminophen extends React.Component {
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB08496">(R)-warfarin</a></td>
+                            <td tabIndex={0}><a href="#1">(R)-warfarin</a></td>
                             <td>The metabolism of (R)-warfarin can be increased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB14055">(S)-Warfarin</a></td>
+                            <td tabIndex={0}><a href="#1">(S)-Warfarin</a></td>
                             <td>The metabolism of (S)-Warfarin can be increased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB12629">3,5-diiodothyropropionic acid</a></td>
+                            <td tabIndex={0}><a href="#1">3,5-diiodothyropropionic acid</a></td>
                             <td>The metabolism of 3,5-diiodothyropropionic acid can be increased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB03410">4-hydroxycoumarin</a></td>
+                            <td tabIndex={0}><a href="#1">4-hydroxycoumarin</a></td>
                             <td>The metabolism of 4-hydroxycoumarin can be increased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB01472">4-Methoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="#1">4-Methoxyamphetamine</a></td>
                             <td>The metabolism of 4-Methoxyamphetamine can be decreased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01456">5-androstenedione</a></td>
+                            <td tabIndex={0}><a href="#1">5-androstenedione</a></td>
                             <td>The metabolism of 5-androstenedione can be increased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB04070">6-Deoxyerythronolide B</a></td>
+                            <td tabIndex={0}><a href="#1">6-Deoxyerythronolide B</a></td>
                             <td>The metabolism of Acetaminophen can be decreased when combined with 6-Deoxyerythronolide B.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB11919">6-O-benzylguanine</a></td>
+                            <td tabIndex={0}><a href="#1">6-O-benzylguanine</a></td>
                             <td>The metabolism of 6-O-benzylguanine can be decreased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB05482">7-ethyl-10-hydroxycamptothecin</a></td>
+                            <td tabIndex={0}><a href="#1">7-ethyl-10-hydroxycamptothecin</a></td>
                             <td>The metabolism of 7-ethyl-10-hydroxycamptothecin can be increased when combined with Acetaminophen.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01667">8-azaguanine</a></td>
+                            <td tabIndex={0}><a href="#1">8-azaguanine</a></td>
                             <td>The metabolism of 8-azaguanine can be decreased when combined with Acetaminophen.</td>
                           </tr>
                         </tbody>
@@ -610,7 +610,7 @@ class Acetaminophen extends React.Component {
                 <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Acetaminophen">Acetaminophen</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
-            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/N02BE71">N02BE71 — Paracetamol, combinations with psycholeptics</a>
+            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="#1">N02BE71 — Paracetamol, combinations with psycholeptics</a>
               <ul className="atc-drug-tree">
                 <li><a data-no-turbolink="true" href="javascript:void(0)">N02BE — Anilides</a></li>
                 <li><a data-no-turbolink="true" href="javascript:void(0)">N02B — OTHER ANALGESICS AND ANTIPYRETICS</a></li>
@@ -722,7 +722,7 @@ class Acetaminophen extends React.Component {
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="javascript:void(0)">Emergence Agitation</a> <span>/</span> <a href="/indications/DBCOND0093532">Pain NOS</a></td>
+                          <td><a href="javascript:void(0)">Emergence Agitation</a> <span>/</span> <a href="#1">Pain NOS</a></td>
                           <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
@@ -737,7 +737,7 @@ class Acetaminophen extends React.Component {
                           <td>Completed</td>
                           <td>Treatment</td>
                           <td><a href="javascript:void(0)">Glaucoma</a></td>
-                          <td><a href="/drugs/DB00316/clinical_trials?conditions=DBCOND0010013&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="#1">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
@@ -750,7 +750,7 @@ class Acetaminophen extends React.Component {
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="javascript:void(0)">Lumbar Spinal Instability</a> <span>/</span> <a href="/indications/DBCOND0047859">Lumbar Spine Degeneration</a> <span>/</span> <a href="/indications/DBCOND0054418">Spinal Stenosis of Lumbar Region</a></td>
+                          <td><a href="javascript:void(0)">Lumbar Spinal Instability</a> <span>/</span> <a href="#1">Lumbar Spine Degeneration</a> <span>/</span> <a href="javascript:void(0)">Spinal Stenosis of Lumbar Region</a></td>
                           <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
@@ -764,7 +764,7 @@ class Acetaminophen extends React.Component {
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Diagnostic</td>
-                          <td><a href="javascript:void(0)">Stage IIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088919">Stage IIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0088896">Stage III Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048768">Stage IIIA Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088899">Stage IIIA Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048769">Stage IIIB Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088902">Stage IIIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="/indications/DBCOND0048770">Stage IIIC Esophageal Cancer</a> <span>/</span> <a href="/indications/DBCOND0088905">Stage IIIC Esophageal Cancer AJCC v7</a></td>
+                          <td><a href="javascript:void(0)">Stage IIB Esophageal Cancer</a> <span>/</span> <a href="#1">Stage IIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="javascript:void(0)">Stage III Esophageal Cancer AJCC v7</a> <span>/</span> <a href="javascript:void(0)">Stage IIIA Esophageal Cancer</a> <span>/</span> <a href="javascript:void(0)">Stage IIIA Esophageal Cancer AJCC v7</a> <span>/</span> <a href="javascript:void(0)">Stage IIIB Esophageal Cancer</a> <span>/</span> <a href="javascript:void(0)">Stage IIIB Esophageal Cancer AJCC v7</a> <span>/</span> <a href="javascript:void(0)">Stage IIIC Esophageal Cancer</a> <span>/</span> <a href="javascript:void(0)">Stage IIIC Esophageal Cancer AJCC v7</a></td>
                           <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
@@ -1214,292 +1214,292 @@ class Acetaminophen extends React.Component {
                 </thead>
                 <tbody data-no-turbolink>
                   <tr>
-                    <td><a href="/spectra/c_ms/1301">GC-MS Spectrum - GC-MS (2 TMS)</a></td>
+                    <td><a href="javascript:void(0)">GC-MS Spectrum - GC-MS (2 TMS)</a></td>
                     <td>GC-MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-4971200000-17e6e1373f10ba4ec138">splash10-0a4i-4971200000-17e6e1373f10ba4ec138</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/c_ms/8768">Predicted GC-MS Spectrum - GC-MS</a></td>
+                    <td><a href="javascript:void(0)">Predicted GC-MS Spectrum - GC-MS</a></td>
                     <td>Predicted GC-MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/c_ms/26864">GC-MS Spectrum - EI-B</a></td>
+                    <td><a href="javascript:void(0)">GC-MS Spectrum - EI-B</a></td>
                     <td>GC-MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-1900000000-df97f74a81da3a46a697">splash10-0a4i-1900000000-df97f74a81da3a46a697</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/c_ms/27405">GC-MS Spectrum - EI-B</a></td>
+                    <td><a href="javascript:void(0)">GC-MS Spectrum - EI-B</a></td>
                     <td>GC-MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-4900000000-ef277124e1b50b5f010e">splash10-0a4i-4900000000-ef277124e1b50b5f010e</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/c_ms/27419">GC-MS Spectrum - CI-B</a></td>
+                    <td><a href="javascript:void(0)">GC-MS Spectrum - CI-B</a></td>
                     <td>GC-MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-7aa6a54b74b345d91e37">splash10-0udi-0900000000-7aa6a54b74b345d91e37</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/c_ms/31356">GC-MS Spectrum - GC-MS</a></td>
+                    <td><a href="javascript:void(0)">GC-MS Spectrum - GC-MS</a></td>
                     <td>GC-MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-4971200000-17e6e1373f10ba4ec138">splash10-0a4i-4971200000-17e6e1373f10ba4ec138</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ei_ms/731">Mass Spectrum (Electron Ionization)</a></td>
+                    <td><a href="javascript:void(0)">Mass Spectrum (Electron Ionization)</a></td>
                     <td>MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-4900000000-ffdd0f8a1e6e450fc162">splash10-0a4i-4900000000-ffdd0f8a1e6e450fc162</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/1732">MS/MS Spectrum - Quattro_QQQ 10V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - Quattro_QQQ 10V, Positive (Annotated)</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0w29-3900000000-97741eddc3be9c7eaea8">splash10-0w29-3900000000-97741eddc3be9c7eaea8</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/1733">MS/MS Spectrum - Quattro_QQQ 25V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - Quattro_QQQ 25V, Positive (Annotated)</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0ik9-1900000000-1ddd59340d1db920fa66">splash10-0ik9-1900000000-1ddd59340d1db920fa66</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/1734">MS/MS Spectrum - Quattro_QQQ 40V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - Quattro_QQQ 40V, Positive (Annotated)</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-00kf-9000000000-148fa91ce08e13165712">splash10-00kf-9000000000-148fa91ce08e13165712</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/5497">MS/MS Spectrum - EI-B (HITACHI M-80) , Positive</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - EI-B (HITACHI M-80) , Positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-1900000000-5997c3f6cdebc5326b65">splash10-0a4i-1900000000-5997c3f6cdebc5326b65</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/5498">MS/MS Spectrum - EI-B (Unknown) , Positive</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - EI-B (Unknown) , Positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-4900000000-ef277124e1b50b5f010e">splash10-0a4i-4900000000-ef277124e1b50b5f010e</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/5499">MS/MS Spectrum - CI-B (Unknown) , Positive</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - CI-B (Unknown) , Positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-7aa6a54b74b345d91e37">splash10-0udi-0900000000-7aa6a54b74b345d91e37</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/261696">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/261697">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)7">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/261698">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/281628">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/281629">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/281630">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435677">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0zfr-0900000000-125e44ce332576a1e155">splash10-0zfr-0900000000-125e44ce332576a1e155</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435678">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-7e46df4b4b653c90c258">splash10-0udi-0900000000-7e46df4b4b653c90c258</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435679">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-bb6e34d2d574a249d721">splash10-0udi-0900000000-bb6e34d2d574a249d721</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435680">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-2f45dd7efce38361f806">splash10-0udi-0900000000-2f45dd7efce38361f806</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435681">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0pb9-0900000000-e48b48d64b6b985ab455">splash10-0pb9-0900000000-e48b48d64b6b985ab455</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435682">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0900000000-b72b0e33fd35512fe6de">splash10-0a4i-0900000000-b72b0e33fd35512fe6de</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435683">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0900000000-97bcaa95f26159307d03">splash10-0a4i-0900000000-97bcaa95f26159307d03</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435684">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-c50b4b79792e2c2e68f9">splash10-0udi-0900000000-c50b4b79792e2c2e68f9</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435685">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-7e46df4b4b653c90c258">splash10-0udi-0900000000-7e46df4b4b653c90c258</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435686">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-2b07cd2813d3f23e88f1">splash10-0udi-0900000000-2b07cd2813d3f23e88f1</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435687">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0pb9-0900000000-5b92f09589afe838f23a">splash10-0pb9-0900000000-5b92f09589afe838f23a</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435688">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4i-0900000000-f0ca5ff6526b9f005034">splash10-0a4i-0900000000-f0ca5ff6526b9f005034</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/435689">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , negative</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-7e45ef71674dcdde9068">splash10-0udi-0900000000-7e45ef71674dcdde9068</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/440937">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0w29-1900000000-38d21a339e82f461beac">splash10-0w29-1900000000-38d21a339e82f461beac</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441947">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-d953f92b362e4b262210">splash10-0udi-0900000000-d953f92b362e4b262210</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441948">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-3170dca3f927500ea230">splash10-0udi-0900000000-3170dca3f927500ea230</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441949">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)9">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-f835e92fb0bae0c7b8bc">splash10-0udi-0900000000-f835e92fb0bae0c7b8bc</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441950">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0w29-0900000000-4e01c7ff07665fcdb218">splash10-0w29-0900000000-4e01c7ff07665fcdb218</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441951">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-0900000000-a3c279c288bb690496b3">splash10-03di-0900000000-a3c279c288bb690496b3</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441952">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-2900000000-4435e0230105d5d28a94">splash10-03di-2900000000-4435e0230105d5d28a94</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441953">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-6900000000-76671cc7ad1df1b5983d">splash10-03di-6900000000-76671cc7ad1df1b5983d</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441954">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-9895c5f2b10912092523">splash10-0udi-0900000000-9895c5f2b10912092523</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441955">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0udi-0900000000-d73797c93a4ef79ea79e">splash10-0udi-0900000000-d73797c93a4ef79ea79e</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441956">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0w29-0900000000-22d62a7732ed3d99e87d">splash10-0w29-0900000000-22d62a7732ed3d99e87d</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441957">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-0900000000-c652f4f179daa6465678">splash10-03di-0900000000-c652f4f179daa6465678</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441958">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-2900000000-0e7e745540d8ec7b99f4">splash10-03di-2900000000-0e7e745540d8ec7b99f4</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441959">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-6900000000-2a4263b38fa30bc64dd0">splash10-03di-6900000000-2a4263b38fa30bc64dd0</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441960">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0w29-0900000000-cf0ac615ec636ce7a253">splash10-0w29-0900000000-cf0ac615ec636ce7a253</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/447336">LC-MS/MS Spectrum - LC-ESI-IT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-IT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-0900000000-428d8023ee5761fed84c">splash10-03di-0900000000-428d8023ee5761fed84c</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/448940">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-0900000000-ed26fb95b6aea6986085">splash10-03di-0900000000-ed26fb95b6aea6986085</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/448941">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-1900000000-5b942e17f1e66a3832b8">splash10-03di-1900000000-5b942e17f1e66a3832b8</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/448942">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-0900000000-d6a7498b8d87d4e00028">splash10-03di-0900000000-d6a7498b8d87d4e00028</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/448943">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-ITFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-03di-0900000000-9ff40d4cd8c0f46836c2">splash10-03di-0900000000-9ff40d4cd8c0f46836c2</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/452276">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0w29-0900000000-fcf8e62537bd6db11b3a">splash10-0w29-0900000000-fcf8e62537bd6db11b3a</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/452417">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QFT , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0w29-0900000000-c27e8f1522f41492aae3">splash10-0w29-0900000000-c27e8f1522f41492aae3</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/nmr_one_d/1761">1H NMR Spectrum</a></td>
+                    <td><a href="javascript:void(0)">1H NMR Spectrum</a></td>
                     <td>1D NMR</td>
                     <td><span className="not-available">Not Applicable</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/nmr_one_d/2079">1H NMR Spectrum</a></td>
+                    <td><a href="javascript:void(0)">1H NMR Spectrum</a></td>
                     <td>1D NMR</td>
                     <td><span className="not-available">Not Applicable</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/nmr_one_d/2773">13C NMR Spectrum</a></td>
+                    <td><a href="javascript:void(0)">13C NMR Spectrum</a></td>
                     <td>1D NMR</td>
                     <td><span className="not-available">Not Applicable</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/nmr_two_d/1701">[1H,13C] 2D NMR Spectrum</a></td>
+                    <td><a href="javascript:void(0)">[1H,13C] 2D NMR Spectrum</a></td>
                     <td>2D NMR</td>
                     <td><span className="not-available">Not Applicable</span></td>
                   </tr>
@@ -1575,10 +1575,10 @@ class Acetaminophen extends React.Component {
                   </div>
                 </div>
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35354">
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
                     Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0000262-binding-properties" data-toggle="modal" type="button">
-                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P35354">Prostaglandin G/H synthase 2</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="javascript:void(0)">Prostaglandin G/H synthase 2</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1617,8 +1617,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0000017">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P23219">
-                    Details</a><strong>2. <a href="/polypeptides/P23219">Prostaglandin G/H synthase 1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Prostaglandin G/H synthase 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1675,8 +1675,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0002194">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O00519">
-                    Details</a><strong>4. <a href="/polypeptides/O00519">Fatty-acid amide hydrolase 1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Fatty-acid amide hydrolase 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1715,8 +1715,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0001023">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q8NER1">
-                    Details</a><strong>5. <a href="/polypeptides/Q8NER1">Transient receptor potential cation channel subfamily V member 1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>5. <a href="javascript:void(0)">Transient receptor potential cation channel subfamily V member 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1753,8 +1753,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0000814">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P09211">
-                    Details</a><strong>6. <a href="/polypeptides/P09211">Glutathione S-transferase P</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>6. <a href="javascript:void(0)">Glutathione S-transferase P</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1794,8 +1794,8 @@ class Acetaminophen extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0003533">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P05181">
-                    Details</a><strong>1. <a href="/polypeptides/P05181">Cytochrome P450 2E1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Cytochrome P450 2E1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1833,8 +1833,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0002433">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P05177">
-                    Details</a><strong>2. <a href="/polypeptides/P05177">Cytochrome P450 1A2</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Cytochrome P450 1A2</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1874,8 +1874,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    Details</a><strong>3. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1913,8 +1913,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0002363">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10635">
-                    Details</a><strong>4. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Cytochrome P450 2D6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1951,8 +1951,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0003336">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11509">
-                    Details</a><strong>5. <a href="/polypeptides/P11509">Cytochrome P450 2A6</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>5. <a href="javascript:void(0)">Cytochrome P450 2A6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1989,8 +1989,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0003541">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P22309">
-                    Details</a><strong>6. <a href="/polypeptides/P22309">UDP-glucuronosyltransferase 1-1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>6. <a href="javascript:void(0)">UDP-glucuronosyltransferase 1-1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2029,8 +2029,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0004694">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P19224">
-                    Details</a><strong>7. <a href="/polypeptides/P19224">UDP-glucuronosyltransferase 1-6</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>7. <a href="javascript:void(0)">UDP-glucuronosyltransferase 1-6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2068,8 +2068,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0003538">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O60656">
-                    Details</a><strong>8. <a href="/polypeptides/O60656">UDP-glucuronosyltransferase 1-9</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>8. <a href="javascript:void(0)">UDP-glucuronosyltransferase 1-9</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2106,8 +2106,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0004696">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P54855">
-                    Details</a><strong>9. <a href="/polypeptides/P54855">UDP-glucuronosyltransferase 2B15</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>9. <a href="javascript:void(0)">UDP-glucuronosyltransferase 2B15</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2144,8 +2144,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0000927">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P50225">
-                    Details</a><strong>10. <a href="/polypeptides/P50225">Sulfotransferase 1A1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>10. <a href="javascript:void(0)">Sulfotransferase 1A1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2183,8 +2183,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0004767">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P0DMM9">
-                    Details</a><strong>11. <a href="/polypeptides/P0DMM9">Sulfotransferase 1A3/1A4</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>11. <a href="javascript:void(0)">Sulfotransferase 1A3/1A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2222,8 +2222,8 @@ class Acetaminophen extends React.Component {
               </div>
               <div className="bond card" id="BE0003607">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11245">
-                    Details</a><strong>12. <a href="/polypeptides/P11245">Arylamine N-acetyltransferase 2</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>12. <a href="javascript:void(0)">Arylamine N-acetyltransferase 2</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2265,8 +2265,8 @@ class Acetaminophen extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0001032">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08183">
-                    Details</a><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Multidrug resistance protein 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">

@@ -30,7 +30,7 @@ class Olmesartan extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Structure</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="structure">
-                <a className="moldbi-vector-thumbnail" href="/structures/DB00275/image.svg"><img src="/structures/DB00275/thumb.svg" alt="Thumb" /></a>
+                <img src={require(`./olmesartan.png`)} style={{width: "15%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
@@ -69,10 +69,10 @@ class Olmesartan extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Associated Conditions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
-                <li><a href="/indications/DBCOND0000983">Diabetic Nephropathies</a></li>
-                <li><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></li>
-                <li><a href="/indications/DBCOND0058109">Severe Hypertension</a></li>
-                <li><a href="/indications/DBCOND0021489">Moderate Hypertension</a></li>
+                <li><a href="javascript:void(0)">Diabetic Nephropathies</a></li>
+                <li><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></li>
+                <li><a href="javascript:void(0)">Severe Hypertension</a></li>
+                <li><a href="javascript:void(0)">Moderate Hypertension</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Pharmacodynamics</dt>
             <dd className="col-md-10 col-sm-8">
@@ -201,43 +201,43 @@ class Olmesartan extends React.Component {
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB02032">1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid</a></td>
                             <td>The risk or severity of adverse effects can be increased when Olmesartan is combined with 1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB04581">1-benzylimidazole</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">1-benzylimidazole</a></td>
                             <td>1-benzylimidazole may decrease the antihypertensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB01467">2,5-Dimethoxy-4-ethylamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylamphetamine</a></td>
                             <td>2,5-Dimethoxy-4-ethylamphetamine may decrease the antihypertensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB13940">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
                             <td>2,5-Dimethoxy-4-ethylthioamphetamine may decrease the antihypertensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB01484">4-Bromo-2,5-dimethoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-Bromo-2,5-dimethoxyamphetamine</a></td>
                             <td>4-Bromo-2,5-dimethoxyamphetamine may decrease the antihypertensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01472">4-Methoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-Methoxyamphetamine</a></td>
                             <td>4-Methoxyamphetamine may decrease the antihypertensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB14010">5-methoxy-N,N-dimethyltryptamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">5-methoxy-N,N-dimethyltryptamine</a></td>
                             <td>5-methoxy-N,N-dimethyltryptamine may decrease the antihypertensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB08550">7,8-Dichloro-1,2,3,4-tetrahydroisoquinoline</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">7,8-Dichloro-1,2,3,4-tetrahydroisoquinoline</a></td>
                             <td>7,8-Dichloro-1,2,3,4-tetrahydroisoquinoline may increase the hypotensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB12100">Abediterol</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">Abediterol</a></td>
                             <td>Abediterol may decrease the antihypertensive activities of Olmesartan.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01193">Acebutolol</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">Acebutolol</a></td>
                             <td>The risk or severity of hyperkalemia can be increased when Olmesartan is combined with Acebutolol.</td>
                           </tr>
                         </tbody>
@@ -252,15 +252,15 @@ class Olmesartan extends React.Component {
                     <div className="col-sm-12 col-md-7">
                       <div className="dataTables_paginate paging_simple_numbers" id="drug-interactions_paginate">
                         <ul className="pagination">
-                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="#" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                          <li className="paginate_button page-item active"><a href="#" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="#" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">91</a></li>
-                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="#" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                          <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">91</a></li>
+                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                         </ul>
                       </div>
                     </div>
@@ -294,30 +294,30 @@ class Olmesartan extends React.Component {
                 <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Olmesartan">Olmesartan</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
-            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/C09DA08">C09DA08 — Olmesartan medoxomil and diuretics</a>
+            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="javascript:void(0)">C09DA08 — Olmesartan medoxomil and diuretics</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DA">C09DA — Angiotensin II receptor blockers (ARBs) and diuretics</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DX03">C09DX03 — Olmesartan medoxomil, amlodipine and hydrochlorothiazide</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DA — Angiotensin II receptor blockers (ARBs) and diuretics</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DX03 — Olmesartan medoxomil, amlodipine and hydrochlorothiazide</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DX">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09CA08">C09CA08 — Olmesartan medoxomil</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09CA08 — Olmesartan medoxomil</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09CA">C09CA — Angiotensin II receptor blockers (ARBs), plain</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09C">C09C — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), PLAIN</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB02">C09DB02 — Olmesartan medoxomil and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09CA — Angiotensin II receptor blockers (ARBs), plain</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09C — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), PLAIN</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB02 — Olmesartan medoxomil and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">AHFS Codes</dt>
             <dd className="col-md-10 col-sm-8">
@@ -375,71 +375,71 @@ class Olmesartan extends React.Component {
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0028122&phase=1&status=completed">7</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">7</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0028122&phase=1&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0040789&phase=1&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Not Yet Recruiting</td>
                           <td>Basic Science</td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0028122&phase=1&purpose=basic_science&status=not_yet_recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Recruiting</td>
                           <td>Other</td>
-                          <td><a href="/indications/DBCOND0039368">Bioequivalence</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0039368&phase=1&purpose=other&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Bioequivalence</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>2</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0044010">Chronic Glomerulonephritis</a> <span>/</span> <a href="/indications/DBCOND0000983">Diabetic Nephropathies</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0044010%2CDBCOND0000983&phase=2&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Chronic Glomerulonephritis</a> <span>/</span> <a href="javascript:void(0)">Diabetic Nephropathies</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>2</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0040789&phase=2&purpose=treatment&status=completed">4</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">4</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>2</td>
                           <td>Not Yet Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0040833">Coronary Syndrome</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0040833&phase=2&purpose=treatment&status=not_yet_recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Coronary Syndrome</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>2</td>
                           <td>Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0059850">Stroke, Ischemic</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0059850&phase=2&purpose=treatment&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Stroke, Ischemic</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>2, 3</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00275/clinical_trials?conditions=DBCOND0040789&phase=2%2C3&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -452,14 +452,14 @@ class Olmesartan extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={6} tabIndex={0} className="page-link">6</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={7} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={6} tabIndex={0} className="page-link">6</a></li>
+                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={7} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -564,10 +564,10 @@ class Olmesartan extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="dosages_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="#" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item next" id="dosages_next"><a href="#" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item next" id="dosages_next"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -658,9 +658,9 @@ class Olmesartan extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="prices_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="prices_previous"><a href="#" aria-controls="prices" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="prices" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="prices_next"><a href="#" aria-controls="prices" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="prices_previous"><a href="javascript:void(0)" aria-controls="prices" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="prices" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item next disabled" id="prices_next"><a href="javascript:void(0)" aria-controls="prices" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -738,9 +738,9 @@ class Olmesartan extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="patents_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="patents_previous"><a href="#" aria-controls="patents" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="patents" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item next disabled" id="patents_next"><a href="#" aria-controls="patents" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="patents_previous"><a href="javascript:void(0)" aria-controls="patents" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="patents" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item next disabled" id="patents_next"><a href="javascript:void(0)" aria-controls="patents" data-dt-idx={2} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -1036,47 +1036,47 @@ class Olmesartan extends React.Component {
                 </thead>
                 <tbody data-no-turbolink>
                   <tr>
-                    <td><a href="/spectra/c_ms/16540">Predicted GC-MS Spectrum - GC-MS</a></td>
+                    <td><a href="javascript:void(0)">Predicted GC-MS Spectrum - GC-MS</a></td>
                     <td>Predicted GC-MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/246417">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/246418">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/246419">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/266361">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/266362">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/266363">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/374407">LC-MS/MS Spectrum - LC-ESI-qTof , Positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-qTof , Positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/451033">MS/MS Spectrum - , positive</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a6r-0692700000-11f020dfbb889ac85e4e">splash10-0a6r-0692700000-11f020dfbb889ac85e4e</a></td>
                   </tr>
@@ -1123,8 +1123,8 @@ class Olmesartan extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0000062">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P30556">
-                    Details</a><strong>1. <a href="/polypeptides/P30556">Type-1 angiotensin II receptor</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Type-1 angiotensin II receptor</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1170,8 +1170,8 @@ class Olmesartan extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0000530">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P02768">
-                    Details</a><strong>1. <a href="/polypeptides/P02768">Serum albumin</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Serum albumin</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1212,8 +1212,8 @@ class Olmesartan extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0001069">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q92887">
-                    Details</a><strong>1. <a href="/polypeptides/Q92887">Canalicular multispecific organic anion transporter 1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Canalicular multispecific organic anion transporter 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1251,8 +1251,8 @@ class Olmesartan extends React.Component {
               </div>
               <div className="bond card" id="BE0003659">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9NPD5">
-                    Details</a><strong>2. <a href="/polypeptides/Q9NPD5">Solute carrier organic anion transporter family member 1B3</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Solute carrier organic anion transporter family member 1B3</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1288,8 +1288,8 @@ class Olmesartan extends React.Component {
               </div>
               <div className="bond card" id="BE0001004">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9Y6L6">
-                    Details</a><strong>3. <a href="/polypeptides/Q9Y6L6">Solute carrier organic anion transporter family member 1B1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Solute carrier organic anion transporter family member 1B1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1325,8 +1325,8 @@ class Olmesartan extends React.Component {
               </div>
               <div className="bond card" id="BE0000703">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/O95342">
-                    Details</a><strong>4. <a href="/polypeptides/O95342">Bile salt export pump</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Bile salt export pump</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
