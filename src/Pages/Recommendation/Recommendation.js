@@ -494,10 +494,11 @@ class Recommendation extends React.Component {
                             <ol>
                               <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox5" onClick={this.handleClick5}/> <label for="checkbox5"></label></div> Molecule autoencoder
                                 <div className="contents-wrapper">
-                                  <div className="img-contents-wrapper" style={{}}>
+
+                                  <div className="border b-active b-thick b-radius p-sm">
+                                  <div className="img-contents-wrapper">
                                     <img src={require(`./molecular.png`)} style={{minHeight: "153px"}} alt=""/>
                                   </div>
-                                  <div className="border b-active b-thick b-radius p-sm">
                                     <table>
                                       <tbody>
                                         <tr className="contents-table">
@@ -522,12 +523,11 @@ class Recommendation extends React.Component {
 
                               </li>
                               <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox6" onClick={this.handleClick6}/> <label for="checkbox6"></label></div> Mol2Vec
-
                                   <div className="contents-wrapper">
+                                    <div className="border b-active b-thick b-radius p-sm">
                                     <div className="img-contents-wrapper">
                                       <img src={require(`./mol2vec_2.png`)} style={{}} alt=""/>
                                     </div>
-                                    <div className="border b-active b-thick b-radius p-sm">
                                       <table>
                                         <tbody>
                                           <tr className="contents-table">
@@ -558,13 +558,11 @@ class Recommendation extends React.Component {
                           <li id="top-list"> Class Imbalance </li>
                             <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox7" onClick={this.handleClick7}/> <label for="checkbox7"></label></div> SMOTE: Synthetic Minority Over-sampling Technique
-
-
                               <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
                                 <div className="img-contents-wrapper">
                                   <img src={require(`./smote.png`)} style={{}} alt=""/>
                                 </div>
-                                <div className="border b-active b-thick b-radius p-sm">
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
@@ -595,10 +593,10 @@ class Recommendation extends React.Component {
                             <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox8" onClick={this.handleClick8}/> <label for="checkbox8"></label></div> WEMOTE: Word Embedding based Minority Oversampling
                               <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
                                 <div className="img-contents-wrapper">
                                   <img src={require(`./wemote.png`)} style={{}} alt=""/>
                                 </div>
-                                <div className="border b-active b-thick b-radius p-sm">
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
@@ -626,12 +624,11 @@ class Recommendation extends React.Component {
                           <li id="top-list"> Dimension Reduction </li>
                             <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox9" onClick={this.handleClick9}/> <label for="checkbox9"></label></div> PCA
-
                               <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
                                 <div className="img-contents-wrapper">
                                   <img src={require(`./pca.png`)} style={{}} alt=""/>
                                 </div>
-                                <div className="border b-active b-thick b-radius p-sm">
                                   <table>
                                     <tbody>
                                       <tr className="contents-table">
@@ -714,15 +711,15 @@ class Recommendation extends React.Component {
                   <div className="col-lg-9 item-col">
                     <div className="row">
                       <div className="col-lg-9 item-content">
-
                         <ol style={{paddingTop: '2px'}} className="preparation-list2">
                           <li id="top-list"><div className="round"><input type="checkbox" id="checkbox11" onClick={this.handleClick11}/> <label id="rec" for="checkbox11"></label></div> Support Vector Machine
 
                             <div className="contents-wrapper">
+
+                              <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
                                 <img src={require(`./svm.png`)} style={{}} alt=""/>
                               </div>
-                              <div className="border b-active b-thick b-radius p-sm">
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
@@ -755,10 +752,11 @@ class Recommendation extends React.Component {
                           <li id="top-list"><div className="round"><input type="checkbox" id="checkbox12" onClick={this.handleClick12}/> <label id="rec" for="checkbox12"></label></div> Decision Trees
 
                             <div className="contents-wrapper">
+
+                              <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
                                 <img src={require(`./decision.png`)} style={{}} alt=""/>
                               </div>
-                              <div className="border b-active b-thick b-radius p-sm">
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
@@ -790,10 +788,11 @@ class Recommendation extends React.Component {
                           <li id="top-list"><div className="round"><input type="checkbox" id="checkbox13" onClick={this.handleClick13}/> <label id="rec" for="checkbox13"></label></div> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
+
+                              <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
                                 <img src={require(`./multilayer.png`)} style={{minHeight: "136px"}} alt=""/>
                               </div>
-                              <div className="border b-active b-thick b-radius p-sm">
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
@@ -826,10 +825,10 @@ class Recommendation extends React.Component {
                           <li id="top-list"><div className="round"><input type="checkbox" id="checkbox14" onClick={this.handleClick14}/> <label id="rec" for="checkbox14"></label></div> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
+                              <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
                                 <img src={require(`./rnn.png`)} style={{}} alt=""/>
                               </div>
-                              <div className="border b-active b-thick b-radius p-sm">
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
@@ -1003,12 +1002,11 @@ class Recommendation extends React.Component {
                             </li>
                             </ol>
                           <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
-
                             <div className="contents-wrapper">
+                              <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
                                 <img src={require(`./dropout.png`)} style={{}} alt=""/>
                               </div>
-                              <div className="border b-active b-thick b-radius p-sm">
                                 <table>
                                   <tbody>
                                     <tr className="contents-table">
