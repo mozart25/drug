@@ -30,7 +30,7 @@ class Escitalopram extends React.Component {
             <dt className="col-md-2 col-sm-4">Structure</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="structure">
-                <a className="moldbi-vector-thumbnail" href="/structures/DB01175/image.svg"><img src="/structures/DB01175/thumb.svg" alt="Thumb" /></a>
+                <img src={require(`./escitalopram.png`)} style={{width: "20%"}} alt=""/>
               </div>
             </dd><dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
@@ -53,41 +53,41 @@ class Escitalopram extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
-                  <li><a href="/categories/DBCAT000266">Amines</a></li>
-                  <li><a href="/categories/DBCAT000533">Anticholinergic Agents</a></li>
-                  <li><a href="/categories/DBCAT000345">Antidepressive Agents</a></li>
-                  <li><a href="/categories/DBCAT000347">Antidepressive Agents, Second-Generation</a></li>
-                  <li><a href="/categories/DBCAT000546">Benzofurans</a></li>
-                  <li><a href="/categories/DBCAT000044">Central Nervous System Agents</a></li>
-                  <li><a href="/categories/DBCAT000399">Central Nervous System Depressants</a></li>
-                  <li><a href="/categories/DBCAT003877">Combined Inhibitors of Serotonin/Norepinephrine Reuptake</a></li>
-                  <li><a href="/categories/DBCAT002638">Cytochrome P-450 CYP2C19 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000911">Cytochrome P-450 CYP2D6 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002726">Cytochrome P-450 CYP2D6 Inhibitors (weak)</a></li>
-                  <li><a href="/categories/DBCAT002623">Cytochrome P-450 CYP2D6 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000934">Cytochrome P-450 CYP3A Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT003919">Cytochrome P-450 CYP3A Substrates</a></li>
-                  <li><a href="/categories/DBCAT003232">Cytochrome P-450 CYP3A4 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002713">Cytochrome P-450 CYP3A4 Inhibitors (weak)</a></li>
-                  <li><a href="/categories/DBCAT002646">Cytochrome P-450 CYP3A4 Substrates</a></li>
-                  <li><a href="/categories/DBCAT003973">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
-                  <li><a href="/categories/DBCAT000394">Cytochrome P-450 Enzyme Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002689">Highest Risk QTc-Prolonging Agents</a></li>
-                  <li><a href="/categories/DBCAT002695">Hypoglycemia-Associated Agents</a></li>
-                  <li><a href="/categories/DBCAT000128">Membrane Transport Modulators</a></li>
-                  <li><a href="/categories/DBCAT000534">Muscarinic Antagonists</a></li>
-                  <li><a href="/categories/DBCAT002148">Nervous System</a></li>
-                  <li><a href="/categories/DBCAT000127">Neurotransmitter Agents</a></li>
-                  <li><a href="/categories/DBCAT000400">Neurotransmitter Uptake Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT000545">Nitriles</a></li>
-                  <li><a href="/categories/DBCAT000544">Propylamines</a></li>
-                  <li><a href="/categories/DBCAT002156">Psychoanaleptics</a></li>
-                  <li><a href="/categories/DBCAT000346">Psychotropic Drugs</a></li>
-                  <li><a href="/categories/DBCAT003823">QTc Prolonging Agents</a></li>
-                  <li><a href="/categories/DBCAT002772">Selective Serotonin Reuptake Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT003826">Serotonergic Drugs Shown to Increase Risk of Serotonin Syndrome</a></li>
-                  <li><a href="/categories/DBCAT000401">Serotonin Agents</a></li>
-                  <li><a href="/categories/DBCAT002706">Serotonin Modulators</a></li>
+                  <li><a href="javascript:void(0)">Amines</a></li>
+                  <li><a href="javascript:void(0)">Anticholinergic Agents</a></li>
+                  <li><a href="javascript:void(0)">Antidepressive Agents</a></li>
+                  <li><a href="javascript:void(0)">Antidepressive Agents, Second-Generation</a></li>
+                  <li><a href="javascript:void(0)">Benzofurans</a></li>
+                  <li><a href="javascript:void(0)">Central Nervous System Agents</a></li>
+                  <li><a href="javascript:void(0)">Central Nervous System Depressants</a></li>
+                  <li><a href="javascript:void(0)">Combined Inhibitors of Serotonin/Norepinephrine Reuptake</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C19 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2D6 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2D6 Inhibitors (weak)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2D6 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Inhibitors (weak)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 Enzyme Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Highest Risk QTc-Prolonging Agents</a></li>
+                  <li><a href="javascript:void(0)">Hypoglycemia-Associated Agents</a></li>
+                  <li><a href="javascript:void(0)">Membrane Transport Modulators</a></li>
+                  <li><a href="javascript:void(0)">Muscarinic Antagonists</a></li>
+                  <li><a href="javascript:void(0)">Nervous System</a></li>
+                  <li><a href="javascript:void(0)">Neurotransmitter Agents</a></li>
+                  <li><a href="javascript:void(0)">Neurotransmitter Uptake Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Nitriles</a></li>
+                  <li><a href="javascript:void(0)">Propylamines</a></li>
+                  <li><a href="javascript:void(0)">Psychoanaleptics</a></li>
+                  <li><a href="javascript:void(0)">Psychotropic Drugs</a></li>
+                  <li><a href="javascript:void(0)">QTc Prolonging Agents</a></li>
+                  <li><a href="javascript:void(0)">Selective Serotonin Reuptake Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Serotonergic Drugs Shown to Increase Risk of Serotonin Syndrome</a></li>
+                  <li><a href="javascript:void(0)">Serotonin Agents</a></li>
+                  <li><a href="javascript:void(0)">Serotonin Modulators</a></li>
                 </ul>
               </div>
             </dd><dt className="col-md-2 col-sm-4">UNII</dt>
@@ -114,12 +114,12 @@ class Escitalopram extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Associated Conditions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
-                <li><a href="/indications/DBCOND0054747">Generalized Anxiety Disorder (GAD)</a></li>
-                <li><a href="/indications/DBCOND0030181">Major Depressive Disorder (MDD)</a></li>
-                <li><a href="/indications/DBCOND0068470">Menopausal Hot Flushes</a></li>
-                <li><a href="/indications/DBCOND0033099">Obsessive Compulsive Disorder (OCD)</a></li>
-                <li><a href="/indications/DBCOND0032724">Panic Disorders</a></li>
-                <li><a href="/indications/DBCOND0038601">Post Traumatic Stress Disorder (PTSD)</a></li>
+                <li><a href="javascript:void(0)">Generalized Anxiety Disorder (GAD)</a></li>
+                <li><a href="javascript:void(0)">Major Depressive Disorder (MDD)</a></li>
+                <li><a href="javascript:void(0)">Menopausal Hot Flushes</a></li>
+                <li><a href="javascript:void(0)">Obsessive Compulsive Disorder (OCD)</a></li>
+                <li><a href="javascript:void(0)">Panic Disorders</a></li>
+                <li><a href="javascript:void(0)">Post Traumatic Stress Disorder (PTSD)</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Pharmacodynamics</dt>
             <dd className="col-md-10 col-sm-8">
@@ -281,7 +281,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-danger basic-tip" title="SNP-Mediated Adverse Drug Reaction">ADR</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
                           <td>The presence of this polymorphism in SLC6A4 may potentially be associated with increased risk of adverse events from escitalopram.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE000136">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -292,7 +292,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
                           <td>The presence of this polymorphism in CYP2C19 is associated with poor metabolism of escitalopram.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE006071">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -303,7 +303,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
                           <td>The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of escitalopram.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005064">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -314,7 +314,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
                           <td>Poor drug metabolizer. For individual with two non-functional alleles, alternative drug or dose reduction recommended.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005062">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -325,7 +325,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
                           <td>Poor drug metabolizer. For individual with two non-functional alleles, alternative drug or dose reduction recommended.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005063">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -336,7 +336,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
                           <td>Poor drug metabolizer. For individual with two non-functional alleles, alternative drug or dose reduction recommended.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005065">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -347,7 +347,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
                           <td>Poor drug metabolizer. For individual with two non-functional alleles, alternative drug or dose reduction recommended.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005066">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -358,7 +358,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
                           <td>Poor drug metabolizer. For individual with two non-functional alleles, alternative drug or dose reduction recommended.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005067">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -369,7 +369,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
                           <td>Poor drug metabolizer. For individual with two non-functional alleles, alternative drug or dose reduction recommended.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005068">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}><strong>Cytochrome P450 2C19</strong></td>
@@ -380,7 +380,7 @@ class Escitalopram extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-default basic-tip" title="Inferred relationship based on similarity of alleles">Inferred</span></td>
                           <td>Poor drug metabolizer. For individual with two non-functional alleles, alternative drug or dose reduction recommended.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE005069">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -393,10 +393,10 @@ class Escitalopram extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_0_previous"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item next" id="DataTables_Table_0_next"><a href="javascript:void(0)" aria-controls="DataTables_Table_0" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -406,7 +406,7 @@ class Escitalopram extends React.Component {
           </dl>
           <h2 id="interactions" className="section-header">Interactions</h2>
           <dl>
-          <dt className="col-md-2 col-sm-4">Drug Interactions <a tabIndex={0} role="button" data-toggle="popover" data-content="Drug-drug interactions extracted from drug labels and scientific publications. The commercial version includes severity and basis for interaction. — <a target=&quot;_blank&quot; href=&quot;https://drugbankplus.com/data&quot;>Learn More</a>" title id="structured-interactions-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About Drug Interactions"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
+          <dt className="col-md-2 col-sm-4">Drug Interactions <a tabIndex={0} role="button" data-toggle="popover" data-content="Drug-drug interactions extracted from drug labels and scientific publications. The commercial version includes severity and basis for interaction. — <a target=&quot;_blank&quot; href=&quot;https://drugbankplus.com/data&quot;>Learn More</a>" title id="structured-interactions-info" className="drug-info-popup" href="javascript:void(0)" data-original-title="About Drug Interactions"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="nav nav-tabs drug-interaction-tabs">
                 <li className="interactions index nav-item"><a className="toggle-row-display nav-link active" data-source="/drugs/DB01175/drug_interactions.json" href="#show-all">All Drugs</a></li>
@@ -451,43 +451,43 @@ class Escitalopram extends React.Component {
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB08496">(R)-warfarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">(R)-warfarin</a></td>
                             <td>The serum concentration of (R)-warfarin can be increased when it is combined with Escitalopram.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB14055">(S)-Warfarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">(S)-Warfarin</a></td>
                             <td>The serum concentration of (S)-Warfarin can be increased when it is combined with Escitalopram.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB11898">2,4-thiazolidinedione</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,4-thiazolidinedione</a></td>
                             <td>The risk or severity of hypoglycemia can be increased when Escitalopram is combined with 2,4-thiazolidinedione.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01467">2,5-Dimethoxy-4-ethylamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylamphetamine</a></td>
                             <td>The risk or severity of serotonin syndrome can be increased when Escitalopram is combined with 2,5-Dimethoxy-4-ethylamphetamine.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB13940">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
                             <td>The risk or severity of adverse effects can be increased when 2,5-Dimethoxy-4-ethylthioamphetamine is combined with Escitalopram.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB12629">3,5-diiodothyropropionic acid</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">3,5-diiodothyropropionic acid</a></td>
                             <td>The therapeutic efficacy of 3,5-diiodothyropropionic acid can be decreased when used in combination with Escitalopram.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB01484">4-Bromo-2,5-dimethoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-Bromo-2,5-dimethoxyamphetamine</a></td>
                             <td>The risk or severity of adverse effects can be increased when Escitalopram is combined with 4-Bromo-2,5-dimethoxyamphetamine.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB03410">4-hydroxycoumarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-hydroxycoumarin</a></td>
                             <td>The metabolism of 4-hydroxycoumarin can be decreased when combined with Escitalopram.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB01472">4-Methoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-Methoxyamphetamine</a></td>
                             <td>The risk or severity of adverse effects can be increased when Escitalopram is combined with 4-Methoxyamphetamine.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01456">5-androstenedione</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">5-androstenedione</a></td>
                             <td>The metabolism of 5-androstenedione can be decreased when combined with Escitalopram.</td>
                           </tr>
                         </tbody>
@@ -502,15 +502,15 @@ class Escitalopram extends React.Component {
                     <div className="col-sm-12 col-md-7">
                       <div className="dataTables_paginate paging_simple_numbers" id="drug-interactions_paginate">
                         <ul className="pagination">
-                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="#" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                          <li className="paginate_button page-item active"><a href="#" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="#" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">182</a></li>
-                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="#" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                          <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                          <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                          <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">182</a></li>
+                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                         </ul>
                       </div>
                     </div>
@@ -543,12 +543,12 @@ class Escitalopram extends React.Component {
                 <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Escitalopram">Escitalopram</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
-            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/N06AB10">N06AB10 — Escitalopram</a>
+            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="javascript:void(0)">N06AB10 — Escitalopram</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/N06AB">N06AB — Selective serotonin reuptake inhibitors</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N06A">N06A — ANTIDEPRESSANTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N06">N06 — PSYCHOANALEPTICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/N">N — NERVOUS SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N06AB — Selective serotonin reuptake inhibitors</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N06A — ANTIDEPRESSANTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N06 — PSYCHOANALEPTICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">N — NERVOUS SYSTEM</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">AHFS Codes</dt>
             <dd className="col-md-10 col-sm-8">
@@ -603,71 +603,71 @@ class Escitalopram extends React.Component {
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0006117">Depressive Disorder, Treatment-Resistant</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0006117&phase=0&purpose=treatment&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Depressive Disorder, Treatment-Resistant</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>0</td>
                           <td>Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0030181">Major Depressive Disorder (MDD)</a> <span>/</span> <a href="/indications/DBCOND0028284">Unipolar Depression</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0030181%2CDBCOND0028284&phase=0&purpose=treatment&status=recruiting">1</a></td>
+                          <td><a href="javascript:void(0)">Major Depressive Disorder (MDD)</a> <span>/</span> <a href="javascript:void(0)">Unipolar Depression</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>0</td>
                           <td>Unknown Status</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0001304">Premature Ejaculation</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0001304&phase=0&purpose=treatment&status=unknown_status">1</a></td>
+                          <td><a href="javascript:void(0)">Premature Ejaculation</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Active Not Recruiting</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0049618">Spinal Cord Injuries (SCI)</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0049618&phase=1&purpose=treatment&status=active_not_recruiting">2</a></td>
+                          <td><a href="javascript:void(0)">Spinal Cord Injuries (SCI)</a></td>
+                          <td><a href="javascript:void(0)">2</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0031129">Cocaine Abuse</a> <span>/</span> <a href="/indications/DBCOND0045954">Dependence, Cocaine</a> <span>/</span> <a href="/indications/DBCOND0030240">Substance Abuse</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0031129%2CDBCOND0045954%2CDBCOND0030240&phase=1&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Cocaine Abuse</a> <span>/</span> <a href="javascript:void(0)">Dependence, Cocaine</a> <span>/</span> <a href="javascript:void(0)">Substance Abuse</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0028122&phase=1&status=completed">4</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">4</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Basic Science</td>
-                          <td><a href="/indications/DBCOND0018735">Depression</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0018735&phase=1&purpose=basic_science&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Depression</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Basic Science</td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0028122&phase=1&purpose=basic_science&status=completed">2</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">2</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Basic Science</td>
-                          <td><a href="/indications/DBCOND0037946">Hepatitis C Infection</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0037946&phase=1&purpose=basic_science&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Hepatitis C Infection</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Diagnostic</td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB01175/clinical_trials?conditions=DBCOND0028122&phase=1&purpose=diagnostic&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -680,15 +680,15 @@ class Escitalopram extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="DataTables_Table_1_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_1_previous"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
-                        <li className="paginate_button page-item disabled" id="DataTables_Table_1_ellipsis"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={7} tabIndex={0} className="page-link">26</a></li>
-                        <li className="paginate_button page-item next" id="DataTables_Table_1_next"><a href="#" aria-controls="DataTables_Table_1" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="DataTables_Table_1_previous"><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                        <li className="paginate_button page-item disabled" id="DataTables_Table_1_ellipsis"><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={7} tabIndex={0} className="page-link">26</a></li>
+                        <li className="paginate_button page-item next" id="DataTables_Table_1_next"><a href="javascript:void(0)" aria-controls="DataTables_Table_1" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -793,10 +793,10 @@ class Escitalopram extends React.Component {
                   <div className="col-sm-12 col-md-7">
                     <div className="dataTables_paginate paging_simple_numbers" id="dosages_paginate">
                       <ul className="pagination">
-                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="#" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                        <li className="paginate_button page-item active"><a href="#" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                        <li className="paginate_button page-item "><a href="#" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                        <li className="paginate_button page-item next" id="dosages_next"><a href="#" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
+                        <li className="paginate_button page-item previous disabled" id="dosages_previous"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
+                        <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                        <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                        <li className="paginate_button page-item next" id="dosages_next"><a href="javascript:void(0)" aria-controls="dosages" data-dt-idx={3} tabIndex={0} className="page-link">›</a></li>
                       </ul>
                     </div>
                   </div>
@@ -1068,42 +1068,42 @@ class Escitalopram extends React.Component {
                 </thead>
                 <tbody data-no-turbolink>
                   <tr>
-                    <td><a href="/spectra/c_ms/24931">Predicted GC-MS Spectrum - GC-MS</a></td>
+                    <td><a href="javascript:void(0)">Predicted GC-MS Spectrum - GC-MS</a></td>
                     <td>Predicted GC-MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/64905">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/64906">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/64907">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/122190">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/122191">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/122192">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/450960">MS/MS Spectrum - , positive</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-004i-1497000000-a840cd3176ff240d74f6">splash10-004i-1497000000-a840cd3176ff240d74f6</a></td>
                   </tr>
@@ -1186,10 +1186,10 @@ class Escitalopram extends React.Component {
                   </div>
                 </div>
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P31645">
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
                     Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0000749-binding-properties" data-toggle="modal" type="button">
-                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P31645">Sodium-dependent serotonin transporter</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="javascript:void(0)">Sodium-dependent serotonin transporter</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1232,8 +1232,8 @@ class Escitalopram extends React.Component {
               </div>
               <div className="bond card" id="BE0000647">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q01959">
-                    Details</a><strong>2. <a href="/polypeptides/Q01959">Sodium-dependent dopamine transporter</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Sodium-dependent dopamine transporter</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1269,8 +1269,8 @@ class Escitalopram extends React.Component {
               </div>
               <div className="bond card" id="BE0000486">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P23975">
-                    Details</a><strong>3. <a href="/polypeptides/P23975">Sodium-dependent noradrenaline transporter</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Sodium-dependent noradrenaline transporter</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1306,8 +1306,8 @@ class Escitalopram extends React.Component {
               </div>
               <div className="bond card" id="BE0000501">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35348">
-                    Details</a><strong>4. <a href="/polypeptides/P35348">Alpha-1A adrenergic receptor</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Alpha-1A adrenergic receptor</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1344,8 +1344,8 @@ class Escitalopram extends React.Component {
               </div>
               <div className="bond card" id="BE0000092">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P11229">
-                    Details</a><strong>5. <a href="/polypeptides/P11229">Muscarinic acetylcholine receptor M1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>5. <a href="javascript:void(0)">Muscarinic acetylcholine receptor M1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1381,8 +1381,8 @@ class Escitalopram extends React.Component {
               </div>
               <div className="bond card" id="BE0000442">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P35367">
-                    Details</a><strong>6. <a href="/polypeptides/P35367">Histamine H1 receptor</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>6. <a href="javascript:void(0)">Histamine H1 receptor</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1424,8 +1424,8 @@ class Escitalopram extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    Details</a><strong>1. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1463,8 +1463,8 @@ class Escitalopram extends React.Component {
               </div>
               <div className="bond card" id="BE0003536">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P33261">
-                    Details</a><strong>2. <a href="/polypeptides/P33261">Cytochrome P450 2C19</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Cytochrome P450 2C19</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1501,8 +1501,8 @@ class Escitalopram extends React.Component {
               </div>
               <div className="bond card" id="BE0002363">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10635">
-                    Details</a><strong>3. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Cytochrome P450 2D6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">

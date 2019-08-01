@@ -31,7 +31,7 @@ class Amlodipine extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Structure</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="structure">
-                <a className="moldbi-vector-thumbnail" href="/structures/DB00381/image.svg"><img src="/structures/DB00381/thumb.svg" alt="Thumb" /></a>
+                <img src={require(`./amlodipine.png`)} style={{width: "20%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
@@ -243,41 +243,41 @@ class Amlodipine extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="category-columns">
                 <ul className="list-unstyled table-list">
-                  <li><a href="/categories/DBCAT002176">ACE Inhibitors and Calcium Channel Blockers</a></li>
-                  <li><a href="/categories/DBCAT003960">Agents causing hyperkalemia</a></li>
-                  <li><a href="/categories/DBCAT002170">Angiotensin II Antagonists and Calcium Channel Blockers</a></li>
-                  <li><a href="/categories/DBCAT004595">Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                  <li><a href="/categories/DBCAT002737">Antianginal Agents</a></li>
-                  <li><a href="/categories/DBCAT003297">Antiarrhythmic agents</a></li>
-                  <li><a href="/categories/DBCAT000410">Antihypertensive Agents</a></li>
-                  <li><a href="/categories/DBCAT002703">Bradycardia-Causing Agents</a></li>
-                  <li><a href="/categories/DBCAT000574">Calcium Channel Blockers</a></li>
-                  <li><a href="/categories/DBCAT003977">Calcium Channel Blockers (Dihydropyridine)</a></li>
-                  <li><a href="/categories/DBCAT002343">Calcium Channel Blockers and Diuretics</a></li>
-                  <li><a href="/categories/DBCAT000010">Cardiovascular Agents</a></li>
-                  <li><a href="/categories/DBCAT001285">Cytochrome P-450 CYP2B6 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT004517">Cytochrome P-450 CYP2B6 Inhibitors (strength unknown)</a></li>
-                  <li><a href="/categories/DBCAT002619">Cytochrome P-450 CYP2B6 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000868">Cytochrome P-450 CYP2C8 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002644">Cytochrome P-450 CYP2C8 Inhibitors (moderate)</a></li>
-                  <li><a href="/categories/DBCAT000911">Cytochrome P-450 CYP2D6 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002726">Cytochrome P-450 CYP2D6 Inhibitors (weak)</a></li>
-                  <li><a href="/categories/DBCAT003919">Cytochrome P-450 CYP3A Substrates</a></li>
-                  <li><a href="/categories/DBCAT002646">Cytochrome P-450 CYP3A4 Substrates</a></li>
-                  <li><a href="/categories/DBCAT003973">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
-                  <li><a href="/categories/DBCAT003807">Cytochrome P-450 CYP3A5 Substrates</a></li>
-                  <li><a href="/categories/DBCAT000394">Cytochrome P-450 Enzyme Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002270">Dihydropyridine Derivatives</a></li>
-                  <li><a href="/categories/DBCAT000643">Dihydropyridines</a></li>
-                  <li><a href="/categories/DBCAT002696">Hypotensive Agents</a></li>
-                  <li><a href="/categories/DBCAT000128">Membrane Transport Modulators</a></li>
-                  <li><a href="/categories/DBCAT002667">P-glycoprotein/ABCB1 Inhibitors</a></li>
-                  <li><a href="/categories/DBCAT002668">P-glycoprotein/ABCB1 Substrates</a></li>
-                  <li><a href="/categories/DBCAT002691">Potential QTc-Prolonging Agents</a></li>
-                  <li><a href="/categories/DBCAT000227">Pyridines</a></li>
-                  <li><a href="/categories/DBCAT003823">QTc Prolonging Agents</a></li>
-                  <li><a href="/categories/DBCAT002271">Selective Calcium Channel Blockers With Mainly Vascular Effects</a></li>
-                  <li><a href="/categories/DBCAT003676">Vasodilating Agents</a></li>
+                  <li><a href="javascript:void(0)">ACE Inhibitors and Calcium Channel Blockers</a></li>
+                  <li><a href="javascript:void(0)">Agents causing hyperkalemia</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin II Antagonists and Calcium Channel Blockers</a></li>
+                  <li><a href="javascript:void(0)">Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                  <li><a href="javascript:void(0)">Antianginal Agents</a></li>
+                  <li><a href="javascript:void(0)">Antiarrhythmic agents</a></li>
+                  <li><a href="javascript:void(0)">Antihypertensive Agents</a></li>
+                  <li><a href="javascript:void(0)">Bradycardia-Causing Agents</a></li>
+                  <li><a href="javascript:void(0)">Calcium Channel Blockers</a></li>
+                  <li><a href="javascript:void(0)">Calcium Channel Blockers (Dihydropyridine)</a></li>
+                  <li><a href="javascript:void(0)">Calcium Channel Blockers and Diuretics</a></li>
+                  <li><a href="javascript:void(0)0">Cardiovascular Agents</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2B6 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2B6 Inhibitors (strength unknown)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2B6 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C8 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2C8 Inhibitors (moderate)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2D6 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP2D6 Inhibitors (weak)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A4 Substrates (strength unknown)</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 CYP3A5 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Cytochrome P-450 Enzyme Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">Dihydropyridine Derivatives</a></li>
+                  <li><a href="javascript:void(0)">Dihydropyridines</a></li>
+                  <li><a href="javascript:void(0)">Hypotensive Agents</a></li>
+                  <li><a href="javascript:void(0)">Membrane Transport Modulators</a></li>
+                  <li><a href="javascript:void(0)">P-glycoprotein/ABCB1 Inhibitors</a></li>
+                  <li><a href="javascript:void(0)">P-glycoprotein/ABCB1 Substrates</a></li>
+                  <li><a href="javascript:void(0)">Potential QTc-Prolonging Agents</a></li>
+                  <li><a href="javascript:void(0)">Pyridines</a></li>
+                  <li><a href="javascript:void(0)">QTc Prolonging Agents</a></li>
+                  <li><a href="javascript:void(0)">Selective Calcium Channel Blockers With Mainly Vascular Effects</a></li>
+                  <li><a href="javascript:void(0)">Vasodilating Agents</a></li>
                 </ul>
               </div>
             </dd><dt className="col-md-2 col-sm-4">UNII</dt>
@@ -309,11 +309,11 @@ class Amlodipine extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Associated Conditions</dt>
             <dd className="col-md-10 col-sm-8">
               <ul className="list-unstyled table-list">
-                <li><a href="/indications/DBCOND0066917">Anginal Pain</a></li>
-                <li><a href="/indications/DBCOND0075514">Chronic Stable Angina Pectoris</a></li>
-                <li><a href="/indications/DBCOND0000554">Coronary Artery Disease</a></li>
-                <li><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></li>
-                <li><a href="/indications/DBCOND0039062">Vasospastic Angina</a></li>
+                <li><a href="javascript:void(0)">Anginal Pain</a></li>
+                <li><a href="javascript:void(0)">Chronic Stable Angina Pectoris</a></li>
+                <li><a href="javascript:void(0)">Coronary Artery Disease</a></li>
+                <li><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></li>
+                <li><a href="javascript:void(0)">Vasospastic Angina</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">Pharmacodynamics</dt>
             <dd className="col-md-10 col-sm-8">
@@ -517,7 +517,7 @@ class Amlodipine extends React.Component {
                           </td>
                           <td><span className="label label-warning basic-tip" title="SNP-Mediated Pharmacological Effect">Effect</span> <span className="label label-success basic-tip" title="Directly studied, with clinical relevance">Directly Studied</span></td>
                           <td>Patients with this genotype have increased risk of adverse cardiovascular outcomes with diuretics.</td>
-                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="/pharmaco/genomics/DBSNPE000151">Details</a></td>
+                          <td className="text-sm-center"><a className="btn btn-sm btn-outline-secondary" href="javascript:void(0)">Details</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -586,43 +586,43 @@ class Amlodipine extends React.Component {
                         </thead>
                         <tbody>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB08496">(R)-warfarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">(R)-warfarin</a></td>
                             <td>The metabolism of (R)-warfarin can be decreased when combined with Amlodipine.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB14055">(S)-Warfarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">(S)-Warfarin</a></td>
                             <td>The metabolism of (S)-Warfarin can be decreased when combined with Amlodipine.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB02032">1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid</a></td>
                             <td>The therapeutic efficacy of 1-(3-Mercapto-2-Methyl-Propionyl)-Pyrrolidine-2-Carboxylic Acid can be increased when used in combination with Amlodipine.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB04581">1-benzylimidazole</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">1-benzylimidazole</a></td>
                             <td>1-benzylimidazole may decrease the antihypertensive activities of Amlodipine.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB11898">2,4-thiazolidinedione</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,4-thiazolidinedione</a></td>
                             <td>The risk or severity of hypoglycemia can be increased when Amlodipine is combined with 2,4-thiazolidinedione.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB01467">2,5-Dimethoxy-4-ethylamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylamphetamine</a></td>
                             <td>2,5-Dimethoxy-4-ethylamphetamine may decrease the antihypertensive activities of Amlodipine.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB13940">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">2,5-Dimethoxy-4-ethylthioamphetamine</a></td>
                             <td>2,5-Dimethoxy-4-ethylthioamphetamine may decrease the antihypertensive activities of Amlodipine.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB12629">3,5-diiodothyropropionic acid</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">3,5-diiodothyropropionic acid</a></td>
                             <td>The metabolism of 3,5-diiodothyropropionic acid can be decreased when combined with Amlodipine.</td>
                           </tr>
                           <tr role="row" className="odd">
-                            <td tabIndex={0}><a href="/drugs/DB01484">4-Bromo-2,5-dimethoxyamphetamine</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-Bromo-2,5-dimethoxyamphetamine</a></td>
                             <td>4-Bromo-2,5-dimethoxyamphetamine may decrease the antihypertensive activities of Amlodipine.</td>
                           </tr>
                           <tr role="row" className="even">
-                            <td tabIndex={0}><a href="/drugs/DB03410">4-hydroxycoumarin</a></td>
+                            <td tabIndex={0}><a href="javascript:void(0)">4-hydroxycoumarin</a></td>
                             <td>The metabolism of 4-hydroxycoumarin can be decreased when combined with Amlodipine.</td>
                           </tr>
                         </tbody>
@@ -638,14 +638,14 @@ class Amlodipine extends React.Component {
                       <div className="dataTables_paginate paging_simple_numbers" id="drug-interactions_paginate">
                         <ul className="pagination">
                           <li className="paginate_button page-item previous disabled" id="drug-interactions_previous"><a href="#" aria-controls="drug-interactions" data-dt-idx={0} tabIndex={0} className="page-link">‹</a></li>
-                          <li className="paginate_button page-item active"><a href="#" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
+                          <li className="paginate_button page-item active"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={1} tabIndex={0} className="page-link">1</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={2} tabIndex={0} className="page-link">2</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={3} tabIndex={0} className="page-link">3</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={4} tabIndex={0} className="page-link">4</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={5} tabIndex={0} className="page-link">5</a></li>
                           <li className="paginate_button page-item disabled" id="drug-interactions_ellipsis"><a href="#" aria-controls="drug-interactions" data-dt-idx={6} tabIndex={0} className="page-link">…</a></li>
-                          <li className="paginate_button page-item "><a href="#" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">181</a></li>
-                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="#" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
+                          <li className="paginate_button page-item "><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={7} tabIndex={0} className="page-link">181</a></li>
+                          <li className="paginate_button page-item next" id="drug-interactions_next"><a href="javascript:void(0)" aria-controls="drug-interactions" data-dt-idx={8} tabIndex={0} className="page-link">›</a></li>
                         </ul>
                       </div>
                     </div>
@@ -692,162 +692,162 @@ class Amlodipine extends React.Component {
                 <dd className="col-md-8 col-sm-7"><a target="_blank" rel="noopener noreferrer" href="http://en.wikipedia.org/wiki/Amlodipine">Amlodipine</a></dd>
               </dl>
             </dd><dt className="col-md-2 col-sm-4">ATC Codes</dt>
-            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="/atc/C09XA54">C09XA54 — Aliskiren, amlodipine and hydrochlorothiazide</a>
+            <dd className="col-md-10 col-sm-8"><a data-no-turbolink="true" href="javascript:void(0)">C09XA54 — Aliskiren, amlodipine and hydrochlorothiazide</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09XA">C09XA — Renin-inhibitors</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09X">C09X — OTHER AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C10BX07">C10BX07 — Rosuvastatin, amlodipine and lisinopril</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09XA — Renin-inhibitors</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09X — OTHER AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C10BX07 — Rosuvastatin, amlodipine and lisinopril</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C10BX">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10B">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10">C10 — LIPID MODIFYING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09BB03">C09BB03 — Lisinopril and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10 — LIPID MODIFYING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09BB03 — Lisinopril and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09BB">C09BB — ACE inhibitors and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09B">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09BB04">C09BB04 — Perindopril and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09BB — ACE inhibitors and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09BB04 — Perindopril and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09BB">C09BB — ACE inhibitors and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09B">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C07FB07">C07FB07 — Bisoprolol and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09BB — ACE inhibitors and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C07FB07 — Bisoprolol and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C07FB">C07FB — Beta blocking agents and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C07F">C07F — BETA BLOCKING AGENTS, OTHER COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C07">C07 — BETA BLOCKING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB06">C09DB06 — Losartan and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07FB — Beta blocking agents and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07F — BETA BLOCKING AGENTS, OTHER COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07 — BETA BLOCKING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB06 — Losartan and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C07FB12">C07FB12 — Nebivolol and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C07FB12 — Nebivolol and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C07FB">C07FB — Beta blocking agents and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C07F">C07F — BETA BLOCKING AGENTS, OTHER COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C07">C07 — BETA BLOCKING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB05">C09DB05 — Irbesartan and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07FB — Beta blocking agents and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07F — BETA BLOCKING AGENTS, OTHER COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07 — BETA BLOCKING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB05 — Irbesartan and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09XA53">C09XA53 — Aliskiren and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09XA53 — Aliskiren and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09XA">C09XA — Renin-inhibitors</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09X">C09X — OTHER AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C10BX03">C10BX03 — Atorvastatin and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09XA — Renin-inhibitors</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09X — OTHER AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C10BX03 — Atorvastatin and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C10BX">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10B">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10">C10 — LIPID MODIFYING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C07FB13">C07FB13 — Metoprolol and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10 — LIPID MODIFYING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C07FB13 — Metoprolol and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C07FB">C07FB — Beta blocking agents and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C07F">C07F — BETA BLOCKING AGENTS, OTHER COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C07">C07 — BETA BLOCKING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C08CA01">C08CA01 — Amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07FB — Beta blocking agents and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07F — BETA BLOCKING AGENTS, OTHER COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C07 — BETA BLOCKING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C08CA01 — Amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C08CA">C08CA — Dihydropyridine derivatives</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C08C">C08C — SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C08">C08 — CALCIUM CHANNEL BLOCKERS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09BX03">C09BX03 — Ramipril, amlodipine and hydrochlorothiazide</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C08CA — Dihydropyridine derivatives</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C08C — SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C08 — CALCIUM CHANNEL BLOCKERS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09BX03 — Ramipril, amlodipine and hydrochlorothiazide</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09BX">C09BX — ACE inhibitors, other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09B">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB04">C09DB04 — Telmisartan and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09BX — ACE inhibitors, other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB04 — Telmisartan and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DX03">C09DX03 — Olmesartan medoxomil, amlodipine and hydrochlorothiazide</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DX03 — Olmesartan medoxomil, amlodipine and hydrochlorothiazide</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DX">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C08GA02">C08GA02 — Amlodipine and diuretics</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C08GA02 — Amlodipine and diuretics</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C08GA">C08GA — Calcium channel blockers and diuretics</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C08G">C08G — CALCIUM CHANNEL BLOCKERS AND DIURETICS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C08">C08 — CALCIUM CHANNEL BLOCKERS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB07">C09DB07 — Candesartan and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C08GA — Calcium channel blockers and diuretics</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C08G — CALCIUM CHANNEL BLOCKERS AND DIURETICS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C08 — CALCIUM CHANNEL BLOCKERS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB07 — Candesartan and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DX06">C09DX06 — Candesartan, amlodipine and hydrochlorothiazide</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DX06 — Candesartan, amlodipine and hydrochlorothiazide</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DX">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09BX01">C09BX01 — Perindopril, amlodipine and indapamide</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09BX01 — Perindopril, amlodipine and indapamide</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09BX">C09BX — ACE inhibitors, other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09B">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C10BX11">C10BX11 — Atorvastatin, amlodipine and perindopril</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09BX — ACE inhibitors, other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C10BX11 — Atorvastatin, amlodipine and perindopril</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C10BX">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10B">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10">C10 — LIPID MODIFYING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB02">C09DB02 — Olmesartan medoxomil and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10 — LIPID MODIFYING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB02 — Olmesartan medoxomil and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C10BX09">C10BX09 — Rosuvastatin and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C10BX09 — Rosuvastatin and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C10BX">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10B">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10">C10 — LIPID MODIFYING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DX01">C09DX01 — Valsartan, amlodipine and hydrochlorothiazide</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)X">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10 — LIPID MODIFYING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DX01 — Valsartan, amlodipine and hydrochlorothiazide</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DX">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09DB01">C09DB01 — Valsartan and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DX — Angiotensin II receptor blockers (ARBs), other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09DB01 — Valsartan and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09DB">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09D">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C10BX14">C10BX14 — Rosuvastatin, amlodipine and perindopril</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09DB — Angiotensin II receptor blockers (ARBs) and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09D — ANGIOTENSIN II RECEPTOR BLOCKERS (ARBs), COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C10BX14 — Rosuvastatin, amlodipine and perindopril</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C10BX">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10B">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C10">C10 — LIPID MODIFYING AGENTS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
-              </ul><a data-no-turbolink="true" href="/atc/C09BB07">C09BB07 — Ramipril and amlodipine</a>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10BX — HMG CoA reductase inhibitors, other combinations</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10B — LIPID MODIFYING AGENTS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C10 — LIPID MODIFYING AGENTS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
+              </ul><a data-no-turbolink="true" href="javascript:void(0)">C09BB07 — Ramipril and amlodipine</a>
               <ul className="atc-drug-tree">
-                <li><a data-no-turbolink="true" href="/atc/C09BB">C09BB — ACE inhibitors and calcium channel blockers</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09B">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C09">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
-                <li><a data-no-turbolink="true" href="/atc/C">C — CARDIOVASCULAR SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09BB — ACE inhibitors and calcium channel blockers</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09B — ACE INHIBITORS, COMBINATIONS</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C09 — AGENTS ACTING ON THE RENIN-ANGIOTENSIN SYSTEM</a></li>
+                <li><a data-no-turbolink="true" href="javascript:void(0)">C — CARDIOVASCULAR SYSTEM</a></li>
               </ul>
             </dd><dt className="col-md-2 col-sm-4">AHFS Codes</dt>
             <dd className="col-md-10 col-sm-8">
@@ -903,71 +903,71 @@ class Amlodipine extends React.Component {
                           <td tabIndex={0}>0</td>
                           <td>Completed</td>
                           <td>Treatment</td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0040789&phase=0&purpose=treatment&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0031289">Chronic Obstructive Pulmonary Disease (COPD)</a> <span>/</span> <a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0031289%2CDBCOND0028122&phase=1&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Chronic Obstructive Pulmonary Disease (COPD)</a> <span>/</span> <a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0039933">Healhty</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0039933&phase=1&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Healhty</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0028122&phase=1&status=completed">14</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">14</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0040789&phase=1&status=completed">3</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">3</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td><span className="not-available">Not Available</span></td>
-                          <td><a href="/indications/DBCOND0086660">Hypertension,Essential</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0086660&phase=1&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Hypertension,Essential</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Basic Science</td>
-                          <td><a href="/indications/DBCOND0050009">Healthy Male Subjects</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0050009&phase=1&purpose=basic_science&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Healthy Male Subjects</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Basic Science</td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0040789&phase=1&purpose=basic_science&status=completed">2</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">2</a></td>
                         </tr>
                         <tr role="row" className="odd">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Diagnostic</td>
-                          <td><a href="/indications/DBCOND0040789">High Blood Pressure (Hypertension)</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0040789&phase=1&purpose=diagnostic&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">High Blood Pressure (Hypertension)</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                         <tr role="row" className="even">
                           <td tabIndex={0}>1</td>
                           <td>Completed</td>
                           <td>Other</td>
-                          <td><a href="/indications/DBCOND0028122">Healthy Volunteers</a></td>
-                          <td><a href="/drugs/DB00381/clinical_trials?conditions=DBCOND0028122&phase=1&purpose=other&status=completed">1</a></td>
+                          <td><a href="javascript:void(0)">Healthy Volunteers</a></td>
+                          <td><a href="javascript:void(0)">1</a></td>
                         </tr>
                       </tbody>
                     </table>
@@ -1750,57 +1750,57 @@ class Amlodipine extends React.Component {
                 </thead>
                 <tbody data-no-turbolink>
                   <tr>
-                    <td><a href="/spectra/c_ms/16864">Predicted GC-MS Spectrum - GC-MS</a></td>
+                    <td><a href="javascript:void(0)">Predicted GC-MS Spectrum - GC-MS</a></td>
                     <td>Predicted GC-MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/245253">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/245254">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/245255">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Positive (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/265200">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 10V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/265201">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 20V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/265202">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
+                    <td><a href="javascript:void(0)">Predicted MS/MS Spectrum - 40V, Negative (Annotated)</a></td>
                     <td>Predicted LC-MS/MS</td>
                     <td><span className="not-available">Not Available</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/441085">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
+                    <td><a href="javascript:void(0)">LC-MS/MS Spectrum - LC-ESI-QTOF , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-0a4u-0192000000-988fbef9dd83defbfbe0">splash10-0a4u-0192000000-988fbef9dd83defbfbe0</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/ms_ms/450768">MS/MS Spectrum - , positive</a></td>
+                    <td><a href="javascript:void(0)">MS/MS Spectrum - , positive</a></td>
                     <td>LC-MS/MS</td>
                     <td><a target="_blank" rel="noopener noreferrer" href="http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/splash10-002o-1392000000-3e9bc5dcf61b0f4cae6a">splash10-002o-1392000000-3e9bc5dcf61b0f4cae6a</a></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/nmr_one_d/2020">1H NMR Spectrum</a></td>
+                    <td><a href="javascript:void(0)">1H NMR Spectrum</a></td>
                     <td>1D NMR</td>
                     <td><span className="not-available">Not Applicable</span></td>
                   </tr>
                   <tr>
-                    <td><a href="/spectra/nmr_two_d/1955">[1H,13C] 2D NMR Spectrum</a></td>
+                    <td><a href="javascript:void(0)">[1H,13C] 2D NMR Spectrum</a></td>
                     <td>2D NMR</td>
                     <td><span className="not-available">Not Applicable</span></td>
                   </tr>
@@ -1847,9 +1847,9 @@ class Amlodipine extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0000430">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q13936">
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
                     Details</a>
-                    <strong>1. <a href="/polypeptides/Q13936">Voltage-dependent L-type calcium channel subunit alpha-1C</a></strong></div>
+                    <strong>1. <a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit alpha-1C</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1886,8 +1886,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0002226">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q00975">
-                    Details</a><strong>2. <a href="/polypeptides/Q00975">Voltage-dependent N-type calcium channel subunit alpha-1B</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Voltage-dependent N-type calcium channel subunit alpha-1B</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1928,8 +1928,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0000303">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q02641">
-                    Details</a><strong>3. <a href="/polypeptides/Q02641">Voltage-dependent L-type calcium channel subunit beta-1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit beta-1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -1970,8 +1970,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0003563">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q8IZS8">
-                    Details</a><strong>4. <a href="/polypeptides/Q8IZS8">Voltage-dependent calcium channel subunit alpha-2/delta-3</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Voltage-dependent calcium channel subunit alpha-2/delta-3</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2012,8 +2012,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0000267">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P00915">
-                    Details</a><strong>5. <a href="/polypeptides/P00915">Carbonic anhydrase 1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>5. <a href="javascript:void(0)">Carbonic anhydrase 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2051,8 +2051,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0000973">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P17405">
-                    Details</a><strong>6. <a href="/polypeptides/P17405">Sphingomyelin phosphodiesterase</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>6. <a href="javascript:void(0)">Sphingomyelin phosphodiesterase</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2089,8 +2089,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0004902">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/bio_entities/BE0004902">
-                    Details</a><strong>7. <a href="/bio_entities/BE0004902">Voltage-dependent calcium channel (Protein Group)</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>7. <a href="javascript:void(0)">Voltage-dependent calcium channel (Protein Group)</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2124,71 +2124,71 @@ class Amlodipine extends React.Component {
                       </thead>
                       <tbody>
                         <tr>
-                          <td><a href="/polypeptides/Q06432">Voltage-dependent calcium channel gamma-1 subunit</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent calcium channel gamma-1 subunit</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q06432">Q06432</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/P54289">Voltage-dependent calcium channel subunit alpha-2/delta-1</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent calcium channel subunit alpha-2/delta-1</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P54289">P54289</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q9NY47">Voltage-dependent calcium channel subunit alpha-2/delta-2</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent calcium channel subunit alpha-2/delta-2</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9NY47">Q9NY47</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q8IZS8">Voltage-dependent calcium channel subunit alpha-2/delta-3</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent calcium channel subunit alpha-2/delta-3</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q8IZS8">Q8IZS8</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q13936">Voltage-dependent L-type calcium channel subunit alpha-1C</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit alpha-1C</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q13936">Q13936</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q01668">Voltage-dependent L-type calcium channel subunit alpha-1D</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit alpha-1D</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q01668">Q01668</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/O60840">Voltage-dependent L-type calcium channel subunit alpha-1F</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit alpha-1F</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O60840">O60840</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q13698">Voltage-dependent L-type calcium channel subunit alpha-1S</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit alpha-1S</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q13698">Q13698</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q02641">Voltage-dependent L-type calcium channel subunit beta-1</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit beta-1</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q02641">Q02641</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q08289">Voltage-dependent L-type calcium channel subunit beta-2</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit beta-2</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q08289">Q08289</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/P54284">Voltage-dependent L-type calcium channel subunit beta-3</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit beta-3</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/P54284">P54284</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/O00305">Voltage-dependent L-type calcium channel subunit beta-4</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent L-type calcium channel subunit beta-4</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O00305">O00305</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q00975">Voltage-dependent N-type calcium channel subunit alpha-1B</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent N-type calcium channel subunit alpha-1B</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q00975">Q00975</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/O00555">Voltage-dependent P/Q-type calcium channel subunit alpha-1A</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent P/Q-type calcium channel subunit alpha-1A</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O00555">O00555</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/O43497">Voltage-dependent T-type calcium channel subunit alpha-1G</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent T-type calcium channel subunit alpha-1G</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O43497">O43497</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/O95180">Voltage-dependent T-type calcium channel subunit alpha-1H</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent T-type calcium channel subunit alpha-1H</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/O95180">O95180</a></td>
                         </tr>
                         <tr>
-                          <td><a href="/polypeptides/Q9P0X4">Voltage-dependent T-type calcium channel subunit alpha-1I</a></td>
+                          <td><a href="javascript:void(0)">Voltage-dependent T-type calcium channel subunit alpha-1I</a></td>
                           <td><a target="_blank" rel="noopener noreferrer" href="http://www.uniprot.org/uniprot/Q9P0X4">Q9P0X4</a></td>
                         </tr>
                       </tbody>
@@ -2206,8 +2206,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0000012">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/Q9P0X4">
-                    Details</a><strong>8. <a href="/polypeptides/Q9P0X4">Voltage-dependent T-type calcium channel subunit alpha-1I</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>8. <a href="javascript:void(0)">Voltage-dependent T-type calcium channel subunit alpha-1I</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2272,8 +2272,8 @@ class Amlodipine extends React.Component {
             <div className="bond-list">
               <div className="bond card" id="BE0002638">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08684">
-                    Details</a><strong>1. <a href="/polypeptides/P08684">Cytochrome P450 3A4</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>1. <a href="javascript:void(0)">Cytochrome P450 3A4</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2312,8 +2312,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0003543">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P04798">
-                    Details</a><strong>2. <a href="/polypeptides/P04798">Cytochrome P450 1A1</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>2. <a href="javascript:void(0)">Cytochrome P450 1A1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2350,8 +2350,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0003549">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P20813">
-                    Details</a><strong>3. <a href="/polypeptides/P20813">Cytochrome P450 2B6</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>3. <a href="javascript:void(0)">Cytochrome P450 2B6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2390,8 +2390,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0002362">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P20815">
-                    Details</a><strong>4. <a href="/polypeptides/P20815">Cytochrome P450 3A5</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>4. <a href="javascript:void(0)">Cytochrome P450 3A5</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2432,8 +2432,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0002887">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10632">
-                    Details</a><strong>5. <a href="/polypeptides/P10632">Cytochrome P450 2C8</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>5. <a href="javascript:void(0)">Cytochrome P450 2C8</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2470,8 +2470,8 @@ class Amlodipine extends React.Component {
               </div>
               <div className="bond card" id="BE0002363">
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P10635">
-                    Details</a><strong>6. <a href="/polypeptides/P10635">Cytochrome P450 2D6</a></strong></div>
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
+                    Details</a><strong>6. <a href="javascript:void(0)">Cytochrome P450 2D6</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
@@ -2618,10 +2618,10 @@ class Amlodipine extends React.Component {
                   </div>
                 </div>
                 <div className="card-header">
-                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="/polypeptides/P08183">
+                  <a className="btn btn-drugbank-secondary btn-sm bond-details-link ml-3" href="javascript:void(0)">
                     Details</a>
                   <button className="btn btn-sm btn-drugbank-secondary" data-target="#BE0001032-binding-properties" data-toggle="modal" type="button">
-                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="/polypeptides/P08183">Multidrug resistance protein 1</a></strong></div>
+                    <span className="full-binding-label">Binding Properties</span></button><strong>1. <a href="javascript:void(0)">Multidrug resistance protein 1</a></strong></div>
                 <div className="card-body">
                   <div className="row">
                     <div className="col-sm-12 col-lg-5">
