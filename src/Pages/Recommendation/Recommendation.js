@@ -1,6 +1,6 @@
 import React from 'react';
 import './Recommendation.scss';
-import { FaStar, FaCaretRight } from 'react-icons/fa';
+import { FaStar, FaCaretRight, FaStop, FaCircle } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
@@ -439,27 +439,7 @@ class Recommendation extends React.Component {
                       <div className="col-lg-9 item-content">
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list"> Data Types </li>
-                            <ol style={{paddingLeft: '18px'}}>
-                              <li > Structured Data </li>
-                                <ol>
-                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox1" onClick={this.handleClick1}/><label for="checkbox1"></label></div> Drug Information Data <FaStar color={'#ffd700'}/></li>
-                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Drug-Drug Interaction Real World Data </li>
-                                </ol>
-                            </ol>
-                            <ol style={{paddingLeft: '18px'}}>
-                              <li > Image Data </li>
-                                <ol>
-                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox3" onClick={this.handleClick3}/> <label for="checkbox3"></label></div> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
-                                </ol>
-                            </ol>
-                            <ol style={{paddingLeft: '18px'}}>
-                              <li > Text Data </li>
-                                <ol>
-                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox4" onClick={this.handleClick4}/> <label for="checkbox4"></label></div> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
-                                </ol>
-                            </ol>
-                          <li id="top-list"> Data Source </li>
+                          <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Data Source </li>
                             <ol className="top-list-ol" style={{paddingLeft: '18px'}}>
                               <li style={{listStyle: 'none'}}><a href="https://www.drugbank.ca/releases/latest"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DrugBank</span></p></a></li>
                               <li style={{listStyle: 'none'}}><a href="https://pubchem.ncbi.nlm.nih.gov/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>PubChem</span></p></a></li>
@@ -469,6 +449,26 @@ class Recommendation extends React.Component {
                               <li style={{listStyle: 'none'}}><a href="http://sideeffects.embl.de/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>SIDER</span></p></a></li>
                               <li style={{listStyle: 'none'}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DIKB</span></p></a></li>
                               <li style={{listStyle: 'none'}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DGV</span></p></a></li>
+                            </ol>
+                          <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Data Types </li>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li style={{listStyle: "none", marginLeft: "-10px"}}> <FaCircle style={{marginLeft: "-5px"}}/> Structured Data </li>
+                                <ol>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox1" onClick={this.handleClick1}/><label for="checkbox1"></label></div> Drug Information Data <FaStar color={'#ffd700'}/></li>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox2" onClick={this.handleClick2}/> <label for="checkbox2"></label></div> Drug-Drug Interaction Real World Data </li>
+                                </ol>
+                            </ol>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li style={{listStyle: "none", marginLeft: "-10px"}}> <FaCircle style={{marginLeft: "-5px"}}/> Image Data </li>
+                                <ol>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox3" onClick={this.handleClick3}/> <label for="checkbox3"></label></div> Molecular formula data <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
+                                </ol>
+                            </ol>
+                            <ol style={{paddingLeft: '18px'}}>
+                              <li style={{listStyle: "none", marginLeft: "-10px"}}> <FaCircle style={{marginLeft: "-5px"}}/> Text Data </li>
+                                <ol>
+                                  <li id="delete-circle" style={{listStyle: 'circle'}}> <div className="round"><input type="checkbox" id="checkbox4" onClick={this.handleClick4}/> <label for="checkbox4"></label></div> SMILES <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> </li>
+                                </ol>
                             </ol>
                             <a href ="#" className="finish-btn-pos" onClick={this.goToProcess}>
                               <FinishButton />
@@ -490,7 +490,7 @@ class Recommendation extends React.Component {
                       <div className="col-lg-9 item-content">
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list"> Data Processing</li>
+                          <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Data Processing </li>
                             <ol>
                               <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox5" onClick={this.handleClick5}/> <label for="checkbox5"></label></div> Molecule autoencoder
                                 <div className="contents-wrapper">
@@ -555,7 +555,7 @@ class Recommendation extends React.Component {
 
                               </li>
                             </ol>
-                          <li id="top-list"> Class Imbalance </li>
+                          <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Class Imbalance </li>
                             <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox7" onClick={this.handleClick7}/> <label for="checkbox7"></label></div> SMOTE: Synthetic Minority Over-sampling Technique
                               <div className="contents-wrapper">
@@ -620,8 +620,7 @@ class Recommendation extends React.Component {
                             </ol>
 
 
-
-                          <li id="top-list"> Dimension Reduction </li>
+                          <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Dimension Reduction </li>
                             <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox9" onClick={this.handleClick9}/> <label for="checkbox9"></label></div> PCA
                               <div className="contents-wrapper">
@@ -712,7 +711,8 @@ class Recommendation extends React.Component {
                     <div className="row">
                       <div className="col-lg-9 item-content">
                         <ol style={{paddingTop: '2px'}} className="preparation-list2">
-                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox11" onClick={this.handleClick11}/> <label id="rec" for="checkbox11"></label></div> Support Vector Machine
+                          <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Machine Learning </li>
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox11" onClick={this.handleClick11}/> <label id="rec" for="checkbox11"></label></div> Support Vector Machine
 
                             <div className="contents-wrapper">
 
@@ -749,7 +749,7 @@ class Recommendation extends React.Component {
                             </div>
                           </li>
 
-                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox12" onClick={this.handleClick12}/> <label id="rec" for="checkbox12"></label></div> Decision Trees
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox12" onClick={this.handleClick12}/> <label id="rec" for="checkbox12"></label></div> Decision Trees
 
                             <div className="contents-wrapper">
 
@@ -784,8 +784,8 @@ class Recommendation extends React.Component {
                             </div>
                           </li>
 
-
-                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox13" onClick={this.handleClick13}/> <label id="rec" for="checkbox13"></label></div> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Deep Learning </li>
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox13" onClick={this.handleClick13}/> <label id="rec" for="checkbox13"></label></div> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
 
@@ -822,7 +822,7 @@ class Recommendation extends React.Component {
                             </div>
 
                           </li>
-                          <li id="top-list"><div className="round"><input type="checkbox" id="checkbox14" onClick={this.handleClick14}/> <label id="rec" for="checkbox14"></label></div> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox14" onClick={this.handleClick14}/> <label id="rec" for="checkbox14"></label></div> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
@@ -878,7 +878,7 @@ class Recommendation extends React.Component {
                       <div className="col-lg-9 item-content">
 
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
-                          <li id="top-list"> Ensemble </li>
+                          <li style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Ensemble </li>
                             <ol>
                               <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox15" onClick={this.handleClick15}/> <label id="rec" for="checkbox15"></label></div>  Horizontal epochs ensemble <FaStar color={'#ffd700'} />
 
@@ -925,7 +925,7 @@ class Recommendation extends React.Component {
 
                               </li>
                             </ol>
-                          <li id="top-list"> Optimization </li>
+                          <li style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}><FaStop style={{marginRight:"3px"}} />  Optimization </li>
                             <ol>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox17" onClick={this.handleClick17}/> <label id="rec" for="checkbox17"></label></div> Learning rate <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
