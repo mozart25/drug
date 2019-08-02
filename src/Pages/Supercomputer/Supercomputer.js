@@ -15,8 +15,6 @@ import ChangingProgressProvider from "./ChangingProgressProvider";
 import ApexCharts from 'apexcharts';
 import ReactApexCharts from 'react-apexcharts'
 
-
-
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var updateInterval = 500;
 
@@ -211,9 +209,18 @@ class Supercomputer extends React.Component {
                   since GPU's performance cannot grow indefinitely, optimization
                   of performance by using parallel processing technology is in need.
                   In multi-GPU situations, we, BioAI optimizes models through GPU
-                  parallel processing technology to maximize time, memory, and
-                  efficiency performance compared to single GPUs to maximize
-                  efficiency of its operation.`}</p>
+                  parallel processing technology to maximize time, memory, and efficiency
+                  performance compared to single GPUs to maximize efficiency of its operation.
+                `}</p>
+            <br/>
+            <p>The following graph below represent as follows.</p>
+            <br/>
+            <p>1. GPU: The GPU utilization rate is displayed in real time with a numeric value and a graph.</p>
+            <br/>
+            <p>2. MEMORY: Graphs and figures show how memory allocations have become per GPU.</p>
+            <br/>
+            <p>3. USAGE : Shows the total usage of GPUs that users have used so far.</p>
+
           </div>
         </div>
 
