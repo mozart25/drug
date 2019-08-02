@@ -1,8 +1,8 @@
 import React from 'react';
-import './Customization.scss';
+import Contact from '../../Components/Contact/Contact';
 import SelectionButton from '../../Components/Button/SelectionButton';
 import { Helmet } from 'react-helmet';
-import Contact from '../../Components/Contact/Contact';
+import './Customization.scss';
 
 class Customization extends React.Component {
 
@@ -801,13 +801,14 @@ class Customization extends React.Component {
                 service="No"
                 name="112"/>
                </section>
-               <div className="calculation-box" style={{padding: '15px', fontWeight: '400'}}>
+               <div className="calculation-box" style={{padding: '15px', fontWeight: '100'}}>
+                <div style={{padding: '15px', fontWeight: '200', textAlign: "left"}}>
                  Average expected cost :
                  <span id="price">${this.state.totalAmount.toString().replace(regex, ',')}</span>
-                 <small style={{color: 'gray'}}> (Average expected time: <span id="period_month">{months}</span> months)</small>
-                 <br />
-                 <div style={{lineHeight: '20px'}}>
-                   <a className="btn btn-primary-cost new_contact_button" href="#bottom" onClick={this.contactClick}>Contact Us with Estimated Cost </a>
+                 <small style={{fontSize: '27px'}}> Average expected time: <span id="period_month">{months}</span> months</small>
+                </div>
+                 <div style={{lineHeight: '20px', marginLeft: "8%"}}>
+                   <a className="btn btn-primary-cost new_contact_button" href="#bottom" onClick={this.contactClick}><p>Contact Us with</p> <p>Estimated Cost</p></a>
                  </div>
                </div>
              </div>
