@@ -108,6 +108,8 @@
 
 
 small {
+  display: block;
+
   > .badge {
     margin-right: 10px;
     line-height: 1.5;
@@ -156,19 +158,23 @@ hr {
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 34px;
+  font-size: 27px;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-primary-cost {
   color: #fff;
   border-color: #4a43f4;
   background-color: #4a43f4 !important;
   box-shadow: none;
-  height: 59px;
-  line-height: 46px;
   text-transform: none;
   margin-bottom: 20px;
   margin-top: 20px;
+  width: 101%;
+  letter-spacing: 2px;
+  border-radius: 9px;
 }
 
 @media screen and (max-width:590px) {
