@@ -18,8 +18,8 @@ class Choice4 extends React.Component {
                 <li style={{listStyle: 'circle', fontSize: '15px', display: `${this.props.s17  === false ? 'none' : ''}`}}> Learning rate </li>
                 <li style={{listStyle: 'circle', fontSize: '15px', display: `${this.props.s18  === false ? 'none' : ''}`}}> Batch size </li>
                 <li style={{listStyle: 'circle', fontSize: '15px', display: `${this.props.s19  === false ? 'none' : ''}`}}> Momentum </li>
+                <li style={{listStyle: 'circle', fontSize: '15px', display: `${this.props.s20  === false ? 'none' : ''}`}}> Droptouts </li>
                 </ol>
-              <li style={{display: `${this.props.s20  === false ? 'none' : ''}`}} id="top-list"> Dropouts</li>
             </ol>
           </div>
         </div>

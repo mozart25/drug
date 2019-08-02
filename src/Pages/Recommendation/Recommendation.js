@@ -976,7 +976,6 @@ class Recommendation extends React.Component {
 
                             </li>
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox19" onClick={this.handleClick19}/> <label id="rec" for="checkbox19"></label></div> Momentum <FaStar color={'#ffd700'} />
-
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                   <table>
@@ -1000,36 +999,39 @@ class Recommendation extends React.Component {
                               </div>
 
                             </li>
-                            </ol>
-                          <li id="top-list" style={{listStyle: "none"}}><div className="round" style={{marginLeft: "-20px"}}><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" style={{borderRadius: "0%"}} for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
-                            <div className="contents-wrapper">
-                              <div className="border b-active b-thick b-radius p-sm">
-                              <div className="img-contents-wrapper">
-                                <img src={require(`./dropout.png`)} style={{}} alt=""/>
-                              </div>
-                                <table>
-                                  <tbody>
-                                    <tr className="contents-table">
-                                      <p><span>Dropout</span>{` is a regularization technique patented by Google for
-                                        reducing overfitting in neural networks by preventing complex
-                                        co-adaptations on training data. It is a very efficient way of
-                                        performing model averaging with neural networks. The term "dropout"
-                                        refers to dropping out units (both hidden and visible) in a neural network`}</p>
-                                      <a  href="https://en.wikipedia.org/wiki/Dropout_(neural_networks)">
-                                        <p className="wiki">From Wikipedia</p>
-                                      </a>
-                                    </tr>
-                                  </tbody>
-                                </table>
+                            <li id="delete-circle" style={{listStyle: "circle"}}><div className="round"><input type="checkbox" id="checkbox20" onClick={this.handleClick20}/> <label id="rec" for="checkbox20"></label></div> Dropouts <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                              <div className="contents-wrapper">
+                                <div className="border b-active b-thick b-radius p-sm">
+                                <div className="img-contents-wrapper">
+                                  <img src={require(`./dropout.png`)} style={{}} alt=""/>
+                                </div>
+                                  <table>
+                                    <tbody>
+                                      <tr className="contents-table">
+                                        <p><span>Dropout</span>{` is a regularization technique patented by Google for
+                                          reducing overfitting in neural networks by preventing complex
+                                          co-adaptations on training data. It is a very efficient way of
+                                          performing model averaging with neural networks. The term "dropout"
+                                          refers to dropping out units (both hidden and visible) in a neural network`}</p>
+                                        <a  href="https://en.wikipedia.org/wiki/Dropout_(neural_networks)">
+                                          <p className="wiki">From Wikipedia</p>
+                                        </a>
+                                      </tr>
+                                    </tbody>
+                                  </table>
 
-                                <div className="entity">
-                                  <a href="https://keras.io/layers/core/" className="badge badge-dark" id="icon-change">
-                                    <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
-                                  </a>
+                                  <div className="entity">
+                                    <a href="https://keras.io/layers/core/" className="badge badge-dark" id="icon-change">
+                                      <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                    </a>
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-                          </li>
+                            </li>
+
+
+                            </ol>
+
                           <a href ="#" className="finish-btn-pos4">
                               <FinishButton />
                           </a>

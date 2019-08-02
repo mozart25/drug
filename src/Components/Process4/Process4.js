@@ -18,8 +18,8 @@ class Process4 extends React.Component {
                 <li style={{listStyle: 'circle', fontSize: '15px'}}> Learning rate </li>
                 <li style={{listStyle: 'circle', fontSize: '15px'}}> Batch size </li>
                 <li style={{listStyle: 'circle', fontSize: '15px'}}> Momentum </li>
+                <li style={{listStyle: 'circle', fontSize: '15px'}}> Dropouts </li>
                 </ol>
-              <li id="top-list"> Dropouts</li>
             </ol>
           </div>
         </div>
