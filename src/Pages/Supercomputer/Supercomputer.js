@@ -225,11 +225,11 @@ class Supercomputer extends React.Component {
         </div>
 
         <div className="s-usage">
-          <img className="final-mac-img" src={require(`./mac.png`)} alt=""/>
+          <img className="final-mac-img" src={require(`./img_back2.png`)} alt=""/>
             <div className="gpu-total-wrapper">
               <div className="gpu-total-first gpu-header-text"><div id="gpu-temp-header">GPU</div>
-                <div className="gpu-img">
-                  <img src={require(`./gpu.png`)} style={{paddingTop: "25px", width: "49%"}} alt=""/>
+              <div className="gpu-img">
+                <div>
                   <table>
                     <tr className="eff-gpu">
                       <th colSpan="2">GPU Average</th>
@@ -251,26 +251,25 @@ class Supercomputer extends React.Component {
                       <td className="eff-sub-per"> {battery_4}% </td>
                     </tr>
                   </table>
-               </div>
-               <div className="gpu-battery-wrapper">
-                <Battery
-                id="GPU1"
-                randValue={battery_1}
-                />
-                <Battery2
-                id="GPU2"
-                randValue={battery_2}
-                />
-                <Battery3
-                id="GPU3"
-                randValue={battery_3}
-                />
-                <Battery4
-                id="GPU4"
-                randValue={battery_4}
-                />
-              </div>
-
+                </div>
+                 <div className="gpu-battery-wrapper">
+                  <Battery
+                  id="GPU1"
+                  randValue={battery_1}
+                  />
+                  <Battery2
+                  id="GPU2"
+                  randValue={battery_2}
+                  />
+                  <Battery3
+                  id="GPU3"
+                  randValue={battery_3}
+                  />
+                  <Battery4
+                  id="GPU4"
+                  randValue={battery_4}
+                  />
+                </div>
               </div>
               <div className="gpu-total-second gpu-header-text"><div id="gpu-temp-header">MEMORY</div>
 
@@ -321,6 +320,9 @@ class Supercomputer extends React.Component {
                   </Example>
                 </div>
               </div>
+
+              </div>
+
 
               <div className="gpu-total-third gpu-header-text"><div id="gpu-temp-header">USAGE</div>
                 <div style={{width:"100%"}}>
