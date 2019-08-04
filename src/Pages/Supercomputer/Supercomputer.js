@@ -15,8 +15,6 @@ import ChangingProgressProvider from "./ChangingProgressProvider";
 import ApexCharts from 'apexcharts';
 import ReactApexCharts from 'react-apexcharts'
 
-
-
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var updateInterval = 500;
 
@@ -106,6 +104,7 @@ class Supercomputer extends React.Component {
             <Helmet>
               <title>Easy Supercomputer Use Service-BioAI</title>
             </Helmet>
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -113,8 +112,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
@@ -128,6 +126,7 @@ class Supercomputer extends React.Component {
       } else if (props.label ==="GPU2") {
         return (
           <div className="s-c-example">
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -135,8 +134,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
@@ -150,6 +148,7 @@ class Supercomputer extends React.Component {
       } else if (props.label ==="GPU3") {
         return (
           <div className="s-c-example">
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -157,8 +156,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
@@ -172,6 +170,7 @@ class Supercomputer extends React.Component {
       } else {
         return (
           <div className="s-c-example">
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -179,8 +178,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
@@ -211,18 +209,27 @@ class Supercomputer extends React.Component {
                   since GPU's performance cannot grow indefinitely, optimization
                   of performance by using parallel processing technology is in need.
                   In multi-GPU situations, we, BioAI optimizes models through GPU
-                  parallel processing technology to maximize time, memory, and
-                  efficiency performance compared to single GPUs to maximize
-                  efficiency of its operation.`}</p>
+                  parallel processing technology to maximize time, memory, and efficiency
+                  performance compared to single GPUs to maximize efficiency of its operation.
+                `}</p>
+            <br/>
+            <p>The following graph below represent as follows.</p>
+            <br/>
+            <p>1. GPU: The GPU utilization rate is displayed in real time with a numeric value and a graph.</p>
+            <br/>
+            <p>2. MEMORY: Graphs and figures show how memory allocations have become per GPU.</p>
+            <br/>
+            <p>3. USAGE : Shows the total usage of GPUs that users have used so far.</p>
+
           </div>
         </div>
 
         <div className="s-usage">
-          <img className="final-mac-img" src={require(`./mac.png`)} alt=""/>
+          <img className="final-mac-img" src={require(`./img_back2.png`)} alt=""/>
             <div className="gpu-total-wrapper">
               <div className="gpu-total-first gpu-header-text"><div id="gpu-temp-header">GPU</div>
-                <div className="gpu-img">
-                  <img src={require(`./gpu.png`)} style={{paddingTop: "25px", width: "49%"}} alt=""/>
+              <div className="gpu-img">
+                <div style={{marginLeft: "9px"}} className="gpu-avg-wrapper">
                   <table>
                     <tr className="eff-gpu">
                       <th colSpan="2">GPU Average</th>
@@ -244,26 +251,25 @@ class Supercomputer extends React.Component {
                       <td className="eff-sub-per"> {battery_4}% </td>
                     </tr>
                   </table>
-               </div>
-               <div className="gpu-battery-wrapper">
-                <Battery
-                id="GPU1"
-                randValue={battery_1}
-                />
-                <Battery2
-                id="GPU2"
-                randValue={battery_2}
-                />
-                <Battery3
-                id="GPU3"
-                randValue={battery_3}
-                />
-                <Battery4
-                id="GPU4"
-                randValue={battery_4}
-                />
-              </div>
-
+                </div>
+                 <div className="gpu-battery-wrapper">
+                  <Battery
+                  id="GPU1"
+                  randValue={battery_1}
+                  />
+                  <Battery2
+                  id="GPU2"
+                  randValue={battery_2}
+                  />
+                  <Battery3
+                  id="GPU3"
+                  randValue={battery_3}
+                  />
+                  <Battery4
+                  id="GPU4"
+                  randValue={battery_4}
+                  />
+                </div>
               </div>
               <div className="gpu-total-second gpu-header-text"><div id="gpu-temp-header">MEMORY</div>
 
@@ -314,6 +320,9 @@ class Supercomputer extends React.Component {
                   </Example>
                 </div>
               </div>
+
+              </div>
+
 
               <div className="gpu-total-third gpu-header-text"><div id="gpu-temp-header">USAGE</div>
                 <div style={{width:"100%"}}>

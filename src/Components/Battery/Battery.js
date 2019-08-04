@@ -15,7 +15,7 @@ class Battery extends React.Component {
         <div className={`box8 ${this.props.randValue > 20 ? 'charged_box' : ''}`}> </div>
         <div className={`box9 ${this.props.randValue > 10 ? 'charged_box' : ''}`}> </div>
         <div className={`box10 ${this.props.randValue >= 0 ? 'charged_box' : ''}`}> </div>
-        <div> {this.props.id} </div>
+        <div id="battery-gpu-sec"> {this.props.id} </div>
       </div>
     )
   }

@@ -1,7 +1,7 @@
 @import "Style/_global.scss";
 
 .box1 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -11,7 +11,7 @@
 }
 
 .box2 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -22,7 +22,7 @@
 }
 
 .box3 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -33,7 +33,7 @@
 }
 
 .box4 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -44,7 +44,7 @@
 }
 
 .box5 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -54,7 +54,7 @@
 }
 
 .box6 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -64,7 +64,7 @@
 }
 
 .box7 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -74,7 +74,7 @@
 
 }
 .box8 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -84,7 +84,7 @@
 
 }
 .box9 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -94,7 +94,7 @@
 
 }
 .box10 {
-  width:50px;
+  width:45px;
   border: 1px solid lightgrey;
   height:9px;
   border-radius: 2px;
@@ -122,4 +122,12 @@
 .charged_box4 {
   background-color: rgba(255, 69, 96, 0.85);
   border: 1px solid rgba(255, 69, 96, 0.85);
+}
+
+.Battery-wrapper {
+  margin-right: 5px;
+}
+
+#battery-gpu-sec {
+  font-family: 'Rajdhani', sans-serif;
 }
