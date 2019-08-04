@@ -145,12 +145,20 @@
 
 .s-c-example {
   border: 0.5px solid #DCDCDC;
-  margin: 0 auto;
   margin-top: 10px;
   width: 45%;
   border-radius: 5px;
   margin-right: 2%;
+  flex: 0 0 45%;
+  max-width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.gpu-prog-bar {
+  flex: 0 0 52%;
+  max-width: 52%;
 }
 
 #gpu-items-digit {
@@ -180,21 +188,22 @@
 }
 
 .status-checking-box {
-  float: right;
   align-self: flex-end;
   padding: 5px;
+  flex: 0 0 39%;
+  max-width: 47%;
 }
 
 .gpu-items-wrapper {
-  margin-bottom: 15px;
   padding: 5px;
-  display: inline-block;
-  float: right;
+  flex: 0 0 45%;
+  max-width: 45%;
 }
 
 #gpu-header {
-  float: left;
   padding: 5px;
+  flex: 0 0 30%;
+  max-width: 45%;
 }
 
 .CircularProgressbar {
@@ -345,6 +354,7 @@ table td {
 
 .gpu-second-wapper {
   display: flex;
+  justify-content: space-evenly;
 }
 
 #gpu-temp-header {
@@ -383,6 +393,11 @@ table td {
   width: 100%;
   border-left: 2px solid lightgrey;
 }
+
 #third-status-final{
   font-size: 20px;
+}
+
+.apexcharts-menu-icon {
+  display: none;
 }

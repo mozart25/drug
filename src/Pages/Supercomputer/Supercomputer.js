@@ -51,16 +51,16 @@ class Supercomputer extends React.Component {
   }
   ;
 }
-  componentDidMount() {
-    setInterval(this.updateChart, updateInterval);
-
-    setInterval( () => {
-      this.setState({
-        curTime : new Date().toLocaleString()
-      })
-    },1000)
-
-  }
+  // componentDidMount() {
+  //   setInterval(this.updateChart, updateInterval);
+  // 
+  //   setInterval( () => {
+  //     this.setState({
+  //       curTime : new Date().toLocaleString()
+  //     })
+  //   },1000)
+  //
+  // }
 
 
   render() {
@@ -104,6 +104,7 @@ class Supercomputer extends React.Component {
             <Helmet>
               <title>Easy Supercomputer Use Service-BioAI</title>
             </Helmet>
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -111,8 +112,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
@@ -126,6 +126,7 @@ class Supercomputer extends React.Component {
       } else if (props.label ==="GPU2") {
         return (
           <div className="s-c-example">
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -133,8 +134,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
@@ -148,6 +148,7 @@ class Supercomputer extends React.Component {
       } else if (props.label ==="GPU3") {
         return (
           <div className="s-c-example">
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -155,8 +156,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
@@ -170,6 +170,7 @@ class Supercomputer extends React.Component {
       } else {
         return (
           <div className="s-c-example">
+            <p id="gpu-header">{props.label}</p>
             <div className="gpu-items-wrapper">
               <span id ="gpu-items-text"> {props.value}</span>
               <div>
@@ -177,8 +178,7 @@ class Supercomputer extends React.Component {
                 <p style={{fontSize: "5px", textAlign:"right"}}>/32,480MB</p>
               </div>
             </div>
-            <p id="gpu-header">{props.label}</p>
-              <div style={{ float:'left', width: 100 }}>{props.children}</div>
+              <div className="gpu-prog-bar">{props.children}</div>
               <div className="status-checking-box">
                 <div className="status-wrapper">
                   <div className="status-box-used"></div> <span>Used </span>
