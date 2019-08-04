@@ -51,16 +51,16 @@ class Supercomputer extends React.Component {
   }
   ;
 }
-  // componentDidMount() {
-  //   setInterval(this.updateChart, updateInterval);
-  // 
-  //   setInterval( () => {
-  //     this.setState({
-  //       curTime : new Date().toLocaleString()
-  //     })
-  //   },1000)
-  //
-  // }
+  componentDidMount() {
+    setInterval(this.updateChart, updateInterval);
+
+    setInterval( () => {
+      this.setState({
+        curTime : new Date().toLocaleString()
+      })
+    },1000)
+
+  }
 
 
   render() {
@@ -229,7 +229,7 @@ class Supercomputer extends React.Component {
             <div className="gpu-total-wrapper">
               <div className="gpu-total-first gpu-header-text"><div id="gpu-temp-header">GPU</div>
               <div className="gpu-img">
-                <div>
+                <div style={{marginLeft: "9px"}} className="gpu-avg-wrapper">
                   <table>
                     <tr className="eff-gpu">
                       <th colSpan="2">GPU Average</th>
