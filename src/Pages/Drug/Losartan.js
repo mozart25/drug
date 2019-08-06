@@ -6,10 +6,6 @@ class Losartan extends React.Component {
   render() {
     return (
       <div>
-      <header className="header-bg">
-        <Navigation />
-      </header>
-
       <div className="content-container">
         <div className="content-header d-sm-flex align-items-center">
           <h1 className="align-self-center mr-4">Losartan</h1>

@@ -1,9 +1,10 @@
 import React from 'react';
-import './Search.scss';
 import { withRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Navigation from '../../Components/Navigation/Navigation';
 import SearchDrug from '../../Components/SearchDrug/SearchDrug';
+import Header from '../../Components/Header/Header';
+import './Search.scss';
 
 class Search extends React.Component {
 
@@ -11,7 +12,7 @@ class Search extends React.Component {
   super();
 
   this.state = {
-    isResultOn: false,
+    isResultOn: false
   }
 }
 
@@ -21,9 +22,7 @@ class Search extends React.Component {
       <Helmet>
         <title>Drug Data Integration service-BioAI</title>
       </Helmet>
-        <header className="header-bg">
-          <Navigation />
-        </header>
+        <Header />
         <main role="search" className="main-wrapper">
           <div className="main-comment">
             <p>
