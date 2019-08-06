@@ -1,6 +1,5 @@
 @import "Style/_global.scss";
 
-
 #body {
   background-color: #fff !important;
 }
@@ -33,14 +32,14 @@ footer {
 
 .main-wrapper {
   min-height: 38.5vh;
-  background: #282c34;
+  background: #351c75;
 }
 
 .main-comment {
   text-align: center;
   text-transform: uppercase;
   margin: 0 auto;
-  width: 1100px;
+  width: 100%;
 
   p {
     font-size: 2.6rem;

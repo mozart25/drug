@@ -4,31 +4,13 @@
   background-color: #8A2BE2;
 }
 
-#jumper-tab {
-  position: fixed;
-  right: 0;
-  top: 15rem;
-  z-index: 999;
-  width: 3rem;
-  color: #fff;
-  padding: .2rem .5rem;
-  text-transform: uppercase;
-  border: 1px solid #000;
-  border-right: none;
-  background-color: rgba(25,32,39,.95);
-  border-color: #000;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  transition: right .5s ease-in-out;
-}
-
-
 .content-header {
   padding: 3.5rem;
 }
 
 .align-items-center {
   align-items: center!important;
+  background: #fff;
 }
 
 main-result {
@@ -38,7 +20,7 @@ main-result {
 }
 
 .content-container .content-header h1 {
-  color: #fff;
+  color: black;
   font-weight: lighter;
   padding: 0;
   margin: 0;
@@ -63,8 +45,7 @@ main-result {
 }
 
 .content-container .card-content h2.section-header {
-  background: #21252b;
-  border: 1px solid #00161e;
+  background: #666666;
   color: #fff;
   text-transform: uppercase;
   font-size: 1.1rem;
@@ -88,6 +69,7 @@ main-result {
   padding-left: 1.5rem;
   padding-bottom: 1.5rem;
   padding-right: 1.5rem;
+  background: #fff;
 }
 
 .content-container .card-content dl dd, .content-container .card-content dl dt {
@@ -118,4 +100,24 @@ main-result {
   border: 1px solid #ced4da;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
