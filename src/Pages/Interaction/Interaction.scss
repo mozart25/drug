@@ -1,0 +1,14 @@
+@import "Style/_global.scss";
+
+.iframe-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iframe-1st-compo  {
+  flex: 0 0 49.5%;
+}
+
+.iframe-2nd-compo {
+  flex: 0 0 49.5%;
+}
