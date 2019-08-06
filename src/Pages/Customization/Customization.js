@@ -2,6 +2,7 @@ import React from 'react';
 import Contact from '../../Components/Contact/Contact';
 import SelectionButton from '../../Components/Button/SelectionButton';
 import { Helmet } from 'react-helmet';
+import Header from '../../Components/Header/Header';
 import './Customization.scss';
 
 class Customization extends React.Component {
@@ -503,9 +504,9 @@ class Customization extends React.Component {
         <Helmet>
           <title>Customized Drug AI study-BioAI</title>
         </Helmet>
+        <Header />
         <div className="custom-main">
           <div className="c-main-wrapper">
-            <h1>BioAI </h1>
             <h2>Estimate your cost on Drug AI study </h2>
             <p>Choose the category you need to make a rough estimate. </p>
           </div>

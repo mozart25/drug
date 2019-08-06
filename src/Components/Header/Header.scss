@@ -1,0 +1,24 @@
+@import "Style/_global.scss";
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+
+.header-icon {
+  margin-left: 6%;
+}
+
+.header-menu {
+  margin-right: 6%;
+}
+
+header {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1;
+}
