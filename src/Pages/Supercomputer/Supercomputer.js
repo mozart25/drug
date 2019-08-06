@@ -54,9 +54,16 @@ class Supercomputer extends React.Component {
   componentDidMount() {
     setInterval(this.updateChart, updateInterval);
 
+    const gmtYear = new Date().getUTCFullYear();
+    const gmtMonth = new Date().getUTCMonth();
+    const gmtday = new Date().getUTCDate();
+    const gmtHour = new Date().getUTCHours();
+    const gmtMin = new Date().getUTCMinutes();
+    const gmtSec = new Date().getUTCSeconds();
+
     setInterval( () => {
       this.setState({
-        curTime : new Date().toLocaleString()
+        curTime : `${new Date().getUTCFullYear()}.${new Date().getUTCMonth()}.${new Date().getUTCDate()} ${new Date().getUTCHours()}:${new Date().getUTCMinutes()}:${new Date().getUTCSeconds()} GMT`
       })
     },1000)
 
@@ -88,8 +95,6 @@ class Supercomputer extends React.Component {
     const effMult2 = Math.floor((efficiency_2/100)*827)
     const effMult3 = Math.floor((efficiency_3/100)*827)
     const effMult4 = Math.floor((efficiency_4/100)*827)
-
-
 
     const series = [{
       data: [effMult1, effMult2, effMult3, effMult4],
@@ -340,19 +345,19 @@ class Supercomputer extends React.Component {
                   <table id="third-status">
                     <tr>
                       <td> GPU1 </td>
-                      <td className="eff-sub-per-third"> {effMult1}GB /827GB </td>
+                      <td className="eff-sub-per-third"> {effMult1}GB /{effMult1+effMult2+effMult3+effMult4}GB </td>
                     </tr>
                     <tr>
                       <td> GPU2 </td>
-                      <td className="eff-sub-per-third"> {effMult2}GB /827GB  </td>
+                      <td className="eff-sub-per-third"> {effMult2}GB /{effMult1+effMult2+effMult3+effMult4}GB  </td>
                     </tr>
                     <tr>
                       <td> GPU3 </td>
-                      <td className="eff-sub-per-third"> {effMult3}GB /827GB  </td>
+                      <td className="eff-sub-per-third"> {effMult3}GB /{effMult1+effMult2+effMult3+effMult4}GB  </td>
                     </tr>
                     <tr>
                       <td> GPU4 </td>
-                      <td className="eff-sub-per-third"> {effMult4}GB /827GB  </td>
+                      <td className="eff-sub-per-third"> {effMult4}GB /{effMult1+effMult2+effMult3+effMult4}GB  </td>
                     </tr>
                   </table>
 
