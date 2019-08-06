@@ -12,6 +12,7 @@ import Choice3 from '../../Components/Process3/Choice3';
 import Process4 from '../../Components/Process4/Process4';
 import Choice4 from '../../Components/Process4/Choice4';
 import FinishButton from '../../Components/Button/FinishButton';
+import Header from '../../Components/Header/Header';
 
 
 class Recommendation extends React.Component {
@@ -305,7 +306,7 @@ class Recommendation extends React.Component {
       <Helmet>
         <title>Drug AI algorithm recommendation solution-BioAI</title>
       </Helmet>
-
+      <Header />
         <nav className="navbar-recommendation navbar-expand-lg navbar-light bg-white header">
           <div className="header-logo">
             <a className="navbar-brand" href="/">
