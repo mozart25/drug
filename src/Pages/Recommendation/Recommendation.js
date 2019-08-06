@@ -306,7 +306,7 @@ class Recommendation extends React.Component {
         <Helmet>
           <title>Drug AI algorithm recommendation solution-BioAI</title>
         </Helmet>
-        <Header />
+        <Header/>
           <div className="container">
             <div className="container content content-buffer">
               <div className="title">
