@@ -34,8 +34,24 @@
 }
 
 .divide-line {
-  width: 99%;
+  width: 98%;
   border: 2px solid #674da7;
-  margin: 0 auto;
   margin: 20px 0px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.interaction-result {
+  padding: 2.5%;
+
+  > h2 {
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  > p {
+    font-family: arial;
+  }
 }
