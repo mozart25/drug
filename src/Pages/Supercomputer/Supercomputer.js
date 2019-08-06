@@ -1,5 +1,4 @@
 import React from 'react';
-import './Supercomputer.scss';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import { Helmet } from 'react-helmet';
 import "react-circular-progressbar/dist/styles.css";
@@ -14,6 +13,8 @@ import AnimatedProgressProvider from "./AnimatedProgressProvider";
 import ChangingProgressProvider from "./ChangingProgressProvider";
 import ApexCharts from 'apexcharts';
 import ReactApexCharts from 'react-apexcharts'
+import Header from '../../Components/Header/Header';
+import './Supercomputer.scss';
 
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 var updateInterval = 500;
@@ -199,9 +200,9 @@ class Supercomputer extends React.Component {
 
     return (
       <div className='supercomputer-container'>
+        <Header />
         <div className='s-main'>
           <div className='s-main-wrapper'>
-            <hr className="s-interior"/>
             <h1> Easy Supercomputer use Service </h1>
           </div>
 
