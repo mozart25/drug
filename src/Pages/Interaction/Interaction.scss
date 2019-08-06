@@ -54,4 +54,16 @@
   > p {
     font-family: arial;
   }
+
+  > ol li p span {
+    text-decoration: underline;
+  }
+  > ol {
+    margin-left: 20px;
+    font-family: arial;
+  }
+}
+
+.research-paper {
+  list-style: decimal;
 }
