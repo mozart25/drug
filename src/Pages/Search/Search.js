@@ -29,7 +29,7 @@ class Search extends React.Component {
               {`Drug-Drug Interaction Integrated Database`}
             </p>
           </div>
-          <div style={{display:"flex", marginTop: "3%"}}>
+          <div id="search-drug-wrapper" style={{display:"flex", marginTop: "3%"}}>
             <SearchDrug
             />
           </div>
