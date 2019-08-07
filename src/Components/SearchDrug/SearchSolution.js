@@ -57,10 +57,10 @@ class SearchSolution extends React.Component {
   render() {
 
     return (
-      <MDBCol md="6">
-        <form className="form-inline mt-4 mb-4" style={{marginLeft: "0px"}}>
+      <MDBCol className="search-sol-wrapper">
+        <form className="form-inline mt-4 mb-4 search-sol-form" style={{marginLeft: "0px"}}>
           <input
-            className="form-control form-control-sm ml-3 w-75"
+            className="form-control form-control-sm ml-3 w-75 search-sol-width"
             type="text"
             placeholder="Drug-Drug Interaction"
             aria-label="Search"
@@ -68,7 +68,7 @@ class SearchSolution extends React.Component {
             onChange={this.keywordChange}
             onKeyDown={this.handleKeyPress}
           />
-          <MDBIcon icon="search" />
+          <MDBIcon className="sol-search-icon" icon="search" />
         </form>
         <div className="search-sol-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
       </MDBCol>
