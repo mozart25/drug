@@ -67,3 +67,24 @@
 .research-paper {
   list-style: decimal;
 }
+
+.ace-structure {
+  flex: 0 0 49%;
+  text-align: center;
+  > p {
+      text-align: center;
+  }
+
+  > img {
+      display: block;
+      margin: 0px auto;
+  }
+}
+
+.wrap {
+  text-align: center;
+}
+
+.drug-wrapper {
+  display: flex !important;
+}
