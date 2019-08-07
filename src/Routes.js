@@ -20,7 +20,7 @@ import Sub from 'Pages/Solution/Sub';
 import Customization from 'Pages/Customization/Customization';
 import Supercomputer from 'Pages/Supercomputer/Supercomputer';
 import Interaction from 'Pages/Interaction/Interaction';
-
+import Interaction2 from 'Pages/Interaction/Interaction2';
 
 class Routes extends React.Component {
   render() {
@@ -43,6 +43,7 @@ class Routes extends React.Component {
           <Route exact path="/customization" component={Customization} />
           <Route exact path="/supercomputer" component={Supercomputer} />
           <Route exact path="/interaction" component={Interaction} />
+          <Route exact path="/interaction2" component={Interaction2} />
         </Switch>
       </Router>
     );
