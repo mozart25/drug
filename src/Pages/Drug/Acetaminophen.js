@@ -39,7 +39,6 @@ class Acetaminophen extends React.Component {
                 <p>PubChem</p>
                 <img src={require(`./aceta_pubchem.png`)} style={{width: "25%"}} alt=""/>
               </div>
-
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
