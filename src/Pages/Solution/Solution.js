@@ -1,4 +1,5 @@
 import React from 'react';
+import SearchSolution from '../../Components/SearchDrug/SearchSolution'
 import './Solution.scss';
 
 class Solution extends React.Component {
@@ -18,7 +19,8 @@ class Solution extends React.Component {
             </div>
             <div className="c-search">
               <div className="c-card">
-                <iframe style={{border:'0.5px solid lightgray'}} src="http://mzrt-drug-deploy.s3-website.ap-northeast-2.amazonaws.com/sub" height="100%" width="100%"></iframe>
+                <h1> Search your Drug AI study subject </h1>
+                <SearchSolution />
               </div>
             </div>
           </div>

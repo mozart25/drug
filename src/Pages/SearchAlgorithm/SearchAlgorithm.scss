@@ -1,0 +1,114 @@
+@import "Style/_global.scss";
+
+.searchalgorithm-container {
+  min-height: 20vh;
+  overflow: hidden;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.sa-main {
+  min-height: 47vh;
+  background-color: #741a47;
+
+  .sa-main-wrapper {
+    padding: 80px;
+    margin-top: 50px;
+
+    h1 {
+      font-size: 40px;
+      font-family: 'Gilroy-Bold';
+      color: #fff;
+      line-height: 56px;
+      letter-spacing: 0;
+      margin: 0;
+      font-weight: 800;
+      margin-bottom: -20px;
+    }
+
+    p {
+      font-size: 20px;
+      color: #fff;
+    }
+  }
+}
+
+.sa-main-introduce {
+  float: left;
+  max-width: 100%;
+  padding-top: 0px;
+  margin-left: 77px;
+  margin-right: 190px;
+
+  h2 {
+    font-size: 25px;
+    color: #fff;
+    line-height: 64px;
+    letter-spacing: 0;
+    font-family: -webkit-body;
+    font-weight: 900;
+  }
+
+  p {
+    font-family: -webkit-body;
+    color: #fff;
+  }
+}
+
+.frame-customizing {
+  width: 1276px;
+  border: 0;
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.iframe-main-search  {
+  flex: 0 0 100%;
+  max-width: 1054px;
+}
+
+.iframe-search-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.c-search-card {
+  margin-top: 3%;
+  height: 450px;
+  position: relative;
+  z-index: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 376px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(137, 147, 164, 0.11);
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 0 rgba(66, 82, 110, 0.05);
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+}

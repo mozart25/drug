@@ -34,11 +34,11 @@ class Interaction extends React.Component {
           </div>
         </main>
         <div className="main-bg iframe-wrapper">
-          <div className="c-card iframe-1st-compo">
+          <div className="c-card-interaction iframe-1st-compo">
             <iframe className="frame-customizing" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/acetaminophen" height="100%" width="100%"></iframe>
           </div>
           <div className="iframe-compo-divide"> </div>
-          <div className="c-card iframe-2nd-compo">
+          <div className="c-card-interaction iframe-2nd-compo">
             <iframe className="frame-customizing" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/escitalopram" height="100%" width="100%"></iframe>
           </div>
         </div>
