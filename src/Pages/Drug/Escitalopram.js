@@ -17,17 +17,27 @@ class Escitalopram extends React.Component {
           <h2 id="identification" className="section-header">Identification</h2>
           <dl>
             <dt className="col-md-2 col-sm-4">Name</dt>
-            <dd className="col-md-10 col-sm-8">Escitalopram</dd><dt className="col-md-2 col-sm-4">Accession Number</dt>
-            <dd className="col-md-10 col-sm-8">DB01175&nbsp; (APRD00683) </dd><dt className="col-md-2 col-sm-4">Type</dt>
+            <dd className="col-md-10 col-sm-8">Escitalopram</dd>
+            <dt className="col-md-2 col-sm-4">Accession Number</dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure"><p> Drug Bank </p> DB01175&nbsp; (APRD00683)</div>
+              <div className="ace-structure"><p> PubChem </p> 146570 </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Type</dt>
             <dd className="col-md-10 col-sm-8">Small Molecule</dd><dt className="col-md-2 col-sm-4">Groups</dt>
             <dd className="col-md-10 col-sm-8">Approved, Investigational</dd><dt className="col-md-2 col-sm-4">Description</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Escitalopram, the <i>S</i>-enantiomer of citalopram, belongs to a class of antidepressant agents known as selective serotonin-reuptake inhibitors (SSRIs). Despite distinct structural differences between compounds in this class, SSRIs possess similar pharmacological activity. As with other antidepressant agents, several weeks of therapy may be required before a clinical effect is seen. SSRIs are potent inhibitors of neuronal serotonin reuptake. They have little to no effect on norepinephrine or dopamine reuptake and do not antagonize α- or β-adrenergic, dopamine D<sub>2</sub> or histamine H<sub>1</sub> receptors. During acute use, SSRIs block serotonin reuptake and increase serotonin stimulation of somatodendritic 5-HT<sub>1A</sub> and terminal autoreceptors. Chronic use leads to desensitization of somatodendritic 5-HT<sub>1A</sub> and terminal autoreceptors. The overall clinical effect of increased mood and decreased anxiety is thought to be due to adaptive changes in neuronal function that leads to enhanced serotonergic neurotransmission. Side effects include dry mouth, nausea, dizziness, drowsiness, sexual dysfunction and headache. Side effects generally occur within the first two weeks of therapy and are usually less severe and frequent than those observed with tricyclic antidepressants. Escitalopram may be used to treat major depressive disorder (MDD) and generalized anxiety disorder (GAD).</p>
             </dd>
-            <dt className="col-md-2 col-sm-4">Structure</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="structure">
-                <img src={require(`./escitalopram.png`)} style={{width: "20%"}} alt=""/>
+            <dt className="col-md-2 col-sm-4">2D Structure</dt>
+            <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
+              <div className="structure ace-structure">
+                <p>Drug bank </p>
+                <img src={require(`./escitalopram.png`)} style={{width: "50%"}} alt=""/>
+              </div>
+              <div className="structure ace-structure">
+                <p>PubChem</p>
+                <img src={require(`./esc_pubchem.png`)} style={{width: "50%"}} alt=""/>
               </div>
             </dd><dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
@@ -92,7 +102,11 @@ class Escitalopram extends React.Component {
             <dd className="col-md-10 col-sm-8">128196-01-0</dd><dt className="col-md-2 col-sm-4">Weight</dt>
             <dd className="col-md-10 col-sm-8">Average: 324.3919
               <br />Monoisotopic: 324.163791509 </dd><dt className="col-md-2 col-sm-4">Chemical Formula</dt>
-            <dd className="col-md-10 col-sm-8">C<sub>20</sub>H<sub>21</sub>FN<sub>2</sub>O</dd><dt className="col-md-2 col-sm-4">InChI Key</dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure"><p>Drug Bank </p> C<sub>20</sub>H<sub>21</sub>FN<sub>2</sub>O </div>
+              <div className="ace-structure"><p>Pubchem </p> C<sub>20</sub>H<sub>21</sub>FN<sub>2</sub>O </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4">InChI Key</dt>
             <dd className="col-md-10 col-sm-8">WSEQXVZVJXJVFP-FQEVSTJZSA-N</dd><dt className="col-md-2 col-sm-4">InChI</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">InChI=1S/C20H21FN2O/c1-23(2)11-3-10-20(17-5-7-18(21)8-6-17)19-9-4-15(13-22)12-16(19)14-24-20/h4-9,12H,3,10-11,14H2,1-2H3/t20-/m0/s1</div>
@@ -100,8 +114,16 @@ class Escitalopram extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">(1S)-1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile</div>
             </dd><dt className="col-md-2 col-sm-4">SMILES</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="wrap">CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1</div>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure">
+                <p>Drug Bank </p>
+                <div className="wrap">CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1</div>
+              </div>
+              <div className="ace-structure">
+                <p>PubChem</p>
+                <div className="wrap">Canonical SMILES: CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F </div>
+                <div className="wrap">Isomeric SMILES: CN(C)CCC[C@@]1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F </div>
+              </div>
             </dd>
           </dl>
           <h2 id="pharmacology" className="section-header">Pharmacology</h2>
