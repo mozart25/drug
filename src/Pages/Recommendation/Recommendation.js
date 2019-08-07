@@ -1,6 +1,6 @@
 import React from 'react';
 import './Recommendation.scss';
-import { FaStar, FaCaretRight, FaStop, FaCircle } from 'react-icons/fa';
+import { FaStar, FaCaretRight, FaStop, FaCircle, FaLongArrowAltLeft, FaLongArrowAltRight, FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
@@ -308,8 +308,11 @@ class Recommendation extends React.Component {
             <div className="container content content-buffer">
               <div className="title">
                 <div className="row">
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 process-col-temp">
                     <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
+                  </div>
+                  <div className="process-direction-arrow">
+                    <FaRegArrowAltCircleLeft size={30}/>   <FaRegArrowAltCircleRight size={30}/>
                   </div>
                 </div>
               </div>
