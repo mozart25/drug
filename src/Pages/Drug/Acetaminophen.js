@@ -17,19 +17,28 @@ class Acetaminophen extends React.Component {
           <h2 id="identification" className="section-header">Identification</h2>
           <dl>
             <dt className="col-md-2 col-sm-4">Name</dt>
-            <dd className="col-md-10 col-sm-8">Acetaminophen</dd><dt className="col-md-2 col-sm-4">Accession Number</dt>
-            <dd className="col-md-10 col-sm-8">DB00316&nbsp; (APRD00252) </dd><dt className="col-md-2 col-sm-4">Type</dt>
+            <dd className="col-md-10 col-sm-8">Acetaminophen</dd>
+            <dt className="col-md-2 col-sm-4">Accession Number</dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure"><p> Drug Bank </p> DB00316&nbsp; (APRD00252)</div>
+              <div className="ace-structure"><p> PubChem </p> 1983 </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Type</dt>
             <dd className="col-md-10 col-sm-8">Small Molecule</dd><dt className="col-md-2 col-sm-4">Groups</dt>
             <dd className="col-md-10 col-sm-8">Approved</dd><dt className="col-md-2 col-sm-4">Description</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Acetaminophen (paracetamol), also commonly known as <em>Tylenol</em>, is the most commonly taken analgesic worldwide and is recommended as first-line therapy in pain conditions by the World Health Organization (WHO) <sup className="text-reference-group"><a className="reference-popover-link" data-content="Ennis ZN, Dideriksen D, Vaegter HB, Handberg G, Pottegard A: Acetaminophen for Chronic Pain: A Systematic Review on Efficacy. Basic Clin Pharmacol Toxicol. 2016 Mar;118(3):184-9. doi: 10.1111/bcpt.12527. Epub 2015 Dec 28. (PubMed ID 26572078)" href="#reference-A176318" data-original-title title>10</a></sup>. It is also used for its antipyretic effects, helping to reduce fever <sup className="text-reference-group"><a className="reference-popover-link" data-content="Acetaminophen monograph, suppository" href="#reference-F4124" data-original-title title>22</a></sup>. This drug was initially approved by the U.S. FDA in 1951 <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title aria-describedby="popover270594">Label</a></sup> and is available in a variety of forms including syrup form, regular tablets, effervescent tablets, injection, suppository, and other forms <sup className="text-reference-group"><a className="reference-popover-link" data-content="Acetaminophen tablet, DailyMed" href="#reference-L5756" data-original-title title>15</a>,<a className="reference-popover-link" data-content="Acetaminophen effervescent tablets, Cleveland Clinic" href="#reference-L5774" data-original-title title>16</a>,<a className="reference-popover-link" data-content="Acetaminophen monograph, suppository" href="#reference-F4124" data-original-title title>22</a></sup>, <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>. </p>
               <p>Acetaminophen is often found combined with other drugs in more than 600 over the counter (OTC) allergy medications, cold medications, sleep medications, pain relievers, and other products <sup className="text-reference-group"><a className="reference-popover-link" data-content="FDA consumer health information: Acetaminophen" href="#reference-L5783" data-original-title title>19</a></sup>. Confusion about dosing of this drug may be caused by the availability of different formulas, strengths, and dosage instructions for children of different ages <sup className="text-reference-group"><a className="reference-popover-link" data-content="FDA consumer health information: Acetaminophen" href="#reference-L5783" data-original-title title>19</a></sup>. Due to the possibility of fatal overdose and liver failure associated with the incorrect use of acetaminophen, it is important to follow current and available national and manufacturer dosing guidelines while this drug is taken or prescribed <sup className="text-reference-group"><a className="reference-popover-link" data-content="FDA : Acetaminophen Information" href="#reference-L5786" data-original-title title>20</a>,<a className="reference-popover-link" data-content="Using Acetaminophen and Nonsteroidal Anti-inflammatory Drugs Safely" href="#reference-L5789" data-original-title title>21</a></sup>, <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>.</p>
-            </dd><dt className="col-md-2 col-sm-4">Structure</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="structure">
-                <img src={require(`./acetaminophen.png`)} style={{width: "8%"}} alt=""/>
+            </dd><dt className="col-md-2 col-sm-4">2D Structure</dt>
+            <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
+              <div className="structure ace-structure">
+                <p>Drug bank </p>
+                <img src={require(`./acetaminophen.png`)} style={{width: "25%"}} alt=""/>
               </div>
-
+              <div className="structure ace-structure">
+                <p>PubChem</p>
+                <img src={require(`./aceta_pubchem.png`)} style={{width: "25%"}} alt=""/>
+              </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">
@@ -298,7 +307,11 @@ class Acetaminophen extends React.Component {
             <dd className="col-md-10 col-sm-8">103-90-2</dd><dt className="col-md-2 col-sm-4">Weight</dt>
             <dd className="col-md-10 col-sm-8">Average: 151.1626
               <br />Monoisotopic: 151.063328537 </dd><dt className="col-md-2 col-sm-4">Chemical Formula</dt>
-            <dd className="col-md-10 col-sm-8">C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub></dd><dt className="col-md-2 col-sm-4">InChI Key</dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure"><p>Drug Bank </p> C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub> </div>
+              <div className="ace-structure"><p>Pubchem </p> C<sub>8</sub>H<sub>9</sub>NO<sub>2</sub> <p>HOC<sub>6</sub>H<sub>4</sub>NHCOCH<sub>3</sub></p> </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4">InChI Key</dt>
             <dd className="col-md-10 col-sm-8">RZVAJINKPMORJF-UHFFFAOYSA-N</dd><dt className="col-md-2 col-sm-4">InChI</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">InChI=1S/C8H9NO2/c1-6(10)9-7-2-4-8(11)5-3-7/h2-5,11H,1H3,(H,9,10)</div>
@@ -306,8 +319,15 @@ class Acetaminophen extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">N-(4-hydroxyphenyl)acetamide</div>
             </dd><dt className="col-md-2 col-sm-4">SMILES</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="wrap">CC(=O)NC1=CC=C(O)C=C1</div>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure">
+                <p>Drug Bank </p>
+                <div className="wrap">CC(=O)NC1=CC=C(O)C=C1</div>
+              </div>
+              <div className="ace-structure">
+                <p>PubChem</p>
+                <div className="wrap">Canonical SMILES: CC(=O)NC1=CC=C(C=C1)O </div>
+              </div>
             </dd>
           </dl>
           <h2 id="pharmacology" className="section-header">Pharmacology</h2>

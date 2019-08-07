@@ -17,17 +17,27 @@ class Amlodipine extends React.Component {
           <h2 id="identification" className="section-header">Identification</h2>
           <dl>
             <dt className="col-md-2 col-sm-4">Name</dt>
-            <dd className="col-md-10 col-sm-8">Amlodipine</dd><dt className="col-md-2 col-sm-4">Accession Number</dt>
-            <dd className="col-md-10 col-sm-8">DB00381&nbsp; (APRD00520) </dd><dt className="col-md-2 col-sm-4">Type</dt>
+            <dd className="col-md-10 col-sm-8">Amlodipine</dd>
+            <dt className="col-md-2 col-sm-4">Accession Number</dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure"><p> Drug Bank </p> DB00381&nbsp; (APRD00520)</div>
+              <div className="ace-structure"><p> PubChem </p> 2162 </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Type</dt>
             <dd className="col-md-10 col-sm-8">Small Molecule</dd><dt className="col-md-2 col-sm-4">Groups</dt>
             <dd className="col-md-10 col-sm-8">Approved</dd><dt className="col-md-2 col-sm-4">Description</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Amlodipine, initially approved by the FDA in 1987, is a popular antihypertensive drug belonging to the group of drugs called <em>dihydropyridine calcium channel blockers</em>. Due to their selectivity for the peripheral blood vessels, dihydropyridine calcium channel blockers are associated with a lower incidence of myocardial depression and cardiac conduction abnormalities than other calcium channel blockers <sup className="text-reference-group"><a className="reference-popover-link" data-content="Meredith PA, Elliott HL: Clinical pharmacokinetics of amlodipine. Clin Pharmacokinet. 1992 Jan;22(1):22-31. doi: 10.2165/00003088-199222010-00003. (PubMed ID 1532771)" href="#reference-A175327" data-original-title title>5</a></sup>.</p>
               <p>Amlodipine is commonly used in the treatment of high blood pressure and angina. Amlodipine has antioxidant properties and an ability to enhance the production of nitric oxide (NO), an important vasodilator that decreases blood pressure <sup className="text-reference-group"><a className="reference-popover-link" data-content="Fares H, DiNicolantonio JJ, O'Keefe JH, Lavie CJ: Amlodipine in hypertension: a first-line agent with efficacy for improving blood pressure and patient outcomes. Open Heart. 2016 Sep 28;3(2):e000473. doi: 10.1136/openhrt-2016-000473. eCollection 2016. (PubMed ID 27752334)" href="#reference-A175321" data-original-title title>3</a></sup>. The option for single daily dosing of amlodipine is an attractive feature of this drug <sup className="text-reference-group"><a className="reference-popover-link" data-content="Official drug label" href="#label-reference" data-original-title title>Label</a></sup>.</p>
-            </dd><dt className="col-md-2 col-sm-4">Structure</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="structure">
-                <img src={require(`./amlodipine.png`)} style={{width: "20%"}} alt=""/>
+            </dd><dt className="col-md-2 col-sm-4">2D Structure</dt>
+            <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
+              <div className="structure ace-structure">
+                <p>Drug bank </p>
+                <img src={require(`./amlodipine.png`)} style={{width: "50%"}} alt=""/>
+              </div>
+              <div className="structure ace-structure">
+                <p>PubChem</p>
+                <img src={require(`./amlo_pubchem.png`)} style={{width: "45%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
@@ -289,8 +299,15 @@ class Amlodipine extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">3-ethyl 5-methyl 2-[(2-aminoethoxy)methyl]-4-(2-chlorophenyl)-6-methyl-1,4-dihydropyridine-3,5-dicarboxylate</div>
             </dd><dt className="col-md-2 col-sm-4">SMILES</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="wrap">CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC=C1Cl)C(=O)OC</div>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure">
+                <p>Drug Bank </p>
+                <div className="wrap">CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC=C1Cl)C(=O)OC</div>
+              </div>
+              <div className="ace-structure">
+                <p>PubChem</p>
+                <div className="wrap">Canonical SMILES: CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN </div>
+              </div>
             </dd>
           </dl>
           <h2 id="pharmacology" className="section-header">Pharmacology</h2>

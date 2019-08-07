@@ -17,17 +17,27 @@ class Valsartan extends React.Component {
           <h2 id="identification" className="section-header">Identification</h2>
           <dl>
             <dt className="col-md-2 col-sm-4">Name</dt>
-            <dd className="col-md-10 col-sm-8">Valsartan</dd><dt className="col-md-2 col-sm-4">Accession Number</dt>
-            <dd className="col-md-10 col-sm-8">DB00177&nbsp; (APRD00133) </dd><dt className="col-md-2 col-sm-4">Type</dt>
+            <dd className="col-md-10 col-sm-8">Valsartan</dd>
+            <dt className="col-md-2 col-sm-4">Accession Number</dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure"><p> Drug Bank </p>DB00177&nbsp; (APRD00133) </div>
+              <div className="ace-structure"><p> PubChem </p> 60846 </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4">Type</dt>
             <dd className="col-md-10 col-sm-8">Small Molecule</dd><dt className="col-md-2 col-sm-4">Groups</dt>
             <dd className="col-md-10 col-sm-8">Approved, Investigational</dd><dt className="col-md-2 col-sm-4">Description</dt>
             <dd className="col-md-10 col-sm-8">
               <p>Valsartan is an angiotensin-receptor blocker (ARB) that may be used to manage hypertension and heart failure. Many studies have demonstrated the efficacy of valsartan in reducing blood pressure (BP) in many patient populations (including elderly, women, children, obese patients, patients with diabetes mellitus, patients with chronic kidney disease (CKD), patients at high risk of cardiovascular (CV) disease, African Americans, Hispanic Americans and Asians) and in improving the clinical outcome in cardiovascular (CV) disease and chronic kidney disease (CKD) <sup className="text-reference-group"><a className="reference-popover-link" data-content="Black HR, Bailey J, Zappe D, Samuel R: Valsartan: more than a decade of experience. Drugs. 2009;69(17):2393-414. doi: 10.2165/11319460-000000000-00000. (PubMed ID 19911855)" href="#reference-A174124" data-original-title title>1</a></sup>.</p>
               <p>Valsartan was initially approved in 1996 in Europe for the treatment of hypertension in adults. Shortly after, in 1997, this drug was approved in the United States <sup className="text-reference-group"><a className="reference-popover-link" data-content="Black HR, Bailey J, Zappe D, Samuel R: Valsartan: more than a decade of experience. Drugs. 2009;69(17):2393-414. doi: 10.2165/11319460-000000000-00000. (PubMed ID 19911855)" href="#reference-A174124" data-original-title title>1</a></sup>. This drug is generally well-tolerated with a side-effect profile superior to that of other antihypertensive drugs <sup className="text-reference-group"><a className="reference-popover-link" data-content="McInnes GT: Clinical advantage of valsartan. Cardiology. 1999;91 Suppl 1:14-8. doi: 10.1159/000047283. (PubMed ID 10449890)" href="#reference-A174130" data-original-title title>3</a></sup>, <sup className="text-reference-group"><a className="reference-popover-link" data-content="Chiolero A, Burnier M: Pharmacology of valsartan, an angiotensin II receptor antagonist. Expert Opin Investig Drugs. 1998 Nov;7(11):1915-25. doi: 10.1517/13543784.7.11.1915 . (PubMed ID 15991938)" href="#reference-A174133" data-original-title title>4</a></sup>.</p>
-            </dd><dt className="col-md-2 col-sm-4">Structure</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="structure">
-                <img src={require(`./valsartan.png`)} style={{width: "15%"}} alt=""/>
+            </dd><dt className="col-md-2 col-sm-4">2D Structure</dt>
+            <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
+              <div className="structure ace-structure">
+                <p>Drug bank </p>
+                <img src={require(`./valsartan.png`)} style={{width: "45%"}} alt=""/>
+              </div>
+              <div className="structure ace-structure">
+                <p>PubChem</p>
+                <img src={require(`./valsartan_pubchem.png`)} style={{width: "45%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
@@ -84,8 +94,16 @@ class Valsartan extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">(2S)-3-methyl-2-[N-({'{'}4-[2-(2H-1,2,3,4-tetrazol-5-yl)phenyl]phenyl{'}'}methyl)pentanamido]butanoic acid</div>
             </dd><dt className="col-md-2 col-sm-4">SMILES</dt>
-            <dd className="col-md-10 col-sm-8">
-              <div className="wrap">CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)[C@@H](C(C)C)C(O)=O</div>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
+              <div className="ace-structure">
+                <p>Drug Bank </p>
+                <div className="wrap">CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)[C@@H](C(C)C)C(O)=O</div>
+              </div>
+              <div className="ace-structure">
+                <p>PubChem</p>
+                <div className="wrap">Canonical SMILES: CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)C(C(C)C)C(=O)O </div>
+                <div className="wrap">Isomeric SMILES: CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)[C@@H](C(C)C)C(=O)O </div>
+              </div>
             </dd>
           </dl>
           <h2 id="pharmacology" className="section-header">Pharmacology</h2>
