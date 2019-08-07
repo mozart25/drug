@@ -59,17 +59,26 @@ class SearchDrug extends React.Component {
 
     return (
       <MDBCol md="6">
-        <form className="form-inline mt-4 mb-4">
+        <form className="form-search-wrapper">
           <input
-            className="form-control form-control-sm ml-3 w-75"
+            className="form-control form-control-sm ml-3 w-76 search1"
             type="text"
-            placeholder="Drugs, Indication"
+            placeholder="Acetaminophen"
             aria-label="Search"
             value={this.state.keyword}
             onChange={this.keywordChange}
             onKeyDown={this.handleKeyPress}
           />
-          <MDBIcon icon="search" />
+          <input
+            className="form-control form-control-sm ml-3 w-76 search2"
+            type="text"
+            placeholder="Escitalopram"
+            aria-label="Search"
+            value={this.state.keyword}
+            onChange={this.keywordChange}
+            onKeyDown={this.handleKeyPress}
+          />
+          <MDBIcon icon="search" size={100} className="search3"/>
         </form>
         <div className="search-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
       </MDBCol>
