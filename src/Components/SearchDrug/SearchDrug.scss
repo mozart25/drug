@@ -1,8 +1,10 @@
 @import "Style/_global.scss";
 
-.col-md-6 {
-  flex: 0 0 1%;
-  margin: 0 auto;
+#search-drug-wrapper {
+  > .col-md-6 {
+    flex: 0 0 1%;
+    margin: 0 auto;
+  }
 }
 
 .form-inline {

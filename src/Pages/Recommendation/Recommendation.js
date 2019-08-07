@@ -12,8 +12,6 @@ import Choice3 from '../../Components/Process3/Choice3';
 import Process4 from '../../Components/Process4/Process4';
 import Choice4 from '../../Components/Process4/Choice4';
 import FinishButton from '../../Components/Button/FinishButton';
-import Header from '../../Components/Header/Header';
-
 
 class Recommendation extends React.Component {
 
@@ -306,7 +304,6 @@ class Recommendation extends React.Component {
         <Helmet>
           <title>Drug AI algorithm recommendation solution-BioAI</title>
         </Helmet>
-        <Header/>
           <div className="container">
             <div className="container content content-buffer">
               <div className="title">

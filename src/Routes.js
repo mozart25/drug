@@ -21,6 +21,7 @@ import Customization from 'Pages/Customization/Customization';
 import Supercomputer from 'Pages/Supercomputer/Supercomputer';
 import Interaction from 'Pages/Interaction/Interaction';
 import Interaction2 from 'Pages/Interaction/Interaction2';
+import SearchAlgorithm from 'Pages/SearchAlgorithm/SearchAlgorithm';
 
 class Routes extends React.Component {
   render() {
@@ -44,6 +45,7 @@ class Routes extends React.Component {
           <Route exact path="/supercomputer" component={Supercomputer} />
           <Route exact path="/interaction" component={Interaction} />
           <Route exact path="/interaction2" component={Interaction2} />
+          <Route exact path="/searchalgorithm" component={SearchAlgorithm} />
         </Switch>
       </Router>
     );
