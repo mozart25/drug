@@ -78,7 +78,7 @@ class SearchDrug extends React.Component {
             onChange={this.keywordChange}
             onKeyDown={this.handleKeyPress}
           />
-          <MDBIcon icon="search" size={100} className="search3"/>
+          <MDBIcon icon="search" className="search3"/>
         </form>
         <div className="search-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
       </MDBCol>
