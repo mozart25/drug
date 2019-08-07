@@ -177,6 +177,14 @@ hr {
   border-radius: 9px;
 }
 
+.cal-box-cost-month {
+  flex: 0 0 50%;
+}
+
+.cal-box-cost-month-btn {
+  flex: 0 0 18%;
+}
+
 @media screen and (max-width:590px) {
   .question-container {
     padding: 0rem;

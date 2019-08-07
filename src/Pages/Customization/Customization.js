@@ -803,12 +803,12 @@ class Customization extends React.Component {
                 name="112"/>
                </section>
                <div className="calculation-box" style={{padding: '15px', fontWeight: '100'}}>
-                <div style={{padding: '15px', fontWeight: '200', textAlign: "left"}}>
+                <div className="cal-box-cost-month" style={{padding: '15px', fontWeight: '200', textAlign: "left"}}>
                  Average expected cost :
                  <span id="price">${this.state.totalAmount.toString().replace(regex, ',')}</span>
                  <small style={{fontSize: '27px'}}> Average expected time: <span id="period_month">{months}</span> months</small>
                 </div>
-                 <div style={{lineHeight: '20px', marginLeft: "8%"}}>
+                 <div className="cal-box-cost-month-btn" style={{lineHeight: '20px'}}>
                    <a className="btn btn-primary-cost new_contact_button" href="#bottom" onClick={this.contactClick}><p>Contact Us with</p> <p>Estimated Cost</p></a>
                  </div>
                </div>
