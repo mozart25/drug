@@ -335,7 +335,7 @@ class Recommendation extends React.Component {
                       </div>
                 </a>
                 </div>
-                <FaCaretDown size={40} />
+                <FaCaretDown className={`${ this.state.process1 || this.state.process2 || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color: "#9370da"}}/>
               </div>
               <div className="for2ndDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -360,7 +360,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
                 </div>
-                <FaCaretDown size={40} />
+                <FaCaretDown  className={`${  this.state.process1 === false || this.state.process2 || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#9400d3"}} />
               </div>
               <div className="caretDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -383,7 +383,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
                 </div>
-              <FaCaretDown size={40} />
+              <FaCaretDown className={`${  this.state.process1 === false || this.state.process2 === false || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#8b008b"}}/>
               </div>
               <div className="for2ndDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -408,7 +408,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
-              <FaCaretDown size={40} />
+              <FaCaretDown className={`${  this.state.process1 === false || this.state.process2 === false || this.state.process3 === false ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#4b0082"}}/>
             </div>
             </div>
               <div className={`${this.state.process1 ? "process-displaying" : "infinite-container text-center"}`} id="position_1">
