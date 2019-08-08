@@ -1,6 +1,6 @@
 import React from 'react';
 import './Recommendation.scss';
-import { FaStar, FaCaretRight, FaStop, FaCircle, FaLongArrowAltLeft, FaLongArrowAltRight, FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from 'react-icons/fa';
+import { FaStar, FaCaretRight, FaStop, FaCircle, FaLongArrowAltLeft, FaLongArrowAltRight, FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight, FaAngleDoubleDown, FaCaretDown } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
@@ -330,11 +330,12 @@ class Recommendation extends React.Component {
                           s3={this.state.view3}
                           s4={this.state.view4}
                           />
-                          : <Process1 />
+                          : <Process1 size={30}/>
                         }
                       </div>
                 </a>
                 </div>
+                <FaCaretDown size={40} />
               </div>
               <div className="for2ndDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -359,6 +360,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
                 </div>
+                <FaCaretDown size={40} />
               </div>
               <div className="caretDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -381,6 +383,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
                 </div>
+              <FaCaretDown size={40} />
               </div>
               <div className="for2ndDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -405,9 +408,10 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
+              <FaCaretDown size={40} />
             </div>
             </div>
-              <div className="infinite-container text-center" id="position_1">
+              <div className={`${this.state.process1 ? "process-displaying" : "infinite-container text-center"}`} id="position_1">
                 <div className="row infinite-item item">
                   <div className="item-header" id="data-preparation"><p>Data Preparation</p></div>
                   <div className="col-lg-9 item-col">
@@ -457,8 +461,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-
-              <div className="infinite-container text-center" id="position_2">
+              <div className={`${this.state.process1 === false || this.state.process2 ? "process-displaying" : "infinite-container text-center"}`} id="position_2">
                 <div className="row infinite-item item">
                   <div className="item-header" id="data-preprocessing"><p>Data Preprocessing</p></div>
                   <div className="col-lg-9 item-col">
@@ -678,8 +681,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-
-              <div className="infinite-container text-center" id="position_3">
+              <div className={`${this.state.process1 === false || this.state.process2 === false || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} id="position_3">
                 <div className="row infinite-item item">
                   <div className="item-header" id="modeling"><p>Modeling</p></div>
                   <div className="col-lg-3 item-image-col"></div>
@@ -844,8 +846,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-
-              <div className="infinite-container text-center" id="position_4">
+              <div className={`${this.state.process1 === false || this.state.process2 === false || this.state.process3 === false ? "process-displaying" : "infinite-container text-center"}`} id="position_4">
                 <div className="row infinite-item item">
                   <div className="item-header" id="model-modification"><p>Model modification</p></div>
                   <div className="col-lg-3 item-image-col"></div>
