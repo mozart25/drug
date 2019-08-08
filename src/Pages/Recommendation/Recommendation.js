@@ -1,6 +1,6 @@
 import React from 'react';
 import './Recommendation.scss';
-import { FaStar, FaCaretRight, FaStop, FaCircle, FaLongArrowAltLeft, FaLongArrowAltRight, FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from 'react-icons/fa';
+import { FaStar, FaCaretRight, FaStop, FaCircle, FaLongArrowAltLeft, FaLongArrowAltRight, FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight, FaAngleDoubleDown, FaCaretDown } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
@@ -45,8 +45,15 @@ class Recommendation extends React.Component {
       view20: false,
       e: '',
       process1: false,
+      process1_sub: 0,
       process2: false,
+      process2_sub: 0,
       process3: false,
+      process3_sub: 0,
+      checkProcess1: false,
+      checkProcess2: false,
+      checkProcess3: false,
+      processStack: []
     };
   }
 
@@ -268,7 +275,9 @@ class Recommendation extends React.Component {
     if (this.state.clicked > 0) {
     this.setState(
       {
-        process1: true
+        process1: true,
+        process1_sub: 1
+
     }
   )
   }
@@ -279,7 +288,9 @@ class Recommendation extends React.Component {
     if (this.state.clicked2 >0) {
     this.setState(
       {
-        process2: true
+        process2: true,
+        process2_sub: 2
+
     }
   )
     }
@@ -290,12 +301,38 @@ class Recommendation extends React.Component {
 
     this.setState(
       {
-        process3: true
+        process3: true,
+        process3_sub: 3
     }
   )
     }
   }
 
+  checkProcess = () => {
+
+    if (this.state.process2_sub === 2 && this.state.process3_sub === 3) {
+      this.setState(
+        {
+          process3: false,
+          process3_sub: 0
+        }
+      )
+    }
+
+    if (this.state.process2_sub === 2 && this.state.process3_sub !== 3) {
+      this.setState(
+        {
+          process2: false,
+          view11: false,
+          view12: false,
+          view13: false,
+          view14: false,
+          clicked3: 0,
+        }
+      )
+    }
+
+  }
 
   render() {
 
@@ -312,7 +349,8 @@ class Recommendation extends React.Component {
                     <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
                   </div>
                   <div className="process-direction-arrow">
-                    <FaRegArrowAltCircleLeft size={30}/>   <FaRegArrowAltCircleRight size={30}/>
+                    <FaRegArrowAltCircleLeft style={{cursor:"pointer"}} onClick={this.checkProcess} size={30}/>
+                    <FaRegArrowAltCircleRight style={{cursor:"pointer"}} size={30}/>
                   </div>
                 </div>
               </div>
@@ -330,11 +368,12 @@ class Recommendation extends React.Component {
                           s3={this.state.view3}
                           s4={this.state.view4}
                           />
-                          : <Process1 />
+                          : <Process1 size={30}/>
                         }
                       </div>
                 </a>
                 </div>
+                <FaCaretDown className={`${ this.state.process1 || this.state.process2 || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color: "#9370da"}}/>
               </div>
               <div className="for2ndDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -359,6 +398,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
                 </div>
+                <FaCaretDown  className={`${  this.state.process1 === false || this.state.process2 || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#9400d3"}} />
               </div>
               <div className="caretDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -381,6 +421,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
                 </div>
+              <FaCaretDown className={`${  this.state.process1 === false || this.state.process2 === false || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#8b008b"}}/>
               </div>
               <div className="for2ndDelete">
                 <FaCaretRight style={{color: '#DCDCDC', height: '370px' }} />
@@ -405,9 +446,10 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
+              <FaCaretDown className={`${  this.state.process1 === false || this.state.process2 === false || this.state.process3 === false ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#4b0082"}}/>
             </div>
             </div>
-              <div className="infinite-container text-center" id="position_1">
+              <div className={`${this.state.process1 ? "process-displaying" : "infinite-container text-center"}`} id="position_1">
                 <div className="row infinite-item item">
                   <div className="item-header" id="data-preparation"><p>Data Preparation</p></div>
                   <div className="col-lg-9 item-col">
@@ -457,8 +499,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-
-              <div className="infinite-container text-center" id="position_2">
+              <div className={`${this.state.process1 === false || this.state.process2 ? "process-displaying" : "infinite-container text-center"}`} id="position_2">
                 <div className="row infinite-item item">
                   <div className="item-header" id="data-preprocessing"><p>Data Preprocessing</p></div>
                   <div className="col-lg-9 item-col">
@@ -678,8 +719,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-
-              <div className="infinite-container text-center" id="position_3">
+              <div className={`${this.state.process1 === false || this.state.process2 === false || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} id="position_3">
                 <div className="row infinite-item item">
                   <div className="item-header" id="modeling"><p>Modeling</p></div>
                   <div className="col-lg-3 item-image-col"></div>
@@ -844,8 +884,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-
-              <div className="infinite-container text-center" id="position_4">
+              <div className={`${this.state.process1 === false || this.state.process2 === false || this.state.process3 === false ? "process-displaying" : "infinite-container text-center"}`} id="position_4">
                 <div className="row infinite-item item">
                   <div className="item-header" id="model-modification"><p>Model modification</p></div>
                   <div className="col-lg-3 item-image-col"></div>
