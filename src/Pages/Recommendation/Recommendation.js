@@ -45,8 +45,15 @@ class Recommendation extends React.Component {
       view20: false,
       e: '',
       process1: false,
+      process1_sub: 0,
       process2: false,
+      process2_sub: 0,
       process3: false,
+      process3_sub: 0,
+      checkProcess1: false,
+      checkProcess2: false,
+      checkProcess3: false,
+      processStack: []
     };
   }
 
@@ -268,7 +275,9 @@ class Recommendation extends React.Component {
     if (this.state.clicked > 0) {
     this.setState(
       {
-        process1: true
+        process1: true,
+        process1_sub: 1
+
     }
   )
   }
@@ -279,7 +288,9 @@ class Recommendation extends React.Component {
     if (this.state.clicked2 >0) {
     this.setState(
       {
-        process2: true
+        process2: true,
+        process2_sub: 2
+
     }
   )
     }
@@ -290,12 +301,38 @@ class Recommendation extends React.Component {
 
     this.setState(
       {
-        process3: true
+        process3: true,
+        process3_sub: 3
     }
   )
     }
   }
 
+  checkProcess = () => {
+
+    if (this.state.process2_sub === 2 && this.state.process3_sub === 3) {
+      this.setState(
+        {
+          process3: false,
+          process3_sub: 0
+        }
+      )
+    }
+
+    if (this.state.process2_sub === 2 && this.state.process3_sub !== 3) {
+      this.setState(
+        {
+          process2: false,
+          view11: false,
+          view12: false,
+          view13: false,
+          view14: false,
+          clicked3: 0,
+        }
+      )
+    }
+
+  }
 
   render() {
 
@@ -312,7 +349,8 @@ class Recommendation extends React.Component {
                     <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
                   </div>
                   <div className="process-direction-arrow">
-                    <FaRegArrowAltCircleLeft size={30}/>   <FaRegArrowAltCircleRight size={30}/>
+                    <FaRegArrowAltCircleLeft style={{cursor:"pointer"}} onClick={this.checkProcess} size={30}/>
+                    <FaRegArrowAltCircleRight style={{cursor:"pointer"}} size={30}/>
                   </div>
                 </div>
               </div>
