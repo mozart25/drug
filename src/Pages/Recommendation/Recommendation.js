@@ -284,13 +284,16 @@ class Recommendation extends React.Component {
 }
 
   goToProcess2 = () => {
+    document.getElementById("checkbox11").checked = false;
+    document.getElementById("checkbox12").checked = false;
+    document.getElementById("checkbox13").checked = false;
+    document.getElementById("checkbox14").checked = false;
 
     if (this.state.clicked2 >0) {
     this.setState(
       {
         process2: true,
-        process2_sub: 2
-
+        process2_sub: 2,
     }
   )
     }
@@ -334,6 +337,11 @@ class Recommendation extends React.Component {
 
   }
 
+  checkProcess2 = () => {
+
+
+  }
+
   render() {
 
     return (
@@ -350,7 +358,7 @@ class Recommendation extends React.Component {
                   </div>
                   <div className="process-direction-arrow">
                     <FaRegArrowAltCircleLeft style={{cursor:"pointer"}} onClick={this.checkProcess} size={30}/>
-                    <FaRegArrowAltCircleRight style={{cursor:"pointer"}} size={30}/>
+                    <FaRegArrowAltCircleRight style={{cursor:"pointer"}} onClick={this.checkProcess2} size={30}/>
                   </div>
                 </div>
               </div>
