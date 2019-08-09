@@ -6,11 +6,11 @@
 }
 
 .custom-main {
-  min-height: 40vh;
+  min-height: 32vh;
   background-color: #5c1f9cff;
 
   .c-main-wrapper {
-    padding: 82px;
+      padding: 50px 82px 50px;
 
     h1 {
       font-size: 40px;
@@ -24,7 +24,7 @@
     }
 
     h2 {
-      font-size: 56px;
+      font-size: 45px;
       font-family: 'Gilroy-Bold';
       color: #fff;
       line-height: 64px;

@@ -402,7 +402,7 @@ class Recommendation extends React.Component {
       }
     }
 
-    if (this.state.process1_sub === 1 && this.state.process2_sub === 2) {
+    if (this.state.process1_sub === 1 && this.state.process2_sub === 2 && this.state.process3_sub !== 3) {
       this.setState(
         {
           process2: false,
@@ -514,8 +514,7 @@ class Recommendation extends React.Component {
                     <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
                   </div>
                   <div className="process-direction-arrow">
-                    <FaRegArrowAltCircleLeft style={{cursor:"pointer"}} onClick={this.checkProcessLeft} size={30}/>
-                    <FaRegArrowAltCircleRight style={{cursor:"pointer"}} onClick={this.checkProcessRight} size={30}/>
+                    <button type="button" className="btn btn-danger" onClick={this.checkProcessLeft}>Undo</button>
                   </div>
                 </div>
               </div>
