@@ -48,8 +48,10 @@ class Recommendation extends React.Component {
       process1_sub: 0,
       process2: false,
       process2_sub: 0,
+      p2_sub: false,
       process3: false,
       process3_sub: 0,
+      process4: false,
       checkProcess1: false,
       checkProcess2: false,
       checkProcess3: false,
@@ -172,6 +174,7 @@ class Recommendation extends React.Component {
       {
         clicked3: this.state.clicked3 + 1,
         view11: !this.state.view11,
+        view11_sub: !this.state.view11_sub,
         e
       }, () => console.log("after", this.state.view2, e)
     )
@@ -294,6 +297,7 @@ class Recommendation extends React.Component {
       {
         process2: true,
         process2_sub: 2,
+        p2_sub: true,
     }
   )
     }
@@ -311,7 +315,16 @@ class Recommendation extends React.Component {
     }
   }
 
-  checkProcess = () => {
+  goToProcess4 = () => {
+
+    this.setState(
+      {
+        process4: true,
+    }
+  )
+  }
+
+  checkProcessLeft = () => {
 
     if (this.state.process2_sub === 2 && this.state.process3_sub === 3) {
       this.setState(
@@ -326,21 +339,73 @@ class Recommendation extends React.Component {
       this.setState(
         {
           process2: false,
-          view11: false,
-          view12: false,
-          view13: false,
-          view14: false,
           clicked3: 0,
         }
       )
+      if (!this.state.view11) {
+        this.setState(
+          {
+            view11: false
+          }
+        )
+      } else if (this.state.view11) {
+        this.setState(
+          {
+            view11: !this.state.view11
+          }
+        )
+      }
+      if (!this.state.view12) {
+        this.setState(
+          {
+            view12: false
+          }
+        )
+      } else if (this.state.view12) {
+        this.setState(
+          {
+            view12: !this.state.view12
+          }
+        )
+      }
+      if (!this.state.view13) {
+        this.setState(
+          {
+            view13: false
+          }
+        )
+      } else if (this.state.view13) {
+        this.setState(
+          {
+            view13: !this.state.view13
+          }
+        )
+      }
+      if (!this.state.view14) {
+        this.setState(
+          {
+            view14: false
+          }
+        )
+      } else if (this.state.view14) {
+        this.setState(
+          {
+            view14: !this.state.view14
+          }
+        )
+      }
     }
 
   }
 
-  checkProcess2 = () => {
-
-
+  checkProcessRight = () => {
+    if (this.state.process2_sub === 2 && this.state.clicked3 >0 ) {
+      this.setState(
+        {
+          process2: true
+        })
   }
+}
 
   render() {
 
@@ -357,8 +422,8 @@ class Recommendation extends React.Component {
                     <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
                   </div>
                   <div className="process-direction-arrow">
-                    <FaRegArrowAltCircleLeft style={{cursor:"pointer"}} onClick={this.checkProcess} size={30}/>
-                    <FaRegArrowAltCircleRight style={{cursor:"pointer"}} onClick={this.checkProcess2} size={30}/>
+                    <FaRegArrowAltCircleLeft style={{cursor:"pointer"}} onClick={this.checkProcessLeft} size={30}/>
+                    <FaRegArrowAltCircleRight style={{cursor:"pointer"}} onClick={this.checkProcessRight} size={30}/>
                   </div>
                 </div>
               </div>
@@ -423,6 +488,7 @@ class Recommendation extends React.Component {
                     s12={this.state.view12}
                     s13={this.state.view13}
                     s14={this.state.view14}
+
                     />
                     : <Process3 />
                   }
@@ -457,7 +523,7 @@ class Recommendation extends React.Component {
               <FaCaretDown className={`${  this.state.process1 === false || this.state.process2 === false || this.state.process3 === false ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#4b0082"}}/>
             </div>
             </div>
-              <div className={`${this.state.process1 ? "process-displaying" : "infinite-container text-center"}`} id="position_1">
+              <div className={`${this.state.process4 === false && this.state.process1 ? "process-displaying" : "infinite-container text-center"}`} id="position_1">
                 <div className="row infinite-item item">
                   <div className="item-header" id="data-preparation"><p>Data Preparation</p></div>
                   <div className="col-lg-9 item-col">
@@ -507,7 +573,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className={`${this.state.process1 === false || this.state.process2 ? "process-displaying" : "infinite-container text-center"}`} id="position_2">
+              <div className={`${this.state.process1 === false || (this.state.process4 === false && this.state.process2) ? "process-displaying" : "infinite-container text-center"}`} id="position_2">
                 <div className="row infinite-item item">
                   <div className="item-header" id="data-preprocessing"><p>Data Preprocessing</p></div>
                   <div className="col-lg-9 item-col">
@@ -727,7 +793,7 @@ class Recommendation extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className={`${this.state.process1 === false || this.state.process2 === false || this.state.process3 ? "process-displaying" : "infinite-container text-center"}`} id="position_3">
+              <div className={`${this.state.process1 === false || this.state.process2 === false || (this.state.process4 === false && this.state.process3) ? "process-displaying" : "infinite-container text-center"}`} id="position_3">
                 <div className="row infinite-item item">
                   <div className="item-header" id="modeling"><p>Modeling</p></div>
                   <div className="col-lg-3 item-image-col"></div>
@@ -1055,7 +1121,7 @@ class Recommendation extends React.Component {
 
                             </ol>
 
-                          <a href ="#" className="finish-btn-pos4">
+                          <a href ="#" className="finish-btn-pos4" onClick={this.goToProcess4}>
                               <FinishButton />
                           </a>
                         </ol>
