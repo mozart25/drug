@@ -34,6 +34,7 @@ class Recommendation extends React.Component {
       view9: false,
       view10: false,
       view11: false,
+      view11_sub: false,
       view12: false,
       view13: false,
       view14: false,
@@ -274,13 +275,18 @@ class Recommendation extends React.Component {
   }
 
   goToProcess = () => {
+    document.getElementById("checkbox5").checked = false;
+    document.getElementById("checkbox6").checked = false;
+    document.getElementById("checkbox7").checked = false;
+    document.getElementById("checkbox8").checked = false;
+    document.getElementById("checkbox9").checked = false;
+    document.getElementById("checkbox10").checked = false;
 
     if (this.state.clicked > 0) {
     this.setState(
       {
         process1: true,
         process1_sub: 1
-
     }
   )
   }
@@ -396,16 +402,102 @@ class Recommendation extends React.Component {
       }
     }
 
-  }
-
-  checkProcessRight = () => {
-    if (this.state.process2_sub === 2 && this.state.clicked3 >0 ) {
+    if (this.state.process1_sub === 1 && this.state.process2_sub === 2) {
       this.setState(
         {
-          process2: true
-        })
+          process2: false,
+          process2_sub: 0
+        }
+      )
+    }
+
+    if (this.state.process1_sub === 1 && this.state.process2_sub !== 2) {
+      this.setState(
+        {
+          process1: false,
+          clicked2: 0,
+        }
+      )
+      if (!this.state.view5) {
+        this.setState(
+          {
+            view5: false
+          }
+        )
+      } else if (this.state.view5) {
+        this.setState(
+          {
+            view5: !this.state.view5
+          }
+        )
+      }
+      if (!this.state.view6) {
+        this.setState(
+          {
+            view6: false
+          }
+        )
+      } else if (this.state.view6) {
+        this.setState(
+          {
+            view6: !this.state.view6
+          }
+        )
+      }
+      if (!this.state.view7) {
+        this.setState(
+          {
+            view7: false
+          }
+        )
+      } else if (this.state.view7) {
+        this.setState(
+          {
+            view7: !this.state.view7
+          }
+        )
+      }
+      if (!this.state.view8) {
+        this.setState(
+          {
+            view8: false
+          }
+        )
+      } else if (this.state.view8) {
+        this.setState(
+          {
+            view8: !this.state.view8
+          }
+        )
+      }
+      if (!this.state.view9) {
+        this.setState(
+          {
+            view9: false
+          }
+        )
+      } else if (this.state.view9) {
+        this.setState(
+          {
+            view9: !this.state.view9
+          }
+        )
+      }
+      if (!this.state.view10) {
+        this.setState(
+          {
+            view10: false
+          }
+        )
+      } else if (this.state.view10) {
+        this.setState(
+          {
+            view10: !this.state.view10
+          }
+        )
+      }
+    }
   }
-}
 
   render() {
 
@@ -481,16 +573,18 @@ class Recommendation extends React.Component {
                 <span className="tooltiptext"> Click here for more info →</span>
               <a href="#position_3">
                 <div className="row infinite-item item">
-                <div className="item-header" id={`${this.state.process2 ? "modeling" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Modeling</p></div>
+                <div className="item-header" id={`${ this.state.process2 ? "modeling" : "pre-default"}`} style={{cursor:"pointer"}} ><p>Modeling</p></div>
                   { this.state.process2 === false || this.state.clicked3 > 0 ?
                     <Choice3
                     s11={this.state.view11}
                     s12={this.state.view12}
                     s13={this.state.view13}
                     s14={this.state.view14}
-
                     />
-                    : <Process3 />
+                    :
+                    <Process3
+                    s11_sub={this.state.view11_sub}
+                    />
                   }
                 </div>
                 </a>
@@ -520,7 +614,7 @@ class Recommendation extends React.Component {
                 </div>
                 </a>
               </div>
-              <FaCaretDown className={`${  this.state.process1 === false || this.state.process2 === false || this.state.process3 === false ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#4b0082"}}/>
+              <FaCaretDown className={`${  this.state.process1 === false || this.state.process2 === false || this.state.process3 === false || this.state.process4 ? "process-displaying" : "infinite-container text-center"}`} size={40} style={{color:"#4b0082"}}/>
             </div>
             </div>
               <div className={`${this.state.process4 === false && this.state.process1 ? "process-displaying" : "infinite-container text-center"}`} id="position_1">

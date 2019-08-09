@@ -29,7 +29,7 @@ class SearchAlgorithm extends React.Component {
         </div>
         <div className="main-bg iframe-search-wrapper">
           <div className="c-search-card iframe-main-search">
-            <iframe className="frame-customizing" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/solution" height="100%" width="100%"></iframe>
+            <iframe className="frame-customizing" src="http://localhost:3000/solution" height="100%" width="100%"></iframe>
           </div>
         </div>
       </div>
