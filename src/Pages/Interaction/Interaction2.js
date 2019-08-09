@@ -28,18 +28,18 @@ class Interaction2 extends React.Component {
               {`Drug-Drug Interaction Integrated Database`}
             </p>
           </div>
-          <div>
+          <div className="drug-search-position">
             <SearchDrug
             />
           </div>
         </main>
         <div className="main-bg iframe-wrapper">
           <div className="c-card iframe-1st-compo">
-            <iframe className="frame-customizing" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/valsartan" height="100%" width="100%"></iframe>
+            <iframe className="frame-customizing-interaction" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/valsartan" height="100%" width="100%"></iframe>
           </div>
           <div className="iframe-compo-divide"> </div>
           <div className="c-card iframe-2nd-compo">
-            <iframe className="frame-customizing" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/amlodipine" height="100%" width="100%"></iframe>
+            <iframe className="frame-customizing-interaction" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/amlodipine" height="100%" width="100%"></iframe>
           </div>
         </div>
         <div>

@@ -18,7 +18,7 @@
   background-color: #674da7;
 }
 
-.frame-customizing {
+.frame-customizing-interaction {
   width: 1276px;
   border: 0;
   -ms-transform: scale(0.55);
@@ -119,4 +119,10 @@
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+}
+
+.drug-search-position {
+  margin-right: 53px;
+  margin-top: 75px;
+  float: right;
 }
