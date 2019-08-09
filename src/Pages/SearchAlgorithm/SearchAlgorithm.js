@@ -8,6 +8,9 @@ class SearchAlgorithm extends React.Component {
   render() {
     return (
       <div className='searchalgorithm-container'>
+        <Helmet>
+          <title>Drug AI algorithm recommendation solution-BioAI</title>
+        </Helmet>
         <Header />
         <div className='sa-main'>
           <div className='sa-main-wrapper'>

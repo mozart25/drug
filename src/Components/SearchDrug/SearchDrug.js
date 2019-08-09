@@ -9,6 +9,7 @@ class SearchDrug extends React.Component {
 
   this.state = {
     keyword : '',
+    keyword2 : '',
     isResultOn : false,
   }
 }
@@ -27,6 +28,22 @@ class SearchDrug extends React.Component {
     }
   );
   }
+
+  handleKeyPress2 = (e) => {
+    if (e.key === "Enter"){
+      this.doSearch();
+    }
+  }
+
+  keywordChange2 = (e) => {
+  this.setState(
+    {
+      isResultOn: false,
+      keyword2: e.target.value
+    }
+  );
+  }
+
 
   doSearch = () => {
     if (this.state.keyword.length < 2) {
@@ -55,6 +72,15 @@ class SearchDrug extends React.Component {
     console.log(this.compareName)
   }
 
+  getInteraction = () => {
+    if ((this.state.keyword === '' && this.state.keyword2 === '') || (this.state.keyword.toLowerCase() === 'acetaminophen' && this.state.keyword2.toLowerCase() === 'escitalopram')) {
+      this.props.history.push('/interaction')
+    } else if (this.state.keyword.toLowerCase() === 'valsartan' && this.state.keyword2.toLowerCase() === 'amlodipine') {
+      this.props.history.push('/interaction2')
+    }
+  }
+
+
   render() {
 
     return (
@@ -74,13 +100,12 @@ class SearchDrug extends React.Component {
             type="text"
             placeholder="Escitalopram"
             aria-label="Search"
-            value={this.state.keyword}
-            onChange={this.keywordChange}
-            onKeyDown={this.handleKeyPress}
+            value={this.state.keyword2}
+            onChange={this.keywordChange2}
+            onKeyDown={this.handleKeyPress2}
           />
-          <MDBIcon icon="search" style={{cursor:"pointer"}} className="search3"/>
+          <MDBIcon icon="search" style={{cursor:"pointer"}} onClick={this.getInteraction} className="search3"/>
         </form>
-        <div className="search-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
       </MDBCol>
     )
   }
