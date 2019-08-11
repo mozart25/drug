@@ -28,7 +28,7 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/search" component={Search} />
+          <Route exact path="/services/integration" component={Search} />
           <Route exact path="/downloads" component={Downloads} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
@@ -38,14 +38,14 @@ class Routes extends React.Component {
           <Route exact path="/losartan" component={Losartan} />
           <Route exact path="/olmesartan" component={Olmesartan} />
           <Route exact path="/valsartan" component={Valsartan} />
-          <Route exact path="/recommendation" component={Recommendation} />
+          <Route exact path="/process" component={Recommendation} />
           <Route exact path="/solution" component={Solution} />
           <Route exact path="/sub" component={Sub} />
-          <Route exact path="/customization" component={Customization} />
-          <Route exact path="/supercomputer" component={Supercomputer} />
+          <Route exact path="/services/estimates" component={Customization} />
+          <Route exact path="/services/supercomputer" component={Supercomputer} />
           <Route exact path="/interaction" component={Interaction} />
           <Route exact path="/interaction2" component={Interaction2} />
-          <Route exact path="/searchalgorithm" component={SearchAlgorithm} />
+          <Route exact path="/services/recommendation" component={SearchAlgorithm} />
         </Switch>
       </Router>
     );

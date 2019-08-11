@@ -32,7 +32,7 @@ class SearchAlgorithm extends React.Component {
         </div>
         <div className="main-bg iframe-search-wrapper">
           <div className="c-search-card iframe-main-search">
-            <iframe className="frame-customizing" src="http://localhost:3000/solution" height="100%" width="100%"></iframe>
+            <iframe className="frame-customizing" src="http://bioai.s3-website.ap-northeast-2.amazonaws.com/solution" height="100%" width="100%"></iframe>
           </div>
         </div>
       </div>

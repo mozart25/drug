@@ -1,5 +1,4 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import Navigation from '../../Components/Navigation/Navigation';
 import SearchDrug from '../../Components/SearchDrug/SearchDrug';
@@ -57,4 +56,4 @@ class Search extends React.Component {
   }
 }
 
-export default withRouter(Search);
+export default Search;
