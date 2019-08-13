@@ -179,10 +179,30 @@ hr {
 
 .cal-box-cost-month {
   flex: 0 0 50%;
+
+  > small {
+    font-size: 27px;
+
+    @media screen and (max-width:975px) {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width:975px) {
+    font-size: 20px;
+  }
 }
 
 .cal-box-cost-month-btn {
   flex: 0 0 18%;
+
+  p {
+    font-size: 16px;
+
+    @media screen and (max-width:1017px) {
+      font-size: 13px;
+    }
+  }
 }
 
 @media screen and (max-width:590px) {
