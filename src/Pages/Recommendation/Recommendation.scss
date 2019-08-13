@@ -97,7 +97,6 @@ ion-icon svg {
     margin-left: 0px;
 }
 
-
 .stars-accumulated {
     font-size: 10px;
     padding-top: 8px;
@@ -310,6 +309,7 @@ ion-icon svg {
 .top-list-ol {
   display: flex;
   flex-wrap: wrap;
+  width: 576px;
 
   > li {
     flex: 0 0 20% !important;
@@ -335,7 +335,6 @@ ion-icon svg {
       max-width: 1260px;
   }
 }
-
 
 .contents-wrapper {
   margin-top: 10px;
@@ -374,9 +373,7 @@ ion-icon svg {
   table {
     width: 90%;
     display: inline-block;
-
   }
-
 }
 
 .contents-table {
@@ -394,7 +391,6 @@ ion-icon svg {
   }
 }
 
-
 .entity {
   display: inline-block;
   vertical-align: super;
@@ -409,7 +405,7 @@ ion-icon svg {
       padding-bottom: 10px;
       margin-left: 0px;
       width: 130px;
-  }
+    }
 
   .badge-dark {
       background-color: #1f6bcd !important;
@@ -458,9 +454,6 @@ button {
   position: relative;
   z-index:5;
 }
-
-
-// for change button
 
 .round {
   position: relative;
@@ -560,7 +553,6 @@ button {
   top: 42%;
   left: 35%;
   margin-left: -60px;
-
   opacity: 0;
 }
 
@@ -624,6 +616,15 @@ button {
 
 .badge-additional {
   background-color: #e97683 !important;
+  width: 100%;
+
+  @media screen and (max-width:800px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width:500px) {
+    width: 66%;
+  }
 }
 
 .img-contents-wrapper {
@@ -700,8 +701,4 @@ button {
 
 .process-displaying {
   display: none;
-}
-
-.undo-btn {
-
 }

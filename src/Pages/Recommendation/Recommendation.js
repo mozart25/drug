@@ -623,14 +623,14 @@ class Recommendation extends React.Component {
                         <ol style={{paddingTop: '2px'}} className="preparation-list">
                           <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Data Source </li>
                             <ol className="top-list-ol" style={{paddingLeft: '18px'}}>
-                              <li style={{listStyle: 'none'}}><a href="https://www.drugbank.ca/releases/latest"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DrugBank</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://pubchem.ncbi.nlm.nih.gov/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>PubChem</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://www.pharmgkb.org/downloads"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>PharmGKB</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://www.genome.jp/kegg/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>KEGG</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://clinicaltrials.gov/ct2/resources/download"><p id="badge-link"><span id="badge-media" className="badge badge-primary badge-additional" style={{width: "100%"}}>ClinicalTrials.gov</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="http://sideeffects.embl.de/"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>SIDER</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DIKB</span></p></a></li>
-                              <li style={{listStyle: 'none'}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional" style={{width: "100%"}}>DGV</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://www.drugbank.ca/releases/latest"><p id="badge-link"><span className="badge badge-primary badge-additional" >DrugBank</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://pubchem.ncbi.nlm.nih.gov/"><p id="badge-link"><span className="badge badge-primary badge-additional">PubChem</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://www.pharmgkb.org/downloads"><p id="badge-link"><span className="badge badge-primary badge-additional">PharmGKB</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://www.genome.jp/kegg/"><p id="badge-link"><span className="badge badge-primary badge-additional">KEGG</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://clinicaltrials.gov/ct2/resources/download"><p id="badge-link"><span id="badge-media" className="badge badge-primary badge-additional">ClinicalTrials.gov</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="http://sideeffects.embl.de/"><p id="badge-link"><span className="badge badge-primary badge-additional">SIDER</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="https://bioportal.bioontology.org/ontologies/DIKB"><p id="badge-link"><span className="badge badge-primary badge-additional">DIKB</span></p></a></li>
+                              <li style={{listStyle: 'none'}}><a href="http://dgv.tcag.ca/dgv/app/home"><p id="badge-link"><span className="badge badge-primary badge-additional">DGV</span></p></a></li>
                             </ol>
                           <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Data Types </li>
                             <ol style={{paddingLeft: '18px'}}>
