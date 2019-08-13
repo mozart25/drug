@@ -844,7 +844,7 @@ class Recommendation extends React.Component {
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
-                                  <table>
+                                  <table style={{width:"132%"}}>
                                     <tbody>
                                       <tr className="contents-table">
                                         <p><span>Independent component analysis (ICA)</span>{` attempts to decompose a multivariate
@@ -1063,7 +1063,7 @@ class Recommendation extends React.Component {
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
-                                    <table>
+                                    <table style={{width:"132%"}}>
                                       <tbody>
                                         <tr className="contents-table">
                                           <p><span>Horizontal Voting Vertical Voting and Horizontal Stacked
@@ -1084,7 +1084,7 @@ class Recommendation extends React.Component {
 
                                 <div className="contents-wrapper">
                                   <div className="border b-active b-thick b-radius p-sm">
-                                    <table>
+                                    <table style={{width:"132%"}}>
                                       <tbody>
                                         <tr className="contents-table">
                                           <p>{`A `}<span>modeling averaging ensemble</span>{` combines the prediction from
@@ -1110,7 +1110,7 @@ class Recommendation extends React.Component {
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
-                                  <table>
+                                  <table style={{width:"132%"}}>
                                     <tbody>
                                       <tr className="contents-table">
                                         <p><span>Learning rate</span>{` is a hyper-parameter that controls how
@@ -1134,7 +1134,7 @@ class Recommendation extends React.Component {
 
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
-                                  <table>
+                                  <table style={{width:"132%"}}>
                                     <tbody>
                                       <tr className="contents-table">
                                         <p>{`Unlike the learning rate hyper-parameter where its value
@@ -1157,7 +1157,7 @@ class Recommendation extends React.Component {
                             <li id="delete-circle" style={{listStyle: 'circle'}}><div className="round"><input type="checkbox" id="checkbox19" onClick={this.handleClick19}/> <label id="rec" for="checkbox19"></label></div> Momentum <FaStar color={'#ffd700'} />
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
-                                  <table>
+                                  <table style={{width:"132%"}}>
                                     <tbody>
                                       <tr className="contents-table">
                                         <p>{`The optimal learning rate is dependent on the `}<span>momentum</span> {`and momentum
