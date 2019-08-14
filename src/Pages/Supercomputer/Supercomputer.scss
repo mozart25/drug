@@ -12,8 +12,7 @@
   background-color: #1d2d56;
 
   .s-main-wrapper {
-    padding: 80px;
-    margin-top: 50px;
+    padding: 80px 80px 40px;
 
     h1 {
       font-size: 40px;
@@ -98,7 +97,6 @@
     height: 1px;
     background: #263b72;
 }
-
 
 .s-gpu-wrapper {
   width: 23%;;
@@ -267,13 +265,17 @@ div.relative-img::before {
 
 .gpu-total-wrapper {
   width: 94%;
-  top: 12%;
+  top: 14%;
   left: 3%;
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
+
+  @media screen and (max-width:1350px) {
+    top: 12%;
+  }
 }
 
 .final-mac-img {
@@ -339,6 +341,10 @@ div.relative-img::before {
 }
 table td {
   font-size: 18px;
+
+  @media screen and (max-width:1260px) {
+    font-size: 15px;
+  }
 }
 
 .s-memory-wrapper {
@@ -398,4 +404,21 @@ table td {
 
 .gpu-avg-wrapper {
   flex: 0 0 40%;
+
+  @media screen and (max-width:1193px) {
+    flex: 0 0 37%;
+  }
+}
+
+.eff-gpu-wrapper {
+  width: 86%;
+}
+
+.third-total-usage-wrapper {
+  display: flex;
+  width: 100%;
+
+  @media screen and (max-width:1260px) {
+    margin-top: -18px;
+  }
 }
