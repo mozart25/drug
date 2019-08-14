@@ -892,7 +892,7 @@ class Recommendation extends React.Component {
                       <div className="col-lg-9 item-content">
                         <ol style={{paddingTop: '2px'}} className="preparation-list2">
                           <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Machine Learning </li>
-                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox11" onClick={this.handleClick11}/> <label id="rec" for="checkbox11"></label></div> Support Vector Machine
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox11" onClick={this.handleClick11}/> <label id="rec" for="checkbox11"></label></div> <span style={{fontWeight: "100"}}>Support Vector Machine</span>
 
                             <div className="contents-wrapper">
 
@@ -929,7 +929,7 @@ class Recommendation extends React.Component {
                             </div>
                           </li>
 
-                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox12" onClick={this.handleClick12}/> <label id="rec" for="checkbox12"></label></div> Decision Trees
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox12" onClick={this.handleClick12}/> <label id="rec" for="checkbox12"></label></div> <span style={{fontWeight: "100"}}>Decision Trees</span>
 
                             <div className="contents-wrapper">
 
@@ -965,7 +965,7 @@ class Recommendation extends React.Component {
                           </li>
 
                           <li id="top-list" style={{listStyle: "none", marginLeft: "-10px", fontSize: "18px"}}> <FaStop style={{marginRight:"3px"}}/>  Deep Learning </li>
-                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox13" onClick={this.handleClick13}/> <label id="rec" for="checkbox13"></label></div> Multilayer Perceptron <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox13" onClick={this.handleClick13}/> <label id="rec" for="checkbox13"></label></div> <span style={{fontWeight: "100"}}>Multilayer Perceptron</span> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
 
@@ -1002,7 +1002,7 @@ class Recommendation extends React.Component {
                             </div>
 
                           </li>
-                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox14" onClick={this.handleClick14}/> <label id="rec" for="checkbox14"></label></div> Recurrent Neural Networks <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
+                          <li id="top-list" style={{listStyle: "none"}}><div className="round"><input type="checkbox" id="checkbox14" onClick={this.handleClick14}/> <label id="rec" for="checkbox14"></label></div> <span style={{fontWeight: "100"}}>Recurrent Neural Networks</span> <FaStar color={'#ffd700'} /> <FaStar color={'#ffd700'} />
 
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">

@@ -62,12 +62,12 @@ class Supercomputer extends React.Component {
     const gmtMin = new Date().getUTCMinutes();
     const gmtSec = new Date().getUTCSeconds();
 
-    setInterval( () => {
-      this.setState({
-        curTime : `${new Date().getUTCFullYear()}.${new Date().getUTCMonth()}.${new Date().getUTCDate()} ${new Date().getUTCHours()}:${new Date().getUTCMinutes()}:${new Date().getUTCSeconds()} GMT`
-      })
-    },1000)
-
+  //   setInterval(() => {
+  //     this.setState({
+  //       curTime : `${new Date().getUTCFullYear()}.${new Date().getUTCMonth()}.${new Date().getUTCDate()} ${new Date().getUTCHours()}:${new Date().getUTCMinutes()}:${new Date().getUTCSeconds()} GMT`
+  //     })
+  //   },1000)
+  //
   }
 
 
@@ -236,7 +236,7 @@ class Supercomputer extends React.Component {
               <div className="gpu-total-first gpu-header-text"><div id="gpu-temp-header">GPU</div>
               <div className="gpu-img">
                 <div style={{marginLeft: "9px"}} className="gpu-avg-wrapper">
-                  <table>
+                  <table className="eff-gpu-wrapper">
                     <tr className="eff-gpu">
                       <th colSpan="2">GPU Average</th>
                     </tr>
@@ -336,6 +336,7 @@ class Supercomputer extends React.Component {
                     <ReactApexCharts options={this.state.options} series={series} type="bar" height="315" />
                   </div>
                 </div>
+                <div className="third-total-usage-wrapper">
                 <div className="third-total-usage">
                   <div id="third-status-final"> Total Usage </div>
                   <p id="check-time-style"> {effMult1+effMult2+effMult3+effMult4}GB</p>
@@ -361,8 +362,7 @@ class Supercomputer extends React.Component {
                       <td className="eff-sub-per-third"> {effMult4}GB /{effMult1+effMult2+effMult3+effMult4}GB  </td>
                     </tr>
                   </table>
-
-
+                </div>
                 </div>
               </div>
           </div>
