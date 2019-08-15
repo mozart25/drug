@@ -1,5 +1,4 @@
 import React from 'react';
-import './Recommendation.scss';
 import { FaStar, FaCaretRight, FaStop, FaCircle, FaLongArrowAltLeft, FaLongArrowAltRight, FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight, FaAngleDoubleDown, FaCaretDown } from 'react-icons/fa';
 import Button from '../../Components/Button/Button';
 import Process1 from '../../Components/Process1/Process1';
@@ -11,6 +10,7 @@ import Choice3 from '../../Components/Process3/Choice3';
 import Process4 from '../../Components/Process4/Process4';
 import Choice4 from '../../Components/Process4/Choice4';
 import FinishButton from '../../Components/Button/FinishButton';
+import './Recommendation.scss';
 
 class Recommendation extends React.Component {
 
@@ -502,7 +502,6 @@ class Recommendation extends React.Component {
 
     return (
       <div className="recommend-container">
-
           <div className="container">
             <div className="container content content-buffer">
               <div className="title">
