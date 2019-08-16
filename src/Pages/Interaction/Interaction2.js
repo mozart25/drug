@@ -35,11 +35,11 @@ class Interaction2 extends React.Component {
         </main>
         <div className="main-bg iframe-wrapper">
           <div className="c-card iframe-1st-compo">
-            <iframe className="frame-customizing-interaction" style={{border:'0.5px solid lightgray'}} src="http://drugai.com.s3-website.ap-northeast-2.amazonaws.com/valsartan" height="100%" width="100%"></iframe>
+            <iframe className="frame-customizing-interaction" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/valsartan" height="100%" width="100%"></iframe>
           </div>
           <div className="iframe-compo-divide"> </div>
           <div className="c-card iframe-2nd-compo">
-            <iframe className="frame-customizing-interaction" style={{border:'0.5px solid lightgray'}} src="http://drugai.com.s3-website.ap-northeast-2.amazonaws.com/amlodipine" height="100%" width="100%"></iframe>
+            <iframe className="frame-customizing-interaction" style={{border:'0.5px solid lightgray'}} src="http://localhost:3000/amlodipine" height="100%" width="100%"></iframe>
           </div>
         </div>
         <div>
