@@ -512,7 +512,7 @@ class Recommendation extends React.Component {
                     <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
                   </div>
                   <div className="process-direction-arrow">
-                    <button type="button" className={`${this.state.process4 ? "btn btn-useless" : "btn btn-danger"}`} onClick={`${this.state.process4 ? `${this.checkProcessLeft}` : `${this.processFinish}` }`} >Undo</button>
+                    <button type="button" className={`${this.state.process4 ? "btn btn-useless" : "btn btn-danger"}`} onClick={ this.state.process4 === false ? this.checkProcessLeft : this.processFinish} >Undo</button>
                   </div>
                 </div>
               </div>
