@@ -5,12 +5,12 @@
 }
 
 .content-header {
-  padding: 3.5rem;
+  padding: 1.5rem;
+  display: unset !important;
 }
 
 .align-items-center {
   align-items: center!important;
-  background: #fff;
 }
 
 main-result {
@@ -24,6 +24,8 @@ main-result {
   font-weight: lighter;
   padding: 0;
   margin: 0;
+  margin-left: 2%;
+  font-size: 1.5rem !important;
 }
 
 .bond-links a.bond-link.targets {
@@ -34,10 +36,6 @@ main-result {
 .bond-links a.bond-link.enzymes {
   border-color: #83c475;
   color: #83c475;
-}
-
-.mr-4 .mx-4 {
-  margin-right: 1.5rem !important;
 }
 
 .btn {
@@ -100,4 +98,8 @@ main-result {
   border: 1px solid #ced4da;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.bond-links {
+  margin-left: 1%;
 }
