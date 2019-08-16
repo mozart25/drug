@@ -329,7 +329,9 @@ class Recommendation extends React.Component {
   )
   }
 
-  checkProcessLeft = () => {
+  processFinish = ((e) => e.preventDefault);
+
+  checkProcessLeft = (e) => {
 
     if (this.state.process2_sub === 2 && this.state.process3_sub === 3) {
       this.setState(
@@ -510,7 +512,7 @@ class Recommendation extends React.Component {
                     <h1 className="home-page-title">Drug AI Algorithm Development Solution</h1>
                   </div>
                   <div className="process-direction-arrow">
-                    <button type="button" className={`${this.state.process4 ? "btn btn-useless" : "btn btn-danger"}`} onClick={`${this.state.process4 ? "none": this.checkProcessLeft}`} >Undo</button>
+                    <button type="button" className={`${this.state.process4 ? "btn btn-useless" : "btn btn-danger"}`} onClick={`${this.state.process4 ? `${this.checkProcessLeft}` : `${this.processFinish}` }`} >Undo</button>
                   </div>
                 </div>
               </div>
