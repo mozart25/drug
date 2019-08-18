@@ -238,26 +238,6 @@ class Valsartan extends React.Component {
               <div className="drug-interaction-table has-locked-content">
                 <div id="drug-interactions_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                   <div className="row">
-                    <div className="col-sm-12 col-md-6">
-                      <div className="dataTables_length" id="drug-interactions_length">
-                        <label>Show
-                          <select name="drug-interactions_length" aria-controls="drug-interactions" className="form-control form-control-sm">
-                            <option value={10}>10</option>
-                            <option value={25}>25</option>
-                            <option value={50}>50</option>
-                            <option value={100}>100</option>
-                          </select> entries</label>
-                      </div>
-                    </div>
-                    <div className="col-sm-12 col-md-6">
-                      <div id="drug-interactions_filter" className="dataTables_filter">
-                        <label>
-                          <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="drug-interactions" />
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
                     <div className="col-sm-12">
                       <table className="table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB00177/drug_interactions.json" data-total={1094} id="drug-interactions" style={{width: '100%'}} role="grid" aria-describedby="drug-interactions_info">
                         <thead>
@@ -449,26 +429,6 @@ class Valsartan extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div id="DataTables_Table_0_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                 <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_0_length">
-                      <label>Show
-                        <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_0_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_0" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
                   <div className="col-sm-12">
                     <table className="clinical-trials table table-sm datatable dt-responsive dataTable no-footer dtr-inline" style={{width: '100%'}} id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
                       <thead>
@@ -619,26 +579,6 @@ class Valsartan extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div id="dosages_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                 <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="dosages_length">
-                      <label>Show
-                        <select name="dosages_length" aria-controls="dosages" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="dosages_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="dosages" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
                   <div className="col-sm-12">
                     <table className="table table-sm datatable dataTable no-footer" id="dosages" role="grid" aria-describedby="dosages_info">
                       <thead>
@@ -723,26 +663,6 @@ class Valsartan extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div id="prices_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                 <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="prices_length">
-                      <label>Show
-                        <select name="prices_length" aria-controls="prices" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="prices_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="prices" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
                   <div className="col-sm-12">
                     <table className="table table-sm datatable dataTable no-footer" id="prices" role="grid" aria-describedby="prices_info">
                       <thead>
@@ -821,26 +741,6 @@ class Valsartan extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">Patents</dt>
             <dd className="col-md-10 col-sm-8 has-locked-content">
               <div id="patents_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="patents_length">
-                      <label>Show
-                        <select name="patents_length" aria-controls="patents" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="patents_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="patents" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
                 <div className="row">
                   <div className="col-sm-12">
                     <table className="table table-sm datatable dt-responsive dataTable no-footer dtr-inline" id="patents" style={{width: '100%'}} role="grid" aria-describedby="patents_info">
