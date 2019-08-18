@@ -22,13 +22,13 @@ class Interaction extends React.Component {
           <title>Drug Data Integration service-BioAI</title>
         </Helmet>
         <Header />
-        <main role="search" className="main-wrapper">
+        <main role="search" className="main-wrapper" style={{minHeight: "310px", display:"relative"}}>
           <div className="main-comment">
             <p>
               {`Drug-Drug Interaction Integrated Database`}
             </p>
           </div>
-          <div className="drug-search-position">
+          <div className="drug-search-position" style={{display:"absolute", right:"53px"}}>
             <SearchDrug
             />
           </div>

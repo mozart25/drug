@@ -253,27 +253,7 @@ class Escitalopram extends React.Component {
               </table>
             </dd><dt className="col-md-2 col-sm-4">Pharmacogenomic Effects/ADRs <a tabIndex={0} role="button" data-toggle="popover" data-content="SNP Mediated Pharmacological Effects and Adverse Drug Reactions (ADRs) is a compilation of drug-specific pharmacogenomic information from various sources and primary literature. — <a target=&quot;_blank&quot; href=&quot;/snp_actions&quot;>Browse all</a>" title id="snp-actions-info" className="drug-info-popup" href="javascript:void(0);" data-original-title="About SNP Mediated Effects/ADRs"><div className="drugbank-icon icon-information"><svg className="icon" role="img" title="information"> <use xlinkHref="/assets/icons-fa076cc140a26b5623fdbab776fe91a41a58439c2623f9ffbc35f51bee0e78cf.svg#information"> </use></svg></div></a></dt>
             <dd className="col-md-10 col-sm-8">
-              <div id="DataTables_Table_0_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_0_length">
-                      <label>Show
-                        <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_0_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_0" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
+              <div id="DataTables_Table_0_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">=
                 <div className="row">
                   <div className="col-sm-12">
                     <table className="table table-sm table-bordered datatable dt-responsive dataTable no-footer dtr-inline" style={{width: '100%'}} id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
@@ -440,26 +420,6 @@ class Escitalopram extends React.Component {
               <div className="drug-interaction-table has-locked-content">
                 <div id="drug-interactions_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                   <div className="row">
-                    <div className="col-sm-12 col-md-6">
-                      <div className="dataTables_length" id="drug-interactions_length">
-                        <label>Show
-                          <select name="drug-interactions_length" aria-controls="drug-interactions" className="form-control form-control-sm">
-                            <option value={10}>10</option>
-                            <option value={25}>25</option>
-                            <option value={50}>50</option>
-                            <option value={100}>100</option>
-                          </select> entries</label>
-                      </div>
-                    </div>
-                    <div className="col-sm-12 col-md-6">
-                      <div id="drug-interactions_filter" className="dataTables_filter">
-                        <label>
-                          <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="drug-interactions" />
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="row">
                     <div className="col-sm-12">
                       <table className="table table-sm dt-responsive datatable-remote dataTable no-footer dtr-inline" data-source="/drugs/DB01175/drug_interactions.json" data-total={1820} id="drug-interactions" style={{width: '100%'}} role="grid" aria-describedby="drug-interactions_info">
                         <thead>
@@ -586,26 +546,6 @@ class Escitalopram extends React.Component {
             <dd className="col-md-10 col-sm-8">
               <div id="DataTables_Table_1_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
                 <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="DataTables_Table_1_length">
-                      <label>Show
-                        <select name="DataTables_Table_1_length" aria-controls="DataTables_Table_1" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="DataTables_Table_1_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="DataTables_Table_1" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
                   <div className="col-sm-12">
                     <table className="clinical-trials table table-sm datatable dt-responsive dataTable no-footer dtr-inline" style={{width: '100%'}} id="DataTables_Table_1" role="grid" aria-describedby="DataTables_Table_1_info">
                       <thead>
@@ -720,26 +660,6 @@ class Escitalopram extends React.Component {
             <dt className="col-md-2 col-sm-4">Dosage forms</dt>
             <dd className="col-md-10 col-sm-8">
               <div id="dosages_wrapper" className="dataTables_wrapper dt-bootstrap4 no-footer">
-                <div className="row">
-                  <div className="col-sm-12 col-md-6">
-                    <div className="dataTables_length" id="dosages_length">
-                      <label>Show
-                        <select name="dosages_length" aria-controls="dosages" className="form-control form-control-sm">
-                          <option value={10}>10</option>
-                          <option value={25}>25</option>
-                          <option value={50}>50</option>
-                          <option value={100}>100</option>
-                        </select> entries</label>
-                    </div>
-                  </div>
-                  <div className="col-sm-12 col-md-6">
-                    <div id="dosages_filter" className="dataTables_filter">
-                      <label>
-                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="dosages" />
-                      </label>
-                    </div>
-                  </div>
-                </div>
                 <div className="row">
                   <div className="col-sm-12">
                     <table className="table table-sm datatable dataTable no-footer" id="dosages" role="grid" aria-describedby="dosages_info">
