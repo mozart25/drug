@@ -1,5 +1,4 @@
 import React from 'react';
-import database from './drug_database.png';
 import { Helmet } from 'react-helmet';
 import Navigation from '../../Components/Navigation/Navigation';
 import SearchDrug from '../../Components/SearchDrug/SearchDrug';
@@ -36,7 +35,7 @@ class Search extends React.Component {
         </main>
         <div className="main-bg">
           <div className="main-picture">
-            <img src={database} alt=""/>
+            <img src="../image/drug_database.png" alt=""/>
           </div>
         </div>
         <footer className="footer-wrapper">
