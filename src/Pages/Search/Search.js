@@ -35,7 +35,7 @@ class Search extends React.Component {
         </main>
         <div className="main-bg">
           <div className="main-picture">
-            <img src="../image/drug_database.png" alt=""/>
+            <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/drug_database.png" alt=""/>
           </div>
         </div>
         <footer className="footer-wrapper">
