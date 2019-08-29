@@ -33,11 +33,11 @@ class Acetaminophen extends React.Component {
             <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
               <div className="structure ace-structure">
                 <p>Drug bank </p>
-                <img src={require(`./acetaminophen.png`)} style={{width: "25%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/acetaminophen.png" style={{width: "25%"}} alt=""/>
               </div>
               <div className="structure ace-structure">
                 <p>PubChem</p>
-                <img src={require(`./aceta_pubchem.png`)} style={{width: "25%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/aceta_pubchem.png" style={{width: "25%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>

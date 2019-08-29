@@ -33,11 +33,11 @@ class Valsartan extends React.Component {
             <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
               <div className="structure ace-structure">
                 <p>Drug bank </p>
-                <img src={require(`./valsartan.png`)} style={{width: "45%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/valsartan.png" style={{width: "45%"}} alt=""/>
               </div>
               <div className="structure ace-structure">
                 <p>PubChem</p>
-                <img src={require(`./valsartan_pubchem.png`)} style={{width: "45%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/valsartan_pubchem.png" style={{width: "45%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
