@@ -32,19 +32,19 @@ class Routes extends React.Component {
           <Route exact path="/downloads" component={Downloads} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/acetaminophen" component={Acetaminophen} />
-          <Route exact path="/amlodipine" component={Amlodipine} />
-          <Route exact path="/escitalopram" component={Escitalopram} />
-          <Route exact path="/losartan" component={Losartan} />
-          <Route exact path="/olmesartan" component={Olmesartan} />
-          <Route exact path="/valsartan" component={Valsartan} />
-          <Route exact path="/process" component={Recommendation} />
-          <Route exact path="/solution" component={Solution} />
+          <Route exact path="/services/acetaminophen" component={Acetaminophen} />
+          <Route exact path="/services/amlodipine" component={Amlodipine} />
+          <Route exact path="/services/escitalopram" component={Escitalopram} />
+          <Route exact path="/services/losartan" component={Losartan} />
+          <Route exact path="/services/olmesartan" component={Olmesartan} />
+          <Route exact path="/services/valsartan" component={Valsartan} />
+          <Route exact path="/services/process" component={Recommendation} />
+          <Route exact path="/services/solution" component={Solution} />
           <Route exact path="/services/sub" component={Sub} />
           <Route exact path="/services/estimates" component={Customization} />
           <Route exact path="/services/supercomputer" component={Supercomputer} />
-          <Route exact path="/interaction" component={Interaction} />
-          <Route exact path="/interaction2" component={Interaction2} />
+          <Route exact path="/services/interaction" component={Interaction} />
+          <Route exact path="/services/interaction2" component={Interaction2} />
           <Route exact path="/services/recommendation" component={SearchAlgorithm} />
         </Switch>
       </Router>
