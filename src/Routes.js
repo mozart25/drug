@@ -44,7 +44,7 @@ class Routes extends React.Component {
           <Route exact path="/services/estimates" component={Customization} />
           <Route exact path="/services/supercomputer" component={Supercomputer} />
           <Route exact path="/services/interaction" component={Interaction} />
-          <Route exact path="/services/interaction2" component={Interaction2} />
+          <Route exact path="/services/secondinteraction" component={Interaction2} />
           <Route exact path="/services/recommendation" component={SearchAlgorithm} />
         </Switch>
       </Router>
