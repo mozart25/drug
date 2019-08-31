@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBCol, MDBIcon } from 'mdbreact';
+import { FaSearch } from "react-icons/fa";
 import { withRouter } from 'react-router-dom';
 import './SearchDrug.scss';
 
@@ -104,7 +105,7 @@ class SearchDrug extends React.Component {
             onChange={this.keywordChange2}
             onKeyDown={this.handleKeyPress2}
           />
-          <MDBIcon icon="search" style={{cursor:"pointer"}} onClick={this.getInteraction} className="search3"/>
+          <FaSearch style={{cursor:"pointer"}} onClick={this.getInteraction} className="search3"/>
         </form>
       </MDBCol>
     )
