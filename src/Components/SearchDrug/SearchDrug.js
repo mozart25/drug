@@ -76,7 +76,7 @@ class SearchDrug extends React.Component {
     if ((this.state.keyword === '' && this.state.keyword2 === '') || (this.state.keyword.toLowerCase() === 'acetaminophen' && this.state.keyword2.toLowerCase() === 'escitalopram')) {
       window.location.replace('http://52.79.200.208/services/interaction')
     } else if (this.state.keyword.toLowerCase() === 'valsartan' && this.state.keyword2.toLowerCase() === 'amlodipine') {
-      window.location.replace('http://52.79.200.208/services/interaction2')
+      window.location.replace('http://52.79.200.208/services/secondinteraction')
     }
   }
 
