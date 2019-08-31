@@ -231,7 +231,7 @@ class Supercomputer extends React.Component {
         </div>
 
         <div className="s-usage">
-          <img className="final-mac-img" src={require(`./img_back2.png`)} alt=""/>
+          <img className="final-mac-img" src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/img_back2.png" alt=""/>
             <div className="gpu-total-wrapper">
               <div className="gpu-total-first gpu-header-text"><div id="gpu-temp-header">GPU</div>
               <div className="gpu-img">

@@ -679,7 +679,7 @@ class Recommendation extends React.Component {
 
                                   <div className="border b-active b-thick b-radius p-sm">
                                   <div className="img-contents-wrapper">
-                                    <img src={require(`./molecular.png`)} style={{minHeight: "153px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/molecular.png" style={{minHeight: "153px"}} alt=""/>
                                   </div>
                                     <table>
                                       <tbody>
@@ -693,11 +693,11 @@ class Recommendation extends React.Component {
                                     </table>
                                     <div className="entity">
                                       <a href="https://towardsdatascience.com/building-a-carbon-molecule-autoencoder-21973e5f88b6" className="badge badge-light" id="icon-change">
-                                        <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
+                                        <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/blog.png" style={{width:"52px"}} alt=""/>
                                       </a>
                                       <br />
                                       <a href="https://github.com/flawnson/Carbon_Molecule_Autoencoder-master" className="badge badge-dark" id="icon-change">
-                                        <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                        <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                       </a>
                                     </div>
                                   </div>
@@ -708,7 +708,7 @@ class Recommendation extends React.Component {
                                   <div className="contents-wrapper">
                                     <div className="border b-active b-thick b-radius p-sm">
                                     <div className="img-contents-wrapper">
-                                      <img src={require(`./mol2vec_2.png`)} style={{}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/mol2vec_2.png" style={{}} alt=""/>
                                     </div>
                                       <table>
                                         <tbody>
@@ -723,11 +723,11 @@ class Recommendation extends React.Component {
 
                                       <div className="entity">
                                         <a href="https://s3-eu-west-1.amazonaws.com/itempdf74155353254prod/5513581/Mol2vec__Unsupervised_Machine_Learning_Approach_with_Chemical_Intuition_v1.pdf" className="badge badge-light" id="icon-change">
-                                          <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
+                                          <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/paper.png" style={{width:"52px"}} alt=""/>
                                         </a>
                                         <br />
                                         <a href="https://github.com/samoturk/mol2vec" className="badge badge-dark" id="icon-change">
-                                          <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                          <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                         </a>
                                         <br />
                                       </div>
@@ -743,7 +743,7 @@ class Recommendation extends React.Component {
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                 <div className="img-contents-wrapper">
-                                  <img src={require(`./smote.png`)} style={{}} alt=""/>
+                                  <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/smote.png" style={{}} alt=""/>
                                 </div>
                                   <table>
                                     <tbody>
@@ -759,11 +759,11 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="https://arxiv.org/pdf/1106.1813" className="badge badge-light" id="icon-change">
-                                      <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/blog.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                     <br />
                                     <a href="https://github.com/scikit-learn-contrib/imbalanced-learn" className="badge badge-dark" id="icon-change">
-                                      <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                     <br />
                                   </div>
@@ -793,7 +793,7 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="https://sentic.net/wisdom2014chen.pdf" className="badge badge-light" id="icon-change">
-                                      <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/paper.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                   </div>
                                 </div>
@@ -828,11 +828,11 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="https://link.springer.com/content/pdf/10.1007/978-3-642-04898-2_455.pdf" className="badge badge-light" id="icon-change">
-                                      <img src={require(`./book.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/book.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                     <br />
                                     <a href="https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/decomposition/pca.py" className="badge badge-dark" id="icon-change">
-                                      <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                     <br />
                                   </div>
@@ -862,11 +862,11 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="http://mlsp.cs.cmu.edu/courses/fall2012/lectures/ICA_Hyvarinen.pdf" className="badge badge-light" id="icon-change">
-                                      <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/paper.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                     <br />
                                     <a href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_ica_blind_source_separation.html" className="badge badge-dark" id="icon-change">
-                                      <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                   </div>
                                 </div>
@@ -899,7 +899,7 @@ class Recommendation extends React.Component {
 
                               <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
-                                <img src={require(`./svm.png`)} style={{}} alt=""/>
+                                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/svm.png" style={{}} alt=""/>
                               </div>
                                 <table>
                                   <tbody>
@@ -919,11 +919,11 @@ class Recommendation extends React.Component {
 
                                 <div className="entity">
                                   <a href="https://link.springer.com/content/pdf/10.1007%2FBF00994018.pdf" className="badge badge-light" id="icon-change">
-                                    <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/paper.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                   <br />
                                   <a href="https://scikit-learn.org/stable/modules/svm.html" className="badge badge-dark" id="icon-change">
-                                    <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                 </div>
                               </div>
@@ -936,7 +936,7 @@ class Recommendation extends React.Component {
 
                               <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
-                                <img src={require(`./decision.png`)} style={{}} alt=""/>
+                                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/decision.png" style={{}} alt=""/>
                               </div>
                                 <table>
                                   <tbody>
@@ -954,11 +954,11 @@ class Recommendation extends React.Component {
 
                                 <div className="entity">
                                   <a href="https://link.springer.com/content/pdf/10.1007/BF00116251.pdf" className="badge badge-light" id="icon-change">
-                                    <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/paper.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                   <br />
                                   <a href="https://scikit-learn.org/stable/modules/tree.html" className="badge badge-dark" id="icon-change">
-                                    <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                 </div>
                               </div>
@@ -972,7 +972,7 @@ class Recommendation extends React.Component {
 
                               <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
-                                <img src={require(`./multilayer.png`)} style={{minHeight: "136px"}} alt=""/>
+                                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/multilayer.png" style={{minHeight: "136px"}} alt=""/>
                               </div>
                                 <table>
                                   <tbody>
@@ -996,7 +996,7 @@ class Recommendation extends React.Component {
                                   </a>
                                   <br />
                                   <a href="https://scikit-learn.org/stable/modules/neural_networks_supervised.html" className="badge badge-dark" id="icon-change">
-                                    <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                 </div>
                               </div>
@@ -1008,7 +1008,7 @@ class Recommendation extends React.Component {
                             <div className="contents-wrapper">
                               <div className="border b-active b-thick b-radius p-sm">
                               <div className="img-contents-wrapper">
-                                <img src={require(`./rnn.png`)} style={{}} alt=""/>
+                                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/rnn.png" style={{}} alt=""/>
                               </div>
                                 <table>
                                   <tbody>
@@ -1027,11 +1027,11 @@ class Recommendation extends React.Component {
 
                                 <div className="entity">
                                   <a href="https://www.isca-speech.org/archive/archive_papers/interspeech_2010/i10_1045.pdf" className="badge badge-light" id="icon-change">
-                                    <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/paper.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                   <br />
                                   <a href="https://keras.io/layers/recurrent/" className="badge badge-dark" id="icon-change">
-                                    <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                 </div>
                               </div>
@@ -1075,7 +1075,7 @@ class Recommendation extends React.Component {
                                     </table>
                                     <div className="entity">
                                       <a href="http://deeplearning.net/wp-content/uploads/2013/03/Horizontal-and-Vertical-Ensemble-with-Deep-Representation-for-Classification.pdf" className="badge badge-light" id="icon-change">
-                                        <img src={require(`./paper.png`)} style={{width:"52px"}} alt=""/>
+                                        <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/paper.png" style={{width:"52px"}} alt=""/>
                                       </a>
                                     </div>
                                   </div>
@@ -1097,7 +1097,7 @@ class Recommendation extends React.Component {
 
                                     <div className="entity">
                                       <a href="https://machinelearningmastery.com/weighted-average-ensemble-for-deep-learning-neural-networks/" className="badge badge-light" id="icon-change">
-                                        <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
+                                        <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/blog.png" style={{width:"52px"}} alt=""/>
                                       </a>
                                     </div>
                                   </div>
@@ -1124,7 +1124,7 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="https://towardsdatascience.com/understanding-learning-rates-and-how-it-improves-performance-in-deep-learning-d0d4059c1c10" className="badge badge-light" id="icon-change">
-                                      <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/blog.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                   </div>
                                 </div>
@@ -1148,7 +1148,7 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="https://towardsdatascience.com/hyper-parameter-tuning-techniques-in-deep-learning-4dad592c63c8" className="badge badge-light" id="icon-change">
-                                      <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/blog.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                   </div>
                                 </div>
@@ -1172,7 +1172,7 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="https://towardsdatascience.com/hyper-parameter-tuning-techniques-in-deep-learning-4dad592c63c8" className="badge badge-light" id="icon-change">
-                                      <img src={require(`./blog.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/blog.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                   </div>
                                 </div>
@@ -1183,7 +1183,7 @@ class Recommendation extends React.Component {
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                 <div className="img-contents-wrapper">
-                                  <img src={require(`./dropout.png`)} style={{}} alt=""/>
+                                  <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/dropout.png" style={{}} alt=""/>
                                 </div>
                                   <table>
                                     <tbody>
@@ -1202,7 +1202,7 @@ class Recommendation extends React.Component {
 
                                   <div className="entity">
                                     <a href="https://keras.io/layers/core/" className="badge badge-dark" id="icon-change">
-                                      <img src={require(`./code.png`)} style={{width:"52px"}} alt=""/>
+                                      <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/code.png" style={{width:"52px"}} alt=""/>
                                     </a>
                                   </div>
                                 </div>

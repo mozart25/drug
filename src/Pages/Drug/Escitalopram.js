@@ -33,11 +33,11 @@ class Escitalopram extends React.Component {
             <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
               <div className="structure ace-structure">
                 <p>Drug bank </p>
-                <img src={require(`./escitalopram.png`)} style={{width: "50%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/escitalopram.png" style={{width: "50%"}} alt=""/>
               </div>
               <div className="structure ace-structure">
                 <p>PubChem</p>
-                <img src={require(`./esc_pubchem.png`)} style={{width: "50%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/esc_pubchem.png" style={{width: "50%"}} alt=""/>
               </div>
             </dd><dt className="col-md-2 col-sm-4">Synonyms</dt>
             <dd className="col-md-10 col-sm-8">

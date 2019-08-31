@@ -33,11 +33,11 @@ class Amlodipine extends React.Component {
             <dd className="col-md-10 col-sm-8" style={{display:"flex"}}>
               <div className="structure ace-structure">
                 <p>Drug bank </p>
-                <img src={require(`./amlodipine.png`)} style={{width: "50%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/amlodipine.png" style={{width: "50%"}} alt=""/>
               </div>
               <div className="structure ace-structure">
                 <p>PubChem</p>
-                <img src={require(`./amlo_pubchem.png`)} style={{width: "45%"}} alt=""/>
+                <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/amlo_pubchem.png" style={{width: "45%"}} alt=""/>
               </div>
             </dd>
             <dt className="col-md-2 col-sm-4">Synonyms</dt>
