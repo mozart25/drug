@@ -777,7 +777,7 @@ class Recommendation extends React.Component {
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                 <div className="img-contents-wrapper">
-                                  <img src={require(`./wemote.png`)} style={{}} alt=""/>
+                                  <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/wemote.png" style={{}} alt=""/>
                                 </div>
                                   <table>
                                     <tbody>
@@ -808,7 +808,7 @@ class Recommendation extends React.Component {
                               <div className="contents-wrapper">
                                 <div className="border b-active b-thick b-radius p-sm">
                                 <div className="img-contents-wrapper">
-                                  <img src={require(`./pca.png`)} style={{}} alt=""/>
+                                  <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/pca.png" style={{}} alt=""/>
                                 </div>
                                   <table>
                                     <tbody>
@@ -992,7 +992,7 @@ class Recommendation extends React.Component {
 
                                 <div className="entity">
                                   <a href="http://ml.informatik.uni-freiburg.de/former/_media/teaching/ss10/05_mlps.printer.pdf" className="badge badge-light" id="icon-change">
-                                    <img src={require(`./ppt.png`)} style={{width:"52px"}} alt=""/>
+                                    <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/ppt.png" style={{width:"52px"}} alt=""/>
                                   </a>
                                   <br />
                                   <a href="https://scikit-learn.org/stable/modules/neural_networks_supervised.html" className="badge badge-dark" id="icon-change">

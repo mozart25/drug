@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5390ef9.chunk.css",
-    "main.js": "/static/js/main.fd544406.chunk.js",
-    "main.js.map": "/static/js/main.fd544406.chunk.js.map",
+    "main.css": "/static/css/main.15af7df1.chunk.css",
+    "main.js": "/static/js/main.7e9814eb.chunk.js",
+    "main.js.map": "/static/js/main.7e9814eb.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.a81e836e.chunk.css": "/static/css/2.a81e836e.chunk.css",
-    "static/js/2.6db6e806.chunk.js": "/static/js/2.6db6e806.chunk.js",
-    "static/js/2.6db6e806.chunk.js.map": "/static/js/2.6db6e806.chunk.js.map",
+    "static/js/2.8beaa4ab.chunk.js": "/static/js/2.8beaa4ab.chunk.js",
+    "static/js/2.8beaa4ab.chunk.js.map": "/static/js/2.8beaa4ab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.be1b1112e673b38451f189181f0e3582.js": "/precache-manifest.be1b1112e673b38451f189181f0e3582.js",
+    "precache-manifest.30755272873c587482fa9f4d192882c6.js": "/precache-manifest.30755272873c587482fa9f4d192882c6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a81e836e.chunk.css.map": "/static/css/2.a81e836e.chunk.css.map",
-    "static/css/main.b5390ef9.chunk.css.map": "/static/css/main.b5390ef9.chunk.css.map",
+    "static/css/main.15af7df1.chunk.css.map": "/static/css/main.15af7df1.chunk.css.map",
     "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
     "static/media/all.min.css": "/static/media/fa-solid-900.ef3df984.eot",
     "static/media/losartan.png": "/static/media/losartan.8978b0bc.png",
     "static/media/Supercomputer.scss": "/static/media/mac.7fffc11d.png",
-    "static/media/olmesartan.png": "/static/media/olmesartan.31e80524.png",
-    "static/media/pca.png": "/static/media/pca.feeb694a.png",
-    "static/media/ppt.png": "/static/media/ppt.90cb9451.png",
-    "static/media/wemote.png": "/static/media/wemote.e7fb943e.png"
+    "static/media/olmesartan.png": "/static/media/olmesartan.31e80524.png"
   }
 }
