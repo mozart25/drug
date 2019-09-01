@@ -62,12 +62,12 @@ class Supercomputer extends React.Component {
     const gmtMin = new Date().getUTCMinutes();
     const gmtSec = new Date().getUTCSeconds();
 
-  //   setInterval(() => {
-  //     this.setState({
-  //       curTime : `${new Date().getUTCFullYear()}.${new Date().getUTCMonth()}.${new Date().getUTCDate()} ${new Date().getUTCHours()}:${new Date().getUTCMinutes()}:${new Date().getUTCSeconds()} GMT`
-  //     })
-  //   },1000)
-  //
+    setInterval(() => {
+      this.setState({
+        curTime : `${new Date().getUTCFullYear()}.${new Date().getUTCMonth()}.${new Date().getUTCDate()} ${new Date().getUTCHours()}:${new Date().getUTCMinutes()}:${new Date().getUTCSeconds()} GMT`
+      })
+    },1000)
+
   }
 
 
