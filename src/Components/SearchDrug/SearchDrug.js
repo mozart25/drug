@@ -75,9 +75,9 @@ class SearchDrug extends React.Component {
 
   getInteraction = () => {
     if ((this.state.keyword === '' && this.state.keyword2 === '') || (this.state.keyword.toLowerCase() === 'acetaminophen' && this.state.keyword2.toLowerCase() === 'escitalopram')) {
-      window.location.replace('http://52.79.200.208/services/interaction')
+      window.location.replace('https://bioai.kr/services/interaction')
     } else if (this.state.keyword.toLowerCase() === 'valsartan' && this.state.keyword2.toLowerCase() === 'amlodipine') {
-      window.location.replace('http://52.79.200.208/services/secondinteraction')
+      window.location.replace('https://bioai.kr/services/secondinteraction')
     }
   }
 
