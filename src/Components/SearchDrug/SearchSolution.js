@@ -51,7 +51,7 @@ class SearchSolution extends React.Component {
   }
 
   movePage = (e) => {
-    window.location.href="http://bioai.s3-website.ap-northeast-2.amazonaws.com/process"
+    window.location.href="https://bioai.kr/services/process"
   }
 
   render() {
