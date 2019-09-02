@@ -22,6 +22,8 @@ import Supercomputer from 'Pages/Supercomputer/Supercomputer';
 import Interaction from 'Pages/Interaction/Interaction';
 import Interaction2 from 'Pages/Interaction/Interaction2';
 import SearchAlgorithm from 'Pages/SearchAlgorithm/SearchAlgorithm';
+import Etc from 'Pages/Etc/Etc';
+
 
 class Routes extends React.Component {
   render() {
@@ -46,6 +48,7 @@ class Routes extends React.Component {
           <Route exact path="/services/interaction" component={Interaction} />
           <Route exact path="/services/secondinteraction" component={Interaction2} />
           <Route exact path="/services/recommendation" component={SearchAlgorithm} />
+          <Route exact path="/services/wholeprocess" component={Etc} />
         </Switch>
       </Router>
     );

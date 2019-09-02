@@ -70,7 +70,7 @@ class SearchSolution extends React.Component {
             onChange={this.keywordChange}
             onKeyDown={this.handleKeyPress}
           />
-          <FontAwesomeIcon icon={faSearch} style={{ color: 'white' }} onClick = {(e)=>this.movePage(e)} />
+          <FontAwesomeIcon icon={faSearch} className="final-icon" style={{ color: 'white' }} onClick = {(e)=>this.movePage(e)} />
         </form>
         <div className="search-sol-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
       </MDBCol>
