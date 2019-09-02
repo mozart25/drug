@@ -1,7 +1,9 @@
 import React from 'react';
 import { MDBCol, MDBIcon } from 'mdbreact';
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { withRouter } from 'react-router-dom';
 import './SearchSolution.scss';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class SearchSolution extends React.Component {
   constructor() {
@@ -68,7 +70,7 @@ class SearchSolution extends React.Component {
             onChange={this.keywordChange}
             onKeyDown={this.handleKeyPress}
           />
-          <MDBIcon className="sol-search-icon" icon="search" />
+          <FontAwesomeIcon icon={faSearch} style={{ color: 'white' }} onClick = {(e)=>this.movePage(e)} />
         </form>
         <div className="search-sol-result" onClick = {(e)=>this.movePage(e)} >{this.compareName()}</div>
       </MDBCol>
