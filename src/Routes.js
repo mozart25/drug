@@ -16,6 +16,7 @@ import Olmesartan from 'Pages/Drug/Olmesartan';
 import Valsartan from 'Pages/Drug/Valsartan';
 import Recommendation from 'Pages/Recommendation/Recommendation';
 import Solution from 'Pages/Solution/Solution';
+import WholeSolution from 'Pages/Solution/Wholesolution';
 import Sub from 'Pages/Solution/Sub';
 import Customization from 'Pages/Customization/Customization';
 import Supercomputer from 'Pages/Supercomputer/Supercomputer';
@@ -42,6 +43,7 @@ class Routes extends React.Component {
           <Route exact path="/services/valsartan" component={Valsartan} />
           <Route exact path="/services/process" component={Recommendation} />
           <Route exact path="/services/solution" component={Solution} />
+          <Route exact path="/services/wholesolution" component={WholeSolution} />
           <Route exact path="/services/sub" component={Sub} />
           <Route exact path="/services/estimates" component={Customization} />
           <Route exact path="/services/supercomputer" component={Supercomputer} />
