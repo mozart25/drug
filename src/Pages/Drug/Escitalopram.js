@@ -113,12 +113,16 @@ class Escitalopram extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">IUPAC Name</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">(1S)-1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile</div>
-            </dd><dt className="col-md-2 col-sm-4">SMILES</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4" style={{"borderBottom":"0px"}}>SMILES</dt>
             <dd className="col-md-10 col-sm-8 drug-wrapper">
               <div className="ace-structure">
                 <p>Drug Bank </p>
                 <div className="wrap">CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1</div>
               </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4"></dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
               <div className="ace-structure">
                 <p>PubChem</p>
                 <div className="wrap">Canonical SMILES: CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F </div>

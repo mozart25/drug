@@ -278,12 +278,16 @@ class Amlodipine extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">IUPAC Name</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">3-ethyl 5-methyl 2-[(2-aminoethoxy)methyl]-4-(2-chlorophenyl)-6-methyl-1,4-dihydropyridine-3,5-dicarboxylate</div>
-            </dd><dt className="col-md-2 col-sm-4">SMILES</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4" style={{"borderBottom":"0px"}}>SMILES</dt>
             <dd className="col-md-10 col-sm-8 drug-wrapper">
               <div className="ace-structure">
                 <p>Drug Bank </p>
                 <div className="wrap">CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC=C1Cl)C(=O)OC</div>
               </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4"></dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
               <div className="ace-structure">
                 <p>PubChem</p>
                 <div className="wrap">Canonical SMILES: CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN </div>

@@ -93,12 +93,16 @@ class Valsartan extends React.Component {
             </dd><dt className="col-md-2 col-sm-4">IUPAC Name</dt>
             <dd className="col-md-10 col-sm-8">
               <div className="wrap">(2S)-3-methyl-2-[N-({'{'}4-[2-(2H-1,2,3,4-tetrazol-5-yl)phenyl]phenyl{'}'}methyl)pentanamido]butanoic acid</div>
-            </dd><dt className="col-md-2 col-sm-4">SMILES</dt>
+            </dd>
+            <dt className="col-md-2 col-sm-4" style={{"borderBottom":"0px"}}>SMILES</dt>
             <dd className="col-md-10 col-sm-8 drug-wrapper">
               <div className="ace-structure">
                 <p>Drug Bank </p>
                 <div className="wrap">CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)[C@@H](C(C)C)C(O)=O</div>
               </div>
+            </dd>
+            <dt className="col-md-2 col-sm-4"></dt>
+            <dd className="col-md-10 col-sm-8 drug-wrapper">
               <div className="ace-structure">
                 <p>PubChem</p>
                 <div className="wrap">Canonical SMILES: CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)C(C(C)C)C(=O)O </div>
