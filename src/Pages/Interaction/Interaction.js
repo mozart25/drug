@@ -72,6 +72,9 @@ class Interaction extends React.Component {
             Acetaminophen.
           </p>
         </div>
+        <div>
+          <div className="divide-line"> </div>
+        </div>
         <div className="interaction-result">
           <h2 style={{ marginBottom: '10px' }}>
             {' '}
