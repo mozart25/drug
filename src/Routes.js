@@ -1,10 +1,7 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Search from 'Pages/Search';
+import PredictionSolution from 'Pages/PredictionSolution';
 import Downloads from 'Pages/Downloads/Downloads';
 import Blog from 'Pages/Blog/Blog';
 import Contact from 'Pages/Contact/Contact';
@@ -25,17 +22,25 @@ import Interaction2 from 'Pages/Interaction/Interaction2';
 import SearchAlgorithm from 'Pages/SearchAlgorithm/SearchAlgorithm';
 import Etc from 'Pages/Etc/Etc';
 
-
 class Routes extends React.Component {
   render() {
     return (
       <Router>
         <Switch>
           <Route exact path="/services/integration" component={Search} />
+          <Route
+            exact
+            path="/services/predictionsolution"
+            component={PredictionSolution}
+          />
           <Route exact path="/downloads" component={Downloads} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/services/acetaminophen" component={Acetaminophen} />
+          <Route
+            exact
+            path="/services/acetaminophen"
+            component={Acetaminophen}
+          />
           <Route exact path="/services/amlodipine" component={Amlodipine} />
           <Route exact path="/services/escitalopram" component={Escitalopram} />
           <Route exact path="/services/losartan" component={Losartan} />
@@ -43,13 +48,29 @@ class Routes extends React.Component {
           <Route exact path="/services/valsartan" component={Valsartan} />
           <Route exact path="/services/process" component={Recommendation} />
           <Route exact path="/services/solution" component={Solution} />
-          <Route exact path="/services/wholesolution" component={WholeSolution} />
+          <Route
+            exact
+            path="/services/wholesolution"
+            component={WholeSolution}
+          />
           <Route exact path="/services/sub" component={Sub} />
           <Route exact path="/services/estimates" component={Customization} />
-          <Route exact path="/services/supercomputer" component={Supercomputer} />
+          <Route
+            exact
+            path="/services/supercomputer"
+            component={Supercomputer}
+          />
           <Route exact path="/services/interaction" component={Interaction} />
-          <Route exact path="/services/secondinteraction" component={Interaction2} />
-          <Route exact path="/services/recommendation" component={SearchAlgorithm} />
+          <Route
+            exact
+            path="/services/secondinteraction"
+            component={Interaction2}
+          />
+          <Route
+            exact
+            path="/services/recommendation"
+            component={SearchAlgorithm}
+          />
           <Route exact path="/services/wholeprocess" component={Etc} />
         </Switch>
       </Router>

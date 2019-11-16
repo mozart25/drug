@@ -1,0 +1,88 @@
+@import "Style/_global.scss";
+
+#root {
+  background-color: #fff;
+}
+
+#body {
+  background-color: #fff !important;
+}
+footer {
+  font-weight: lighter;
+}
+
+.footer-row {
+  margin: 0 auto;
+  width: 613px;
+
+  @media screen and (max-width:670px) {
+    width: 92%;
+  }
+}
+.introduce {
+  font-size: 1.15rem;
+  color: black;
+  font-family: monospace;
+}
+
+.footer-wrapper {
+  padding: 1.5rem !important;
+  margin-top: 20px;
+}
+
+.footer-brand {
+  color: #8A2BE2;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.main-wrapper {
+  min-height: 47.5vh;
+  background: #351c75;
+}
+
+.main-comment {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  width: 100%;
+
+  p {
+    font-size: 2.6rem;
+    color: #fff;
+    font-weight: 900 !important;
+    padding-top: 129px;
+
+    @media screen and (max-width:1067px){
+      font-size: 2.2rem;
+    }
+
+    @media screen and (max-width:924px){
+      font-size: 1.8rem;
+    }
+
+    @media screen and (max-width:759px){
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.main-bg {
+  margin: 0 atuo;
+  img {
+    height: 25%;
+    width: 25%;
+  }
+}
+
+.search-wrapper {
+  background-color: white;
+}
+
+.main-picture {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
