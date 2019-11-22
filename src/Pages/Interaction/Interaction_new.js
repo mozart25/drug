@@ -1,11 +1,11 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import SearchDrug from '../../Components/SearchDrug/SearchDrug';
+import SearchDrugNew from '../../Components/SearchDrug/SearchDrugNew';
 import Header from '../../Components/Header/Header';
 import './Interaction.scss';
 
-class Interaction extends React.Component {
+class InteractionNew extends React.Component {
   constructor() {
     super();
 
@@ -27,13 +27,13 @@ class Interaction extends React.Component {
           style={{ minHeight: '310px', display: 'relative' }}
         >
           <div className="main-comment">
-            <p>{`Drug-Drug Interaction Integrated Database`}</p>
+            <p>{`Drug-Drug Interaction Prediction Solution`}</p>
           </div>
           <div
             className="drug-search-position"
             style={{ display: 'absolute', right: '53px' }}
           >
-            <SearchDrug />
+            <SearchDrugNew />
           </div>
         </main>
         <div className="main-bg iframe-wrapper">
@@ -187,4 +187,4 @@ class Interaction extends React.Component {
   }
 }
 
-export default withRouter(Interaction);
+export default withRouter(InteractionNew);

@@ -27,7 +27,7 @@ class Interaction2 extends React.Component {
           style={{ minHeight: '310px', display: 'relative' }}
         >
           <div className="main-comment">
-            <p>{`Drug-Drug Interaction Prediction Solution`}</p>
+            <p>{`Drug-Drug Interaction Integrated Database`}</p>
           </div>
           <div
             className="drug-search-position"
@@ -61,7 +61,7 @@ class Interaction2 extends React.Component {
           <div className="divide-line"> </div>
         </div>
         <div className="interaction-result">
-          <h2 style={{ marginBottom: '10px' }}>
+          <h2 style={{ marginBottom: '10px', color: '#351c75' }}>
             {' '}
             Drug-Drug Interaction from previous research
           </h2>
@@ -72,7 +72,7 @@ class Interaction2 extends React.Component {
           <div className="divide-line"> </div>
         </div>
         <div className="interaction-result">
-          <h2 style={{ marginBottom: '10px' }}>
+          <h2 style={{ marginBottom: '10px', color: '#b503b5' }}>
             {' '}
             BioAI New Drug-Drug Interaction prediction
           </h2>

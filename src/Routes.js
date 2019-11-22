@@ -19,6 +19,8 @@ import Customization from 'Pages/Customization/Customization';
 import Supercomputer from 'Pages/Supercomputer/Supercomputer';
 import Interaction from 'Pages/Interaction/Interaction';
 import Interaction2 from 'Pages/Interaction/Interaction2';
+import InteractionNew from 'Pages/Interaction/Interaction_new';
+import InteractionNew2 from 'Pages/Interaction/Interaction2_new';
 import SearchAlgorithm from 'Pages/SearchAlgorithm/SearchAlgorithm';
 import Etc from 'Pages/Etc/Etc';
 
@@ -65,6 +67,16 @@ class Routes extends React.Component {
             exact
             path="/services/secondinteraction"
             component={Interaction2}
+          />
+          <Route
+            exact
+            path="/services/interactionNew"
+            component={InteractionNew}
+          />
+          <Route
+            exact
+            path="/services/secondinteractionNew"
+            component={InteractionNew2}
           />
           <Route
             exact
