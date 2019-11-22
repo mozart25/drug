@@ -3,7 +3,7 @@ import { MDBCol, MDBIcon } from 'mdbreact';
 import { FaSearch } from 'react-icons/fa';
 import { withRouter } from 'react-router-dom';
 import './SearchDrug.scss';
-import LoadingScreen from 'react-loading-screen';
+// import LoadingScreen from 'react-loading-screen';
 
 class SearchDrug extends React.Component {
   constructor() {
@@ -78,28 +78,28 @@ class SearchDrug extends React.Component {
     console.log(this.compareName);
   };
 
-  goThroughLoading = () => {
-    return (
-      <LoadingScreen
-        loading={true}
-        bgColor="#f1f1f1"
-        spinnerColor="#9ee5f8"
-        textColor="#676767"
-        logoSrc="https://druginteraction.s3.ap-northeast-2.amazonaws.com/loading.gif"
-        text="Calculating....."
-      ></LoadingScreen>
-    );
-  };
+  // goThroughLoading = () => {
+  //   return (
+  //     <LoadingScreen
+  //       loading={true}
+  //       bgColor="#f1f1f1"
+  //       spinnerColor="#9ee5f8"
+  //       textColor="#676767"
+  //       logoSrc="https://druginteraction.s3.ap-northeast-2.amazonaws.com/loading.gif"
+  //       text="Calculating....."
+  //     ></LoadingScreen>
+  //   );
+  // };
 
   getInteraction = () => {
-    this.goThroughLoading();
+    // this.goThroughLoading();
     if (
       (this.state.keyword === '' && this.state.keyword2 === '') ||
       (this.state.keyword.toLowerCase() === 'acetaminophen' &&
         this.state.keyword2.toLowerCase() === 'escitalopram')
     ) {
-      // window.location.replace('https://bioai.kr/services/interaction');
       window.location.replace('https://bioai.kr/services/interaction');
+      // window.location.replace('http://localhost:3000/services/interaction');
     } else if (
       this.state.keyword.toLowerCase() === 'valsartan' &&
       this.state.keyword2.toLowerCase() === 'amlodipine'
