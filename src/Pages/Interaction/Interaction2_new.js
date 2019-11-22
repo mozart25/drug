@@ -1,11 +1,11 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import SearchDrug from '../../Components/SearchDrug/SearchDrug';
+import SearchDrugNew from '../../Components/SearchDrug/SearchDrugNew';
 import Header from '../../Components/Header/Header';
 import './Interaction.scss';
 
-class Interaction extends React.Component {
+class InteractionNew2 extends React.Component {
   constructor() {
     super();
 
@@ -27,13 +27,13 @@ class Interaction extends React.Component {
           style={{ minHeight: '310px', display: 'relative' }}
         >
           <div className="main-comment">
-            <p>{`Drug-Drug Interaction Integrated Database`}</p>
+            <p>{`Drug-Drug Interaction Prediction Solution`}</p>
           </div>
           <div
             className="drug-search-position"
             style={{ display: 'absolute', right: '53px' }}
           >
-            <SearchDrug />
+            <SearchDrugNew />
           </div>
         </main>
         <div className="main-bg iframe-wrapper">
@@ -41,7 +41,7 @@ class Interaction extends React.Component {
             <iframe
               className="frame-customizing-interaction"
               style={{ border: '0.5px solid lightgray' }}
-              src="https://bioai.kr/services/acetaminophen"
+              src="https://bioai.kr/services/valsartan"
               height="100%"
               width="100%"
             ></iframe>
@@ -51,7 +51,7 @@ class Interaction extends React.Component {
             <iframe
               className="frame-customizing-interaction"
               style={{ border: '0.5px solid lightgray' }}
-              src="https://bioai.kr/services/escitalopram"
+              src="https://bioai.kr/services/amlodipine"
               height="100%"
               width="100%"
             ></iframe>
@@ -65,12 +65,8 @@ class Interaction extends React.Component {
             {' '}
             Drug-Drug Interaction from previous research
           </h2>
-          <h2> Acetaminophen & Escitalopram Interaction </h2>
-          <p>
-            {' '}
-            The metabolism of Escitalopram can be increased when combined with
-            Acetaminophen.
-          </p>
+          <h2> Valsartan & Amlodipine Interaction </h2>
+          <p> No material found</p>
         </div>
         <div>
           <div className="divide-line"> </div>
@@ -80,12 +76,8 @@ class Interaction extends React.Component {
             {' '}
             BioAI New Drug-Drug Interaction prediction
           </h2>
-          <h2> Acetaminophen & Escitalopram Interaction </h2>
-          <p>
-            {' '}
-            The metabolism of Escitalopram can be increased when combined with
-            Acetaminophen.
-          </p>
+          <h2> Valsartan & Amlodipine Interaction </h2>
+          <p> No material found</p>
         </div>
         <div>
           <div className="divide-line"> </div>
@@ -95,10 +87,13 @@ class Interaction extends React.Component {
           <ol>
             <li className="research-paper">
               <p>
-                <span>Baranchuk A</span>1, <span>Simpson CS</span>,{' '}
-                <span>Methot M</span>, <span>Gibson K</span>,{' '}
-                <span>Strum D.</span>:
-                <a href="https://www.onlinecjc.ca/article/S0828-282X(08)70643-3/abstract">
+                {' '}
+                <span>Seong SJ</span>1,2, <span>Ohk B</span>1,2,{' '}
+                <span>Kang WY</span>1,2, <span>Gwon MR</span>1,2,
+                <span>Kim BK</span>1,2, <span>Cho S</span>1,2,{' '}
+                <span>Yang DH</span>3, <span>Lee HW</span>4,5,
+                <span>Yoon YR</span>6,7.:{' '}
+                <a href="https://link.springer.com/article/10.1007/s12325-019-00976-9">
                   <span
                     style={{
                       fontWeight: '800',
@@ -106,21 +101,18 @@ class Interaction extends React.Component {
                       color: 'black'
                     }}
                   >
-                    {' '}
-                    Corrected QT interval prolongation after an overdose of
-                    escitalopram, morphine, oxycodone, zopiclone and
-                    benzodiazepines.
+                    Pharmacokinetic Drug Interactions Between Amlodipine,
+                    Valsartan, and Rosuvastatin in Healthy Volunteers.
                   </span>
-                </a>
-                <span>Adv Ther.</span> <span>Can J Cardiol.</span> 2008
-                Jul;24(7):e38-40.{' '}
+                </a>{' '}
+                <span>Adv Ther.</span> 2019 Jul;36(7):1642-1656. doi:
+                10.1007/s12325-019-00976-9. Epub 2019 May 22.
               </p>
             </li>
             <li className="research-paper">
               <p>
-                <span>Miller L</span>1, <span>Steinmetz Pater K</span>2,{' '}
-                <span>Corman S</span>3.:{' '}
-                <a href="https://www.sciencedirect.com/science/article/abs/pii/S1551741114003301">
+                <span>Plosker GL</span>1, <span>Robinson DM</span>:{' '}
+                <a href="https://link.springer.com/article/10.2165/00003495-200868030-00008">
                   <span
                     style={{
                       fontWeight: '800',
@@ -128,21 +120,20 @@ class Interaction extends React.Component {
                       color: 'black'
                     }}
                   >
-                    The role of clinical decision support in pharmacist response
-                    to drug-interaction alerts Res Social Adm Pharm.
+                    Amlodipine/Valsartan, Fixed-Dose Combination in
+                    Hypertension.
                   </span>
                 </a>{' '}
-                2015 May-Jun;11(3):480-6. doi: 10.1016/j.sapharm.2014.09.005.
-                Epub 2014 Oct 13.
+                <span>Drugs.</span> 2008;68(3):373-81.
               </p>
             </li>
             <li className="research-paper">
               <p>
-                <span>von Moltke LL</span>1, <span>Greenblatt DJ</span>,{' '}
-                <span>Giancarlo GM</span>, <span>Granda BW</span>,
-                <span>Harmatz JS</span>, <span>Shader RI</span>. :{' '}
-                <a href="http://dmd.aspetjournals.org/content/29/8/1102.short">
-                  {' '}
+                <span>Bhad P</span>1, <span>Ayalasomayajula S</span>,{' '}
+                <span>Karan R</span>, <span>Leon S</span>,{' '}
+                <span>Riviere GJ</span>, <span>Sunkara G</span>,{' '}
+                <span>Jarugula V.</span> :{' '}
+                <a href="https://link.springer.com/article/10.2165/00003495-200868030-00008">
                   <span
                     style={{
                       fontWeight: '800',
@@ -150,22 +141,19 @@ class Interaction extends React.Component {
                       color: 'black'
                     }}
                   >
-                    Escitalopram (S-citalopram) and its metabolites in vitro:
-                    cytochromes mediating biotransformation, inhibitory effects,
-                    and comparison to R-citalopram J Clin Pharmacol. Drug Metab
-                    Dispos.
+                    Evaluation of Pharmacokinetic Interactions Between
+                    Amlodipine, Valsartan, and Hydrochlorothiazide in Patients
+                    With Hypertension.
                   </span>
                 </a>{' '}
-                2001 Aug;29(8):1102-9.
+                <span>J Clin Pharmacol.</span> 2011 Jun;51(6):933-42. doi:
+                10.1177/0091270010376963. Epub 2010 Sep 17.
               </p>
             </li>
             <li className="research-paper">
               <p>
-                <span>Hashmi AT</span>1, <span>Gupta SS</span>2,{' '}
-                <span>Shankar S</span>2, <span>Seneviratne C</span>2,
-                <span>Yoon TS</span>2, <span>Kupfer Y</span>2.:{' '}
-                <a href="https://search.proquest.com/openview/538a90b0d1940de99b6be3dfefcc7708/1?pq-origsite=gscholar&cbl=43703">
-                  {' '}
+                <span>Frampton JE</span>1, <span>Scott LJ.</span>:{' '}
+                <a href="https://link.springer.com/article/10.2165/00003495-200868030-00008">
                   <span
                     style={{
                       fontWeight: '800',
@@ -173,11 +161,11 @@ class Interaction extends React.Component {
                       color: 'black'
                     }}
                   >
-                    Escitalopram/methylthioninium chloride interaction
+                    Amlodipine/Valsartan Single-Pill Combination.
                   </span>
                 </a>{' '}
-                <span>Am J Ther.</span> 2019 Mar 6. doi:
-                10.1097/MJT.0000000000000897.
+                <span>Am J Cardiovasc Drugs.</span> 2009;9(5):309-30. doi:
+                10.2165/11201120-000000000-00000.
               </p>
             </li>
           </ol>
@@ -187,4 +175,4 @@ class Interaction extends React.Component {
   }
 }
 
-export default withRouter(Interaction);
+export default withRouter(InteractionNew2);

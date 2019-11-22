@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navigation from '../../Components/Navigation/Navigation';
-import SearchDrug from '../../Components/SearchDrug/SearchDrug';
+import SearchDrugNew from '../../Components/SearchDrug/SearchDrugNew';
 import Header from '../../Components/Header/Header';
 import './PredictionSolution.scss';
 
@@ -29,7 +29,7 @@ class PredictionSolution extends React.Component {
             id="search-drug-wrapper"
             style={{ display: 'flex', marginTop: '5%' }}
           >
-            <SearchDrug />
+            <SearchDrugNew />
           </div>
         </main>
         <div className="main-bg">
