@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import SearchDrug from '../../Components/SearchDrug/SearchDrug';
 import Header from '../../Components/Header/Header';
+import Loading from '../../Components/Loading';
 import './Interaction.scss';
 
 class Interaction extends React.Component {
@@ -10,12 +11,21 @@ class Interaction extends React.Component {
     super();
 
     this.state = {
-      isResultOn: false
+      isResultOn: false,
+      loading: true
     };
+  }
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ loading: false })
+    }, 1000)
   }
 
   render() {
     return (
+      <>
+      {this.state.loading && <Loading />}
       <div className="search-wrapper">
         <Helmet>
           <title>Drug Data Integration service-BioAI</title>
@@ -183,6 +193,7 @@ class Interaction extends React.Component {
           </ol>
         </div>
       </div>
+      </>
     );
   }
 }
