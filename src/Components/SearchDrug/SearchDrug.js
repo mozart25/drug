@@ -98,7 +98,7 @@ class SearchDrug extends React.Component {
       (this.state.keyword.toLowerCase() === 'acetaminophen' &&
         this.state.keyword2.toLowerCase() === 'escitalopram')
     ) {
-      window.location.replace('https://bioai.kr/services/interaction');
+      window.location.replace('https://bioai.kr/services/InteractionNew');
       // window.location.replace('http://localhost:3000/services/interaction');
     } else if (
       this.state.keyword.toLowerCase() === 'valsartan' &&

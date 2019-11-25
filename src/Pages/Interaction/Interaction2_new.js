@@ -72,12 +72,12 @@ class InteractionNew2 extends React.Component {
           <div className="divide-line"> </div>
         </div>
         <div className="interaction-result">
-          <h2 style={{ marginBottom: '10px', color: '#b503b5' }}>
-            {' '}
-            BioAI New Drug-Drug Interaction prediction
-          </h2>
           <h2> Valsartan & Amlodipine Interaction </h2>
-          <p> No material found</p>
+          <p>
+            {' '}
+            The metabolism of Valsartan can be increased when combined with
+            Amlodipine.
+          </p>
         </div>
         <div>
           <div className="divide-line"> </div>

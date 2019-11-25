@@ -76,15 +76,11 @@ class InteractionNew extends React.Component {
           <div className="divide-line"> </div>
         </div>
         <div className="interaction-result">
-          <h2 style={{ marginBottom: '10px', color: '#b503b5' }}>
-            {' '}
-            BioAI New Drug-Drug Interaction prediction
-          </h2>
           <h2> Acetaminophen & Escitalopram Interaction </h2>
           <p>
             {' '}
-            The metabolism of Escitalopram can be increased when combined with
-            Acetaminophen.
+            The bioavailability of Escitalopram can be increased when combined
+            with Acetaminophen.
           </p>
         </div>
         <div>

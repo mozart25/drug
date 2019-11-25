@@ -6,36 +6,38 @@ import Header from '../../Components/Header/Header';
 import './Search.scss';
 
 class Search extends React.Component {
+  constructor() {
+    super();
 
-  constructor(){
-  super();
-
-  this.state = {
-    isResultOn: false
+    this.state = {
+      isResultOn: false
+    };
   }
-}
 
   render() {
     return (
       <div className="search-wrapper">
-      <Helmet>
-        <title>Drug Data Integration service-BioAI</title>
-      </Helmet>
+        <Helmet>
+          <title>Drug Data Integration service-BioAI</title>
+        </Helmet>
         <Header />
         <main role="search" className="main-wrapper">
           <div className="main-comment">
-            <p>
-              {`Drug-Drug Interaction Integrated Database`}
-            </p>
+            <p>{`Drug-Drug Interaction Prediction Solution`}</p>
           </div>
-          <div id="search-drug-wrapper" style={{display:"flex", marginTop: "5%"}}>
-            <SearchDrug
-            />
+          <div
+            id="search-drug-wrapper"
+            style={{ display: 'flex', marginTop: '5%' }}
+          >
+            <SearchDrug />
           </div>
         </main>
         <div className="main-bg">
           <div className="main-picture">
-            <img src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/drug_database.png" alt=""/>
+            <img
+              src="https://druginteraction.s3.ap-northeast-2.amazonaws.com/drug_database.png"
+              alt=""
+            />
           </div>
         </div>
         <footer className="footer-wrapper">
